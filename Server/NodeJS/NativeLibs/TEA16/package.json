@@ -1,0 +1,13 @@
+{
+  "name": "tea16",
+  "version": "1.0.0",
+  "description" : "simple encryption and decryption algorithm",
+  "main": "addon.js",
+  "private": true,
+  "dependencies": {
+  },
+  "scripts": {
+    "test": "node addon.js"
+  },
+  "gypfile": true
+}

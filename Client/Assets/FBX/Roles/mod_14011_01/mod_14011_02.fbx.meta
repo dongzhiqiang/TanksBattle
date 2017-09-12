@@ -1,0 +1,138 @@
+fileFormatVersion: 2
+guid: 0c0904e7bc2d7ec4e8f9184ba385316d
+timeCreated: 1450099008
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: body_mesh
+    100002: Bone Bind01
+    100004: Bone Bind02
+    100006: Bone bind03
+    100008: Bone bind04
+    100010: Bone Head
+    100012: Bone L Calf
+    100014: Bone L Clavicle
+    100016: Bone L Foot
+    100018: Bone L Forearm
+    100020: Bone L Thigh
+    100022: Bone L Toe0
+    100024: Bone L UpperArm
+    100026: Bone Main
+    100028: Bone Neck
+    100030: Bone Pelvis
+    100032: Bone R Calf
+    100034: Bone R Clavicle
+    100036: Bone R Foot
+    100038: Bone R Forearm
+    100040: Bone R Thigh
+    100042: Bone R Toe0
+    100044: Bone R UpperArm
+    100046: Bone Spine
+    100048: Bone Spine1
+    100050: Bone Xtra01
+    100052: Bone Xtra0102
+    100054: Bone Xtra02
+    100056: Bone Xtra03
+    100058: Bone Xtra0302
+    100060: Mo_14011_01
+    100062: //RootNode
+    400000: body_mesh
+    400002: Bone Bind01
+    400004: Bone Bind02
+    400006: Bone bind03
+    400008: Bone bind04
+    400010: Bone Head
+    400012: Bone L Calf
+    400014: Bone L Clavicle
+    400016: Bone L Foot
+    400018: Bone L Forearm
+    400020: Bone L Thigh
+    400022: Bone L Toe0
+    400024: Bone L UpperArm
+    400026: Bone Main
+    400028: Bone Neck
+    400030: Bone Pelvis
+    400032: Bone R Calf
+    400034: Bone R Clavicle
+    400036: Bone R Foot
+    400038: Bone R Forearm
+    400040: Bone R Thigh
+    400042: Bone R Toe0
+    400044: Bone R UpperArm
+    400046: Bone Spine
+    400048: Bone Spine1
+    400050: Bone Xtra01
+    400052: Bone Xtra0102
+    400054: Bone Xtra02
+    400056: Bone Xtra03
+    400058: Bone Xtra0302
+    400060: Mo_14011_01
+    400062: //RootNode
+    4300000: body_mesh
+    11100000: //RootNode
+    13700000: body_mesh
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

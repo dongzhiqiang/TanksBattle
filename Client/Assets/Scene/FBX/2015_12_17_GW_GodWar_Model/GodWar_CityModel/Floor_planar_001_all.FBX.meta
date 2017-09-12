@@ -1,0 +1,216 @@
+fileFormatVersion: 2
+guid: 2db6a6f12a4e9d947984c46c7ae50f6c
+timeCreated: 1458725406
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: broad_Curtain_001
+    100002: broad_Curtain_001 1
+    100004: broad_Curtain_002
+    100006: broad_Curtain_003
+    100008: broad_Curtain_A001
+    100010: Curtain_001
+    100012: Curtain_002
+    100014: Curtain_003
+    100016: Curtain_004
+    100018: Curtain_005
+    100020: Curtain_006
+    100022: Floor_planar_001
+    100024: //RootNode
+    100026: parterre_001
+    100028: parterre_002
+    100030: parterre_003
+    100032: parterre_004
+    100034: Plane001
+    100036: rail_001
+    100038: rail_002
+    100040: rail_003
+    100042: Ridge02_Build_LostTemple_001
+    100044: Ridge02_Build_LostTemple_002
+    100046: Stone_one_001
+    100048: Stone_one_002
+    100050: topbeam_001
+    100052: topbeam_002
+    100054: topbeam_huawen_001
+    100056: "\u5BF9\u8C61001"
+    400000: broad_Curtain_001
+    400002: broad_Curtain_001 1
+    400004: broad_Curtain_002
+    400006: broad_Curtain_003
+    400008: broad_Curtain_A001
+    400010: Curtain_001
+    400012: Curtain_002
+    400014: Curtain_003
+    400016: Curtain_004
+    400018: Curtain_005
+    400020: Curtain_006
+    400022: Floor_planar_001
+    400024: //RootNode
+    400026: parterre_001
+    400028: parterre_002
+    400030: parterre_003
+    400032: parterre_004
+    400034: Plane001
+    400036: rail_001
+    400038: rail_002
+    400040: rail_003
+    400042: Ridge02_Build_LostTemple_001
+    400044: Ridge02_Build_LostTemple_002
+    400046: Stone_one_001
+    400048: Stone_one_002
+    400050: topbeam_001
+    400052: topbeam_002
+    400054: topbeam_huawen_001
+    400056: "\u5BF9\u8C61001"
+    2300000: broad_Curtain_001
+    2300002: broad_Curtain_001 1
+    2300004: broad_Curtain_002
+    2300006: broad_Curtain_003
+    2300008: broad_Curtain_A001
+    2300010: Curtain_001
+    2300012: Curtain_002
+    2300014: Curtain_003
+    2300016: Curtain_004
+    2300018: Curtain_005
+    2300020: Curtain_006
+    2300022: Floor_planar_001
+    2300024: parterre_001
+    2300026: parterre_002
+    2300028: parterre_003
+    2300030: parterre_004
+    2300032: Plane001
+    2300034: rail_001
+    2300036: rail_002
+    2300038: rail_003
+    2300040: Ridge02_Build_LostTemple_001
+    2300042: Ridge02_Build_LostTemple_002
+    2300044: Stone_one_001
+    2300046: Stone_one_002
+    2300048: topbeam_001
+    2300050: topbeam_002
+    2300052: topbeam_huawen_001
+    2300054: "\u5BF9\u8C61001"
+    3300000: broad_Curtain_001
+    3300002: broad_Curtain_001 1
+    3300004: broad_Curtain_002
+    3300006: broad_Curtain_003
+    3300008: broad_Curtain_A001
+    3300010: Curtain_001
+    3300012: Curtain_002
+    3300014: Curtain_003
+    3300016: Curtain_004
+    3300018: Curtain_005
+    3300020: Curtain_006
+    3300022: Floor_planar_001
+    3300024: parterre_001
+    3300026: parterre_002
+    3300028: parterre_003
+    3300030: parterre_004
+    3300032: Plane001
+    3300034: rail_001
+    3300036: rail_002
+    3300038: rail_003
+    3300040: Ridge02_Build_LostTemple_001
+    3300042: Ridge02_Build_LostTemple_002
+    3300044: Stone_one_001
+    3300046: Stone_one_002
+    3300048: topbeam_001
+    3300050: topbeam_002
+    3300052: topbeam_huawen_001
+    3300054: "\u5BF9\u8C61001"
+    4300000: "\u5BF9\u8C61001"
+    4300002: Stone_one_001
+    4300004: Stone_one_002
+    4300006: topbeam_001
+    4300008: Floor_planar_001
+    4300010: topbeam_huawen_001
+    4300012: rail_001
+    4300014: Curtain_001
+    4300016: Curtain_002
+    4300018: broad_Curtain_A001
+    4300020: parterre_001
+    4300022: Ridge02_Build_LostTemple_001
+    4300024: topbeam_002
+    4300026: broad_Curtain_001
+    4300028: broad_Curtain_001
+    4300030: broad_Curtain_002
+    4300032: broad_Curtain_003
+    4300034: Curtain_003
+    4300036: Curtain_004
+    4300038: Curtain_005
+    4300040: Curtain_006
+    4300042: rail_002
+    4300044: parterre_002
+    4300046: Ridge02_Build_LostTemple_002
+    4300048: parterre_003
+    4300050: parterre_004
+    4300052: rail_003
+    4300054: Plane001
+    7400000: Take 001
+    9500000: //RootNode
+    11100000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

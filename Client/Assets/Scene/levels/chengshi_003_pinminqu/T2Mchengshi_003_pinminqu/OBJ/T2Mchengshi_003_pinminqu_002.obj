@@ -1,0 +1,33 @@
+# 3ds Max Wavefront OBJ Exporter v0.97b - (c)2007 guruware
+# File Created: 18.07.2016 17:01:04
+
+mtllib T2Mchengshi_003_pinminqu_002.mtl
+
+#
+# object default
+#
+
+v  -190.6040 4.6878 52.3490
+v  -190.6040 4.6878 118.1208
+v  -182.5503 4.6878 118.1208
+v  -87.7181 4.6880 117.6845
+v  -87.7181 4.6880 52.3490
+# 5 vertices
+
+vn -0.0000 1.0000 0.0000
+vn 0.0000 1.0000 0.0000
+# 2 vertex normals
+
+vt 0.9530 0.2617 0.0000
+vt 0.9530 0.5906 0.0000
+vt 0.9128 0.5906 0.0000
+vt 0.4386 0.5884 0.0000
+vt 0.4386 0.2617 0.0000
+# 5 texture coords
+
+g default
+usemtl _T2Mchengshi_003_pinminqudefault
+s 1
+f 1/1/1 2/2/2 3/3/1 4/4/1 5/5/1 
+# 1 polygons
+

@@ -1,0 +1,110 @@
+fileFormatVersion: 2
+guid: c90d77b32ae913949b8ddcceb0465cbe
+timeCreated: 1460338842
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Ground03_Build_LostTemple_002
+    100004: Table03_Build_LostTemple_005
+    100006: Table04_Build_LostTemple_005
+    100008: Tube001
+    100010: "\u5BF9\u8C61001"
+    100012: "\u5BF9\u8C61002"
+    100014: City_Table_001
+    400000: //RootNode
+    400002: Ground03_Build_LostTemple_002
+    400004: Table03_Build_LostTemple_005
+    400006: Table04_Build_LostTemple_005
+    400008: Tube001
+    400010: "\u5BF9\u8C61001"
+    400012: "\u5BF9\u8C61002"
+    400014: City_Table_001
+    2300000: Ground03_Build_LostTemple_002
+    2300002: Table03_Build_LostTemple_005
+    2300004: Table04_Build_LostTemple_005
+    2300006: Tube001
+    2300008: "\u5BF9\u8C61001"
+    2300010: "\u5BF9\u8C61002"
+    2300012: City_Table_001
+    3300000: Ground03_Build_LostTemple_002
+    3300002: Table03_Build_LostTemple_005
+    3300004: Table04_Build_LostTemple_005
+    3300006: Tube001
+    3300008: "\u5BF9\u8C61001"
+    3300010: "\u5BF9\u8C61002"
+    3300012: City_Table_001
+    4300000: Table04_Build_LostTemple_005
+    4300002: Table03_Build_LostTemple_005
+    4300004: Ground03_Build_LostTemple_002
+    4300006: "\u5BF9\u8C61001"
+    4300008: "\u5BF9\u8C61002"
+    4300010: Tube001
+    4300012: City_Table_001
+    7400000: Take 001
+    11100000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

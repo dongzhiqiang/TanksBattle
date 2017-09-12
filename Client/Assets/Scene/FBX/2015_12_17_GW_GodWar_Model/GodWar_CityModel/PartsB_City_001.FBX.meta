@@ -1,0 +1,214 @@
+fileFormatVersion: 2
+guid: 4bad67a211c84bd4e8bdf5fd20375b22
+timeCreated: 1460034765
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Bawn03_Build_LostTemple_001
+    100002: column01_Build_LostTemple_002
+    100004: column01_Build_LostTemple_014
+    100006: column01_Build_LostTemple_015
+    100008: column01_Build_LostTemple_016
+    100010: column01_Build_LostTemple_017
+    100012: column01_Build_LostTemple_018
+    100014: column01_Build_LostTemple_019
+    100016: column01_Build_LostTemple_020
+    100018: column01_Build_LostTemple_021
+    100020: column01_Build_LostTemple_022
+    100022: column04_Build_LostTemple_001
+    100024: column04_Build_LostTemple_002
+    100026: Door05_Object_LostTemple_001
+    100028: Door05_Object_LostTemple_001 1
+    100030: Door05_Object_LostTemple_001 2
+    100032: Door05_Object_LostTemple_001 3
+    100034: Door05_Object_LostTemple_002
+    100036: Door05_Object_LostTemple_002 1
+    100038: Door05_Object_LostTemple_003
+    100040: Door05_Object_LostTemple_003 1
+    100042: Door05_Object_LostTemple_003 2
+    100044: Door05_Object_LostTemple_003 3
+    100046: //RootNode
+    100048: Pillars02_Build_LostTemple_002
+    100050: Pillars02_Build_LostTemple_003
+    100052: Pillars02_Build_LostTemple_004
+    100054: Pillars02_Build_LostTemple_005
+    100056: Roof08_Build_LostTemple_001
+    400000: Bawn03_Build_LostTemple_001
+    400002: column01_Build_LostTemple_002
+    400004: column01_Build_LostTemple_014
+    400006: column01_Build_LostTemple_015
+    400008: column01_Build_LostTemple_016
+    400010: column01_Build_LostTemple_017
+    400012: column01_Build_LostTemple_018
+    400014: column01_Build_LostTemple_019
+    400016: column01_Build_LostTemple_020
+    400018: column01_Build_LostTemple_021
+    400020: column01_Build_LostTemple_022
+    400022: column04_Build_LostTemple_001
+    400024: column04_Build_LostTemple_002
+    400026: Door05_Object_LostTemple_001
+    400028: Door05_Object_LostTemple_001 1
+    400030: Door05_Object_LostTemple_001 2
+    400032: Door05_Object_LostTemple_001 3
+    400034: Door05_Object_LostTemple_002
+    400036: Door05_Object_LostTemple_002 1
+    400038: Door05_Object_LostTemple_003
+    400040: Door05_Object_LostTemple_003 1
+    400042: Door05_Object_LostTemple_003 2
+    400044: Door05_Object_LostTemple_003 3
+    400046: //RootNode
+    400048: Pillars02_Build_LostTemple_002
+    400050: Pillars02_Build_LostTemple_003
+    400052: Pillars02_Build_LostTemple_004
+    400054: Pillars02_Build_LostTemple_005
+    400056: Roof08_Build_LostTemple_001
+    2300000: Bawn03_Build_LostTemple_001
+    2300002: column01_Build_LostTemple_002
+    2300004: column01_Build_LostTemple_014
+    2300006: column01_Build_LostTemple_015
+    2300008: column01_Build_LostTemple_016
+    2300010: column01_Build_LostTemple_017
+    2300012: column01_Build_LostTemple_018
+    2300014: column01_Build_LostTemple_019
+    2300016: column01_Build_LostTemple_020
+    2300018: column01_Build_LostTemple_021
+    2300020: column01_Build_LostTemple_022
+    2300022: column04_Build_LostTemple_001
+    2300024: column04_Build_LostTemple_002
+    2300026: Door05_Object_LostTemple_001
+    2300028: Door05_Object_LostTemple_001 1
+    2300030: Door05_Object_LostTemple_001 2
+    2300032: Door05_Object_LostTemple_001 3
+    2300034: Door05_Object_LostTemple_002
+    2300036: Door05_Object_LostTemple_002 1
+    2300038: Door05_Object_LostTemple_003
+    2300040: Door05_Object_LostTemple_003 1
+    2300042: Door05_Object_LostTemple_003 2
+    2300044: Door05_Object_LostTemple_003 3
+    2300046: Pillars02_Build_LostTemple_002
+    2300048: Pillars02_Build_LostTemple_003
+    2300050: Pillars02_Build_LostTemple_004
+    2300052: Pillars02_Build_LostTemple_005
+    2300054: Roof08_Build_LostTemple_001
+    3300000: Bawn03_Build_LostTemple_001
+    3300002: column01_Build_LostTemple_002
+    3300004: column01_Build_LostTemple_014
+    3300006: column01_Build_LostTemple_015
+    3300008: column01_Build_LostTemple_016
+    3300010: column01_Build_LostTemple_017
+    3300012: column01_Build_LostTemple_018
+    3300014: column01_Build_LostTemple_019
+    3300016: column01_Build_LostTemple_020
+    3300018: column01_Build_LostTemple_021
+    3300020: column01_Build_LostTemple_022
+    3300022: column04_Build_LostTemple_001
+    3300024: column04_Build_LostTemple_002
+    3300026: Door05_Object_LostTemple_001
+    3300028: Door05_Object_LostTemple_001 1
+    3300030: Door05_Object_LostTemple_001 2
+    3300032: Door05_Object_LostTemple_001 3
+    3300034: Door05_Object_LostTemple_002
+    3300036: Door05_Object_LostTemple_002 1
+    3300038: Door05_Object_LostTemple_003
+    3300040: Door05_Object_LostTemple_003 1
+    3300042: Door05_Object_LostTemple_003 2
+    3300044: Door05_Object_LostTemple_003 3
+    3300046: Pillars02_Build_LostTemple_002
+    3300048: Pillars02_Build_LostTemple_003
+    3300050: Pillars02_Build_LostTemple_004
+    3300052: Pillars02_Build_LostTemple_005
+    3300054: Roof08_Build_LostTemple_001
+    4300000: Roof08_Build_LostTemple_001
+    4300002: column04_Build_LostTemple_001
+    4300004: Bawn03_Build_LostTemple_001
+    4300006: Pillars02_Build_LostTemple_002
+    4300008: Pillars02_Build_LostTemple_004
+    4300010: column04_Build_LostTemple_002
+    4300012: column01_Build_LostTemple_022
+    4300014: column01_Build_LostTemple_021
+    4300016: column01_Build_LostTemple_020
+    4300018: column01_Build_LostTemple_019
+    4300020: column01_Build_LostTemple_002
+    4300022: column01_Build_LostTemple_014
+    4300024: column01_Build_LostTemple_015
+    4300026: column01_Build_LostTemple_016
+    4300028: column01_Build_LostTemple_017
+    4300030: column01_Build_LostTemple_018
+    4300032: Pillars02_Build_LostTemple_005
+    4300034: Pillars02_Build_LostTemple_003
+    4300036: Door05_Object_LostTemple_001
+    4300038: Door05_Object_LostTemple_001
+    4300040: Door05_Object_LostTemple_002
+    4300042: Door05_Object_LostTemple_003
+    4300044: Door05_Object_LostTemple_003
+    4300046: Door05_Object_LostTemple_001
+    4300048: Door05_Object_LostTemple_001
+    4300050: Door05_Object_LostTemple_002
+    4300052: Door05_Object_LostTemple_003
+    4300054: Door05_Object_LostTemple_003
+    11100000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

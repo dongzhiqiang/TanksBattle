@@ -1,0 +1,139 @@
+fileFormatVersion: 2
+guid: 024e427297e6920438046ed857b1398f
+timeCreated: 1465980552
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: BONE  L Hand
+    100002: BONE  R Hand
+    100004: BONE Head
+    100006: BONE Hip01
+    100008: BONE L Calf
+    100010: BONE L Clavicle
+    100012: BONE L Finger0
+    100014: BONE L Finger01
+    100016: BONE L Finger1
+    100018: BONE L Finger11
+    100020: BONE L Foot
+    100022: BONE L Forearm
+    100024: BONE L Thigh
+    100026: BONE L Thigh01
+    100028: BONE L Toe0
+    100030: BONE L UpperArm
+    100032: BONE Neck
+    100034: BONE R Calf
+    100036: BONE R Clavicle
+    100038: BONE R Clavicle_bind
+    100040: BONE R Finger0
+    100042: BONE R Finger01
+    100044: BONE R Finger1
+    100046: BONE R Finger11
+    100048: BONE R Foot
+    100050: BONE R Forearm
+    100052: BONE R Thigh
+    100054: BONE R Toe0
+    100056: BONE R UpperArm
+    100058: BONE Spine
+    100060: BONE Spine1
+    100062: BONE XPL
+    100064: //RootNode
+    400000: BONE  L Hand
+    400002: BONE  R Hand
+    400004: BONE Head
+    400006: BONE Hip01
+    400008: BONE L Calf
+    400010: BONE L Clavicle
+    400012: BONE L Finger0
+    400014: BONE L Finger01
+    400016: BONE L Finger1
+    400018: BONE L Finger11
+    400020: BONE L Foot
+    400022: BONE L Forearm
+    400024: BONE L Thigh
+    400026: BONE L Thigh01
+    400028: BONE L Toe0
+    400030: BONE L UpperArm
+    400032: BONE Neck
+    400034: BONE R Calf
+    400036: BONE R Clavicle
+    400038: BONE R Clavicle_bind
+    400040: BONE R Finger0
+    400042: BONE R Finger01
+    400044: BONE R Finger1
+    400046: BONE R Finger11
+    400048: BONE R Foot
+    400050: BONE R Forearm
+    400052: BONE R Thigh
+    400054: BONE R Toe0
+    400056: BONE R UpperArm
+    400058: BONE Spine
+    400060: BONE Spine1
+    400062: BONE XPL
+    400064: //RootNode
+    7400000: mod_rongyan_01@zhandoudaiji
+    11100000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

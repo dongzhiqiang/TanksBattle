@@ -1,0 +1,363 @@
+fileFormatVersion: 2
+guid: 8b21c84a88a9c3348a575d3e5e3eeac6
+timeCreated: 1467356341
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Bip01
+    100002: Bip01 Footsteps
+    100004: Bip01 Head
+    100006: Bip01 HeadNub
+    100008: Bip01 L Calf
+    100010: Bip01 L Clavicle
+    100012: Bip01 L Foot
+    100014: Bip01 L Forearm
+    100016: Bip01 L Hand
+    100018: Bip01 L Thigh
+    100020: Bip01 L Toe0
+    100022: Bip01 L Toe0Nub
+    100024: Bip01 L UpperArm
+    100026: Bip01 Neck
+    100028: Bip01 Pelvis
+    100030: Bip01 Prop1
+    100032: Bip01 Prop2
+    100034: Bip01 R Calf
+    100036: Bip01 R Clavicle
+    100038: Bip01 R Foot
+    100040: Bip01 R Forearm
+    100042: Bip01 R Hand
+    100044: Bip01 R Thigh
+    100046: Bip01 R Toe0
+    100048: Bip01 R Toe0Nub
+    100050: Bip01 R UpperArm
+    100052: Bip01 Spine
+    100054: Bip01 Spine1
+    100056: body_mesh
+    100058: Bone01
+    100060: Bone02
+    100062: Bone03
+    100064: Bone04
+    100066: Bone05
+    100068: Bone06
+    100070: Bone07
+    100072: Bone08
+    100074: Bone09
+    100076: Bone10
+    100078: Bone11
+    100080: Bone12
+    100082: Bone13
+    100084: Bone14
+    100086: Bone15
+    100088: Bone16
+    100090: Bone17
+    100092: Bone18
+    100094: Bone19
+    100096: Bone20
+    100098: Bone21
+    100100: Bone21 1
+    100102: Bone23
+    100104: Bone24
+    100106: Bone25
+    100108: Bone26
+    100110: Bone27
+    100112: Bone28
+    100114: Bone29
+    100116: Bone30
+    100118: Bone31
+    100120: Bone32
+    100122: Bone33
+    100124: Bone34
+    100126: Bone35
+    100128: Bone36
+    100130: Bone37
+    100132: Bone38
+    100134: Bone39
+    100136: Bone40
+    100138: Bone41
+    100140: Bone42
+    100142: Bone43
+    100144: Bone44
+    100146: Bone45
+    100148: Bone46
+    100150: Bone47
+    100152: Bone48
+    100154: Bone49
+    100156: constraintor_Bone04
+    100158: constraintor_Bone05
+    100160: constraintor_Bone06
+    100162: constraintor_Bone07
+    100164: constraintor_Bone08
+    100166: constraintor_Bone09
+    100168: constraintor_Bone10
+    100170: constraintor_Bone11
+    100172: constraintor_Bone12
+    100174: constraintor_Bone13
+    100176: constraintor_Bone14
+    100178: constraintor_Bone15
+    100180: constraintor_Bone16
+    100182: constraintor_Bone33
+    100184: constraintor_Bone34
+    100186: constraintor_Bone35
+    100188: constraintor_Bone36
+    100190: constraintor_Bone37
+    100192: constraintor_Bone38
+    100194: constraintor_Bone39
+    100196: constraintor_Bone40
+    100198: constraintor_Bone41
+    100200: constraintor_Bone42
+    100202: constraintor_Bone43
+    100204: constraintor_Bone44
+    100206: constraintor_Bone45
+    100208: mod_kratos_01
+    100210: mod_kratos_01_wuqi
+    100212: //RootNode
+    100214: Point01
+    100216: Point02
+    100218: Point03
+    100220: Point04
+    100222: Point05
+    100224: Point06
+    100226: Point07
+    100228: Point08
+    100230: Point09
+    100232: Point10
+    100234: Point11
+    100236: Point12
+    100238: Point13
+    100240: Point14
+    100242: Point15
+    100244: Point16
+    100246: Point17
+    100248: Point18
+    100250: Point19
+    100252: Point20
+    100254: Point21
+    100256: Point22
+    100258: Point23
+    100260: Point24
+    100262: Point25
+    100264: Point26
+    100266: Shape01
+    100268: Shape02
+    100270: weapon_mesh
+    100272: weapon_mesh_01
+    100274: weapon_mesh_01 1
+    100276: weapon_mesh_01 2
+    400000: Bip01
+    400002: Bip01 Footsteps
+    400004: Bip01 Head
+    400006: Bip01 HeadNub
+    400008: Bip01 L Calf
+    400010: Bip01 L Clavicle
+    400012: Bip01 L Foot
+    400014: Bip01 L Forearm
+    400016: Bip01 L Hand
+    400018: Bip01 L Thigh
+    400020: Bip01 L Toe0
+    400022: Bip01 L Toe0Nub
+    400024: Bip01 L UpperArm
+    400026: Bip01 Neck
+    400028: Bip01 Pelvis
+    400030: Bip01 Prop1
+    400032: Bip01 Prop2
+    400034: Bip01 R Calf
+    400036: Bip01 R Clavicle
+    400038: Bip01 R Foot
+    400040: Bip01 R Forearm
+    400042: Bip01 R Hand
+    400044: Bip01 R Thigh
+    400046: Bip01 R Toe0
+    400048: Bip01 R Toe0Nub
+    400050: Bip01 R UpperArm
+    400052: Bip01 Spine
+    400054: Bip01 Spine1
+    400056: body_mesh
+    400058: Bone01
+    400060: Bone02
+    400062: Bone03
+    400064: Bone04
+    400066: Bone05
+    400068: Bone06
+    400070: Bone07
+    400072: Bone08
+    400074: Bone09
+    400076: Bone10
+    400078: Bone11
+    400080: Bone12
+    400082: Bone13
+    400084: Bone14
+    400086: Bone15
+    400088: Bone16
+    400090: Bone17
+    400092: Bone18
+    400094: Bone19
+    400096: Bone20
+    400098: Bone21
+    400100: Bone21 1
+    400102: Bone23
+    400104: Bone24
+    400106: Bone25
+    400108: Bone26
+    400110: Bone27
+    400112: Bone28
+    400114: Bone29
+    400116: Bone30
+    400118: Bone31
+    400120: Bone32
+    400122: Bone33
+    400124: Bone34
+    400126: Bone35
+    400128: Bone36
+    400130: Bone37
+    400132: Bone38
+    400134: Bone39
+    400136: Bone40
+    400138: Bone41
+    400140: Bone42
+    400142: Bone43
+    400144: Bone44
+    400146: Bone45
+    400148: Bone46
+    400150: Bone47
+    400152: Bone48
+    400154: Bone49
+    400156: constraintor_Bone04
+    400158: constraintor_Bone05
+    400160: constraintor_Bone06
+    400162: constraintor_Bone07
+    400164: constraintor_Bone08
+    400166: constraintor_Bone09
+    400168: constraintor_Bone10
+    400170: constraintor_Bone11
+    400172: constraintor_Bone12
+    400174: constraintor_Bone13
+    400176: constraintor_Bone14
+    400178: constraintor_Bone15
+    400180: constraintor_Bone16
+    400182: constraintor_Bone33
+    400184: constraintor_Bone34
+    400186: constraintor_Bone35
+    400188: constraintor_Bone36
+    400190: constraintor_Bone37
+    400192: constraintor_Bone38
+    400194: constraintor_Bone39
+    400196: constraintor_Bone40
+    400198: constraintor_Bone41
+    400200: constraintor_Bone42
+    400202: constraintor_Bone43
+    400204: constraintor_Bone44
+    400206: constraintor_Bone45
+    400208: mod_kratos_01
+    400210: mod_kratos_01_wuqi
+    400212: //RootNode
+    400214: Point01
+    400216: Point02
+    400218: Point03
+    400220: Point04
+    400222: Point05
+    400224: Point06
+    400226: Point07
+    400228: Point08
+    400230: Point09
+    400232: Point10
+    400234: Point11
+    400236: Point12
+    400238: Point13
+    400240: Point14
+    400242: Point15
+    400244: Point16
+    400246: Point17
+    400248: Point18
+    400250: Point19
+    400252: Point20
+    400254: Point21
+    400256: Point22
+    400258: Point23
+    400260: Point24
+    400262: Point25
+    400264: Point26
+    400266: Shape01
+    400268: Shape02
+    400270: weapon_mesh
+    400272: weapon_mesh_01
+    400274: weapon_mesh_01 1
+    400276: weapon_mesh_01 2
+    2300000: body_mesh
+    2300002: weapon_mesh
+    2300004: weapon_mesh_01
+    2300006: weapon_mesh_01 1
+    3300000: body_mesh
+    3300002: weapon_mesh
+    3300004: weapon_mesh_01
+    3300006: weapon_mesh_01 1
+    4300000: body_mesh
+    4300002: weapon_mesh
+    4300004: weapon_mesh_01
+    4300006: weapon_mesh_01
+    7400000: Take 001
+    11100000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

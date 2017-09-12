@@ -1,0 +1,404 @@
+fileFormatVersion: 2
+guid: 24659ada95d512746b8ae611fdc9667d
+timeCreated: 1473308357
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: BONE Head
+    100002: BONE Hip01
+    100004: BONE L Calf
+    100006: BONE L Clavicle
+    100008: BONE L Foot
+    100010: BONE L Forearm
+    100012: BONE L Hand
+    100014: BONE L Thigh
+    100016: BONE L Toe
+    100018: BONE L UpperArm
+    100020: BONE Neck
+    100022: BONE Neck_bind
+    100024: BONE Prop1
+    100026: BONE Prop11
+    100028: BONE Prop2
+    100030: BONE R Calf
+    100032: BONE R Clavicle
+    100034: BONE R Foot
+    100036: BONE R Forearm
+    100038: BONE R Hand
+    100040: BONE R Thigh
+    100042: BONE R Toe
+    100044: BONE R UpperArm
+    100046: BONE Spine
+    100048: BONE Spine1
+    100050: BONE Xtra02
+    100052: BONE Xtra0202
+    100054: BONE Xtra03
+    100056: BONE Xtra0302
+    100058: //RootNode
+    100060: Bip001
+    100062: Bip001 Prop2
+    400000: BONE Head
+    400002: BONE Hip01
+    400004: BONE L Calf
+    400006: BONE L Clavicle
+    400008: BONE L Foot
+    400010: BONE L Forearm
+    400012: BONE L Hand
+    400014: BONE L Thigh
+    400016: BONE L Toe
+    400018: BONE L UpperArm
+    400020: BONE Neck
+    400022: BONE Neck_bind
+    400024: BONE Prop1
+    400026: BONE Prop11
+    400028: BONE Prop2
+    400030: BONE R Calf
+    400032: BONE R Clavicle
+    400034: BONE R Foot
+    400036: BONE R Forearm
+    400038: BONE R Hand
+    400040: BONE R Thigh
+    400042: BONE R Toe
+    400044: BONE R UpperArm
+    400046: BONE Spine
+    400048: BONE Spine1
+    400050: BONE Xtra02
+    400052: BONE Xtra0202
+    400054: BONE Xtra03
+    400056: BONE Xtra0302
+    400058: //RootNode
+    400060: Bip001
+    400062: Bip001 Prop2
+    7400000: mod_skull_03@fukong_v01
+    7400002: fukong01
+    7400004: fukong02
+    7400006: daodi
+    11100000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: fukong01
+      takeName: mod_skull_03@fukong_v02
+      firstFrame: 0
+      lastFrame: 3.8
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bip001
+        weight: 1
+      - path: Bip001/Bip001 Prop2
+        weight: 1
+      - path: BONE Head
+        weight: 1
+      - path: BONE Hip01
+        weight: 1
+      - path: BONE L Calf
+        weight: 1
+      - path: BONE L Clavicle
+        weight: 1
+      - path: BONE L Foot
+        weight: 1
+      - path: BONE L Forearm
+        weight: 1
+      - path: BONE L Hand
+        weight: 1
+      - path: BONE L Thigh
+        weight: 1
+      - path: BONE L Toe
+        weight: 1
+      - path: BONE L UpperArm
+        weight: 1
+      - path: BONE Neck
+        weight: 1
+      - path: BONE Neck_bind
+        weight: 1
+      - path: BONE Prop1
+        weight: 1
+      - path: BONE R Calf
+        weight: 1
+      - path: BONE R Clavicle
+        weight: 1
+      - path: BONE R Foot
+        weight: 1
+      - path: BONE R Forearm
+        weight: 1
+      - path: BONE R Hand
+        weight: 1
+      - path: BONE R Thigh
+        weight: 1
+      - path: BONE R Toe
+        weight: 1
+      - path: BONE R UpperArm
+        weight: 1
+      - path: BONE Spine
+        weight: 1
+      - path: BONE Spine1
+        weight: 1
+      - path: BONE Xtra02
+        weight: 1
+      - path: BONE Xtra03
+        weight: 1
+      - path: BONE Xtra0202
+        weight: 1
+      - path: BONE Xtra0302
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: fukong02
+      takeName: mod_skull_03@fukong_v02
+      firstFrame: 3.8
+      lastFrame: 13.1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bip001
+        weight: 1
+      - path: Bip001/Bip001 Prop2
+        weight: 1
+      - path: BONE Head
+        weight: 1
+      - path: BONE Hip01
+        weight: 1
+      - path: BONE L Calf
+        weight: 1
+      - path: BONE L Clavicle
+        weight: 1
+      - path: BONE L Foot
+        weight: 1
+      - path: BONE L Forearm
+        weight: 1
+      - path: BONE L Hand
+        weight: 1
+      - path: BONE L Thigh
+        weight: 1
+      - path: BONE L Toe
+        weight: 1
+      - path: BONE L UpperArm
+        weight: 1
+      - path: BONE Neck
+        weight: 1
+      - path: BONE Neck_bind
+        weight: 1
+      - path: BONE Prop1
+        weight: 1
+      - path: BONE R Calf
+        weight: 1
+      - path: BONE R Clavicle
+        weight: 1
+      - path: BONE R Foot
+        weight: 1
+      - path: BONE R Forearm
+        weight: 1
+      - path: BONE R Hand
+        weight: 1
+      - path: BONE R Thigh
+        weight: 1
+      - path: BONE R Toe
+        weight: 1
+      - path: BONE R UpperArm
+        weight: 1
+      - path: BONE Spine
+        weight: 1
+      - path: BONE Spine1
+        weight: 1
+      - path: BONE Xtra02
+        weight: 1
+      - path: BONE Xtra03
+        weight: 1
+      - path: BONE Xtra0202
+        weight: 1
+      - path: BONE Xtra0302
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: daodi
+      takeName: mod_skull_03@fukong_v02
+      firstFrame: 13.2
+      lastFrame: 35
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bip001
+        weight: 1
+      - path: Bip001/Bip001 Prop2
+        weight: 1
+      - path: BONE Head
+        weight: 1
+      - path: BONE Hip01
+        weight: 1
+      - path: BONE L Calf
+        weight: 1
+      - path: BONE L Clavicle
+        weight: 1
+      - path: BONE L Foot
+        weight: 1
+      - path: BONE L Forearm
+        weight: 1
+      - path: BONE L Hand
+        weight: 1
+      - path: BONE L Thigh
+        weight: 1
+      - path: BONE L Toe
+        weight: 1
+      - path: BONE L UpperArm
+        weight: 1
+      - path: BONE Neck
+        weight: 1
+      - path: BONE Neck_bind
+        weight: 1
+      - path: BONE Prop1
+        weight: 1
+      - path: BONE R Calf
+        weight: 1
+      - path: BONE R Clavicle
+        weight: 1
+      - path: BONE R Foot
+        weight: 1
+      - path: BONE R Forearm
+        weight: 1
+      - path: BONE R Hand
+        weight: 1
+      - path: BONE R Thigh
+        weight: 1
+      - path: BONE R Toe
+        weight: 1
+      - path: BONE R UpperArm
+        weight: 1
+      - path: BONE Spine
+        weight: 1
+      - path: BONE Spine1
+        weight: 1
+      - path: BONE Xtra02
+        weight: 1
+      - path: BONE Xtra03
+        weight: 1
+      - path: BONE Xtra0202
+        weight: 1
+      - path: BONE Xtra0302
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

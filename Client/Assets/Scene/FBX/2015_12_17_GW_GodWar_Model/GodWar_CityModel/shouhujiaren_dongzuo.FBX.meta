@@ -1,0 +1,154 @@
+fileFormatVersion: 2
+guid: ab15ca02303af1c4e8ad90b1127b6e96
+timeCreated: 1461916073
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: shouhujiaren_posui00
+    100004: shouhujiaren_posui01
+    100006: shouhujiaren_posui02
+    100008: shouhujiaren_posui03
+    100010: shouhujiaren_posui04
+    100012: shouhujiaren_posui05
+    100014: shouhujiaren_posui06
+    100016: shouhujiaren_posui07
+    100018: shouhujiaren_posui08
+    100020: shouhujiaren_posui09
+    100022: shouhujiaren_posui10
+    100024: shouhujiaren_zhuzi00
+    100026: shouhujiaren_zhuzi01
+    100028: shouhujiaren_zhuzi02
+    100030: shouhujiaren_zhuzi03
+    100032: shouhujiaren_zhuzi04
+    400000: //RootNode
+    400002: shouhujiaren_posui00
+    400004: shouhujiaren_posui01
+    400006: shouhujiaren_posui02
+    400008: shouhujiaren_posui03
+    400010: shouhujiaren_posui04
+    400012: shouhujiaren_posui05
+    400014: shouhujiaren_posui06
+    400016: shouhujiaren_posui07
+    400018: shouhujiaren_posui08
+    400020: shouhujiaren_posui09
+    400022: shouhujiaren_posui10
+    400024: shouhujiaren_zhuzi00
+    400026: shouhujiaren_zhuzi01
+    400028: shouhujiaren_zhuzi02
+    400030: shouhujiaren_zhuzi03
+    400032: shouhujiaren_zhuzi04
+    2300000: shouhujiaren_posui00
+    2300002: shouhujiaren_posui01
+    2300004: shouhujiaren_posui02
+    2300006: shouhujiaren_posui03
+    2300008: shouhujiaren_posui04
+    2300010: shouhujiaren_posui05
+    2300012: shouhujiaren_posui06
+    2300014: shouhujiaren_posui07
+    2300016: shouhujiaren_posui08
+    2300018: shouhujiaren_posui09
+    2300020: shouhujiaren_posui10
+    2300022: shouhujiaren_zhuzi00
+    2300024: shouhujiaren_zhuzi01
+    2300026: shouhujiaren_zhuzi02
+    2300028: shouhujiaren_zhuzi03
+    2300030: shouhujiaren_zhuzi04
+    3300000: shouhujiaren_posui00
+    3300002: shouhujiaren_posui01
+    3300004: shouhujiaren_posui02
+    3300006: shouhujiaren_posui03
+    3300008: shouhujiaren_posui04
+    3300010: shouhujiaren_posui05
+    3300012: shouhujiaren_posui06
+    3300014: shouhujiaren_posui07
+    3300016: shouhujiaren_posui08
+    3300018: shouhujiaren_posui09
+    3300020: shouhujiaren_posui10
+    3300022: shouhujiaren_zhuzi00
+    3300024: shouhujiaren_zhuzi01
+    3300026: shouhujiaren_zhuzi02
+    3300028: shouhujiaren_zhuzi03
+    3300030: shouhujiaren_zhuzi04
+    4300000: shouhujiaren_posui05
+    4300002: shouhujiaren_posui01
+    4300004: shouhujiaren_zhuzi00
+    4300006: shouhujiaren_zhuzi01
+    4300008: shouhujiaren_zhuzi02
+    4300010: shouhujiaren_zhuzi03
+    4300012: shouhujiaren_zhuzi04
+    4300014: shouhujiaren_posui02
+    4300016: shouhujiaren_posui03
+    4300018: shouhujiaren_posui04
+    4300020: shouhujiaren_posui00
+    4300022: shouhujiaren_posui06
+    4300024: shouhujiaren_posui07
+    4300026: shouhujiaren_posui08
+    4300028: shouhujiaren_posui09
+    4300030: shouhujiaren_posui10
+    11100000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

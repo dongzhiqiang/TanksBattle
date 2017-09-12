@@ -1,0 +1,135 @@
+fileFormatVersion: 2
+guid: cb9c53f3c076ba94e8913c96dcffd8f5
+timeCreated: 1450094558
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: BONE Head
+    100002: BONE L Calf
+    100004: BONE L Clavicle
+    100006: BONE L Foot
+    100008: BONE L Forearm
+    100010: BONE L Hand
+    100012: BONE L Thigh
+    100014: BONE L Toe0
+    100016: BONE L UpperArm
+    100018: BONE Neck
+    100020: BONE Pelvis
+    100022: BONE Prop1
+    100024: BONE R Calf
+    100026: BONE R Clavicle
+    100028: BONE R Foot
+    100030: BONE R Forearm
+    100032: BONE R Hand
+    100034: BONE R Thigh
+    100036: BONE R Toe0
+    100038: BONE R UpperArm
+    100040: BONE Spine
+    100042: BONE Spine1
+    100044: BONE Spine2
+    100046: BONE Xtra01
+    100048: BONE Xtra02
+    100050: BONE Xtra03
+    100052: BONE Xtra04
+    100054: BONE Xtra04Opp
+    100056: BONE Xtra05
+    100058: //RootNode
+    100060: BONE Neck_bind
+    400000: BONE Head
+    400002: BONE L Calf
+    400004: BONE L Clavicle
+    400006: BONE L Foot
+    400008: BONE L Forearm
+    400010: BONE L Hand
+    400012: BONE L Thigh
+    400014: BONE L Toe0
+    400016: BONE L UpperArm
+    400018: BONE Neck
+    400020: BONE Pelvis
+    400022: BONE Prop1
+    400024: BONE R Calf
+    400026: BONE R Clavicle
+    400028: BONE R Foot
+    400030: BONE R Forearm
+    400032: BONE R Hand
+    400034: BONE R Thigh
+    400036: BONE R Toe0
+    400038: BONE R UpperArm
+    400040: BONE Spine
+    400042: BONE Spine1
+    400044: BONE Spine2
+    400046: BONE Xtra01
+    400048: BONE Xtra02
+    400050: BONE Xtra03
+    400052: BONE Xtra04
+    400054: BONE Xtra04Opp
+    400056: BONE Xtra05
+    400058: //RootNode
+    400060: BONE Neck_bind
+    7400000: Take 001
+    11100000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

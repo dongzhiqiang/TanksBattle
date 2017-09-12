@@ -1,0 +1,109 @@
+fileFormatVersion: 2
+guid: af7b0feb7f5030e4f80cc36589e05098
+timeCreated: 1465291120
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Handcart02_Parts_LostTemple_LV001
+    100004: Handcart02_Parts_LostTemple_LV002
+    100006: Handcart02_Parts_LostTemple_LV003
+    100008: Handcart02_Parts_LostTemple_LV004
+    100010: Handcart02_Parts_LostTemple_LV005
+    100012: Handcart02_Parts_LostTemple_LV007
+    100014: Handcart02_Parts_LostTemple_LV007 1
+    400000: //RootNode
+    400002: Handcart02_Parts_LostTemple_LV001
+    400004: Handcart02_Parts_LostTemple_LV002
+    400006: Handcart02_Parts_LostTemple_LV003
+    400008: Handcart02_Parts_LostTemple_LV004
+    400010: Handcart02_Parts_LostTemple_LV005
+    400012: Handcart02_Parts_LostTemple_LV007
+    400014: Handcart02_Parts_LostTemple_LV007 1
+    2300000: Handcart02_Parts_LostTemple_LV001
+    2300002: Handcart02_Parts_LostTemple_LV002
+    2300004: Handcart02_Parts_LostTemple_LV003
+    2300006: Handcart02_Parts_LostTemple_LV004
+    2300008: Handcart02_Parts_LostTemple_LV005
+    2300010: Handcart02_Parts_LostTemple_LV007
+    2300012: Handcart02_Parts_LostTemple_LV007 1
+    3300000: Handcart02_Parts_LostTemple_LV001
+    3300002: Handcart02_Parts_LostTemple_LV002
+    3300004: Handcart02_Parts_LostTemple_LV003
+    3300006: Handcart02_Parts_LostTemple_LV004
+    3300008: Handcart02_Parts_LostTemple_LV005
+    3300010: Handcart02_Parts_LostTemple_LV007
+    3300012: Handcart02_Parts_LostTemple_LV007 1
+    4300000: Handcart02_Parts_LostTemple_LV001
+    4300002: Handcart02_Parts_LostTemple_LV002
+    4300004: Handcart02_Parts_LostTemple_LV007
+    4300006: Handcart02_Parts_LostTemple_LV007
+    4300008: Handcart02_Parts_LostTemple_LV005
+    4300010: Handcart02_Parts_LostTemple_LV004
+    4300012: Handcart02_Parts_LostTemple_LV003
+    11100000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
