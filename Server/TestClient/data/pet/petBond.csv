@@ -1,0 +1,18 @@
+羁绊id,羁绊名称,宠物1,宠物2,宠物3,宠物4,战斗力系数,缘分加成,缘分描述
+id,name,pet1,pet2,pet3,pet4,powerRate,param,desc
+1,神王神后,cw_1,cw_5,,,{yuanfen:yuanzhandouli1},攻击|{yuanfen:yuan}%,攻击<color=#37c21b> +{yuanfen:yuan}%</color>
+2,英勇父子,cw_1,cw_6,,,{yuanfen:yuanzhandouli1},攻击|{yuanfen:yuan}%,攻击<color=#37c21b> +{yuanfen:yuan}%</color>
+3,弓箭之神,cw_2,cw_3,,,{yuanfen:yuanzhandouli1},攻击|{yuanfen:yuan}%,攻击<color=#37c21b> +{yuanfen:yuan}%</color>
+4,特洛伊的苦役,cw_2,cw_9,,,{yuanfen:yuanzhandouli1},生命|{yuanfen:yuan}%,生命<color=#37c21b> +{yuanfen:yuan}%</color>
+5,捕获神鹿,cw_3,cw_6,,,{yuanfen:yuanzhandouli1},攻击|{yuanfen:yuan}%,攻击<color=#37c21b> +{yuanfen:yuan}%</color>
+6,隐形头盔,cw_4,cw_11,,,{yuanfen:yuanzhandouli1},攻击|{yuanfen:yuan}%,攻击<color=#37c21b> +{yuanfen:yuan}%</color>
+7,黑暗地狱,cw_4,cw_8,,,{yuanfen:yuanzhandouli1},攻击|{yuanfen:yuan}%,攻击<color=#37c21b> +{yuanfen:yuan}%</color>
+8,制造之神,cw_7,cw_12,,,{yuanfen:yuanzhandouli1},生命|{yuanfen:yuan}%,生命<color=#37c21b> +{yuanfen:yuan}%</color>
+9,醉生梦死,cw_7,cw_8,,,{yuanfen:yuanzhandouli1},护甲|{yuanfen:yuan}%,护甲<color=#37c21b> +{yuanfen:yuan}%</color>
+10,阴谋败露,cw_5,cw_9,,,{yuanfen:yuanzhandouli1},攻击|{yuanfen:yuan}%,攻击<color=#37c21b> +{yuanfen:yuan}%</color>
+11,工匠之神,cw_10,cw_12,,,{yuanfen:yuanzhandouli1},攻击|{yuanfen:yuan}%,攻击<color=#37c21b> +{yuanfen:yuan}%</color>
+12,庇护之神,cw_10,cw_11,,,{yuanfen:yuanzhandouli1},护甲|{yuanfen:yuan}%,护甲<color=#37c21b> +{yuanfen:yuan}%</color>
+13,奥林匹斯三巨头,cw_1,cw_4,cw_9,,{yuanfen:yuanzhandouli2},"生命|{yuanfen:yuan}%,暴击几率|{yuanfen:yuan}%",生命<color=#37c21b> +{yuanfen:yuan}%</color>    暴击几率<color=#37c21b> +{yuanfen:yuan}%</color>
+14,男神的友情,cw_2,cw_7,cw_11,,{yuanfen:yuanzhandouli2},"生命|{yuanfen:yuan}%,抗暴几率|{yuanfen:yuan}%",生命<color=#37c21b> +{yuanfen:yuan}%</color>    抗暴几率<color=#37c21b> +{yuanfen:yuan}%</color>
+15,三处女,cw_3,cw_10,cw_8,,{yuanfen:yuanzhandouli2},"生命|{yuanfen:yuan}%,暴击几率|{yuanfen:yuan}%",生命<color=#37c21b> +{yuanfen:yuan}%</color>    暴击几率<color=#37c21b> +{yuanfen:yuan}%</color>
+16,前仇尽释,cw_5,cw_6,cw_12,,{yuanfen:yuanzhandouli2},"生命|{yuanfen:yuan}%,抗暴几率|{yuanfen:yuan}%",生命<color=#37c21b> +{yuanfen:yuan}%</color>    抗暴几率<color=#37c21b> +{yuanfen:yuan}%</color>

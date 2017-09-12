@@ -1,0 +1,2 @@
+cd MongoDB
+./launch.sh

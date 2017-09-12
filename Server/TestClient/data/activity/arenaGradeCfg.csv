@@ -1,0 +1,9 @@
+段位级别,段位名称,段位图标,段位名图片,积分下限,积分上限,攻方胜利积分,攻方连胜积分,守方败扣积分,日奖励金币,日奖励兑换币,日奖励钻石,周奖励金币,周奖励兑换币,周奖励钻石,首次升级奖励金币,首次升级奖励兑换币,首次升级奖励钻石
+grade,gradeName,iconName,nameImg,minScore,maxScore,atkWinScore,atkCtnWinScore,dfdLoseScore,dayRewardGold,dayRewardArenaCoin,dayRewardDiamond,weekRewardGold,weekRewardArenaCoin,weekRewardDiamond,upgradeRewardGold,upgradeRewardArenaCoin,upgradeRewardDiamond
+0,角斗士,ui_jingji_big_01,ui_jingji_chenghao_01,0,199,50,0,50,50000,50,20,100000,100,20
+1,十夫长,ui_jingji_big_02,ui_jingji_chenghao_02,200,499,40,0,40,75000,54,20,150000,108,22,50000,50,50
+2,百夫长,ui_jingji_big_03,ui_jingji_chenghao_03,500,799,30,0,30,100000,58,25,200000,116,24,75000,55,55
+3,千夫长,ui_jingji_big_04,ui_jingji_chenghao_04,800,1199,20,0,20,125000,62,25,250000,124,28,100000,60,60
+4,禁卫军,ui_jingji_big_05,ui_jingji_chenghao_05,1200,1699,10,0,10,150000,66,30,300000,132,32,150000,70,70
+5,皇家卫队长,ui_jingji_big_06,ui_jingji_chenghao_06,1700,2199,5,0,5,175000,70,30,350000,140,36,200000,80,80
+6,战神,ui_jingji_big_07,ui_jingji_chenghao_07,2200,1000000,2,0,2,200000,75,35,400000,150,40,300000,100,100

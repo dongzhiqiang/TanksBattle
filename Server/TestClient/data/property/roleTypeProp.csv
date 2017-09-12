@@ -1,0 +1,6 @@
+id,生命,攻击,护甲,减免伤害,最终伤害,暴击几率,抗暴几率,暴击伤害,火,冰,雷,冥,火抗,冰抗,雷抗,冥抗,生命偷取,伤害反弹,怒气,气力值,速度,冷却缩减
+id,hp,atk,def,damageDef,damage,critical,criticalDef,criticalDamage,fire,ice,thunder,dark,fireDef,iceDef,thunderDef,darkDef,hpCut,damageReflect,mp,shield,speed,cdCut
+monster,5,1,1,0.8,0.8,10000,10000,10000,1,1,1,1,1,1,1,1,10000,10000,1,1,1,1
+role,100,10,5,4,4,10000,10000,10000,1,1,1,1,1,1,1,1,10000,10000,1,1,1,1
+power,0.01,0.1,0.2,0.25,25,0,0,0,1,1,1,1,1,1,1,1,0,0,0,0,0,0
+powerRate,0,0,0,0,0,0.05,0.05,0.05,0,0,0,0,0,0,0,0,0.05,0.05,0,0,0,0.05

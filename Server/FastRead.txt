@@ -1,0 +1,9 @@
+启动游戏服务器步骤：
+1、进入GameServer。
+2、右键用记事本或其它文本编辑软件打开config.js。
+3、修改serverName的值为自己喜欢的名字，最好写成自己的名字的拼音。
+4、serverId修改为一个独立的，为了防止重复，最好使用自己的IP的最后一个数字。
+5、publicHostName修改为自己电脑的IP，因为是内部测试，所以不用填公网IP。
+6、lanHostName填自己电脑的IP。
+7、再退回上层文件夹，双击FastLaunch.bat。
+8、一次修改后，如果没有特别原因，以后不需要再修改配置文件了，直接双击FastLaunch.bat。
