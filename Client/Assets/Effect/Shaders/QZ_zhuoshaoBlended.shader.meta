@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: eb8547bff9caccc46a6b50e1fbdb95ba
+timeCreated: 1472205395
+licenseType: Pro
+ShaderImporter:
+  defaultTextures:
+  - _tietu: {fileID: 2800000, guid: 0052bc871df242b4189b8ea3629854d2, type: 3}
+  - _mask: {fileID: 2800000, guid: 6aaa0c3099e07ca459a327a1f3fd3b0a, type: 3}
+  - _node_5239: {fileID: 2800000, guid: 6d77296a444ca68448524cf3041d8afb, type: 3}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
