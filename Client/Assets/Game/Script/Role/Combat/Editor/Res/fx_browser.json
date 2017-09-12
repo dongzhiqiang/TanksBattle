@@ -1,0 +1,575 @@
+﻿
+{
+    "tags" : [
+        {
+            "tag" : "历史记录",
+            "fxs" : [
+                "Skill_apollo_huoyanshengjian_fly1",
+                "Skill_apollo_jianyuliuxing_Hit",
+                "mod_xiezi_pengdu",
+                "mod_xiezi_pengdu_duye",
+                "fx_kratos_dj_daoguang_huo_lei",
+                "fx_kratos_dj_daoguang_huo",
+                "fx_kratos_dj_wudizhan_lei",
+                "fx_kratos_dj_wudizhan",
+                "fx_kratos_dj_wudizhan_bing",
+                "Skill_xiezi_longjuanfeng_yujing"
+            ]
+        },
+        {
+            "tag" : "测试特效",
+            "fxs" : [
+                "fx_kratos_zadi",
+                "fx_sphere"
+            ]
+        },
+        {
+            "tag" : "屏幕特效",
+            "fxs" : [
+                "fx_shake_small",
+                "fx_shake3",
+                "fx_hit_blur_test2",
+                "fx_hit_blur_test3",
+                "fx_shake2",
+                "fx_shake4",
+                "fx_shake5",
+                "fx_shake1",
+                "fx_hit_blur_1",
+                "fx_hit_blur_2",
+                "fx_hit_blur_3",
+                "fx_hit_blur_4",
+                "fx_hit_blur_5",
+                "fx_hit_blur_1_Simple",
+                "fx_hit_blur_2_Simple",
+                "fx_hit_blur_3_Simple",
+                "fx_hit_blur_4_Simple",
+                "fx_hit_blur_5_Simple",
+                "fx_hit_blur_Small_Simple"
+            ]
+        },
+        {
+            "tag" : "主角武器特效",
+            "fxs" : [
+                "fx_kratos_dj_daoguang_huo",
+                "jineng03_03_tiaoza_mc_s",
+                "jineng03_03_tiaoza_mc",
+                "fx_kratos_dj_daoguang_huo_lei",
+                "fx_kratos_dj_wudizhan_bing",
+                "fx_kratos_dj_wudizhan",
+                "fx_kratos_dj_wudizhan_lei",
+                "fx_kratos_dj_daoguang_huo_bing",
+                "fx_jineng03_02_nengliangbaofa_chixu_dm_bing"
+            ]
+        },
+        {
+            "tag" : "死亡特效",
+            "fxs" : [
+                "fx_siwang_smoke",
+                "fx_siwang_smoke01",
+                "fx_siwang_smoke02"
+            ]
+        },
+        {
+            "tag" : "小兵特效",
+            "fxs" : [
+                "fx_kuloubing_zhuatou"
+            ]
+        },
+        {
+            "tag" : "打击特效",
+            "fxs" : [
+                "Blood_Myst_Cone"
+            ]
+        },
+        {
+            "tag" : "活动特效",
+            "fxs" : [
+                "hadisi_xueqiu_feihun"
+            ]
+        },
+        {
+            "tag" : "属性特效",
+            "fxs" : [
+                "shuxing_bing_big",
+                "shuxing_bing_small",
+                "shuxing_huo_big",
+                "shuxing_huo_small",
+                "shuxing_lei_big",
+                "shuxing_lei_small",
+                "shuxing_ming_big",
+                "shuxing_ming_small"
+            ]
+        }
+    ],
+    "fxs"  : [
+        {
+            "mod" : "fx_kratos_zadi",
+            "name" : "奎爷砸地"
+        },
+        {
+            "mod" : "fx_gjb_gongji01",
+            "name" : "弓箭兵的箭"
+        },
+        {
+            "mod" : "fx_shake_small",
+            "name" : "屏幕打击震动小"
+        },
+        {
+            "mod" : "fx_shake3",
+            "name" : "幕打击震动大大"
+        },
+        {
+            "mod" : "fx_hit_blur_test2",
+            "name" : "屏幕打击模糊测试小"
+        },
+        {
+            "mod" : "fx_hit_blur_test3",
+            "name" : "屏幕打击模糊测试大"
+        },
+        {
+            "mod" : "fx_shake2",
+            "name" : ""
+        },
+        {
+            "mod" : "fx_kulou_fashi_gongji01",
+            "name" : ""
+        },
+        {
+            "mod" : "fx_kratos_dj_daoguang_huo",
+            "name" : ""
+        },
+        {
+            "mod" : "fx_kratos_dj_wudizhan",
+            "name" : ""
+        },
+        {
+            "mod" : "fx_shake4",
+            "name" : ""
+        },
+        {
+            "mod" : "fx_shake5",
+            "name" : ""
+        },
+        {
+            "mod" : "小兵通用死亡特效",
+            "name" : "fx_siwang_smoke"
+        },
+        {
+            "mod" : "fx_siwang_smoke",
+            "name" : "小兵通用死亡特效"
+        },
+        {
+            "mod" : "fx_siwang_smoke01",
+            "name" : "雕像死亡特效"
+        },
+        {
+            "mod" : "fx_siwang_smoke02",
+            "name" : "巨人死亡特效"
+        },
+        {
+            "mod" : "fx_shake1",
+            "name" : ""
+        },
+        {
+            "mod" : "fx_kuloubing_zhuatou",
+            "name" : "空中抓投的砸地"
+        },
+        {
+            "mod" : "Blood_Myst_Cone",
+            "name" : "飙血特效"
+        },
+        {
+            "mod" : "fx_sphere",
+            "name" : "测试碰撞"
+        },
+        {
+            "mod" : "fx_sphere_test",
+            "name" : "测试碰撞"
+        },
+        {
+            "mod" : "fx_hit_blur_1",
+            "name" : ""
+        },
+        {
+            "mod" : "fx_hit_blur_2",
+            "name" : ""
+        },
+        {
+            "mod" : "fx_hit_blur_3",
+            "name" : ""
+        },
+        {
+            "mod" : "fx_hit_blur_4",
+            "name" : ""
+        },
+        {
+            "mod" : "fx_hit_blur_5",
+            "name" : ""
+        },
+        {
+            "mod" : "jineng03_03_tiaoza_mc_s",
+            "name" : "奎爷锤子蓄力3段特效小"
+        },
+        {
+            "mod" : "jineng03_03_tiaoza_mc",
+            "name" : "奎爷锤子蓄力3段特效大"
+        },
+        {
+            "mod" : "Skill_congtianerjiang02_Mark",
+            "name" : "复仇女神预警"
+        },
+        {
+            "mod" : "Skill_congtianerjiang02_Mark_SPEEDUP\r",
+            "name" : "复仇女神预警快"
+        },
+        {
+            "mod" : "fx_renleifashi_shouj",
+            "name" : "人类法师受击特效"
+        },
+        {
+            "mod" : "fx_renleigongbing_gongji01",
+            "name" : "蛮族弓箭兵的飞出特效"
+        },
+        {
+            "mod" : "fx_renleigongbing_dujian01",
+            "name" : "蛮族长矛兵的毒箭"
+        },
+        {
+            "mod" : "fx_diyuquan_huoyandan_hit",
+            "name" : "地狱犬的火焰弹"
+        },
+        {
+            "mod" : "fx_diyuquan_huoyandan_boom",
+            "name" : "地狱犬火焰弹爆炸"
+        },
+        {
+            "mod" : "Skill_heiannvshen_gongji01_fly3",
+            "name" : "黑暗女神技能1"
+        },
+        {
+            "mod" : "Skill_heiannvshen_mingjiedeguihuan_fly3",
+            "name" : "黑暗女神技能2"
+        },
+        {
+            "mod" : "Skill_heiannvshen_siwangchanrao_fly3",
+            "name" : "黑暗女神技能3"
+        },
+        {
+            "mod" : "Skill_heiannvshen_xianxuejidian_fly3",
+            "name" : "黑暗女神技能4"
+        },
+        {
+            "mod" : "fx_sxg_yujin",
+            "name" : "石像鬼预警"
+        },
+        {
+            "mod" : "Fuchounvshen_gongji01",
+            "name" : "复仇女神攻击01"
+        },
+        {
+            "mod" : "Skill_fuchounvshen_congtianerjiang03",
+            "name" : "复仇女神技能3"
+        },
+        {
+            "mod" : "Skill_fuchounvshen_zhuarengongji",
+            "name" : "复仇女神爪刃风暴"
+        },
+        {
+            "mod" : "fx_renleifashi_fagong01",
+            "name" : "人类法师攻击01"
+        },
+        {
+            "mod" : "fx_renleifashi_gongjifly",
+            "name" : "人类法师攻击02"
+        },
+        {
+            "mod" : "fx_renleifashi_shouji",
+            "name" : "法术通用受击特效"
+        },
+        {
+            "mod" : "Skill_Heiannvshen_xianxuejidian_Hit",
+            "name" : "黑暗女神献血祭奠受击"
+        },
+        {
+            "mod" : "Skill_Heiannvshen_siwangchanrao_Hit",
+            "name" : "黑暗女神死亡缠绕受击"
+        },
+        {
+            "mod" : "Skill_Heiannvshen_mingjiedeguihuan_Hit",
+            "name" : "黑暗女神冥界归还受击"
+        },
+        {
+            "mod" : "Skill_Heiannvshen_gongji01_Hit",
+            "name" : "黑暗女神普攻受击"
+        },
+        {
+            "mod" : "fx_yantou_jy_gedang",
+            "name" : "羊头格挡特效"
+        },
+        {
+            "mod" : "fx_kulou_fashi_siwangzhaohuan",
+            "name" : "法师骷髅技能01"
+        },
+        {
+            "mod" : "Skill_fuchounvshen_dicigoingji",
+            "name" : "复仇女神地刺特效"
+        },
+        {
+            "mod" : "fx_hit_blur_1_Simple",
+            "name" : ""
+        },
+        {
+            "mod" : "fx_hit_blur_2_Simple",
+            "name" : ""
+        },
+        {
+            "mod" : "fx_hit_blur_3_Simple",
+            "name" : ""
+        },
+        {
+            "mod" : "fx_hit_blur_4_Simple",
+            "name" : ""
+        },
+        {
+            "mod" : "fx_hit_blur_5_Simple",
+            "name" : ""
+        },
+        {
+            "mod" : "fx_hit_blur_Small_Simple",
+            "name" : ""
+        },
+        {
+            "mod" : "Taitan_gunshi",
+            "name" : "泰坦的陨石落地"
+        },
+        {
+            "mod" : "Ef_changjingpaodan",
+            "name" : "炮弹特效火球"
+        },
+        {
+            "mod" : "fx_niutou_yujing",
+            "name" : "牛头预警特效"
+        },
+        {
+            "mod" : "fx_niutou_chongzhuang_02",
+            "name" : ""
+        },
+        {
+            "mod" : "mod_xianjing_duqi",
+            "name" : "毒气陷阱"
+        },
+        {
+            "mod" : "fx_chuansongzhen_shandi_yellow",
+            "name" : "黄色传送阵"
+        },
+        {
+            "mod" : "fx_chuansongzhen_shandi_yellow_jifa",
+            "name" : "黄色传送阵激活"
+        },
+        {
+            "mod" : "fx_chuansongzhen_shandi_blue",
+            "name" : "蓝色传送阵"
+        },
+        {
+            "mod" : "fx_chuansongzhen_shandi_blue_jifa",
+            "name" : "蓝色传送阵激活"
+        },
+        {
+            "mod" : "Skill_manwang_mingjiedahuixuan_01_3",
+            "name" : "蛮王冥界大旋风31"
+        },
+        {
+            "mod" : "Skill_manwang_mingjiedahuixuan_01_2",
+            "name" : "冥王暴击飞出物1"
+        },
+        {
+            "mod" : "Skill_manwang_dizheng01_hit",
+            "name" : "蛮王HIT1"
+        },
+        {
+            "mod" : "Skill_manwang_mingjiebaoji",
+            "name" : "蛮王分身1"
+        },
+        {
+            "mod" : "xuanya_bosszhan",
+            "name" : "第10关BOSS烟尘"
+        },
+        {
+            "mod" : "fx_nuche_gongji01",
+            "name" : " 弩车攻击01"
+        },
+        {
+            "mod" : "fx_nuche_gongji01_hit",
+            "name" : "弩车攻击01爆炸"
+        },
+        {
+            "mod" : "E_guochang_zx_02_huoqiu_x2",
+            "name" : "炮弹爆炸特效"
+        },
+        {
+            "mod" : "E_guochang_zx_02_huoqiu_x",
+            "name" : "炮弹火球循环效果"
+        },
+        {
+            "mod" : "Skill_apollo_gongji_fly",
+            "name" : "阿波罗弓箭普攻"
+        },
+        {
+            "mod" : "Skill_apollo_gongji_hit",
+            "name" : "阿波罗弓箭gongji01受击"
+        },
+        {
+            "mod" : "Skill_apollo_huoyanshengjian_fly",
+            "name" : "阿波罗火焰神箭"
+        },
+        {
+            "mod" : "Skill_apollo_huoyanshengjian_fly1",
+            "name" : "阿波罗多重射击"
+        },
+        {
+            "mod" : "Skill_apollo_jianyuliuxing_Hit",
+            "name" : "阿波罗箭雨流星"
+        },
+        {
+            "mod" : "E_guochang_zx_02_huoqiu",
+            "name" : "1_1炮弹特效"
+        },
+        {
+            "mod" : "Skill_fuchounvshen_zhuarengongji_big",
+            "name" : "爪刃风暴大复仇女神"
+        },
+        {
+            "mod" : "hadisi_xueqiu_feihun",
+            "name" : ""
+        },
+        {
+            "mod" : "mod_xiezi_pengdu",
+            "name" : "蝎子喷毒"
+        },
+        {
+            "mod" : "mod_xiezi_pengdu_duye",
+            "name" : "蝎子喷毒模型特效"
+        },
+        {
+            "mod" : "mod_xiezi_pengdu_baozha",
+            "name" : "蝎子毒液爆炸1111"
+        },
+        {
+            "mod" : "shuxing_bing_big",
+            "name" : ""
+        },
+        {
+            "mod" : "shuxing_bing_small",
+            "name" : ""
+        },
+        {
+            "mod" : "shuxing_huo_big",
+            "name" : ""
+        },
+        {
+            "mod" : "shuxing_huo_small",
+            "name" : ""
+        },
+        {
+            "mod" : "shuxing_lei_big",
+            "name" : ""
+        },
+        {
+            "mod" : "shuxing_lei_small",
+            "name" : ""
+        },
+        {
+            "mod" : "shuxing_ming_big",
+            "name" : ""
+        },
+        {
+            "mod" : "shuxing_ming_small",
+            "name" : ""
+        },
+        {
+            "mod" : "Skill_hadisi_sicongdichu",
+            "name" : "哈迪斯死从地出01"
+        },
+        {
+            "mod" : "Skill_hadisi_sicongdichu_mark",
+            "name" : "死从地出02"
+        },
+        {
+            "mod" : "Skill_hadisi_sicongdichu_up",
+            "name" : "死从地出03"
+        },
+        {
+            "mod" : "Skill_bosaidong_haiyaoqiangxi_hit",
+            "name" : "波塞冬海妖强袭"
+        },
+        {
+            "mod" : "Skill_shufuxuanwo_hit",
+            "name" : "波塞冬舒服漩涡"
+        },
+        {
+            "mod" : "Skill_zhousi_leiguangdan_fly",
+            "name" : "宙斯雷光弹"
+        },
+        {
+            "mod" : "Skill_zhousi_fenshen",
+            "name" : "分身特效走起"
+        },
+        {
+            "mod" : "fx_kratos_dj_daoguang_huo_lei",
+            "name" : ""
+        },
+        {
+            "mod" : "fx_kratos_dj_wudizhan_bing",
+            "name" : ""
+        },
+        {
+            "mod" : "fx_kratos_dj_wudizhan_lei",
+            "name" : ""
+        },
+        {
+            "mod" : "fx_kratos_dj_daoguang_huo_bing",
+            "name" : ""
+        },
+        {
+            "mod" : "BossSkillTip360_blue",
+            "name" : "脚底特效蓝"
+        },
+        {
+            "mod" : "BossSkillTip360_red",
+            "name" : "脚底特效红"
+        },
+        {
+            "mod" : "fx_yantou_xb_fireball",
+            "name" : "燃烧瓶羊头怪火球"
+        },
+        {
+            "mod" : "fx_rongyan_baokai",
+            "name" : "燃烧瓶羊头怪爆炸"
+        },
+        {
+            "mod" : "mod_xiezi_pengdu_yujing",
+            "name" : "蝎子预警"
+        },
+        {
+            "mod" : "Skill_xiezi_longjuanfeng",
+            "name" : "鞋子龙卷风特效啦啦啦"
+        },
+        {
+            "mod" : "Skill_bosaidoing_gongji01",
+            "name" : "波塞冬gongji01"
+        },
+        {
+            "mod" : "Skill_zhousi_luolei_hit",
+            "name" : "宙斯雷光弹闪电EX"
+        },
+        {
+            "mod" : "fx_jineng03_02_nengliangbaofa_chixu_dm_bing",
+            "name" : ""
+        },
+        {
+            "mod" : "Skill_xiezi_longjuanfeng_yujing",
+            "name" : "蝎子预警特效"
+        }
+    ],
+    "m_slider" : 165
+}
