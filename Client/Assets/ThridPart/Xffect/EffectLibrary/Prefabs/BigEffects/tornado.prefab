@@ -1,0 +1,8520 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: splash
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100002
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400002}
+  - 114: {fileID: 11400002}
+  m_Layer: 0
+  m_Name: ground
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100004
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400004}
+  - 114: {fileID: 11400004}
+  m_Layer: 0
+  m_Name: leave
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100006
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400006}
+  - 114: {fileID: 11400006}
+  m_Layer: 0
+  m_Name: stone02
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100008
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400008}
+  - 114: {fileID: 11400008}
+  m_Layer: 0
+  m_Name: cyclone02
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100010
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400010}
+  - 114: {fileID: 11400010}
+  m_Layer: 0
+  m_Name: tornado
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100012
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400012}
+  - 114: {fileID: 11400012}
+  m_Layer: 0
+  m_Name: cyclone03
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100014
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400014}
+  - 114: {fileID: 11400014}
+  m_Layer: 0
+  m_Name: smoke01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100016
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400016}
+  - 114: {fileID: 11400016}
+  m_Layer: 0
+  m_Name: helix
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100018
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400018}
+  - 114: {fileID: 11400018}
+  m_Layer: 0
+  m_Name: _Path
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100020
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400020}
+  - 114: {fileID: 11400020}
+  m_Layer: 0
+  m_Name: smoke02
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100022
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400022}
+  - 114: {fileID: 11400022}
+  m_Layer: 0
+  m_Name: cyclone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100024
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400024}
+  - 114: {fileID: 11400024}
+  m_Layer: 0
+  m_Name: smoke03
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -5.30000019}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 400010}
+  m_RootOrder: 11
+--- !u!4 &400002
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100002}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -4}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 400010}
+  m_RootOrder: 10
+--- !u!4 &400004
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100004}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 400010}
+  m_RootOrder: 9
+--- !u!4 &400006
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100006}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 400010}
+  m_RootOrder: 8
+--- !u!4 &400008
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100008}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 400010}
+  m_RootOrder: 6
+--- !u!4 &400010
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100010}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -4.30000019, y: 0, z: -18.8999996}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 400018}
+  - {fileID: 400022}
+  - {fileID: 400014}
+  - {fileID: 400020}
+  - {fileID: 400016}
+  - {fileID: 400024}
+  - {fileID: 400008}
+  - {fileID: 400012}
+  - {fileID: 400006}
+  - {fileID: 400004}
+  - {fileID: 400002}
+  - {fileID: 400000}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!4 &400012
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100012}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 400010}
+  m_RootOrder: 7
+--- !u!4 &400014
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100014}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 400010}
+  m_RootOrder: 2
+--- !u!4 &400016
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100016}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 400010}
+  m_RootOrder: 4
+--- !u!4 &400018
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100018}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 2, y: 2, z: 2}
+  m_Children: []
+  m_Father: {fileID: 400010}
+  m_RootOrder: 0
+--- !u!4 &400020
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100020}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 400010}
+  m_RootOrder: 3
+--- !u!4 &400022
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100022}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 400010}
+  m_RootOrder: 1
+--- !u!4 &400024
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100024}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 400010}
+  m_RootOrder: 5
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4eaa492ec72a57543b3ace7c81409998, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ClientTransform: {fileID: 400000}
+  SyncClient: 1
+  Material: {fileID: 2100000, guid: fbeb88b9c5ee07a42af85aa915c80bdc, type: 2}
+  RenderType: 0
+  StartTime: 0
+  MaxFps: 60
+  DebugColor: {r: 1, g: 1, b: 1, a: 1}
+  Depth: 0
+  SpriteType: 1
+  OriPoint: 5
+  SpriteWidth: 3
+  SpriteHeight: 4
+  SpriteUVStretch: 0
+  RandomOriScale: 1
+  RandomOriRot: 1
+  OriRotationMin: 0
+  OriRotationMax: 15
+  RotAffectorEnable: 0
+  RotateType: 0
+  DeltaRot: 0
+  RotateCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 360
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  RotateCurveWrap: 0
+  RotateCurveTime: 1
+  RotateCurveMaxValue: 1
+  RotateCurve01:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  RotateSpeedMin: 0
+  RotateSpeedMax: 0
+  UniformRandomScale: 0
+  OriScaleXMin: 2.4000001
+  OriScaleXMax: 2.5999999
+  OriScaleYMin: 2.4000001
+  OriScaleYMax: 3.20000005
+  ScaleAffectorEnable: 1
+  ScaleType: 3
+  DeltaScaleX: 1
+  DeltaScaleY: 2
+  ScaleXCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 10
+    - time: 1
+      value: 1
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 10
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  ScaleYCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: -.00126750069
+      value: 2.05855274
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: .0939431265
+      value: 2.60770273
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: .503303409
+      value: 2.00024581
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  ScaleWrapMode: 0
+  ScaleCurveTime: 1
+  MaxScaleCalue: 1
+  MaxScaleValueY: 3
+  ScaleXCurveNew:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  ScaleYCurveNew:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 2
+      outSlope: 2
+      tangentMode: 0
+    - time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  UseSameScaleCurve: 0
+  DeltaScaleXMax: 0
+  DeltaScaleYMax: 0
+  ColorAffectorEnable: 1
+  ColorAffectType: 0
+  ColorGradualTimeLength: -1
+  ColorGradualType: 0
+  IsRandomStartColor: 0
+  RandomColorParam:
+    Colors:
+    - t: 0
+      Color: {r: 1, g: 1, b: 1, a: 1}
+  RandomColorGradient:
+    key0:
+      serializedVersion: 2
+      rgba: 4294967295
+    key1:
+      serializedVersion: 2
+      rgba: 4294967295
+    key2:
+      serializedVersion: 2
+      rgba: 0
+    key3:
+      serializedVersion: 2
+      rgba: 0
+    key4:
+      serializedVersion: 2
+      rgba: 0
+    key5:
+      serializedVersion: 2
+      rgba: 0
+    key6:
+      serializedVersion: 2
+      rgba: 0
+    key7:
+      serializedVersion: 2
+      rgba: 0
+    ctime0: 0
+    ctime1: 65535
+    ctime2: 0
+    ctime3: 0
+    ctime4: 0
+    ctime5: 0
+    ctime6: 0
+    ctime7: 0
+    atime0: 0
+    atime1: 65535
+    atime2: 0
+    atime3: 0
+    atime4: 0
+    atime5: 0
+    atime6: 0
+    atime7: 0
+    m_NumColorKeys: 2
+    m_NumAlphaKeys: 2
+  Color1: {r: 1, g: 1, b: 1, a: 1}
+  Color2: {r: 0, g: 0, b: 0, a: 0}
+  Color3: {r: 0, g: 0, b: 0, a: 0}
+  Color4: {r: 0, g: 0, b: 0, a: 0}
+  Color5: {r: 0, g: 0, b: 0, a: 0}
+  ColorChangeType: 1
+  ColorParam:
+    Colors:
+    - t: 0
+      Color: {r: 0, g: 0, b: 0, a: 1}
+    - t: .183035731
+      Color: {r: 0, g: .496503592, b: 1, a: 1}
+    - t: .888392866
+      Color: {r: 0, g: 0, b: 0, a: 0}
+  ColorGradient:
+    key0:
+      serializedVersion: 2
+      rgba: 4278190080
+    key1:
+      serializedVersion: 2
+      rgba: 4294354576
+    key2:
+      serializedVersion: 2
+      rgba: 0
+    key3:
+      serializedVersion: 2
+      rgba: 0
+    key4:
+      serializedVersion: 2
+      rgba: 0
+    key5:
+      serializedVersion: 2
+      rgba: 0
+    key6:
+      serializedVersion: 2
+      rgba: 0
+    key7:
+      serializedVersion: 2
+      rgba: 0
+    ctime0: 0
+    ctime1: 12143
+    ctime2: 58221
+    ctime3: 0
+    ctime4: 0
+    ctime5: 0
+    ctime6: 0
+    ctime7: 0
+    atime0: 0
+    atime1: 11951
+    atime2: 58221
+    atime3: 0
+    atime4: 0
+    atime5: 0
+    atime6: 0
+    atime7: 0
+    m_NumColorKeys: 3
+    m_NumAlphaKeys: 3
+  ColorGradualCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  RibbonWidth: 1
+  MaxRibbonElements: 8
+  RibbonLen: 15
+  TailDistance: 0
+  SyncTrailWithClient: 0
+  RibbonUVStretch: 0
+  FaceToObject: 0
+  FaceObject: {fileID: 0}
+  UseRandomRibbon: 0
+  RibbonWidthMin: 1
+  RibbonWidthMax: 1
+  RibbonLenMin: 15
+  RibbonLenMax: 15
+  ConeSize: {x: 1, y: 1}
+  ConeAngle: 0
+  ConeSegment: 4
+  UseConeAngleChange: 0
+  ConeDeltaAngle:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 60
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  CMesh: {fileID: 0}
+  MeshRotateAxis: {x: 0, y: 1, z: 0}
+  EmitType: 3
+  BoxSize: {x: 0, y: 0, z: 0}
+  EmitPoint: {x: 0, y: 0, z: 0}
+  Radius: 2
+  UseRandomCircle: 0
+  CircleRadiusMin: 1
+  CircleRadiusMax: 2
+  CircleDir: {x: 0, y: 1, z: 0}
+  EmitUniform: 0
+  LineStartObj: {fileID: 0}
+  LineEndObj: {fileID: 0}
+  MaxENodes: 50
+  IsNodeLifeLoop: 0
+  NodeLifeMin: .349999994
+  NodeLifeMax: .699999988
+  EmitWay: 0
+  EmitterCurveX:
+    MaxValue: 1
+    TimeLen: 1
+    WrapType: 0
+    Curve01:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+  DiffDistance: .100000001
+  EmitMesh: {fileID: 0}
+  EmitMeshType: 0
+  IsBurstEmit: 0
+  ChanceToEmit: 100
+  EmitDuration: -1
+  EmitRate: 200
+  EmitLoop: 1
+  DirType: 1
+  OriVelocityAxis: {x: 0, y: 1, z: 0}
+  AngleAroundAxis: 35
+  UseRandomDirAngle: 1
+  AngleAroundAxisMax: 70
+  OriSpeed: 0
+  AlwaysSyncRotation: 0
+  IsRandomSpeed: 1
+  SpeedMin: 3
+  SpeedMax: 6
+  JetAffectorEnable: 0
+  JetMagType: 0
+  JetMag: 16
+  JetCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  JetCurveX:
+    MaxValue: 1
+    TimeLen: 1
+    WrapType: 0
+    Curve01:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+  VortexAffectorEnable: 0
+  VortexMagType: 0
+  VortexMag: 1
+  VortexCurveX:
+    MaxValue: 1
+    TimeLen: 1
+    WrapType: 0
+    Curve01:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+  VortexCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  VortexDirection: {x: 0, y: 1, z: 0}
+  VortexInheritRotation: 1
+  VortexObj: {fileID: 400000}
+  IsFixedCircle: 0
+  IsRandomVortexDir: 0
+  IsVortexAccelerate: 0
+  VortexAttenuation: 0
+  UseVortexMaxDistance: 0
+  VortexMaxDistance: 0
+  UVRotAffectorEnable: 0
+  RandomUVRotateSpeed: 0
+  UVRotXSpeed: 0
+  UVRotYSpeed: 0
+  UVRotXSpeedMax: 0
+  UVRotYSpeedMax: 0
+  UVRotStartOffset: {x: 0, y: 0}
+  UVScaleAffectorEnable: 0
+  UVScaleXSpeed: 0
+  UVScaleYSpeed: 0
+  GravityAffectorEnable: 0
+  GravityAftType: 0
+  GravityMagType: 0
+  GravityMag: 0
+  GravityCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  GravityCurveX:
+    MaxValue: 1
+    TimeLen: 1
+    WrapType: 0
+    Curve01:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+  GravityDirection: {x: 0, y: 1, z: 0}
+  GravityObject: {fileID: 400000}
+  IsGravityAccelerate: 1
+  GravityInheritRotation: 0
+  AirAffectorEnable: 0
+  AirObject: {fileID: 400000}
+  AirMagType: 0
+  AirMagnitude: 0
+  AirMagCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  AirMagCurveX:
+    MaxValue: 1
+    TimeLen: 1
+    WrapType: 0
+    Curve01:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+  AirDirection: {x: 0, y: 0, z: 0}
+  AirAttenuation: 0
+  AirUseMaxDistance: 0
+  AirMaxDistance: 0
+  AirEnableSpread: 0
+  AirSpread: 0
+  AirInheritVelocity: 0
+  AirInheritRotation: 0
+  BombAffectorEnable: 0
+  BombObject: {fileID: 400000}
+  BombType: 1
+  BombDecayType: 0
+  BombMagnitude: 0
+  BombAxis: {x: 0, y: 0, z: 0}
+  BombDecay: 0
+  TurbulenceAffectorEnable: 0
+  TurbulenceObject: {fileID: 400000}
+  TurbulenceMagType: 0
+  TurbulenceMagnitude: 0
+  TurbulenceMagCurveX:
+    MaxValue: 1
+    TimeLen: 1
+    WrapType: 0
+    Curve01:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+  TurbulenceMagCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  TurbulenceAttenuation: 0
+  TurbulenceUseMaxDistance: 0
+  TurbulenceMaxDistance: 0
+  TurbulenceForce: {x: 1, y: 1, z: 1}
+  DragAffectorEnable: 0
+  DragObj: {fileID: 0}
+  DragUseDir: 0
+  DragDir: {x: 0, y: 1, z: 0}
+  DragMag: 10
+  DragUseMaxDist: 0
+  DragMaxDist: 50
+  DragAtten: 0
+  UVAffectorEnable: 0
+  UVType: 0
+  OriTopLeftUV: {x: 0, y: 0}
+  OriUVDimensions: {x: 1, y: 1}
+  Cols: 1
+  Rows: 1
+  LoopCircles: -1
+  UVTime: 1
+  EanPath: none
+  EanIndex: 0
+  RandomStartFrame: 0
+  UseCollisionDetection: 0
+  ParticleRadius: 1
+  CollisionType: 0
+  CollisionAutoDestroy: 1
+  EventReceiver: {fileID: 0}
+  EventHandleFunctionName: ' '
+  CollisionGoal: {fileID: 0}
+  ColliisionPosRange: 0
+  CollisionLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  PlaneDir: {x: 0, y: 1, z: 0}
+  PlaneOffset: {x: 0, y: 0, z: 0}
+  RopeWidth: 1
+  RopeUVLen: 5
+  RopeFixUVLen: 1
+  DecalSize: {x: 10, y: 10, z: 10}
+  SineAffectorEnable: 0
+  SineMagType: 0
+  SineMagnitude: 1
+  SineTime: 1
+  SineMagCurveX:
+    MaxValue: 1
+    TimeLen: 1
+    WrapType: 0
+    Curve01:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+  SineForce: {x: 0, y: 1, z: 0}
+  SineIsAccelarate: 0
+  UseShaderCurve1: 0
+  UseShaderCurve2: 0
+  UseFlowControl: 0
+  ShaderCurveX1:
+    MaxValue: 1
+    TimeLen: 1
+    WrapType: 0
+    Curve01:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+  ShaderCurveX2:
+    MaxValue: 1
+    TimeLen: 1
+    WrapType: 0
+    Curve01:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+  FlowSpeed: 1
+  FlowStretchLength: 1
+  UseSubEmitters: 0
+  SpawnCache: {fileID: 0}
+  BirthSubEmitter: 
+  CollisionSubEmitter: 
+  DeathSubEmitter: 
+  SubEmitterAutoStop: 1
+  STBezierSpline: {fileID: 0}
+  STTrailLen: 10
+  STElementWidth: 2
+  EmitSpline: {fileID: 0}
+  EmitSplinePosType: 0
+  SplineEaseType: 0
+  RotationAxis: {x: 0, y: 1, z: 0}
+  TimeScaleEnabled: 0
+  TimeScaleCurve:
+    MaxValue: 1
+    TimeLen: 1
+    WrapType: 0
+    Curve01:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+  AvailableNodeCount: 0
+  LastClientPos: {x: -4.30000019, y: 0, z: -24.2000008}
+  Owner: {fileID: 11400010}
+  mStopped: 0
+--- !u!114 &11400002
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100002}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4eaa492ec72a57543b3ace7c81409998, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ClientTransform: {fileID: 400002}
+  SyncClient: 1
+  Material: {fileID: 2100000, guid: 84edea0bc787acd419d899285389ef61, type: 2}
+  RenderType: 0
+  StartTime: 0
+  MaxFps: 60
+  DebugColor: {r: 1, g: 1, b: 1, a: 1}
+  Depth: 0
+  SpriteType: 2
+  OriPoint: 0
+  SpriteWidth: 1
+  SpriteHeight: 1
+  SpriteUVStretch: 0
+  RandomOriScale: 1
+  RandomOriRot: 1
+  OriRotationMin: 0
+  OriRotationMax: 360
+  RotAffectorEnable: 0
+  RotateType: 0
+  DeltaRot: 0
+  RotateCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 360
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  RotateCurveWrap: 0
+  RotateCurveTime: 1
+  RotateCurveMaxValue: 1
+  RotateCurve01:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  RotateSpeedMin: 0
+  RotateSpeedMax: 0
+  UniformRandomScale: 1
+  OriScaleXMin: 56
+  OriScaleXMax: 60
+  OriScaleYMin: 24
+  OriScaleYMax: 24
+  ScaleAffectorEnable: 1
+  ScaleType: 1
+  DeltaScaleX: -1.39999998
+  DeltaScaleY: -1.39999998
+  ScaleXCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 5
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  ScaleYCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 5
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  ScaleWrapMode: 0
+  ScaleCurveTime: 1
+  MaxScaleCalue: 1
+  MaxScaleValueY: 1
+  ScaleXCurveNew:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  ScaleYCurveNew:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  UseSameScaleCurve: 0
+  DeltaScaleXMax: 0
+  DeltaScaleYMax: 0
+  ColorAffectorEnable: 1
+  ColorAffectType: 0
+  ColorGradualTimeLength: -1
+  ColorGradualType: 0
+  IsRandomStartColor: 0
+  RandomColorParam:
+    Colors:
+    - t: 0
+      Color: {r: 1, g: 1, b: 1, a: 1}
+  RandomColorGradient:
+    key0:
+      serializedVersion: 2
+      rgba: 4294967295
+    key1:
+      serializedVersion: 2
+      rgba: 4294967295
+    key2:
+      serializedVersion: 2
+      rgba: 0
+    key3:
+      serializedVersion: 2
+      rgba: 0
+    key4:
+      serializedVersion: 2
+      rgba: 0
+    key5:
+      serializedVersion: 2
+      rgba: 0
+    key6:
+      serializedVersion: 2
+      rgba: 0
+    key7:
+      serializedVersion: 2
+      rgba: 0
+    ctime0: 0
+    ctime1: 65535
+    ctime2: 0
+    ctime3: 0
+    ctime4: 0
+    ctime5: 0
+    ctime6: 0
+    ctime7: 0
+    atime0: 0
+    atime1: 65535
+    atime2: 0
+    atime3: 0
+    atime4: 0
+    atime5: 0
+    atime6: 0
+    atime7: 0
+    m_NumColorKeys: 2
+    m_NumAlphaKeys: 2
+  Color1: {r: .203921571, g: .250980407, b: .313725501, a: 1}
+  Color2: {r: 0, g: 0, b: 0, a: 0}
+  Color3: {r: 0, g: 0, b: 0, a: 0}
+  Color4: {r: 0, g: 0, b: 0, a: 0}
+  Color5: {r: 0, g: 0, b: 0, a: 0}
+  ColorChangeType: 1
+  ColorParam:
+    Colors:
+    - t: 0
+      Color: {r: 1, g: 1, b: 1, a: 1}
+  ColorGradient:
+    key0:
+      serializedVersion: 2
+      rgba: 16777215
+    key1:
+      serializedVersion: 2
+      rgba: 4294967295
+    key2:
+      serializedVersion: 2
+      rgba: 4278190080
+    key3:
+      serializedVersion: 2
+      rgba: 4110417920
+    key4:
+      serializedVersion: 2
+      rgba: 0
+    key5:
+      serializedVersion: 2
+      rgba: 0
+    key6:
+      serializedVersion: 2
+      rgba: 0
+    key7:
+      serializedVersion: 2
+      rgba: 0
+    ctime0: 0
+    ctime1: 65535
+    ctime2: 0
+    ctime3: 0
+    ctime4: 0
+    ctime5: 0
+    ctime6: 0
+    ctime7: 0
+    atime0: 0
+    atime1: 13685
+    atime2: 42212
+    atime3: 53585
+    atime4: 65535
+    atime5: 0
+    atime6: 0
+    atime7: 0
+    m_NumColorKeys: 2
+    m_NumAlphaKeys: 5
+  ColorGradualCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  RibbonWidth: 1
+  MaxRibbonElements: 8
+  RibbonLen: 15
+  TailDistance: 0
+  SyncTrailWithClient: 0
+  RibbonUVStretch: 0
+  FaceToObject: 0
+  FaceObject: {fileID: 0}
+  UseRandomRibbon: 0
+  RibbonWidthMin: 1
+  RibbonWidthMax: 1
+  RibbonLenMin: 15
+  RibbonLenMax: 15
+  ConeSize: {x: 1, y: 3}
+  ConeAngle: 0
+  ConeSegment: 12
+  UseConeAngleChange: 0
+  ConeDeltaAngle:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 60
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  CMesh: {fileID: 0}
+  MeshRotateAxis: {x: 0, y: 1, z: 0}
+  EmitType: 0
+  BoxSize: {x: 0, y: 0, z: 0}
+  EmitPoint: {x: 0, y: 0, z: 0}
+  Radius: 1
+  UseRandomCircle: 0
+  CircleRadiusMin: 1
+  CircleRadiusMax: 10
+  CircleDir: {x: 0, y: 1, z: 0}
+  EmitUniform: 0
+  LineStartObj: {fileID: 400002}
+  LineEndObj: {fileID: 0}
+  MaxENodes: 14
+  IsNodeLifeLoop: 0
+  NodeLifeMin: 1
+  NodeLifeMax: 1
+  EmitWay: 0
+  EmitterCurveX:
+    MaxValue: 1
+    TimeLen: 1
+    WrapType: 0
+    Curve01:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+  DiffDistance: .100000001
+  EmitMesh: {fileID: 0}
+  EmitMeshType: 0
+  IsBurstEmit: 0
+  ChanceToEmit: 100
+  EmitDuration: -1
+  EmitRate: 14
+  EmitLoop: 1
+  DirType: 0
+  OriVelocityAxis: {x: 0, y: 0, z: 1}
+  AngleAroundAxis: 0
+  UseRandomDirAngle: 0
+  AngleAroundAxisMax: 0
+  OriSpeed: 0
+  AlwaysSyncRotation: 0
+  IsRandomSpeed: 0
+  SpeedMin: 0
+  SpeedMax: 0
+  JetAffectorEnable: 0
+  JetMagType: 0
+  JetMag: 0
+  JetCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  JetCurveX:
+    MaxValue: 1
+    TimeLen: 1
+    WrapType: 0
+    Curve01:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+  VortexAffectorEnable: 0
+  VortexMagType: 0
+  VortexMag: 1
+  VortexCurveX:
+    MaxValue: 1
+    TimeLen: 1
+    WrapType: 0
+    Curve01:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+  VortexCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  VortexDirection: {x: 0, y: 1, z: 0}
+  VortexInheritRotation: 1
+  VortexObj: {fileID: 400002}
+  IsFixedCircle: 0
+  IsRandomVortexDir: 0
+  IsVortexAccelerate: 0
+  VortexAttenuation: 0
+  UseVortexMaxDistance: 0
+  VortexMaxDistance: 0
+  UVRotAffectorEnable: 0
+  RandomUVRotateSpeed: 0
+  UVRotXSpeed: 0
+  UVRotYSpeed: 0
+  UVRotXSpeedMax: 0
+  UVRotYSpeedMax: 0
+  UVRotStartOffset: {x: 0, y: 0}
+  UVScaleAffectorEnable: 0
+  UVScaleXSpeed: 0
+  UVScaleYSpeed: 0
+  GravityAffectorEnable: 0
+  GravityAftType: 0
+  GravityMagType: 0
+  GravityMag: 0
+  GravityCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  GravityCurveX:
+    MaxValue: 1
+    TimeLen: 1
+    WrapType: 0
+    Curve01:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+  GravityDirection: {x: 0, y: 1, z: 0}
+  GravityObject: {fileID: 400002}
+  IsGravityAccelerate: 1
+  GravityInheritRotation: 0
+  AirAffectorEnable: 0
+  AirObject: {fileID: 400002}
+  AirMagType: 0
+  AirMagnitude: 0
+  AirMagCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  AirMagCurveX:
+    MaxValue: 1
+    TimeLen: 1
+    WrapType: 0
+    Curve01:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+  AirDirection: {x: 0, y: 1, z: 0}
+  AirAttenuation: 0
+  AirUseMaxDistance: 0
+  AirMaxDistance: 0
+  AirEnableSpread: 0
+  AirSpread: 0
+  AirInheritVelocity: 0
+  AirInheritRotation: 0
+  BombAffectorEnable: 0
+  BombObject: {fileID: 400002}
+  BombType: 1
+  BombDecayType: 0
+  BombMagnitude: 0
+  BombAxis: {x: 0, y: 0, z: 0}
+  BombDecay: 0
+  TurbulenceAffectorEnable: 0
+  TurbulenceObject: {fileID: 400002}
+  TurbulenceMagType: 0
+  TurbulenceMagnitude: 1
+  TurbulenceMagCurveX:
+    MaxValue: 1
+    TimeLen: 1
+    WrapType: 0
+    Curve01:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+  TurbulenceMagCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  TurbulenceAttenuation: 0
+  TurbulenceUseMaxDistance: 0
+  TurbulenceMaxDistance: 0
+  TurbulenceForce: {x: 1, y: 1, z: 1}
+  DragAffectorEnable: 0
+  DragObj: {fileID: 0}
+  DragUseDir: 0
+  DragDir: {x: 0, y: 1, z: 0}
+  DragMag: 10
+  DragUseMaxDist: 0
+  DragMaxDist: 50
+  DragAtten: 0
+  UVAffectorEnable: 0
+  UVType: 0
+  OriTopLeftUV: {x: 0, y: 0}
+  OriUVDimensions: {x: 1, y: 1}
+  Cols: 1
+  Rows: 1
+  LoopCircles: -1
+  UVTime: 1
+  EanPath: none
+  EanIndex: 0
+  RandomStartFrame: 0
+  UseCollisionDetection: 0
+  ParticleRadius: 1
+  CollisionType: 0
+  CollisionAutoDestroy: 1
+  EventReceiver: {fileID: 0}
+  EventHandleFunctionName: ' '
+  CollisionGoal: {fileID: 0}
+  ColliisionPosRange: 0
+  CollisionLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  PlaneDir: {x: 0, y: 1, z: 0}
+  PlaneOffset: {x: 0, y: -10, z: 0}
+  RopeWidth: 1
+  RopeUVLen: 5
+  RopeFixUVLen: 1
+  DecalSize: {x: 10, y: 10, z: 10}
+  SineAffectorEnable: 0
+  SineMagType: 0
+  SineMagnitude: 1
+  SineTime: 1
+  SineMagCurveX:
+    MaxValue: 1
+    TimeLen: 1
+    WrapType: 0
+    Curve01:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+  SineForce: {x: 0, y: 1, z: 0}
+  SineIsAccelarate: 0
+  UseShaderCurve1: 0
+  UseShaderCurve2: 0
+  UseFlowControl: 0
+  ShaderCurveX1:
+    MaxValue: 1
+    TimeLen: 1
+    WrapType: 0
+    Curve01:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+  ShaderCurveX2:
+    MaxValue: 1
+    TimeLen: 1
+    WrapType: 0
+    Curve01:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+  FlowSpeed: 1
+  FlowStretchLength: 1
+  UseSubEmitters: 0
+  SpawnCache: {fileID: 0}
+  BirthSubEmitter: 
+  CollisionSubEmitter: 
+  DeathSubEmitter: 
+  SubEmitterAutoStop: 1
+  STBezierSpline: {fileID: 0}
+  STTrailLen: 10
+  STElementWidth: 2
+  EmitSpline: {fileID: 0}
+  EmitSplinePosType: 0
+  SplineEaseType: 0
+  RotationAxis: {x: 0, y: 1, z: 0}
+  TimeScaleEnabled: 0
+  TimeScaleCurve:
+    MaxValue: 1
+    TimeLen: 1
+    WrapType: 0
+    Curve01:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+  AvailableNodeCount: 1
+  LastClientPos: {x: -4.30000019, y: 0, z: -18.8999996}
+  Owner: {fileID: 11400010}
+  mStopped: 0
+--- !u!114 &11400004
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100004}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4eaa492ec72a57543b3ace7c81409998, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ClientTransform: {fileID: 400004}
+  SyncClient: 1
+  Material: {fileID: 2100000, guid: f1a910471125784449386fad17d4b8cb, type: 2}
+  RenderType: 0
+  StartTime: 0
+  MaxFps: 60
+  DebugColor: {r: 1, g: 1, b: 1, a: 1}
+  Depth: 6
+  SpriteType: 0
+  OriPoint: 0
+  SpriteWidth: 1
+  SpriteHeight: 1
+  SpriteUVStretch: 0
+  RandomOriScale: 1
+  RandomOriRot: 1
+  OriRotationMin: 0
+  OriRotationMax: 360
+  RotAffectorEnable: 1
+  RotateType: 4
+  DeltaRot: 360
+  RotateCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 360
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  RotateCurveWrap: 0
+  RotateCurveTime: 1
+  RotateCurveMaxValue: 1
+  RotateCurve01:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  RotateSpeedMin: 600
+  RotateSpeedMax: 1200
+  UniformRandomScale: 1
+  OriScaleXMin: 1
+  OriScaleXMax: 1.60000002
+  OriScaleYMin: 1
+  OriScaleYMax: 1
+  ScaleAffectorEnable: 1
+  ScaleType: 3
+  DeltaScaleX: 3
+  DeltaScaleY: 3
+  ScaleXCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 5
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  ScaleYCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 5
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  ScaleWrapMode: 0
+  ScaleCurveTime: -1
+  MaxScaleCalue: 3
+  MaxScaleValueY: 1
+  ScaleXCurveNew:
+    serializedVersion: 2
+    m_Curve:
+    - time: .00231481483
+      value: .19650653
+      inSlope: .84565568
+      outSlope: .84565568
+      tangentMode: 0
+    - time: .40243119
+      value: .609782457
+      inSlope: .646710396
+      outSlope: .646710396
+      tangentMode: 0
+    - time: 1
+      value: .641921401
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  ScaleYCurveNew:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  UseSameScaleCurve: 1
+  DeltaScaleXMax: 0
+  DeltaScaleYMax: 0
+  ColorAffectorEnable: 1
+  ColorAffectType: 0
+  ColorGradualTimeLength: -1
+  ColorGradualType: 0
+  IsRandomStartColor: 1
+  RandomColorParam:
+    Colors:
+    - t: 0
+      Color: {r: 1, g: 1, b: 1, a: 1}
+  RandomColorGradient:
+    key0:
+      serializedVersion: 2
+      rgba: 2778380543
+    key1:
+      serializedVersion: 2
+      rgba: 1442866943
+    key2:
+      serializedVersion: 2
+      rgba: 0
+    key3:
+      serializedVersion: 2
+      rgba: 0
+    key4:
+      serializedVersion: 2
+      rgba: 0
+    key5:
+      serializedVersion: 2
+      rgba: 0
+    key6:
+      serializedVersion: 2
+      rgba: 0
+    key7:
+      serializedVersion: 2
+      rgba: 0
+    ctime0: 0
+    ctime1: 65535
+    ctime2: 0
+    ctime3: 0
+    ctime4: 0
+    ctime5: 0
+    ctime6: 0
+    ctime7: 0
+    atime0: 0
+    atime1: 65535
+    atime2: 0
+    atime3: 0
+    atime4: 0
+    atime5: 0
+    atime6: 0
+    atime7: 0
+    m_NumColorKeys: 2
+    m_NumAlphaKeys: 2
+  Color1: {r: .426470578, g: .390722305, b: .366890132, a: 1}
+  Color2: {r: 0, g: 0, b: 0, a: 0}
+  Color3: {r: 0, g: 0, b: 0, a: 0}
+  Color4: {r: 0, g: 0, b: 0, a: 0}
+  Color5: {r: 0, g: 0, b: 0, a: 0}
+  ColorChangeType: 1
+  ColorParam:
+    Colors:
+    - t: 0
+      Color: {r: 1, g: 1, b: 1, a: 1}
+  ColorGradient:
+    key0:
+      serializedVersion: 2
+      rgba: 16777215
+    key1:
+      serializedVersion: 2
+      rgba: 4294967295
+    key2:
+      serializedVersion: 2
+      rgba: 4294967295
+    key3:
+      serializedVersion: 2
+      rgba: 4294967295
+    key4:
+      serializedVersion: 2
+      rgba: 0
+    key5:
+      serializedVersion: 2
+      rgba: 0
+    key6:
+      serializedVersion: 2
+      rgba: 0
+    key7:
+      serializedVersion: 2
+      rgba: 0
+    ctime0: 0
+    ctime1: 19468
+    ctime2: 46260
+    ctime3: 65535
+    ctime4: 0
+    ctime5: 0
+    ctime6: 0
+    ctime7: 0
+    atime0: 0
+    atime1: 8674
+    atime2: 24287
+    atime3: 50115
+    atime4: 65535
+    atime5: 0
+    atime6: 0
+    atime7: 0
+    m_NumColorKeys: 4
+    m_NumAlphaKeys: 5
+  ColorGradualCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  RibbonWidth: 1
+  MaxRibbonElements: 8
+  RibbonLen: 15
+  TailDistance: 0
+  SyncTrailWithClient: 0
+  RibbonUVStretch: 0
+  FaceToObject: 0
+  FaceObject: {fileID: 0}
+  UseRandomRibbon: 0
+  RibbonWidthMin: 1
+  RibbonWidthMax: 1
+  RibbonLenMin: 15
+  RibbonLenMax: 15
+  ConeSize: {x: 1, y: 3}
+  ConeAngle: 0
+  ConeSegment: 12
+  UseConeAngleChange: 0
+  ConeDeltaAngle:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 60
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  CMesh: {fileID: 4300000, guid: a358331a3e528d7409326db0508c8a24, type: 3}
+  MeshRotateAxis: {x: 0, y: 1, z: 0}
+  EmitType: 1
+  BoxSize: {x: 24, y: 5, z: 24}
+  EmitPoint: {x: 0, y: 0, z: 0}
+  Radius: 1
+  UseRandomCircle: 0
+  CircleRadiusMin: 1
+  CircleRadiusMax: 10
+  CircleDir: {x: 0, y: 1, z: 0}
+  EmitUniform: 0
+  LineStartObj: {fileID: 400004}
+  LineEndObj: {fileID: 0}
+  MaxENodes: 20
+  IsNodeLifeLoop: 0
+  NodeLifeMin: 1
+  NodeLifeMax: 1
+  EmitWay: 0
+  EmitterCurveX:
+    MaxValue: 1
+    TimeLen: 1
+    WrapType: 0
+    Curve01:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+  DiffDistance: .100000001
+  EmitMesh: {fileID: 0}
+  EmitMeshType: 0
+  IsBurstEmit: 0
+  ChanceToEmit: 100
+  EmitDuration: -1
+  EmitRate: 20
+  EmitLoop: 1
+  DirType: 1
+  OriVelocityAxis: {x: 0, y: 1, z: 0}
+  AngleAroundAxis: 34
+  UseRandomDirAngle: 1
+  AngleAroundAxisMax: 60
+  OriSpeed: 25
+  AlwaysSyncRotation: 0
+  IsRandomSpeed: 1
+  SpeedMin: 46
+  SpeedMax: 68
+  JetAffectorEnable: 0
+  JetMagType: 0
+  JetMag: 0
+  JetCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  JetCurveX:
+    MaxValue: 1
+    TimeLen: 1
+    WrapType: 0
+    Curve01:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+  VortexAffectorEnable: 1
+  VortexMagType: 0
+  VortexMag: 48
+  VortexCurveX:
+    MaxValue: 1
+    TimeLen: 1
+    WrapType: 0
+    Curve01:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+  VortexCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  VortexDirection: {x: 0, y: 1, z: 0}
+  VortexInheritRotation: 1
+  VortexObj: {fileID: 400004}
+  IsFixedCircle: 0
+  IsRandomVortexDir: 0
+  IsVortexAccelerate: 0
+  VortexAttenuation: 0
+  UseVortexMaxDistance: 0
+  VortexMaxDistance: 0
+  UVRotAffectorEnable: 0
+  RandomUVRotateSpeed: 0
+  UVRotXSpeed: 0
+  UVRotYSpeed: 0
+  UVRotXSpeedMax: 0
+  UVRotYSpeedMax: 0
+  UVRotStartOffset: {x: 0, y: 0}
+  UVScaleAffectorEnable: 0
+  UVScaleXSpeed: 0
+  UVScaleYSpeed: 0
+  GravityAffectorEnable: 0
+  GravityAftType: 0
+  GravityMagType: 0
+  GravityMag: 0
+  GravityCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  GravityCurveX:
+    MaxValue: 1
+    TimeLen: 1
+    WrapType: 0
+    Curve01:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+  GravityDirection: {x: 0, y: 1, z: 0}
+  GravityObject: {fileID: 400004}
+  IsGravityAccelerate: 1
+  GravityInheritRotation: 0
+  AirAffectorEnable: 0
+  AirObject: {fileID: 400004}
+  AirMagType: 0
+  AirMagnitude: 0
+  AirMagCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  AirMagCurveX:
+    MaxValue: 1
+    TimeLen: 1
+    WrapType: 0
+    Curve01:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+  AirDirection: {x: 0, y: 1, z: 0}
+  AirAttenuation: 0
+  AirUseMaxDistance: 0
+  AirMaxDistance: 0
+  AirEnableSpread: 0
+  AirSpread: 0
+  AirInheritVelocity: 0
+  AirInheritRotation: 0
+  BombAffectorEnable: 0
+  BombObject: {fileID: 400004}
+  BombType: 1
+  BombDecayType: 0
+  BombMagnitude: 0
+  BombAxis: {x: 0, y: 0, z: 0}
+  BombDecay: 0
+  TurbulenceAffectorEnable: 1
+  TurbulenceObject: {fileID: 400004}
+  TurbulenceMagType: 0
+  TurbulenceMagnitude: 4
+  TurbulenceMagCurveX:
+    MaxValue: 1
+    TimeLen: 1
+    WrapType: 0
+    Curve01:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+  TurbulenceMagCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  TurbulenceAttenuation: 0
+  TurbulenceUseMaxDistance: 0
+  TurbulenceMaxDistance: 0
+  TurbulenceForce: {x: 1, y: 1, z: 1}
+  DragAffectorEnable: 0
+  DragObj: {fileID: 400004}
+  DragUseDir: 0
+  DragDir: {x: 0, y: 1, z: 0}
+  DragMag: 10
+  DragUseMaxDist: 0
+  DragMaxDist: 50
+  DragAtten: 0
+  UVAffectorEnable: 1
+  UVType: 1
+  OriTopLeftUV: {x: 0, y: 0}
+  OriUVDimensions: {x: 1, y: 1}
+  Cols: 2
+  Rows: 2
+  LoopCircles: -1
+  UVTime: 999999
+  EanPath: none
+  EanIndex: 0
+  RandomStartFrame: 1
+  UseCollisionDetection: 0
+  ParticleRadius: 1
+  CollisionType: 0
+  CollisionAutoDestroy: 1
+  EventReceiver: {fileID: 0}
+  EventHandleFunctionName: ' '
+  CollisionGoal: {fileID: 0}
+  ColliisionPosRange: 0
+  CollisionLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  PlaneDir: {x: 0, y: 1, z: 0}
+  PlaneOffset: {x: 0, y: -10, z: 0}
+  RopeWidth: 1
+  RopeUVLen: 5
+  RopeFixUVLen: 1
+  DecalSize: {x: 10, y: 10, z: 10}
+  SineAffectorEnable: 0
+  SineMagType: 0
+  SineMagnitude: 1
+  SineTime: 1
+  SineMagCurveX:
+    MaxValue: 1
+    TimeLen: 1
+    WrapType: 0
+    Curve01:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+  SineForce: {x: 0, y: 1, z: 0}
+  SineIsAccelarate: 0
+  UseShaderCurve1: 0
+  UseShaderCurve2: 0
+  UseFlowControl: 0
+  ShaderCurveX1:
+    MaxValue: 1
+    TimeLen: 1
+    WrapType: 0
+    Curve01:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+  ShaderCurveX2:
+    MaxValue: 1
+    TimeLen: 1
+    WrapType: 0
+    Curve01:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+  FlowSpeed: 1
+  FlowStretchLength: 1
+  UseSubEmitters: 0
+  SpawnCache: {fileID: 0}
+  BirthSubEmitter: 
+  CollisionSubEmitter: 
+  DeathSubEmitter: 
+  SubEmitterAutoStop: 1
+  STBezierSpline: {fileID: 0}
+  STTrailLen: 10
+  STElementWidth: 2
+  EmitSpline: {fileID: 11400018}
+  EmitSplinePosType: 0
+  SplineEaseType: 0
+  RotationAxis: {x: 0, y: 1, z: 0}
+  TimeScaleEnabled: 0
+  TimeScaleCurve:
+    MaxValue: 1
+    TimeLen: 1
+    WrapType: 0
+    Curve01:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+  AvailableNodeCount: 2
+  LastClientPos: {x: -4.30000019, y: 0, z: -18.8999996}
+  Owner: {fileID: 11400010}
+  mStopped: 0
+--- !u!114 &11400006
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100006}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4eaa492ec72a57543b3ace7c81409998, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ClientTransform: {fileID: 400006}
+  SyncClient: 1
+  Material: {fileID: 2100000, guid: da1562c8f156556449272bfa0fc239e4, type: 2}
+  RenderType: 0
+  StartTime: 0
+  MaxFps: 60
+  DebugColor: {r: 1, g: 1, b: 1, a: 1}
+  Depth: 6
+  SpriteType: 0
+  OriPoint: 0
+  SpriteWidth: 1
+  SpriteHeight: 1
+  SpriteUVStretch: 0
+  RandomOriScale: 1
+  RandomOriRot: 1
+  OriRotationMin: 0
+  OriRotationMax: 360
+  RotAffectorEnable: 1
+  RotateType: 4
+  DeltaRot: 360
+  RotateCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 360
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  RotateCurveWrap: 0
+  RotateCurveTime: 1
+  RotateCurveMaxValue: 1
+  RotateCurve01:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  RotateSpeedMin: 400
+  RotateSpeedMax: 600
+  UniformRandomScale: 1
+  OriScaleXMin: 1
+  OriScaleXMax: 2.4000001
+  OriScaleYMin: 1
+  OriScaleYMax: 1
+  ScaleAffectorEnable: 1
+  ScaleType: 3
+  DeltaScaleX: 3
+  DeltaScaleY: 3
+  ScaleXCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 5
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  ScaleYCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 5
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  ScaleWrapMode: 0
+  ScaleCurveTime: -1
+  MaxScaleCalue: 3
+  MaxScaleValueY: 1
+  ScaleXCurveNew:
+    serializedVersion: 2
+    m_Curve:
+    - time: .00231481483
+      value: .19650653
+      inSlope: .84565568
+      outSlope: .84565568
+      tangentMode: 0
+    - time: .40243119
+      value: .609782457
+      inSlope: .646710396
+      outSlope: .646710396
+      tangentMode: 0
+    - time: 1
+      value: .641921401
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  ScaleYCurveNew:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  UseSameScaleCurve: 1
+  DeltaScaleXMax: 0
+  DeltaScaleYMax: 0
+  ColorAffectorEnable: 1
+  ColorAffectType: 0
+  ColorGradualTimeLength: -1
+  ColorGradualType: 0
+  IsRandomStartColor: 0
+  RandomColorParam:
+    Colors:
+    - t: 0
+      Color: {r: 1, g: 1, b: 1, a: 1}
+  RandomColorGradient:
+    key0:
+      serializedVersion: 2
+      rgba: 4289159240
+    key1:
+      serializedVersion: 2
+      rgba: 4291910566
+    key2:
+      serializedVersion: 2
+      rgba: 0
+    key3:
+      serializedVersion: 2
+      rgba: 0
+    key4:
+      serializedVersion: 2
+      rgba: 0
+    key5:
+      serializedVersion: 2
+      rgba: 0
+    key6:
+      serializedVersion: 2
+      rgba: 0
+    key7:
+      serializedVersion: 2
+      rgba: 0
+    ctime0: 0
+    ctime1: 65535
+    ctime2: 0
+    ctime3: 0
+    ctime4: 0
+    ctime5: 0
+    ctime6: 0
+    ctime7: 0
+    atime0: 0
+    atime1: 65535
+    atime2: 0
+    atime3: 0
+    atime4: 0
+    atime5: 0
+    atime6: 0
+    atime7: 0
+    m_NumColorKeys: 2
+    m_NumAlphaKeys: 2
+  Color1: {r: .426470578, g: .390722305, b: .366890132, a: 1}
+  Color2: {r: 0, g: 0, b: 0, a: 0}
+  Color3: {r: 0, g: 0, b: 0, a: 0}
+  Color4: {r: 0, g: 0, b: 0, a: 0}
+  Color5: {r: 0, g: 0, b: 0, a: 0}
+  ColorChangeType: 1
+  ColorParam:
+    Colors:
+    - t: 0
+      Color: {r: 1, g: 1, b: 1, a: 1}
+  ColorGradient:
+    key0:
+      serializedVersion: 2
+      rgba: 16777215
+    key1:
+      serializedVersion: 2
+      rgba: 4294967295
+    key2:
+      serializedVersion: 2
+      rgba: 4294967295
+    key3:
+      serializedVersion: 2
+      rgba: 4294967295
+    key4:
+      serializedVersion: 2
+      rgba: 0
+    key5:
+      serializedVersion: 2
+      rgba: 0
+    key6:
+      serializedVersion: 2
+      rgba: 0
+    key7:
+      serializedVersion: 2
+      rgba: 0
+    ctime0: 0
+    ctime1: 19468
+    ctime2: 46260
+    ctime3: 65535
+    ctime4: 0
+    ctime5: 0
+    ctime6: 0
+    ctime7: 0
+    atime0: 0
+    atime1: 8674
+    atime2: 24287
+    atime3: 50115
+    atime4: 65535
+    atime5: 0
+    atime6: 0
+    atime7: 0
+    m_NumColorKeys: 4
+    m_NumAlphaKeys: 5
+  ColorGradualCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  RibbonWidth: 1
+  MaxRibbonElements: 8
+  RibbonLen: 15
+  TailDistance: 0
+  SyncTrailWithClient: 0
+  RibbonUVStretch: 0
+  FaceToObject: 0
+  FaceObject: {fileID: 0}
+  UseRandomRibbon: 0
+  RibbonWidthMin: 1
+  RibbonWidthMax: 1
+  RibbonLenMin: 15
+  RibbonLenMax: 15
+  ConeSize: {x: 1, y: 3}
+  ConeAngle: 0
+  ConeSegment: 12
+  UseConeAngleChange: 0
+  ConeDeltaAngle:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 60
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  CMesh: {fileID: 4300000, guid: a358331a3e528d7409326db0508c8a24, type: 3}
+  MeshRotateAxis: {x: 0, y: 1, z: 0}
+  EmitType: 1
+  BoxSize: {x: 5, y: 5, z: 5}
+  EmitPoint: {x: 0, y: 0, z: 0}
+  Radius: 1
+  UseRandomCircle: 0
+  CircleRadiusMin: 1
+  CircleRadiusMax: 10
+  CircleDir: {x: 0, y: 1, z: 0}
+  EmitUniform: 0
+  LineStartObj: {fileID: 400006}
+  LineEndObj: {fileID: 0}
+  MaxENodes: 25
+  IsNodeLifeLoop: 0
+  NodeLifeMin: 1
+  NodeLifeMax: 1
+  EmitWay: 0
+  EmitterCurveX:
+    MaxValue: 1
+    TimeLen: 1
+    WrapType: 0
+    Curve01:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+  DiffDistance: .100000001
+  EmitMesh: {fileID: 0}
+  EmitMeshType: 0
+  IsBurstEmit: 0
+  ChanceToEmit: 100
+  EmitDuration: -1
+  EmitRate: 25
+  EmitLoop: 1
+  DirType: 1
+  OriVelocityAxis: {x: 0, y: 1, z: 0}
+  AngleAroundAxis: 34
+  UseRandomDirAngle: 1
+  AngleAroundAxisMax: 60
+  OriSpeed: 25
+  AlwaysSyncRotation: 0
+  IsRandomSpeed: 1
+  SpeedMin: 46
+  SpeedMax: 68
+  JetAffectorEnable: 0
+  JetMagType: 0
+  JetMag: 0
+  JetCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  JetCurveX:
+    MaxValue: 1
+    TimeLen: 1
+    WrapType: 0
+    Curve01:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+  VortexAffectorEnable: 0
+  VortexMagType: 0
+  VortexMag: 24
+  VortexCurveX:
+    MaxValue: 1
+    TimeLen: 1
+    WrapType: 0
+    Curve01:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+  VortexCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  VortexDirection: {x: 0, y: 1, z: 0}
+  VortexInheritRotation: 1
+  VortexObj: {fileID: 400006}
+  IsFixedCircle: 0
+  IsRandomVortexDir: 0
+  IsVortexAccelerate: 0
+  VortexAttenuation: 0
+  UseVortexMaxDistance: 0
+  VortexMaxDistance: 0
+  UVRotAffectorEnable: 0
+  RandomUVRotateSpeed: 0
+  UVRotXSpeed: 0
+  UVRotYSpeed: 0
+  UVRotXSpeedMax: 0
+  UVRotYSpeedMax: 0
+  UVRotStartOffset: {x: 0, y: 0}
+  UVScaleAffectorEnable: 0
+  UVScaleXSpeed: 0
+  UVScaleYSpeed: 0
+  GravityAffectorEnable: 0
+  GravityAftType: 0
+  GravityMagType: 0
+  GravityMag: 0
+  GravityCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  GravityCurveX:
+    MaxValue: 1
+    TimeLen: 1
+    WrapType: 0
+    Curve01:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+  GravityDirection: {x: 0, y: 1, z: 0}
+  GravityObject: {fileID: 400006}
+  IsGravityAccelerate: 1
+  GravityInheritRotation: 0
+  AirAffectorEnable: 0
+  AirObject: {fileID: 400006}
+  AirMagType: 0
+  AirMagnitude: 0
+  AirMagCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  AirMagCurveX:
+    MaxValue: 1
+    TimeLen: 1
+    WrapType: 0
+    Curve01:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+  AirDirection: {x: 0, y: 1, z: 0}
+  AirAttenuation: 0
+  AirUseMaxDistance: 0
+  AirMaxDistance: 0
+  AirEnableSpread: 0
+  AirSpread: 0
+  AirInheritVelocity: 0
+  AirInheritRotation: 0
+  BombAffectorEnable: 0
+  BombObject: {fileID: 400006}
+  BombType: 1
+  BombDecayType: 0
+  BombMagnitude: 0
+  BombAxis: {x: 0, y: 0, z: 0}
+  BombDecay: 0
+  TurbulenceAffectorEnable: 1
+  TurbulenceObject: {fileID: 400006}
+  TurbulenceMagType: 0
+  TurbulenceMagnitude: 4
+  TurbulenceMagCurveX:
+    MaxValue: 1
+    TimeLen: 1
+    WrapType: 0
+    Curve01:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+  TurbulenceMagCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  TurbulenceAttenuation: 0
+  TurbulenceUseMaxDistance: 0
+  TurbulenceMaxDistance: 0
+  TurbulenceForce: {x: 1, y: 1, z: 1}
+  DragAffectorEnable: 0
+  DragObj: {fileID: 400006}
+  DragUseDir: 0
+  DragDir: {x: 0, y: 1, z: 0}
+  DragMag: 10
+  DragUseMaxDist: 0
+  DragMaxDist: 50
+  DragAtten: 0
+  UVAffectorEnable: 1
+  UVType: 1
+  OriTopLeftUV: {x: 0, y: 0}
+  OriUVDimensions: {x: 1, y: 1}
+  Cols: 2
+  Rows: 2
+  LoopCircles: -1
+  UVTime: -1
+  EanPath: none
+  EanIndex: 0
+  RandomStartFrame: 0
+  UseCollisionDetection: 0
+  ParticleRadius: 1
+  CollisionType: 0
+  CollisionAutoDestroy: 1
+  EventReceiver: {fileID: 0}
+  EventHandleFunctionName: ' '
+  CollisionGoal: {fileID: 0}
+  ColliisionPosRange: 0
+  CollisionLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  PlaneDir: {x: 0, y: 1, z: 0}
+  PlaneOffset: {x: 0, y: -10, z: 0}
+  RopeWidth: 1
+  RopeUVLen: 5
+  RopeFixUVLen: 1
+  DecalSize: {x: 10, y: 10, z: 10}
+  SineAffectorEnable: 0
+  SineMagType: 0
+  SineMagnitude: 1
+  SineTime: 1
+  SineMagCurveX:
+    MaxValue: 1
+    TimeLen: 1
+    WrapType: 0
+    Curve01:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+  SineForce: {x: 0, y: 1, z: 0}
+  SineIsAccelarate: 0
+  UseShaderCurve1: 0
+  UseShaderCurve2: 0
+  UseFlowControl: 0
+  ShaderCurveX1:
+    MaxValue: 1
+    TimeLen: 1
+    WrapType: 0
+    Curve01:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+  ShaderCurveX2:
+    MaxValue: 1
+    TimeLen: 1
+    WrapType: 0
+    Curve01:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+  FlowSpeed: 1
+  FlowStretchLength: 1
+  UseSubEmitters: 0
+  SpawnCache: {fileID: 0}
+  BirthSubEmitter: 
+  CollisionSubEmitter: 
+  DeathSubEmitter: 
+  SubEmitterAutoStop: 1
+  STBezierSpline: {fileID: 0}
+  STTrailLen: 10
+  STElementWidth: 2
+  EmitSpline: {fileID: 11400018}
+  EmitSplinePosType: 0
+  SplineEaseType: 0
+  RotationAxis: {x: 0, y: 1, z: 0}
+  TimeScaleEnabled: 0
+  TimeScaleCurve:
+    MaxValue: 1
+    TimeLen: 1
+    WrapType: 0
+    Curve01:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+  AvailableNodeCount: 2
+  LastClientPos: {x: -4.30000019, y: 0, z: -18.8999996}
+  Owner: {fileID: 11400010}
+  mStopped: 0
+--- !u!114 &11400008
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100008}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4eaa492ec72a57543b3ace7c81409998, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ClientTransform: {fileID: 400008}
+  SyncClient: 0
+  Material: {fileID: 2100000, guid: 3888f786c2c7d8f43b7817b8b4da968a, type: 2}
+  RenderType: 3
+  StartTime: 0
+  MaxFps: 60
+  DebugColor: {r: 1, g: 1, b: 1, a: 1}
+  Depth: 6
+  SpriteType: 0
+  OriPoint: 0
+  SpriteWidth: 1
+  SpriteHeight: 1
+  SpriteUVStretch: 0
+  RandomOriScale: 1
+  RandomOriRot: 1
+  OriRotationMin: 0
+  OriRotationMax: 360
+  RotAffectorEnable: 1
+  RotateType: 4
+  DeltaRot: 360
+  RotateCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 360
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  RotateCurveWrap: 0
+  RotateCurveTime: 1
+  RotateCurveMaxValue: 1
+  RotateCurve01:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  RotateSpeedMin: 600
+  RotateSpeedMax: 800
+  UniformRandomScale: 0
+  OriScaleXMin: 10
+  OriScaleXMax: 14
+  OriScaleYMin: 10
+  OriScaleYMax: 14
+  ScaleAffectorEnable: 1
+  ScaleType: 3
+  DeltaScaleX: 3
+  DeltaScaleY: 3
+  ScaleXCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 5
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  ScaleYCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 5
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  ScaleWrapMode: 0
+  ScaleCurveTime: -1
+  MaxScaleCalue: 4
+  MaxScaleValueY: 1
+  ScaleXCurveNew:
+    serializedVersion: 2
+    m_Curve:
+    - time: .00231481483
+      value: .19650653
+      inSlope: .84565568
+      outSlope: .84565568
+      tangentMode: 0
+    - time: .40243119
+      value: .609782457
+      inSlope: .646710396
+      outSlope: .646710396
+      tangentMode: 0
+    - time: 1
+      value: .969432294
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  ScaleYCurveNew:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  UseSameScaleCurve: 1
+  DeltaScaleXMax: 0
+  DeltaScaleYMax: 0
+  ColorAffectorEnable: 1
+  ColorAffectType: 0
+  ColorGradualTimeLength: -1
+  ColorGradualType: 0
+  IsRandomStartColor: 0
+  RandomColorParam:
+    Colors:
+    - t: 0
+      Color: {r: 1, g: 1, b: 1, a: 1}
+  RandomColorGradient:
+    key0:
+      serializedVersion: 2
+      rgba: 4294967295
+    key1:
+      serializedVersion: 2
+      rgba: 4294967295
+    key2:
+      serializedVersion: 2
+      rgba: 0
+    key3:
+      serializedVersion: 2
+      rgba: 0
+    key4:
+      serializedVersion: 2
+      rgba: 0
+    key5:
+      serializedVersion: 2
+      rgba: 0
+    key6:
+      serializedVersion: 2
+      rgba: 0
+    key7:
+      serializedVersion: 2
+      rgba: 0
+    ctime0: 0
+    ctime1: 65535
+    ctime2: 0
+    ctime3: 0
+    ctime4: 0
+    ctime5: 0
+    ctime6: 0
+    ctime7: 0
+    atime0: 0
+    atime1: 65535
+    atime2: 0
+    atime3: 0
+    atime4: 0
+    atime5: 0
+    atime6: 0
+    atime7: 0
+    m_NumColorKeys: 2
+    m_NumAlphaKeys: 2
+  Color1: {r: .568627477, g: .745098054, b: 1, a: 1}
+  Color2: {r: 0, g: 0, b: 0, a: 0}
+  Color3: {r: 0, g: 0, b: 0, a: 0}
+  Color4: {r: 0, g: 0, b: 0, a: 0}
+  Color5: {r: 0, g: 0, b: 0, a: 0}
+  ColorChangeType: 1
+  ColorParam:
+    Colors:
+    - t: 0
+      Color: {r: 1, g: 1, b: 1, a: 1}
+  ColorGradient:
+    key0:
+      serializedVersion: 2
+      rgba: 16777215
+    key1:
+      serializedVersion: 2
+      rgba: 4294967295
+    key2:
+      serializedVersion: 2
+      rgba: 4294967295
+    key3:
+      serializedVersion: 2
+      rgba: 4294940855
+    key4:
+      serializedVersion: 2
+      rgba: 0
+    key5:
+      serializedVersion: 2
+      rgba: 0
+    key6:
+      serializedVersion: 2
+      rgba: 0
+    key7:
+      serializedVersion: 2
+      rgba: 0
+    ctime0: 0
+    ctime1: 19468
+    ctime2: 46260
+    ctime3: 65535
+    ctime4: 0
+    ctime5: 0
+    ctime6: 0
+    ctime7: 0
+    atime0: 0
+    atime1: 4241
+    atime2: 24287
+    atime3: 50115
+    atime4: 65535
+    atime5: 0
+    atime6: 0
+    atime7: 0
+    m_NumColorKeys: 4
+    m_NumAlphaKeys: 5
+  ColorGradualCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  RibbonWidth: 1
+  MaxRibbonElements: 8
+  RibbonLen: 15
+  TailDistance: 0
+  SyncTrailWithClient: 0
+  RibbonUVStretch: 0
+  FaceToObject: 0
+  FaceObject: {fileID: 0}
+  UseRandomRibbon: 0
+  RibbonWidthMin: 1
+  RibbonWidthMax: 1
+  RibbonLenMin: 15
+  RibbonLenMax: 15
+  ConeSize: {x: 1, y: 3}
+  ConeAngle: 0
+  ConeSegment: 12
+  UseConeAngleChange: 0
+  ConeDeltaAngle:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 60
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  CMesh: {fileID: 4300000, guid: a358331a3e528d7409326db0508c8a24, type: 3}
+  MeshRotateAxis: {x: 0, y: 1, z: 0}
+  EmitType: 6
+  BoxSize: {x: 0, y: 0, z: 0}
+  EmitPoint: {x: 0, y: 0, z: 0}
+  Radius: 1
+  UseRandomCircle: 0
+  CircleRadiusMin: 1
+  CircleRadiusMax: 10
+  CircleDir: {x: 0, y: 1, z: 0}
+  EmitUniform: 0
+  LineStartObj: {fileID: 400008}
+  LineEndObj: {fileID: 0}
+  MaxENodes: 18
+  IsNodeLifeLoop: 0
+  NodeLifeMin: 1.20000005
+  NodeLifeMax: 1.20000005
+  EmitWay: 0
+  EmitterCurveX:
+    MaxValue: 1
+    TimeLen: 1
+    WrapType: 0
+    Curve01:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+  DiffDistance: .100000001
+  EmitMesh: {fileID: 0}
+  EmitMeshType: 0
+  IsBurstEmit: 0
+  ChanceToEmit: 100
+  EmitDuration: -1
+  EmitRate: 6
+  EmitLoop: 1
+  DirType: 4
+  OriVelocityAxis: {x: 0, y: 1, z: 0}
+  AngleAroundAxis: 0
+  UseRandomDirAngle: 0
+  AngleAroundAxisMax: 0
+  OriSpeed: 25
+  AlwaysSyncRotation: 0
+  IsRandomSpeed: 0
+  SpeedMin: 18
+  SpeedMax: 30
+  JetAffectorEnable: 0
+  JetMagType: 0
+  JetMag: 0
+  JetCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  JetCurveX:
+    MaxValue: 1
+    TimeLen: 1
+    WrapType: 0
+    Curve01:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+  VortexAffectorEnable: 0
+  VortexMagType: 0
+  VortexMag: 1
+  VortexCurveX:
+    MaxValue: 1
+    TimeLen: 1
+    WrapType: 0
+    Curve01:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+  VortexCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  VortexDirection: {x: 0, y: 1, z: 0}
+  VortexInheritRotation: 1
+  VortexObj: {fileID: 400008}
+  IsFixedCircle: 0
+  IsRandomVortexDir: 0
+  IsVortexAccelerate: 0
+  VortexAttenuation: 0
+  UseVortexMaxDistance: 0
+  VortexMaxDistance: 0
+  UVRotAffectorEnable: 0
+  RandomUVRotateSpeed: 0
+  UVRotXSpeed: 0
+  UVRotYSpeed: 0
+  UVRotXSpeedMax: 0
+  UVRotYSpeedMax: 0
+  UVRotStartOffset: {x: 0, y: 0}
+  UVScaleAffectorEnable: 0
+  UVScaleXSpeed: 0
+  UVScaleYSpeed: 0
+  GravityAffectorEnable: 0
+  GravityAftType: 0
+  GravityMagType: 0
+  GravityMag: 0
+  GravityCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  GravityCurveX:
+    MaxValue: 1
+    TimeLen: 1
+    WrapType: 0
+    Curve01:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+  GravityDirection: {x: 0, y: 1, z: 0}
+  GravityObject: {fileID: 400008}
+  IsGravityAccelerate: 1
+  GravityInheritRotation: 0
+  AirAffectorEnable: 0
+  AirObject: {fileID: 400008}
+  AirMagType: 0
+  AirMagnitude: 0
+  AirMagCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  AirMagCurveX:
+    MaxValue: 1
+    TimeLen: 1
+    WrapType: 0
+    Curve01:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+  AirDirection: {x: 0, y: 1, z: 0}
+  AirAttenuation: 0
+  AirUseMaxDistance: 0
+  AirMaxDistance: 0
+  AirEnableSpread: 0
+  AirSpread: 0
+  AirInheritVelocity: 0
+  AirInheritRotation: 0
+  BombAffectorEnable: 0
+  BombObject: {fileID: 400008}
+  BombType: 1
+  BombDecayType: 0
+  BombMagnitude: 0
+  BombAxis: {x: 0, y: 0, z: 0}
+  BombDecay: 0
+  TurbulenceAffectorEnable: 0
+  TurbulenceObject: {fileID: 400008}
+  TurbulenceMagType: 0
+  TurbulenceMagnitude: 1
+  TurbulenceMagCurveX:
+    MaxValue: 1
+    TimeLen: 1
+    WrapType: 0
+    Curve01:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+  TurbulenceMagCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  TurbulenceAttenuation: 0
+  TurbulenceUseMaxDistance: 0
+  TurbulenceMaxDistance: 0
+  TurbulenceForce: {x: 1, y: 1, z: 1}
+  DragAffectorEnable: 0
+  DragObj: {fileID: 400008}
+  DragUseDir: 0
+  DragDir: {x: 0, y: 1, z: 0}
+  DragMag: 10
+  DragUseMaxDist: 0
+  DragMaxDist: 50
+  DragAtten: 0
+  UVAffectorEnable: 0
+  UVType: 0
+  OriTopLeftUV: {x: 0, y: 0}
+  OriUVDimensions: {x: 1, y: 1}
+  Cols: 1
+  Rows: 1
+  LoopCircles: -1
+  UVTime: 1
+  EanPath: none
+  EanIndex: 0
+  RandomStartFrame: 0
+  UseCollisionDetection: 0
+  ParticleRadius: 1
+  CollisionType: 0
+  CollisionAutoDestroy: 1
+  EventReceiver: {fileID: 0}
+  EventHandleFunctionName: ' '
+  CollisionGoal: {fileID: 0}
+  ColliisionPosRange: 0
+  CollisionLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  PlaneDir: {x: 0, y: 1, z: 0}
+  PlaneOffset: {x: 0, y: -10, z: 0}
+  RopeWidth: 1
+  RopeUVLen: 5
+  RopeFixUVLen: 1
+  DecalSize: {x: 10, y: 10, z: 10}
+  SineAffectorEnable: 0
+  SineMagType: 0
+  SineMagnitude: 1
+  SineTime: 1
+  SineMagCurveX:
+    MaxValue: 1
+    TimeLen: 1
+    WrapType: 0
+    Curve01:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+  SineForce: {x: 0, y: 1, z: 0}
+  SineIsAccelarate: 0
+  UseShaderCurve1: 0
+  UseShaderCurve2: 0
+  UseFlowControl: 0
+  ShaderCurveX1:
+    MaxValue: 1
+    TimeLen: 1
+    WrapType: 0
+    Curve01:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+  ShaderCurveX2:
+    MaxValue: 1
+    TimeLen: 1
+    WrapType: 0
+    Curve01:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+  FlowSpeed: 1
+  FlowStretchLength: 1
+  UseSubEmitters: 0
+  SpawnCache: {fileID: 0}
+  BirthSubEmitter: 
+  CollisionSubEmitter: 
+  DeathSubEmitter: 
+  SubEmitterAutoStop: 1
+  STBezierSpline: {fileID: 0}
+  STTrailLen: 10
+  STElementWidth: 2
+  EmitSpline: {fileID: 11400018}
+  EmitSplinePosType: 0
+  SplineEaseType: 0
+  RotationAxis: {x: 0, y: 1, z: 0}
+  TimeScaleEnabled: 0
+  TimeScaleCurve:
+    MaxValue: 1
+    TimeLen: 1
+    WrapType: 0
+    Curve01:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+  AvailableNodeCount: 11
+  LastClientPos: {x: -4.30000019, y: 0, z: -18.8999996}
+  Owner: {fileID: 11400010}
+  mStopped: 0
+--- !u!114 &11400010
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100010}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e31838b0476f14ea97697da6957b42, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MyVersion: 5.0.0
+  LifeTime: -1
+  IgnoreTimeScale: 0
+  EditView: 0
+  Scale: 1
+  MaxFps: 60
+  AutoDestroy: 0
+  MergeSameMaterialMesh: 1
+  Paused: 0
+  UpdateWhenOffScreen: 1
+  UseWith2DSprite: 0
+  SortingLayerName: Default
+  SortingOrder: 0
+  PlaybackTime: 1
+  TimeScaleEnabled: 0
+  TimeScaleCurve:
+    MaxValue: 1
+    TimeLen: 1
+    WrapType: 0
+    Curve01:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+--- !u!114 &11400012
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100012}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4eaa492ec72a57543b3ace7c81409998, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ClientTransform: {fileID: 400012}
+  SyncClient: 0
+  Material: {fileID: 2100000, guid: 29251eb6f972dcd42bc1e5d9ab3a0048, type: 2}
+  RenderType: 0
+  StartTime: 0
+  MaxFps: 60
+  DebugColor: {r: 1, g: 1, b: 1, a: 1}
+  Depth: 6
+  SpriteType: 2
+  OriPoint: 0
+  SpriteWidth: 1
+  SpriteHeight: 1
+  SpriteUVStretch: 0
+  RandomOriScale: 1
+  RandomOriRot: 1
+  OriRotationMin: 0
+  OriRotationMax: 360
+  RotAffectorEnable: 1
+  RotateType: 4
+  DeltaRot: 360
+  RotateCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 360
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  RotateCurveWrap: 0
+  RotateCurveTime: 1
+  RotateCurveMaxValue: 1
+  RotateCurve01:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  RotateSpeedMin: 600
+  RotateSpeedMax: 800
+  UniformRandomScale: 0
+  OriScaleXMin: 10
+  OriScaleXMax: 12
+  OriScaleYMin: 10
+  OriScaleYMax: 12
+  ScaleAffectorEnable: 1
+  ScaleType: 3
+  DeltaScaleX: 3
+  DeltaScaleY: 3
+  ScaleXCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 5
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  ScaleYCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 5
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  ScaleWrapMode: 0
+  ScaleCurveTime: -1
+  MaxScaleCalue: 4
+  MaxScaleValueY: 1
+  ScaleXCurveNew:
+    serializedVersion: 2
+    m_Curve:
+    - time: .00231481483
+      value: .19650653
+      inSlope: .84565568
+      outSlope: .84565568
+      tangentMode: 0
+    - time: .40243119
+      value: .609782457
+      inSlope: .646710396
+      outSlope: .646710396
+      tangentMode: 0
+    - time: 1
+      value: .969432294
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  ScaleYCurveNew:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  UseSameScaleCurve: 1
+  DeltaScaleXMax: 0
+  DeltaScaleYMax: 0
+  ColorAffectorEnable: 1
+  ColorAffectType: 0
+  ColorGradualTimeLength: -1
+  ColorGradualType: 0
+  IsRandomStartColor: 1
+  RandomColorParam:
+    Colors:
+    - t: 0
+      Color: {r: 1, g: 1, b: 1, a: 1}
+  RandomColorGradient:
+    key0:
+      serializedVersion: 2
+      rgba: 4289159240
+    key1:
+      serializedVersion: 2
+      rgba: 4291910566
+    key2:
+      serializedVersion: 2
+      rgba: 0
+    key3:
+      serializedVersion: 2
+      rgba: 0
+    key4:
+      serializedVersion: 2
+      rgba: 0
+    key5:
+      serializedVersion: 2
+      rgba: 0
+    key6:
+      serializedVersion: 2
+      rgba: 0
+    key7:
+      serializedVersion: 2
+      rgba: 0
+    ctime0: 0
+    ctime1: 65535
+    ctime2: 0
+    ctime3: 0
+    ctime4: 0
+    ctime5: 0
+    ctime6: 0
+    ctime7: 0
+    atime0: 0
+    atime1: 65535
+    atime2: 0
+    atime3: 0
+    atime4: 0
+    atime5: 0
+    atime6: 0
+    atime7: 0
+    m_NumColorKeys: 2
+    m_NumAlphaKeys: 2
+  Color1: {r: .568627477, g: .745098054, b: 1, a: 1}
+  Color2: {r: 0, g: 0, b: 0, a: 0}
+  Color3: {r: 0, g: 0, b: 0, a: 0}
+  Color4: {r: 0, g: 0, b: 0, a: 0}
+  Color5: {r: 0, g: 0, b: 0, a: 0}
+  ColorChangeType: 1
+  ColorParam:
+    Colors:
+    - t: 0
+      Color: {r: 1, g: 1, b: 1, a: 1}
+  ColorGradient:
+    key0:
+      serializedVersion: 2
+      rgba: 16777215
+    key1:
+      serializedVersion: 2
+      rgba: 4294967295
+    key2:
+      serializedVersion: 2
+      rgba: 4294967295
+    key3:
+      serializedVersion: 2
+      rgba: 4294940855
+    key4:
+      serializedVersion: 2
+      rgba: 0
+    key5:
+      serializedVersion: 2
+      rgba: 0
+    key6:
+      serializedVersion: 2
+      rgba: 0
+    key7:
+      serializedVersion: 2
+      rgba: 0
+    ctime0: 0
+    ctime1: 19468
+    ctime2: 46260
+    ctime3: 65535
+    ctime4: 0
+    ctime5: 0
+    ctime6: 0
+    ctime7: 0
+    atime0: 0
+    atime1: 4241
+    atime2: 24287
+    atime3: 50115
+    atime4: 65535
+    atime5: 0
+    atime6: 0
+    atime7: 0
+    m_NumColorKeys: 4
+    m_NumAlphaKeys: 5
+  ColorGradualCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  RibbonWidth: 1
+  MaxRibbonElements: 8
+  RibbonLen: 15
+  TailDistance: 0
+  SyncTrailWithClient: 0
+  RibbonUVStretch: 0
+  FaceToObject: 0
+  FaceObject: {fileID: 0}
+  UseRandomRibbon: 0
+  RibbonWidthMin: 1
+  RibbonWidthMax: 1
+  RibbonLenMin: 15
+  RibbonLenMax: 15
+  ConeSize: {x: 1, y: 3}
+  ConeAngle: 0
+  ConeSegment: 12
+  UseConeAngleChange: 0
+  ConeDeltaAngle:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 60
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  CMesh: {fileID: 4300000, guid: a358331a3e528d7409326db0508c8a24, type: 3}
+  MeshRotateAxis: {x: 0, y: 1, z: 0}
+  EmitType: 6
+  BoxSize: {x: 0, y: 0, z: 0}
+  EmitPoint: {x: 0, y: 0, z: 0}
+  Radius: 1
+  UseRandomCircle: 0
+  CircleRadiusMin: 1
+  CircleRadiusMax: 10
+  CircleDir: {x: 0, y: 1, z: 0}
+  EmitUniform: 0
+  LineStartObj: {fileID: 400012}
+  LineEndObj: {fileID: 0}
+  MaxENodes: 9
+  IsNodeLifeLoop: 0
+  NodeLifeMin: 1.20000005
+  NodeLifeMax: 1.20000005
+  EmitWay: 0
+  EmitterCurveX:
+    MaxValue: 1
+    TimeLen: 1
+    WrapType: 0
+    Curve01:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+  DiffDistance: .100000001
+  EmitMesh: {fileID: 0}
+  EmitMeshType: 0
+  IsBurstEmit: 0
+  ChanceToEmit: 100
+  EmitDuration: -1
+  EmitRate: 3
+  EmitLoop: 1
+  DirType: 4
+  OriVelocityAxis: {x: 0, y: 0, z: 1}
+  AngleAroundAxis: 0
+  UseRandomDirAngle: 0
+  AngleAroundAxisMax: 0
+  OriSpeed: 25
+  AlwaysSyncRotation: 0
+  IsRandomSpeed: 0
+  SpeedMin: 18
+  SpeedMax: 30
+  JetAffectorEnable: 0
+  JetMagType: 0
+  JetMag: 0
+  JetCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  JetCurveX:
+    MaxValue: 1
+    TimeLen: 1
+    WrapType: 0
+    Curve01:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+  VortexAffectorEnable: 0
+  VortexMagType: 0
+  VortexMag: 1
+  VortexCurveX:
+    MaxValue: 1
+    TimeLen: 1
+    WrapType: 0
+    Curve01:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+  VortexCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  VortexDirection: {x: 0, y: 1, z: 0}
+  VortexInheritRotation: 1
+  VortexObj: {fileID: 400012}
+  IsFixedCircle: 0
+  IsRandomVortexDir: 0
+  IsVortexAccelerate: 0
+  VortexAttenuation: 0
+  UseVortexMaxDistance: 0
+  VortexMaxDistance: 0
+  UVRotAffectorEnable: 0
+  RandomUVRotateSpeed: 0
+  UVRotXSpeed: 0
+  UVRotYSpeed: 0
+  UVRotXSpeedMax: 0
+  UVRotYSpeedMax: 0
+  UVRotStartOffset: {x: 0, y: 0}
+  UVScaleAffectorEnable: 0
+  UVScaleXSpeed: 0
+  UVScaleYSpeed: 0
+  GravityAffectorEnable: 0
+  GravityAftType: 0
+  GravityMagType: 0
+  GravityMag: 0
+  GravityCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  GravityCurveX:
+    MaxValue: 1
+    TimeLen: 1
+    WrapType: 0
+    Curve01:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+  GravityDirection: {x: 0, y: 1, z: 0}
+  GravityObject: {fileID: 400012}
+  IsGravityAccelerate: 1
+  GravityInheritRotation: 0
+  AirAffectorEnable: 0
+  AirObject: {fileID: 400012}
+  AirMagType: 0
+  AirMagnitude: 0
+  AirMagCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  AirMagCurveX:
+    MaxValue: 1
+    TimeLen: 1
+    WrapType: 0
+    Curve01:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+  AirDirection: {x: 0, y: 1, z: 0}
+  AirAttenuation: 0
+  AirUseMaxDistance: 0
+  AirMaxDistance: 0
+  AirEnableSpread: 0
+  AirSpread: 0
+  AirInheritVelocity: 0
+  AirInheritRotation: 0
+  BombAffectorEnable: 0
+  BombObject: {fileID: 400012}
+  BombType: 1
+  BombDecayType: 0
+  BombMagnitude: 0
+  BombAxis: {x: 0, y: 0, z: 0}
+  BombDecay: 0
+  TurbulenceAffectorEnable: 0
+  TurbulenceObject: {fileID: 400012}
+  TurbulenceMagType: 0
+  TurbulenceMagnitude: 1
+  TurbulenceMagCurveX:
+    MaxValue: 1
+    TimeLen: 1
+    WrapType: 0
+    Curve01:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+  TurbulenceMagCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  TurbulenceAttenuation: 0
+  TurbulenceUseMaxDistance: 0
+  TurbulenceMaxDistance: 0
+  TurbulenceForce: {x: 1, y: 1, z: 1}
+  DragAffectorEnable: 0
+  DragObj: {fileID: 400012}
+  DragUseDir: 0
+  DragDir: {x: 0, y: 1, z: 0}
+  DragMag: 10
+  DragUseMaxDist: 0
+  DragMaxDist: 50
+  DragAtten: 0
+  UVAffectorEnable: 0
+  UVType: 0
+  OriTopLeftUV: {x: 0, y: 0}
+  OriUVDimensions: {x: 1, y: 1}
+  Cols: 1
+  Rows: 1
+  LoopCircles: -1
+  UVTime: 1
+  EanPath: none
+  EanIndex: 0
+  RandomStartFrame: 0
+  UseCollisionDetection: 0
+  ParticleRadius: 1
+  CollisionType: 0
+  CollisionAutoDestroy: 1
+  EventReceiver: {fileID: 0}
+  EventHandleFunctionName: ' '
+  CollisionGoal: {fileID: 0}
+  ColliisionPosRange: 0
+  CollisionLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  PlaneDir: {x: 0, y: 1, z: 0}
+  PlaneOffset: {x: 0, y: -10, z: 0}
+  RopeWidth: 1
+  RopeUVLen: 5
+  RopeFixUVLen: 1
+  DecalSize: {x: 10, y: 10, z: 10}
+  SineAffectorEnable: 0
+  SineMagType: 0
+  SineMagnitude: 1
+  SineTime: 1
+  SineMagCurveX:
+    MaxValue: 1
+    TimeLen: 1
+    WrapType: 0
+    Curve01:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+  SineForce: {x: 0, y: 1, z: 0}
+  SineIsAccelarate: 0
+  UseShaderCurve1: 0
+  UseShaderCurve2: 0
+  UseFlowControl: 0
+  ShaderCurveX1:
+    MaxValue: 1
+    TimeLen: 1
+    WrapType: 0
+    Curve01:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+  ShaderCurveX2:
+    MaxValue: 1
+    TimeLen: 1
+    WrapType: 0
+    Curve01:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+  FlowSpeed: 1
+  FlowStretchLength: 1
+  UseSubEmitters: 0
+  SpawnCache: {fileID: 0}
+  BirthSubEmitter: 
+  CollisionSubEmitter: 
+  DeathSubEmitter: 
+  SubEmitterAutoStop: 1
+  STBezierSpline: {fileID: 0}
+  STTrailLen: 10
+  STElementWidth: 2
+  EmitSpline: {fileID: 11400018}
+  EmitSplinePosType: 0
+  SplineEaseType: 0
+  RotationAxis: {x: 0, y: 1, z: 0}
+  TimeScaleEnabled: 0
+  TimeScaleCurve:
+    MaxValue: 1
+    TimeLen: 1
+    WrapType: 0
+    Curve01:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+  AvailableNodeCount: 6
+  LastClientPos: {x: -4.30000019, y: 0, z: -18.8999996}
+  Owner: {fileID: 11400010}
+  mStopped: 0
+--- !u!114 &11400014
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100014}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4eaa492ec72a57543b3ace7c81409998, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ClientTransform: {fileID: 400014}
+  SyncClient: 0
+  Material: {fileID: 2100000, guid: 47178d47fbc567042b0418ff13558a3c, type: 2}
+  RenderType: 0
+  StartTime: 0
+  MaxFps: 60
+  DebugColor: {r: 1, g: 1, b: 1, a: 1}
+  Depth: -2
+  SpriteType: 0
+  OriPoint: 0
+  SpriteWidth: 1
+  SpriteHeight: 1
+  SpriteUVStretch: 0
+  RandomOriScale: 1
+  RandomOriRot: 1
+  OriRotationMin: 0
+  OriRotationMax: 360
+  RotAffectorEnable: 0
+  RotateType: 0
+  DeltaRot: 360
+  RotateCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 360
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  RotateCurveWrap: 0
+  RotateCurveTime: 1
+  RotateCurveMaxValue: 1
+  RotateCurve01:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  RotateSpeedMin: 600
+  RotateSpeedMax: 800
+  UniformRandomScale: 1
+  OriScaleXMin: 6
+  OriScaleXMax: 12
+  OriScaleYMin: 5
+  OriScaleYMax: 7
+  ScaleAffectorEnable: 1
+  ScaleType: 3
+  DeltaScaleX: 3
+  DeltaScaleY: 3
+  ScaleXCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 5
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  ScaleYCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 5
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  ScaleWrapMode: 0
+  ScaleCurveTime: -1
+  MaxScaleCalue: 5
+  MaxScaleValueY: 1
+  ScaleXCurveNew:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: .170305654
+      inSlope: .533130586
+      outSlope: .533130586
+      tangentMode: 0
+    - time: .245023817
+      value: .33904013
+      inSlope: .469126582
+      outSlope: .469126582
+      tangentMode: 0
+    - time: .569348037
+      value: .467822254
+      inSlope: .658297062
+      outSlope: .658297062
+      tangentMode: 0
+    - time: 1
+      value: .755458474
+      inSlope: .355936587
+      outSlope: .355936587
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  ScaleYCurveNew:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  UseSameScaleCurve: 1
+  DeltaScaleXMax: 0
+  DeltaScaleYMax: 0
+  ColorAffectorEnable: 1
+  ColorAffectType: 0
+  ColorGradualTimeLength: -1
+  ColorGradualType: 0
+  IsRandomStartColor: 0
+  RandomColorParam:
+    Colors:
+    - t: 0
+      Color: {r: 1, g: 1, b: 1, a: 1}
+  RandomColorGradient:
+    key0:
+      serializedVersion: 2
+      rgba: 4294967295
+    key1:
+      serializedVersion: 2
+      rgba: 4294967295
+    key2:
+      serializedVersion: 2
+      rgba: 0
+    key3:
+      serializedVersion: 2
+      rgba: 0
+    key4:
+      serializedVersion: 2
+      rgba: 0
+    key5:
+      serializedVersion: 2
+      rgba: 0
+    key6:
+      serializedVersion: 2
+      rgba: 0
+    key7:
+      serializedVersion: 2
+      rgba: 0
+    ctime0: 0
+    ctime1: 65535
+    ctime2: 0
+    ctime3: 0
+    ctime4: 0
+    ctime5: 0
+    ctime6: 0
+    ctime7: 0
+    atime0: 0
+    atime1: 65535
+    atime2: 0
+    atime3: 0
+    atime4: 0
+    atime5: 0
+    atime6: 0
+    atime7: 0
+    m_NumColorKeys: 2
+    m_NumAlphaKeys: 2
+  Color1: {r: .0745098069, g: .117647059, b: .215686277, a: .65882355}
+  Color2: {r: 0, g: 0, b: 0, a: 0}
+  Color3: {r: 0, g: 0, b: 0, a: 0}
+  Color4: {r: 0, g: 0, b: 0, a: 0}
+  Color5: {r: 0, g: 0, b: 0, a: 0}
+  ColorChangeType: 1
+  ColorParam:
+    Colors:
+    - t: 0
+      Color: {r: 1, g: 1, b: 1, a: 1}
+  ColorGradient:
+    key0:
+      serializedVersion: 2
+      rgba: 16777215
+    key1:
+      serializedVersion: 2
+      rgba: 4294967295
+    key2:
+      serializedVersion: 2
+      rgba: 4294924426
+    key3:
+      serializedVersion: 2
+      rgba: 16777215
+    key4:
+      serializedVersion: 2
+      rgba: 0
+    key5:
+      serializedVersion: 2
+      rgba: 0
+    key6:
+      serializedVersion: 2
+      rgba: 0
+    key7:
+      serializedVersion: 2
+      rgba: 0
+    ctime0: 0
+    ctime1: 22745
+    ctime2: 49151
+    ctime3: 65535
+    ctime4: 0
+    ctime5: 0
+    ctime6: 0
+    ctime7: 0
+    atime0: 0
+    atime1: 21974
+    atime2: 31611
+    atime3: 65535
+    atime4: 65535
+    atime5: 0
+    atime6: 0
+    atime7: 0
+    m_NumColorKeys: 4
+    m_NumAlphaKeys: 4
+  ColorGradualCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  RibbonWidth: 1
+  MaxRibbonElements: 8
+  RibbonLen: 15
+  TailDistance: 0
+  SyncTrailWithClient: 0
+  RibbonUVStretch: 0
+  FaceToObject: 0
+  FaceObject: {fileID: 0}
+  UseRandomRibbon: 0
+  RibbonWidthMin: 1
+  RibbonWidthMax: 1
+  RibbonLenMin: 15
+  RibbonLenMax: 15
+  ConeSize: {x: 1, y: 3}
+  ConeAngle: 0
+  ConeSegment: 12
+  UseConeAngleChange: 0
+  ConeDeltaAngle:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 60
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  CMesh: {fileID: 4300000, guid: 27f7b1d2bf2724e4e9dd8208f9c29680, type: 3}
+  MeshRotateAxis: {x: 0, y: 1, z: 0}
+  EmitType: 6
+  BoxSize: {x: 0, y: 0, z: 0}
+  EmitPoint: {x: 0, y: 0, z: 0}
+  Radius: 1
+  UseRandomCircle: 0
+  CircleRadiusMin: 1
+  CircleRadiusMax: 10
+  CircleDir: {x: 0, y: 1, z: 0}
+  EmitUniform: 0
+  LineStartObj: {fileID: 400014}
+  LineEndObj: {fileID: 0}
+  MaxENodes: 15
+  IsNodeLifeLoop: 0
+  NodeLifeMin: 1.39999998
+  NodeLifeMax: 1.39999998
+  EmitWay: 0
+  EmitterCurveX:
+    MaxValue: 1
+    TimeLen: 1
+    WrapType: 0
+    Curve01:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+  DiffDistance: .100000001
+  EmitMesh: {fileID: 0}
+  EmitMeshType: 0
+  IsBurstEmit: 0
+  ChanceToEmit: 100
+  EmitDuration: -1
+  EmitRate: 10
+  EmitLoop: 1
+  DirType: 4
+  OriVelocityAxis: {x: 0, y: 1, z: 0}
+  AngleAroundAxis: 0
+  UseRandomDirAngle: 0
+  AngleAroundAxisMax: 0
+  OriSpeed: 24
+  AlwaysSyncRotation: 0
+  IsRandomSpeed: 1
+  SpeedMin: 20
+  SpeedMax: 24
+  JetAffectorEnable: 0
+  JetMagType: 0
+  JetMag: 0
+  JetCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  JetCurveX:
+    MaxValue: 1
+    TimeLen: 1
+    WrapType: 0
+    Curve01:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+  VortexAffectorEnable: 0
+  VortexMagType: 0
+  VortexMag: 1
+  VortexCurveX:
+    MaxValue: 1
+    TimeLen: 1
+    WrapType: 0
+    Curve01:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+  VortexCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  VortexDirection: {x: 0, y: 1, z: 0}
+  VortexInheritRotation: 1
+  VortexObj: {fileID: 400014}
+  IsFixedCircle: 0
+  IsRandomVortexDir: 0
+  IsVortexAccelerate: 0
+  VortexAttenuation: 0
+  UseVortexMaxDistance: 0
+  VortexMaxDistance: 0
+  UVRotAffectorEnable: 0
+  RandomUVRotateSpeed: 0
+  UVRotXSpeed: 0
+  UVRotYSpeed: 0
+  UVRotXSpeedMax: 0
+  UVRotYSpeedMax: 0
+  UVRotStartOffset: {x: 0, y: 0}
+  UVScaleAffectorEnable: 0
+  UVScaleXSpeed: 0
+  UVScaleYSpeed: 0
+  GravityAffectorEnable: 0
+  GravityAftType: 0
+  GravityMagType: 0
+  GravityMag: 0
+  GravityCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  GravityCurveX:
+    MaxValue: 1
+    TimeLen: 1
+    WrapType: 0
+    Curve01:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+  GravityDirection: {x: 0, y: 1, z: 0}
+  GravityObject: {fileID: 400014}
+  IsGravityAccelerate: 1
+  GravityInheritRotation: 0
+  AirAffectorEnable: 0
+  AirObject: {fileID: 400014}
+  AirMagType: 0
+  AirMagnitude: 0
+  AirMagCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  AirMagCurveX:
+    MaxValue: 1
+    TimeLen: 1
+    WrapType: 0
+    Curve01:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+  AirDirection: {x: 0, y: 1, z: 0}
+  AirAttenuation: 0
+  AirUseMaxDistance: 0
+  AirMaxDistance: 0
+  AirEnableSpread: 0
+  AirSpread: 0
+  AirInheritVelocity: 0
+  AirInheritRotation: 0
+  BombAffectorEnable: 0
+  BombObject: {fileID: 400014}
+  BombType: 1
+  BombDecayType: 0
+  BombMagnitude: 0
+  BombAxis: {x: 0, y: 0, z: 0}
+  BombDecay: 0
+  TurbulenceAffectorEnable: 0
+  TurbulenceObject: {fileID: 400014}
+  TurbulenceMagType: 0
+  TurbulenceMagnitude: 1
+  TurbulenceMagCurveX:
+    MaxValue: 1
+    TimeLen: 1
+    WrapType: 0
+    Curve01:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+  TurbulenceMagCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  TurbulenceAttenuation: 0
+  TurbulenceUseMaxDistance: 0
+  TurbulenceMaxDistance: 0
+  TurbulenceForce: {x: 1, y: 1, z: 1}
+  DragAffectorEnable: 0
+  DragObj: {fileID: 400014}
+  DragUseDir: 0
+  DragDir: {x: 0, y: 1, z: 0}
+  DragMag: 10
+  DragUseMaxDist: 0
+  DragMaxDist: 50
+  DragAtten: 0
+  UVAffectorEnable: 0
+  UVType: 0
+  OriTopLeftUV: {x: 0, y: 0}
+  OriUVDimensions: {x: 1, y: 1}
+  Cols: 1
+  Rows: 1
+  LoopCircles: -1
+  UVTime: 1
+  EanPath: none
+  EanIndex: 0
+  RandomStartFrame: 0
+  UseCollisionDetection: 0
+  ParticleRadius: 1
+  CollisionType: 0
+  CollisionAutoDestroy: 1
+  EventReceiver: {fileID: 0}
+  EventHandleFunctionName: ' '
+  CollisionGoal: {fileID: 0}
+  ColliisionPosRange: 0
+  CollisionLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  PlaneDir: {x: 0, y: 1, z: 0}
+  PlaneOffset: {x: 0, y: -10, z: 0}
+  RopeWidth: 1
+  RopeUVLen: 5
+  RopeFixUVLen: 1
+  DecalSize: {x: 10, y: 10, z: 10}
+  SineAffectorEnable: 0
+  SineMagType: 0
+  SineMagnitude: 1
+  SineTime: 1
+  SineMagCurveX:
+    MaxValue: 1
+    TimeLen: 1
+    WrapType: 0
+    Curve01:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+  SineForce: {x: 0, y: 1, z: 0}
+  SineIsAccelarate: 0
+  UseShaderCurve1: 0
+  UseShaderCurve2: 0
+  UseFlowControl: 0
+  ShaderCurveX1:
+    MaxValue: 1
+    TimeLen: 1
+    WrapType: 0
+    Curve01:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+  ShaderCurveX2:
+    MaxValue: 1
+    TimeLen: 1
+    WrapType: 0
+    Curve01:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+  FlowSpeed: 1
+  FlowStretchLength: 1
+  UseSubEmitters: 0
+  SpawnCache: {fileID: 0}
+  BirthSubEmitter: 
+  CollisionSubEmitter: 
+  DeathSubEmitter: 
+  SubEmitterAutoStop: 1
+  STBezierSpline: {fileID: 0}
+  STTrailLen: 10
+  STElementWidth: 2
+  EmitSpline: {fileID: 11400018}
+  EmitSplinePosType: 0
+  SplineEaseType: 0
+  RotationAxis: {x: 0, y: 1, z: 0}
+  TimeScaleEnabled: 0
+  TimeScaleCurve:
+    MaxValue: 1
+    TimeLen: 1
+    WrapType: 0
+    Curve01:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+  AvailableNodeCount: 2
+  LastClientPos: {x: -4.30000019, y: 0, z: -18.8999996}
+  Owner: {fileID: 11400010}
+  mStopped: 0
+--- !u!114 &11400016
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100016}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4eaa492ec72a57543b3ace7c81409998, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ClientTransform: {fileID: 400016}
+  SyncClient: 0
+  Material: {fileID: 2100000, guid: 3888f786c2c7d8f43b7817b8b4da968a, type: 2}
+  RenderType: 3
+  StartTime: 0
+  MaxFps: 60
+  DebugColor: {r: 1, g: 1, b: 1, a: 1}
+  Depth: 0
+  SpriteType: 0
+  OriPoint: 0
+  SpriteWidth: 1
+  SpriteHeight: 1
+  SpriteUVStretch: 0
+  RandomOriScale: 0
+  RandomOriRot: 1
+  OriRotationMin: 0
+  OriRotationMax: 360
+  RotAffectorEnable: 1
+  RotateType: 1
+  DeltaRot: 500
+  RotateCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 360
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  RotateCurveWrap: 0
+  RotateCurveTime: 1
+  RotateCurveMaxValue: 1
+  RotateCurve01:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  RotateSpeedMin: 600
+  RotateSpeedMax: 800
+  UniformRandomScale: 0
+  OriScaleXMin: 16
+  OriScaleXMax: 16
+  OriScaleYMin: 16
+  OriScaleYMax: 16
+  ScaleAffectorEnable: 1
+  ScaleType: 3
+  DeltaScaleX: 3
+  DeltaScaleY: 0
+  ScaleXCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 5
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  ScaleYCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 5
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  ScaleWrapMode: 0
+  ScaleCurveTime: -1
+  MaxScaleCalue: 44
+  MaxScaleValueY: 1
+  ScaleXCurveNew:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: .332905203
+      outSlope: .332905203
+      tangentMode: 0
+    - time: .207481563
+      value: .012256097
+      inSlope: .423179537
+      outSlope: .423179537
+      tangentMode: 0
+    - time: .334491909
+      value: .257332563
+      inSlope: .955468237
+      outSlope: .955468237
+      tangentMode: 0
+    - time: .51157403
+      value: .47406137
+      inSlope: .769793987
+      outSlope: .769793987
+      tangentMode: 0
+    - time: 1
+      value: .585152924
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  ScaleYCurveNew:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  UseSameScaleCurve: 1
+  DeltaScaleXMax: 0
+  DeltaScaleYMax: 0
+  ColorAffectorEnable: 1
+  ColorAffectType: 0
+  ColorGradualTimeLength: -1
+  ColorGradualType: 0
+  IsRandomStartColor: 0
+  RandomColorParam:
+    Colors:
+    - t: 0
+      Color: {r: 1, g: 1, b: 1, a: 1}
+  RandomColorGradient:
+    key0:
+      serializedVersion: 2
+      rgba: 4294955428
+    key1:
+      serializedVersion: 2
+      rgba: 4294931596
+    key2:
+      serializedVersion: 2
+      rgba: 0
+    key3:
+      serializedVersion: 2
+      rgba: 0
+    key4:
+      serializedVersion: 2
+      rgba: 0
+    key5:
+      serializedVersion: 2
+      rgba: 0
+    key6:
+      serializedVersion: 2
+      rgba: 0
+    key7:
+      serializedVersion: 2
+      rgba: 0
+    ctime0: 0
+    ctime1: 65535
+    ctime2: 0
+    ctime3: 0
+    ctime4: 0
+    ctime5: 0
+    ctime6: 0
+    ctime7: 0
+    atime0: 0
+    atime1: 65535
+    atime2: 0
+    atime3: 0
+    atime4: 0
+    atime5: 0
+    atime6: 0
+    atime7: 0
+    m_NumColorKeys: 2
+    m_NumAlphaKeys: 2
+  Color1: {r: .568627477, g: .745098054, b: 1, a: 1}
+  Color2: {r: 0, g: 0, b: 0, a: 0}
+  Color3: {r: 0, g: 0, b: 0, a: 0}
+  Color4: {r: 0, g: 0, b: 0, a: 0}
+  Color5: {r: 0, g: 0, b: 0, a: 0}
+  ColorChangeType: 1
+  ColorParam:
+    Colors:
+    - t: 0
+      Color: {r: 1, g: 1, b: 1, a: 1}
+  ColorGradient:
+    key0:
+      serializedVersion: 2
+      rgba: 16777215
+    key1:
+      serializedVersion: 2
+      rgba: 4294967295
+    key2:
+      serializedVersion: 2
+      rgba: 4294967295
+    key3:
+      serializedVersion: 2
+      rgba: 16777215
+    key4:
+      serializedVersion: 2
+      rgba: 16777215
+    key5:
+      serializedVersion: 2
+      rgba: 0
+    key6:
+      serializedVersion: 2
+      rgba: 0
+    key7:
+      serializedVersion: 2
+      rgba: 0
+    ctime0: 0
+    ctime1: 31226
+    ctime2: 65535
+    ctime3: 65535
+    ctime4: 65535
+    ctime5: 0
+    ctime6: 0
+    ctime7: 0
+    atime0: 0
+    atime1: 10794
+    atime2: 53392
+    atime3: 65535
+    atime4: 65535
+    atime5: 0
+    atime6: 0
+    atime7: 0
+    m_NumColorKeys: 3
+    m_NumAlphaKeys: 4
+  ColorGradualCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  RibbonWidth: 1
+  MaxRibbonElements: 8
+  RibbonLen: 15
+  TailDistance: 0
+  SyncTrailWithClient: 0
+  RibbonUVStretch: 0
+  FaceToObject: 0
+  FaceObject: {fileID: 0}
+  UseRandomRibbon: 0
+  RibbonWidthMin: 1
+  RibbonWidthMax: 1
+  RibbonLenMin: 15
+  RibbonLenMax: 15
+  ConeSize: {x: 1, y: 3}
+  ConeAngle: 0
+  ConeSegment: 12
+  UseConeAngleChange: 0
+  ConeDeltaAngle:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 60
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  CMesh: {fileID: 4300000, guid: 94786ce7e4293a3429b854cffe527965, type: 3}
+  MeshRotateAxis: {x: 0, y: 1, z: 0}
+  EmitType: 6
+  BoxSize: {x: 0, y: 0, z: 0}
+  EmitPoint: {x: 0, y: 0, z: 0}
+  Radius: 1
+  UseRandomCircle: 0
+  CircleRadiusMin: 1
+  CircleRadiusMax: 10
+  CircleDir: {x: 0, y: 1, z: 0}
+  EmitUniform: 0
+  LineStartObj: {fileID: 400016}
+  LineEndObj: {fileID: 0}
+  MaxENodes: 7
+  IsNodeLifeLoop: 0
+  NodeLifeMin: 2
+  NodeLifeMax: 2
+  EmitWay: 0
+  EmitterCurveX:
+    MaxValue: 1
+    TimeLen: 1
+    WrapType: 0
+    Curve01:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+  DiffDistance: .100000001
+  EmitMesh: {fileID: 0}
+  EmitMeshType: 0
+  IsBurstEmit: 0
+  ChanceToEmit: 100
+  EmitDuration: -1
+  EmitRate: 2.4000001
+  EmitLoop: 1
+  DirType: 4
+  OriVelocityAxis: {x: 0, y: 1, z: 0}
+  AngleAroundAxis: 0
+  UseRandomDirAngle: 0
+  AngleAroundAxisMax: 0
+  OriSpeed: 16
+  AlwaysSyncRotation: 0
+  IsRandomSpeed: 0
+  SpeedMin: 18
+  SpeedMax: 30
+  JetAffectorEnable: 0
+  JetMagType: 0
+  JetMag: 0
+  JetCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  JetCurveX:
+    MaxValue: 1
+    TimeLen: 1
+    WrapType: 0
+    Curve01:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+  VortexAffectorEnable: 0
+  VortexMagType: 0
+  VortexMag: 1
+  VortexCurveX:
+    MaxValue: 1
+    TimeLen: 1
+    WrapType: 0
+    Curve01:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+  VortexCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  VortexDirection: {x: 0, y: 1, z: 0}
+  VortexInheritRotation: 1
+  VortexObj: {fileID: 400016}
+  IsFixedCircle: 0
+  IsRandomVortexDir: 0
+  IsVortexAccelerate: 0
+  VortexAttenuation: 0
+  UseVortexMaxDistance: 0
+  VortexMaxDistance: 0
+  UVRotAffectorEnable: 0
+  RandomUVRotateSpeed: 0
+  UVRotXSpeed: 0
+  UVRotYSpeed: 0
+  UVRotXSpeedMax: 0
+  UVRotYSpeedMax: 0
+  UVRotStartOffset: {x: 0, y: 0}
+  UVScaleAffectorEnable: 0
+  UVScaleXSpeed: 0
+  UVScaleYSpeed: 0
+  GravityAffectorEnable: 0
+  GravityAftType: 0
+  GravityMagType: 0
+  GravityMag: 0
+  GravityCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  GravityCurveX:
+    MaxValue: 1
+    TimeLen: 1
+    WrapType: 0
+    Curve01:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+  GravityDirection: {x: 0, y: 1, z: 0}
+  GravityObject: {fileID: 400016}
+  IsGravityAccelerate: 1
+  GravityInheritRotation: 0
+  AirAffectorEnable: 0
+  AirObject: {fileID: 400016}
+  AirMagType: 0
+  AirMagnitude: 0
+  AirMagCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  AirMagCurveX:
+    MaxValue: 1
+    TimeLen: 1
+    WrapType: 0
+    Curve01:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+  AirDirection: {x: 0, y: 1, z: 0}
+  AirAttenuation: 0
+  AirUseMaxDistance: 0
+  AirMaxDistance: 0
+  AirEnableSpread: 0
+  AirSpread: 0
+  AirInheritVelocity: 0
+  AirInheritRotation: 0
+  BombAffectorEnable: 0
+  BombObject: {fileID: 400016}
+  BombType: 1
+  BombDecayType: 0
+  BombMagnitude: 0
+  BombAxis: {x: 0, y: 0, z: 0}
+  BombDecay: 0
+  TurbulenceAffectorEnable: 0
+  TurbulenceObject: {fileID: 400016}
+  TurbulenceMagType: 0
+  TurbulenceMagnitude: 1
+  TurbulenceMagCurveX:
+    MaxValue: 1
+    TimeLen: 1
+    WrapType: 0
+    Curve01:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+  TurbulenceMagCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  TurbulenceAttenuation: 0
+  TurbulenceUseMaxDistance: 0
+  TurbulenceMaxDistance: 0
+  TurbulenceForce: {x: 1, y: 1, z: 1}
+  DragAffectorEnable: 0
+  DragObj: {fileID: 400016}
+  DragUseDir: 0
+  DragDir: {x: 0, y: 1, z: 0}
+  DragMag: 10
+  DragUseMaxDist: 0
+  DragMaxDist: 50
+  DragAtten: 0
+  UVAffectorEnable: 0
+  UVType: 0
+  OriTopLeftUV: {x: 0, y: 0}
+  OriUVDimensions: {x: 1, y: 1}
+  Cols: 1
+  Rows: 1
+  LoopCircles: -1
+  UVTime: 1
+  EanPath: none
+  EanIndex: 0
+  RandomStartFrame: 0
+  UseCollisionDetection: 0
+  ParticleRadius: 1
+  CollisionType: 0
+  CollisionAutoDestroy: 1
+  EventReceiver: {fileID: 0}
+  EventHandleFunctionName: ' '
+  CollisionGoal: {fileID: 0}
+  ColliisionPosRange: 0
+  CollisionLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  PlaneDir: {x: 0, y: 1, z: 0}
+  PlaneOffset: {x: 0, y: -10, z: 0}
+  RopeWidth: 1
+  RopeUVLen: 5
+  RopeFixUVLen: 1
+  DecalSize: {x: 10, y: 10, z: 10}
+  SineAffectorEnable: 0
+  SineMagType: 0
+  SineMagnitude: 1
+  SineTime: 1
+  SineMagCurveX:
+    MaxValue: 1
+    TimeLen: 1
+    WrapType: 0
+    Curve01:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+  SineForce: {x: 0, y: 1, z: 0}
+  SineIsAccelarate: 0
+  UseShaderCurve1: 0
+  UseShaderCurve2: 0
+  UseFlowControl: 0
+  ShaderCurveX1:
+    MaxValue: 1
+    TimeLen: 1
+    WrapType: 0
+    Curve01:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+  ShaderCurveX2:
+    MaxValue: 1
+    TimeLen: 1
+    WrapType: 0
+    Curve01:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+  FlowSpeed: 1
+  FlowStretchLength: 1
+  UseSubEmitters: 0
+  SpawnCache: {fileID: 0}
+  BirthSubEmitter: 
+  CollisionSubEmitter: 
+  DeathSubEmitter: 
+  SubEmitterAutoStop: 1
+  STBezierSpline: {fileID: 0}
+  STTrailLen: 10
+  STElementWidth: 2
+  EmitSpline: {fileID: 11400018}
+  EmitSplinePosType: 0
+  SplineEaseType: 0
+  RotationAxis: {x: 0, y: 1, z: 0}
+  TimeScaleEnabled: 0
+  TimeScaleCurve:
+    MaxValue: 1
+    TimeLen: 1
+    WrapType: 0
+    Curve01:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+  AvailableNodeCount: 2
+  LastClientPos: {x: -4.30000019, y: 0, z: -18.8999996}
+  Owner: {fileID: 11400010}
+  mStopped: 0
+--- !u!114 &11400018
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100018}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca6d50ba8859d054c8f18265e5235211, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mSpline:
+    InterpolateType: 1
+    mPoints:
+    - mPoint: {x: 0, y: 0, z: 0}
+      mPrevctrl: {x: -0, y: -2.53505325, z: 1.34750509}
+      mNextctrl: {x: -0, y: 2.53505325, z: -1.34750509}
+      mBezierType: 0
+    - mPoint: {x: 0, y: 10.140213, z: -5.39002037}
+      mPrevctrl: {x: -0, y: -7.18937159, z: .434566021}
+      mNextctrl: {x: -0, y: 7.18937159, z: -.434566021}
+      mBezierType: 0
+    - mPoint: {x: 0, y: 28.7574863, z: -1.73826408}
+      mPrevctrl: {x: 0, y: -12.7246933, z: 2.69783592}
+      mNextctrl: {x: -0, y: 12.7246933, z: -2.69783592}
+      mBezierType: 1
+    mSegments:
+    - mStartpos: {x: 0, y: 0, z: 0}
+      mEndpos: {x: 0, y: 10.140213, z: -5.39002037}
+      mStartctrl: {x: 0, y: 2.53505325, z: -1.34750509}
+      mEndctrl: {x: 0, y: 2.95084143, z: -4.95545435}
+      mStartlen: 0
+      mEndlen: 11.8537855
+      mLength: 11.8537855
+      mParams: []
+      mPrecomps: []
+      Spline:
+        InterpolateType: 1
+        mPoints:
+        - mPoint: {x: 0, y: 0, z: 0}
+          mPrevctrl: {x: -0, y: -2.53505325, z: 1.34750509}
+          mNextctrl: {x: -0, y: 2.53505325, z: -1.34750509}
+          mBezierType: 0
+        - mPoint: {x: 0, y: 10.140213, z: -5.39002037}
+          mPrevctrl: {x: -0, y: -7.18937159, z: .434566021}
+          mNextctrl: {x: -0, y: 7.18937159, z: -.434566021}
+          mBezierType: 0
+        - mPoint: {x: 0, y: 28.7574863, z: -1.73826408}
+          mPrevctrl: {x: 0, y: -12.7246933, z: 2.69783592}
+          mNextctrl: {x: -0, y: 12.7246933, z: -2.69783592}
+          mBezierType: 1
+        mSegments:
+        - mStartpos: {x: 0, y: 0, z: 0}
+          mEndpos: {x: 0, y: 10.140213, z: -5.39002037}
+          mStartctrl: {x: 0, y: 2.53505325, z: -1.34750509}
+          mEndctrl: {x: 0, y: 2.95084143, z: -4.95545435}
+          mStartlen: 0
+          mEndlen: 11.8537855
+          mLength: 11.8537855
+          mParams: []
+          mPrecomps: []
+          Spline:
+            InterpolateType: 1
+            mPoints:
+            - mPoint: {x: 0, y: 0, z: 0}
+              mPrevctrl: {x: -0, y: -2.53505325, z: 1.34750509}
+              mNextctrl: {x: -0, y: 2.53505325, z: -1.34750509}
+              mBezierType: 0
+            - mPoint: {x: 0, y: 10.140213, z: -5.39002037}
+              mPrevctrl: {x: -0, y: -7.18937159, z: .434566021}
+              mNextctrl: {x: -0, y: 7.18937159, z: -.434566021}
+              mBezierType: 0
+            - mPoint: {x: 0, y: 28.7574863, z: -1.73826408}
+              mPrevctrl: {x: 0, y: -12.7246933, z: 2.69783592}
+              mNextctrl: {x: -0, y: 12.7246933, z: -2.69783592}
+              mBezierType: 1
+            mSegments:
+            - mStartpos: {x: 0, y: 0, z: 0}
+              mEndpos: {x: 0, y: 10.140213, z: -5.39002037}
+              mStartctrl: {x: 0, y: 2.53505325, z: -1.34750509}
+              mEndctrl: {x: 0, y: 2.95084143, z: -4.95545435}
+              mStartlen: 0
+              mEndlen: 11.8537855
+              mLength: 11.8537855
+              mParams: []
+              mPrecomps: []
+              Spline:
+                InterpolateType: 1
+                mPoints:
+                - mPoint: {x: 0, y: 0, z: 0}
+                  mPrevctrl: {x: -0, y: -2.53505325, z: 1.34750509}
+                  mNextctrl: {x: -0, y: 2.53505325, z: -1.34750509}
+                  mBezierType: 0
+                - mPoint: {x: 0, y: 10.140213, z: -5.39002037}
+                  mPrevctrl: {x: -0, y: -7.18937159, z: .434566021}
+                  mNextctrl: {x: -0, y: 7.18937159, z: -.434566021}
+                  mBezierType: 0
+                - mPoint: {x: 0, y: 28.7574863, z: -1.73826408}
+                  mPrevctrl: {x: 0, y: -12.7246933, z: 2.69783592}
+                  mNextctrl: {x: -0, y: 12.7246933, z: -2.69783592}
+                  mBezierType: 1
+                mSegments:
+                - mStartpos: {x: 0, y: 0, z: 0}
+                  mEndpos: {x: 0, y: 10.140213, z: -5.39002037}
+                  mStartctrl: {x: 0, y: 2.53505325, z: -1.34750509}
+                  mEndctrl: {x: 0, y: 2.95084143, z: -4.95545435}
+                  mStartlen: 0
+                  mEndlen: 11.8537855
+                  mLength: 11.8537855
+                - mStartpos: {x: 0, y: 10.140213, z: -5.39002037}
+                  mEndpos: {x: 0, y: 28.7574863, z: -1.73826408}
+                  mStartctrl: {x: 0, y: 17.3295841, z: -5.82458639}
+                  mEndctrl: {x: 0, y: 16.032793, z: .959571838}
+                  mStartlen: 11.8537855
+                  mEndlen: 31.4517212
+                  mLength: 19.5979347
+                mPrecompdiv: 1
+                WrapType: 0
+                Length: 31.4517212
+                StepCount: 8
+                Reparam: 0
+                mBias: 0
+                mTension: 0
+            - mStartpos: {x: 0, y: 10.140213, z: -5.39002037}
+              mEndpos: {x: 0, y: 28.7574863, z: -1.73826408}
+              mStartctrl: {x: 0, y: 17.3295841, z: -5.82458639}
+              mEndctrl: {x: 0, y: 16.032793, z: .959571838}
+              mStartlen: 11.8537855
+              mEndlen: 31.4517212
+              mLength: 19.5979347
+              mParams: []
+              mPrecomps: []
+              Spline:
+                InterpolateType: 1
+                mPoints:
+                - mPoint: {x: 0, y: 0, z: 0}
+                  mPrevctrl: {x: -0, y: -2.53505325, z: 1.34750509}
+                  mNextctrl: {x: -0, y: 2.53505325, z: -1.34750509}
+                  mBezierType: 0
+                - mPoint: {x: 0, y: 10.140213, z: -5.39002037}
+                  mPrevctrl: {x: -0, y: -7.18937159, z: .434566021}
+                  mNextctrl: {x: -0, y: 7.18937159, z: -.434566021}
+                  mBezierType: 0
+                - mPoint: {x: 0, y: 28.7574863, z: -1.73826408}
+                  mPrevctrl: {x: 0, y: -12.7246933, z: 2.69783592}
+                  mNextctrl: {x: -0, y: 12.7246933, z: -2.69783592}
+                  mBezierType: 1
+                mSegments:
+                - mStartpos: {x: 0, y: 0, z: 0}
+                  mEndpos: {x: 0, y: 10.140213, z: -5.39002037}
+                  mStartctrl: {x: 0, y: 2.53505325, z: -1.34750509}
+                  mEndctrl: {x: 0, y: 2.95084143, z: -4.95545435}
+                  mStartlen: 0
+                  mEndlen: 11.8537855
+                  mLength: 11.8537855
+                - mStartpos: {x: 0, y: 10.140213, z: -5.39002037}
+                  mEndpos: {x: 0, y: 28.7574863, z: -1.73826408}
+                  mStartctrl: {x: 0, y: 17.3295841, z: -5.82458639}
+                  mEndctrl: {x: 0, y: 16.032793, z: .959571838}
+                  mStartlen: 11.8537855
+                  mEndlen: 31.4517212
+                  mLength: 19.5979347
+                mPrecompdiv: 1
+                WrapType: 0
+                Length: 31.4517212
+                StepCount: 8
+                Reparam: 0
+                mBias: 0
+                mTension: 0
+            mPrecompdiv: 1
+            WrapType: 0
+            Length: 31.4517212
+            StepCount: 8
+            Reparam: 0
+            mBias: 0
+            mTension: 0
+        - mStartpos: {x: 0, y: 10.140213, z: -5.39002037}
+          mEndpos: {x: 0, y: 28.7574863, z: -1.73826408}
+          mStartctrl: {x: 0, y: 17.3295841, z: -5.82458639}
+          mEndctrl: {x: 0, y: 16.032793, z: .959571838}
+          mStartlen: 11.8537855
+          mEndlen: 31.4517212
+          mLength: 19.5979347
+          mParams: []
+          mPrecomps: []
+          Spline:
+            InterpolateType: 1
+            mPoints:
+            - mPoint: {x: 0, y: 0, z: 0}
+              mPrevctrl: {x: -0, y: -2.53505325, z: 1.34750509}
+              mNextctrl: {x: -0, y: 2.53505325, z: -1.34750509}
+              mBezierType: 0
+            - mPoint: {x: 0, y: 10.140213, z: -5.39002037}
+              mPrevctrl: {x: -0, y: -7.18937159, z: .434566021}
+              mNextctrl: {x: -0, y: 7.18937159, z: -.434566021}
+              mBezierType: 0
+            - mPoint: {x: 0, y: 28.7574863, z: -1.73826408}
+              mPrevctrl: {x: 0, y: -12.7246933, z: 2.69783592}
+              mNextctrl: {x: -0, y: 12.7246933, z: -2.69783592}
+              mBezierType: 1
+            mSegments:
+            - mStartpos: {x: 0, y: 0, z: 0}
+              mEndpos: {x: 0, y: 10.140213, z: -5.39002037}
+              mStartctrl: {x: 0, y: 2.53505325, z: -1.34750509}
+              mEndctrl: {x: 0, y: 2.95084143, z: -4.95545435}
+              mStartlen: 0
+              mEndlen: 11.8537855
+              mLength: 11.8537855
+              mParams: []
+              mPrecomps: []
+              Spline:
+                InterpolateType: 1
+                mPoints:
+                - mPoint: {x: 0, y: 0, z: 0}
+                  mPrevctrl: {x: -0, y: -2.53505325, z: 1.34750509}
+                  mNextctrl: {x: -0, y: 2.53505325, z: -1.34750509}
+                  mBezierType: 0
+                - mPoint: {x: 0, y: 10.140213, z: -5.39002037}
+                  mPrevctrl: {x: -0, y: -7.18937159, z: .434566021}
+                  mNextctrl: {x: -0, y: 7.18937159, z: -.434566021}
+                  mBezierType: 0
+                - mPoint: {x: 0, y: 28.7574863, z: -1.73826408}
+                  mPrevctrl: {x: 0, y: -12.7246933, z: 2.69783592}
+                  mNextctrl: {x: -0, y: 12.7246933, z: -2.69783592}
+                  mBezierType: 1
+                mSegments:
+                - mStartpos: {x: 0, y: 0, z: 0}
+                  mEndpos: {x: 0, y: 10.140213, z: -5.39002037}
+                  mStartctrl: {x: 0, y: 2.53505325, z: -1.34750509}
+                  mEndctrl: {x: 0, y: 2.95084143, z: -4.95545435}
+                  mStartlen: 0
+                  mEndlen: 11.8537855
+                  mLength: 11.8537855
+                - mStartpos: {x: 0, y: 10.140213, z: -5.39002037}
+                  mEndpos: {x: 0, y: 28.7574863, z: -1.73826408}
+                  mStartctrl: {x: 0, y: 17.3295841, z: -5.82458639}
+                  mEndctrl: {x: 0, y: 16.032793, z: .959571838}
+                  mStartlen: 11.8537855
+                  mEndlen: 31.4517212
+                  mLength: 19.5979347
+                mPrecompdiv: 1
+                WrapType: 0
+                Length: 31.4517212
+                StepCount: 8
+                Reparam: 0
+                mBias: 0
+                mTension: 0
+            - mStartpos: {x: 0, y: 10.140213, z: -5.39002037}
+              mEndpos: {x: 0, y: 28.7574863, z: -1.73826408}
+              mStartctrl: {x: 0, y: 17.3295841, z: -5.82458639}
+              mEndctrl: {x: 0, y: 16.032793, z: .959571838}
+              mStartlen: 11.8537855
+              mEndlen: 31.4517212
+              mLength: 19.5979347
+              mParams: []
+              mPrecomps: []
+              Spline:
+                InterpolateType: 1
+                mPoints:
+                - mPoint: {x: 0, y: 0, z: 0}
+                  mPrevctrl: {x: -0, y: -2.53505325, z: 1.34750509}
+                  mNextctrl: {x: -0, y: 2.53505325, z: -1.34750509}
+                  mBezierType: 0
+                - mPoint: {x: 0, y: 10.140213, z: -5.39002037}
+                  mPrevctrl: {x: -0, y: -7.18937159, z: .434566021}
+                  mNextctrl: {x: -0, y: 7.18937159, z: -.434566021}
+                  mBezierType: 0
+                - mPoint: {x: 0, y: 28.7574863, z: -1.73826408}
+                  mPrevctrl: {x: 0, y: -12.7246933, z: 2.69783592}
+                  mNextctrl: {x: -0, y: 12.7246933, z: -2.69783592}
+                  mBezierType: 1
+                mSegments:
+                - mStartpos: {x: 0, y: 0, z: 0}
+                  mEndpos: {x: 0, y: 10.140213, z: -5.39002037}
+                  mStartctrl: {x: 0, y: 2.53505325, z: -1.34750509}
+                  mEndctrl: {x: 0, y: 2.95084143, z: -4.95545435}
+                  mStartlen: 0
+                  mEndlen: 11.8537855
+                  mLength: 11.8537855
+                - mStartpos: {x: 0, y: 10.140213, z: -5.39002037}
+                  mEndpos: {x: 0, y: 28.7574863, z: -1.73826408}
+                  mStartctrl: {x: 0, y: 17.3295841, z: -5.82458639}
+                  mEndctrl: {x: 0, y: 16.032793, z: .959571838}
+                  mStartlen: 11.8537855
+                  mEndlen: 31.4517212
+                  mLength: 19.5979347
+                mPrecompdiv: 1
+                WrapType: 0
+                Length: 31.4517212
+                StepCount: 8
+                Reparam: 0
+                mBias: 0
+                mTension: 0
+            mPrecompdiv: 1
+            WrapType: 0
+            Length: 31.4517212
+            StepCount: 8
+            Reparam: 0
+            mBias: 0
+            mTension: 0
+        mPrecompdiv: 1
+        WrapType: 0
+        Length: 31.4517212
+        StepCount: 8
+        Reparam: 0
+        mBias: 0
+        mTension: 0
+    - mStartpos: {x: 0, y: 10.140213, z: -5.39002037}
+      mEndpos: {x: 0, y: 28.7574863, z: -1.73826408}
+      mStartctrl: {x: 0, y: 17.3295841, z: -5.82458639}
+      mEndctrl: {x: 0, y: 16.032793, z: .959571838}
+      mStartlen: 11.8537855
+      mEndlen: 31.4517212
+      mLength: 19.5979347
+      mParams: []
+      mPrecomps: []
+      Spline:
+        InterpolateType: 1
+        mPoints:
+        - mPoint: {x: 0, y: 0, z: 0}
+          mPrevctrl: {x: -0, y: -2.53505325, z: 1.34750509}
+          mNextctrl: {x: -0, y: 2.53505325, z: -1.34750509}
+          mBezierType: 0
+        - mPoint: {x: 0, y: 10.140213, z: -5.39002037}
+          mPrevctrl: {x: -0, y: -7.18937159, z: .434566021}
+          mNextctrl: {x: -0, y: 7.18937159, z: -.434566021}
+          mBezierType: 0
+        - mPoint: {x: 0, y: 28.7574863, z: -1.73826408}
+          mPrevctrl: {x: 0, y: -12.7246933, z: 2.69783592}
+          mNextctrl: {x: -0, y: 12.7246933, z: -2.69783592}
+          mBezierType: 1
+        mSegments:
+        - mStartpos: {x: 0, y: 0, z: 0}
+          mEndpos: {x: 0, y: 10.140213, z: -5.39002037}
+          mStartctrl: {x: 0, y: 2.53505325, z: -1.34750509}
+          mEndctrl: {x: 0, y: 2.95084143, z: -4.95545435}
+          mStartlen: 0
+          mEndlen: 11.8537855
+          mLength: 11.8537855
+          mParams: []
+          mPrecomps: []
+          Spline:
+            InterpolateType: 1
+            mPoints:
+            - mPoint: {x: 0, y: 0, z: 0}
+              mPrevctrl: {x: -0, y: -2.53505325, z: 1.34750509}
+              mNextctrl: {x: -0, y: 2.53505325, z: -1.34750509}
+              mBezierType: 0
+            - mPoint: {x: 0, y: 10.140213, z: -5.39002037}
+              mPrevctrl: {x: -0, y: -7.18937159, z: .434566021}
+              mNextctrl: {x: -0, y: 7.18937159, z: -.434566021}
+              mBezierType: 0
+            - mPoint: {x: 0, y: 28.7574863, z: -1.73826408}
+              mPrevctrl: {x: 0, y: -12.7246933, z: 2.69783592}
+              mNextctrl: {x: -0, y: 12.7246933, z: -2.69783592}
+              mBezierType: 1
+            mSegments:
+            - mStartpos: {x: 0, y: 0, z: 0}
+              mEndpos: {x: 0, y: 10.140213, z: -5.39002037}
+              mStartctrl: {x: 0, y: 2.53505325, z: -1.34750509}
+              mEndctrl: {x: 0, y: 2.95084143, z: -4.95545435}
+              mStartlen: 0
+              mEndlen: 11.8537855
+              mLength: 11.8537855
+              mParams: []
+              mPrecomps: []
+              Spline:
+                InterpolateType: 1
+                mPoints:
+                - mPoint: {x: 0, y: 0, z: 0}
+                  mPrevctrl: {x: -0, y: -2.53505325, z: 1.34750509}
+                  mNextctrl: {x: -0, y: 2.53505325, z: -1.34750509}
+                  mBezierType: 0
+                - mPoint: {x: 0, y: 10.140213, z: -5.39002037}
+                  mPrevctrl: {x: -0, y: -7.18937159, z: .434566021}
+                  mNextctrl: {x: -0, y: 7.18937159, z: -.434566021}
+                  mBezierType: 0
+                - mPoint: {x: 0, y: 28.7574863, z: -1.73826408}
+                  mPrevctrl: {x: 0, y: -12.7246933, z: 2.69783592}
+                  mNextctrl: {x: -0, y: 12.7246933, z: -2.69783592}
+                  mBezierType: 1
+                mSegments:
+                - mStartpos: {x: 0, y: 0, z: 0}
+                  mEndpos: {x: 0, y: 10.140213, z: -5.39002037}
+                  mStartctrl: {x: 0, y: 2.53505325, z: -1.34750509}
+                  mEndctrl: {x: 0, y: 2.95084143, z: -4.95545435}
+                  mStartlen: 0
+                  mEndlen: 11.8537855
+                  mLength: 11.8537855
+                - mStartpos: {x: 0, y: 10.140213, z: -5.39002037}
+                  mEndpos: {x: 0, y: 28.7574863, z: -1.73826408}
+                  mStartctrl: {x: 0, y: 17.3295841, z: -5.82458639}
+                  mEndctrl: {x: 0, y: 16.032793, z: .959571838}
+                  mStartlen: 11.8537855
+                  mEndlen: 31.4517212
+                  mLength: 19.5979347
+                mPrecompdiv: 1
+                WrapType: 0
+                Length: 31.4517212
+                StepCount: 8
+                Reparam: 0
+                mBias: 0
+                mTension: 0
+            - mStartpos: {x: 0, y: 10.140213, z: -5.39002037}
+              mEndpos: {x: 0, y: 28.7574863, z: -1.73826408}
+              mStartctrl: {x: 0, y: 17.3295841, z: -5.82458639}
+              mEndctrl: {x: 0, y: 16.032793, z: .959571838}
+              mStartlen: 11.8537855
+              mEndlen: 31.4517212
+              mLength: 19.5979347
+              mParams: []
+              mPrecomps: []
+              Spline:
+                InterpolateType: 1
+                mPoints:
+                - mPoint: {x: 0, y: 0, z: 0}
+                  mPrevctrl: {x: -0, y: -2.53505325, z: 1.34750509}
+                  mNextctrl: {x: -0, y: 2.53505325, z: -1.34750509}
+                  mBezierType: 0
+                - mPoint: {x: 0, y: 10.140213, z: -5.39002037}
+                  mPrevctrl: {x: -0, y: -7.18937159, z: .434566021}
+                  mNextctrl: {x: -0, y: 7.18937159, z: -.434566021}
+                  mBezierType: 0
+                - mPoint: {x: 0, y: 28.7574863, z: -1.73826408}
+                  mPrevctrl: {x: 0, y: -12.7246933, z: 2.69783592}
+                  mNextctrl: {x: -0, y: 12.7246933, z: -2.69783592}
+                  mBezierType: 1
+                mSegments:
+                - mStartpos: {x: 0, y: 0, z: 0}
+                  mEndpos: {x: 0, y: 10.140213, z: -5.39002037}
+                  mStartctrl: {x: 0, y: 2.53505325, z: -1.34750509}
+                  mEndctrl: {x: 0, y: 2.95084143, z: -4.95545435}
+                  mStartlen: 0
+                  mEndlen: 11.8537855
+                  mLength: 11.8537855
+                - mStartpos: {x: 0, y: 10.140213, z: -5.39002037}
+                  mEndpos: {x: 0, y: 28.7574863, z: -1.73826408}
+                  mStartctrl: {x: 0, y: 17.3295841, z: -5.82458639}
+                  mEndctrl: {x: 0, y: 16.032793, z: .959571838}
+                  mStartlen: 11.8537855
+                  mEndlen: 31.4517212
+                  mLength: 19.5979347
+                mPrecompdiv: 1
+                WrapType: 0
+                Length: 31.4517212
+                StepCount: 8
+                Reparam: 0
+                mBias: 0
+                mTension: 0
+            mPrecompdiv: 1
+            WrapType: 0
+            Length: 31.4517212
+            StepCount: 8
+            Reparam: 0
+            mBias: 0
+            mTension: 0
+        - mStartpos: {x: 0, y: 10.140213, z: -5.39002037}
+          mEndpos: {x: 0, y: 28.7574863, z: -1.73826408}
+          mStartctrl: {x: 0, y: 17.3295841, z: -5.82458639}
+          mEndctrl: {x: 0, y: 16.032793, z: .959571838}
+          mStartlen: 11.8537855
+          mEndlen: 31.4517212
+          mLength: 19.5979347
+          mParams: []
+          mPrecomps: []
+          Spline:
+            InterpolateType: 1
+            mPoints:
+            - mPoint: {x: 0, y: 0, z: 0}
+              mPrevctrl: {x: -0, y: -2.53505325, z: 1.34750509}
+              mNextctrl: {x: -0, y: 2.53505325, z: -1.34750509}
+              mBezierType: 0
+            - mPoint: {x: 0, y: 10.140213, z: -5.39002037}
+              mPrevctrl: {x: -0, y: -7.18937159, z: .434566021}
+              mNextctrl: {x: -0, y: 7.18937159, z: -.434566021}
+              mBezierType: 0
+            - mPoint: {x: 0, y: 28.7574863, z: -1.73826408}
+              mPrevctrl: {x: 0, y: -12.7246933, z: 2.69783592}
+              mNextctrl: {x: -0, y: 12.7246933, z: -2.69783592}
+              mBezierType: 1
+            mSegments:
+            - mStartpos: {x: 0, y: 0, z: 0}
+              mEndpos: {x: 0, y: 10.140213, z: -5.39002037}
+              mStartctrl: {x: 0, y: 2.53505325, z: -1.34750509}
+              mEndctrl: {x: 0, y: 2.95084143, z: -4.95545435}
+              mStartlen: 0
+              mEndlen: 11.8537855
+              mLength: 11.8537855
+              mParams: []
+              mPrecomps: []
+              Spline:
+                InterpolateType: 1
+                mPoints:
+                - mPoint: {x: 0, y: 0, z: 0}
+                  mPrevctrl: {x: -0, y: -2.53505325, z: 1.34750509}
+                  mNextctrl: {x: -0, y: 2.53505325, z: -1.34750509}
+                  mBezierType: 0
+                - mPoint: {x: 0, y: 10.140213, z: -5.39002037}
+                  mPrevctrl: {x: -0, y: -7.18937159, z: .434566021}
+                  mNextctrl: {x: -0, y: 7.18937159, z: -.434566021}
+                  mBezierType: 0
+                - mPoint: {x: 0, y: 28.7574863, z: -1.73826408}
+                  mPrevctrl: {x: 0, y: -12.7246933, z: 2.69783592}
+                  mNextctrl: {x: -0, y: 12.7246933, z: -2.69783592}
+                  mBezierType: 1
+                mSegments:
+                - mStartpos: {x: 0, y: 0, z: 0}
+                  mEndpos: {x: 0, y: 10.140213, z: -5.39002037}
+                  mStartctrl: {x: 0, y: 2.53505325, z: -1.34750509}
+                  mEndctrl: {x: 0, y: 2.95084143, z: -4.95545435}
+                  mStartlen: 0
+                  mEndlen: 11.8537855
+                  mLength: 11.8537855
+                - mStartpos: {x: 0, y: 10.140213, z: -5.39002037}
+                  mEndpos: {x: 0, y: 28.7574863, z: -1.73826408}
+                  mStartctrl: {x: 0, y: 17.3295841, z: -5.82458639}
+                  mEndctrl: {x: 0, y: 16.032793, z: .959571838}
+                  mStartlen: 11.8537855
+                  mEndlen: 31.4517212
+                  mLength: 19.5979347
+                mPrecompdiv: 1
+                WrapType: 0
+                Length: 31.4517212
+                StepCount: 8
+                Reparam: 0
+                mBias: 0
+                mTension: 0
+            - mStartpos: {x: 0, y: 10.140213, z: -5.39002037}
+              mEndpos: {x: 0, y: 28.7574863, z: -1.73826408}
+              mStartctrl: {x: 0, y: 17.3295841, z: -5.82458639}
+              mEndctrl: {x: 0, y: 16.032793, z: .959571838}
+              mStartlen: 11.8537855
+              mEndlen: 31.4517212
+              mLength: 19.5979347
+              mParams: []
+              mPrecomps: []
+              Spline:
+                InterpolateType: 1
+                mPoints:
+                - mPoint: {x: 0, y: 0, z: 0}
+                  mPrevctrl: {x: -0, y: -2.53505325, z: 1.34750509}
+                  mNextctrl: {x: -0, y: 2.53505325, z: -1.34750509}
+                  mBezierType: 0
+                - mPoint: {x: 0, y: 10.140213, z: -5.39002037}
+                  mPrevctrl: {x: -0, y: -7.18937159, z: .434566021}
+                  mNextctrl: {x: -0, y: 7.18937159, z: -.434566021}
+                  mBezierType: 0
+                - mPoint: {x: 0, y: 28.7574863, z: -1.73826408}
+                  mPrevctrl: {x: 0, y: -12.7246933, z: 2.69783592}
+                  mNextctrl: {x: -0, y: 12.7246933, z: -2.69783592}
+                  mBezierType: 1
+                mSegments:
+                - mStartpos: {x: 0, y: 0, z: 0}
+                  mEndpos: {x: 0, y: 10.140213, z: -5.39002037}
+                  mStartctrl: {x: 0, y: 2.53505325, z: -1.34750509}
+                  mEndctrl: {x: 0, y: 2.95084143, z: -4.95545435}
+                  mStartlen: 0
+                  mEndlen: 11.8537855
+                  mLength: 11.8537855
+                - mStartpos: {x: 0, y: 10.140213, z: -5.39002037}
+                  mEndpos: {x: 0, y: 28.7574863, z: -1.73826408}
+                  mStartctrl: {x: 0, y: 17.3295841, z: -5.82458639}
+                  mEndctrl: {x: 0, y: 16.032793, z: .959571838}
+                  mStartlen: 11.8537855
+                  mEndlen: 31.4517212
+                  mLength: 19.5979347
+                mPrecompdiv: 1
+                WrapType: 0
+                Length: 31.4517212
+                StepCount: 8
+                Reparam: 0
+                mBias: 0
+                mTension: 0
+            mPrecompdiv: 1
+            WrapType: 0
+            Length: 31.4517212
+            StepCount: 8
+            Reparam: 0
+            mBias: 0
+            mTension: 0
+        mPrecompdiv: 1
+        WrapType: 0
+        Length: 31.4517212
+        StepCount: 8
+        Reparam: 0
+        mBias: 0
+        mTension: 0
+    mPrecompdiv: 1
+    WrapType: 0
+    Length: 31.4517212
+    StepCount: 8
+    Reparam: 0
+    mBias: 0
+    mTension: 0
+  mGranularity: 6
+  CachedElements:
+  - Pos: {x: 0, y: 0, z: 0}
+    Normal: {x: 0, y: 0, z: 0}
+    Offset: 0
+  - Pos: {x: 0, y: 1.13209176, z: -.836966276}
+    Normal: {x: 0, y: 0, z: 0}
+    Offset: 1.975631
+  - Pos: {x: 0, y: 2.15799618, z: -1.89973366}
+    Normal: {x: 0, y: 0, z: 0}
+    Offset: 3.951262
+  - Pos: {x: 0, y: 3.32473707, z: -3.03736234}
+    Normal: {x: 0, y: 0, z: 0}
+    Offset: 5.92689276
+  - Pos: {x: 0, y: 4.87933826, z: -4.09891319}
+    Normal: {x: 0, y: 0, z: 0}
+    Offset: 7.90252399
+  - Pos: {x: 0, y: 7.06882286, z: -4.93344593}
+    Normal: {x: 0, y: 0, z: 0}
+    Offset: 9.87815475
+  - Pos: {x: 0, y: 10.140213, z: -5.39002037}
+    Normal: {x: 0, y: 0, z: 0}
+    Offset: 11.8537855
+  - Pos: {x: 0, y: 13.1319199, z: -5.08306074}
+    Normal: {x: 0, y: 0, z: 0}
+    Offset: 15.1201077
+  - Pos: {x: 0, y: 15.3344793, z: -4.03688908}
+    Normal: {x: 0, y: 0, z: 0}
+    Offset: 18.3864307
+  - Pos: {x: 0, y: 17.3731041, z: -2.71541595}
+    Normal: {x: 0, y: 0, z: 0}
+    Offset: 21.6527519
+  - Pos: {x: 0, y: 19.8730049, z: -1.58254755}
+    Normal: {x: 0, y: 0, z: 0}
+    Offset: 24.919075
+  - Pos: {x: 0, y: 23.4593964, z: -1.10219419}
+    Normal: {x: 0, y: 0, z: 0}
+    Offset: 28.1853981
+  - Pos: {x: 0, y: 28.7574863, z: -1.73826408}
+    Normal: {x: 0, y: 0, z: 0}
+    Offset: 31.4517212
+  ShowDebug: 1
+--- !u!114 &11400020
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100020}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4eaa492ec72a57543b3ace7c81409998, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ClientTransform: {fileID: 400020}
+  SyncClient: 0
+  Material: {fileID: 2100000, guid: bbbc695b34d6d9c4d910e67ef4e99101, type: 2}
+  RenderType: 0
+  StartTime: 0
+  MaxFps: 60
+  DebugColor: {r: 1, g: 1, b: 1, a: 1}
+  Depth: -1
+  SpriteType: 0
+  OriPoint: 0
+  SpriteWidth: 1
+  SpriteHeight: 1
+  SpriteUVStretch: 0
+  RandomOriScale: 1
+  RandomOriRot: 1
+  OriRotationMin: 0
+  OriRotationMax: 360
+  RotAffectorEnable: 0
+  RotateType: 0
+  DeltaRot: 360
+  RotateCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 360
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  RotateCurveWrap: 0
+  RotateCurveTime: 1
+  RotateCurveMaxValue: 1
+  RotateCurve01:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  RotateSpeedMin: 600
+  RotateSpeedMax: 800
+  UniformRandomScale: 1
+  OriScaleXMin: 6
+  OriScaleXMax: 12
+  OriScaleYMin: 5
+  OriScaleYMax: 7
+  ScaleAffectorEnable: 1
+  ScaleType: 3
+  DeltaScaleX: 3
+  DeltaScaleY: 3
+  ScaleXCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 5
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  ScaleYCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 5
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  ScaleWrapMode: 0
+  ScaleCurveTime: -1
+  MaxScaleCalue: 5
+  MaxScaleValueY: 1
+  ScaleXCurveNew:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: .0829694197
+      inSlope: .533130586
+      outSlope: .533130586
+      tangentMode: 0
+    - time: .282060832
+      value: .260437548
+      inSlope: .469126582
+      outSlope: .469126582
+      tangentMode: 0
+    - time: .576292455
+      value: .511490345
+      inSlope: .597834587
+      outSlope: .597834587
+      tangentMode: 0
+    - time: 1
+      value: .698689938
+      inSlope: .355936587
+      outSlope: .355936587
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  ScaleYCurveNew:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  UseSameScaleCurve: 1
+  DeltaScaleXMax: 0
+  DeltaScaleYMax: 0
+  ColorAffectorEnable: 1
+  ColorAffectType: 0
+  ColorGradualTimeLength: -1
+  ColorGradualType: 0
+  IsRandomStartColor: 0
+  RandomColorParam:
+    Colors:
+    - t: 0
+      Color: {r: 1, g: 1, b: 1, a: 1}
+  RandomColorGradient:
+    key0:
+      serializedVersion: 2
+      rgba: 4294967295
+    key1:
+      serializedVersion: 2
+      rgba: 4294967295
+    key2:
+      serializedVersion: 2
+      rgba: 0
+    key3:
+      serializedVersion: 2
+      rgba: 0
+    key4:
+      serializedVersion: 2
+      rgba: 0
+    key5:
+      serializedVersion: 2
+      rgba: 0
+    key6:
+      serializedVersion: 2
+      rgba: 0
+    key7:
+      serializedVersion: 2
+      rgba: 0
+    ctime0: 0
+    ctime1: 65535
+    ctime2: 0
+    ctime3: 0
+    ctime4: 0
+    ctime5: 0
+    ctime6: 0
+    ctime7: 0
+    atime0: 0
+    atime1: 65535
+    atime2: 0
+    atime3: 0
+    atime4: 0
+    atime5: 0
+    atime6: 0
+    atime7: 0
+    m_NumColorKeys: 2
+    m_NumAlphaKeys: 2
+  Color1: {r: .141176477, g: .443137258, b: .627451003, a: 1}
+  Color2: {r: 0, g: 0, b: 0, a: 0}
+  Color3: {r: 0, g: 0, b: 0, a: 0}
+  Color4: {r: 0, g: 0, b: 0, a: 0}
+  Color5: {r: 0, g: 0, b: 0, a: 0}
+  ColorChangeType: 1
+  ColorParam:
+    Colors:
+    - t: 0
+      Color: {r: 1, g: 1, b: 1, a: 1}
+  ColorGradient:
+    key0:
+      serializedVersion: 2
+      rgba: 16777215
+    key1:
+      serializedVersion: 2
+      rgba: 4294967295
+    key2:
+      serializedVersion: 2
+      rgba: 4294923378
+    key3:
+      serializedVersion: 2
+      rgba: 16777215
+    key4:
+      serializedVersion: 2
+      rgba: 0
+    key5:
+      serializedVersion: 2
+      rgba: 0
+    key6:
+      serializedVersion: 2
+      rgba: 0
+    key7:
+      serializedVersion: 2
+      rgba: 0
+    ctime0: 0
+    ctime1: 15806
+    ctime2: 49151
+    ctime3: 65535
+    ctime4: 0
+    ctime5: 0
+    ctime6: 0
+    ctime7: 0
+    atime0: 0
+    atime1: 5783
+    atime2: 26214
+    atime3: 65535
+    atime4: 65535
+    atime5: 0
+    atime6: 0
+    atime7: 0
+    m_NumColorKeys: 4
+    m_NumAlphaKeys: 4
+  ColorGradualCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  RibbonWidth: 1
+  MaxRibbonElements: 8
+  RibbonLen: 15
+  TailDistance: 0
+  SyncTrailWithClient: 0
+  RibbonUVStretch: 0
+  FaceToObject: 0
+  FaceObject: {fileID: 0}
+  UseRandomRibbon: 0
+  RibbonWidthMin: 1
+  RibbonWidthMax: 1
+  RibbonLenMin: 15
+  RibbonLenMax: 15
+  ConeSize: {x: 1, y: 3}
+  ConeAngle: 0
+  ConeSegment: 12
+  UseConeAngleChange: 0
+  ConeDeltaAngle:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 60
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  CMesh: {fileID: 4300000, guid: 27f7b1d2bf2724e4e9dd8208f9c29680, type: 3}
+  MeshRotateAxis: {x: 0, y: 1, z: 0}
+  EmitType: 6
+  BoxSize: {x: 0, y: 0, z: 0}
+  EmitPoint: {x: 0, y: 0, z: 0}
+  Radius: 1
+  UseRandomCircle: 0
+  CircleRadiusMin: 1
+  CircleRadiusMax: 10
+  CircleDir: {x: 0, y: 1, z: 0}
+  EmitUniform: 0
+  LineStartObj: {fileID: 400020}
+  LineEndObj: {fileID: 0}
+  MaxENodes: 15
+  IsNodeLifeLoop: 0
+  NodeLifeMin: 1.39999998
+  NodeLifeMax: 1.39999998
+  EmitWay: 0
+  EmitterCurveX:
+    MaxValue: 1
+    TimeLen: 1
+    WrapType: 0
+    Curve01:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+  DiffDistance: .100000001
+  EmitMesh: {fileID: 0}
+  EmitMeshType: 0
+  IsBurstEmit: 0
+  ChanceToEmit: 100
+  EmitDuration: -1
+  EmitRate: 10
+  EmitLoop: 1
+  DirType: 4
+  OriVelocityAxis: {x: 0, y: 1, z: 0}
+  AngleAroundAxis: 0
+  UseRandomDirAngle: 0
+  AngleAroundAxisMax: 0
+  OriSpeed: 24
+  AlwaysSyncRotation: 0
+  IsRandomSpeed: 1
+  SpeedMin: 20
+  SpeedMax: 24
+  JetAffectorEnable: 0
+  JetMagType: 0
+  JetMag: 0
+  JetCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  JetCurveX:
+    MaxValue: 1
+    TimeLen: 1
+    WrapType: 0
+    Curve01:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+  VortexAffectorEnable: 0
+  VortexMagType: 0
+  VortexMag: 1
+  VortexCurveX:
+    MaxValue: 1
+    TimeLen: 1
+    WrapType: 0
+    Curve01:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+  VortexCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  VortexDirection: {x: 0, y: 1, z: 0}
+  VortexInheritRotation: 1
+  VortexObj: {fileID: 400020}
+  IsFixedCircle: 0
+  IsRandomVortexDir: 0
+  IsVortexAccelerate: 0
+  VortexAttenuation: 0
+  UseVortexMaxDistance: 0
+  VortexMaxDistance: 0
+  UVRotAffectorEnable: 0
+  RandomUVRotateSpeed: 0
+  UVRotXSpeed: 0
+  UVRotYSpeed: 0
+  UVRotXSpeedMax: 0
+  UVRotYSpeedMax: 0
+  UVRotStartOffset: {x: 0, y: 0}
+  UVScaleAffectorEnable: 0
+  UVScaleXSpeed: 0
+  UVScaleYSpeed: 0
+  GravityAffectorEnable: 0
+  GravityAftType: 0
+  GravityMagType: 0
+  GravityMag: 0
+  GravityCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  GravityCurveX:
+    MaxValue: 1
+    TimeLen: 1
+    WrapType: 0
+    Curve01:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+  GravityDirection: {x: 0, y: 1, z: 0}
+  GravityObject: {fileID: 400020}
+  IsGravityAccelerate: 1
+  GravityInheritRotation: 0
+  AirAffectorEnable: 0
+  AirObject: {fileID: 400020}
+  AirMagType: 0
+  AirMagnitude: 0
+  AirMagCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  AirMagCurveX:
+    MaxValue: 1
+    TimeLen: 1
+    WrapType: 0
+    Curve01:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+  AirDirection: {x: 0, y: 1, z: 0}
+  AirAttenuation: 0
+  AirUseMaxDistance: 0
+  AirMaxDistance: 0
+  AirEnableSpread: 0
+  AirSpread: 0
+  AirInheritVelocity: 0
+  AirInheritRotation: 0
+  BombAffectorEnable: 0
+  BombObject: {fileID: 400020}
+  BombType: 1
+  BombDecayType: 0
+  BombMagnitude: 0
+  BombAxis: {x: 0, y: 0, z: 0}
+  BombDecay: 0
+  TurbulenceAffectorEnable: 0
+  TurbulenceObject: {fileID: 400020}
+  TurbulenceMagType: 0
+  TurbulenceMagnitude: 1
+  TurbulenceMagCurveX:
+    MaxValue: 1
+    TimeLen: 1
+    WrapType: 0
+    Curve01:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+  TurbulenceMagCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  TurbulenceAttenuation: 0
+  TurbulenceUseMaxDistance: 0
+  TurbulenceMaxDistance: 0
+  TurbulenceForce: {x: 1, y: 1, z: 1}
+  DragAffectorEnable: 0
+  DragObj: {fileID: 400020}
+  DragUseDir: 0
+  DragDir: {x: 0, y: 1, z: 0}
+  DragMag: 10
+  DragUseMaxDist: 0
+  DragMaxDist: 50
+  DragAtten: 0
+  UVAffectorEnable: 0
+  UVType: 0
+  OriTopLeftUV: {x: 0, y: 0}
+  OriUVDimensions: {x: 1, y: 1}
+  Cols: 1
+  Rows: 1
+  LoopCircles: -1
+  UVTime: 1
+  EanPath: none
+  EanIndex: 0
+  RandomStartFrame: 0
+  UseCollisionDetection: 0
+  ParticleRadius: 1
+  CollisionType: 0
+  CollisionAutoDestroy: 1
+  EventReceiver: {fileID: 0}
+  EventHandleFunctionName: ' '
+  CollisionGoal: {fileID: 0}
+  ColliisionPosRange: 0
+  CollisionLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  PlaneDir: {x: 0, y: 1, z: 0}
+  PlaneOffset: {x: 0, y: -10, z: 0}
+  RopeWidth: 1
+  RopeUVLen: 5
+  RopeFixUVLen: 1
+  DecalSize: {x: 10, y: 10, z: 10}
+  SineAffectorEnable: 0
+  SineMagType: 0
+  SineMagnitude: 1
+  SineTime: 1
+  SineMagCurveX:
+    MaxValue: 1
+    TimeLen: 1
+    WrapType: 0
+    Curve01:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+  SineForce: {x: 0, y: 1, z: 0}
+  SineIsAccelarate: 0
+  UseShaderCurve1: 0
+  UseShaderCurve2: 0
+  UseFlowControl: 0
+  ShaderCurveX1:
+    MaxValue: 1
+    TimeLen: 1
+    WrapType: 0
+    Curve01:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+  ShaderCurveX2:
+    MaxValue: 1
+    TimeLen: 1
+    WrapType: 0
+    Curve01:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+  FlowSpeed: 1
+  FlowStretchLength: 1
+  UseSubEmitters: 0
+  SpawnCache: {fileID: 0}
+  BirthSubEmitter: 
+  CollisionSubEmitter: 
+  DeathSubEmitter: 
+  SubEmitterAutoStop: 1
+  STBezierSpline: {fileID: 0}
+  STTrailLen: 10
+  STElementWidth: 2
+  EmitSpline: {fileID: 11400018}
+  EmitSplinePosType: 0
+  SplineEaseType: 0
+  RotationAxis: {x: 0, y: 1, z: 0}
+  TimeScaleEnabled: 0
+  TimeScaleCurve:
+    MaxValue: 1
+    TimeLen: 1
+    WrapType: 0
+    Curve01:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+  AvailableNodeCount: 2
+  LastClientPos: {x: -4.30000019, y: 0, z: -18.8999996}
+  Owner: {fileID: 11400010}
+  mStopped: 0
+--- !u!114 &11400022
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100022}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4eaa492ec72a57543b3ace7c81409998, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ClientTransform: {fileID: 400022}
+  SyncClient: 0
+  Material: {fileID: 2100000, guid: 3888f786c2c7d8f43b7817b8b4da968a, type: 2}
+  RenderType: 3
+  StartTime: 0
+  MaxFps: 60
+  DebugColor: {r: 1, g: 1, b: 1, a: 1}
+  Depth: 0
+  SpriteType: 0
+  OriPoint: 0
+  SpriteWidth: 1
+  SpriteHeight: 1
+  SpriteUVStretch: 0
+  RandomOriScale: 1
+  RandomOriRot: 1
+  OriRotationMin: 0
+  OriRotationMax: 360
+  RotAffectorEnable: 1
+  RotateType: 4
+  DeltaRot: 360
+  RotateCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 360
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  RotateCurveWrap: 0
+  RotateCurveTime: 1
+  RotateCurveMaxValue: 1
+  RotateCurve01:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  RotateSpeedMin: 600
+  RotateSpeedMax: 800
+  UniformRandomScale: 0
+  OriScaleXMin: 10
+  OriScaleXMax: 14
+  OriScaleYMin: 10
+  OriScaleYMax: 14
+  ScaleAffectorEnable: 1
+  ScaleType: 3
+  DeltaScaleX: 3
+  DeltaScaleY: 3
+  ScaleXCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 5
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  ScaleYCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 5
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  ScaleWrapMode: 0
+  ScaleCurveTime: -1
+  MaxScaleCalue: 4
+  MaxScaleValueY: 1
+  ScaleXCurveNew:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: .275109142
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: .416320086
+      value: .52681303
+      inSlope: .646710396
+      outSlope: .646710396
+      tangentMode: 0
+    - time: 1
+      value: .969432294
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  ScaleYCurveNew:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  UseSameScaleCurve: 1
+  DeltaScaleXMax: 0
+  DeltaScaleYMax: 0
+  ColorAffectorEnable: 1
+  ColorAffectType: 0
+  ColorGradualTimeLength: -1
+  ColorGradualType: 0
+  IsRandomStartColor: 0
+  RandomColorParam:
+    Colors:
+    - t: 0
+      Color: {r: 1, g: 1, b: 1, a: 1}
+  RandomColorGradient:
+    key0:
+      serializedVersion: 2
+      rgba: 4294967295
+    key1:
+      serializedVersion: 2
+      rgba: 4294967295
+    key2:
+      serializedVersion: 2
+      rgba: 0
+    key3:
+      serializedVersion: 2
+      rgba: 0
+    key4:
+      serializedVersion: 2
+      rgba: 0
+    key5:
+      serializedVersion: 2
+      rgba: 0
+    key6:
+      serializedVersion: 2
+      rgba: 0
+    key7:
+      serializedVersion: 2
+      rgba: 0
+    ctime0: 0
+    ctime1: 65535
+    ctime2: 0
+    ctime3: 0
+    ctime4: 0
+    ctime5: 0
+    ctime6: 0
+    ctime7: 0
+    atime0: 0
+    atime1: 65535
+    atime2: 0
+    atime3: 0
+    atime4: 0
+    atime5: 0
+    atime6: 0
+    atime7: 0
+    m_NumColorKeys: 2
+    m_NumAlphaKeys: 2
+  Color1: {r: .568627477, g: .745098054, b: 1, a: 1}
+  Color2: {r: 0, g: 0, b: 0, a: 0}
+  Color3: {r: 0, g: 0, b: 0, a: 0}
+  Color4: {r: 0, g: 0, b: 0, a: 0}
+  Color5: {r: 0, g: 0, b: 0, a: 0}
+  ColorChangeType: 1
+  ColorParam:
+    Colors:
+    - t: 0
+      Color: {r: 1, g: 1, b: 1, a: 1}
+  ColorGradient:
+    key0:
+      serializedVersion: 2
+      rgba: 16777215
+    key1:
+      serializedVersion: 2
+      rgba: 4294967295
+    key2:
+      serializedVersion: 2
+      rgba: 4294940855
+    key3:
+      serializedVersion: 2
+      rgba: 16777215
+    key4:
+      serializedVersion: 2
+      rgba: 0
+    key5:
+      serializedVersion: 2
+      rgba: 0
+    key6:
+      serializedVersion: 2
+      rgba: 0
+    key7:
+      serializedVersion: 2
+      rgba: 0
+    ctime0: 0
+    ctime1: 19468
+    ctime2: 49151
+    ctime3: 65535
+    ctime4: 0
+    ctime5: 0
+    ctime6: 0
+    ctime7: 0
+    atime0: 0
+    atime1: 4241
+    atime2: 28334
+    atime3: 65535
+    atime4: 65535
+    atime5: 0
+    atime6: 0
+    atime7: 0
+    m_NumColorKeys: 4
+    m_NumAlphaKeys: 4
+  ColorGradualCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  RibbonWidth: 1
+  MaxRibbonElements: 8
+  RibbonLen: 15
+  TailDistance: 0
+  SyncTrailWithClient: 0
+  RibbonUVStretch: 0
+  FaceToObject: 0
+  FaceObject: {fileID: 0}
+  UseRandomRibbon: 0
+  RibbonWidthMin: 1
+  RibbonWidthMax: 1
+  RibbonLenMin: 15
+  RibbonLenMax: 15
+  ConeSize: {x: 1, y: 3}
+  ConeAngle: 0
+  ConeSegment: 12
+  UseConeAngleChange: 0
+  ConeDeltaAngle:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 60
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  CMesh: {fileID: 4300000, guid: 27f7b1d2bf2724e4e9dd8208f9c29680, type: 3}
+  MeshRotateAxis: {x: 0, y: 1, z: 0}
+  EmitType: 6
+  BoxSize: {x: 0, y: 0, z: 0}
+  EmitPoint: {x: 0, y: 0, z: 0}
+  Radius: 1
+  UseRandomCircle: 0
+  CircleRadiusMin: 1
+  CircleRadiusMax: 10
+  CircleDir: {x: 0, y: 1, z: 0}
+  EmitUniform: 0
+  LineStartObj: {fileID: 400022}
+  LineEndObj: {fileID: 0}
+  MaxENodes: 18
+  IsNodeLifeLoop: 0
+  NodeLifeMin: 1.20000005
+  NodeLifeMax: 1.20000005
+  EmitWay: 0
+  EmitterCurveX:
+    MaxValue: 1
+    TimeLen: 1
+    WrapType: 0
+    Curve01:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+  DiffDistance: .100000001
+  EmitMesh: {fileID: 0}
+  EmitMeshType: 0
+  IsBurstEmit: 0
+  ChanceToEmit: 100
+  EmitDuration: -1
+  EmitRate: 15
+  EmitLoop: 1
+  DirType: 4
+  OriVelocityAxis: {x: 0, y: 1, z: 0}
+  AngleAroundAxis: 0
+  UseRandomDirAngle: 0
+  AngleAroundAxisMax: 0
+  OriSpeed: 25
+  AlwaysSyncRotation: 0
+  IsRandomSpeed: 0
+  SpeedMin: 18
+  SpeedMax: 30
+  JetAffectorEnable: 0
+  JetMagType: 0
+  JetMag: 0
+  JetCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  JetCurveX:
+    MaxValue: 1
+    TimeLen: 1
+    WrapType: 0
+    Curve01:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+  VortexAffectorEnable: 0
+  VortexMagType: 0
+  VortexMag: 1
+  VortexCurveX:
+    MaxValue: 1
+    TimeLen: 1
+    WrapType: 0
+    Curve01:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+  VortexCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  VortexDirection: {x: 0, y: 1, z: 0}
+  VortexInheritRotation: 1
+  VortexObj: {fileID: 400022}
+  IsFixedCircle: 0
+  IsRandomVortexDir: 0
+  IsVortexAccelerate: 0
+  VortexAttenuation: 0
+  UseVortexMaxDistance: 0
+  VortexMaxDistance: 0
+  UVRotAffectorEnable: 0
+  RandomUVRotateSpeed: 0
+  UVRotXSpeed: 0
+  UVRotYSpeed: 0
+  UVRotXSpeedMax: 0
+  UVRotYSpeedMax: 0
+  UVRotStartOffset: {x: 0, y: 0}
+  UVScaleAffectorEnable: 0
+  UVScaleXSpeed: 0
+  UVScaleYSpeed: 0
+  GravityAffectorEnable: 0
+  GravityAftType: 0
+  GravityMagType: 0
+  GravityMag: 0
+  GravityCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  GravityCurveX:
+    MaxValue: 1
+    TimeLen: 1
+    WrapType: 0
+    Curve01:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+  GravityDirection: {x: 0, y: 1, z: 0}
+  GravityObject: {fileID: 400022}
+  IsGravityAccelerate: 1
+  GravityInheritRotation: 0
+  AirAffectorEnable: 0
+  AirObject: {fileID: 400022}
+  AirMagType: 0
+  AirMagnitude: 0
+  AirMagCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  AirMagCurveX:
+    MaxValue: 1
+    TimeLen: 1
+    WrapType: 0
+    Curve01:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+  AirDirection: {x: 0, y: 1, z: 0}
+  AirAttenuation: 0
+  AirUseMaxDistance: 0
+  AirMaxDistance: 0
+  AirEnableSpread: 0
+  AirSpread: 0
+  AirInheritVelocity: 0
+  AirInheritRotation: 0
+  BombAffectorEnable: 0
+  BombObject: {fileID: 400022}
+  BombType: 1
+  BombDecayType: 0
+  BombMagnitude: 0
+  BombAxis: {x: 0, y: 0, z: 0}
+  BombDecay: 0
+  TurbulenceAffectorEnable: 0
+  TurbulenceObject: {fileID: 400022}
+  TurbulenceMagType: 0
+  TurbulenceMagnitude: 1
+  TurbulenceMagCurveX:
+    MaxValue: 1
+    TimeLen: 1
+    WrapType: 0
+    Curve01:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+  TurbulenceMagCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  TurbulenceAttenuation: 0
+  TurbulenceUseMaxDistance: 0
+  TurbulenceMaxDistance: 0
+  TurbulenceForce: {x: 1, y: 1, z: 1}
+  DragAffectorEnable: 0
+  DragObj: {fileID: 400022}
+  DragUseDir: 0
+  DragDir: {x: 0, y: 1, z: 0}
+  DragMag: 10
+  DragUseMaxDist: 0
+  DragMaxDist: 50
+  DragAtten: 0
+  UVAffectorEnable: 0
+  UVType: 0
+  OriTopLeftUV: {x: 0, y: 0}
+  OriUVDimensions: {x: 1, y: 1}
+  Cols: 1
+  Rows: 1
+  LoopCircles: -1
+  UVTime: 1
+  EanPath: none
+  EanIndex: 0
+  RandomStartFrame: 0
+  UseCollisionDetection: 0
+  ParticleRadius: 1
+  CollisionType: 0
+  CollisionAutoDestroy: 1
+  EventReceiver: {fileID: 0}
+  EventHandleFunctionName: ' '
+  CollisionGoal: {fileID: 0}
+  ColliisionPosRange: 0
+  CollisionLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  PlaneDir: {x: 0, y: 1, z: 0}
+  PlaneOffset: {x: 0, y: -10, z: 0}
+  RopeWidth: 1
+  RopeUVLen: 5
+  RopeFixUVLen: 1
+  DecalSize: {x: 10, y: 10, z: 10}
+  SineAffectorEnable: 0
+  SineMagType: 0
+  SineMagnitude: 1
+  SineTime: 1
+  SineMagCurveX:
+    MaxValue: 1
+    TimeLen: 1
+    WrapType: 0
+    Curve01:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+  SineForce: {x: 0, y: 1, z: 0}
+  SineIsAccelarate: 0
+  UseShaderCurve1: 0
+  UseShaderCurve2: 0
+  UseFlowControl: 0
+  ShaderCurveX1:
+    MaxValue: 1
+    TimeLen: 1
+    WrapType: 0
+    Curve01:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+  ShaderCurveX2:
+    MaxValue: 1
+    TimeLen: 1
+    WrapType: 0
+    Curve01:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+  FlowSpeed: 1
+  FlowStretchLength: 1
+  UseSubEmitters: 0
+  SpawnCache: {fileID: 0}
+  BirthSubEmitter: 
+  CollisionSubEmitter: 
+  DeathSubEmitter: 
+  SubEmitterAutoStop: 1
+  STBezierSpline: {fileID: 0}
+  STTrailLen: 10
+  STElementWidth: 2
+  EmitSpline: {fileID: 11400018}
+  EmitSplinePosType: 0
+  SplineEaseType: 0
+  RotationAxis: {x: 0, y: 1, z: 0}
+  TimeScaleEnabled: 0
+  TimeScaleCurve:
+    MaxValue: 1
+    TimeLen: 1
+    WrapType: 0
+    Curve01:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+  AvailableNodeCount: 2
+  LastClientPos: {x: -4.30000019, y: 0, z: -18.8999996}
+  Owner: {fileID: 11400010}
+  mStopped: 0
+--- !u!114 &11400024
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100024}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4eaa492ec72a57543b3ace7c81409998, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ClientTransform: {fileID: 400024}
+  SyncClient: 0
+  Material: {fileID: 2100000, guid: afb060276ec289d4db759d9da97b54c0, type: 2}
+  RenderType: 0
+  StartTime: 0
+  MaxFps: 60
+  DebugColor: {r: 1, g: 1, b: 1, a: 1}
+  Depth: 4
+  SpriteType: 0
+  OriPoint: 0
+  SpriteWidth: 1
+  SpriteHeight: 1
+  SpriteUVStretch: 0
+  RandomOriScale: 1
+  RandomOriRot: 1
+  OriRotationMin: 0
+  OriRotationMax: 360
+  RotAffectorEnable: 0
+  RotateType: 0
+  DeltaRot: 360
+  RotateCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 360
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  RotateCurveWrap: 0
+  RotateCurveTime: 1
+  RotateCurveMaxValue: 1
+  RotateCurve01:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  RotateSpeedMin: 600
+  RotateSpeedMax: 800
+  UniformRandomScale: 1
+  OriScaleXMin: 6
+  OriScaleXMax: 8
+  OriScaleYMin: 5
+  OriScaleYMax: 7
+  ScaleAffectorEnable: 1
+  ScaleType: 3
+  DeltaScaleX: 3
+  DeltaScaleY: 3
+  ScaleXCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 5
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  ScaleYCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 5
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  ScaleWrapMode: 0
+  ScaleCurveTime: -1
+  MaxScaleCalue: 5
+  MaxScaleValueY: 1
+  ScaleXCurveNew:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: .152838409
+      inSlope: .533130586
+      outSlope: .533130586
+      tangentMode: 0
+    - time: .249653429
+      value: .304105669
+      inSlope: .661702573
+      outSlope: .661702573
+      tangentMode: 0
+    - time: .518422127
+      value: .402320057
+      inSlope: .290821195
+      outSlope: .290821195
+      tangentMode: 0
+    - time: 1
+      value: .432314426
+      inSlope: -.0725555569
+      outSlope: -.0725555569
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  ScaleYCurveNew:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  UseSameScaleCurve: 1
+  DeltaScaleXMax: 0
+  DeltaScaleYMax: 0
+  ColorAffectorEnable: 1
+  ColorAffectType: 0
+  ColorGradualTimeLength: -1
+  ColorGradualType: 0
+  IsRandomStartColor: 0
+  RandomColorParam:
+    Colors:
+    - t: 0
+      Color: {r: 1, g: 1, b: 1, a: 1}
+  RandomColorGradient:
+    key0:
+      serializedVersion: 2
+      rgba: 4294967295
+    key1:
+      serializedVersion: 2
+      rgba: 4294967295
+    key2:
+      serializedVersion: 2
+      rgba: 0
+    key3:
+      serializedVersion: 2
+      rgba: 0
+    key4:
+      serializedVersion: 2
+      rgba: 0
+    key5:
+      serializedVersion: 2
+      rgba: 0
+    key6:
+      serializedVersion: 2
+      rgba: 0
+    key7:
+      serializedVersion: 2
+      rgba: 0
+    ctime0: 0
+    ctime1: 65535
+    ctime2: 0
+    ctime3: 0
+    ctime4: 0
+    ctime5: 0
+    ctime6: 0
+    ctime7: 0
+    atime0: 0
+    atime1: 65535
+    atime2: 0
+    atime3: 0
+    atime4: 0
+    atime5: 0
+    atime6: 0
+    atime7: 0
+    m_NumColorKeys: 2
+    m_NumAlphaKeys: 2
+  Color1: {r: 1, g: 1, b: 1, a: 1}
+  Color2: {r: 0, g: 0, b: 0, a: 0}
+  Color3: {r: 0, g: 0, b: 0, a: 0}
+  Color4: {r: 0, g: 0, b: 0, a: 0}
+  Color5: {r: 0, g: 0, b: 0, a: 0}
+  ColorChangeType: 1
+  ColorParam:
+    Colors:
+    - t: 0
+      Color: {r: 1, g: 1, b: 1, a: 1}
+  ColorGradient:
+    key0:
+      serializedVersion: 2
+      rgba: 16777215
+    key1:
+      serializedVersion: 2
+      rgba: 4294967295
+    key2:
+      serializedVersion: 2
+      rgba: 4294967295
+    key3:
+      serializedVersion: 2
+      rgba: 16777215
+    key4:
+      serializedVersion: 2
+      rgba: 0
+    key5:
+      serializedVersion: 2
+      rgba: 0
+    key6:
+      serializedVersion: 2
+      rgba: 0
+    key7:
+      serializedVersion: 2
+      rgba: 0
+    ctime0: 0
+    ctime1: 15806
+    ctime2: 65535
+    ctime3: 65535
+    ctime4: 0
+    ctime5: 0
+    ctime6: 0
+    ctime7: 0
+    atime0: 0
+    atime1: 5590
+    atime2: 24672
+    atime3: 65535
+    atime4: 65535
+    atime5: 0
+    atime6: 0
+    atime7: 0
+    m_NumColorKeys: 3
+    m_NumAlphaKeys: 4
+  ColorGradualCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  RibbonWidth: 1
+  MaxRibbonElements: 8
+  RibbonLen: 15
+  TailDistance: 0
+  SyncTrailWithClient: 0
+  RibbonUVStretch: 0
+  FaceToObject: 0
+  FaceObject: {fileID: 0}
+  UseRandomRibbon: 0
+  RibbonWidthMin: 1
+  RibbonWidthMax: 1
+  RibbonLenMin: 15
+  RibbonLenMax: 15
+  ConeSize: {x: 1, y: 3}
+  ConeAngle: 0
+  ConeSegment: 12
+  UseConeAngleChange: 0
+  ConeDeltaAngle:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 60
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  CMesh: {fileID: 4300000, guid: 27f7b1d2bf2724e4e9dd8208f9c29680, type: 3}
+  MeshRotateAxis: {x: 0, y: 1, z: 0}
+  EmitType: 6
+  BoxSize: {x: 0, y: 0, z: 0}
+  EmitPoint: {x: 0, y: 0, z: 0}
+  Radius: 1
+  UseRandomCircle: 0
+  CircleRadiusMin: 1
+  CircleRadiusMax: 10
+  CircleDir: {x: 0, y: 1, z: 0}
+  EmitUniform: 0
+  LineStartObj: {fileID: 400024}
+  LineEndObj: {fileID: 0}
+  MaxENodes: 15
+  IsNodeLifeLoop: 0
+  NodeLifeMin: 1.20000005
+  NodeLifeMax: 1.20000005
+  EmitWay: 0
+  EmitterCurveX:
+    MaxValue: 1
+    TimeLen: 1
+    WrapType: 0
+    Curve01:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+  DiffDistance: .100000001
+  EmitMesh: {fileID: 0}
+  EmitMeshType: 0
+  IsBurstEmit: 0
+  ChanceToEmit: 100
+  EmitDuration: -1
+  EmitRate: 10
+  EmitLoop: 1
+  DirType: 4
+  OriVelocityAxis: {x: 0, y: 1, z: 0}
+  AngleAroundAxis: 0
+  UseRandomDirAngle: 0
+  AngleAroundAxisMax: 0
+  OriSpeed: 24
+  AlwaysSyncRotation: 0
+  IsRandomSpeed: 0
+  SpeedMin: 20
+  SpeedMax: 24
+  JetAffectorEnable: 0
+  JetMagType: 0
+  JetMag: 0
+  JetCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  JetCurveX:
+    MaxValue: 1
+    TimeLen: 1
+    WrapType: 0
+    Curve01:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+  VortexAffectorEnable: 0
+  VortexMagType: 0
+  VortexMag: 1
+  VortexCurveX:
+    MaxValue: 1
+    TimeLen: 1
+    WrapType: 0
+    Curve01:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+  VortexCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  VortexDirection: {x: 0, y: 1, z: 0}
+  VortexInheritRotation: 1
+  VortexObj: {fileID: 400024}
+  IsFixedCircle: 0
+  IsRandomVortexDir: 0
+  IsVortexAccelerate: 0
+  VortexAttenuation: 0
+  UseVortexMaxDistance: 0
+  VortexMaxDistance: 0
+  UVRotAffectorEnable: 0
+  RandomUVRotateSpeed: 0
+  UVRotXSpeed: 0
+  UVRotYSpeed: 0
+  UVRotXSpeedMax: 0
+  UVRotYSpeedMax: 0
+  UVRotStartOffset: {x: 0, y: 0}
+  UVScaleAffectorEnable: 0
+  UVScaleXSpeed: 0
+  UVScaleYSpeed: 0
+  GravityAffectorEnable: 0
+  GravityAftType: 0
+  GravityMagType: 0
+  GravityMag: 0
+  GravityCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  GravityCurveX:
+    MaxValue: 1
+    TimeLen: 1
+    WrapType: 0
+    Curve01:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+  GravityDirection: {x: 0, y: 1, z: 0}
+  GravityObject: {fileID: 400024}
+  IsGravityAccelerate: 1
+  GravityInheritRotation: 0
+  AirAffectorEnable: 0
+  AirObject: {fileID: 400024}
+  AirMagType: 0
+  AirMagnitude: 0
+  AirMagCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  AirMagCurveX:
+    MaxValue: 1
+    TimeLen: 1
+    WrapType: 0
+    Curve01:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+  AirDirection: {x: 0, y: 1, z: 0}
+  AirAttenuation: 0
+  AirUseMaxDistance: 0
+  AirMaxDistance: 0
+  AirEnableSpread: 0
+  AirSpread: 0
+  AirInheritVelocity: 0
+  AirInheritRotation: 0
+  BombAffectorEnable: 0
+  BombObject: {fileID: 400024}
+  BombType: 1
+  BombDecayType: 0
+  BombMagnitude: 0
+  BombAxis: {x: 0, y: 0, z: 0}
+  BombDecay: 0
+  TurbulenceAffectorEnable: 0
+  TurbulenceObject: {fileID: 400024}
+  TurbulenceMagType: 0
+  TurbulenceMagnitude: 1
+  TurbulenceMagCurveX:
+    MaxValue: 1
+    TimeLen: 1
+    WrapType: 0
+    Curve01:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+  TurbulenceMagCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  TurbulenceAttenuation: 0
+  TurbulenceUseMaxDistance: 0
+  TurbulenceMaxDistance: 0
+  TurbulenceForce: {x: 1, y: 1, z: 1}
+  DragAffectorEnable: 0
+  DragObj: {fileID: 400024}
+  DragUseDir: 0
+  DragDir: {x: 0, y: 1, z: 0}
+  DragMag: 10
+  DragUseMaxDist: 0
+  DragMaxDist: 50
+  DragAtten: 0
+  UVAffectorEnable: 0
+  UVType: 0
+  OriTopLeftUV: {x: 0, y: 0}
+  OriUVDimensions: {x: 1, y: 1}
+  Cols: 1
+  Rows: 1
+  LoopCircles: -1
+  UVTime: 1
+  EanPath: none
+  EanIndex: 0
+  RandomStartFrame: 0
+  UseCollisionDetection: 0
+  ParticleRadius: 1
+  CollisionType: 0
+  CollisionAutoDestroy: 1
+  EventReceiver: {fileID: 0}
+  EventHandleFunctionName: ' '
+  CollisionGoal: {fileID: 0}
+  ColliisionPosRange: 0
+  CollisionLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  PlaneDir: {x: 0, y: 1, z: 0}
+  PlaneOffset: {x: 0, y: -10, z: 0}
+  RopeWidth: 1
+  RopeUVLen: 5
+  RopeFixUVLen: 1
+  DecalSize: {x: 10, y: 10, z: 10}
+  SineAffectorEnable: 0
+  SineMagType: 0
+  SineMagnitude: 1
+  SineTime: 1
+  SineMagCurveX:
+    MaxValue: 1
+    TimeLen: 1
+    WrapType: 0
+    Curve01:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+  SineForce: {x: 0, y: 1, z: 0}
+  SineIsAccelarate: 0
+  UseShaderCurve1: 0
+  UseShaderCurve2: 0
+  UseFlowControl: 0
+  ShaderCurveX1:
+    MaxValue: 1
+    TimeLen: 1
+    WrapType: 0
+    Curve01:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+  ShaderCurveX2:
+    MaxValue: 1
+    TimeLen: 1
+    WrapType: 0
+    Curve01:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+  FlowSpeed: 1
+  FlowStretchLength: 1
+  UseSubEmitters: 0
+  SpawnCache: {fileID: 0}
+  BirthSubEmitter: 
+  CollisionSubEmitter: 
+  DeathSubEmitter: 
+  SubEmitterAutoStop: 1
+  STBezierSpline: {fileID: 0}
+  STTrailLen: 10
+  STElementWidth: 2
+  EmitSpline: {fileID: 11400018}
+  EmitSplinePosType: 0
+  SplineEaseType: 0
+  RotationAxis: {x: 0, y: 1, z: 0}
+  TimeScaleEnabled: 0
+  TimeScaleCurve:
+    MaxValue: 1
+    TimeLen: 1
+    WrapType: 0
+    Curve01:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+  AvailableNodeCount: 4
+  LastClientPos: {x: -4.30000019, y: 0, z: -18.8999996}
+  Owner: {fileID: 11400010}
+  mStopped: 0
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100010}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1
