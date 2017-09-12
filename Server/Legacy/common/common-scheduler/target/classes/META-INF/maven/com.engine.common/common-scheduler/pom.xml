@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<project
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
+	xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<modelVersion>4.0.0</modelVersion>
+	
+	<parent>
+		<artifactId>common</artifactId>
+		<groupId>com.engine.common</groupId>
+		<version>2.0</version>
+	</parent>
+	
+	<artifactId>common-scheduler</artifactId>
+	<name>定时任务支持</name>
+
+	<dependencies>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-context</artifactId>
+			<version>${spring.version}</version>
+			<type>jar</type>
+			<scope>compile</scope>
+		</dependency>
+		<dependency>
+			<groupId>com.engine.common</groupId>
+			<artifactId>common-utils</artifactId>
+			<version>${common.version}</version>
+		</dependency>
+	</dependencies>
+</project>

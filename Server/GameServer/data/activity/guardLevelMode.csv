@@ -1,0 +1,8 @@
+难度模式,难度说明,副本ID,开启等级
+mode,modeDesc,roomId,openLevel
+1,简单,shouhujiaren_1,1
+2,普通,shouhujiaren_2,25
+3,困难,shouhujiaren_3,35
+4,大师,shouhujiaren_4,45
+5,深渊,shouhujiaren_5,55
+6,死亡,shouhujiaren_6,65

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:util="http://www.springframework.org/schema/util" xmlns:aop="http://www.springframework.org/schema/aop"
+	xmlns:resource="http://www.engine.com/common/resource" xmlns:socket="http://www.engine.com/common/socket"
+	xmlns:bdb="http://www.engine.com/common/bdb"
+	xsi:schemaLocation="
+http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-2.5.xsd
+http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-3.0.xsd
+http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-3.0.xsd
+http://www.engine.com/common/socket http://www.engine.com/common/socket/socket-1.0.xsd
+http://www.engine.com/common/bdb http://www.engine.com/common/bdb/bdb-1.0.xsd
+http://www.engine.com/common/resource http://www.engine.com/common/resource/resource-1.0.xsd">
+
+	<bean id="merger" class="com.game.module.migration.Merger">
+		<constructor-arg index="0">
+			<map>
+				<!-- 合服过程修正的实体列表 -->
+				<!-- <entry key="com.engine.gow.module.player.manager.Player" value="com.game.module.migration.IgnoreConverter" /> -->
+				<entry key="com.engine.gow.module.player.manager.Player" value="com.game.module.migration.converter.PlayerMigrator" />
+				<entry key="com.engine.gow.module.common.manager.GlobalInfo" value="com.game.module.migration.converter.GlobalInfoMigrator" />
+				<entry key="com.engine.gow.module.corps.manager.Corps" value="com.game.module.migration.converter.CorpsMigrator" />
+				
+				<!-- 合服过程忽略的实体列表 -->
+				<entry key="com.engine.gow.module.email.manager.GroupMail" value="com.game.module.migration.IgnoreConverter" />
+				<entry key="com.engine.gow.module.email.manager.MailBox" value="com.game.module.migration.IgnoreConverter" />
+				<entry key="com.engine.gow.module.email.manager.UserMail" value="com.game.module.migration.IgnoreConverter" />
+				
+				<entry key="com.engine.gow.module.gift.manager.GlobalGift" value="com.game.module.migration.IgnoreConverter" />
+				<entry key="com.engine.gow.module.gift.manager.UserGift" value="com.game.module.migration.IgnoreConverter" />
+			</map>
+		</constructor-arg>
+		
+		<constructor-arg index="1">
+			<map>
+				<entry key="com.engine.gow.module.corps.entity.Corps">
+					<set>
+						<value>com.engine.gow.common.entity.Player</value>
+					</set>
+				</entry>
+				<entry key="com.engine.gow.module.hero.entity.UserHero">
+					<set>
+						<value>com.engine.gow.common.entity.Player</value>
+					</set>  
+				</entry>
+			</map>
+		</constructor-arg>
+	</bean>
+
+</beans>

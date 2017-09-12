@@ -1,0 +1,23 @@
+开启等级,时间限制（秒）,每天免费次数,冷却时间(秒),可购买次数,购买次数单价,场景ID,开场动画名,对手入场位置,对方神侍1入场位置,对方神侍2入场位置,我方神侍1入场位置,我方神侍2入场位置,特定对手添加仇恨值,对手出场方式,对手死亡方式,斯巴达战士属性比例ID,双方主角加的气力状态,最大排行数,显示排行数,向上抽取数,向下抽取数,抽取间隔最小因子（千分之）,抽取间隔最大因子（千分之）,战斗记录保留数量,每日奖励结算时间(时*60+分),每周奖励结算日（1-7）,每周奖励结算时间(时*60+分),规则说明
+openLevel,limitTime,freeChance,coolDown,buyChance,buyChancePrice,roomId,movieName,opponentPos,opponentPet1Pos,opponentPet2Pos,myPet1Pos,myPet2Pos,addHateValue,opponentBornType,opponentDeadType,spartaPropRateId,heroShieldBuff,maxRankNum,showRankNum,chooseUpwards,chooseDownwards,chooseGapMinFactor,chooseGapMaxFactor,logNum,dayRewardTime,weekRewardDay,weekRewardTime,ruleIntro
+11,90,5,600,2,50,jingjichang,jingjichang_guochang01,"0.07393052,-11.47096","0.00,-12","16,-12","-6,-6","-16,-6",10,wuchusheng,herodead,r_jingjichang,2306,500,200,4,2,15,25,20,1260,7,1260,"<color=#9e9381>当前成绩，积分：<color=#ff8e2b>{curScore}</color>，段位：<color=#ff8e2b>{curGrade}</color>，排名：<color=#ff8e2b>{curRank}</color>。
+历史最好成绩，积分：<color=#ff8e2b>{maxScore}</color>，段位：<color=#ff8e2b>{maxGrade}</color>。
+
+当前段位每日奖励：<quad class=""gold""><color=#f1d7ad>{dayGold}</color> <quad class=""arenacoin""><color=#f1d7ad>{dayArenaCoin}</color> <quad class=""diamond""><color=#f1d7ad>{dayDiamond}</color>
+当前段位每周奖励：<quad class=""gold""><color=#f1d7ad>{weekGold}</color> <quad class=""arenacoin""><color=#f1d7ad>{weekArenaCoin}</color> <quad class=""diamond""><color=#f1d7ad>{weekDiamond}</color>
+
+<dummy>下一段位：<color=#ff8e2b>{nextGrade}</color>。
+首次晋级<color=#ff8e2b>{nextGrade}</color>奖励：<quad class=""gold""><color=#f1d7ad>{upGold}</color> <quad class=""arenacoin""><color=#f1d7ad>{upArenaCoin}</color> <quad class=""diamond""><color=#f1d7ad>{upDiamond}</color></dummy>
+
+<color=#ff8e2b>竞技场战斗规则：</color>
+1、竞技场战斗为随机匹配出与玩家能力相当的6名对手作为挑战对象。
+
+2、竞技场战斗为玩家带领2名神侍以及3个斯巴达勇士同时对战敌方玩家主角及其神侍和斯巴达勇士，玩家只可操作主角。
+
+3、率先杀死对方所有神侍及其主角的玩家获得胜利。
+
+4、玩家只可在竞技场外更换武器装备，竞技场战斗中不得更换武器装备。
+
+5、挑战其他玩家或被其他玩家挑战时，战斗胜利获得一定的积分，战斗失败则扣除一定的积分。玩家可点击战斗记录查看详细情况。
+
+6、玩家的当前积分可决定其所在的段位，首次成功晋升段位即获得首次晋升奖励。每日21点和每周日21点都会根据玩家所在段位发放丰厚的段位每日奖励和每周奖励。</color>"

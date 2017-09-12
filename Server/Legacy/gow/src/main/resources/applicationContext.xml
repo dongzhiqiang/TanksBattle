@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:util="http://www.springframework.org/schema/util"
+	xmlns:aop="http://www.springframework.org/schema/aop"
+	xmlns:ramcache="http://www.engine.com/common/ramcache"
+	xmlns:protocol="http://www.engine.com/common/protocol"
+	xmlns:socket="http://www.engine.com/common/socket"
+	xmlns:resource="http://www.engine.com/common/resource"
+	xsi:schemaLocation="http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-3.0.xsd
+		http://www.engine.com/common/protocol http://www.engine.com/common/protocol/protocol-1.0.xsd
+		http://www.engine.com/common/resource http://www.engine.com/common/resource/resource-1.0.xsd
+		http://www.engine.com/common/socket http://www.engine.com/common/socket/socket-1.0.xsd
+		http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+		http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-3.0.xsd
+		http://www.engine.com/common/ramcache http://www.engine.com/common/ramcache/ramcache-1.0.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-2.5.xsd">
+
+	<!-- AOP拦截配置 -->
+	<aop:aspectj-autoproxy proxy-target-class="true" />
+
+	<!-- 配置文件载入配置 -->
+	<bean id="propertyConfigurer"
+		class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+		<property name="locations">
+			<list>
+				<value>server.properties</value>
+				<value>jdbc.properties</value>
+				<value>sms.properties</value>
+			</list>
+		</property>
+	</bean>
+
+	<!-- 转换器配置 -->
+	<bean
+		class="org.springframework.context.support.ConversionServiceFactoryBean">
+		<property name="converters">
+			<list>
+				<bean class="com.engine.common.resource.support.StringToDateConverter" />
+				<bean class="com.engine.common.resource.support.StringToClassConverter" />
+				<bean class="com.engine.common.resource.support.JsonToMapConverter" />
+				<bean class="com.engine.common.resource.support.JsonToArrayConverter" />
+				<bean class="com.engine.common.resource.support.JsonToCollectionConverter" />
+				<bean class="com.engine.common.resource.support.JsonToObjectConverter" />
+			</list>
+		</property>
+	</bean>
+
+	<!-- 开启注释配置 -->
+	<context:annotation-config />
+
+	<!-- 自动包扫描配置 -->
+	<context:component-scan base-package="
+		com.engine.common,
+		com.game.gow" />
+
+	<!-- 数据源配置 -->
+	<bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource"
+		destroy-method="close">
+		<property name="driverClassName" value="${jdbc.driverClassName}" />
+		<property name="url" value="${jdbc.url}" />
+		<property name="username" value="${jdbc.username}" />
+		<property name="password" value="${jdbc.password}" />
+		<property name="validationQuery" value="select ''" />
+		<property name="numTestsPerEvictionRun" value="10" />
+		<property name="testOnBorrow" value="false" />
+		<property name="testWhileIdle" value="false" />
+		<property name="initialSize" value="10" />
+		<property name="maxActive" value="50000" />
+		<property name="maxIdle" value="5" />
+		<property name="minIdle" value="1" />
+	</bean>
+
+	<!-- Hibernate SessionFactory -->
+	<bean id="sessionFactory"
+		class="org.springframework.orm.hibernate3.annotation.AnnotationSessionFactoryBean">
+		<property name="dataSource" ref="dataSource" />
+		<property name="packagesToScan" value="com.game.gow.**.manager" />
+		<property name="hibernateProperties">
+			<props>
+				<prop key="current_session_context_class">thread</prop>
+				<prop key="cache.provider_class">org.hibernate.cache.NoCacheProvider</prop>
+				<prop key="hibernate.dialect">${hibernate.dialect}</prop>
+				<prop key="hibernate.cache.use_second_level_cache">false</prop>
+				<prop key="hibernate.show_sql">${hibernate.show_sql}</prop>
+				<prop key="hibernate.hbm2ddl.auto">${hibernate.hbm2ddl.auto}</prop>
+
+				<!-- 使用MySQL要加的配置 -->
+				<prop key="connection.autoReconnect">true</prop>
+				<prop key="connection.autoReconnectForPools">true</prop>
+				<prop key="connection.is-connection-validation-required">true</prop>
+				<!-- 初始化SQL文件 <prop key="hibernate.hbm2ddl.import_files">/import.sql</prop> -->
+			</props>
+		</property>
+	</bean>
+
+	<bean id="accessor" class="com.engine.common.ramcache.orm.impl.HibernateAccessor">
+		<property name="sessionFactory" ref="sessionFactory" />
+	</bean>
+
+	<bean id="querier" class="com.engine.common.ramcache.orm.impl.HibernateQuerier">
+		<property name="sessionFactory" ref="sessionFactory" />
+	</bean>
+    
+    <!-- 内存缓存层配置 -->
+	<ramcache:config id="cacheService" lockAspect="true">
+		<ramcache:accessor ref="accessor" />
+		<ramcache:querier ref="querier" />
+		<ramcache:constants ref="ramcache_constants" />
+		<ramcache:persist config="-1:true" type="QUEUE">
+			<ramcache:persister name="pre_minute" config="0 0/1 * * * *"
+				type="TIMING" />
+			<ramcache:persister name="pre_5_minute" config="5 0/5 * * * *"
+				type="TIMING" />
+			<ramcache:persister name="pre_10_minute" config="10 0/10 * * * *"
+				type="TIMING" />
+			<ramcache:persister name="pre_half_hour" config="15 0/30 * * * *"
+				type="TIMING" />
+			<ramcache:persister name="pre_hour" config="20 0 0/1 * * *"
+				type="TIMING" />
+		</ramcache:persist>
+		<ramcache:entity>
+			<ramcache:package name="com.game.gow.**.manager" />
+		</ramcache:entity>
+     </ramcache:config>
+
+	<util:map id="ramcache_constants">
+		<entry key="default" value="${server.ramcache.default}" />
+		<entry key="double" value="${server.ramcache.double}" />
+		<entry key="triple" value="${server.ramcache.triple}" />
+		<entry key="maximum" value="${server.ramcache.maximum}" />
+	</util:map>
+
+	<!-- 通信部分的配置 -->
+
+	<!-- 会话管理器 -->
+	<bean id="sessionManager"
+		class="com.engine.common.socket.filter.session.SessionManagerFilter">
+		<property name="handlerName" value="server-handler" />
+		<!-- 延时移除 -->
+		<property name="delayTimes" value="60" />
+	</bean>
+
+	<!-- 管理后台过滤器 -->
+	<bean id="managementFilter" class="com.engine.common.socket.filter.ManagementFilter">
+		<property name="allowIpConfig" value="${server.socket.filter.manager.ips}" />
+	</bean>
+
+	<!-- 防火墙管理器 -->
+	<bean id="firewallManager" class="com.engine.common.socket.filter.firewall.FirewallFilter">
+		<!-- 设置阻止全部连接状态(白名单除外,默认:false) -->
+		<property name="blockAllState" value="${server.socket.firewall.block.autostart}" />
+		<!-- 永久白名单设置(支持"*"号通配符,多IP个默认:空) -->
+		<property name="allows" value="${server.socket.firewall.allows}" />
+		<!-- 永久黑名单设置(支持"*"号通配符,多IP个默认:空) -->
+		<property name="blocks" value="${server.socket.firewall.blocks}" />
+		<!-- 临时黑名单阻止时长，单位:秒(默认:600) -->
+		<property name="blockTimes" value="${server.socket.firewall.block.times}" />
+		<!-- 最大客户端连接数(默认:5000) -->
+		<property name="maxClients" value="${server.socket.firewall.client.max}" />
+		<!-- 设置每秒收到的字节数限制(默认:8192) -->
+		<property name="bytesInSecondLimit" value="${server.socket.firewall.client.bytes}" />
+		<!-- 设置每秒收到的数据包次数限制(默认:128) -->
+		<property name="timesInSecondLimit" value="${server.socket.firewall.client.packages}" />
+		<!-- 设置最大违规次数(默认:5) -->
+		<property name="maxViolateTimes" value="${server.socket.firewall.client.times}" />
+	</bean>
+
+	<!-- 解码器配置 -->
+	<bean id="coder" class="com.engine.common.socket.codec.ProtocolCoder" />
+	<protocol:config id="protocol">
+		<protocol:package index="1000" name="com.game.gow" />
+		<protocol:class index="1"
+			name="com.engine.common.utils.model.Result" />
+		<protocol:class index="2"
+			name="com.engine.common.utils.model.Page" />
+	</protocol:config>
+	<bean id="jsonCoder" class="com.engine.common.socket.codec.JsonCoder" />
+
+	<!-- 通信服务器配置 -->
+	<socket:server id="server" config="classpath:server.properties">
+		<socket:acceptor
+			class="org.apache.mina.transport.socket.nio.NioSocketAcceptor" />
+		<socket:filters>
+			<!-- <socket:filter name="policy"
+				class="com.engine.common.socket.filter.PolicyFilter" />-->
+			<socket:filter name="firewall" ref="firewallManager" />
+			<socket:filter name="session" ref="sessionManager" />
+			<socket:filter name="management" ref="managementFilter" />
+		</socket:filters>
+		<socket:coders>
+			<socket:coder format="0" ref="coder" />
+			<socket:coder format="1" ref="jsonCoder" />
+		</socket:coders>
+		<socket:commands scan-beans="true">
+			<socket:include name="com.game.gow.**.facade.**Push" />
+			<socket:include name="com.game.gow.**.facade.**Pushs" />
+			<socket:include name="com.engine.manager.**.facade.**Pushs" />
+		</socket:commands>
+	</socket:server>
+
+	<!-- 静态资源配置 -->
+	<import resource="resourceConfig.xml" />
+	<!-- 各模块的公用资源配置 -->
+	<import resource="applicationConfig.xml" />
+
+</beans>

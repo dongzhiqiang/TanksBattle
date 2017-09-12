@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:util="http://www.springframework.org/schema/util" 
+	xmlns:socket="http://www.engine.com/common/socket"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="
+http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-2.5.xsd
+http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-3.0.xsd
+http://www.engine.com/common/socket http://www.engine.com/common/socket/socket-1.0.xsd">
+
+	<context:annotation-config />
+
+	<context:component-scan base-package="com.engine.common.socket.filter.firewall" />
+	
+	<bean class="org.springframework.context.support.ConversionServiceFactoryBean" />
+	
+	<bean id="jsonCoder" class="com.engine.common.socket.codec.JsonCoder" />
+	
+	<!-- 会话管理器 -->	
+	<bean id="sessionManager" class="com.engine.common.socket.filter.session.SessionManagerFilter">
+		<property name="handlerName" value="server-handler" />
+	</bean>
+	
+	<!-- 防火墙管理器 -->
+	<bean id="firewallManager" class="com.engine.common.socket.filter.firewall.FirewallFilter">
+		<!-- 设置阻止全部连接状态(白名单除外,默认:false) -->
+		<property name="blockAllState" value="false" />
+		<!-- 永久白名单设置(支持"*"号通配符,多IP个默认:空) 
+		<property name="allows" value="192.168.10.*,192.168.1.*" />
+		-->
+		<!-- 永久黑名单设置(支持"*"号通配符,多IP个默认:空)
+		<property name="blocks" value="192.168.10.*,192.168.1.*" />
+		 -->
+		<!-- 临时黑名单阻止时长，单位:秒(默认:600) -->
+		<property name="blockTimes" value="10" />
+		<!-- 最大客户端连接数(默认:5000) -->
+		<property name="maxClients" value="5" />
+		<!-- 设置每秒收到的字节数限制(默认:8192) -->
+		<property name="bytesInSecondLimit" value="8192" />
+		<!-- 设置每秒收到的数据包次数限制(默认:128) -->
+		<property name="timesInSecondLimit" value="128" />
+		<!-- 设置最大违规次数(默认:5) -->
+		<property name="maxViolateTimes" value="5" />
+	</bean>
+	
+	<!-- 服务器配置 -->
+	<socket:server id="server" config="classpath:server.properties">
+		<socket:acceptor
+			class="org.apache.mina.transport.socket.nio.NioSocketAcceptor" />
+		<socket:filters>
+			<socket:filter name="firewall" ref="firewallManager" />
+			<socket:filter name="session" ref="sessionManager" />
+		</socket:filters>
+		<socket:coders>
+			<socket:coder format="0" ref="jsonCoder" />
+		</socket:coders>
+		<socket:commands scan-beans="true" />
+	</socket:server>
+
+	<!-- 客户端配置 -->
+	<socket:client-factory id="client-factory" config="classpath:client.properties" depends-on="server">
+		<socket:coders>
+			<socket:coder format="0" ref="jsonCoder" />
+		</socket:coders>
+		<socket:commands scan-beans="true" />
+	</socket:client-factory>
+
+</beans>

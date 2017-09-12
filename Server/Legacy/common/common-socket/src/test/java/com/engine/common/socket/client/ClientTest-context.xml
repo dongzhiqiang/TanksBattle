@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:util="http://www.springframework.org/schema/util" 
+	xmlns:socket="http://www.engine.com/common/socket"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="
+http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-2.5.xsd
+http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-3.0.xsd
+http://www.engine.com/common/socket http://www.engine.com/common/socket/socket-1.0.xsd">
+
+	<context:annotation-config />
+
+	<context:component-scan base-package="com.engine.common.socket.client" />
+	
+	<bean class="org.springframework.context.support.ConversionServiceFactoryBean" />
+	
+	<bean id="jsonCoder" class="com.engine.common.socket.codec.JsonCoder" />
+
+	<bean id="sessionFilter" class="com.engine.common.socket.filter.session.SessionManagerFilter">
+		<property name="handlerName" value="server-handler" />
+	</bean>
+
+	<!-- 服务器配置 -->
+	<socket:server id="server" config="classpath:/com/my9yu/common/socket/client/server.properties">
+		<socket:acceptor
+			class="org.apache.mina.transport.socket.nio.NioSocketAcceptor" />
+		<socket:filters>
+			<socket:filter name="mdc"
+				class="org.apache.mina.filter.logging.MdcInjectionFilter" />
+			<socket:filter name="session" ref="sessionFilter" />
+		</socket:filters>
+		<socket:coders>
+			<socket:coder format="0" ref="jsonCoder" />
+		</socket:coders>
+		<socket:commands scan-beans="true">
+			<socket:interface name="com.engine.common.socket.client.Pushs" />
+		</socket:commands>
+	</socket:server>
+
+	<!-- 客户端配置 -->
+	<socket:client-factory id="client-factory" config="classpath:/com/my9yu/common/socket/client/client.properties" depends-on="server">
+		<socket:filters>
+			<socket:filter name="mdc"
+				class="org.apache.mina.filter.logging.MdcInjectionFilter" />
+		</socket:filters>
+		<socket:coders>
+			<socket:coder format="0" ref="jsonCoder" />
+		</socket:coders>
+		<socket:commands scan-beans="false">
+			<socket:interface name="com.engine.common.socket.client.TestFacadeInf"/>
+		</socket:commands>
+	</socket:client-factory>
+</beans>

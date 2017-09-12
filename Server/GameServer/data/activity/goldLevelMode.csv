@@ -1,0 +1,8 @@
+难度模式,难度说明,副本ID,怪物ID,开启等级,最大金币,基础金币,金币因子,限时（秒）,B级损血物品ID,B级损血物品数量,A级损血物品ID,A级损血物品数量,S级损血物品ID,S级损血物品数量,SS级损血物品ID,SS级损血物品数量,SSS级损血物品ID,SSS级损血物品数量
+mode,modeDesc,roomId,monsterId,openLevel,maxGold,basicGold,goldFactor,limitTime,rateBItemID,rateBItemCount,rateAItemID,rateAItemCount,rateSItemID,rateSItemCount,rateSSItemID,rateSSItemCount,rateSSSItemID,rateSSSItemCount
+1,简单,jinbi_1,jz_01,1,100000,20000,0.4,60,20100,0,20100,0,20100,0,20100,0,20100,0
+2,普通,jinbi_2,jz_01,28,200000,40000,0.4,60,20100,0,20100,0,20100,0,20100,0,20100,0
+3,困难,jinbi_3,jz_01,40,300000,60000,0.4,60,20100,0,20100,0,20100,0,20100,0,20100,0
+4,大师,jinbi_4,jz_01,50,400000,80000,0.4,60,20100,0,20100,0,20100,0,20100,0,20100,0
+5,深渊,jinbi_5,jz_01,60,500000,100000,0.4,60,20100,0,20100,0,20100,0,20100,0,20100,0
+6,死亡,jinbi_6,jz_01,70,600000,120000,0.4,60,20100,0,20100,0,20100,0,20100,0,20100,0

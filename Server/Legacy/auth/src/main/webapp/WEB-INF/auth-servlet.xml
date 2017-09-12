@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:context="http://www.springframework.org/schema/context" xmlns:tx="http://www.springframework.org/schema/tx"
+	xmlns:util="http://www.springframework.org/schema/util"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+  http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+  http://www.springframework.org/schema/context
+  http://www.springframework.org/schema/context/spring-context-3.0.xsd
+  http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-3.0.xsd
+  http://www.springframework.org/schema/util  http://www.springframework.org/schema/util/spring-util-3.0.xsd">
+
+	<!-- 开启注释配置 -->
+	<context:annotation-config />
+
+	<!-- 自动包扫描配置 -->
+	<context:component-scan base-package="
+		com.engine.common,
+		com.game.auth" />
+		
+	<bean id="viewResolver"
+		class="org.springframework.web.servlet.view.UrlBasedViewResolver">
+		<property name="viewClass"
+			value="org.springframework.web.servlet.view.JstlView" />
+		<property name="prefix" value="/WEB-INF/jsp/" />
+		<property name="suffix" value=".jsp" />
+	</bean>
+
+	<!-- 配置文件载入配置 -->
+	<bean id="propertyConfigurer"
+		class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+		<property name="locations">
+			<list>
+				<value>classpath:auth_conf.properties</value>
+				<value>classpath:configuration.properties</value>
+				<value>classpath:version.properties</value>
+				<value>classpath:jdbc.properties</value>
+				<value>classpath:log4j.properties</value>
+			</list>
+		</property>
+	</bean>
+
+	<bean id="sessionConfig"
+		class="org.apache.mina.transport.socket.DefaultSocketSessionConfig"
+		p:receiveBufferSize="${client.socket.buffer.read}" p:sendBufferSize="${client.socket.buffer.write}"
+		p:bothIdleTime="${client.socket.timeout}" />
+
+	<bean
+		class="org.springframework.context.support.ConversionServiceFactoryBean" />
+
+	<!-- 解码器配置 -->
+	<bean id="jsonCoder" class="com.engine.common.socket.codec.JsonCoder" />
+
+	<bean id="mdcFilter" class="org.apache.mina.filter.logging.MdcInjectionFilter" />
+
+	<util:map id="filters" map-class="java.util.HashMap" key-type="java.lang.String"
+		value-type="org.apache.mina.core.filterchain.IoFilter">
+		<entry key="mdc" value-ref="mdcFilter" />
+	</util:map>
+
+	<!-- 转换器配置 -->
+	<bean
+		class="org.springframework.context.support.ConversionServiceFactoryBean">
+		<property name="converters">
+			<list>
+				<bean class="com.engine.common.resource.support.StringToDateConverter" />
+				<bean class="com.engine.common.resource.support.StringToClassConverter" />
+				<bean class="com.engine.common.resource.support.JsonToMapConverter" />
+				<bean class="com.engine.common.resource.support.JsonToArrayConverter" />
+				<bean class="com.engine.common.resource.support.JsonToCollectionConverter" />
+				<bean class="com.engine.common.resource.support.JsonToObjectConverter" />
+			</list>
+		</property>
+	</bean>
+	
+	<bean id="accessor" class="com.game.auth.utils.HibernateAccessorEx">
+		<property name="sessionFactory" ref="sessionFactory" />
+	</bean>
+	
+	<!-- 数据源配置 -->
+	<bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource"
+		destroy-method="close">
+		<property name="driverClassName" value="${jdbc.driverClassName}" />
+		<property name="url" value="${jdbc.url}" />
+		<property name="username" value="${jdbc.username}" />
+		<property name="password" value="${jdbc.password}" />
+		<property name="validationQuery" value="select ''" />
+		<property name="numTestsPerEvictionRun" value="10" />
+		<property name="testOnBorrow" value="false" />
+		<property name="testWhileIdle" value="false" />
+		<property name="initialSize" value="10" />
+		<property name="maxActive" value="50000" />
+		<property name="maxIdle" value="5" />
+		<property name="minIdle" value="1" />
+	</bean>
+
+	<!-- Hibernate SessionFactory -->
+	<bean id="sessionFactory"
+		class="org.springframework.orm.hibernate3.annotation.AnnotationSessionFactoryBean">
+		<property name="dataSource" ref="dataSource" />
+		<property name="packagesToScan" value="com.game.auth.**.manager" />
+		<property name="hibernateProperties">
+			<props>
+				<prop key="current_session_context_class">thread</prop>
+				<prop key="cache.provider_class">org.hibernate.cache.NoCacheProvider</prop>
+				<prop key="hibernate.dialect">${hibernate.dialect}</prop>
+				<prop key="hibernate.cache.use_second_level_cache">false</prop>
+				<prop key="hibernate.show_sql">${hibernate.show_sql}</prop>
+				<prop key="hibernate.hbm2ddl.auto">${hibernate.hbm2ddl.auto}</prop>
+
+				<!-- 使用MySQL要加的配置 -->
+				<prop key="connection.autoReconnect">true</prop>
+				<prop key="connection.autoReconnectForPools">true</prop>
+				<prop key="connection.is-connection-validation-required">true</prop>
+				<!-- 初始化SQL文件 <prop key="hibernate.hbm2ddl.import_files">/import.sql</prop> -->
+			</props>
+		</property>
+	</bean>
+	
+	<util:map id="coderMap" map-class="java.util.HashMap"
+		key-type="java.lang.Byte" value-type="com.engine.common.socket.codec.Coder">
+		<entry key="0" value-ref="jsonCoder" />
+	</util:map>
+
+	<bean id="convertor" class="com.engine.common.socket.core.Convertor"
+		p:coders-ref="coderMap" />
+
+	<util:set id="scanPackages" set-class="java.util.HashSet">
+		<value>com.game.auth.module.auth.facade</value>
+	</util:set>
+
+	<bean id="commandRegisterFactory" class="com.engine.common.socket.schema.CommandRegisterFactory"
+		p:convertor-ref="convertor" p:scanBeans="true" p:scanInterfaces="true"
+		p:packages-ref="scanPackages" />
+
+
+
+<!-- 
+	<util:properties id="dataProperties" location="classpath:configuration.properties" />
+
+	<bean id="mailSender" class="org.springframework.mail.javamail.JavaMailSenderImpl">
+		<property name="host" value="#{dataProperties['mail.smtp.host']}" />
+		<property name="javaMailProperties">
+			<props>
+				<prop key="mail.smtp.auth">true</prop>
+				<prop key="mail.smtp.timeout">2500</prop>
+			</props>
+		</property>
+		<property name="username" value="#{dataProperties['mail.smtp.username']}" />
+		<property name="password" value="#{dataProperties['mail.smtp.password']}" />
+	</bean> -->
+
+</beans>

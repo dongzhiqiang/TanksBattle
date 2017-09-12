@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:p="http://www.springframework.org/schema/p" xmlns:util="http://www.springframework.org/schema/util"
+	xmlns:aop="http://www.springframework.org/schema/aop"
+	xmlns:resource="http://www.engine.com/common/resource" xmlns:socket="http://www.engine.com/common/socket"
+	xmlns:bdb="http://www.engine.com/common/bdb"
+	xsi:schemaLocation="
+http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-2.5.xsd
+http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-3.0.xsd
+http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-3.0.xsd
+http://www.engine.com/common/socket http://www.engine.com/common/socket/socket-1.0.xsd
+http://www.engine.com/common/resource http://www.engine.com/common/resource/resource-1.0.xsd
+http://www.engine.com/common/bdb http://www.engine.com/common/bdb/bdb-1.0.xsd">
+
+	<!-- 开启注释配置 -->
+	<context:annotation-config />
+
+	<!-- BDB数据环境配置 -->
+	<bdb:database id="database" home="target/database" config="classpath:bdb.properties">
+		<bdb:entity>
+			<bdb:package name="com.engine.common.ramcache.queue" />
+		</bdb:entity>
+		<bdb:proxy>
+			<bdb:package name="com.engine.common.bdb.proxy" />
+		</bdb:proxy>
+		<bdb:version strategy="simple"/>
+		<bdb:debug ddl="CREATE"/>
+	</bdb:database>
+	
+	<bean id="accessor" class="com.engine.common.ramcache.orm.impl.BdbAccessor" />
+
+</beans>

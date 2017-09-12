@@ -1,0 +1,12 @@
+节点ID,,名称,开启等级,图标
+id,mapTitle,mapName,openLevel,icon
+1,第一章,战神降世,1,ui_guanqia_tu_01.jpg
+2,第二章,疯狂之血,1,ui_guanqia_tu_02.jpg
+3,第三章,噩梦与背叛,1,ui_guanqia_tu_01.jpg
+4,第四章,冥后的阴谋,25,ui_guanqia_tu_02.jpg
+5,第五章,雅典城之战,30,ui_guanqia_tu_01.jpg
+6,第六章,阿瑞斯之死,35,ui_guanqia_tu_02.jpg
+100,测试,bug的召唤术,60,ui_guanqia_tu_02.jpg
+101,金币副本,金币副本,70,ui_guanqia_tu_02.jpg
+102,哈迪斯之血,哈迪斯之血,80,ui_guanqia_tu_02.jpg
+103,经济场,竞技场,90,ui_guanqia_tu_02.jpg

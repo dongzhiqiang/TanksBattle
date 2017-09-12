@@ -1,0 +1,22 @@
+{
+    "name" : "GlobalServer",
+    "version" : "1.0.0",
+    "description" : "Global web server for mobile game",
+    "main" : "app/main/main.js",
+    "dependencies" :
+    {
+        "cluster" : ">=0.7.7",
+        "mongodb" : ">=2.1.1",
+        "bluebird" : ">=3.1.1",
+        "csv-parse" : ">=1.0.1",
+        "csv-stringify" : ">=0.0.8"
+    },
+    "scripts" :
+    {
+        "start" : "node -max-old-space-size=25000 app/main/main.js",
+        "test" : "nodeunit app/test"
+    },
+    "os" : ["win32", "linux"],
+    "cpu" : ["x64"],
+    "private" : true
+}

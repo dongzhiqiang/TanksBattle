@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+	targetNamespace="http://www.engine.com/common/resource" xmlns="http://www.engine.com/common/resource"
+	elementFormDefault="qualified">
+
+	<xsd:element name="config">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="format" type="format" />
+				<xsd:choice minOccurs="0" maxOccurs="unbounded">
+					<xsd:element name="package" type="package" />
+				</xsd:choice>
+				<xsd:choice minOccurs="0" maxOccurs="unbounded">
+					<xsd:element name="class" type="class" />
+				</xsd:choice>
+			</xsd:sequence>
+			<xsd:attribute name="id" type="xsd:string" use="required" />
+		</xsd:complexType>
+	</xsd:element>
+
+	<!-- package声明类型 -->
+	<xsd:complexType name="package">
+		<xsd:attribute name="name" type="xsd:string" use="required" />
+	</xsd:complexType>
+
+	<!-- class声明类型 -->
+	<xsd:complexType name="class">
+		<xsd:attribute name="name" type="xsd:string" use="required" />
+	</xsd:complexType>
+
+	<!-- 格式声明类型 -->
+	<xsd:complexType name="format">
+		<!-- 本地资源路径 -->
+		<xsd:attribute name="location" type="xsd:string" use="required" />
+		<!-- 资源类型 -->
+		<xsd:attribute name="type" type="xsd:string" use="required" />
+		<!-- 资源文件后缀 -->
+		<xsd:attribute name="suffix" type="xsd:string" use="required" />
+	</xsd:complexType>
+
+</xsd:schema>

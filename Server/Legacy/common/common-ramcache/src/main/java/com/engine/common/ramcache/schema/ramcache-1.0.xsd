@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+	targetNamespace="http://www.engine.com/common/ramcache" xmlns="http://www.engine.com/common/ramcache"
+	elementFormDefault="qualified">
+
+	<!-- 根配置元素 -->
+	<xsd:element name="config">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="accessor" type="accessor" />
+				<xsd:element name="querier" type="querier" />
+				<xsd:choice minOccurs="1" maxOccurs="1">
+					<xsd:element name="constants" type="constants" />
+				</xsd:choice>
+				<xsd:element name="persist" type="persist" />
+				<xsd:element name="entity" type="entity" />
+			</xsd:sequence>
+			<xsd:attribute name="id" type="xsd:string" use="required" />
+			<xsd:attribute name="lockAspect" type="xsd:boolean" use="required" />
+		</xsd:complexType>
+	</xsd:element>
+
+	<!-- 访问器声明 -->
+	<xsd:complexType name="accessor">
+		<xsd:attribute name="ref" type="xsd:string" use="required" />
+	</xsd:complexType>
+
+	<!-- 查询器声明 -->
+	<xsd:complexType name="querier">
+		<xsd:attribute name="ref" type="xsd:string" use="required" />
+	</xsd:complexType>
+	
+	<!-- 实体配置声明 -->
+	<xsd:complexType name="entity">
+		<xsd:sequence>
+			<xsd:choice minOccurs="0" maxOccurs="unbounded">
+				<xsd:element name="package" type="package" />
+			</xsd:choice>
+			<xsd:choice minOccurs="0" maxOccurs="unbounded">
+				<xsd:element name="class" type="class" />
+			</xsd:choice>
+		</xsd:sequence>
+	</xsd:complexType>
+	<!-- 类声明 -->
+	<xsd:complexType name="class">
+		<xsd:attribute name="name" type="xsd:string" use="required" />
+	</xsd:complexType>
+	<!-- 包声明 -->
+	<xsd:complexType name="package">
+		<xsd:attribute name="name" type="xsd:string" use="required" />
+	</xsd:complexType>
+	
+	<!-- 持久化管理器声明 -->
+	<xsd:complexType name="persist">
+		<xsd:annotation>
+			<xsd:documentation>
+			<![CDATA[ 持久化管理器配置元素,属性配置默认持久化管理器 ]]>
+			</xsd:documentation>
+		</xsd:annotation>
+		<xsd:sequence>
+			<xsd:choice minOccurs="0" maxOccurs="unbounded">
+				<xsd:element name="persister" type="persister" />
+			</xsd:choice>
+		</xsd:sequence>
+		<xsd:attribute name="type" type="persisterType" use="required">
+			<xsd:annotation>
+				<xsd:documentation>
+				<![CDATA[ queue:队列方式 timing:定时方式 ]]>
+				</xsd:documentation>
+			</xsd:annotation>
+		</xsd:attribute>
+		<xsd:attribute name="config" type="xsd:string" use="required">
+			<xsd:annotation>
+				<xsd:documentation>
+				<![CDATA[ queue:[队列大小(正数有界队列,负数无界队列):true/false(true:抑制重复UPDATE,false:不抑制重复UPDATE)] timing:[cron表达式] ]]>
+				</xsd:documentation>
+			</xsd:annotation>
+		</xsd:attribute>
+	</xsd:complexType>
+	<xsd:complexType name="persister">
+		<xsd:annotation>
+			<xsd:documentation>
+			<![CDATA[ 自定义持久化管理器配置元素 ]]>
+			</xsd:documentation>
+		</xsd:annotation>
+		<xsd:attribute name="name" type="xsd:string" use="required" />
+		<xsd:attribute name="type" type="persisterType" use="required" />
+		<xsd:attribute name="config" type="xsd:string" use="required" />
+	</xsd:complexType>
+	<!-- 持久化处理器类型 -->
+	<xsd:simpleType name="persisterType">
+		<xsd:annotation>
+			<xsd:documentation>
+			<![CDATA[ queue:队列方式(config:[队列大小(正数有界队列,负数无界队列):true/false(true:抑制重复UPDATE,false:不抑制重复UPDATE)]) timing:定时方式(config:[cron表达式]) ]]>
+			</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="xsd:string">
+			<xsd:enumeration value="QUEUE" />
+			<xsd:enumeration value="TIMING" />
+		</xsd:restriction>
+	</xsd:simpleType>
+
+	<!-- 常量组声明 -->
+	<xsd:complexType name="constants">
+		<xsd:sequence>
+			<xsd:choice minOccurs="0" maxOccurs="unbounded">
+				<xsd:element name="constant" type="constant" />
+			</xsd:choice>
+		</xsd:sequence>
+		<xsd:attribute name="ref" type="xsd:string" use="optional" />
+	</xsd:complexType>
+
+	<!-- 常量项声明 -->
+	<xsd:complexType name="constant">
+		<xsd:attribute name="name" type="xsd:string" use="required" />
+		<xsd:attribute name="size" type="xsd:int" use="required" />
+	</xsd:complexType>
+	
+</xsd:schema>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:p="http://www.springframework.org/schema/p" 
+	xmlns:util="http://www.springframework.org/schema/util"
+	xmlns:aop="http://www.springframework.org/schema/aop"
+	xmlns:resource="http://www.engine.com/common/resource" 
+	xmlns:socket="http://www.engine.com/common/socket"
+	xmlns:ramcache="http://www.engine.com/common/ramcache"
+	xsi:schemaLocation="
+http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-2.5.xsd
+http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-3.0.xsd
+http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-3.0.xsd
+http://www.engine.com/common/socket http://www.engine.com/common/socket/socket-1.0.xsd
+http://www.engine.com/common/resource http://www.engine.com/common/resource/resource-1.0.xsd
+http://www.engine.com/common/ramcache http://www.engine.com/common/ramcache/ramcache-1.0.xsd">
+
+	<!-- 配置文件载入配置 -->
+	<bean id="propertyConfigurer"
+		class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+		<property name="locations">
+			<list>
+				<value>/com/my9yu/common/ramcache/sample/jdbc.properties</value>
+			</list>
+		</property>
+	</bean>
+
+	<!-- 开启注释配置 -->
+	<context:annotation-config />
+
+	<!-- 数据源配置 -->
+	<bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource"
+		destroy-method="close">
+		<property name="driverClassName" value="${jdbc.driverClassName}" />
+		<property name="url" value="${jdbc.url}" />
+		<property name="username" value="${jdbc.username}" />
+		<property name="password" value="${jdbc.password}" />
+		<property name="validationQuery" value="select ''" />
+		<property name="timeBetweenEvictionRunsMillis" value="5000" />
+		<property name="numTestsPerEvictionRun" value="10" />
+		<property name="testOnBorrow" value="false" />
+		<property name="testWhileIdle" value="false" />
+		<property name="initialSize" value="10" />
+		<property name="maxActive" value="2000" />
+		<property name="maxIdle" value="5" />
+		<property name="minIdle" value="1" />
+	</bean>
+
+	<!-- Hibernate SessionFactory -->
+	<bean id="sessionFactory"
+		class="org.springframework.orm.hibernate3.annotation.AnnotationSessionFactoryBean">
+		<property name="dataSource" ref="dataSource" />
+		<property name="packagesToScan" value="com.engine.common.ramcache.sample.entity.unique" />
+		<property name="hibernateProperties">
+			<props>
+				<prop key="current_session_context_class">thread</prop>
+				<prop key="cache.provider_class">org.hibernate.cache.NoCacheProvider</prop>
+				<prop key="hibernate.dialect">${hibernate.dialect}</prop>
+				<prop key="hibernate.cache.use_second_level_cache">false</prop>
+				<prop key="hibernate.show_sql">${hibernate.show_sql}</prop>
+				<prop key="hibernate.hbm2ddl.auto">${hibernate.hbm2ddl.auto}</prop>
+			</props>
+		</property>
+	</bean>
+	
+	<bean id="accessor" class="com.engine.common.ramcache.orm.impl.HibernateAccessor">
+		<property name="sessionFactory" ref="sessionFactory" />
+	</bean>
+	
+	<bean id="querier" class="com.engine.common.ramcache.orm.impl.HibernateQuerier">
+		<property name="sessionFactory" ref="sessionFactory" />
+	</bean>
+
+	<ramcache:config id="cacheService" lockAspect="true">
+		<ramcache:accessor ref="accessor" />
+		<ramcache:querier ref="querier" />
+		<ramcache:constants>
+			<ramcache:constant name="default" size="100" />
+		</ramcache:constants>
+		<ramcache:persist type="QUEUE" config="-1:true" />
+		<ramcache:entity>
+			<ramcache:package name="com.engine.common.ramcache.sample.entity.unique"/>
+		</ramcache:entity>
+	</ramcache:config>
+</beans>

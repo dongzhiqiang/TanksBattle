@@ -1,0 +1,1 @@
+${NODE_PATH}node -max-old-space-size=25000 app/main/main.js

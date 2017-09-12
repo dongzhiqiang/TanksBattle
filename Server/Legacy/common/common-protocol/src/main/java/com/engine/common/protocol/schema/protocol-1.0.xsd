@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+	targetNamespace="http://www.engine.com/common/protocol" xmlns="http://www.engine.com/common/protocol"
+	elementFormDefault="qualified">
+
+	<xsd:element name="config">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:choice minOccurs="0" maxOccurs="unbounded">
+					<xsd:element name="package" type="package" />
+				</xsd:choice>
+				<xsd:choice minOccurs="0" maxOccurs="unbounded">
+					<xsd:element name="class" type="class" />
+				</xsd:choice>
+			</xsd:sequence>
+			<xsd:attribute name="id" type="xsd:string" use="required" />
+		</xsd:complexType>
+	</xsd:element>
+
+	<!-- package声明类型 -->
+	<xsd:complexType name="package">
+		<xsd:attribute name="name" type="xsd:string" use="required" />
+		<xsd:attribute name="index" type="xsd:int" use="optional" default="0" />
+	</xsd:complexType>
+
+	<!-- class声明类型 -->
+	<xsd:complexType name="class">
+		<xsd:attribute name="name" type="xsd:string" use="required" />
+		<xsd:attribute name="index" type="xsd:int" use="optional" default="0" />
+	</xsd:complexType>
+</xsd:schema>

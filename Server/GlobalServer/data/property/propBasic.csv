@@ -1,0 +1,3 @@
+C.非暴击时伤害,C.暴击时伤害,C.元素伤害倍率,A.元素伤害倍率,C.减伤率,B.减伤率,A.减伤率,宠物属性点数,装备成长属性点数,战斗力系数
+damage,damageCritical,elementC,elementA,defRateC,defRateB,defRateA,petPoint,equipPoint,powerRate
+2,2,11,1000,1,0,0.429,0.4,0.0889,10

@@ -1,0 +1,14 @@
+id,名字,图标,描述,升级影响的状态,升级消耗,战斗力系数
+id,name,icon,desc,levelBuffs,levelCostId,powerRate
+1,混沌之力,ui_icon_jineng_lianren_05,技能每打中1个敌人提高<color=green>{mingwen:lian1_1}%</color>的技能伤害，持续<color=green>4</color>秒,1005,3000,{skill:combat}
+2,混元之力,ui_icon_jineng_lianren_05,技能击杀1个敌人回复自身<color=green>{mingwen:lian1_2}%</color>的耐力值,1015,3000,{skill:combat}
+3,炼狱之火,ui_icon_jineng_lianren_05,对<color=green>30%</color>血量以下的杂兵有<color=green>{mingwen:lian2_1}%</color>概率将其直接击杀,1026,3000,{skill:combat}
+4,献祭之焰,ui_icon_jineng_lianren_05,自身生命值在<color=green>30%</color>以下时，提高<color=green>{mingwen:lian2_2}%</color>的技能伤害,1035,3000,{skill:combat}
+5,撕裂,ui_icon_jineng_lianren_05,技能的1/2段会将击中的敌人拉向自己，每拉中一个敌人回复自身<color=green>{mingwen:lian3_1}%</color>的生命值,1045,3000,{skill:combat}
+6,暴怒,ui_icon_jineng_lianren_05,技能释放后将进入暴怒状态，接下来的<color=green>5</color>秒内对小型怪物的伤害增加<color=green>{mingwen:lian3_2}%</color>,1050,3000,{skill:combat}
+7,海神之力,ui_icon_jineng_lianren_05,技能对同一只怪物每造成<color=green>10</color>次伤害时对怪物造成其生命值<color=green>{mingwen:jian1_1}%</color>的伤害,1106,4000,{skill:combat}
+8,无尽水源,ui_icon_jineng_lianren_05,技能对同一个怪物造成<color=green>15</color>次伤害时回复自身<color=green>{mingwen:jian1_2_1}%</color>的血量和<color=green>{mingwen:jian1_2_2}%</color>的耐力值,"1115,1116",4000,{skill:combat}
+9,灵魂出窍,ui_icon_jineng_lianren_05,使用1段技能后增加<color=green>20%</color>的移动速度，提高<color=green>{mingwen:jian2_1}%</color>攻击力，持续<color=green>8</color>秒,1125,4000,{skill:combat}
+10,地狱复仇,ui_icon_jineng_lianren_05,技能击中的第一个敌人将被附上“复仇”印记，受到的伤害提高<color=green>{mingwen:jian2_2}%</color>，持续<color=green>5</color>秒,1130,4000,{skill:combat}
+11,神罚,ui_icon_jineng_lianren_05,技能1段/2段将减少怪物<color=green>20%</color>的移动速度和<color=green>{mingwen:jian3_1}%</color>的攻击力，持续<color=green>5</color>秒,1145,4000,{skill:combat}
+12,审判,ui_icon_jineng_lianren_05,最后一段腾空斩将审判敌人，审判持续<color=green>5</color>秒，状态持续期间对敌人造成的伤害提高<color=green>{mingwen:jian3_2}%</color>,1150,4000,{skill:combat}

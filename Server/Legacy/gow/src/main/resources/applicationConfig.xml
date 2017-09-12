@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:util="http://www.springframework.org/schema/util" xmlns:aop="http://www.springframework.org/schema/aop"
+	xsi:schemaLocation="
+http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-2.5.xsd
+http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-3.0.xsd
+http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-3.0.xsd">
+
+	<!-- 定时器修正参数 -->
+	<bean id="scheduling_delay_time" class="java.lang.Long">
+		<constructor-arg value="1000" />
+	</bean>
+
+	<!-- 事件系统配置参数 -->
+	<bean id="event_queue_size" class="java.lang.Integer">
+		<!-- 事件队列大小 -->
+		<constructor-arg value="10000" />
+	</bean>
+	<bean id="event_pool_size" class="java.lang.Integer">
+		<!-- 事件线程池最小线程数 -->
+		<constructor-arg value="8" />
+	</bean>
+	<bean id="event_pool_max_size" class="java.lang.Integer">
+		<!-- 事件线程池最大线程数 -->
+		<constructor-arg value="32" />
+	</bean>
+	<bean id="event_pool_alive_time" class="java.lang.Integer">
+		<!-- 事件线程池空闲线程活跃时间 -->
+		<constructor-arg value="60" />
+	</bean>
+	
+	<!-- 服务器参数配置 -->
+	<bean id="server.config.servers" class="java.lang.String">
+		<!-- 服务器标识配置 -->
+		<constructor-arg value="${server.config.servers}" />
+	</bean>
+
+	<bean class="com.game.gow.module.system.SystemConfig">
+		<property name="key" value="${server.config.key}"></property>	
+		<property name="giftUrl" value="${server.gift.url}"></property>
+		<property name="giftkey" value="${server.gift.key}"></property>
+		<property name="gameName" value="${server.config.game_name}"></property>
+		<property name="registable" value="${server.config.registable}" />
+		<property name="ignoreCase" value="${server.config.ignore_case}" />
+		<property name="agent" value="${server.config.agent}" />
+		<property name="operator" value="${server.config.operator}" />
+		<property name="compose" value="${server.config.compose}"></property>
+		
+		<!-- 是否忽略比最小边界小的当前ID值
+		<property name="ignoreCurrentId" value="false" />
+		 -->
+	</bean>
+
+	<!-- 帐号清理配置信息 -->
+	<!--<!<bean id="cleanAccountService" class="com.game.gow.clean.CleanAccountService">
+		<property name="enable" value="${server.clean.enable}" />  -->
+		<!--  清理帐号表达式  --> 
+  		<!--<property name="cleanAccountsCron" value="${server.clean.time}" />  -->
+  		<!--  疑似流失天数  --> 
+  		<!--<property name="turnoverDays" value="${server.clean.turnover}" />
+	</bean> -->
+
+</beans>
