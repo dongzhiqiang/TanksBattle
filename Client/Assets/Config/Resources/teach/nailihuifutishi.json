@@ -1,0 +1,71 @@
+﻿
+{
+    "teachName" : "nailihuifutishi",
+    "teachDesc" : "耐力为0时提示用普攻来增加耐力",
+    "priority"  : 4,
+    "coolDown"  : 20,
+    "dataKey"   : "",
+    "postTeach" : "",
+    "stopSoundWhenFinish" : false,
+    "replayUnfinished"    : false,
+    "canInterrupt"        : true,
+    "backChecks"          : [
+        {
+            "fromStep" : -1,
+            "toStep"   : -1,
+            "checkType" : 0,
+            "checkParam" : "",
+            "checkParam2" : "",
+            "actionType"  : 0,
+            "actionParam" : null
+        }
+    ],
+    "cancelActions"       : [
+    ],
+    "triggerConds"        : [
+        {
+            "triggerType" : 4,
+            "triggerParam" : "hero",
+            "triggerParam2" : "lowMP"
+        }
+    ],
+    "checkConds"          : [
+        {
+            "checkType" : 4,
+            "checkParam" : "",
+            "checkParam2" : "19"
+        }
+    ],
+    "stepList"            : [
+        {
+            "name" : "提示恢复耐力",
+            "force" : false,
+            "pauseMode" : 0,
+            "keyStep"   : false,
+            "maskAlpha" : 200,
+            "tipMsg"    : "<size=16>使用普通攻击可恢复耐力。</size>",
+            "centerTip" : "",
+            "stopPreSnd" : false,
+            "muteMusic"  : false,
+            "soundId"    : 0,
+            "timeoutInMS" : 5000,
+            "timeoutStop" : false,
+            "stepObj"     : 7,
+            "stepObjParam" : "hero",
+            "stepObjParam2" : "fullMP",
+            "uiOpType"      : 1,
+            "circleType"    : 0,
+            "arrowType"     : 0,
+            "uiOpParam"     : "/UIRoot/CanvasRoot/UILevel/areaHead/head/mp",
+            "uiOpParam2"    : "",
+            "sceneOpType"   : 0,
+            "sceneGuideType" : 0,
+            "sceneOpParam"   : "",
+            "sceneOpParam2"  : "",
+            "stepSkipType"   : 0,
+            "skipParam"      : "",
+            "skipParam2"     : "",
+            "stopIfNeedSkip" : false
+        }
+    ]
+}

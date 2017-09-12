@@ -1,0 +1,6 @@
+打击属性id,名字,描述,图标,无抗,强抗,中抗,弱抗
+id,name,desc,icon,noneDef,strongDef,normalDef,weakDef
+1,斩,对弱斩属性的敌人伤害加倍,ui_guanqia_wuqi_icon_zhan,0,-0.25,0,0.25
+2,劈,对弱劈属性的敌人伤害加倍,ui_guanqia_wuqi_icon_pi,0,-0.25,0,0.25
+3,打,对弱打属性的敌人伤害加倍,ui_guanqia_wuqi_icon_da,0,-0.25,0,0.25
+4,刺,对弱刺属性的敌人伤害加倍,ui_guanqia_wuqi_icon_chi,0,-0.25,0,0.25

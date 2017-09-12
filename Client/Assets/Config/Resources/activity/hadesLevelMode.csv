@@ -1,0 +1,8 @@
+难度模式,难度说明,副本ID,开启等级,boss怪id,波次怪flag
+mode,modeDesc,roomId,openLevel,bossId,waveFlag
+1,简单,hades_1,1,bs_02,dog-1
+2,普通,hades_2,25,bs_02,dog-1
+3,困难,hades_3,35,bs_02,dog-1
+4,大师,hades_4,45,bs_02,dog-1
+5,深渊,hades_5,55,bs_02,dog-1
+6,死亡,hades_6,65,bs_02,dog-1

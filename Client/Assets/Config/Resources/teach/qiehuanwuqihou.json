@@ -1,0 +1,62 @@
+﻿
+{
+    "teachName" : "qiehuanwuqihou",
+    "teachDesc" : "",
+    "priority"  : 1,
+    "coolDown"  : 0,
+    "dataKey"   : "chgweapontip",
+    "postTeach" : "",
+    "stopSoundWhenFinish" : false,
+    "replayUnfinished"    : false,
+    "canInterrupt"        : false,
+    "backChecks"          : [
+    ],
+    "cancelActions"       : [
+    ],
+    "triggerConds"        : [
+        {
+            "triggerType" : 4,
+            "triggerParam" : "combat",
+            "triggerParam2" : "changeweapon"
+        }
+    ],
+    "checkConds"          : [
+        {
+            "checkType" : 5,
+            "checkParam" : "chgweapon",
+            "checkParam2" : "0,1"
+        }
+    ],
+    "stepList"            : [
+        {
+            "name" : "提示切换武器成功",
+            "force" : false,
+            "pauseMode" : 0,
+            "keyStep"   : true,
+            "maskAlpha" : 200,
+            "tipMsg"    : "",
+            "centerTip" : "<color=#4db7e9>切换武器成功</color>！不同武器带给你不同的战斗体验！",
+            "stopPreSnd" : false,
+            "muteMusic"  : false,
+            "soundId"    : 0,
+            "timeoutInMS" : 5000,
+            "timeoutStop" : false,
+            "stepObj"     : 0,
+            "stepObjParam" : "",
+            "stepObjParam2" : "",
+            "uiOpType"      : 0,
+            "circleType"    : 0,
+            "arrowType"     : 0,
+            "uiOpParam"     : "",
+            "uiOpParam2"    : "",
+            "sceneOpType"   : 0,
+            "sceneGuideType" : 0,
+            "sceneOpParam"   : "",
+            "sceneOpParam2"  : "",
+            "stepSkipType"   : 0,
+            "skipParam"      : "",
+            "skipParam2"     : "",
+            "stopIfNeedSkip" : false
+        }
+    ]
+}

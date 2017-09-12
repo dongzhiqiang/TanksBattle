@@ -1,0 +1,42 @@
+﻿
+{
+    "storyList" : [
+        {
+            "__type" : "StoryTalkCfg",
+            "roleId" : "xiaobing",
+            "content" : "主人，你刚才的勇猛超过了战神阿瑞斯，我看见那些观战的波斯兵都被吓得瑟瑟发抖了。",
+            "localIdx" : 0,
+            "soundId"  : 0,
+            "type"     : 0,
+            "time"     : 5
+        },
+        {
+            "__type" : "StoryTalkCfg",
+            "roleId" : "kratos",
+            "content" : "他们把塔利娅带到哪里去了？",
+            "localIdx" : 1,
+            "soundId"  : 0,
+            "type"     : 0,
+            "time"     : 4
+        },
+        {
+            "__type" : "StoryTalkCfg",
+            "roleId" : "xiaobing",
+            "content" : "我们跟踪到波斯人带夫人到了城中的神庙附近。",
+            "localIdx" : 0,
+            "soundId"  : 0,
+            "type"     : 0,
+            "time"     : 4
+        },
+        {
+            "__type" : "StoryTalkCfg",
+            "roleId" : "kratos",
+            "content" : "众神在上，我发誓我要杀光波斯人，救回塔利娅！ ",
+            "localIdx" : 1,
+            "soundId"  : 0,
+            "type"     : 0,
+            "time"     : 3
+        }
+    ],
+    "canSpeed"  : true
+}

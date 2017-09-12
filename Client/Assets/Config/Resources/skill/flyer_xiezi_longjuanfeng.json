@@ -1,0 +1,256 @@
+﻿
+{
+    "file" : "flyer_xiezi_longjuanfeng",
+    "eventGroup" : {
+        "file" : "skill_event_group",
+        "isFile" : false,
+        "frames" : [
+            {
+                "id" : 1,
+                "frameType" : 0,
+                "frameBegin" : 0,
+                "frameEnd"   : -1,
+                "frameInterval" : 1,
+                "countLimit"    : -1,
+                "countTargetLimit" : -1,
+                "countFrameLimit"  : -1,
+                "frameLimit"       : -1,
+                "targetOrderType"  : 0,
+                "conditions"       : [
+                ],
+                "targetConditions" : [
+                ],
+                "targetRanges"     : [
+                    {
+                        "range" : {
+                            "type" : 0,
+                            "beginOffsetAngle" : 0.0,
+                            "endOffsetAngle"   : 0.0,
+                            "begingOffsetPos"  : {
+                                "x" : 0.0,
+                                "y" : 0.0,
+                                "z" : 0.0
+                            },
+                            "endOffsetPos"     : {
+                                "x" : 0.0,
+                                "y" : 0.0,
+                                "z" : 0.0
+                            },
+                            "distance"         : 26.0,
+                            "heightLimit"      : 10.0,
+                            "rectLimit"        : 3.0,
+                            "angleLimit"       : 90.0,
+                            "showArea"         : false,
+                            "showRange"        : true
+                        },
+                        "targetType" : 2
+                    }
+                ],
+                "events"           : [
+                    {
+                        "__type" : "MoveEventCfg",
+                        "moveType" : 10,
+                        "dirType"  : 0,
+                        "self"     : false,
+                        "distance" : 40.0,
+                        "frame"    : 179,
+                        "avoid"    : false,
+                        "touchOverFrame" : -1,
+                        "endIfSkillEnd"  : false,
+                        "endSkill"       : "",
+                        "ingore"         : false,
+                        "eventCountLimit" : -1,
+                        "eventCountFrameLimit" : -1,
+                        "id"                   : 1,
+                        "priority"             : 20,
+                        "ingoreIfNotHero"      : false
+                    }
+                ],
+                "selId"            : 1
+            },
+            {
+                "id" : 2,
+                "frameType" : 1,
+                "frameBegin" : 0,
+                "frameEnd"   : 150,
+                "frameInterval" : 1,
+                "countLimit"    : -1,
+                "countTargetLimit" : 1,
+                "countFrameLimit"  : -1,
+                "frameLimit"       : -1,
+                "targetOrderType"  : 0,
+                "conditions"       : [
+                ],
+                "targetConditions" : [
+                ],
+                "targetRanges"     : [
+                    {
+                        "range" : {
+                            "type" : 3,
+                            "beginOffsetAngle" : 0.0,
+                            "endOffsetAngle"   : 0.0,
+                            "begingOffsetPos"  : {
+                                "x" : 0.0,
+                                "y" : 0.0,
+                                "z" : 0.0
+                            },
+                            "endOffsetPos"     : {
+                                "x" : 0.0,
+                                "y" : 0.0,
+                                "z" : 0.0
+                            },
+                            "distance"         : 26.0,
+                            "heightLimit"      : 5.0,
+                            "rectLimit"        : 3.0,
+                            "angleLimit"       : 90.0,
+                            "showArea"         : false,
+                            "showRange"        : false
+                        },
+                        "targetType" : 2
+                    }
+                ],
+                "events"           : [
+                    {
+                        "__type" : "HitFloatSkillEventCfg",
+                        "speed"  : 20.0,
+                        "acceleratedUp" : -16.0,
+                        "acceleratedDown" : -19.0,
+                        "groundDuration"  : 0.5,
+                        "reverseSpeed"    : 4.0,
+                        "speedDown"       : -8.0,
+                        "hitDuration"     : 0.300000011920929,
+                        "ingore"          : false,
+                        "eventCountLimit" : -1,
+                        "eventCountFrameLimit" : -1,
+                        "id"                   : 1,
+                        "priority"             : 20,
+                        "ingoreIfNotHero"      : false
+                    }
+                ],
+                "selId"            : 1
+            },
+            {
+                "id" : 3,
+                "frameType" : 1,
+                "frameBegin" : 0,
+                "frameEnd"   : 155,
+                "frameInterval" : 3,
+                "countLimit"    : -1,
+                "countTargetLimit" : -1,
+                "countFrameLimit"  : -1,
+                "frameLimit"       : -1,
+                "targetOrderType"  : 0,
+                "conditions"       : [
+                ],
+                "targetConditions" : [
+                ],
+                "targetRanges"     : [
+                    {
+                        "range" : {
+                            "type" : 3,
+                            "beginOffsetAngle" : 0.0,
+                            "endOffsetAngle"   : 0.0,
+                            "begingOffsetPos"  : {
+                                "x" : 0.0,
+                                "y" : 0.0,
+                                "z" : 0.0
+                            },
+                            "endOffsetPos"     : {
+                                "x" : 0.0,
+                                "y" : 0.0,
+                                "z" : 0.0
+                            },
+                            "distance"         : 5.0,
+                            "heightLimit"      : 5.0,
+                            "rectLimit"        : 3.0,
+                            "angleLimit"       : 90.0,
+                            "showArea"         : false,
+                            "showRange"        : false
+                        },
+                        "targetType" : 2
+                    }
+                ],
+                "events"           : [
+                    {
+                        "__type" : "HitSkillEventCfg",
+                        "duration" : 0.300000011920929,
+                        "floatSpeed" : 8.0,
+                        "floatAccelerated" : -19.0,
+                        "groundFloat"      : {
+                            "__type" : "HitFloatSkillEventCfg",
+                            "speed"  : 8.0,
+                            "acceleratedUp" : -19.0,
+                            "acceleratedDown" : -19.0,
+                            "groundDuration"  : 0.5,
+                            "reverseSpeed"    : 2.0,
+                            "speedDown"       : -4.0,
+                            "hitDuration"     : 0.300000011920929,
+                            "ingore"          : false,
+                            "eventCountLimit" : -1,
+                            "eventCountFrameLimit" : -1,
+                            "id"                   : 0,
+                            "priority"             : 0,
+                            "ingoreIfNotHero"      : false
+                        },
+                        "ingore"           : false,
+                        "eventCountLimit"  : -1,
+                        "eventCountFrameLimit" : -1,
+                        "id"                   : 1,
+                        "priority"             : 0,
+                        "ingoreIfNotHero"      : false
+                    }
+                ],
+                "selId"            : 1
+            }
+        ],
+        "selId"  : 3,
+        "allScroll" : {
+            "x" : 0.0,
+            "y" : 0.0
+        },
+        "contentScroll" : {
+            "x" : 33.0,
+            "y" : 0.0
+        },
+        "maxWidth"      : 2665.0
+    },
+    "durationFrame" : -1,
+    "endFlyerCreateCfg" : {
+        "name" : "",
+        "fireFx" : "",
+        "iceFx"  : "",
+        "thunderFx" : "",
+        "darkFx"    : "",
+        "durationFrame" : -1,
+        "dirType"       : 1,
+        "posType"       : 0,
+        "dirOffset"     : 0.0,
+        "posOffset"     : {
+            "x" : 0.0,
+            "y" : 0.0,
+            "z" : 0.0
+        },
+        "randomBegin"   : 0.0,
+        "randomEnd"     : 0.0,
+        "num"           : 1,
+        "multiDirOffset" : 0.0,
+        "multiPosOffset" : {
+            "x" : 0.0,
+            "y" : 0.0,
+            "z" : 0.0
+        },
+        "bone"           : "",
+        "follow"         : true,
+        "alignSourceY"   : false
+    },
+    "endFlyer"          : null,
+    "touchDestroyFrame" : -1,
+    "touchTargetDestroyFrame" : -1,
+    "pathCfg"                 : {
+        "__type" : "FlyerPathCfg",
+        "_dirType" : 0,
+        "_selfTurnSpeed" : 360.0
+    },
+    "endEventGroupId"         : "",
+    "targetType"              : 4
+}

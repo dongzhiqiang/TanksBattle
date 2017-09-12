@@ -1,0 +1,50 @@
+﻿
+{
+    "storyList" : [
+        {
+            "__type" : "StoryMovieCfg",
+            "movieId" : "tili_jiemian",
+            "prefab"  : "tili_guochang",
+            "isLoop"  : true,
+            "soundId" : 0,
+            "type"    : 1,
+            "time"    : 0
+        },
+        {
+            "__type" : "StoryMovieCfg",
+            "movieId" : "tili_huodong",
+            "prefab"  : "tili_guochang",
+            "isLoop"  : false,
+            "soundId" : 0,
+            "type"    : 1,
+            "time"    : 0
+        },
+        {
+            "__type" : "StoryMovieCfg",
+            "movieId" : "01",
+            "prefab"  : "tili_guochang",
+            "isLoop"  : false,
+            "soundId" : 0,
+            "type"    : 1,
+            "time"    : 0
+        },
+        {
+            "__type" : "StoryMovieCfg",
+            "movieId" : "02",
+            "prefab"  : "tili_guochang",
+            "isLoop"  : false,
+            "soundId" : 0,
+            "type"    : 1,
+            "time"    : 0
+        },
+        {
+            "__type" : "StoryMovieCfg",
+            "movieId" : "03",
+            "prefab"  : "tili_guochang",
+            "isLoop"  : false,
+            "soundId" : 0,
+            "type"    : 1,
+            "time"    : 0
+        }
+    ]
+}

@@ -1,0 +1,42 @@
+﻿
+{
+    "storyList" : [
+        {
+            "__type" : "StoryTalkCfg",
+            "roleId" : "kratos",
+            "content" : "你是……",
+            "localIdx" : 0,
+            "soundId"  : 0,
+            "type"     : 0,
+            "time"     : 1
+        },
+        {
+            "__type" : "StoryTalkCfg",
+            "roleId" : "fuchounvshen",
+            "content" : "[主角]，不要忘了你对阿瑞斯的承诺。",
+            "localIdx" : 1,
+            "soundId"  : 0,
+            "type"     : 0,
+            "time"     : 2
+        },
+        {
+            "__type" : "StoryTalkCfg",
+            "roleId" : "kratos",
+            "content" : "阿瑞斯的敌人，就是我斯巴达战神的敌人！",
+            "localIdx" : 0,
+            "soundId"  : 0,
+            "type"     : 0,
+            "time"     : 3
+        },
+        {
+            "__type" : "StoryTalkCfg",
+            "roleId" : "fuchounvshen",
+            "content" : "去吧，阿瑞斯期待着你的表现。",
+            "localIdx" : 1,
+            "soundId"  : 0,
+            "type"     : 0,
+            "time"     : 2
+        }
+    ],
+    "canSpeed"  : true
+}

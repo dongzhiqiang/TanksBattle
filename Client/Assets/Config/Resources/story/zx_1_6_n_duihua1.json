@@ -1,0 +1,24 @@
+﻿
+{
+    "storyList" : [
+        {
+            "__type" : "StoryTalkCfg",
+            "roleId" : "xiaobing",
+            "content" : "主人，夫人的声音是从神殿那边传来的。",
+            "localIdx" : 1,
+            "soundId"  : 0,
+            "type"     : 0,
+            "time"     : 4
+        },
+        {
+            "__type" : "StoryTalkCfg",
+            "roleId" : "kratos",
+            "content" : "我们走！",
+            "localIdx" : 0,
+            "soundId"  : 0,
+            "type"     : 0,
+            "time"     : 3
+        }
+    ],
+    "canSpeed"  : true
+}

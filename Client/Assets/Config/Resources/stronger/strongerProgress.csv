@@ -1,0 +1,8 @@
+id,"进度百分比：
+在大于等于当前行小于下1行取当前行的描述",描述文本
+id,progress,text
+1,0,<color=#FF0000FF>急需提升</color>
+2,30,<color=#37c21b>勉勉强强</color>
+3,60,<color=#4db7e9>高人一等</color>
+4,80,<color=#c740ee>出类拔萃</color>
+5,100,<color=#eebb40>出神入化</color>

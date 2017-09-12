@@ -1,0 +1,10 @@
+id,释放者id,被释放者id,要释放的技能,相机模型id,释放者血量限制,被释放者血量限制
+id,sourceId,targetId,skill,cameraMod,sourceHp,targetHp
+1,kratos,jy_04,qte_big_jy_04,mod_QTE_jintoucam,100,100
+2,kratos,jy_04_xinshou,qte_big_jy_04,mod_QTE_jintoucam,100,100
+3,kratos,jy_05,bigQte3,,100,100
+4,kratos,jy_06,bigQte4,,100,100
+5,kratos,jy_07,bigQte5,,100,100
+6,kratos,jy_08,bigQte6,,100,100
+7,kratos,jy_09,bigQte7,,100,100
+8,kratos,jy_10,bigQte8,,100,100

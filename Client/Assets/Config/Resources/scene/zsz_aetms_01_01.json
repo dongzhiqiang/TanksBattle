@@ -1,0 +1,575 @@
+﻿
+{
+    "sceneName" : "zsz_aetms_01_01",
+    "mRefGroupList" : [
+        {
+            "refreshType" : 0,
+            "Points"      : [
+                {
+                    "pos" : {
+                        "x" : 58.6613388061523,
+                        "y" : 15.6596279144287,
+                        "z" : 19.9852085113525
+                    },
+                    "dir" : {
+                        "x" : 0.0,
+                        "y" : 261.200012207031,
+                        "z" : 0.0
+                    },
+                    "camp" : 0,
+                    "buffId" : 0,
+                    "roleId" : "zsz_aetms_01_aetms_yellow",
+                    "pointFlag" : "aetms_yellow-1",
+                    "bornDelay" : 0.0,
+                    "ai"        : "-1",
+                    "bornTypeId" : "cw_8begin",
+                    "deadTypeId" : "",
+                    "groundDeadTypeId" : "",
+                    "isShowBloodBar"   : 0,
+                    "isShowFriendBloodBar" : 0,
+                    "isShowTargetBar"      : 0,
+                    "pathfindingList"      : [
+                    ],
+                    "boxAddNum"            : 0,
+                    "boxAddType"           : 0,
+                    "boxBuffId"            : 0,
+                    "hate"                 : {
+                        "hateIfHit" : 0,
+                        "hateIfBeHit" : 0,
+                        "hateIfRefGroup" : [
+                            {
+                                "flag" : "mark-1",
+                                "hate" : 100
+                            }
+                        ],
+                        "hateIfChange"   : 0,
+                        "behateIfBegin"  : 0
+                    }
+                }
+            ],
+            "groupFlag"   : "aetms_yellow",
+            "nextGroupFlag" : "",
+            "nextWaveDelay" : 0,
+            "delayTime"     : 0.0,
+            "refreshNum"    : 1,
+            "pointNum"      : 1
+        },
+        {
+            "refreshType" : 0,
+            "Points"      : [
+                {
+                    "pos" : {
+                        "x" : 58.6613388061523,
+                        "y" : 15.6596279144287,
+                        "z" : 19.9852085113525
+                    },
+                    "dir" : {
+                        "x" : 0.0,
+                        "y" : 261.200012207031,
+                        "z" : 0.0
+                    },
+                    "camp" : 0,
+                    "buffId" : 0,
+                    "roleId" : "zsz_aetms_01_aetms_blue",
+                    "pointFlag" : "aetms_blue-1",
+                    "bornDelay" : 0.0,
+                    "ai"        : "-1",
+                    "bornTypeId" : "cw_8begin",
+                    "deadTypeId" : "",
+                    "groundDeadTypeId" : "",
+                    "isShowBloodBar"   : 0,
+                    "isShowFriendBloodBar" : 0,
+                    "isShowTargetBar"      : 0,
+                    "pathfindingList"      : [
+                    ],
+                    "boxAddNum"            : 0,
+                    "boxAddType"           : 0,
+                    "boxBuffId"            : 0,
+                    "hate"                 : {
+                        "hateIfHit" : 0,
+                        "hateIfBeHit" : 0,
+                        "hateIfRefGroup" : [
+                            {
+                                "flag" : "mark-1",
+                                "hate" : 100
+                            }
+                        ],
+                        "hateIfChange"   : 0,
+                        "behateIfBegin"  : 0
+                    }
+                }
+            ],
+            "groupFlag"   : "aetms_blue",
+            "nextGroupFlag" : "",
+            "nextWaveDelay" : 0,
+            "delayTime"     : 0.0,
+            "refreshNum"    : 1,
+            "pointNum"      : 1
+        },
+        {
+            "refreshType" : 0,
+            "Points"      : [
+                {
+                    "pos" : {
+                        "x" : -0.947189331054688,
+                        "y" : 18.3368167877197,
+                        "z" : -13.2510280609131
+                    },
+                    "dir" : {
+                        "x" : 0.0,
+                        "y" : 65.879997253418,
+                        "z" : 0.0
+                    },
+                    "camp" : 0,
+                    "buffId" : 0,
+                    "roleId" : "npc_heiannvshen",
+                    "pointFlag" : "aetms_mark-1",
+                    "bornDelay" : 0.0,
+                    "ai"        : "ai_zsz_aetms_01:关卡随机事件",
+                    "bornTypeId" : "wuchusheng",
+                    "deadTypeId" : "",
+                    "groundDeadTypeId" : "",
+                    "isShowBloodBar"   : 0,
+                    "isShowFriendBloodBar" : 0,
+                    "isShowTargetBar"      : 0,
+                    "pathfindingList"      : [
+                    ],
+                    "boxAddNum"            : 0,
+                    "boxAddType"           : 0,
+                    "boxBuffId"            : 0,
+                    "hate"                 : {
+                        "hateIfHit" : 0,
+                        "hateIfBeHit" : 0,
+                        "hateIfRefGroup" : [
+                        ],
+                        "hateIfChange"   : 0,
+                        "behateIfBegin"  : 0
+                    }
+                }
+            ],
+            "groupFlag"   : "aetms_mark",
+            "nextGroupFlag" : "",
+            "nextWaveDelay" : 0,
+            "delayTime"     : 0.0,
+            "refreshNum"    : 1,
+            "pointNum"      : 1
+        }
+    ],
+    "mBornList"     : [
+        {
+            "mPosition" : {
+                "x" : 45.0874557495117,
+                "y" : 15.6596279144287,
+                "z" : 18.7397766113281
+            },
+            "mEulerAngles" : {
+                "x" : 0.0,
+                "y" : 65.879997253418,
+                "z" : 0.0
+            },
+            "mBornTypeId"  : "herobegin",
+            "mDeadTypeId"  : "herodead",
+            "mGroundDeadTypeId" : "",
+            "hate"              : {
+                "hateIfHit" : 0,
+                "hateIfBeHit" : 0,
+                "hateIfRefGroup" : [
+                ],
+                "hateIfChange"   : 0,
+                "behateIfBegin"  : 0
+            }
+        }
+    ],
+    "mCheckList"    : [
+        {
+            "triggerType" : 0,
+            "triggerNum"  : 1,
+            "triggerTimes" : 1,
+            "checkFlag"    : "born",
+            "eventCfgList" : [
+                {
+                    "eveType" : 0,
+                    "content" : "\n{\n    \"__type\" : \"EventCfg_StartLevel\"\n}"
+                }
+            ],
+            "actionCfgList" : [
+                {
+                    "eveType" : 6,
+                    "content" : "\n{\n    \"__type\" : \"ActionCfg_ActivateDangban\",\n    \"flagId\" : \"Dangban3\",\n    \"_idx\"   : 0,\n    \"_delay\" : 0.0\n}"
+                },
+                {
+                    "eveType" : 6,
+                    "content" : "\n{\n    \"__type\" : \"ActionCfg_ActivateDangban\",\n    \"flagId\" : \"Dangban4\",\n    \"_idx\"   : 1,\n    \"_delay\" : 0.0\n}"
+                },
+                {
+                    "eveType" : 6,
+                    "content" : "\n{\n    \"__type\" : \"ActionCfg_ActivateDangban\",\n    \"flagId\" : \"Dangban5\",\n    \"_idx\"   : 2,\n    \"_delay\" : 0.0\n}"
+                },
+                {
+                    "eveType" : 5,
+                    "content" : "\n{\n    \"__type\" : \"ActionCfg_CreateHero\",\n    \"changeCam\" : null,\n    \"_idx\"      : 3,\n    \"_delay\"    : 0.0\n}"
+                },
+                {
+                    "eveType" : 43,
+                    "content" : "\n{\n    \"__type\" : \"ActionCfg_RandomEvent\",\n    \"eventIds\" : \"yellow,blue\",\n    \"rates\"    : \"50,50\",\n    \"_idx\"     : 4,\n    \"_delay\"   : 0.5\n}"
+                }
+            ]
+        },
+        {
+            "triggerType" : 0,
+            "triggerNum"  : 1,
+            "triggerTimes" : 1,
+            "checkFlag"    : "yellow",
+            "eventCfgList" : [
+                {
+                    "eveType" : 12,
+                    "content" : "\n{\n    \"__type\" : \"EventCfg_None\"\n}"
+                }
+            ],
+            "actionCfgList" : [
+                {
+                    "eveType" : 2,
+                    "content" : "\n{\n    \"__type\" : \"ActionCfg_ActivateRefresh\",\n    \"refreshID\" : \"aetms_yellow\",\n    \"_idx\"      : 0,\n    \"_delay\"    : 0.0\n}"
+                },
+                {
+                    "eveType" : 17,
+                    "content" : "\n{\n    \"__type\" : \"ActionCfg_Camera\",\n    \"cameraFlag\" : \"yellow\",\n    \"_idx\"       : 1,\n    \"_delay\"     : 0.300000011920929\n}"
+                },
+                {
+                    "eveType" : 10,
+                    "content" : "\n{\n    \"__type\" : \"ActionCfg_Story\",\n    \"storyId\" : \"zsz_aetms_01_duihua1\",\n    \"_idx\"    : 2,\n    \"_delay\"  : 4.0\n}"
+                },
+                {
+                    "eveType" : 37,
+                    "content" : "\n{\n    \"__type\" : \"ActionCfg_ActivateArea\",\n    \"flagId\" : \"Area1\",\n    \"_idx\"   : 3,\n    \"_delay\" : 0.100000001490116\n}"
+                },
+                {
+                    "eveType" : 29,
+                    "content" : "\n{\n    \"__type\" : \"ActionCfg_ShowTips\",\n    \"desc\"   : \"进入传送阵\",\n    \"_idx\"   : 4,\n    \"_delay\" : 0.200000002980232\n}"
+                },
+                {
+                    "eveType" : 8,
+                    "content" : "\n{\n    \"__type\" : \"ActionCfg_ShowDir\",\n    \"findPos\" : {\n        \"x\" : 54.9099998474121,\n        \"y\" : 15.6700000762939,\n        \"z\" : 19.7800006866455\n    },\n    \"_idx\"    : 5,\n    \"_delay\"  : 0.0\n}"
+                }
+            ]
+        },
+        {
+            "triggerType" : 0,
+            "triggerNum"  : 1,
+            "triggerTimes" : 1,
+            "checkFlag"    : "blue",
+            "eventCfgList" : [
+                {
+                    "eveType" : 12,
+                    "content" : "\n{\n    \"__type\" : \"EventCfg_None\"\n}"
+                }
+            ],
+            "actionCfgList" : [
+                {
+                    "eveType" : 2,
+                    "content" : "\n{\n    \"__type\" : \"ActionCfg_ActivateRefresh\",\n    \"refreshID\" : \"aetms_blue\",\n    \"_idx\"      : 0,\n    \"_delay\"    : 0.0\n}"
+                },
+                {
+                    "eveType" : 17,
+                    "content" : "\n{\n    \"__type\" : \"ActionCfg_Camera\",\n    \"cameraFlag\" : \"blue\",\n    \"_idx\"       : 1,\n    \"_delay\"     : 0.300000011920929\n}"
+                },
+                {
+                    "eveType" : 10,
+                    "content" : "\n{\n    \"__type\" : \"ActionCfg_Story\",\n    \"storyId\" : \"zsz_aetms_01_duihua1\",\n    \"_idx\"    : 2,\n    \"_delay\"  : 4.0\n}"
+                },
+                {
+                    "eveType" : 37,
+                    "content" : "\n{\n    \"__type\" : \"ActionCfg_ActivateArea\",\n    \"flagId\" : \"Area2\",\n    \"_idx\"   : 3,\n    \"_delay\" : 0.100000001490116\n}"
+                },
+                {
+                    "eveType" : 29,
+                    "content" : "\n{\n    \"__type\" : \"ActionCfg_ShowTips\",\n    \"desc\"   : \"进入传送阵\",\n    \"_idx\"   : 4,\n    \"_delay\" : 0.200000002980232\n}"
+                },
+                {
+                    "eveType" : 8,
+                    "content" : "\n{\n    \"__type\" : \"ActionCfg_ShowDir\",\n    \"findPos\" : {\n        \"x\" : 54.9099998474121,\n        \"y\" : 15.6700000762939,\n        \"z\" : 19.7800006866455\n    },\n    \"_idx\"    : 5,\n    \"_delay\"  : 0.0\n}"
+                }
+            ]
+        },
+        {
+            "triggerType" : 0,
+            "triggerNum"  : 1,
+            "triggerTimes" : 1,
+            "checkFlag"    : "yellow_area",
+            "eventCfgList" : [
+                {
+                    "eveType" : 4,
+                    "content" : "\n{\n    \"__type\" : \"EventCfg_Area\",\n    \"areaFlag\" : \"Area1\",\n    \"bEnter\"   : true,\n    \"bHaveHero\" : true,\n    \"NpcIdList\" : \"\",\n    \"timeNum\"   : 0\n}"
+                }
+            ],
+            "actionCfgList" : [
+                {
+                    "eveType" : 30,
+                    "content" : "\n{\n    \"__type\" : \"ActionCfg_HideTips\",\n    \"_idx\"   : 0,\n    \"_delay\" : 0.0\n}"
+                },
+                {
+                    "eveType" : 9,
+                    "content" : "\n{\n    \"__type\" : \"ActionCfg_HideDir\",\n    \"_idx\"   : 1,\n    \"_delay\" : 0.0\n}"
+                },
+                {
+                    "eveType" : 15,
+                    "content" : "\n{\n    \"__type\" : \"ActionCfg_ChangeScene\",\n    \"sceneName\" : \"zsz_aetms_01_02\",\n    \"_idx\"      : 2,\n    \"_delay\"    : 0.0\n}"
+                }
+            ]
+        },
+        {
+            "triggerType" : 0,
+            "triggerNum"  : 1,
+            "triggerTimes" : 1,
+            "checkFlag"    : "blue_area",
+            "eventCfgList" : [
+                {
+                    "eveType" : 4,
+                    "content" : "\n{\n    \"__type\" : \"EventCfg_Area\",\n    \"areaFlag\" : \"Area2\",\n    \"bEnter\"   : true,\n    \"bHaveHero\" : true,\n    \"NpcIdList\" : \"\",\n    \"timeNum\"   : 0\n}"
+                }
+            ],
+            "actionCfgList" : [
+                {
+                    "eveType" : 30,
+                    "content" : "\n{\n    \"__type\" : \"ActionCfg_HideTips\",\n    \"_idx\"   : 0,\n    \"_delay\" : 0.0\n}"
+                },
+                {
+                    "eveType" : 9,
+                    "content" : "\n{\n    \"__type\" : \"ActionCfg_HideDir\",\n    \"_idx\"   : 1,\n    \"_delay\" : 0.0\n}"
+                },
+                {
+                    "eveType" : 15,
+                    "content" : "\n{\n    \"__type\" : \"ActionCfg_ChangeScene\",\n    \"sceneName\" : \"zsz_aetms_01_03\",\n    \"_idx\"      : 2,\n    \"_delay\"    : 0.0\n}"
+                }
+            ]
+        }
+    ],
+    "mAreaList"     : [
+        {
+            "bActivate" : false,
+            "areaFlag"  : "Area1",
+            "pos"       : {
+                "x" : 54.9099998474121,
+                "y" : 15.6700000762939,
+                "z" : 19.7800006866455
+            },
+            "dir"       : {
+                "x" : 0.0,
+                "y" : 85.0,
+                "z" : 0.0
+            },
+            "size"      : {
+                "x" : 3.0,
+                "y" : 3.0,
+                "z" : 3.0
+            },
+            "areaType"  : 0,
+            "dangbanType" : -1
+        },
+        {
+            "bActivate" : false,
+            "areaFlag"  : "Area2",
+            "pos"       : {
+                "x" : 54.9099998474121,
+                "y" : 15.6700000762939,
+                "z" : 19.7800006866455
+            },
+            "dir"       : {
+                "x" : 0.0,
+                "y" : 85.0,
+                "z" : 0.0
+            },
+            "size"      : {
+                "x" : 3.0,
+                "y" : 3.0,
+                "z" : 3.0
+            },
+            "areaType"  : 0,
+            "dangbanType" : -1
+        },
+        {
+            "bActivate" : true,
+            "areaFlag"  : "Dangban3",
+            "pos"       : {
+                "x" : 44.9000015258789,
+                "y" : 15.6014976501465,
+                "z" : 11.8000001907349
+            },
+            "dir"       : {
+                "x" : 0.0,
+                "y" : 49.5999984741211,
+                "z" : 0.0
+            },
+            "size"      : {
+                "x" : 0.899999976158142,
+                "y" : 1.0,
+                "z" : 0.899999976158142
+            },
+            "areaType"  : 1,
+            "dangbanType" : 2
+        },
+        {
+            "bActivate" : true,
+            "areaFlag"  : "Dangban4",
+            "pos"       : {
+                "x" : 41.2999992370605,
+                "y" : 15.6014995574951,
+                "z" : 15.1999998092651
+            },
+            "dir"       : {
+                "x" : 0.0,
+                "y" : 76.8000030517578,
+                "z" : 0.0
+            },
+            "size"      : {
+                "x" : 1.0,
+                "y" : 1.0,
+                "z" : 1.0
+            },
+            "areaType"  : 1,
+            "dangbanType" : 2
+        },
+        {
+            "bActivate" : true,
+            "areaFlag"  : "Dangban5",
+            "pos"       : {
+                "x" : 46.3093872070313,
+                "y" : 15.6014995574951,
+                "z" : 8.8862476348877
+            },
+            "dir"       : {
+                "x" : 0.0,
+                "y" : 0.699999868869781,
+                "z" : 0.0
+            },
+            "size"      : {
+                "x" : 0.800000011920929,
+                "y" : 1.0,
+                "z" : 0.800000011920929
+            },
+            "areaType"  : 1,
+            "dangbanType" : 2
+        },
+        {
+            "bActivate" : true,
+            "areaFlag"  : "Area6",
+            "pos"       : {
+                "x" : 54.9099998474121,
+                "y" : 15.6596279144287,
+                "z" : 19.7800006866455
+            },
+            "dir"       : {
+                "x" : 0.0,
+                "y" : 85.0,
+                "z" : 0.0
+            },
+            "size"      : {
+                "x" : 25.0,
+                "y" : 5.0,
+                "z" : 25.0
+            },
+            "areaType"  : 0,
+            "dangbanType" : -1
+        }
+    ],
+    "mCameraList"   : [
+        {
+            "cameraFlag" : "yellow",
+            "cameraList" : [
+                {
+                    "groupId" : "aetms_yellow",
+                    "pointId" : "aetms_yellow-1",
+                    "roleId"  : "",
+                    "offset"  : {
+                        "x" : 0.0,
+                        "y" : 0.0,
+                        "z" : 0.0
+                    },
+                    "verticalAngle" : 15.0,
+                    "horizontalAngle" : -1.0,
+                    "fov"             : -1.0,
+                    "distance"        : 5.0,
+                    "moveTime"        : 0.200000002980232,
+                    "stayTime"        : 1.0,
+                    "overDuration"    : 0.100000001490116,
+                    "accSpeed"        : 0.0,
+                    "decSpeed"        : 0.0,
+                    "maxSpeed"        : 0.0
+                },
+                {
+                    "groupId" : "aetms_yellow",
+                    "pointId" : "aetms_yellow-1",
+                    "roleId"  : "",
+                    "offset"  : {
+                        "x" : 0.0,
+                        "y" : 0.0,
+                        "z" : 0.0
+                    },
+                    "verticalAngle" : 15.0,
+                    "horizontalAngle" : -1.0,
+                    "fov"             : -1.0,
+                    "distance"        : 5.0,
+                    "moveTime"        : 0.100000001490116,
+                    "stayTime"        : 13.0,
+                    "overDuration"    : 0.5,
+                    "accSpeed"        : 0.0,
+                    "decSpeed"        : 0.0,
+                    "maxSpeed"        : 0.0
+                }
+            ]
+        },
+        {
+            "cameraFlag" : "blue",
+            "cameraList" : [
+                {
+                    "groupId" : "aetms_blue",
+                    "pointId" : "aetms_blue-1",
+                    "roleId"  : "",
+                    "offset"  : {
+                        "x" : 0.0,
+                        "y" : -1.0,
+                        "z" : 0.0
+                    },
+                    "verticalAngle" : 25.0,
+                    "horizontalAngle" : -1.0,
+                    "fov"             : -1.0,
+                    "distance"        : 7.0,
+                    "moveTime"        : 0.200000002980232,
+                    "stayTime"        : 1.0,
+                    "overDuration"    : 0.100000001490116,
+                    "accSpeed"        : 0.0,
+                    "decSpeed"        : 0.0,
+                    "maxSpeed"        : 0.0
+                },
+                {
+                    "groupId" : "",
+                    "pointId" : "",
+                    "roleId"  : "zsz_aetms_01_aetms_blue",
+                    "offset"  : {
+                        "x" : 0.0,
+                        "y" : -1.0,
+                        "z" : 0.0
+                    },
+                    "verticalAngle" : 25.0,
+                    "horizontalAngle" : -1.0,
+                    "fov"             : -1.0,
+                    "distance"        : 7.0,
+                    "moveTime"        : 0.100000001490116,
+                    "stayTime"        : 13.0,
+                    "overDuration"    : 0.5,
+                    "accSpeed"        : 0.0,
+                    "decSpeed"        : 0.0,
+                    "maxSpeed"        : 0.0
+                }
+            ]
+        }
+    ],
+    "mStoryIdList"  : [
+        "zsz_aetms_01_duihua1"
+    ],
+    "mGroupIdList"  : [
+    ],
+    "mPoss"         : [
+    ],
+    "mShowWaveGroupId" : ""
+}

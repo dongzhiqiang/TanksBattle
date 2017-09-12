@@ -1,0 +1,110 @@
+﻿
+{
+    "nodeCounter" : 11,
+    "trees"       : [
+        {
+            "name" : "平民女害怕AI",
+            "expand" : true,
+            "root"   : {
+                "__type" : "Simple.BehaviorTree.SequenceCfg",
+                "children" : [
+                    {
+                        "__type" : "Simple.BehaviorTree.IsRoleStateCfg",
+                        "role"   : {
+                            "__type" : "Simple.BehaviorTree.ValueRole",
+                            "roleType" : 1,
+                            "name"     : "",
+                            "region"   : 0,
+                            "type"     : 6
+                        },
+                        "states" : "空闲|移动|战斗|动作序列",
+                        "interrupt" : 0,
+                        "resetTreeWhenInterrupt" : false,
+                        "id"                     : 2,
+                        "ingore"                 : false,
+                        "showNote"               : false,
+                        "resetTempValueIfEnable" : true,
+                        "note"                   : "",
+                        "localPos"               : {
+                            "x" : -140.0,
+                            "y" : 130.0
+                        }
+                    },
+                    {
+                        "__type" : "Simple.BehaviorTree.SetRoleCfg",
+                        "find"   : {
+                            "__type" : "Simple.BehaviorTree.ValueRole",
+                            "roleType" : 2,
+                            "name"     : "",
+                            "region"   : 0,
+                            "type"     : 6
+                        },
+                        "targetVal" : {
+                            "__type" : "Simple.BehaviorTree.ValueRole",
+                            "roleType" : 4,
+                            "name"     : "当前仇恨",
+                            "region"   : 1,
+                            "type"     : 6
+                        },
+                        "notRefindIfExist" : {
+                            "__type" : "Simple.BehaviorTree.Value`1[System.Boolean]",
+                            "v"      : false,
+                            "name"   : "",
+                            "region" : 0,
+                            "type"   : 2
+                        },
+                        "interrupt"        : 0,
+                        "resetTreeWhenInterrupt" : false,
+                        "id"                     : 5,
+                        "ingore"                 : false,
+                        "showNote"               : false,
+                        "resetTempValueIfEnable" : true,
+                        "note"                   : "",
+                        "localPos"               : {
+                            "x" : 0.0,
+                            "y" : 130.0
+                        }
+                    },
+                    {
+                        "__type" : "Simple.BehaviorTree.RoleAniCfg",
+                        "param"  : "haipa:单次",
+                        "errorIfNoFindAni" : true,
+                        "id"               : 4,
+                        "ingore"           : false,
+                        "showNote"         : false,
+                        "resetTempValueIfEnable" : true,
+                        "note"                   : "",
+                        "localPos"               : {
+                            "x" : 200.0,
+                            "y" : 130.0
+                        }
+                    }
+                ],
+                "expandChild" : true,
+                "id"          : 3,
+                "ingore"      : false,
+                "showNote"    : false,
+                "resetTempValueIfEnable" : true,
+                "note"                   : "",
+                "localPos"               : {
+                    "x" : 1750.0,
+                    "y" : 1780.0
+                }
+            },
+            "valueMgrCfg" : {
+                "m_value" : [
+                    {
+                        "__type" : "Simple.BehaviorTree.ValueRole",
+                        "roleType" : 1,
+                        "name"     : "当前仇恨",
+                        "region"   : 0,
+                        "type"     : 6
+                    }
+                ]
+            }
+        }
+    ],
+    "names"       : [
+        "平民女害怕AI"
+    ]
+}

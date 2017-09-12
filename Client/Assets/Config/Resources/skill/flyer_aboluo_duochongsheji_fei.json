@@ -1,0 +1,72 @@
+﻿
+{
+    "file" : "flyer_aboluo_duochongsheji_fei",
+    "eventGroup" : {
+        "file" : "skill_event_group",
+        "isFile" : false,
+        "frames" : [
+        ],
+        "selId"  : 0,
+        "allScroll" : {
+            "x" : 0.0,
+            "y" : 0.0
+        },
+        "contentScroll" : {
+            "x" : 0.0,
+            "y" : 0.0
+        },
+        "maxWidth"      : 0.0
+    },
+    "durationFrame" : 600,
+    "endFlyerCreateCfg" : {
+        "name" : "Skill_apollo_duochongsheji_Hit",
+        "fireFx" : "",
+        "iceFx"  : "",
+        "thunderFx" : "",
+        "darkFx"    : "",
+        "durationFrame" : -1,
+        "dirType"       : 1,
+        "posType"       : 4,
+        "dirOffset"     : 0.0,
+        "posOffset"     : {
+            "x" : 0.0,
+            "y" : -0.800000011920929,
+            "z" : 0.0
+        },
+        "randomBegin"   : 0.0,
+        "randomEnd"     : 0.0,
+        "num"           : 1,
+        "multiDirOffset" : 0.0,
+        "multiPosOffset" : {
+            "x" : 0.0,
+            "y" : 0.0,
+            "z" : 0.0
+        },
+        "bone"           : "",
+        "follow"         : true,
+        "alignSourceY"   : false
+    },
+    "endFlyer"          : "flyer_aboluo_duochongsheji",
+    "touchDestroyFrame" : 0,
+    "touchTargetDestroyFrame" : -1,
+    "pathCfg"                 : {
+        "__type" : "FlyerPathCfgCircle",
+        "offset" : {
+            "x" : 0.0,
+            "y" : 1.0,
+            "z" : 0.0
+        },
+        "speed"  : 40.0,
+        "angleSpeed" : 720.0,
+        "radMin"     : 0.0,
+        "radMax"     : 0.0,
+        "radPeriod"  : 0.0,
+        "upAxisMin"  : 0.0,
+        "upAxisMax"  : 0.0,
+        "upAxisPeriod" : 0.0,
+        "_dirType"     : 2,
+        "_selfTurnSpeed" : 360.0
+    },
+    "endEventGroupId"         : "",
+    "targetType"              : 4
+}

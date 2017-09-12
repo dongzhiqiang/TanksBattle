@@ -1,0 +1,3725 @@
+﻿
+{
+    "mBornCfgList" : [
+        {
+            "typeName" : "herobegin",
+            "type"     : 1,
+            "fxDelay"  : 0.0,
+            "modelDelay" : 0.0,
+            "aniNameStr" : "dengru:单次:-1|",
+            "aniName"    : [
+                "dengru",
+                "",
+                ""
+            ],
+            "aniDelay"   : 0.0,
+            "pauseTime"  : 0.0,
+            "startTime"  : 0.0,
+            "slowStartTime" : -1.0,
+            "slowDurationTime" : 0.0,
+            "playRate"         : 1.0,
+            "bossUITime"       : -1.0,
+            "cameraStartTime"  : -1.0,
+            "cameraMoveTime"   : 0.0,
+            "cameraStayTime"   : 0.0,
+            "cameraFOV"        : -1.0,
+            "cameraOffset"     : {
+                "x" : 0.0,
+                "y" : 0.0,
+                "z" : 0.0
+            },
+            "cameraVerticalAngle" : -1.0,
+            "cameraHorizontalAngle" : -1.0,
+            "cameraOverDuration"    : -1.0,
+            "delayExtend"           : 0.0,
+            "fx"                    : {
+                "name" : "fx_kratos_chuchang",
+                "fireFx" : "",
+                "iceFx"  : "",
+                "thunderFx" : "",
+                "darkFx"    : "",
+                "durationFrame" : -1,
+                "dirType"       : 1,
+                "posType"       : 0,
+                "dirOffset"     : 0.0,
+                "posOffset"     : {
+                    "x" : 0.0,
+                    "y" : 0.300000011920929,
+                    "z" : 0.0
+                },
+                "randomBegin"   : 0.0,
+                "randomEnd"     : 0.0,
+                "num"           : 1,
+                "multiDirOffset" : 0.0,
+                "multiPosOffset" : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "bone"           : "",
+                "follow"         : true,
+                "alignSourceY"   : false
+            }
+        },
+        {
+            "typeName" : "bs_02dead",
+            "type"     : 2,
+            "fxDelay"  : 3.0,
+            "modelDelay" : 0.0,
+            "aniNameStr" : "siwang:单次:-1|",
+            "aniName"    : [
+                "siwang",
+                "",
+                ""
+            ],
+            "aniDelay"   : 0.0,
+            "pauseTime"  : 0.0,
+            "startTime"  : 3.0,
+            "slowStartTime" : 0.0,
+            "slowDurationTime" : 1.20000004768372,
+            "playRate"         : 0.200000002980232,
+            "bossUITime"       : -1.0,
+            "cameraStartTime"  : 0.0,
+            "cameraMoveTime"   : 0.5,
+            "cameraStayTime"   : 3.0,
+            "cameraFOV"        : 50.0,
+            "cameraOffset"     : {
+                "x" : 0.0,
+                "y" : 0.0,
+                "z" : 0.0
+            },
+            "cameraVerticalAngle" : 60.0,
+            "cameraHorizontalAngle" : -1.0,
+            "cameraOverDuration"    : -1.0,
+            "delayExtend"           : 0.0,
+            "fx"                    : {
+                "name" : "fx_siwang_smoke02",
+                "fireFx" : "",
+                "iceFx"  : "",
+                "thunderFx" : "",
+                "darkFx"    : "",
+                "durationFrame" : 60,
+                "dirType"       : 1,
+                "posType"       : 0,
+                "dirOffset"     : 0.0,
+                "posOffset"     : {
+                    "x" : 1.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "randomBegin"   : 0.0,
+                "randomEnd"     : 0.0,
+                "num"           : 1,
+                "multiDirOffset" : 0.0,
+                "multiPosOffset" : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "bone"           : "",
+                "follow"         : true,
+                "alignSourceY"   : false
+            }
+        },
+        {
+            "typeName" : "bs_01begin",
+            "type"     : 1,
+            "fxDelay"  : 4.09999990463257,
+            "modelDelay" : 0.0,
+            "aniNameStr" : "chuchang:单次:-1|jineng_huixuanshuaiji:单次:-1|",
+            "aniName"    : [
+                "chuchang",
+                "jineng_huixuanshuaiji",
+                ""
+            ],
+            "aniDelay"   : 0.0,
+            "pauseTime"  : 0.0,
+            "startTime"  : 4.5,
+            "slowStartTime" : 3.0,
+            "slowDurationTime" : 1.0,
+            "playRate"         : 0.5,
+            "bossUITime"       : 2.70000004768372,
+            "cameraStartTime"  : 0.0,
+            "cameraMoveTime"   : 1.5,
+            "cameraStayTime"   : 3.5,
+            "cameraFOV"        : 50.0,
+            "cameraOffset"     : {
+                "x" : 0.0,
+                "y" : 0.0,
+                "z" : 0.0
+            },
+            "cameraVerticalAngle" : -1.0,
+            "cameraHorizontalAngle" : -1.0,
+            "cameraOverDuration"    : 0.5,
+            "delayExtend"           : 0.0,
+            "fx"                    : {
+                "name" : "fx_shake4",
+                "fireFx" : "",
+                "iceFx"  : "",
+                "thunderFx" : "",
+                "darkFx"    : "",
+                "durationFrame" : -1,
+                "dirType"       : 1,
+                "posType"       : 4,
+                "dirOffset"     : 0.0,
+                "posOffset"     : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "randomBegin"   : 0.0,
+                "randomEnd"     : 0.0,
+                "num"           : 1,
+                "multiDirOffset" : 0.0,
+                "multiPosOffset" : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "bone"           : "",
+                "follow"         : true,
+                "alignSourceY"   : false
+            }
+        },
+        {
+            "typeName" : "xb_01begin",
+            "type"     : 1,
+            "fxDelay"  : -1.0,
+            "modelDelay" : 0.0,
+            "aniNameStr" : "chuchang:单次:-1|",
+            "aniName"    : [
+                "chuchang",
+                "",
+                ""
+            ],
+            "aniDelay"   : -1.0,
+            "pauseTime"  : -1.0,
+            "startTime"  : 0.0,
+            "slowStartTime" : -1.0,
+            "slowDurationTime" : 0.0,
+            "playRate"         : 1.0,
+            "bossUITime"       : -1.0,
+            "cameraStartTime"  : -1.0,
+            "cameraMoveTime"   : 0.0,
+            "cameraStayTime"   : 0.0,
+            "cameraFOV"        : -1.0,
+            "cameraOffset"     : {
+                "x" : 0.0,
+                "y" : 0.0,
+                "z" : 0.0
+            },
+            "cameraVerticalAngle" : -1.0,
+            "cameraHorizontalAngle" : -1.0,
+            "cameraOverDuration"    : -1.0,
+            "delayExtend"           : 0.0,
+            "fx"                    : {
+                "name" : "",
+                "fireFx" : "",
+                "iceFx"  : "",
+                "thunderFx" : "",
+                "darkFx"    : "",
+                "durationFrame" : -1,
+                "dirType"       : 1,
+                "posType"       : 4,
+                "dirOffset"     : 0.0,
+                "posOffset"     : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "randomBegin"   : 0.0,
+                "randomEnd"     : 0.0,
+                "num"           : 1,
+                "multiDirOffset" : 0.0,
+                "multiPosOffset" : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "bone"           : "",
+                "follow"         : true,
+                "alignSourceY"   : false
+            }
+        },
+        {
+            "typeName" : "xb_02dead",
+            "type"     : 2,
+            "fxDelay"  : 1.10000002384186,
+            "modelDelay" : 0.0,
+            "aniNameStr" : "siwang:单次:-1|",
+            "aniName"    : [
+                "siwang",
+                "",
+                ""
+            ],
+            "aniDelay"   : -1.0,
+            "pauseTime"  : -1.0,
+            "startTime"  : 0.0,
+            "slowStartTime" : -1.0,
+            "slowDurationTime" : 0.0,
+            "playRate"         : 1.0,
+            "bossUITime"       : -1.0,
+            "cameraStartTime"  : -1.0,
+            "cameraMoveTime"   : 0.0,
+            "cameraStayTime"   : 0.0,
+            "cameraFOV"        : -1.0,
+            "cameraOffset"     : {
+                "x" : 0.0,
+                "y" : 0.0,
+                "z" : 0.0
+            },
+            "cameraVerticalAngle" : -1.0,
+            "cameraHorizontalAngle" : -1.0,
+            "cameraOverDuration"    : -1.0,
+            "delayExtend"           : 0.0,
+            "fx"                    : {
+                "name" : "fx_siwang_smoke",
+                "fireFx" : "",
+                "iceFx"  : "",
+                "thunderFx" : "",
+                "darkFx"    : "",
+                "durationFrame" : 60,
+                "dirType"       : 1,
+                "posType"       : 0,
+                "dirOffset"     : 0.0,
+                "posOffset"     : {
+                    "x" : 0.0,
+                    "y" : 0.200000002980232,
+                    "z" : -0.800000011920929
+                },
+                "randomBegin"   : 0.0,
+                "randomEnd"     : 0.0,
+                "num"           : 1,
+                "multiDirOffset" : 0.0,
+                "multiPosOffset" : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "bone"           : "",
+                "follow"         : true,
+                "alignSourceY"   : false
+            }
+        },
+        {
+            "typeName" : "xb_01dead",
+            "type"     : 2,
+            "fxDelay"  : 1.10000002384186,
+            "modelDelay" : 0.0,
+            "aniNameStr" : "siwang:单次:-1|",
+            "aniName"    : [
+                "siwang",
+                "",
+                ""
+            ],
+            "aniDelay"   : -1.0,
+            "pauseTime"  : -1.0,
+            "startTime"  : 0.0,
+            "slowStartTime" : -1.0,
+            "slowDurationTime" : 0.0,
+            "playRate"         : 1.0,
+            "bossUITime"       : -1.0,
+            "cameraStartTime"  : -1.0,
+            "cameraMoveTime"   : 0.0,
+            "cameraStayTime"   : 0.0,
+            "cameraFOV"        : -1.0,
+            "cameraOffset"     : {
+                "x" : 0.0,
+                "y" : 0.0,
+                "z" : 0.0
+            },
+            "cameraVerticalAngle" : -1.0,
+            "cameraHorizontalAngle" : -1.0,
+            "cameraOverDuration"    : -1.0,
+            "delayExtend"           : 0.0,
+            "fx"                    : {
+                "name" : "fx_siwang_smoke",
+                "fireFx" : "",
+                "iceFx"  : "",
+                "thunderFx" : "",
+                "darkFx"    : "",
+                "durationFrame" : 60,
+                "dirType"       : 1,
+                "posType"       : 0,
+                "dirOffset"     : 0.0,
+                "posOffset"     : {
+                    "x" : 0.0,
+                    "y" : 0.200000002980232,
+                    "z" : -0.800000011920929
+                },
+                "randomBegin"   : 0.0,
+                "randomEnd"     : 0.0,
+                "num"           : 1,
+                "multiDirOffset" : 0.0,
+                "multiPosOffset" : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "bone"           : "",
+                "follow"         : true,
+                "alignSourceY"   : false
+            }
+        },
+        {
+            "typeName" : "xb_03begin",
+            "type"     : 1,
+            "fxDelay"  : -1.0,
+            "modelDelay" : 0.0,
+            "aniNameStr" : "chuchang:单次:-1|",
+            "aniName"    : [
+                "chuchang",
+                "",
+                ""
+            ],
+            "aniDelay"   : -1.0,
+            "pauseTime"  : -1.0,
+            "startTime"  : 0.0,
+            "slowStartTime" : -1.0,
+            "slowDurationTime" : 0.0,
+            "playRate"         : 1.0,
+            "bossUITime"       : -1.0,
+            "cameraStartTime"  : -1.0,
+            "cameraMoveTime"   : 0.0,
+            "cameraStayTime"   : 0.0,
+            "cameraFOV"        : -1.0,
+            "cameraOffset"     : {
+                "x" : 0.0,
+                "y" : 0.0,
+                "z" : 0.0
+            },
+            "cameraVerticalAngle" : -1.0,
+            "cameraHorizontalAngle" : -1.0,
+            "cameraOverDuration"    : -1.0,
+            "delayExtend"           : 0.0,
+            "fx"                    : {
+                "name" : "",
+                "fireFx" : "",
+                "iceFx"  : "",
+                "thunderFx" : "",
+                "darkFx"    : "",
+                "durationFrame" : -1,
+                "dirType"       : 1,
+                "posType"       : 0,
+                "dirOffset"     : 0.0,
+                "posOffset"     : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "randomBegin"   : 0.0,
+                "randomEnd"     : 0.0,
+                "num"           : 1,
+                "multiDirOffset" : 0.0,
+                "multiPosOffset" : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "bone"           : "",
+                "follow"         : true,
+                "alignSourceY"   : false
+            }
+        },
+        {
+            "typeName" : "xb_03dead",
+            "type"     : 2,
+            "fxDelay"  : 1.10000002384186,
+            "modelDelay" : 0.0,
+            "aniNameStr" : "siwang:单次:-1|",
+            "aniName"    : [
+                "siwang",
+                "",
+                ""
+            ],
+            "aniDelay"   : -1.0,
+            "pauseTime"  : -1.0,
+            "startTime"  : 0.0,
+            "slowStartTime" : -1.0,
+            "slowDurationTime" : 0.0,
+            "playRate"         : 1.0,
+            "bossUITime"       : -1.0,
+            "cameraStartTime"  : -1.0,
+            "cameraMoveTime"   : 0.0,
+            "cameraStayTime"   : 0.0,
+            "cameraFOV"        : -1.0,
+            "cameraOffset"     : {
+                "x" : 0.0,
+                "y" : 0.0,
+                "z" : 0.0
+            },
+            "cameraVerticalAngle" : -1.0,
+            "cameraHorizontalAngle" : -1.0,
+            "cameraOverDuration"    : -1.0,
+            "delayExtend"           : 0.0,
+            "fx"                    : {
+                "name" : "fx_siwang_smoke",
+                "fireFx" : "",
+                "iceFx"  : "",
+                "thunderFx" : "",
+                "darkFx"    : "",
+                "durationFrame" : 60,
+                "dirType"       : 1,
+                "posType"       : 0,
+                "dirOffset"     : 0.0,
+                "posOffset"     : {
+                    "x" : 0.0,
+                    "y" : 0.200000002980232,
+                    "z" : -0.800000011920929
+                },
+                "randomBegin"   : 0.0,
+                "randomEnd"     : 0.0,
+                "num"           : 1,
+                "multiDirOffset" : 0.0,
+                "multiPosOffset" : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "bone"           : "",
+                "follow"         : true,
+                "alignSourceY"   : false
+            }
+        },
+        {
+            "typeName" : "jy_01begin",
+            "type"     : 1,
+            "fxDelay"  : -1.0,
+            "modelDelay" : 0.0,
+            "aniNameStr" : "chuchang:单次:-1|",
+            "aniName"    : [
+                "chuchang",
+                "",
+                ""
+            ],
+            "aniDelay"   : -1.0,
+            "pauseTime"  : -1.0,
+            "startTime"  : 0.0,
+            "slowStartTime" : -1.0,
+            "slowDurationTime" : 0.0,
+            "playRate"         : 1.0,
+            "bossUITime"       : -1.0,
+            "cameraStartTime"  : -1.0,
+            "cameraMoveTime"   : 0.0,
+            "cameraStayTime"   : 0.0,
+            "cameraFOV"        : -1.0,
+            "cameraOffset"     : {
+                "x" : 0.0,
+                "y" : 0.0,
+                "z" : 0.0
+            },
+            "cameraVerticalAngle" : -1.0,
+            "cameraHorizontalAngle" : -1.0,
+            "cameraOverDuration"    : -1.0,
+            "delayExtend"           : 0.0,
+            "fx"                    : {
+                "name" : "",
+                "fireFx" : "",
+                "iceFx"  : "",
+                "thunderFx" : "",
+                "darkFx"    : "",
+                "durationFrame" : -1,
+                "dirType"       : 1,
+                "posType"       : 0,
+                "dirOffset"     : 0.0,
+                "posOffset"     : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "randomBegin"   : 0.0,
+                "randomEnd"     : 0.0,
+                "num"           : 1,
+                "multiDirOffset" : 0.0,
+                "multiPosOffset" : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "bone"           : "",
+                "follow"         : true,
+                "alignSourceY"   : false
+            }
+        },
+        {
+            "typeName" : "jy_01dead",
+            "type"     : 2,
+            "fxDelay"  : 2.09999990463257,
+            "modelDelay" : 0.0,
+            "aniNameStr" : "siwang:单次:-1|",
+            "aniName"    : [
+                "siwang",
+                "",
+                ""
+            ],
+            "aniDelay"   : -1.0,
+            "pauseTime"  : -1.0,
+            "startTime"  : 0.0,
+            "slowStartTime" : -1.0,
+            "slowDurationTime" : 0.0,
+            "playRate"         : 1.0,
+            "bossUITime"       : -1.0,
+            "cameraStartTime"  : -1.0,
+            "cameraMoveTime"   : 0.0,
+            "cameraStayTime"   : 0.0,
+            "cameraFOV"        : -1.0,
+            "cameraOffset"     : {
+                "x" : 0.0,
+                "y" : 0.0,
+                "z" : 0.0
+            },
+            "cameraVerticalAngle" : -1.0,
+            "cameraHorizontalAngle" : -1.0,
+            "cameraOverDuration"    : -1.0,
+            "delayExtend"           : 0.0,
+            "fx"                    : {
+                "name" : "fx_siwang_smoke01",
+                "fireFx" : "",
+                "iceFx"  : "",
+                "thunderFx" : "",
+                "darkFx"    : "",
+                "durationFrame" : 60,
+                "dirType"       : 1,
+                "posType"       : 0,
+                "dirOffset"     : 0.0,
+                "posOffset"     : {
+                    "x" : 0.0,
+                    "y" : 0.200000002980232,
+                    "z" : 0.0
+                },
+                "randomBegin"   : 0.0,
+                "randomEnd"     : 0.0,
+                "num"           : 1,
+                "multiDirOffset" : 0.0,
+                "multiPosOffset" : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "bone"           : "",
+                "follow"         : true,
+                "alignSourceY"   : false
+            }
+        },
+        {
+            "typeName" : "jy_02begin",
+            "type"     : 1,
+            "fxDelay"  : -1.0,
+            "modelDelay" : 0.0,
+            "aniNameStr" : "chuchang:单次:-1|",
+            "aniName"    : [
+                "chuchang",
+                "",
+                ""
+            ],
+            "aniDelay"   : 0.0,
+            "pauseTime"  : -1.0,
+            "startTime"  : -1.0,
+            "slowStartTime" : -1.0,
+            "slowDurationTime" : -1.0,
+            "playRate"         : 1.0,
+            "bossUITime"       : -1.0,
+            "cameraStartTime"  : -1.0,
+            "cameraMoveTime"   : 0.0,
+            "cameraStayTime"   : 0.0,
+            "cameraFOV"        : -1.0,
+            "cameraOffset"     : {
+                "x" : 0.0,
+                "y" : 0.0,
+                "z" : 0.0
+            },
+            "cameraVerticalAngle" : -1.0,
+            "cameraHorizontalAngle" : -1.0,
+            "cameraOverDuration"    : 0.0,
+            "delayExtend"           : 0.0,
+            "fx"                    : {
+                "name" : "",
+                "fireFx" : "",
+                "iceFx"  : "",
+                "thunderFx" : "",
+                "darkFx"    : "",
+                "durationFrame" : -1,
+                "dirType"       : 1,
+                "posType"       : 0,
+                "dirOffset"     : 0.0,
+                "posOffset"     : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "randomBegin"   : 0.0,
+                "randomEnd"     : 0.0,
+                "num"           : 1,
+                "multiDirOffset" : 0.0,
+                "multiPosOffset" : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "bone"           : "",
+                "follow"         : true,
+                "alignSourceY"   : false
+            }
+        },
+        {
+            "typeName" : "jy_02dead",
+            "type"     : 2,
+            "fxDelay"  : 2.09999990463257,
+            "modelDelay" : 0.0,
+            "aniNameStr" : "siwang:单次:-1|",
+            "aniName"    : [
+                "siwang",
+                "",
+                ""
+            ],
+            "aniDelay"   : 0.0,
+            "pauseTime"  : -1.0,
+            "startTime"  : -1.0,
+            "slowStartTime" : 0.0,
+            "slowDurationTime" : 0.0,
+            "playRate"         : 1.0,
+            "bossUITime"       : -1.0,
+            "cameraStartTime"  : -1.0,
+            "cameraMoveTime"   : 0.0,
+            "cameraStayTime"   : 0.0,
+            "cameraFOV"        : -1.0,
+            "cameraOffset"     : {
+                "x" : 0.0,
+                "y" : 0.0,
+                "z" : 0.0
+            },
+            "cameraVerticalAngle" : -1.0,
+            "cameraHorizontalAngle" : -1.0,
+            "cameraOverDuration"    : 0.0,
+            "delayExtend"           : 0.0,
+            "fx"                    : {
+                "name" : "fx_siwang_smoke01",
+                "fireFx" : "",
+                "iceFx"  : "",
+                "thunderFx" : "",
+                "darkFx"    : "",
+                "durationFrame" : 60,
+                "dirType"       : 1,
+                "posType"       : 0,
+                "dirOffset"     : 0.0,
+                "posOffset"     : {
+                    "x" : 0.0,
+                    "y" : 0.200000002980232,
+                    "z" : 0.0
+                },
+                "randomBegin"   : 0.0,
+                "randomEnd"     : 0.0,
+                "num"           : 1,
+                "multiDirOffset" : 0.0,
+                "multiPosOffset" : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "bone"           : "",
+                "follow"         : true,
+                "alignSourceY"   : false
+            }
+        },
+        {
+            "typeName" : "kuangzhanshibegin",
+            "type"     : 1,
+            "fxDelay"  : -1.0,
+            "modelDelay" : 0.0,
+            "aniNameStr" : "enter:单次:-1|",
+            "aniName"    : [
+                "enter",
+                "",
+                ""
+            ],
+            "aniDelay"   : -1.0,
+            "pauseTime"  : -1.0,
+            "startTime"  : 0.0,
+            "slowStartTime" : -1.0,
+            "slowDurationTime" : 0.0,
+            "playRate"         : 1.0,
+            "bossUITime"       : -1.0,
+            "cameraStartTime"  : -1.0,
+            "cameraMoveTime"   : 0.0,
+            "cameraStayTime"   : 0.0,
+            "cameraFOV"        : -1.0,
+            "cameraOffset"     : {
+                "x" : 0.0,
+                "y" : 0.0,
+                "z" : 0.0
+            },
+            "cameraVerticalAngle" : -1.0,
+            "cameraHorizontalAngle" : -1.0,
+            "cameraOverDuration"    : -1.0,
+            "delayExtend"           : 0.0,
+            "fx"                    : {
+                "name" : "",
+                "fireFx" : "",
+                "iceFx"  : "",
+                "thunderFx" : "",
+                "darkFx"    : "",
+                "durationFrame" : -1,
+                "dirType"       : 1,
+                "posType"       : 0,
+                "dirOffset"     : 0.0,
+                "posOffset"     : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "randomBegin"   : 0.0,
+                "randomEnd"     : 0.0,
+                "num"           : 1,
+                "multiDirOffset" : 0.0,
+                "multiPosOffset" : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "bone"           : "",
+                "follow"         : true,
+                "alignSourceY"   : false
+            }
+        },
+        {
+            "typeName" : "kuangzhanshidead",
+            "type"     : 2,
+            "fxDelay"  : -1.0,
+            "modelDelay" : 0.0,
+            "aniNameStr" : "siwang:单次:-1|",
+            "aniName"    : [
+                "siwang",
+                "",
+                ""
+            ],
+            "aniDelay"   : -1.0,
+            "pauseTime"  : -1.0,
+            "startTime"  : 0.0,
+            "slowStartTime" : -1.0,
+            "slowDurationTime" : 0.0,
+            "playRate"         : 1.0,
+            "bossUITime"       : -1.0,
+            "cameraStartTime"  : -1.0,
+            "cameraMoveTime"   : 0.0,
+            "cameraStayTime"   : 0.0,
+            "cameraFOV"        : -1.0,
+            "cameraOffset"     : {
+                "x" : 0.0,
+                "y" : 0.0,
+                "z" : 0.0
+            },
+            "cameraVerticalAngle" : -1.0,
+            "cameraHorizontalAngle" : -1.0,
+            "cameraOverDuration"    : -1.0,
+            "delayExtend"           : 0.0,
+            "fx"                    : {
+                "name" : "",
+                "fireFx" : "",
+                "iceFx"  : "",
+                "thunderFx" : "",
+                "darkFx"    : "",
+                "durationFrame" : -1,
+                "dirType"       : 1,
+                "posType"       : 0,
+                "dirOffset"     : 0.0,
+                "posOffset"     : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "randomBegin"   : 0.0,
+                "randomEnd"     : 0.0,
+                "num"           : 1,
+                "multiDirOffset" : 0.0,
+                "multiPosOffset" : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "bone"           : "",
+                "follow"         : true,
+                "alignSourceY"   : false
+            }
+        },
+        {
+            "typeName" : "herodead",
+            "type"     : 2,
+            "fxDelay"  : 0.0,
+            "modelDelay" : 0.0,
+            "aniNameStr" : "siwang:单次:-1|",
+            "aniName"    : [
+                "siwang",
+                "",
+                ""
+            ],
+            "aniDelay"   : -1.0,
+            "pauseTime"  : -1.0,
+            "startTime"  : 0.0,
+            "slowStartTime" : -1.0,
+            "slowDurationTime" : 0.0,
+            "playRate"         : 1.0,
+            "bossUITime"       : -1.0,
+            "cameraStartTime"  : -1.0,
+            "cameraMoveTime"   : 0.0,
+            "cameraStayTime"   : 0.0,
+            "cameraFOV"        : -1.0,
+            "cameraOffset"     : {
+                "x" : 0.0,
+                "y" : 0.0,
+                "z" : 0.0
+            },
+            "cameraVerticalAngle" : -1.0,
+            "cameraHorizontalAngle" : -1.0,
+            "cameraOverDuration"    : -1.0,
+            "delayExtend"           : 0.0,
+            "fx"                    : {
+                "name" : "",
+                "fireFx" : "",
+                "iceFx"  : "",
+                "thunderFx" : "",
+                "darkFx"    : "",
+                "durationFrame" : -1,
+                "dirType"       : 1,
+                "posType"       : 0,
+                "dirOffset"     : 0.0,
+                "posOffset"     : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "randomBegin"   : 0.0,
+                "randomEnd"     : 0.0,
+                "num"           : 1,
+                "multiDirOffset" : 0.0,
+                "multiPosOffset" : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "bone"           : "",
+                "follow"         : true,
+                "alignSourceY"   : false
+            }
+        },
+        {
+            "typeName" : "jz_01dead",
+            "type"     : 2,
+            "fxDelay"  : 0.0,
+            "modelDelay" : 0.0,
+            "aniNameStr" : "posui_06:单次:-1|",
+            "aniName"    : [
+                "posui_06",
+                "",
+                ""
+            ],
+            "aniDelay"   : 0.0,
+            "pauseTime"  : 0.0,
+            "startTime"  : 0.0,
+            "slowStartTime" : 0.0,
+            "slowDurationTime" : 2.0,
+            "playRate"         : 0.300000011920929,
+            "bossUITime"       : -1.0,
+            "cameraStartTime"  : 0.5,
+            "cameraMoveTime"   : 0.5,
+            "cameraStayTime"   : 3.0,
+            "cameraFOV"        : 50.0,
+            "cameraOffset"     : {
+                "x" : 0.0,
+                "y" : 0.0,
+                "z" : 0.0
+            },
+            "cameraVerticalAngle" : -1.0,
+            "cameraHorizontalAngle" : -1.0,
+            "cameraOverDuration"    : -1.0,
+            "delayExtend"           : 0.0,
+            "fx"                    : {
+                "name" : "",
+                "fireFx" : "",
+                "iceFx"  : "",
+                "thunderFx" : "",
+                "darkFx"    : "",
+                "durationFrame" : -1,
+                "dirType"       : 1,
+                "posType"       : 0,
+                "dirOffset"     : 0.0,
+                "posOffset"     : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "randomBegin"   : 0.0,
+                "randomEnd"     : 0.0,
+                "num"           : 1,
+                "multiDirOffset" : 0.0,
+                "multiPosOffset" : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "bone"           : "",
+                "follow"         : true,
+                "alignSourceY"   : false
+            }
+        },
+        {
+            "typeName" : "kratoschuchang",
+            "type"     : 1,
+            "fxDelay"  : -1.0,
+            "modelDelay" : 0.0,
+            "aniNameStr" : "dengru:单次:-1|",
+            "aniName"    : [
+                "dengru",
+                "",
+                ""
+            ],
+            "aniDelay"   : 0.0,
+            "pauseTime"  : -1.0,
+            "startTime"  : 0.0,
+            "slowStartTime" : -1.0,
+            "slowDurationTime" : 0.0,
+            "playRate"         : 1.0,
+            "bossUITime"       : -1.0,
+            "cameraStartTime"  : -1.0,
+            "cameraMoveTime"   : 0.0,
+            "cameraStayTime"   : 0.0,
+            "cameraFOV"        : -1.0,
+            "cameraOffset"     : {
+                "x" : 0.0,
+                "y" : 0.0,
+                "z" : 0.0
+            },
+            "cameraVerticalAngle" : -1.0,
+            "cameraHorizontalAngle" : -1.0,
+            "cameraOverDuration"    : -1.0,
+            "delayExtend"           : 0.0,
+            "fx"                    : {
+                "name" : "fx_kratos_chuchang",
+                "fireFx" : "",
+                "iceFx"  : "",
+                "thunderFx" : "",
+                "darkFx"    : "",
+                "durationFrame" : -1,
+                "dirType"       : 1,
+                "posType"       : 0,
+                "dirOffset"     : 0.0,
+                "posOffset"     : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "randomBegin"   : 0.0,
+                "randomEnd"     : 0.0,
+                "num"           : 1,
+                "multiDirOffset" : 0.0,
+                "multiPosOffset" : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "bone"           : "",
+                "follow"         : true,
+                "alignSourceY"   : false
+            }
+        },
+        {
+            "typeName" : "bs_02begin",
+            "type"     : 1,
+            "fxDelay"  : 0.800000011920929,
+            "modelDelay" : 0.0,
+            "aniNameStr" : "chuchang:单次:-1|gongji01:单次:-1|",
+            "aniName"    : [
+                "chuchang",
+                "gongji01",
+                ""
+            ],
+            "aniDelay"   : 0.0,
+            "pauseTime"  : 0.0,
+            "startTime"  : 4.5,
+            "slowStartTime" : 2.20000004768372,
+            "slowDurationTime" : 2.29999995231628,
+            "playRate"         : 0.5,
+            "bossUITime"       : 2.70000004768372,
+            "cameraStartTime"  : 0.0,
+            "cameraMoveTime"   : 0.800000011920929,
+            "cameraStayTime"   : 3.0,
+            "cameraFOV"        : 50.0,
+            "cameraOffset"     : {
+                "x" : 0.0,
+                "y" : 0.0,
+                "z" : 0.0
+            },
+            "cameraVerticalAngle" : -1.0,
+            "cameraHorizontalAngle" : -1.0,
+            "cameraOverDuration"    : 0.5,
+            "delayExtend"           : 0.0,
+            "fx"                    : {
+                "name" : "fx_shake2",
+                "fireFx" : "",
+                "iceFx"  : "",
+                "thunderFx" : "",
+                "darkFx"    : "",
+                "durationFrame" : -1,
+                "dirType"       : 1,
+                "posType"       : 0,
+                "dirOffset"     : 0.0,
+                "posOffset"     : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "randomBegin"   : 0.0,
+                "randomEnd"     : 0.0,
+                "num"           : 1,
+                "multiDirOffset" : 0.0,
+                "multiPosOffset" : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "bone"           : "",
+                "follow"         : true,
+                "alignSourceY"   : false
+            }
+        },
+        {
+            "typeName" : "bs_01dead",
+            "type"     : 2,
+            "fxDelay"  : 3.0,
+            "modelDelay" : 0.0,
+            "aniNameStr" : "siwang:单次:-1|",
+            "aniName"    : [
+                "siwang",
+                "",
+                ""
+            ],
+            "aniDelay"   : 0.0,
+            "pauseTime"  : 0.0,
+            "startTime"  : 3.0,
+            "slowStartTime" : 0.0,
+            "slowDurationTime" : 1.20000004768372,
+            "playRate"         : 0.200000002980232,
+            "bossUITime"       : -1.0,
+            "cameraStartTime"  : 0.0,
+            "cameraMoveTime"   : 0.5,
+            "cameraStayTime"   : 3.0,
+            "cameraFOV"        : 50.0,
+            "cameraOffset"     : {
+                "x" : 0.0,
+                "y" : 2.0,
+                "z" : -3.0
+            },
+            "cameraVerticalAngle" : 60.0,
+            "cameraHorizontalAngle" : -1.0,
+            "cameraOverDuration"    : -1.0,
+            "delayExtend"           : 0.0,
+            "fx"                    : {
+                "name" : "fx_siwang_smoke02",
+                "fireFx" : "",
+                "iceFx"  : "",
+                "thunderFx" : "",
+                "darkFx"    : "",
+                "durationFrame" : -1,
+                "dirType"       : 1,
+                "posType"       : 0,
+                "dirOffset"     : 0.0,
+                "posOffset"     : {
+                    "x" : -0.509999990463257,
+                    "y" : 0.0,
+                    "z" : -5.0
+                },
+                "randomBegin"   : 0.0,
+                "randomEnd"     : 0.0,
+                "num"           : 1,
+                "multiDirOffset" : 0.0,
+                "multiPosOffset" : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "bone"           : "",
+                "follow"         : true,
+                "alignSourceY"   : false
+            }
+        },
+        {
+            "typeName" : "wuchusheng",
+            "type"     : 1,
+            "fxDelay"  : -1.0,
+            "modelDelay" : 0.0,
+            "aniNameStr" : "zhandoudaiji:单次:-1|",
+            "aniName"    : [
+                "zhandoudaiji",
+                "",
+                ""
+            ],
+            "aniDelay"   : 0.0,
+            "pauseTime"  : -1.0,
+            "startTime"  : 0.0,
+            "slowStartTime" : -1.0,
+            "slowDurationTime" : 0.0,
+            "playRate"         : 1.0,
+            "bossUITime"       : -1.0,
+            "cameraStartTime"  : -1.0,
+            "cameraMoveTime"   : 0.0,
+            "cameraStayTime"   : 0.0,
+            "cameraFOV"        : -1.0,
+            "cameraOffset"     : {
+                "x" : 0.0,
+                "y" : 0.0,
+                "z" : 0.0
+            },
+            "cameraVerticalAngle" : -1.0,
+            "cameraHorizontalAngle" : -1.0,
+            "cameraOverDuration"    : -1.0,
+            "delayExtend"           : 0.0,
+            "fx"                    : {
+                "name" : "",
+                "fireFx" : "",
+                "iceFx"  : "",
+                "thunderFx" : "",
+                "darkFx"    : "",
+                "durationFrame" : -1,
+                "dirType"       : 1,
+                "posType"       : 0,
+                "dirOffset"     : 0.0,
+                "posOffset"     : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "randomBegin"   : 0.0,
+                "randomEnd"     : 0.0,
+                "num"           : 1,
+                "multiDirOffset" : 0.0,
+                "multiPosOffset" : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "bone"           : "",
+                "follow"         : true,
+                "alignSourceY"   : false
+            }
+        },
+        {
+            "typeName" : "xb_04begin",
+            "type"     : 1,
+            "fxDelay"  : -1.0,
+            "modelDelay" : 0.0,
+            "aniNameStr" : "chuchang:单次:-1|",
+            "aniName"    : [
+                "chuchang",
+                "",
+                ""
+            ],
+            "aniDelay"   : -1.0,
+            "pauseTime"  : -1.0,
+            "startTime"  : 0.0,
+            "slowStartTime" : -1.0,
+            "slowDurationTime" : 0.0,
+            "playRate"         : 1.0,
+            "bossUITime"       : -1.0,
+            "cameraStartTime"  : -1.0,
+            "cameraMoveTime"   : 0.0,
+            "cameraStayTime"   : 0.0,
+            "cameraFOV"        : -1.0,
+            "cameraOffset"     : {
+                "x" : 0.0,
+                "y" : 0.0,
+                "z" : 0.0
+            },
+            "cameraVerticalAngle" : -1.0,
+            "cameraHorizontalAngle" : -1.0,
+            "cameraOverDuration"    : -1.0,
+            "delayExtend"           : 0.0,
+            "fx"                    : {
+                "name" : "",
+                "fireFx" : "",
+                "iceFx"  : "",
+                "thunderFx" : "",
+                "darkFx"    : "",
+                "durationFrame" : -1,
+                "dirType"       : 1,
+                "posType"       : 0,
+                "dirOffset"     : 0.0,
+                "posOffset"     : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "randomBegin"   : 0.0,
+                "randomEnd"     : 0.0,
+                "num"           : 1,
+                "multiDirOffset" : 0.0,
+                "multiPosOffset" : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "bone"           : "",
+                "follow"         : true,
+                "alignSourceY"   : false
+            }
+        },
+        {
+            "typeName" : "xb_04dead",
+            "type"     : 2,
+            "fxDelay"  : 1.60000002384186,
+            "modelDelay" : 0.0,
+            "aniNameStr" : "siwang:单次:-1|",
+            "aniName"    : [
+                "siwang",
+                "",
+                ""
+            ],
+            "aniDelay"   : -1.0,
+            "pauseTime"  : -1.0,
+            "startTime"  : 0.0,
+            "slowStartTime" : -1.0,
+            "slowDurationTime" : 0.0,
+            "playRate"         : 1.0,
+            "bossUITime"       : -1.0,
+            "cameraStartTime"  : -1.0,
+            "cameraMoveTime"   : 0.0,
+            "cameraStayTime"   : 0.0,
+            "cameraFOV"        : -1.0,
+            "cameraOffset"     : {
+                "x" : 0.0,
+                "y" : 0.0,
+                "z" : 0.0
+            },
+            "cameraVerticalAngle" : -1.0,
+            "cameraHorizontalAngle" : -1.0,
+            "cameraOverDuration"    : -1.0,
+            "delayExtend"           : 0.0,
+            "fx"                    : {
+                "name" : "fx_siwang_smoke",
+                "fireFx" : "",
+                "iceFx"  : "",
+                "thunderFx" : "",
+                "darkFx"    : "",
+                "durationFrame" : 60,
+                "dirType"       : 1,
+                "posType"       : 0,
+                "dirOffset"     : 0.0,
+                "posOffset"     : {
+                    "x" : 0.670000016689301,
+                    "y" : 0.0,
+                    "z" : -0.230000004172325
+                },
+                "randomBegin"   : 0.0,
+                "randomEnd"     : 0.0,
+                "num"           : 1,
+                "multiDirOffset" : 0.0,
+                "multiPosOffset" : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "bone"           : "",
+                "follow"         : true,
+                "alignSourceY"   : false
+            }
+        },
+        {
+            "typeName" : "xb_05begin",
+            "type"     : 1,
+            "fxDelay"  : -1.0,
+            "modelDelay" : 0.0,
+            "aniNameStr" : "chuchang:单次:-1|",
+            "aniName"    : [
+                "chuchang",
+                "",
+                ""
+            ],
+            "aniDelay"   : -1.0,
+            "pauseTime"  : -1.0,
+            "startTime"  : 0.0,
+            "slowStartTime" : -1.0,
+            "slowDurationTime" : 0.0,
+            "playRate"         : 1.0,
+            "bossUITime"       : -1.0,
+            "cameraStartTime"  : -1.0,
+            "cameraMoveTime"   : 0.0,
+            "cameraStayTime"   : 0.0,
+            "cameraFOV"        : -1.0,
+            "cameraOffset"     : {
+                "x" : 0.0,
+                "y" : 0.0,
+                "z" : 0.0
+            },
+            "cameraVerticalAngle" : -1.0,
+            "cameraHorizontalAngle" : -1.0,
+            "cameraOverDuration"    : -1.0,
+            "delayExtend"           : 0.0,
+            "fx"                    : {
+                "name" : "",
+                "fireFx" : "",
+                "iceFx"  : "",
+                "thunderFx" : "",
+                "darkFx"    : "",
+                "durationFrame" : -1,
+                "dirType"       : 1,
+                "posType"       : 0,
+                "dirOffset"     : 0.0,
+                "posOffset"     : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "randomBegin"   : 0.0,
+                "randomEnd"     : 0.0,
+                "num"           : 1,
+                "multiDirOffset" : 0.0,
+                "multiPosOffset" : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "bone"           : "",
+                "follow"         : true,
+                "alignSourceY"   : false
+            }
+        },
+        {
+            "typeName" : "bs_03begin",
+            "type"     : 1,
+            "fxDelay"  : 1.79999995231628,
+            "modelDelay" : 0.0,
+            "aniNameStr" : "chuchang:单次:-1|",
+            "aniName"    : [
+                "chuchang",
+                "",
+                ""
+            ],
+            "aniDelay"   : 0.0,
+            "pauseTime"  : 0.0,
+            "startTime"  : 4.5,
+            "slowStartTime" : 0.0,
+            "slowDurationTime" : 3.5,
+            "playRate"         : 0.400000005960464,
+            "bossUITime"       : 2.70000004768372,
+            "cameraStartTime"  : 0.0,
+            "cameraMoveTime"   : 1.0,
+            "cameraStayTime"   : 3.0,
+            "cameraFOV"        : 90.0,
+            "cameraOffset"     : {
+                "x" : 0.0,
+                "y" : 5.0,
+                "z" : 12.0
+            },
+            "cameraVerticalAngle" : 50.0,
+            "cameraHorizontalAngle" : -1.0,
+            "cameraOverDuration"    : 0.5,
+            "delayExtend"           : 0.0,
+            "fx"                    : {
+                "name" : "fx_shake3",
+                "fireFx" : "",
+                "iceFx"  : "",
+                "thunderFx" : "",
+                "darkFx"    : "",
+                "durationFrame" : -1,
+                "dirType"       : 1,
+                "posType"       : 0,
+                "dirOffset"     : 0.0,
+                "posOffset"     : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "randomBegin"   : 0.0,
+                "randomEnd"     : 0.0,
+                "num"           : 1,
+                "multiDirOffset" : 0.0,
+                "multiPosOffset" : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "bone"           : "",
+                "follow"         : true,
+                "alignSourceY"   : false
+            }
+        },
+        {
+            "typeName" : "bs_03dead",
+            "type"     : 2,
+            "fxDelay"  : 3.5,
+            "modelDelay" : 0.0,
+            "aniNameStr" : "siwang:单次:-1|",
+            "aniName"    : [
+                "siwang",
+                "",
+                ""
+            ],
+            "aniDelay"   : 0.0,
+            "pauseTime"  : 0.0,
+            "startTime"  : 3.0,
+            "slowStartTime" : 0.0,
+            "slowDurationTime" : 1.60000002384186,
+            "playRate"         : 0.200000002980232,
+            "bossUITime"       : -1.0,
+            "cameraStartTime"  : 0.0,
+            "cameraMoveTime"   : 0.5,
+            "cameraStayTime"   : 3.0,
+            "cameraFOV"        : 90.0,
+            "cameraOffset"     : {
+                "x" : 0.0,
+                "y" : 8.0,
+                "z" : -2.0
+            },
+            "cameraVerticalAngle" : 80.0,
+            "cameraHorizontalAngle" : -1.0,
+            "cameraOverDuration"    : -1.0,
+            "delayExtend"           : 0.0,
+            "fx"                    : {
+                "name" : "",
+                "fireFx" : "",
+                "iceFx"  : "",
+                "thunderFx" : "",
+                "darkFx"    : "",
+                "durationFrame" : -1,
+                "dirType"       : 1,
+                "posType"       : 0,
+                "dirOffset"     : 0.0,
+                "posOffset"     : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "randomBegin"   : 0.0,
+                "randomEnd"     : 0.0,
+                "num"           : 1,
+                "multiDirOffset" : 0.0,
+                "multiPosOffset" : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "bone"           : "",
+                "follow"         : true,
+                "alignSourceY"   : false
+            }
+        },
+        {
+            "typeName" : "cw_8begin",
+            "type"     : 1,
+            "fxDelay"  : -1.0,
+            "modelDelay" : 0.0,
+            "aniNameStr" : "chuchang:单次:-1|",
+            "aniName"    : [
+                "chuchang",
+                "",
+                ""
+            ],
+            "aniDelay"   : -1.0,
+            "pauseTime"  : -1.0,
+            "startTime"  : 0.0,
+            "slowStartTime" : -1.0,
+            "slowDurationTime" : 0.0,
+            "playRate"         : 1.0,
+            "bossUITime"       : -1.0,
+            "cameraStartTime"  : -1.0,
+            "cameraMoveTime"   : 0.0,
+            "cameraStayTime"   : 0.0,
+            "cameraFOV"        : -1.0,
+            "cameraOffset"     : {
+                "x" : 0.0,
+                "y" : 0.0,
+                "z" : 0.0
+            },
+            "cameraVerticalAngle" : -1.0,
+            "cameraHorizontalAngle" : -1.0,
+            "cameraOverDuration"    : -1.0,
+            "delayExtend"           : 0.0,
+            "fx"                    : {
+                "name" : "",
+                "fireFx" : "",
+                "iceFx"  : "",
+                "thunderFx" : "",
+                "darkFx"    : "",
+                "durationFrame" : -1,
+                "dirType"       : 1,
+                "posType"       : 0,
+                "dirOffset"     : 0.0,
+                "posOffset"     : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "randomBegin"   : 0.0,
+                "randomEnd"     : 0.0,
+                "num"           : 1,
+                "multiDirOffset" : 0.0,
+                "multiPosOffset" : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "bone"           : "",
+                "follow"         : true,
+                "alignSourceY"   : false
+            }
+        },
+        {
+            "typeName" : "cw_8dead",
+            "type"     : 2,
+            "fxDelay"  : -1.0,
+            "modelDelay" : 0.0,
+            "aniNameStr" : "siwang:单次:-1|",
+            "aniName"    : [
+                "siwang",
+                "",
+                ""
+            ],
+            "aniDelay"   : -1.0,
+            "pauseTime"  : 0.0,
+            "startTime"  : 0.0,
+            "slowStartTime" : -1.0,
+            "slowDurationTime" : 0.0,
+            "playRate"         : 1.0,
+            "bossUITime"       : -1.0,
+            "cameraStartTime"  : -1.0,
+            "cameraMoveTime"   : 0.0,
+            "cameraStayTime"   : 0.0,
+            "cameraFOV"        : -1.0,
+            "cameraOffset"     : {
+                "x" : 0.0,
+                "y" : 0.0,
+                "z" : 0.0
+            },
+            "cameraVerticalAngle" : -1.0,
+            "cameraHorizontalAngle" : -1.0,
+            "cameraOverDuration"    : -1.0,
+            "delayExtend"           : 9999.0,
+            "fx"                    : {
+                "name" : "",
+                "fireFx" : "",
+                "iceFx"  : "",
+                "thunderFx" : "",
+                "darkFx"    : "",
+                "durationFrame" : -1,
+                "dirType"       : 1,
+                "posType"       : 0,
+                "dirOffset"     : 0.0,
+                "posOffset"     : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "randomBegin"   : 0.0,
+                "randomEnd"     : 0.0,
+                "num"           : 1,
+                "multiDirOffset" : 0.0,
+                "multiPosOffset" : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "bone"           : "",
+                "follow"         : true,
+                "alignSourceY"   : false
+            }
+        },
+        {
+            "typeName" : "bx_01dead",
+            "type"     : 2,
+            "fxDelay"  : -1.0,
+            "modelDelay" : 0.0,
+            "aniNameStr" : "siwang:单次:-1|",
+            "aniName"    : [
+                "siwang",
+                "",
+                ""
+            ],
+            "aniDelay"   : -1.0,
+            "pauseTime"  : -1.0,
+            "startTime"  : 0.0,
+            "slowStartTime" : -1.0,
+            "slowDurationTime" : 0.0,
+            "playRate"         : 1.0,
+            "bossUITime"       : -1.0,
+            "cameraStartTime"  : -1.0,
+            "cameraMoveTime"   : 0.0,
+            "cameraStayTime"   : 0.0,
+            "cameraFOV"        : -1.0,
+            "cameraOffset"     : {
+                "x" : 0.0,
+                "y" : 0.0,
+                "z" : 0.0
+            },
+            "cameraVerticalAngle" : -1.0,
+            "cameraHorizontalAngle" : -1.0,
+            "cameraOverDuration"    : -1.0,
+            "delayExtend"           : 0.0,
+            "fx"                    : {
+                "name" : "",
+                "fireFx" : "",
+                "iceFx"  : "",
+                "thunderFx" : "",
+                "darkFx"    : "",
+                "durationFrame" : -1,
+                "dirType"       : 1,
+                "posType"       : 0,
+                "dirOffset"     : 0.0,
+                "posOffset"     : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "randomBegin"   : 0.0,
+                "randomEnd"     : 0.0,
+                "num"           : 1,
+                "multiDirOffset" : 0.0,
+                "multiPosOffset" : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "bone"           : "",
+                "follow"         : true,
+                "alignSourceY"   : false
+            }
+        },
+        {
+            "typeName" : "bx_02dead",
+            "type"     : 2,
+            "fxDelay"  : -1.0,
+            "modelDelay" : 0.0,
+            "aniNameStr" : "siwang:单次:-1|",
+            "aniName"    : [
+                "siwang",
+                "",
+                ""
+            ],
+            "aniDelay"   : -1.0,
+            "pauseTime"  : -1.0,
+            "startTime"  : 0.0,
+            "slowStartTime" : -1.0,
+            "slowDurationTime" : 0.0,
+            "playRate"         : 1.0,
+            "bossUITime"       : -1.0,
+            "cameraStartTime"  : -1.0,
+            "cameraMoveTime"   : 0.0,
+            "cameraStayTime"   : 0.0,
+            "cameraFOV"        : -1.0,
+            "cameraOffset"     : {
+                "x" : 0.0,
+                "y" : 0.0,
+                "z" : 0.0
+            },
+            "cameraVerticalAngle" : -1.0,
+            "cameraHorizontalAngle" : -1.0,
+            "cameraOverDuration"    : -1.0,
+            "delayExtend"           : 0.0,
+            "fx"                    : {
+                "name" : "",
+                "fireFx" : "",
+                "iceFx"  : "",
+                "thunderFx" : "",
+                "darkFx"    : "",
+                "durationFrame" : -1,
+                "dirType"       : 1,
+                "posType"       : 0,
+                "dirOffset"     : 0.0,
+                "posOffset"     : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "randomBegin"   : 0.0,
+                "randomEnd"     : 0.0,
+                "num"           : 1,
+                "multiDirOffset" : 0.0,
+                "multiPosOffset" : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "bone"           : "",
+                "follow"         : true,
+                "alignSourceY"   : false
+            }
+        },
+        {
+            "typeName" : "xb_05dead",
+            "type"     : 2,
+            "fxDelay"  : 1.20000004768372,
+            "modelDelay" : 0.0,
+            "aniNameStr" : "siwang:单次:-1|",
+            "aniName"    : [
+                "siwang",
+                "",
+                ""
+            ],
+            "aniDelay"   : -1.0,
+            "pauseTime"  : -1.0,
+            "startTime"  : 0.0,
+            "slowStartTime" : -1.0,
+            "slowDurationTime" : 0.0,
+            "playRate"         : 1.0,
+            "bossUITime"       : -1.0,
+            "cameraStartTime"  : -1.0,
+            "cameraMoveTime"   : 0.0,
+            "cameraStayTime"   : 0.0,
+            "cameraFOV"        : -1.0,
+            "cameraOffset"     : {
+                "x" : 0.0,
+                "y" : 0.0,
+                "z" : 0.0
+            },
+            "cameraVerticalAngle" : -1.0,
+            "cameraHorizontalAngle" : -1.0,
+            "cameraOverDuration"    : -1.0,
+            "delayExtend"           : 0.0,
+            "fx"                    : {
+                "name" : "fx_siwang_smoke",
+                "fireFx" : "",
+                "iceFx"  : "",
+                "thunderFx" : "",
+                "darkFx"    : "",
+                "durationFrame" : -1,
+                "dirType"       : 1,
+                "posType"       : 0,
+                "dirOffset"     : 0.0,
+                "posOffset"     : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : -0.589999973773956
+                },
+                "randomBegin"   : 0.0,
+                "randomEnd"     : 0.0,
+                "num"           : 1,
+                "multiDirOffset" : 0.0,
+                "multiPosOffset" : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "bone"           : "",
+                "follow"         : true,
+                "alignSourceY"   : false
+            }
+        },
+        {
+            "typeName" : "cw_6begin",
+            "type"     : 1,
+            "fxDelay"  : -1.0,
+            "modelDelay" : 0.0,
+            "aniNameStr" : "chuchang:单次:-1|",
+            "aniName"    : [
+                "chuchang",
+                "",
+                ""
+            ],
+            "aniDelay"   : -1.0,
+            "pauseTime"  : -1.0,
+            "startTime"  : 0.0,
+            "slowStartTime" : -1.0,
+            "slowDurationTime" : 0.0,
+            "playRate"         : 1.0,
+            "bossUITime"       : -1.0,
+            "cameraStartTime"  : -1.0,
+            "cameraMoveTime"   : 0.0,
+            "cameraStayTime"   : 0.0,
+            "cameraFOV"        : -1.0,
+            "cameraOffset"     : {
+                "x" : 0.0,
+                "y" : 0.0,
+                "z" : 0.0
+            },
+            "cameraVerticalAngle" : -1.0,
+            "cameraHorizontalAngle" : -1.0,
+            "cameraOverDuration"    : -1.0,
+            "delayExtend"           : 0.0,
+            "fx"                    : {
+                "name" : "",
+                "fireFx" : "",
+                "iceFx"  : "",
+                "thunderFx" : "",
+                "darkFx"    : "",
+                "durationFrame" : -1,
+                "dirType"       : 1,
+                "posType"       : 0,
+                "dirOffset"     : 0.0,
+                "posOffset"     : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "randomBegin"   : 0.0,
+                "randomEnd"     : 0.0,
+                "num"           : 1,
+                "multiDirOffset" : 0.0,
+                "multiPosOffset" : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "bone"           : "",
+                "follow"         : true,
+                "alignSourceY"   : false
+            }
+        },
+        {
+            "typeName" : "cw_6dead",
+            "type"     : 2,
+            "fxDelay"  : -1.0,
+            "modelDelay" : 0.0,
+            "aniNameStr" : "siwang:单次:-1|",
+            "aniName"    : [
+                "siwang",
+                "",
+                ""
+            ],
+            "aniDelay"   : -1.0,
+            "pauseTime"  : -1.0,
+            "startTime"  : 0.0,
+            "slowStartTime" : -1.0,
+            "slowDurationTime" : 0.0,
+            "playRate"         : 1.0,
+            "bossUITime"       : -1.0,
+            "cameraStartTime"  : -1.0,
+            "cameraMoveTime"   : 0.0,
+            "cameraStayTime"   : 0.0,
+            "cameraFOV"        : -1.0,
+            "cameraOffset"     : {
+                "x" : 0.0,
+                "y" : 0.0,
+                "z" : 0.0
+            },
+            "cameraVerticalAngle" : -1.0,
+            "cameraHorizontalAngle" : -1.0,
+            "cameraOverDuration"    : -1.0,
+            "delayExtend"           : 9999.0,
+            "fx"                    : {
+                "name" : "",
+                "fireFx" : "",
+                "iceFx"  : "",
+                "thunderFx" : "",
+                "darkFx"    : "",
+                "durationFrame" : -1,
+                "dirType"       : 1,
+                "posType"       : 0,
+                "dirOffset"     : 0.0,
+                "posOffset"     : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "randomBegin"   : 0.0,
+                "randomEnd"     : 0.0,
+                "num"           : 1,
+                "multiDirOffset" : 0.0,
+                "multiPosOffset" : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "bone"           : "",
+                "follow"         : true,
+                "alignSourceY"   : false
+            }
+        },
+        {
+            "typeName" : "bs_05begin",
+            "type"     : 1,
+            "fxDelay"  : 4.19999980926514,
+            "modelDelay" : 0.0,
+            "aniNameStr" : "chuchang:单次:-1|gongji01:单次:-1|",
+            "aniName"    : [
+                "chuchang",
+                "gongji01",
+                ""
+            ],
+            "aniDelay"   : 0.0,
+            "pauseTime"  : 0.0,
+            "startTime"  : 4.30000019073486,
+            "slowStartTime" : 3.0,
+            "slowDurationTime" : 1.0,
+            "playRate"         : 0.5,
+            "bossUITime"       : 2.70000004768372,
+            "cameraStartTime"  : 0.0,
+            "cameraMoveTime"   : 1.5,
+            "cameraStayTime"   : 3.5,
+            "cameraFOV"        : 50.0,
+            "cameraOffset"     : {
+                "x" : 0.0,
+                "y" : 0.0,
+                "z" : 0.0
+            },
+            "cameraVerticalAngle" : -1.0,
+            "cameraHorizontalAngle" : -1.0,
+            "cameraOverDuration"    : 0.5,
+            "delayExtend"           : 0.0,
+            "fx"                    : {
+                "name" : "fx_shake4",
+                "fireFx" : "",
+                "iceFx"  : "",
+                "thunderFx" : "",
+                "darkFx"    : "",
+                "durationFrame" : -1,
+                "dirType"       : 1,
+                "posType"       : 0,
+                "dirOffset"     : 0.0,
+                "posOffset"     : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "randomBegin"   : 0.0,
+                "randomEnd"     : 0.0,
+                "num"           : 1,
+                "multiDirOffset" : 0.0,
+                "multiPosOffset" : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "bone"           : "",
+                "follow"         : true,
+                "alignSourceY"   : false
+            }
+        },
+        {
+            "typeName" : "bs_05dead",
+            "type"     : 2,
+            "fxDelay"  : 3.5,
+            "modelDelay" : 0.0,
+            "aniNameStr" : "siwang:单次:-1|",
+            "aniName"    : [
+                "siwang",
+                "",
+                ""
+            ],
+            "aniDelay"   : 0.0,
+            "pauseTime"  : 0.0,
+            "startTime"  : 3.0,
+            "slowStartTime" : 1.0,
+            "slowDurationTime" : 1.0,
+            "playRate"         : 0.699999988079071,
+            "bossUITime"       : -1.0,
+            "cameraStartTime"  : 0.0,
+            "cameraMoveTime"   : 0.5,
+            "cameraStayTime"   : 3.0,
+            "cameraFOV"        : 50.0,
+            "cameraOffset"     : {
+                "x" : 0.0,
+                "y" : 0.0,
+                "z" : 0.0
+            },
+            "cameraVerticalAngle" : 60.0,
+            "cameraHorizontalAngle" : -1.0,
+            "cameraOverDuration"    : -1.0,
+            "delayExtend"           : 0.0,
+            "fx"                    : {
+                "name" : "fx_siwang_smoke01",
+                "fireFx" : "",
+                "iceFx"  : "",
+                "thunderFx" : "",
+                "darkFx"    : "",
+                "durationFrame" : -1,
+                "dirType"       : 1,
+                "posType"       : 0,
+                "dirOffset"     : 0.0,
+                "posOffset"     : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 1.0
+                },
+                "randomBegin"   : 0.0,
+                "randomEnd"     : 0.0,
+                "num"           : 1,
+                "multiDirOffset" : 0.0,
+                "multiPosOffset" : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "bone"           : "",
+                "follow"         : true,
+                "alignSourceY"   : false
+            }
+        },
+        {
+            "typeName" : "xb_06begin",
+            "type"     : 1,
+            "fxDelay"  : -1.0,
+            "modelDelay" : 0.0,
+            "aniNameStr" : "chuchang:单次:-1|",
+            "aniName"    : [
+                "chuchang",
+                "",
+                ""
+            ],
+            "aniDelay"   : -1.0,
+            "pauseTime"  : -1.0,
+            "startTime"  : 0.0,
+            "slowStartTime" : -1.0,
+            "slowDurationTime" : 0.0,
+            "playRate"         : 1.0,
+            "bossUITime"       : -1.0,
+            "cameraStartTime"  : -1.0,
+            "cameraMoveTime"   : 0.0,
+            "cameraStayTime"   : 0.0,
+            "cameraFOV"        : -1.0,
+            "cameraOffset"     : {
+                "x" : 0.0,
+                "y" : 0.0,
+                "z" : 0.0
+            },
+            "cameraVerticalAngle" : -1.0,
+            "cameraHorizontalAngle" : -1.0,
+            "cameraOverDuration"    : -1.0,
+            "delayExtend"           : 0.0,
+            "fx"                    : {
+                "name" : "",
+                "fireFx" : "",
+                "iceFx"  : "",
+                "thunderFx" : "",
+                "darkFx"    : "",
+                "durationFrame" : -1,
+                "dirType"       : 1,
+                "posType"       : 0,
+                "dirOffset"     : 0.0,
+                "posOffset"     : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "randomBegin"   : 0.0,
+                "randomEnd"     : 0.0,
+                "num"           : 1,
+                "multiDirOffset" : 0.0,
+                "multiPosOffset" : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "bone"           : "",
+                "follow"         : true,
+                "alignSourceY"   : false
+            }
+        },
+        {
+            "typeName" : "xb_06dead",
+            "type"     : 2,
+            "fxDelay"  : 2.0,
+            "modelDelay" : 0.0,
+            "aniNameStr" : "siwang:单次:-1|",
+            "aniName"    : [
+                "siwang",
+                "",
+                ""
+            ],
+            "aniDelay"   : -1.0,
+            "pauseTime"  : -1.0,
+            "startTime"  : 0.0,
+            "slowStartTime" : -1.0,
+            "slowDurationTime" : 0.0,
+            "playRate"         : 1.0,
+            "bossUITime"       : -1.0,
+            "cameraStartTime"  : -1.0,
+            "cameraMoveTime"   : 0.0,
+            "cameraStayTime"   : 0.0,
+            "cameraFOV"        : -1.0,
+            "cameraOffset"     : {
+                "x" : 0.0,
+                "y" : 0.0,
+                "z" : 0.0
+            },
+            "cameraVerticalAngle" : -1.0,
+            "cameraHorizontalAngle" : -1.0,
+            "cameraOverDuration"    : -1.0,
+            "delayExtend"           : 0.0,
+            "fx"                    : {
+                "name" : "fx_siwang_smoke",
+                "fireFx" : "",
+                "iceFx"  : "",
+                "thunderFx" : "",
+                "darkFx"    : "",
+                "durationFrame" : -1,
+                "dirType"       : 1,
+                "posType"       : 0,
+                "dirOffset"     : 0.0,
+                "posOffset"     : {
+                    "x" : 0.180000007152557,
+                    "y" : 0.0,
+                    "z" : 0.46000000834465
+                },
+                "randomBegin"   : 0.0,
+                "randomEnd"     : 0.0,
+                "num"           : 1,
+                "multiDirOffset" : 0.0,
+                "multiPosOffset" : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "bone"           : "",
+                "follow"         : true,
+                "alignSourceY"   : false
+            }
+        },
+        {
+            "typeName" : "xb_06begin1",
+            "type"     : 1,
+            "fxDelay"  : -1.0,
+            "modelDelay" : 0.0,
+            "aniNameStr" : "chuchang:单次:-1|tiaoxin:单次:-1|",
+            "aniName"    : [
+                "chuchang",
+                "tiaoxin",
+                ""
+            ],
+            "aniDelay"   : -1.0,
+            "pauseTime"  : -1.0,
+            "startTime"  : 0.0,
+            "slowStartTime" : -1.0,
+            "slowDurationTime" : 0.0,
+            "playRate"         : 1.0,
+            "bossUITime"       : -1.0,
+            "cameraStartTime"  : -1.0,
+            "cameraMoveTime"   : 0.0,
+            "cameraStayTime"   : 0.0,
+            "cameraFOV"        : -1.0,
+            "cameraOffset"     : {
+                "x" : 0.0,
+                "y" : 0.0,
+                "z" : 0.0
+            },
+            "cameraVerticalAngle" : -1.0,
+            "cameraHorizontalAngle" : -1.0,
+            "cameraOverDuration"    : -1.0,
+            "delayExtend"           : 0.0,
+            "fx"                    : {
+                "name" : "",
+                "fireFx" : "",
+                "iceFx"  : "",
+                "thunderFx" : "",
+                "darkFx"    : "",
+                "durationFrame" : -1,
+                "dirType"       : 1,
+                "posType"       : 0,
+                "dirOffset"     : 0.0,
+                "posOffset"     : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "randomBegin"   : 0.0,
+                "randomEnd"     : 0.0,
+                "num"           : 1,
+                "multiDirOffset" : 0.0,
+                "multiPosOffset" : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "bone"           : "",
+                "follow"         : true,
+                "alignSourceY"   : false
+            }
+        },
+        {
+            "typeName" : "xb_02begin",
+            "type"     : 1,
+            "fxDelay"  : -1.0,
+            "modelDelay" : 0.0,
+            "aniNameStr" : "chuchang:单次:-1|",
+            "aniName"    : [
+                "chuchang",
+                "",
+                ""
+            ],
+            "aniDelay"   : -1.0,
+            "pauseTime"  : -1.0,
+            "startTime"  : 0.0,
+            "slowStartTime" : -1.0,
+            "slowDurationTime" : 0.0,
+            "playRate"         : 1.0,
+            "bossUITime"       : -1.0,
+            "cameraStartTime"  : -1.0,
+            "cameraMoveTime"   : 0.0,
+            "cameraStayTime"   : 0.0,
+            "cameraFOV"        : -1.0,
+            "cameraOffset"     : {
+                "x" : 0.0,
+                "y" : 0.0,
+                "z" : 0.0
+            },
+            "cameraVerticalAngle" : -1.0,
+            "cameraHorizontalAngle" : -1.0,
+            "cameraOverDuration"    : -1.0,
+            "delayExtend"           : 0.0,
+            "fx"                    : {
+                "name" : "",
+                "fireFx" : "",
+                "iceFx"  : "",
+                "thunderFx" : "",
+                "darkFx"    : "",
+                "durationFrame" : -1,
+                "dirType"       : 1,
+                "posType"       : 0,
+                "dirOffset"     : 0.0,
+                "posOffset"     : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "randomBegin"   : 0.0,
+                "randomEnd"     : 0.0,
+                "num"           : 1,
+                "multiDirOffset" : 0.0,
+                "multiPosOffset" : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "bone"           : "",
+                "follow"         : true,
+                "alignSourceY"   : false
+            }
+        },
+        {
+            "typeName" : "jy_03begin",
+            "type"     : 1,
+            "fxDelay"  : 0.0,
+            "modelDelay" : 0.0,
+            "aniNameStr" : "chuchang:单次:-1|",
+            "aniName"    : [
+                "chuchang",
+                "",
+                ""
+            ],
+            "aniDelay"   : 0.0,
+            "pauseTime"  : -1.0,
+            "startTime"  : 0.0,
+            "slowStartTime" : -1.0,
+            "slowDurationTime" : 0.0,
+            "playRate"         : 1.0,
+            "bossUITime"       : -1.0,
+            "cameraStartTime"  : -1.0,
+            "cameraMoveTime"   : 0.0,
+            "cameraStayTime"   : 0.0,
+            "cameraFOV"        : -1.0,
+            "cameraOffset"     : {
+                "x" : 0.0,
+                "y" : 0.0,
+                "z" : 0.0
+            },
+            "cameraVerticalAngle" : -1.0,
+            "cameraHorizontalAngle" : -1.0,
+            "cameraOverDuration"    : -1.0,
+            "delayExtend"           : 0.0,
+            "fx"                    : {
+                "name" : "",
+                "fireFx" : "",
+                "iceFx"  : "",
+                "thunderFx" : "",
+                "darkFx"    : "",
+                "durationFrame" : -1,
+                "dirType"       : 1,
+                "posType"       : 0,
+                "dirOffset"     : 0.0,
+                "posOffset"     : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "randomBegin"   : 0.0,
+                "randomEnd"     : 0.0,
+                "num"           : 1,
+                "multiDirOffset" : 0.0,
+                "multiPosOffset" : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "bone"           : "",
+                "follow"         : true,
+                "alignSourceY"   : false
+            }
+        },
+        {
+            "typeName" : "jy_03dead",
+            "type"     : 2,
+            "fxDelay"  : 1.5,
+            "modelDelay" : 0.0,
+            "aniNameStr" : "siwang:单次:-1|",
+            "aniName"    : [
+                "siwang",
+                "",
+                ""
+            ],
+            "aniDelay"   : 0.0,
+            "pauseTime"  : -1.0,
+            "startTime"  : 0.0,
+            "slowStartTime" : -1.0,
+            "slowDurationTime" : 0.0,
+            "playRate"         : 1.0,
+            "bossUITime"       : -1.0,
+            "cameraStartTime"  : -1.0,
+            "cameraMoveTime"   : 0.0,
+            "cameraStayTime"   : 0.0,
+            "cameraFOV"        : -1.0,
+            "cameraOffset"     : {
+                "x" : 0.0,
+                "y" : 0.0,
+                "z" : 0.0
+            },
+            "cameraVerticalAngle" : -1.0,
+            "cameraHorizontalAngle" : -1.0,
+            "cameraOverDuration"    : -1.0,
+            "delayExtend"           : 0.0,
+            "fx"                    : {
+                "name" : "fx_siwang_smoke01",
+                "fireFx" : "",
+                "iceFx"  : "",
+                "thunderFx" : "",
+                "darkFx"    : "",
+                "durationFrame" : -1,
+                "dirType"       : 1,
+                "posType"       : 0,
+                "dirOffset"     : 0.0,
+                "posOffset"     : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "randomBegin"   : 0.0,
+                "randomEnd"     : 0.0,
+                "num"           : 1,
+                "multiDirOffset" : 0.0,
+                "multiPosOffset" : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "bone"           : "",
+                "follow"         : true,
+                "alignSourceY"   : false
+            }
+        },
+        {
+            "typeName" : "bs_04begin",
+            "type"     : 1,
+            "fxDelay"  : 0.0,
+            "modelDelay" : 0.0,
+            "aniNameStr" : "chuchang:单次:-1|houtiao:单次:-1|tiaofeizhan:单次:-1|",
+            "aniName"    : [
+                "chuchang",
+                "houtiao",
+                "tiaofeizhan"
+            ],
+            "aniDelay"   : 0.0,
+            "pauseTime"  : 0.0,
+            "startTime"  : 4.5,
+            "slowStartTime" : 3.0,
+            "slowDurationTime" : 1.0,
+            "playRate"         : 1.0,
+            "bossUITime"       : 2.70000004768372,
+            "cameraStartTime"  : 0.0,
+            "cameraMoveTime"   : 1.5,
+            "cameraStayTime"   : 3.5,
+            "cameraFOV"        : 50.0,
+            "cameraOffset"     : {
+                "x" : 0.0,
+                "y" : 0.0,
+                "z" : 0.0
+            },
+            "cameraVerticalAngle" : -1.0,
+            "cameraHorizontalAngle" : -1.0,
+            "cameraOverDuration"    : 0.5,
+            "delayExtend"           : 0.0,
+            "fx"                    : {
+                "name" : "",
+                "fireFx" : "",
+                "iceFx"  : "",
+                "thunderFx" : "",
+                "darkFx"    : "",
+                "durationFrame" : -1,
+                "dirType"       : 1,
+                "posType"       : 0,
+                "dirOffset"     : 0.0,
+                "posOffset"     : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "randomBegin"   : 0.0,
+                "randomEnd"     : 0.0,
+                "num"           : 1,
+                "multiDirOffset" : 0.0,
+                "multiPosOffset" : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "bone"           : "",
+                "follow"         : true,
+                "alignSourceY"   : false
+            }
+        },
+        {
+            "typeName" : "bs_04dead",
+            "type"     : 2,
+            "fxDelay"  : 2.5,
+            "modelDelay" : 0.0,
+            "aniNameStr" : "siwang:单次:-1|",
+            "aniName"    : [
+                "siwang",
+                "",
+                ""
+            ],
+            "aniDelay"   : 0.0,
+            "pauseTime"  : 0.0,
+            "startTime"  : 3.0,
+            "slowStartTime" : 0.0,
+            "slowDurationTime" : 0.5,
+            "playRate"         : 0.400000005960464,
+            "bossUITime"       : -1.0,
+            "cameraStartTime"  : 0.0,
+            "cameraMoveTime"   : 0.5,
+            "cameraStayTime"   : 3.0,
+            "cameraFOV"        : 50.0,
+            "cameraOffset"     : {
+                "x" : 0.0,
+                "y" : 0.0,
+                "z" : 0.0
+            },
+            "cameraVerticalAngle" : 60.0,
+            "cameraHorizontalAngle" : -1.0,
+            "cameraOverDuration"    : -1.0,
+            "delayExtend"           : 0.0,
+            "fx"                    : {
+                "name" : "fx_siwang_smoke",
+                "fireFx" : "",
+                "iceFx"  : "",
+                "thunderFx" : "",
+                "darkFx"    : "",
+                "durationFrame" : -1,
+                "dirType"       : 1,
+                "posType"       : 0,
+                "dirOffset"     : 0.0,
+                "posOffset"     : {
+                    "x" : 0.0,
+                    "y" : 0.5,
+                    "z" : -1.0
+                },
+                "randomBegin"   : 0.0,
+                "randomEnd"     : 0.0,
+                "num"           : 1,
+                "multiDirOffset" : 0.0,
+                "multiPosOffset" : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "bone"           : "",
+                "follow"         : true,
+                "alignSourceY"   : false
+            }
+        },
+        {
+            "typeName" : "jy_03begin1",
+            "type"     : 1,
+            "fxDelay"  : -1.0,
+            "modelDelay" : 0.0,
+            "aniNameStr" : "chuchang:单次:-1|gongji01:单次:-1|",
+            "aniName"    : [
+                "chuchang",
+                "gongji01",
+                ""
+            ],
+            "aniDelay"   : 0.0,
+            "pauseTime"  : 0.0,
+            "startTime"  : 4.5,
+            "slowStartTime" : 0.0,
+            "slowDurationTime" : 3.5,
+            "playRate"         : 0.400000005960464,
+            "bossUITime"       : -1.0,
+            "cameraStartTime"  : 0.0,
+            "cameraMoveTime"   : 1.0,
+            "cameraStayTime"   : 3.0,
+            "cameraFOV"        : 30.0,
+            "cameraOffset"     : {
+                "x" : 0.0,
+                "y" : 0.0,
+                "z" : 0.0
+            },
+            "cameraVerticalAngle" : -1.0,
+            "cameraHorizontalAngle" : -1.0,
+            "cameraOverDuration"    : 0.699999988079071,
+            "delayExtend"           : 0.0,
+            "fx"                    : {
+                "name" : "",
+                "fireFx" : "",
+                "iceFx"  : "",
+                "thunderFx" : "",
+                "darkFx"    : "",
+                "durationFrame" : -1,
+                "dirType"       : 1,
+                "posType"       : 0,
+                "dirOffset"     : 0.0,
+                "posOffset"     : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "randomBegin"   : 0.0,
+                "randomEnd"     : 0.0,
+                "num"           : 1,
+                "multiDirOffset" : 0.0,
+                "multiPosOffset" : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "bone"           : "",
+                "follow"         : true,
+                "alignSourceY"   : false
+            }
+        },
+        {
+            "typeName" : "bs_06begin",
+            "type"     : 1,
+            "fxDelay"  : 4.19999980926514,
+            "modelDelay" : 0.0,
+            "aniNameStr" : "chuchang:单次:-1|zhuarenfengbao:单次:-1|",
+            "aniName"    : [
+                "chuchang",
+                "zhuarenfengbao",
+                ""
+            ],
+            "aniDelay"   : 0.0,
+            "pauseTime"  : 0.0,
+            "startTime"  : 5.5,
+            "slowStartTime" : 3.0,
+            "slowDurationTime" : 1.0,
+            "playRate"         : 0.5,
+            "bossUITime"       : 2.70000004768372,
+            "cameraStartTime"  : 0.0,
+            "cameraMoveTime"   : 1.5,
+            "cameraStayTime"   : 3.5,
+            "cameraFOV"        : 50.0,
+            "cameraOffset"     : {
+                "x" : 0.0,
+                "y" : 0.0,
+                "z" : 0.0
+            },
+            "cameraVerticalAngle" : -1.0,
+            "cameraHorizontalAngle" : -1.0,
+            "cameraOverDuration"    : 0.5,
+            "delayExtend"           : 0.0,
+            "fx"                    : {
+                "name" : "",
+                "fireFx" : "",
+                "iceFx"  : "",
+                "thunderFx" : "",
+                "darkFx"    : "",
+                "durationFrame" : -1,
+                "dirType"       : 1,
+                "posType"       : 0,
+                "dirOffset"     : 0.0,
+                "posOffset"     : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "randomBegin"   : 0.0,
+                "randomEnd"     : 0.0,
+                "num"           : 1,
+                "multiDirOffset" : 0.0,
+                "multiPosOffset" : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "bone"           : "",
+                "follow"         : true,
+                "alignSourceY"   : false
+            }
+        },
+        {
+            "typeName" : "bs_06dead",
+            "type"     : 2,
+            "fxDelay"  : 3.0,
+            "modelDelay" : 0.0,
+            "aniNameStr" : "siwang:单次:-1|",
+            "aniName"    : [
+                "siwang",
+                "",
+                ""
+            ],
+            "aniDelay"   : 0.0,
+            "pauseTime"  : 0.0,
+            "startTime"  : 3.0,
+            "slowStartTime" : 1.0,
+            "slowDurationTime" : 1.0,
+            "playRate"         : 0.699999988079071,
+            "bossUITime"       : -1.0,
+            "cameraStartTime"  : 0.0,
+            "cameraMoveTime"   : 0.5,
+            "cameraStayTime"   : 3.0,
+            "cameraFOV"        : 50.0,
+            "cameraOffset"     : {
+                "x" : 0.0,
+                "y" : 0.0,
+                "z" : 0.0
+            },
+            "cameraVerticalAngle" : 60.0,
+            "cameraHorizontalAngle" : -1.0,
+            "cameraOverDuration"    : -1.0,
+            "delayExtend"           : 0.0,
+            "fx"                    : {
+                "name" : "fx_siwang_smoke01",
+                "fireFx" : "",
+                "iceFx"  : "",
+                "thunderFx" : "",
+                "darkFx"    : "",
+                "durationFrame" : -1,
+                "dirType"       : 1,
+                "posType"       : 0,
+                "dirOffset"     : 0.0,
+                "posOffset"     : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "randomBegin"   : 0.0,
+                "randomEnd"     : 0.0,
+                "num"           : 1,
+                "multiDirOffset" : 0.0,
+                "multiPosOffset" : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "bone"           : "",
+                "follow"         : true,
+                "alignSourceY"   : false
+            }
+        },
+        {
+            "typeName" : "dx_dead",
+            "type"     : 2,
+            "fxDelay"  : -1.0,
+            "modelDelay" : 0.0,
+            "aniNameStr" : "posui_06:单次:-1|siwang:单次:-1|",
+            "aniName"    : [
+                "posui_06",
+                "siwang",
+                ""
+            ],
+            "aniDelay"   : 2.0,
+            "pauseTime"  : 0.0,
+            "startTime"  : 3.0,
+            "slowStartTime" : 0.0,
+            "slowDurationTime" : 2.0,
+            "playRate"         : 1.0,
+            "bossUITime"       : -1.0,
+            "cameraStartTime"  : 0.0,
+            "cameraMoveTime"   : 2.0,
+            "cameraStayTime"   : 1.0,
+            "cameraFOV"        : 60.0,
+            "cameraOffset"     : {
+                "x" : 0.0,
+                "y" : 0.0,
+                "z" : 0.0
+            },
+            "cameraVerticalAngle" : -1.0,
+            "cameraHorizontalAngle" : -1.0,
+            "cameraOverDuration"    : 3.0,
+            "delayExtend"           : 0.0,
+            "fx"                    : {
+                "name" : "",
+                "fireFx" : "",
+                "iceFx"  : "",
+                "thunderFx" : "",
+                "darkFx"    : "",
+                "durationFrame" : -1,
+                "dirType"       : 1,
+                "posType"       : 0,
+                "dirOffset"     : 0.0,
+                "posOffset"     : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "randomBegin"   : 0.0,
+                "randomEnd"     : 0.0,
+                "num"           : 1,
+                "multiDirOffset" : 0.0,
+                "multiPosOffset" : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "bone"           : "",
+                "follow"         : true,
+                "alignSourceY"   : false
+            }
+        },
+        {
+            "typeName" : "xb_daodi01",
+            "type"     : 3,
+            "fxDelay"  : 0.0,
+            "modelDelay" : 0.0,
+            "aniNameStr" : "",
+            "aniName"    : [
+                "",
+                "",
+                ""
+            ],
+            "aniDelay"   : 0.0,
+            "pauseTime"  : -1.0,
+            "startTime"  : 0.0,
+            "slowStartTime" : -1.0,
+            "slowDurationTime" : 0.0,
+            "playRate"         : 1.0,
+            "bossUITime"       : -1.0,
+            "cameraStartTime"  : -1.0,
+            "cameraMoveTime"   : 0.0,
+            "cameraStayTime"   : 0.0,
+            "cameraFOV"        : -1.0,
+            "cameraOffset"     : {
+                "x" : 0.0,
+                "y" : 0.0,
+                "z" : 0.0
+            },
+            "cameraVerticalAngle" : -1.0,
+            "cameraHorizontalAngle" : -1.0,
+            "cameraOverDuration"    : -1.0,
+            "delayExtend"           : 0.0,
+            "fx"                    : {
+                "name" : "fx_siwang_smoke",
+                "fireFx" : "",
+                "iceFx"  : "",
+                "thunderFx" : "",
+                "darkFx"    : "",
+                "durationFrame" : -1,
+                "dirType"       : 1,
+                "posType"       : 0,
+                "dirOffset"     : 0.0,
+                "posOffset"     : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "randomBegin"   : 0.0,
+                "randomEnd"     : 0.0,
+                "num"           : 1,
+                "multiDirOffset" : 0.0,
+                "multiPosOffset" : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "bone"           : "",
+                "follow"         : true,
+                "alignSourceY"   : false
+            }
+        },
+        {
+            "typeName" : "jy_daodi01",
+            "type"     : 3,
+            "fxDelay"  : 0.0,
+            "modelDelay" : 0.0,
+            "aniNameStr" : "",
+            "aniName"    : [
+                "",
+                "",
+                ""
+            ],
+            "aniDelay"   : 0.0,
+            "pauseTime"  : -1.0,
+            "startTime"  : 0.0,
+            "slowStartTime" : -1.0,
+            "slowDurationTime" : 0.0,
+            "playRate"         : 1.0,
+            "bossUITime"       : -1.0,
+            "cameraStartTime"  : -1.0,
+            "cameraMoveTime"   : 0.0,
+            "cameraStayTime"   : 0.0,
+            "cameraFOV"        : -1.0,
+            "cameraOffset"     : {
+                "x" : 0.0,
+                "y" : 0.0,
+                "z" : 0.0
+            },
+            "cameraVerticalAngle" : -1.0,
+            "cameraHorizontalAngle" : -1.0,
+            "cameraOverDuration"    : -1.0,
+            "delayExtend"           : 0.0,
+            "fx"                    : {
+                "name" : "fx_siwang_smoke01",
+                "fireFx" : "",
+                "iceFx"  : "",
+                "thunderFx" : "",
+                "darkFx"    : "",
+                "durationFrame" : -1,
+                "dirType"       : 1,
+                "posType"       : 0,
+                "dirOffset"     : 0.0,
+                "posOffset"     : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "randomBegin"   : 0.0,
+                "randomEnd"     : 0.0,
+                "num"           : 1,
+                "multiDirOffset" : 0.0,
+                "multiPosOffset" : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "bone"           : "",
+                "follow"         : true,
+                "alignSourceY"   : false
+            }
+        },
+        {
+            "typeName" : "boss_daodi01",
+            "type"     : 3,
+            "fxDelay"  : 0.0,
+            "modelDelay" : 0.0,
+            "aniNameStr" : "",
+            "aniName"    : [
+                "",
+                "",
+                ""
+            ],
+            "aniDelay"   : 0.0,
+            "pauseTime"  : -1.0,
+            "startTime"  : 0.0,
+            "slowStartTime" : -1.0,
+            "slowDurationTime" : 0.0,
+            "playRate"         : 1.0,
+            "bossUITime"       : -1.0,
+            "cameraStartTime"  : -1.0,
+            "cameraMoveTime"   : 0.0,
+            "cameraStayTime"   : 0.0,
+            "cameraFOV"        : -1.0,
+            "cameraOffset"     : {
+                "x" : 0.0,
+                "y" : 0.0,
+                "z" : 0.0
+            },
+            "cameraVerticalAngle" : -1.0,
+            "cameraHorizontalAngle" : -1.0,
+            "cameraOverDuration"    : -1.0,
+            "delayExtend"           : 0.0,
+            "fx"                    : {
+                "name" : "fx_siwang_smoke02",
+                "fireFx" : "",
+                "iceFx"  : "",
+                "thunderFx" : "",
+                "darkFx"    : "",
+                "durationFrame" : -1,
+                "dirType"       : 1,
+                "posType"       : 0,
+                "dirOffset"     : 0.0,
+                "posOffset"     : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "randomBegin"   : 0.0,
+                "randomEnd"     : 0.0,
+                "num"           : 1,
+                "multiDirOffset" : 0.0,
+                "multiPosOffset" : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "bone"           : "",
+                "follow"         : true,
+                "alignSourceY"   : false
+            }
+        },
+        {
+            "typeName" : "xb_04daodi01",
+            "type"     : 3,
+            "fxDelay"  : 0.0,
+            "modelDelay" : 0.0,
+            "aniNameStr" : "",
+            "aniName"    : [
+                "",
+                "",
+                ""
+            ],
+            "aniDelay"   : 0.0,
+            "pauseTime"  : -1.0,
+            "startTime"  : 0.0,
+            "slowStartTime" : -1.0,
+            "slowDurationTime" : 0.0,
+            "playRate"         : 1.0,
+            "bossUITime"       : -1.0,
+            "cameraStartTime"  : -1.0,
+            "cameraMoveTime"   : 0.0,
+            "cameraStayTime"   : 0.0,
+            "cameraFOV"        : -1.0,
+            "cameraOffset"     : {
+                "x" : 0.0,
+                "y" : 0.0,
+                "z" : 0.0
+            },
+            "cameraVerticalAngle" : -1.0,
+            "cameraHorizontalAngle" : -1.0,
+            "cameraOverDuration"    : -1.0,
+            "delayExtend"           : 0.0,
+            "fx"                    : {
+                "name" : "fx_siwang_smoke",
+                "fireFx" : "",
+                "iceFx"  : "",
+                "thunderFx" : "",
+                "darkFx"    : "",
+                "durationFrame" : -1,
+                "dirType"       : 1,
+                "posType"       : 0,
+                "dirOffset"     : 0.0,
+                "posOffset"     : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : -1.36000001430511
+                },
+                "randomBegin"   : 0.0,
+                "randomEnd"     : 0.0,
+                "num"           : 1,
+                "multiDirOffset" : 0.0,
+                "multiPosOffset" : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "bone"           : "",
+                "follow"         : true,
+                "alignSourceY"   : false
+            }
+        },
+        {
+            "typeName" : "bs_01wusiwang",
+            "type"     : 2,
+            "fxDelay"  : 2.0,
+            "modelDelay" : 0.0,
+            "aniNameStr" : "siwang:单次:-1|",
+            "aniName"    : [
+                "siwang",
+                "",
+                ""
+            ],
+            "aniDelay"   : 0.0,
+            "pauseTime"  : -1.0,
+            "startTime"  : 0.0,
+            "slowStartTime" : -1.0,
+            "slowDurationTime" : 0.0,
+            "playRate"         : 1.0,
+            "bossUITime"       : -1.0,
+            "cameraStartTime"  : -1.0,
+            "cameraMoveTime"   : 0.0,
+            "cameraStayTime"   : 0.0,
+            "cameraFOV"        : -1.0,
+            "cameraOffset"     : {
+                "x" : 0.0,
+                "y" : 0.0,
+                "z" : 0.0
+            },
+            "cameraVerticalAngle" : -1.0,
+            "cameraHorizontalAngle" : -1.0,
+            "cameraOverDuration"    : -1.0,
+            "delayExtend"           : 0.0,
+            "fx"                    : {
+                "name" : "fx_siwang_smoke02",
+                "fireFx" : "",
+                "iceFx"  : "",
+                "thunderFx" : "",
+                "darkFx"    : "",
+                "durationFrame" : -1,
+                "dirType"       : 1,
+                "posType"       : 0,
+                "dirOffset"     : 0.0,
+                "posOffset"     : {
+                    "x" : -0.509999990463257,
+                    "y" : 0.0,
+                    "z" : -5.0
+                },
+                "randomBegin"   : 0.0,
+                "randomEnd"     : 0.0,
+                "num"           : 1,
+                "multiDirOffset" : 0.0,
+                "multiPosOffset" : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "bone"           : "",
+                "follow"         : true,
+                "alignSourceY"   : false
+            }
+        },
+        {
+            "typeName" : "xj_05dead",
+            "type"     : 2,
+            "fxDelay"  : -1.0,
+            "modelDelay" : 0.0,
+            "aniNameStr" : "siwang:单次:-1|",
+            "aniName"    : [
+                "siwang",
+                "",
+                ""
+            ],
+            "aniDelay"   : 0.0,
+            "pauseTime"  : -1.0,
+            "startTime"  : 0.0,
+            "slowStartTime" : -1.0,
+            "slowDurationTime" : 0.0,
+            "playRate"         : 1.0,
+            "bossUITime"       : -1.0,
+            "cameraStartTime"  : -1.0,
+            "cameraMoveTime"   : 0.0,
+            "cameraStayTime"   : 0.0,
+            "cameraFOV"        : -1.0,
+            "cameraOffset"     : {
+                "x" : 0.0,
+                "y" : 0.0,
+                "z" : 0.0
+            },
+            "cameraVerticalAngle" : -1.0,
+            "cameraHorizontalAngle" : -1.0,
+            "cameraOverDuration"    : -1.0,
+            "delayExtend"           : 0.0,
+            "fx"                    : {
+                "name" : "",
+                "fireFx" : "",
+                "iceFx"  : "",
+                "thunderFx" : "",
+                "darkFx"    : "",
+                "durationFrame" : -1,
+                "dirType"       : 1,
+                "posType"       : 0,
+                "dirOffset"     : 0.0,
+                "posOffset"     : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "randomBegin"   : 0.0,
+                "randomEnd"     : 0.0,
+                "num"           : 1,
+                "multiDirOffset" : 0.0,
+                "multiPosOffset" : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "bone"           : "",
+                "follow"         : true,
+                "alignSourceY"   : false
+            }
+        },
+        {
+            "typeName" : "xj_06dead",
+            "type"     : 2,
+            "fxDelay"  : -1.0,
+            "modelDelay" : 0.0,
+            "aniNameStr" : "beiji01:单次:-1|siwang:单次:-1|",
+            "aniName"    : [
+                "beiji01",
+                "siwang",
+                ""
+            ],
+            "aniDelay"   : 0.0,
+            "pauseTime"  : -1.0,
+            "startTime"  : 0.0,
+            "slowStartTime" : -1.0,
+            "slowDurationTime" : 0.0,
+            "playRate"         : 1.0,
+            "bossUITime"       : -1.0,
+            "cameraStartTime"  : -1.0,
+            "cameraMoveTime"   : 0.0,
+            "cameraStayTime"   : 0.0,
+            "cameraFOV"        : -1.0,
+            "cameraOffset"     : {
+                "x" : 0.0,
+                "y" : 0.0,
+                "z" : 0.0
+            },
+            "cameraVerticalAngle" : -1.0,
+            "cameraHorizontalAngle" : -1.0,
+            "cameraOverDuration"    : -1.0,
+            "delayExtend"           : 9999.0,
+            "fx"                    : {
+                "name" : "",
+                "fireFx" : "",
+                "iceFx"  : "",
+                "thunderFx" : "",
+                "darkFx"    : "",
+                "durationFrame" : -1,
+                "dirType"       : 1,
+                "posType"       : 0,
+                "dirOffset"     : 0.0,
+                "posOffset"     : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "randomBegin"   : 0.0,
+                "randomEnd"     : 0.0,
+                "num"           : 1,
+                "multiDirOffset" : 0.0,
+                "multiPosOffset" : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "bone"           : "",
+                "follow"         : true,
+                "alignSourceY"   : false
+            }
+        },
+        {
+            "typeName" : "wuchusheng_smoke",
+            "type"     : 1,
+            "fxDelay"  : 0.0,
+            "modelDelay" : 0.5,
+            "aniNameStr" : "zhandoudaiji:单次:-1|",
+            "aniName"    : [
+                "zhandoudaiji",
+                "",
+                ""
+            ],
+            "aniDelay"   : 0.0,
+            "pauseTime"  : -1.0,
+            "startTime"  : 0.0,
+            "slowStartTime" : -1.0,
+            "slowDurationTime" : 0.0,
+            "playRate"         : 1.0,
+            "bossUITime"       : -1.0,
+            "cameraStartTime"  : -1.0,
+            "cameraMoveTime"   : 0.0,
+            "cameraStayTime"   : 0.0,
+            "cameraFOV"        : -1.0,
+            "cameraOffset"     : {
+                "x" : 0.0,
+                "y" : 0.0,
+                "z" : 0.0
+            },
+            "cameraVerticalAngle" : -1.0,
+            "cameraHorizontalAngle" : -1.0,
+            "cameraOverDuration"    : -1.0,
+            "delayExtend"           : 0.0,
+            "fx"                    : {
+                "name" : "fx_chuchang_smoke",
+                "fireFx" : "",
+                "iceFx"  : "",
+                "thunderFx" : "",
+                "darkFx"    : "",
+                "durationFrame" : -1,
+                "dirType"       : 1,
+                "posType"       : 0,
+                "dirOffset"     : 0.0,
+                "posOffset"     : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "randomBegin"   : 0.0,
+                "randomEnd"     : 0.0,
+                "num"           : 1,
+                "multiDirOffset" : 0.0,
+                "multiPosOffset" : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "bone"           : "",
+                "follow"         : true,
+                "alignSourceY"   : false
+            }
+        },
+        {
+            "typeName" : "xb_07_shouhu",
+            "type"     : 1,
+            "fxDelay"  : -1.0,
+            "modelDelay" : -1.0,
+            "aniNameStr" : "paqiang:单次:-1|",
+            "aniName"    : [
+                "paqiang",
+                "",
+                ""
+            ],
+            "aniDelay"   : 0.0,
+            "pauseTime"  : -1.0,
+            "startTime"  : 0.0,
+            "slowStartTime" : -1.0,
+            "slowDurationTime" : 0.0,
+            "playRate"         : 1.0,
+            "bossUITime"       : -1.0,
+            "cameraStartTime"  : -1.0,
+            "cameraMoveTime"   : 0.0,
+            "cameraStayTime"   : 0.0,
+            "cameraFOV"        : -1.0,
+            "cameraOffset"     : {
+                "x" : 0.0,
+                "y" : 0.0,
+                "z" : 0.0
+            },
+            "cameraVerticalAngle" : -1.0,
+            "cameraHorizontalAngle" : -1.0,
+            "cameraOverDuration"    : -1.0,
+            "delayExtend"           : 0.0,
+            "fx"                    : {
+                "name" : "",
+                "fireFx" : "",
+                "iceFx"  : "",
+                "thunderFx" : "",
+                "darkFx"    : "",
+                "durationFrame" : -1,
+                "dirType"       : 1,
+                "posType"       : 0,
+                "dirOffset"     : 0.0,
+                "posOffset"     : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "randomBegin"   : 0.0,
+                "randomEnd"     : 0.0,
+                "num"           : 1,
+                "multiDirOffset" : 0.0,
+                "multiPosOffset" : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "bone"           : "",
+                "follow"         : true,
+                "alignSourceY"   : false
+            }
+        },
+        {
+            "typeName" : "bs_08begin",
+            "type"     : 1,
+            "fxDelay"  : 4.19999980926514,
+            "modelDelay" : 0.0,
+            "aniNameStr" : "chuchang:单次:-1|",
+            "aniName"    : [
+                "chuchang",
+                "",
+                ""
+            ],
+            "aniDelay"   : 0.0,
+            "pauseTime"  : 0.0,
+            "startTime"  : 5.0,
+            "slowStartTime" : 3.0,
+            "slowDurationTime" : 1.0,
+            "playRate"         : 0.5,
+            "bossUITime"       : 2.70000004768372,
+            "cameraStartTime"  : 0.0,
+            "cameraMoveTime"   : 1.5,
+            "cameraStayTime"   : 3.0,
+            "cameraFOV"        : 50.0,
+            "cameraOffset"     : {
+                "x" : 0.0,
+                "y" : 0.0,
+                "z" : 0.0
+            },
+            "cameraVerticalAngle" : -1.0,
+            "cameraHorizontalAngle" : -1.0,
+            "cameraOverDuration"    : 0.5,
+            "delayExtend"           : 0.0,
+            "fx"                    : {
+                "name" : "",
+                "fireFx" : "",
+                "iceFx"  : "",
+                "thunderFx" : "",
+                "darkFx"    : "",
+                "durationFrame" : -1,
+                "dirType"       : 1,
+                "posType"       : 0,
+                "dirOffset"     : 0.0,
+                "posOffset"     : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "randomBegin"   : 0.0,
+                "randomEnd"     : 0.0,
+                "num"           : 1,
+                "multiDirOffset" : 0.0,
+                "multiPosOffset" : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "bone"           : "",
+                "follow"         : true,
+                "alignSourceY"   : false
+            }
+        },
+        {
+            "typeName" : "fujiang_01dead",
+            "type"     : 2,
+            "fxDelay"  : -1.0,
+            "modelDelay" : 3.0,
+            "aniNameStr" : "siwang:单次:-1|",
+            "aniName"    : [
+                "siwang",
+                "",
+                ""
+            ],
+            "aniDelay"   : 0.0,
+            "pauseTime"  : -1.0,
+            "startTime"  : 0.0,
+            "slowStartTime" : -1.0,
+            "slowDurationTime" : 0.0,
+            "playRate"         : 1.0,
+            "bossUITime"       : -1.0,
+            "cameraStartTime"  : -1.0,
+            "cameraMoveTime"   : 0.0,
+            "cameraStayTime"   : 0.0,
+            "cameraFOV"        : -1.0,
+            "cameraOffset"     : {
+                "x" : 0.0,
+                "y" : 0.0,
+                "z" : 0.0
+            },
+            "cameraVerticalAngle" : -1.0,
+            "cameraHorizontalAngle" : -1.0,
+            "cameraOverDuration"    : -1.0,
+            "delayExtend"           : 0.0,
+            "fx"                    : {
+                "name" : "fx_siwang_smoke",
+                "fireFx" : "",
+                "iceFx"  : "",
+                "thunderFx" : "",
+                "darkFx"    : "",
+                "durationFrame" : -1,
+                "dirType"       : 1,
+                "posType"       : 0,
+                "dirOffset"     : 0.0,
+                "posOffset"     : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "randomBegin"   : 0.0,
+                "randomEnd"     : 0.0,
+                "num"           : 1,
+                "multiDirOffset" : 0.0,
+                "multiPosOffset" : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "bone"           : "",
+                "follow"         : true,
+                "alignSourceY"   : false
+            }
+        },
+        {
+            "typeName" : "jz_03dead",
+            "type"     : 2,
+            "fxDelay"  : 2.0,
+            "modelDelay" : -1.0,
+            "aniNameStr" : "siwang:单次:-1|",
+            "aniName"    : [
+                "siwang",
+                "",
+                ""
+            ],
+            "aniDelay"   : 0.0,
+            "pauseTime"  : -1.0,
+            "startTime"  : 0.0,
+            "slowStartTime" : -1.0,
+            "slowDurationTime" : 0.0,
+            "playRate"         : 1.0,
+            "bossUITime"       : -1.0,
+            "cameraStartTime"  : -1.0,
+            "cameraMoveTime"   : 0.0,
+            "cameraStayTime"   : 0.0,
+            "cameraFOV"        : -1.0,
+            "cameraOffset"     : {
+                "x" : 0.0,
+                "y" : 0.0,
+                "z" : 0.0
+            },
+            "cameraVerticalAngle" : -1.0,
+            "cameraHorizontalAngle" : -1.0,
+            "cameraOverDuration"    : -1.0,
+            "delayExtend"           : 0.0,
+            "fx"                    : {
+                "name" : "fx_siwang_smoke02",
+                "fireFx" : "",
+                "iceFx"  : "",
+                "thunderFx" : "",
+                "darkFx"    : "",
+                "durationFrame" : -1,
+                "dirType"       : 1,
+                "posType"       : 0,
+                "dirOffset"     : 0.0,
+                "posOffset"     : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "randomBegin"   : 0.0,
+                "randomEnd"     : 0.0,
+                "num"           : 1,
+                "multiDirOffset" : 0.0,
+                "multiPosOffset" : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "bone"           : "",
+                "follow"         : true,
+                "alignSourceY"   : false
+            }
+        },
+        {
+            "typeName" : "shouhu_begin",
+            "type"     : 1,
+            "fxDelay"  : 4.09999990463257,
+            "modelDelay" : 0.0,
+            "aniNameStr" : "dengru:单次:-1|jineng01_01_dahuixuan:单次:-1|",
+            "aniName"    : [
+                "dengru",
+                "jineng01_01_dahuixuan",
+                ""
+            ],
+            "aniDelay"   : 0.0,
+            "pauseTime"  : 0.0,
+            "startTime"  : 5.0,
+            "slowStartTime" : 3.0,
+            "slowDurationTime" : 1.0,
+            "playRate"         : 1.0,
+            "bossUITime"       : 2.70000004768372,
+            "cameraStartTime"  : 0.0,
+            "cameraMoveTime"   : 1.5,
+            "cameraStayTime"   : 3.0,
+            "cameraFOV"        : 50.0,
+            "cameraOffset"     : {
+                "x" : 0.0,
+                "y" : 0.0,
+                "z" : 2.0
+            },
+            "cameraVerticalAngle" : -1.0,
+            "cameraHorizontalAngle" : -1.0,
+            "cameraOverDuration"    : 0.5,
+            "delayExtend"           : 0.0,
+            "fx"                    : {
+                "name" : "",
+                "fireFx" : "",
+                "iceFx"  : "",
+                "thunderFx" : "",
+                "darkFx"    : "",
+                "durationFrame" : -1,
+                "dirType"       : 1,
+                "posType"       : 0,
+                "dirOffset"     : 0.0,
+                "posOffset"     : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "randomBegin"   : 0.0,
+                "randomEnd"     : 0.0,
+                "num"           : 1,
+                "multiDirOffset" : 0.0,
+                "multiPosOffset" : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "bone"           : "",
+                "follow"         : true,
+                "alignSourceY"   : false
+            }
+        },
+        {
+            "typeName" : "shouhubs_01begin",
+            "type"     : 1,
+            "fxDelay"  : 4.09999990463257,
+            "modelDelay" : -1.0,
+            "aniNameStr" : "chuchang02:单次:-1|",
+            "aniName"    : [
+                "chuchang02",
+                "",
+                ""
+            ],
+            "aniDelay"   : 0.0,
+            "pauseTime"  : 0.0,
+            "startTime"  : 4.5,
+            "slowStartTime" : 0.0,
+            "slowDurationTime" : 1.0,
+            "playRate"         : 0.5,
+            "bossUITime"       : 2.70000004768372,
+            "cameraStartTime"  : 0.0,
+            "cameraMoveTime"   : 0.0,
+            "cameraStayTime"   : 3.5,
+            "cameraFOV"        : 80.0,
+            "cameraOffset"     : {
+                "x" : 0.0,
+                "y" : 0.0,
+                "z" : 0.0
+            },
+            "cameraVerticalAngle" : -1.0,
+            "cameraHorizontalAngle" : -1.0,
+            "cameraOverDuration"    : 0.5,
+            "delayExtend"           : 0.0,
+            "fx"                    : {
+                "name" : "",
+                "fireFx" : "",
+                "iceFx"  : "",
+                "thunderFx" : "",
+                "darkFx"    : "",
+                "durationFrame" : -1,
+                "dirType"       : 1,
+                "posType"       : 0,
+                "dirOffset"     : 0.0,
+                "posOffset"     : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "randomBegin"   : 0.0,
+                "randomEnd"     : 0.0,
+                "num"           : 1,
+                "multiDirOffset" : 0.0,
+                "multiPosOffset" : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "bone"           : "",
+                "follow"         : true,
+                "alignSourceY"   : false
+            }
+        },
+        {
+            "typeName" : "cw_1_1dead",
+            "type"     : 2,
+            "fxDelay"  : 10.0,
+            "modelDelay" : -1.0,
+            "aniNameStr" : "tiaoxing:单次:-1|",
+            "aniName"    : [
+                "tiaoxing",
+                "",
+                ""
+            ],
+            "aniDelay"   : 0.0,
+            "pauseTime"  : -1.0,
+            "startTime"  : 0.0,
+            "slowStartTime" : -1.0,
+            "slowDurationTime" : 0.0,
+            "playRate"         : 1.0,
+            "bossUITime"       : -1.0,
+            "cameraStartTime"  : -1.0,
+            "cameraMoveTime"   : 0.0,
+            "cameraStayTime"   : 0.0,
+            "cameraFOV"        : -1.0,
+            "cameraOffset"     : {
+                "x" : 0.0,
+                "y" : 0.0,
+                "z" : 0.0
+            },
+            "cameraVerticalAngle" : -1.0,
+            "cameraHorizontalAngle" : -1.0,
+            "cameraOverDuration"    : -1.0,
+            "delayExtend"           : 0.0,
+            "fx"                    : {
+                "name" : "Skill_zhousi_fenshen",
+                "fireFx" : "",
+                "iceFx"  : "",
+                "thunderFx" : "",
+                "darkFx"    : "",
+                "durationFrame" : -1,
+                "dirType"       : 1,
+                "posType"       : 2,
+                "dirOffset"     : 0.0,
+                "posOffset"     : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "randomBegin"   : 0.0,
+                "randomEnd"     : 0.0,
+                "num"           : 1,
+                "multiDirOffset" : 0.0,
+                "multiPosOffset" : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "bone"           : "model/",
+                "follow"         : true,
+                "alignSourceY"   : true
+            }
+        },
+        {
+            "typeName" : "zsz_niutou",
+            "type"     : 1,
+            "fxDelay"  : 4.19999980926514,
+            "modelDelay" : -1.0,
+            "aniNameStr" : "chuchang:单次:-1|gongji01:单次:-1|",
+            "aniName"    : [
+                "chuchang",
+                "gongji01",
+                ""
+            ],
+            "aniDelay"   : 0.0,
+            "pauseTime"  : 0.0,
+            "startTime"  : 0.0,
+            "slowStartTime" : 0.0,
+            "slowDurationTime" : 3.5,
+            "playRate"         : 0.400000005960464,
+            "bossUITime"       : -1.0,
+            "cameraStartTime"  : -1.0,
+            "cameraMoveTime"   : 0.0,
+            "cameraStayTime"   : 0.0,
+            "cameraFOV"        : 30.0,
+            "cameraOffset"     : {
+                "x" : 0.0,
+                "y" : 0.0,
+                "z" : 0.0
+            },
+            "cameraVerticalAngle" : -1.0,
+            "cameraHorizontalAngle" : -1.0,
+            "cameraOverDuration"    : -1.0,
+            "delayExtend"           : 0.0,
+            "fx"                    : {
+                "name" : "",
+                "fireFx" : "",
+                "iceFx"  : "",
+                "thunderFx" : "",
+                "darkFx"    : "",
+                "durationFrame" : -1,
+                "dirType"       : 1,
+                "posType"       : 0,
+                "dirOffset"     : 0.0,
+                "posOffset"     : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "randomBegin"   : 0.0,
+                "randomEnd"     : 0.0,
+                "num"           : 1,
+                "multiDirOffset" : 0.0,
+                "multiPosOffset" : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "bone"           : "",
+                "follow"         : true,
+                "alignSourceY"   : false
+            }
+        }
+    ]
+}

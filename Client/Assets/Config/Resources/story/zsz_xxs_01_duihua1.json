@@ -1,0 +1,42 @@
+﻿
+{
+    "storyList" : [
+        {
+            "__type" : "StoryTalkCfg",
+            "roleId" : "manwang",
+            "content" : "……睁开你们的眼睛看清楚，我薛西斯可是波斯的王子！",
+            "localIdx" : 0,
+            "soundId"  : 0,
+            "type"     : 0,
+            "time"     : 4
+        },
+        {
+            "__type" : "StoryTalkCfg",
+            "roleId" : "xiaohei",
+            "content" : "正是你波斯王子的身份，成为阿尔塔巴诺大人登上王座的最大障碍。",
+            "localIdx" : 1,
+            "soundId"  : 0,
+            "type"     : 0,
+            "time"     : 4
+        },
+        {
+            "__type" : "StoryTalkCfg",
+            "roleId" : "manwang",
+            "content" : "我的叔父？他居然想杀我！",
+            "localIdx" : 0,
+            "soundId"  : 0,
+            "type"     : 0,
+            "time"     : 2
+        },
+        {
+            "__type" : "StoryTalkCfg",
+            "roleId" : "xiaohei",
+            "content" : "为了阿尔塔巴诺大人！薛西斯，受死吧！",
+            "localIdx" : 1,
+            "soundId"  : 0,
+            "type"     : 0,
+            "time"     : 3
+        }
+    ],
+    "canSpeed"  : true
+}

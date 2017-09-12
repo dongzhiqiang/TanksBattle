@@ -1,0 +1,33 @@
+﻿
+{
+    "storyList" : [
+        {
+            "__type" : "StoryTalkCfg",
+            "roleId" : "xiaobing",
+            "content" : "主人，这山谷草木丛生，却没有飞禽走兽的踪影，十分可疑。",
+            "localIdx" : 1,
+            "soundId"  : 0,
+            "type"     : 0,
+            "time"     : 10
+        },
+        {
+            "__type" : "StoryTalkCfg",
+            "roleId" : "kratos",
+            "content" : "塔耳塔洛斯就在前方，这渺小的山谷又怎么配成为斯巴达人的障碍！莱山德，跟紧我。",
+            "localIdx" : 0,
+            "soundId"  : 0,
+            "type"     : 0,
+            "time"     : 10
+        },
+        {
+            "__type" : "StoryTalkCfg",
+            "roleId" : "xiaobing",
+            "content" : "主人快看，又是一群骨头架子！",
+            "localIdx" : 1,
+            "soundId"  : 0,
+            "type"     : 0,
+            "time"     : 10
+        }
+    ],
+    "canSpeed"  : true
+}

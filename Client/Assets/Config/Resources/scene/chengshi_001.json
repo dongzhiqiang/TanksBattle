@@ -1,0 +1,722 @@
+﻿
+{
+    "sceneName" : "chengshi_001",
+    "mRefGroupList" : [
+        {
+            "refreshType" : 0,
+            "Points"      : [
+                {
+                    "pos" : {
+                        "x" : -3.63202285766602,
+                        "y" : 2.85153889656067,
+                        "z" : -1.16332769393921
+                    },
+                    "dir" : {
+                        "x" : 0.0,
+                        "y" : 179.8642578125,
+                        "z" : 0.0
+                    },
+                    "camp" : 1,
+                    "buffId" : 0,
+                    "roleId" : "xb_01",
+                    "pointFlag" : "Group1-1",
+                    "bornDelay" : 0,
+                    "ai"        : "-1",
+                    "bornTypeId" : "",
+                    "deadTypeId" : "",
+                    "isShowBloodBar" : 0,
+                    "pathfindingList" : [
+                    ]
+                },
+                {
+                    "pos" : {
+                        "x" : 2.45619630813599,
+                        "y" : 2.85153818130493,
+                        "z" : -1.52277088165283
+                    },
+                    "dir" : {
+                        "x" : 0.0,
+                        "y" : 90.0102462768555,
+                        "z" : 0.0
+                    },
+                    "camp" : 1,
+                    "buffId" : 0,
+                    "roleId" : "xb_01",
+                    "pointFlag" : "Group1-2",
+                    "bornDelay" : 0,
+                    "ai"        : "-1",
+                    "bornTypeId" : "",
+                    "deadTypeId" : "",
+                    "isShowBloodBar" : 0,
+                    "pathfindingList" : [
+                    ]
+                },
+                {
+                    "pos" : {
+                        "x" : 2.42224478721619,
+                        "y" : 2.85153937339783,
+                        "z" : 3.75629615783691
+                    },
+                    "dir" : {
+                        "x" : 0.0,
+                        "y" : 90.4591979980469,
+                        "z" : 0.0
+                    },
+                    "camp" : 1,
+                    "buffId" : 0,
+                    "roleId" : "xb_01",
+                    "pointFlag" : "Group1-3",
+                    "bornDelay" : 0,
+                    "ai"        : "-1",
+                    "bornTypeId" : "",
+                    "deadTypeId" : "",
+                    "isShowBloodBar" : 0,
+                    "pathfindingList" : [
+                    ]
+                },
+                {
+                    "pos" : {
+                        "x" : -4.11413812637329,
+                        "y" : 2.85153937339783,
+                        "z" : 3.89703416824341
+                    },
+                    "dir" : {
+                        "x" : 0.0,
+                        "y" : 179.969131469727,
+                        "z" : 0.0
+                    },
+                    "camp" : 1,
+                    "buffId" : 0,
+                    "roleId" : "xb_02",
+                    "pointFlag" : "Group1-4",
+                    "bornDelay" : 1,
+                    "ai"        : "-1",
+                    "bornTypeId" : "",
+                    "deadTypeId" : "",
+                    "isShowBloodBar" : 0,
+                    "pathfindingList" : [
+                    ]
+                }
+            ],
+            "groupFlag"   : "Group1",
+            "delayTime"   : 0,
+            "refreshNum"  : 1
+        },
+        {
+            "refreshType" : 0,
+            "Points"      : [
+                {
+                    "pos" : {
+                        "x" : 49.2026405334473,
+                        "y" : 2.73999977111816,
+                        "z" : 7.05624961853027
+                    },
+                    "dir" : {
+                        "x" : 0.0,
+                        "y" : 269.892181396484,
+                        "z" : 0.0
+                    },
+                    "camp" : 1,
+                    "buffId" : 0,
+                    "roleId" : "xb_02",
+                    "pointFlag" : "Group2-1",
+                    "bornDelay" : 0,
+                    "ai"        : "-1",
+                    "bornTypeId" : "",
+                    "deadTypeId" : "",
+                    "isShowBloodBar" : 0,
+                    "pathfindingList" : [
+                    ]
+                },
+                {
+                    "pos" : {
+                        "x" : 45.8715553283691,
+                        "y" : 2.74000000953674,
+                        "z" : 15.3353786468506
+                    },
+                    "dir" : {
+                        "x" : 0.0,
+                        "y" : 359.714416503906,
+                        "z" : 0.0
+                    },
+                    "camp" : 1,
+                    "buffId" : 0,
+                    "roleId" : "xb_03",
+                    "pointFlag" : "Group2-2",
+                    "bornDelay" : 0,
+                    "ai"        : "-1",
+                    "bornTypeId" : "",
+                    "deadTypeId" : "",
+                    "isShowBloodBar" : 0,
+                    "pathfindingList" : [
+                    ]
+                },
+                {
+                    "pos" : {
+                        "x" : 53.4955596923828,
+                        "y" : 2.74000000953674,
+                        "z" : 13.3897981643677
+                    },
+                    "dir" : {
+                        "x" : 0.0,
+                        "y" : 90.0369567871094,
+                        "z" : 0.0
+                    },
+                    "camp" : 1,
+                    "buffId" : 0,
+                    "roleId" : "jy_01",
+                    "pointFlag" : "Group2-3",
+                    "bornDelay" : 2,
+                    "ai"        : "-1",
+                    "bornTypeId" : "",
+                    "deadTypeId" : "",
+                    "isShowBloodBar" : 0,
+                    "pathfindingList" : [
+                    ]
+                }
+            ],
+            "groupFlag"   : "Group2",
+            "delayTime"   : 0,
+            "refreshNum"  : 1
+        },
+        {
+            "refreshType" : 0,
+            "Points"      : [
+                {
+                    "pos" : {
+                        "x" : 15.6734771728516,
+                        "y" : 2.90153932571411,
+                        "z" : -1.98462092876434
+                    },
+                    "dir" : {
+                        "x" : 0.0,
+                        "y" : 184.325332641602,
+                        "z" : 0.0
+                    },
+                    "camp" : 1,
+                    "buffId" : 0,
+                    "roleId" : "xb_01",
+                    "pointFlag" : "Group3-2",
+                    "bornDelay" : 0,
+                    "ai"        : "-1",
+                    "bornTypeId" : "",
+                    "deadTypeId" : "",
+                    "isShowBloodBar" : 0,
+                    "pathfindingList" : [
+                    ]
+                },
+                {
+                    "pos" : {
+                        "x" : 9.52919006347656,
+                        "y" : 2.90153884887695,
+                        "z" : -2.1750168800354
+                    },
+                    "dir" : {
+                        "x" : 0.0,
+                        "y" : 269.999114990234,
+                        "z" : 0.0
+                    },
+                    "camp" : 1,
+                    "buffId" : 0,
+                    "roleId" : "xb_01",
+                    "pointFlag" : "Group3-3",
+                    "bornDelay" : 0,
+                    "ai"        : "-1",
+                    "bornTypeId" : "",
+                    "deadTypeId" : "",
+                    "isShowBloodBar" : 0,
+                    "pathfindingList" : [
+                    ]
+                },
+                {
+                    "pos" : {
+                        "x" : 15.846996307373,
+                        "y" : 2.13725852966309,
+                        "z" : 3.4164776802063
+                    },
+                    "dir" : {
+                        "x" : 0.0,
+                        "y" : 179.990798950195,
+                        "z" : 0.0
+                    },
+                    "camp" : 1,
+                    "buffId" : 0,
+                    "roleId" : "xb_02",
+                    "pointFlag" : "Group3-4",
+                    "bornDelay" : 1,
+                    "ai"        : "-1",
+                    "bornTypeId" : "",
+                    "deadTypeId" : "",
+                    "isShowBloodBar" : 0,
+                    "pathfindingList" : [
+                    ]
+                },
+                {
+                    "pos" : {
+                        "x" : 9.1182918548584,
+                        "y" : 2.62874007225037,
+                        "z" : 3.28131890296936
+                    },
+                    "dir" : {
+                        "x" : 0.0,
+                        "y" : 359.724151611328,
+                        "z" : 0.0
+                    },
+                    "camp" : 1,
+                    "buffId" : 0,
+                    "roleId" : "xb_01",
+                    "pointFlag" : "Group3-1",
+                    "bornDelay" : 0,
+                    "ai"        : "-1",
+                    "bornTypeId" : "",
+                    "deadTypeId" : "",
+                    "isShowBloodBar" : 0,
+                    "pathfindingList" : [
+                    ]
+                }
+            ],
+            "groupFlag"   : "Group3",
+            "delayTime"   : 0,
+            "refreshNum"  : 1
+        },
+        {
+            "refreshType" : 0,
+            "Points"      : [
+                {
+                    "pos" : {
+                        "x" : 60.1293716430664,
+                        "y" : 2.79000067710876,
+                        "z" : 20.6393527984619
+                    },
+                    "dir" : {
+                        "x" : 0.0,
+                        "y" : 180.982574462891,
+                        "z" : 0.0
+                    },
+                    "camp" : 1,
+                    "buffId" : 0,
+                    "roleId" : "xb_01",
+                    "pointFlag" : "Group4-1",
+                    "bornDelay" : 0,
+                    "ai"        : "-1",
+                    "bornTypeId" : "",
+                    "deadTypeId" : "",
+                    "isShowBloodBar" : 0,
+                    "pathfindingList" : [
+                    ]
+                },
+                {
+                    "pos" : {
+                        "x" : 61.081844329834,
+                        "y" : 2.79000043869019,
+                        "z" : 11.4639472961426
+                    },
+                    "dir" : {
+                        "x" : 0.0,
+                        "y" : 180.0,
+                        "z" : 0.0
+                    },
+                    "camp" : 1,
+                    "buffId" : 0,
+                    "roleId" : "xb_01",
+                    "pointFlag" : "Group4-2",
+                    "bornDelay" : 0,
+                    "ai"        : "-1",
+                    "bornTypeId" : "",
+                    "deadTypeId" : "",
+                    "isShowBloodBar" : 0,
+                    "pathfindingList" : [
+                    ]
+                },
+                {
+                    "pos" : {
+                        "x" : 65.5691757202148,
+                        "y" : 2.16437482833862,
+                        "z" : 15.8164072036743
+                    },
+                    "dir" : {
+                        "x" : 0.0,
+                        "y" : 179.984680175781,
+                        "z" : 0.0
+                    },
+                    "camp" : 1,
+                    "buffId" : 0,
+                    "roleId" : "xb_01",
+                    "pointFlag" : "Group4-3",
+                    "bornDelay" : 0,
+                    "ai"        : "-1",
+                    "bornTypeId" : "",
+                    "deadTypeId" : "",
+                    "isShowBloodBar" : 0,
+                    "pathfindingList" : [
+                    ]
+                }
+            ],
+            "groupFlag"   : "Group4",
+            "delayTime"   : 0,
+            "refreshNum"  : 1
+        }
+    ],
+    "mBornList"     : [
+        {
+            "mPosition" : {
+                "x" : 2.43111252784729,
+                "y" : 2.85153913497925,
+                "z" : -18.4981842041016
+            },
+            "mEulerAngles" : {
+                "x" : 0.0,
+                "y" : 0.0346888713538647,
+                "z" : 0.0
+            },
+            "mBornTypeId"  : "",
+            "mDeadTypeId"  : "herodead"
+        }
+    ],
+    "mCheckList"    : [
+        {
+            "triggerType" : 0,
+            "triggerNum"  : 1,
+            "triggerTimes" : 1,
+            "checkFlag"    : "born",
+            "eventCfgList" : [
+                {
+                    "eveType" : 0,
+                    "content" : "\n{\n    \"__type\" : \"EventCfg_StartLevel\"\n}"
+                }
+            ],
+            "actionCfgList" : [
+                {
+                    "eveType" : 5,
+                    "content" : "\n{\n    \"__type\" : \"ActionCfg_CreateHero\"\n}"
+                },
+                {
+                    "eveType" : 8,
+                    "content" : "\n{\n    \"__type\" : \"ActionCfg_ShowDir\",\n    \"findPos\" : {\n        \"x\" : 1.47492778301239,\n        \"y\" : 2.85153889656067,\n        \"z\" : -1.50605547428131\n    }\n}"
+                }
+            ]
+        },
+        {
+            "triggerType" : 0,
+            "triggerNum"  : 1,
+            "triggerTimes" : 1,
+            "checkFlag"    : "area1",
+            "eventCfgList" : [
+                {
+                    "eveType" : 4,
+                    "content" : "\n{\n    \"__type\" : \"EventCfg_Area\",\n    \"areaFlag\" : \"area1\",\n    \"bEnter\"   : true,\n    \"bActivate\" : true,\n    \"bHaveHero\" : true,\n    \"NpcIdList\" : \"\",\n    \"timeNum\"   : 0\n}"
+                }
+            ],
+            "actionCfgList" : [
+                {
+                    "eveType" : 2,
+                    "content" : "\n{\n    \"__type\" : \"ActionCfg_ActivateRefresh\",\n    \"refreshID\" : \"Group1\"\n}"
+                },
+                {
+                    "eveType" : 6,
+                    "content" : "\n{\n    \"__type\" : \"ActionCfg_ActivateDangban\",\n    \"flagId\" : \"Dangban3\"\n}"
+                },
+                {
+                    "eveType" : 6,
+                    "content" : "\n{\n    \"__type\" : \"ActionCfg_ActivateDangban\",\n    \"flagId\" : \"Dangban4\"\n}"
+                },
+                {
+                    "eveType" : 9,
+                    "content" : "\n{\n    \"__type\" : \"ActionCfg_HideDir\"\n}"
+                }
+            ]
+        },
+        {
+            "triggerType" : 0,
+            "triggerNum"  : 1,
+            "triggerTimes" : 1,
+            "checkFlag"    : "area2",
+            "eventCfgList" : [
+                {
+                    "eveType" : 4,
+                    "content" : "\n{\n    \"__type\" : \"EventCfg_Area\",\n    \"areaFlag\" : \"Area2\",\n    \"bEnter\"   : true,\n    \"bActivate\" : true,\n    \"bHaveHero\" : true,\n    \"NpcIdList\" : \"\",\n    \"timeNum\"   : 0\n}"
+                }
+            ],
+            "actionCfgList" : [
+                {
+                    "eveType" : 2,
+                    "content" : "\n{\n    \"__type\" : \"ActionCfg_ActivateRefresh\",\n    \"refreshID\" : \"Group2\"\n}"
+                },
+                {
+                    "eveType" : 6,
+                    "content" : "\n{\n    \"__type\" : \"ActionCfg_ActivateDangban\",\n    \"flagId\" : \"Dangban5\"\n}"
+                },
+                {
+                    "eveType" : 6,
+                    "content" : "\n{\n    \"__type\" : \"ActionCfg_ActivateDangban\",\n    \"flagId\" : \"Dangban6\"\n}"
+                },
+                {
+                    "eveType" : 9,
+                    "content" : "\n{\n    \"__type\" : \"ActionCfg_HideDir\"\n}"
+                }
+            ]
+        },
+        {
+            "triggerType" : 0,
+            "triggerNum"  : 3,
+            "triggerTimes" : 1,
+            "checkFlag"    : "win",
+            "eventCfgList" : [
+                {
+                    "eveType" : 8,
+                    "content" : "\n{\n    \"__type\" : \"EventCfg_RefreshDead\",\n    \"flagId\" : \"Group2\"\n}"
+                },
+                {
+                    "eveType" : 6,
+                    "content" : "\n{\n    \"__type\" : \"EventCfg_RoleDead\",\n    \"flagId\" : \"Group2-3\"\n}"
+                },
+                {
+                    "eveType" : 8,
+                    "content" : "\n{\n    \"__type\" : \"EventCfg_RefreshDead\",\n    \"flagId\" : \"Group4\"\n}"
+                }
+            ],
+            "actionCfgList" : [
+                {
+                    "eveType" : 3,
+                    "content" : "\n{\n    \"__type\" : \"ActionCfg_Win\"\n}"
+                },
+                {
+                    "eveType" : 7,
+                    "content" : "\n{\n    \"__type\" : \"ActionCfg_HideDangban\",\n    \"flagId\" : \"Dangban5\"\n}"
+                },
+                {
+                    "eveType" : 7,
+                    "content" : "\n{\n    \"__type\" : \"ActionCfg_HideDangban\",\n    \"flagId\" : \"Dangban6\"\n}"
+                }
+            ]
+        },
+        {
+            "triggerType" : 0,
+            "triggerNum"  : 1,
+            "triggerTimes" : 1,
+            "checkFlag"    : "lost",
+            "eventCfgList" : [
+                {
+                    "eveType" : 6,
+                    "content" : "\n{\n    \"__type\" : \"EventCfg_RoleDead\",\n    \"flagId\" : \"\"\n}"
+                }
+            ],
+            "actionCfgList" : [
+                {
+                    "eveType" : 4,
+                    "content" : "\n{\n    \"__type\" : \"ActionCfg_Lose\"\n}"
+                }
+            ]
+        },
+        {
+            "triggerType" : 0,
+            "triggerNum"  : 1,
+            "triggerTimes" : 1,
+            "checkFlag"    : "db1cancel",
+            "eventCfgList" : [
+                {
+                    "eveType" : 8,
+                    "content" : "\n{\n    \"__type\" : \"EventCfg_RefreshDead\",\n    \"flagId\" : \"Group3\"\n}"
+                }
+            ],
+            "actionCfgList" : [
+                {
+                    "eveType" : 7,
+                    "content" : "\n{\n    \"__type\" : \"ActionCfg_HideDangban\",\n    \"flagId\" : \"Dangban3\"\n}"
+                },
+                {
+                    "eveType" : 7,
+                    "content" : "\n{\n    \"__type\" : \"ActionCfg_HideDangban\",\n    \"flagId\" : \"Dangban4\"\n}"
+                }
+            ]
+        },
+        {
+            "triggerType" : 0,
+            "triggerNum"  : 1,
+            "triggerTimes" : 1,
+            "checkFlag"    : "zhixiangcreate1",
+            "eventCfgList" : [
+                {
+                    "eveType" : 8,
+                    "content" : "\n{\n    \"__type\" : \"EventCfg_RefreshDead\",\n    \"flagId\" : \"Group3\"\n}"
+                }
+            ],
+            "actionCfgList" : [
+                {
+                    "eveType" : 8,
+                    "content" : "\n{\n    \"__type\" : \"ActionCfg_ShowDir\",\n    \"findPos\" : {\n        \"x\" : 48.6720581054688,\n        \"y\" : 2.74000024795532,\n        \"z\" : 10.3672752380371\n    }\n}"
+                }
+            ]
+        },
+        {
+            "triggerType" : 0,
+            "triggerNum"  : 1,
+            "triggerTimes" : 1,
+            "checkFlag"    : "refresh3",
+            "eventCfgList" : [
+                {
+                    "eveType" : 8,
+                    "content" : "\n{\n    \"__type\" : \"EventCfg_RefreshDead\",\n    \"flagId\" : \"Group1\"\n}"
+                }
+            ],
+            "actionCfgList" : [
+                {
+                    "eveType" : 2,
+                    "content" : "\n{\n    \"__type\" : \"ActionCfg_ActivateRefresh\",\n    \"refreshID\" : \"Group3\"\n}"
+                }
+            ]
+        },
+        {
+            "triggerType" : 0,
+            "triggerNum"  : 2,
+            "triggerTimes" : 1,
+            "checkFlag"    : "refresh4",
+            "eventCfgList" : [
+                {
+                    "eveType" : 6,
+                    "content" : "\n{\n    \"__type\" : \"EventCfg_RoleDead\",\n    \"flagId\" : \"Group2-1\"\n}"
+                },
+                {
+                    "eveType" : 6,
+                    "content" : "\n{\n    \"__type\" : \"EventCfg_RoleDead\",\n    \"flagId\" : \"Group2-2\"\n}"
+                }
+            ],
+            "actionCfgList" : [
+                {
+                    "eveType" : 2,
+                    "content" : "\n{\n    \"__type\" : \"ActionCfg_ActivateRefresh\",\n    \"refreshID\" : \"Group4\"\n}"
+                }
+            ]
+        }
+    ],
+    "mAreaList"     : [
+        {
+            "bActivate" : true,
+            "areaFlag"  : "area1",
+            "pos"       : {
+                "x" : 1.72000002861023,
+                "y" : 2.85153889656067,
+                "z" : -11.3400001525879
+            },
+            "dir"       : {
+                "x" : 0.0,
+                "y" : 179.999450683594,
+                "z" : 0.0
+            },
+            "size"      : {
+                "x" : 37.7046508789063,
+                "y" : 1.0,
+                "z" : 1.0
+            },
+            "areaType"  : 0,
+            "dangbanType" : 0
+        },
+        {
+            "bActivate" : true,
+            "areaFlag"  : "Area2",
+            "pos"       : {
+                "x" : 42.1300010681152,
+                "y" : 2.74000000953674,
+                "z" : 8.1899995803833
+            },
+            "dir"       : {
+                "x" : 0.0,
+                "y" : 67.0203628540039,
+                "z" : 0.0
+            },
+            "size"      : {
+                "x" : 37.9353904724121,
+                "y" : 1.0,
+                "z" : 1.0
+            },
+            "areaType"  : 0,
+            "dangbanType" : 0
+        },
+        {
+            "bActivate" : true,
+            "areaFlag"  : "Dangban3",
+            "pos"       : {
+                "x" : 19.9899997711182,
+                "y" : 2.75,
+                "z" : 0.0900000035762787
+            },
+            "dir"       : {
+                "x" : 0.0,
+                "y" : 89.9312438964844,
+                "z" : 0.0
+            },
+            "size"      : {
+                "x" : 0.852889239788055,
+                "y" : 0.522617340087891,
+                "z" : 1.0
+            },
+            "areaType"  : 1,
+            "dangbanType" : 0
+        },
+        {
+            "bActivate" : true,
+            "areaFlag"  : "Dangban4",
+            "pos"       : {
+                "x" : 2.10999989509583,
+                "y" : 2.44000005722046,
+                "z" : -17.8700008392334
+            },
+            "dir"       : {
+                "x" : 0.0,
+                "y" : 2.25228559422113E-15,
+                "z" : 0.0
+            },
+            "size"      : {
+                "x" : 0.804356217384338,
+                "y" : 0.531103670597076,
+                "z" : 1.0
+            },
+            "areaType"  : 1,
+            "dangbanType" : 0
+        },
+        {
+            "bActivate" : true,
+            "areaFlag"  : "Dangban5",
+            "pos"       : {
+                "x" : 36.8800010681152,
+                "y" : 2.65000009536743,
+                "z" : 3.39000010490417
+            },
+            "dir"       : {
+                "x" : 0.0,
+                "y" : 67.4118881225586,
+                "z" : 0.0
+            },
+            "size"      : {
+                "x" : 0.871380031108856,
+                "y" : 0.518088638782501,
+                "z" : 1.0
+            },
+            "areaType"  : 1,
+            "dangbanType" : 0
+        },
+        {
+            "bActivate" : true,
+            "areaFlag"  : "Dangban6",
+            "pos"       : {
+                "x" : 66.9199981689453,
+                "y" : 2.58999991416931,
+                "z" : 29.5400009155273
+            },
+            "dir"       : {
+                "x" : 0.0,
+                "y" : 67.0219802856445,
+                "z" : 0.0
+            },
+            "size"      : {
+                "x" : 1.0,
+                "y" : 0.52457994222641,
+                "z" : 1.0
+            },
+            "areaType"  : 1,
+            "dangbanType" : 0
+        }
+    ],
+    "mStoryIdList"  : [
+    ]
+}

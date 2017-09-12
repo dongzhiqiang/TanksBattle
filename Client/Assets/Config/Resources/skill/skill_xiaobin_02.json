@@ -1,0 +1,761 @@
+﻿
+{
+    "file" : "skill_xiaobin_02",
+    "skills" : [
+        {
+            "skillId" : "attack02",
+            "name"    : "攻击01",
+            "desc"    : "",
+            "icon"    : "",
+            "mp"      : 0,
+            "mpNeed"  : -1,
+            "cd"      : 4.0,
+            "showWeapon" : false,
+            "isInternal" : false,
+            "parentSkillId" : "",
+            "aniName"       : "gongji01",
+            "aniType"       : 0,
+            "fade"          : 0.200000002980232,
+            "duration"      : -1.0,
+            "continueIfPress" : false,
+            "aniRate"         : {
+                "clips" : [
+                    {
+                        "frame" : 20,
+                        "speed" : 0.5
+                    }
+                ],
+                "speed" : 1.0
+            },
+            "moveType"        : 0,
+            "dirType"         : 0,
+            "rotateSpeed"     : 360.0,
+            "moveSpeed"       : 3.0,
+            "beginTranFrame"  : 0,
+            "endTranFrame"    : -1,
+            "autoFace"        : true,
+            "firstRange"      : {
+                "type" : 0,
+                "beginOffsetAngle" : 0.0,
+                "endOffsetAngle"   : 0.0,
+                "begingOffsetPos"  : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "endOffsetPos"     : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "distance"         : 15.0,
+                "heightLimit"      : -1.0,
+                "rectLimit"        : 3.0,
+                "angleLimit"       : 90.0,
+                "showArea"         : false,
+                "showRange"        : false
+            },
+            "secondRange"     : {
+                "type" : 0,
+                "beginOffsetAngle" : 0.0,
+                "endOffsetAngle"   : 0.0,
+                "begingOffsetPos"  : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "endOffsetPos"     : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "distance"         : 15.0,
+                "heightLimit"      : -1.0,
+                "rectLimit"        : 3.0,
+                "angleLimit"       : 90.0,
+                "showArea"         : false,
+                "showRange"        : false
+            },
+            "thirdRange"      : {
+                "type" : 0,
+                "beginOffsetAngle" : 0.0,
+                "endOffsetAngle"   : 0.0,
+                "begingOffsetPos"  : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "endOffsetPos"     : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "distance"         : 15.0,
+                "heightLimit"      : -1.0,
+                "rectLimit"        : 3.0,
+                "angleLimit"       : 90.0,
+                "showArea"         : false,
+                "showRange"        : false
+            },
+            "attackRange"     : {
+                "type" : 0,
+                "beginOffsetAngle" : 0.0,
+                "endOffsetAngle"   : 0.0,
+                "begingOffsetPos"  : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "endOffsetPos"     : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "distance"         : 10.0,
+                "heightLimit"      : -1.0,
+                "rectLimit"        : 1.0,
+                "angleLimit"       : 45.0,
+                "showArea"         : true,
+                "showRange"        : false
+            },
+            "cancelPriority"  : 0,
+            "isAirSkill"      : false,
+            "canCanel"        : true,
+            "canBeCanel"      : true,
+            "cancelPreFrame"  : -1,
+            "cancelPostFrame" : -1,
+            "comboSkillId"    : "",
+            "comboPreFrame"   : 0,
+            "comboPostFrame"  : -1,
+            "comboWaitFrame"  : 30,
+            "showComboIcon"   : true,
+            "eventGroup"      : {
+                "file" : "skill_event_group",
+                "isFile" : false,
+                "frames" : [
+                    {
+                        "id" : 3,
+                        "frameType" : 0,
+                        "frameBegin" : 0,
+                        "frameEnd"   : -1,
+                        "frameInterval" : 1,
+                        "countLimit"    : -1,
+                        "countTargetLimit" : -1,
+                        "countFrameLimit"  : -1,
+                        "frameLimit"       : -1,
+                        "targetOrderType"  : 0,
+                        "conditions"       : [
+                        ],
+                        "targetConditions" : [
+                        ],
+                        "targetRanges"     : [
+                            {
+                                "range" : {
+                                    "type" : 0,
+                                    "beginOffsetAngle" : 0.0,
+                                    "endOffsetAngle"   : 0.0,
+                                    "begingOffsetPos"  : {
+                                        "x" : 0.0,
+                                        "y" : 0.0,
+                                        "z" : 0.0
+                                    },
+                                    "endOffsetPos"     : {
+                                        "x" : 0.0,
+                                        "y" : 0.0,
+                                        "z" : 0.0
+                                    },
+                                    "distance"         : 5.0,
+                                    "heightLimit"      : 2.0,
+                                    "rectLimit"        : 3.0,
+                                    "angleLimit"       : 90.0,
+                                    "showArea"         : false,
+                                    "showRange"        : false
+                                },
+                                "targetType" : 0
+                            }
+                        ],
+                        "events"           : [
+                            {
+                                "__type" : "SoundEventCfg",
+                                "soundId" : 20201,
+                                "ingore"  : false,
+                                "eventCountLimit" : -1,
+                                "eventCountFrameLimit" : -1,
+                                "id"                   : 1,
+                                "priority"             : 0,
+                                "ingoreIfNotHero"      : false
+                            }
+                        ],
+                        "selId"            : 1
+                    },
+                    {
+                        "id" : 4,
+                        "frameType" : 0,
+                        "frameBegin" : 0,
+                        "frameEnd"   : -1,
+                        "frameInterval" : 1,
+                        "countLimit"    : -1,
+                        "countTargetLimit" : -1,
+                        "countFrameLimit"  : -1,
+                        "frameLimit"       : -1,
+                        "targetOrderType"  : 0,
+                        "conditions"       : [
+                        ],
+                        "targetConditions" : [
+                        ],
+                        "targetRanges"     : [
+                            {
+                                "range" : {
+                                    "type" : 0,
+                                    "beginOffsetAngle" : 0.0,
+                                    "endOffsetAngle"   : 0.0,
+                                    "begingOffsetPos"  : {
+                                        "x" : 0.0,
+                                        "y" : 0.0,
+                                        "z" : 0.0
+                                    },
+                                    "endOffsetPos"     : {
+                                        "x" : 0.0,
+                                        "y" : 0.0,
+                                        "z" : 0.0
+                                    },
+                                    "distance"         : 100.0,
+                                    "heightLimit"      : 2.0,
+                                    "rectLimit"        : 3.0,
+                                    "angleLimit"       : 90.0,
+                                    "showArea"         : false,
+                                    "showRange"        : false
+                                },
+                                "targetType" : 6
+                            }
+                        ],
+                        "events"           : [
+                            {
+                                "__type" : "MoveEventCfg",
+                                "moveType" : 2,
+                                "dirType"  : 3,
+                                "self"     : true,
+                                "distance" : 0.0199999995529652,
+                                "frame"    : 35,
+                                "avoid"    : false,
+                                "touchOverFrame" : -1,
+                                "endIfSkillEnd"  : false,
+                                "endSkill"       : "",
+                                "ingore"         : false,
+                                "eventCountLimit" : -1,
+                                "eventCountFrameLimit" : -1,
+                                "id"                   : 1,
+                                "priority"             : 0,
+                                "ingoreIfNotHero"      : false
+                            }
+                        ],
+                        "selId"            : 1
+                    },
+                    {
+                        "id" : 2,
+                        "frameType" : 0,
+                        "frameBegin" : 22,
+                        "frameEnd"   : -1,
+                        "frameInterval" : 1,
+                        "countLimit"    : -1,
+                        "countTargetLimit" : -1,
+                        "countFrameLimit"  : -1,
+                        "frameLimit"       : -1,
+                        "targetOrderType"  : 0,
+                        "conditions"       : [
+                        ],
+                        "targetConditions" : [
+                        ],
+                        "targetRanges"     : [
+                            {
+                                "range" : {
+                                    "type" : 0,
+                                    "beginOffsetAngle" : 0.0,
+                                    "endOffsetAngle"   : 0.0,
+                                    "begingOffsetPos"  : {
+                                        "x" : 0.0,
+                                        "y" : 0.0,
+                                        "z" : 0.0
+                                    },
+                                    "endOffsetPos"     : {
+                                        "x" : 0.0,
+                                        "y" : 0.0,
+                                        "z" : 0.0
+                                    },
+                                    "distance"         : 5.0,
+                                    "heightLimit"      : 2.0,
+                                    "rectLimit"        : 3.0,
+                                    "angleLimit"       : 90.0,
+                                    "showArea"         : false,
+                                    "showRange"        : false
+                                },
+                                "targetType" : 0
+                            }
+                        ],
+                        "events"           : [
+                            {
+                                "__type" : "FxEventCfg",
+                                "createCfg" : {
+                                    "name" : "fx_gjb_gongji01",
+                                    "fireFx" : "",
+                                    "iceFx"  : "",
+                                    "thunderFx" : "",
+                                    "darkFx"    : "",
+                                    "durationFrame" : -1,
+                                    "dirType"       : 1,
+                                    "posType"       : 2,
+                                    "dirOffset"     : 0.0,
+                                    "posOffset"     : {
+                                        "x" : 0.0,
+                                        "y" : 0.0,
+                                        "z" : 0.0
+                                    },
+                                    "randomBegin"   : 0.0,
+                                    "randomEnd"     : 0.0,
+                                    "num"           : 1,
+                                    "multiDirOffset" : 0.0,
+                                    "multiPosOffset" : {
+                                        "x" : 0.0,
+                                        "y" : 0.0,
+                                        "z" : 0.0
+                                    },
+                                    "bone"           : "model/BONE Prop1",
+                                    "follow"         : false,
+                                    "alignSourceY"   : false
+                                },
+                                "flyer"     : "flyer_gongjian",
+                                "useHapponPos" : false,
+                                "ingore"       : false,
+                                "eventCountLimit" : -1,
+                                "eventCountFrameLimit" : -1,
+                                "id"                   : 1,
+                                "priority"             : 0,
+                                "ingoreIfNotHero"      : false
+                            },
+                            {
+                                "__type" : "FxEventCfg",
+                                "createCfg" : {
+                                    "name" : "fx_jiangongji01_tuowei",
+                                    "fireFx" : "",
+                                    "iceFx"  : "",
+                                    "thunderFx" : "",
+                                    "darkFx"    : "",
+                                    "durationFrame" : -1,
+                                    "dirType"       : 1,
+                                    "posType"       : 2,
+                                    "dirOffset"     : 0.0,
+                                    "posOffset"     : {
+                                        "x" : 0.0,
+                                        "y" : 0.0,
+                                        "z" : 0.0
+                                    },
+                                    "randomBegin"   : 0.0,
+                                    "randomEnd"     : 0.0,
+                                    "num"           : 1,
+                                    "multiDirOffset" : 0.0,
+                                    "multiPosOffset" : {
+                                        "x" : 0.0,
+                                        "y" : 0.0,
+                                        "z" : 0.0
+                                    },
+                                    "bone"           : "model/BONE Prop1",
+                                    "follow"         : false,
+                                    "alignSourceY"   : false
+                                },
+                                "flyer"     : "flyer_gongjian_tuowei",
+                                "useHapponPos" : false,
+                                "ingore"       : false,
+                                "eventCountLimit" : 1,
+                                "eventCountFrameLimit" : -1,
+                                "id"                   : 2,
+                                "priority"             : 0,
+                                "ingoreIfNotHero"      : false
+                            },
+                            {
+                                "__type" : "SoundEventCfg",
+                                "soundId" : 10005,
+                                "ingore"  : false,
+                                "eventCountLimit" : -1,
+                                "eventCountFrameLimit" : -1,
+                                "id"                   : 3,
+                                "priority"             : 0,
+                                "ingoreIfNotHero"      : false
+                            }
+                        ],
+                        "selId"            : 2
+                    }
+                ],
+                "selId"  : 2,
+                "allScroll" : {
+                    "x" : 0.0,
+                    "y" : 0.0
+                },
+                "contentScroll" : {
+                    "x" : 213.0,
+                    "y" : 0.0
+                },
+                "maxWidth"      : 1550.0
+            },
+            "skillStates"     : [
+            ],
+            "endStates"       : [
+            ],
+            "endEventGroupId" : "",
+            "endIfCancel"     : false,
+            "endIfBehit"      : false
+        },
+        {
+            "skillId" : "skill_01_zuzhou",
+            "name"    : "诅咒",
+            "desc"    : "",
+            "icon"    : "",
+            "mp"      : 0,
+            "mpNeed"  : -1,
+            "cd"      : 10.0,
+            "showWeapon" : true,
+            "isInternal" : false,
+            "parentSkillId" : "",
+            "aniName"       : "jineng_zuzhouzhijian",
+            "aniType"       : 0,
+            "fade"          : 0.200000002980232,
+            "duration"      : -1.0,
+            "continueIfPress" : false,
+            "aniRate"         : {
+                "clips" : [
+                    {
+                        "frame" : 20,
+                        "speed" : 0.5
+                    }
+                ],
+                "speed" : 1.0
+            },
+            "moveType"        : 0,
+            "dirType"         : 0,
+            "rotateSpeed"     : 360.0,
+            "moveSpeed"       : 3.0,
+            "beginTranFrame"  : 0,
+            "endTranFrame"    : -1,
+            "autoFace"        : true,
+            "firstRange"      : {
+                "type" : 0,
+                "beginOffsetAngle" : 0.0,
+                "endOffsetAngle"   : 0.0,
+                "begingOffsetPos"  : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "endOffsetPos"     : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "distance"         : 15.0,
+                "heightLimit"      : -1.0,
+                "rectLimit"        : 3.0,
+                "angleLimit"       : 90.0,
+                "showArea"         : false,
+                "showRange"        : false
+            },
+            "secondRange"     : {
+                "type" : 0,
+                "beginOffsetAngle" : 0.0,
+                "endOffsetAngle"   : 0.0,
+                "begingOffsetPos"  : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "endOffsetPos"     : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "distance"         : 15.0,
+                "heightLimit"      : -1.0,
+                "rectLimit"        : 3.0,
+                "angleLimit"       : 90.0,
+                "showArea"         : true,
+                "showRange"        : false
+            },
+            "thirdRange"      : {
+                "type" : 0,
+                "beginOffsetAngle" : 0.0,
+                "endOffsetAngle"   : 0.0,
+                "begingOffsetPos"  : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "endOffsetPos"     : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "distance"         : 15.0,
+                "heightLimit"      : -1.0,
+                "rectLimit"        : 3.0,
+                "angleLimit"       : 90.0,
+                "showArea"         : true,
+                "showRange"        : false
+            },
+            "attackRange"     : {
+                "type" : 0,
+                "beginOffsetAngle" : 0.0,
+                "endOffsetAngle"   : 0.0,
+                "begingOffsetPos"  : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "endOffsetPos"     : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "distance"         : 15.0,
+                "heightLimit"      : -1.0,
+                "rectLimit"        : 3.0,
+                "angleLimit"       : 45.0,
+                "showArea"         : true,
+                "showRange"        : false
+            },
+            "cancelPriority"  : 0,
+            "isAirSkill"      : false,
+            "canCanel"        : true,
+            "canBeCanel"      : true,
+            "cancelPreFrame"  : -1,
+            "cancelPostFrame" : -1,
+            "comboSkillId"    : "",
+            "comboPreFrame"   : 0,
+            "comboPostFrame"  : -1,
+            "comboWaitFrame"  : 30,
+            "showComboIcon"   : true,
+            "eventGroup"      : {
+                "file" : "skill_event_group",
+                "isFile" : false,
+                "frames" : [
+                    {
+                        "id" : 2,
+                        "frameType" : 0,
+                        "frameBegin" : 0,
+                        "frameEnd"   : -1,
+                        "frameInterval" : 1,
+                        "countLimit"    : -1,
+                        "countTargetLimit" : -1,
+                        "countFrameLimit"  : -1,
+                        "frameLimit"       : -1,
+                        "targetOrderType"  : 0,
+                        "conditions"       : [
+                        ],
+                        "targetConditions" : [
+                        ],
+                        "targetRanges"     : [
+                            {
+                                "range" : {
+                                    "type" : 0,
+                                    "beginOffsetAngle" : 0.0,
+                                    "endOffsetAngle"   : 0.0,
+                                    "begingOffsetPos"  : {
+                                        "x" : 0.0,
+                                        "y" : 0.0,
+                                        "z" : 0.0
+                                    },
+                                    "endOffsetPos"     : {
+                                        "x" : 0.0,
+                                        "y" : 0.0,
+                                        "z" : 0.0
+                                    },
+                                    "distance"         : 5.0,
+                                    "heightLimit"      : 2.0,
+                                    "rectLimit"        : 3.0,
+                                    "angleLimit"       : 90.0,
+                                    "showArea"         : false,
+                                    "showRange"        : false
+                                },
+                                "targetType" : 0
+                            }
+                        ],
+                        "events"           : [
+                            {
+                                "__type" : "SoundEventCfg",
+                                "soundId" : 20202,
+                                "ingore"  : false,
+                                "eventCountLimit" : -1,
+                                "eventCountFrameLimit" : -1,
+                                "id"                   : 1,
+                                "priority"             : 0,
+                                "ingoreIfNotHero"      : false
+                            }
+                        ],
+                        "selId"            : 1
+                    },
+                    {
+                        "id" : 3,
+                        "frameType" : 0,
+                        "frameBegin" : 0,
+                        "frameEnd"   : -1,
+                        "frameInterval" : 1,
+                        "countLimit"    : -1,
+                        "countTargetLimit" : -1,
+                        "countFrameLimit"  : -1,
+                        "frameLimit"       : -1,
+                        "targetOrderType"  : 0,
+                        "conditions"       : [
+                        ],
+                        "targetConditions" : [
+                        ],
+                        "targetRanges"     : [
+                            {
+                                "range" : {
+                                    "type" : 0,
+                                    "beginOffsetAngle" : 0.0,
+                                    "endOffsetAngle"   : 0.0,
+                                    "begingOffsetPos"  : {
+                                        "x" : 0.0,
+                                        "y" : 0.0,
+                                        "z" : 0.0
+                                    },
+                                    "endOffsetPos"     : {
+                                        "x" : 0.0,
+                                        "y" : 0.0,
+                                        "z" : 0.0
+                                    },
+                                    "distance"         : 100.0,
+                                    "heightLimit"      : 2.0,
+                                    "rectLimit"        : 3.0,
+                                    "angleLimit"       : 90.0,
+                                    "showArea"         : false,
+                                    "showRange"        : false
+                                },
+                                "targetType" : 6
+                            }
+                        ],
+                        "events"           : [
+                            {
+                                "__type" : "MoveEventCfg",
+                                "moveType" : 2,
+                                "dirType"  : 3,
+                                "self"     : true,
+                                "distance" : 0.0199999995529652,
+                                "frame"    : 50,
+                                "avoid"    : false,
+                                "touchOverFrame" : -1,
+                                "endIfSkillEnd"  : false,
+                                "endSkill"       : "",
+                                "ingore"         : false,
+                                "eventCountLimit" : -1,
+                                "eventCountFrameLimit" : -1,
+                                "id"                   : 1,
+                                "priority"             : 0,
+                                "ingoreIfNotHero"      : false
+                            }
+                        ],
+                        "selId"            : 1
+                    },
+                    {
+                        "id" : 1,
+                        "frameType" : 0,
+                        "frameBegin" : 63,
+                        "frameEnd"   : -1,
+                        "frameInterval" : 1,
+                        "countLimit"    : -1,
+                        "countTargetLimit" : -1,
+                        "countFrameLimit"  : -1,
+                        "frameLimit"       : -1,
+                        "targetOrderType"  : 0,
+                        "conditions"       : [
+                        ],
+                        "targetConditions" : [
+                        ],
+                        "targetRanges"     : [
+                            {
+                                "range" : {
+                                    "type" : 0,
+                                    "beginOffsetAngle" : 0.0,
+                                    "endOffsetAngle"   : 0.0,
+                                    "begingOffsetPos"  : {
+                                        "x" : 0.0,
+                                        "y" : 0.0,
+                                        "z" : 0.0
+                                    },
+                                    "endOffsetPos"     : {
+                                        "x" : 0.0,
+                                        "y" : 0.0,
+                                        "z" : 0.0
+                                    },
+                                    "distance"         : 5.0,
+                                    "heightLimit"      : 2.0,
+                                    "rectLimit"        : 3.0,
+                                    "angleLimit"       : 90.0,
+                                    "showArea"         : false,
+                                    "showRange"        : false
+                                },
+                                "targetType" : 0
+                            }
+                        ],
+                        "events"           : [
+                            {
+                                "__type" : "FxEventCfg",
+                                "createCfg" : {
+                                    "name" : "fx_gjb_jineng_zuzhouzhijian",
+                                    "fireFx" : "",
+                                    "iceFx"  : "",
+                                    "thunderFx" : "",
+                                    "darkFx"    : "",
+                                    "durationFrame" : -1,
+                                    "dirType"       : 1,
+                                    "posType"       : 2,
+                                    "dirOffset"     : 0.0,
+                                    "posOffset"     : {
+                                        "x" : 0.0,
+                                        "y" : 0.0,
+                                        "z" : 0.0
+                                    },
+                                    "randomBegin"   : 0.0,
+                                    "randomEnd"     : 0.0,
+                                    "num"           : 1,
+                                    "multiDirOffset" : 0.0,
+                                    "multiPosOffset" : {
+                                        "x" : 0.0,
+                                        "y" : 0.0,
+                                        "z" : 0.0
+                                    },
+                                    "bone"           : "model/BONE Prop1",
+                                    "follow"         : false,
+                                    "alignSourceY"   : false
+                                },
+                                "flyer"     : "flyer_zuzhouzhijian",
+                                "useHapponPos" : false,
+                                "ingore"       : false,
+                                "eventCountLimit" : 1,
+                                "eventCountFrameLimit" : -1,
+                                "id"                   : 1,
+                                "priority"             : 0,
+                                "ingoreIfNotHero"      : false
+                            }
+                        ],
+                        "selId"            : 1
+                    }
+                ],
+                "selId"  : 1,
+                "allScroll" : {
+                    "x" : 0.0,
+                    "y" : 0.0
+                },
+                "contentScroll" : {
+                    "x" : 213.0,
+                    "y" : 0.0
+                },
+                "maxWidth"      : 1550.0
+            },
+            "skillStates"     : [
+            ],
+            "endStates"       : [
+            ],
+            "endEventGroupId" : "",
+            "endIfCancel"     : false,
+            "endIfBehit"      : false
+        }
+    ]
+}

@@ -1,0 +1,47 @@
+id,名字,说明,位置类型,方向类型,骨骼名,跟随,特效名(无属性),概率,火特效,冰特效,雷特效,冥特效
+id,name,,posType,dirType,bone,follow,fx,percent,fireFx,iceFx,thunderFx,darkFx
+1,闪白,闪白,3,,,,fx_behit_test
+2,概率飙血,飙血,4,3,,,Blood_xiao,0.4
+3,小打击,打击特效(小),4,,,,fx_attack_01
+4,中打击,打击特效(中),4,,,,fx_attack_02
+5,大打击,打击特效(大),4,,,,fx_attack_03
+6,奎爷打击,奎爷打击特效,4,,,,fx_kratos_shouji
+7,死亡爆炸,死亡爆炸,0,,,,Blood_Explosion,0.4
+8,气绝,气绝状态,2,,model/Title,,fx_xuanyun
+9,烟尘,雕像冒烟,4,3,,,fx_Hades_posui_behit,0.5
+10,一定飙血,飙血,4,3,,,Blood_xiao
+11,锤子蓄气1,锤子蓄气特效(小),2,0,model/Bip01,1,jineng03_xuli_mc
+12,锤子蓄气2,锤子蓄气特效(大),2,0,model/Bip01,1,jineng03_xuli_mc_2
+13,锤子爆气1,锤子爆气(小),2,0,model/Bip01,1,jineng03_xuli_mc_baoqi
+14,锤子爆气2,锤子爆气(大),2,0,model/Bip01,1,jineng03_xuli_mc_baodian
+15,羊头格挡特效,羊头格挡特效,4,,,,fx_yantou_jy_gedang
+16,黑暗女神普攻受击,黑暗女神普攻受击,4,,,,Skill_Heiannvshen_gongji01_Hit
+17,黑暗女神冥界归还受击,黑暗女神冥界归还受击,4,,,,Skill_Heiannvshen_mingjiedeguihuan_Hit
+18,黑暗女神死亡缠绕受击,黑暗女神死亡缠绕受击,4,,,,Skill_Heiannvshen_siwangchanrao_Hit
+19,黑暗女神献血祭奠受击,黑暗女神献血祭奠受击,4,,,,Skill_Heiannvshen_xianxuejidian_Hit
+20,法师怪受击特效,法师怪通用受击特效,4,,,,fx_renleifashi_shouji
+21,链刃小打击,链刃小打击,4,3,,,fx_baodian_lianren_01
+22,链刃中打击,链刃中打击,4,3,,,fx_baodian_lianren_02
+23,链刃大打击,链刃大打击,4,3,,,fx_baodian_lianren_03
+24,大剑小打击,大剑小打击,4,3,,,fx_baodian_dajian_01
+25,大剑中打击,大剑中打击,4,3,,,fx_baodian_dajian_02
+26,大剑大打击,大剑大打击,4,3,,,fx_baodian_dajian_03
+27,锤子小打击,锤子小打击,4,3,,,fx_baodian_chuizi01
+28,锤子中打击,锤子中打击,4,3,,,fx_baodian_chuizi02
+29,锤子大打击,锤子大打击,4,3,,,fx_baodian_chuizi03
+30,重击闪光,重击闪光,4,3,,,fx_baodian_zhongji
+31,大型怪物闪白,大型怪物闪白,3,,,,fx_shouji_shanbai_daxing
+32,阿波罗gongji01,阿波罗gongji01,4,,,,Skill_apollo_gongji_hit
+33,大QTE头顶标志,,2,,model/Title,,E_ui_guanqia_qte_tou
+34,竞技场敌方脚底,,2,,,,BossSkillTip360_red
+35,竞技场我方脚底,,2,,,,BossSkillTip360_blue
+36,属性表现 冰 ,,3,,,,fx_shuxing_bing_buff_small
+37,属性表现 火,,2,,model/Center,1,fx_shuxing_huo_buff_1_small
+38,属性表现 雷 ,,2,,model/Center,1,fx_shuxing_lei_buff_small
+39,属性表现 冥,,2,,model/Center,1,fx_shuxing_ming_buff_small
+40,属性表现 冰 大,,3,,,,fx_shuxing_bing_buff_small
+41,属性表现 火 大,,2,,model/Center,1,fx_shuxing_huo_buff_1_big
+42,属性表现 雷 大,,2,,model/Center,1,fx_shuxing_lei_buff_big
+43,属性表现 冥 大,,2,,model/Center,1,fx_shuxing_ming_buff_big
+44,斯巴达武装3技能蓄力,,2,,model/Bip01 Prop1,1,fx_jineng03_01_fangyufanji_xuli_dm
+45,斯巴达武装3技能蓄力盾,,2,0,model/Bip01 Prop2,1,fx_jineng03_01_fangyufanji_dm_dun_fumo

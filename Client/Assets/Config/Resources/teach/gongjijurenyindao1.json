@@ -1,0 +1,52 @@
+﻿
+{
+    "teachName" : "gongjijurenyindao1",
+    "teachDesc" : "",
+    "priority"  : 1,
+    "coolDown"  : 0,
+    "dataKey"   : "",
+    "postTeach" : "",
+    "stopSoundWhenFinish" : false,
+    "replayUnfinished"    : false,
+    "canInterrupt"        : false,
+    "backChecks"          : [
+    ],
+    "cancelActions"       : [
+    ],
+    "triggerConds"        : [
+    ],
+    "checkConds"          : [
+    ],
+    "stepList"            : [
+        {
+            "name" : "攻击头部",
+            "force" : false,
+            "pauseMode" : 0,
+            "keyStep"   : false,
+            "maskAlpha" : 200,
+            "tipMsg"    : "",
+            "centerTip" : "巨人已进入<color=#4db7e9>虚弱</color>状态，攻击巨人<color=#4db7e9>头部</color>可对其造成巨大伤害。",
+            "stopPreSnd" : false,
+            "muteMusic"  : false,
+            "soundId"    : 0,
+            "timeoutInMS" : 5000,
+            "timeoutStop" : false,
+            "stepObj"     : 0,
+            "stepObjParam" : "",
+            "stepObjParam2" : "",
+            "uiOpType"      : 0,
+            "circleType"    : 0,
+            "arrowType"     : 0,
+            "uiOpParam"     : "",
+            "uiOpParam2"    : "",
+            "sceneOpType"   : 0,
+            "sceneGuideType" : 0,
+            "sceneOpParam"   : "",
+            "sceneOpParam2"  : "",
+            "stepSkipType"   : 0,
+            "skipParam"      : "",
+            "skipParam2"     : "",
+            "stopIfNeedSkip" : false
+        }
+    ]
+}

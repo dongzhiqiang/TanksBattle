@@ -1,0 +1,15 @@
+﻿
+{
+    "storyList" : [
+        {
+            "__type" : "StoryMovieCfg",
+            "movieId" : "guochang_zx_05_ain",
+            "prefab"  : "guochang_zx_05",
+            "isLoop"  : false,
+            "soundId" : 0,
+            "type"    : 1,
+            "time"    : 0
+        }
+    ],
+    "canSpeed"  : true
+}

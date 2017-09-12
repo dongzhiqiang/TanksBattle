@@ -1,0 +1,71 @@
+﻿
+{
+    "sceneName" : "zx_2_8a_n",
+    "mRefGroupList" : [
+    ],
+    "mBornList"     : [
+        {
+            "mPosition" : {
+                "x" : 0.784382224082947,
+                "y" : 0.269998908042908,
+                "z" : -3.56428241729736
+            },
+            "mEulerAngles" : {
+                "x" : 0.0,
+                "y" : 266.852508544922,
+                "z" : 0.0
+            },
+            "mBornTypeId"  : "wuchusheng",
+            "mDeadTypeId"  : "herodead",
+            "mGroundDeadTypeId" : "",
+            "hate"              : {
+                "hateIfHit" : 0,
+                "hateIfBeHit" : 0,
+                "hateIfRefGroup" : [
+                ],
+                "hateIfChange"   : 0,
+                "behateIfBegin"  : 0
+            }
+        }
+    ],
+    "mCheckList"    : [
+        {
+            "triggerType" : 0,
+            "triggerNum"  : 1,
+            "triggerTimes" : 1,
+            "checkFlag"    : "born ",
+            "eventCfgList" : [
+                {
+                    "eveType" : 0,
+                    "content" : "\n{\n    \"__type\" : \"EventCfg_StartLevel\"\n}"
+                }
+            ],
+            "actionCfgList" : [
+                {
+                    "eveType" : 5,
+                    "content" : "\n{\n    \"__type\" : \"ActionCfg_CreateHero\",\n    \"changeCam\" : null,\n    \"_idx\"      : 0,\n    \"_delay\"    : 0.0\n}"
+                },
+                {
+                    "eveType" : 10,
+                    "content" : "\n{\n    \"__type\" : \"ActionCfg_Story\",\n    \"storyId\" : \"guochang_zx_08\",\n    \"_idx\"    : 1,\n    \"_delay\"  : 0.0\n}"
+                },
+                {
+                    "eveType" : 3,
+                    "content" : "\n{\n    \"__type\" : \"ActionCfg_Win\",\n    \"_idx\"   : 2,\n    \"_delay\" : 0.5\n}"
+                }
+            ]
+        }
+    ],
+    "mAreaList"     : [
+    ],
+    "mCameraList"   : [
+    ],
+    "mStoryIdList"  : [
+        "guochang_zx_08"
+    ],
+    "mGroupIdList"  : [
+    ],
+    "mPoss"         : [
+    ],
+    "mShowWaveGroupId" : ""
+}

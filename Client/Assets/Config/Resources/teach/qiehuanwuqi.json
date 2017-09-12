@@ -1,0 +1,52 @@
+﻿
+{
+    "teachName" : "qiehuanwuqi",
+    "teachDesc" : "",
+    "priority"  : 1,
+    "coolDown"  : 0,
+    "dataKey"   : "chgweapon",
+    "postTeach" : "",
+    "stopSoundWhenFinish" : false,
+    "replayUnfinished"    : false,
+    "canInterrupt"        : false,
+    "backChecks"          : [
+    ],
+    "cancelActions"       : [
+    ],
+    "triggerConds"        : [
+    ],
+    "checkConds"          : [
+    ],
+    "stepList"            : [
+        {
+            "name" : "切换武器引导",
+            "force" : false,
+            "pauseMode" : 0,
+            "keyStep"   : true,
+            "maskAlpha" : 200,
+            "tipMsg"    : "现在出现的敌人拥有<color=#4db7e9>穿刺属性弱点</color>，点击这里将<size=26><color=#4db7e9>武器切换</color></size>为<color=#4db7e9>斯巴达武装</color>可造成更高伤害！",
+            "centerTip" : "",
+            "stopPreSnd" : false,
+            "muteMusic"  : false,
+            "soundId"    : 0,
+            "timeoutInMS" : 8000,
+            "timeoutStop" : false,
+            "stepObj"     : 7,
+            "stepObjParam" : "combat",
+            "stepObjParam2" : "changeweapon",
+            "uiOpType"      : 1,
+            "circleType"    : 1,
+            "arrowType"     : 2,
+            "uiOpParam"     : "/UIRoot/CanvasRoot/UILevel/areaHead/head/weapon",
+            "uiOpParam2"    : "",
+            "sceneOpType"   : 0,
+            "sceneGuideType" : 0,
+            "sceneOpParam"   : "",
+            "sceneOpParam2"  : "",
+            "stepSkipType"   : 0,
+            "skipParam"      : "",
+            "skipParam2"     : "",
+            "stopIfNeedSkip" : false
+        }
+    ]
+}

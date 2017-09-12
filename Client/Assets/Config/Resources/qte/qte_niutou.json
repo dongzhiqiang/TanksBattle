@@ -1,0 +1,288 @@
+﻿
+{
+    "Name" : "qte_niutou",
+    "Duration" : 13.3999996185303,
+    "stages"   : [
+        {
+            "idx" : 0,
+            "winInfo" : {
+                "duration" : 0.49833956360817,
+                "events"   : [
+                    {
+                        "__type" : "QteEventAni",
+                        "m_objType" : 0,
+                        "aniName"   : "kratos_qte_niutouren_1",
+                        "wrapMode"  : 8,
+                        "m_type"    : 1,
+                        "startTime" : 0.0,
+                        "duration"  : 0.5
+                    },
+                    {
+                        "__type" : "QteEventAni",
+                        "m_objType" : 1,
+                        "aniName"   : "qte_niutouren_1",
+                        "wrapMode"  : 8,
+                        "m_type"    : 1,
+                        "startTime" : 0.0,
+                        "duration"  : 0.5
+                    },
+                    {
+                        "__type" : "QteEventAni",
+                        "m_objType" : 2,
+                        "aniName"   : "cam_qte_niutouren_1",
+                        "wrapMode"  : 8,
+                        "m_type"    : 1,
+                        "startTime" : 0.0,
+                        "duration"  : 0.5
+                    },
+                    {
+                        "__type" : "QteEventGroup",
+                        "eventGroupId" : "qte_start_cancel",
+                        "m_type"       : 4,
+                        "startTime"    : 0.0,
+                        "duration"     : 0.5
+                    }
+                ]
+            },
+            "loseInfo" : null
+        },
+        {
+            "idx" : 1,
+            "winInfo" : {
+                "duration" : 0.830943822860718,
+                "events"   : [
+                    {
+                        "__type" : "QteEventAni",
+                        "m_objType" : 0,
+                        "aniName"   : "kratos_qte_niutouren_2",
+                        "wrapMode"  : 8,
+                        "m_type"    : 1,
+                        "startTime" : 0.0102462768554688,
+                        "duration"  : 0.833000004291534
+                    },
+                    {
+                        "__type" : "QteEventAni",
+                        "m_objType" : 1,
+                        "aniName"   : "qte_niutouren_2",
+                        "wrapMode"  : 8,
+                        "m_type"    : 1,
+                        "startTime" : -1.19209289550781E-07,
+                        "duration"  : 0.833000004291534
+                    },
+                    {
+                        "__type" : "QteEventAni",
+                        "m_objType" : 2,
+                        "aniName"   : "cam_qte_niutouren_2",
+                        "wrapMode"  : 8,
+                        "m_type"    : 1,
+                        "startTime" : 0.0,
+                        "duration"  : 0.833000004291534
+                    },
+                    {
+                        "__type" : "QteEventOperate",
+                        "stageType" : 1,
+                        "totalNum"  : 100,
+                        "addNum"    : 10,
+                        "m_type"    : 0,
+                        "startTime" : 0.0144518911838531,
+                        "duration"  : 0.816491901874542
+                    }
+                ]
+            },
+            "loseInfo" : null
+        },
+        {
+            "idx" : 2,
+            "winInfo" : {
+                "duration" : 6.70404195785522,
+                "events"   : [
+                    {
+                        "__type" : "QteEventAni",
+                        "m_objType" : 0,
+                        "aniName"   : "kratos_qte_niutouren_3",
+                        "wrapMode"  : 8,
+                        "m_type"    : 1,
+                        "startTime" : -2.38418579101563E-07,
+                        "duration"  : 6.69999980926514
+                    },
+                    {
+                        "__type" : "QteEventAni",
+                        "m_objType" : 1,
+                        "aniName"   : "qte_niutouren_3",
+                        "wrapMode"  : 8,
+                        "m_type"    : 1,
+                        "startTime" : -2.38418579101563E-07,
+                        "duration"  : 6.69999980926514
+                    },
+                    {
+                        "__type" : "QteEventAni",
+                        "m_objType" : 2,
+                        "aniName"   : "cam_qte_niutouren_3",
+                        "wrapMode"  : 8,
+                        "m_type"    : 1,
+                        "startTime" : 1.19209289550781E-07,
+                        "duration"  : 6.69999980926514
+                    }
+                ]
+            },
+            "loseInfo" : {
+                "duration" : 2.15769338607788,
+                "events"   : [
+                    {
+                        "__type" : "QteEventAni",
+                        "m_objType" : 0,
+                        "aniName"   : "kratos_qte_niutouren_shibai01",
+                        "wrapMode"  : 8,
+                        "m_type"    : 1,
+                        "startTime" : 0.0,
+                        "duration"  : 2.15769338607788
+                    },
+                    {
+                        "__type" : "QteEventAni",
+                        "m_objType" : 1,
+                        "aniName"   : "qte_niutouren_shibai01",
+                        "wrapMode"  : 8,
+                        "m_type"    : 1,
+                        "startTime" : 0.0,
+                        "duration"  : 2.15769338607788
+                    },
+                    {
+                        "__type" : "QteEventAni",
+                        "m_objType" : 2,
+                        "aniName"   : "cam_qte_niutouren_shibai01",
+                        "wrapMode"  : 8,
+                        "m_type"    : 1,
+                        "startTime" : 0.0,
+                        "duration"  : 2.15769338607788
+                    },
+                    {
+                        "__type" : "QteEventGroup",
+                        "eventGroupId" : "qte_end_blur",
+                        "m_type"       : 4,
+                        "startTime"    : 1.50285708904266,
+                        "duration"     : 0.100000001490116
+                    }
+                ]
+            }
+        },
+        {
+            "idx" : 3,
+            "winInfo" : {
+                "duration" : 1.96945095062256,
+                "events"   : [
+                    {
+                        "__type" : "QteEventAni",
+                        "m_objType" : 0,
+                        "aniName"   : "kratos_qte_niutouren_4",
+                        "wrapMode"  : 8,
+                        "m_type"    : 1,
+                        "startTime" : 0.0,
+                        "duration"  : 1.96700000762939
+                    },
+                    {
+                        "__type" : "QteEventAni",
+                        "m_objType" : 1,
+                        "aniName"   : "qte_niutouren_4",
+                        "wrapMode"  : 8,
+                        "m_type"    : 1,
+                        "startTime" : 0.0,
+                        "duration"  : 1.96700000762939
+                    },
+                    {
+                        "__type" : "QteEventAni",
+                        "m_objType" : 2,
+                        "aniName"   : "cam_qte_niutouren_4",
+                        "wrapMode"  : 8,
+                        "m_type"    : 1,
+                        "startTime" : 0.0,
+                        "duration"  : 1.96943950653076
+                    },
+                    {
+                        "__type" : "QteEventOperate",
+                        "stageType" : 1,
+                        "totalNum"  : 100,
+                        "addNum"    : 10,
+                        "m_type"    : 0,
+                        "startTime" : 0.515833854675293,
+                        "duration"  : 1.0
+                    }
+                ]
+            },
+            "loseInfo" : null
+        },
+        {
+            "idx" : 4,
+            "winInfo" : {
+                "duration" : 3.32722473144531,
+                "events"   : [
+                    {
+                        "__type" : "QteEventAni",
+                        "m_objType" : 0,
+                        "aniName"   : "kratos_qte_niutouren_5",
+                        "wrapMode"  : 8,
+                        "m_type"    : 1,
+                        "startTime" : 0.0,
+                        "duration"  : 3.32722473144531
+                    },
+                    {
+                        "__type" : "QteEventAni",
+                        "m_objType" : 1,
+                        "aniName"   : "qte_niutouren_5",
+                        "wrapMode"  : 8,
+                        "m_type"    : 1,
+                        "startTime" : 0.0,
+                        "duration"  : 2.59999990463257
+                    },
+                    {
+                        "__type" : "QteEventAni",
+                        "m_objType" : 2,
+                        "aniName"   : "cam_qte_niutouren_5",
+                        "wrapMode"  : 8,
+                        "m_type"    : 1,
+                        "startTime" : 0.0,
+                        "duration"  : 3.32722473144531
+                    }
+                ]
+            },
+            "loseInfo" : {
+                "duration" : 3.32535934448242,
+                "events"   : [
+                    {
+                        "__type" : "QteEventAni",
+                        "m_objType" : 0,
+                        "aniName"   : "kratos_qte_niutouren_shibai02",
+                        "wrapMode"  : 8,
+                        "m_type"    : 1,
+                        "startTime" : 0.0,
+                        "duration"  : 3.32535934448242
+                    },
+                    {
+                        "__type" : "QteEventAni",
+                        "m_objType" : 1,
+                        "aniName"   : "qte_niutouren_shibai02",
+                        "wrapMode"  : 8,
+                        "m_type"    : 1,
+                        "startTime" : 0.0,
+                        "duration"  : 3.32535934448242
+                    },
+                    {
+                        "__type" : "QteEventAni",
+                        "m_objType" : 2,
+                        "aniName"   : "cam_qte_niutouren_shibai02",
+                        "wrapMode"  : 8,
+                        "m_type"    : 1,
+                        "startTime" : 0.0,
+                        "duration"  : 3.32535934448242
+                    },
+                    {
+                        "__type" : "QteEventGroup",
+                        "eventGroupId" : "qte_end_blur",
+                        "m_type"       : 4,
+                        "startTime"    : 2.64950370788574,
+                        "duration"     : 0.140000000596046
+                    }
+                ]
+            }
+        }
+    ]
+}

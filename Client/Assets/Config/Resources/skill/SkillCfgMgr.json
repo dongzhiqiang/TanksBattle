@@ -1,0 +1,310 @@
+﻿
+{
+    "eventGroups" : [
+        {
+            "file" : "event_group_00002"
+        },
+        {
+            "file" : "event_group_00003"
+        },
+        {
+            "file" : "zhuatou_zadi"
+        },
+        {
+            "file" : "fukong_zhuatou"
+        },
+        {
+            "file" : "zhuatou_feixing"
+        },
+        {
+            "file" : "chuizi_xuli_1"
+        },
+        {
+            "file" : "chuizi_xuli_2"
+        },
+        {
+            "file" : "chuizi_xuli_3"
+        },
+        {
+            "file" : "boss_taitan_xuanyun"
+        },
+        {
+            "file" : "boss_taitan_zhaoguai"
+        },
+        {
+            "file" : "boss_taitan_shaguai"
+        },
+        {
+            "file" : "boss_taitan_shanghai"
+        },
+        {
+            "file" : "boss_taitan_shanghai_tou"
+        },
+        {
+            "file" : "shuxing_huo_big"
+        },
+        {
+            "file" : "shuxing_huo_small"
+        },
+        {
+            "file" : "shuxing_ming_big"
+        },
+        {
+            "file" : "shuxing_ming_small"
+        },
+        {
+            "file" : "shuxing_bing_big"
+        },
+        {
+            "file" : "shuxing_bing_small"
+        },
+        {
+            "file" : "shuxing_lei_big"
+        },
+        {
+            "file" : "shuxing_lei_small"
+        },
+        {
+            "file" : "gedang_pofang"
+        },
+        {
+            "file" : "dunmao_jineng02_xuli_1"
+        },
+        {
+            "file" : "zsz_mdy_01_3_1"
+        },
+        {
+            "file" : "zsz_mdy_01_3_2"
+        },
+        {
+            "file" : "dunmao_jineng03_xuli_1"
+        },
+        {
+            "file" : "zsz_suiji_01"
+        }
+    ],
+    "flyers"      : [
+        {
+            "file" : "flyer_gongjian"
+        },
+        {
+            "file" : "flyer_gongjian_chu"
+        },
+        {
+            "file" : "flyer_zuzhouzhijian_chu"
+        },
+        {
+            "file" : "flyer_zuzhouzhijian"
+        },
+        {
+            "file" : "flyer_fashi_gongji01_chu"
+        },
+        {
+            "file" : "flyer_fashi_gongji01"
+        },
+        {
+            "file" : "flyer_fashixiaoguai_pugong"
+        },
+        {
+            "file" : "flyer_xiaobing03_siwanghuhuan"
+        },
+        {
+            "file" : "flyer_xuanfengzhan"
+        },
+        {
+            "file" : "flyer_xuanfengzhan_fukong"
+        },
+        {
+            "file" : "flyer_wudizhan_huoqiang"
+        },
+        {
+            "file" : "fukong_zhuatou_zadi"
+        },
+        {
+            "file" : "flyer_chongzhuang_reng"
+        },
+        {
+            "file" : "flyer_xiezi_pengdu"
+        },
+        {
+            "file" : "flyer_anheinvshen_gongji01"
+        },
+        {
+            "file" : "flyer_anheinvshen_minjieguihuan"
+        },
+        {
+            "file" : "flyer_anheinvshen_siwanghuanshao"
+        },
+        {
+            "file" : "flyer_anheinvshen_xianxuejidian"
+        },
+        {
+            "file" : "flyer_diyuquan_huoyandan"
+        },
+        {
+            "file" : "flyer_fashiyujing_01"
+        },
+        {
+            "file" : "flyer_gongjian_tuowei"
+        },
+        {
+            "file" : "flyer_gongjian_zuzhoutuowei"
+        },
+        {
+            "file" : "flyer_gongjianshou_texiao"
+        },
+        {
+            "file" : "flyer_manzufashi_fagong01"
+        },
+        {
+            "file" : "flyer_manzufashigongji"
+        },
+        {
+            "file" : "flyer_manzugongbing_gongji01"
+        },
+        {
+            "file" : "flyer_manzugongjianbing_dujian01"
+        },
+        {
+            "file" : "flyer_tuxi02"
+        },
+        {
+            "file" : "flyer_gunshi"
+        },
+        {
+            "file" : "flyer_taitangunshi"
+        },
+        {
+            "file" : "flyer_guankayunshi"
+        },
+        {
+            "file" : "flyer_xj_01_duqi"
+        },
+        {
+            "file" : "flyer_xj_duqi"
+        },
+        {
+            "file" : "flyer_guankayunshi_shanghai"
+        },
+        {
+            "file" : "flyer_2_3yunshi"
+        },
+        {
+            "file" : "flyer_level_end"
+        },
+        {
+            "file" : "flyer_tiaoza_guihun"
+        },
+        {
+            "file" : "flyer_tiaoza_guihun1"
+        },
+        {
+            "file" : "flyer_tiaoza_guihun2"
+        },
+        {
+            "file" : "flyer_nuchegongji_01"
+        },
+        {
+            "file" : "flyer_nuchegongji_shanghai_01"
+        },
+        {
+            "file" : "flyer_1_1yunshi"
+        },
+        {
+            "file" : "flyer_1_1yunshishanghai"
+        },
+        {
+            "file" : "flyer_aboluo_gongji01"
+        },
+        {
+            "file" : "flyer_aboluo_huoyanshenjian"
+        },
+        {
+            "file" : "flyer_aboluo_jianyuliuxing_yujin"
+        },
+        {
+            "file" : "flyer_aboluo_jianyuliuxing_hit"
+        },
+        {
+            "file" : "flyer_aboluo_jianyuliuxing_yujin2"
+        },
+        {
+            "file" : "flyer_aboluo_duochongsheji"
+        },
+        {
+            "file" : "flyer_aboluo_duochongsheji_fei"
+        },
+        {
+            "file" : "flyer_hadisi_feihun"
+        },
+        {
+            "file" : "flyer_xiezi_pengdu_shanghai"
+        },
+        {
+            "file" : "flyer_cw_9_gongji01"
+        },
+        {
+            "file" : "flyer_cw_9_haiyaoqiangxi"
+        },
+        {
+            "file" : "flyer_jiechuxiaohui_jy_04"
+        },
+        {
+            "file" : "flyer_hadisi_sicongdichu02_xiaohui"
+        },
+        {
+            "file" : "flyer_hadisi_heianzhebi_hit"
+        },
+        {
+            "file" : "flyer_cw_9_shufuxuanwo"
+        },
+        {
+            "file" : "flyer_cw_1_leiguangdan"
+        },
+        {
+            "file" : "flyer_zhousi_zhaohuanfenshen_2"
+        },
+        {
+            "file" : "flyer_cw_1_chongci1"
+        },
+        {
+            "file" : "flyer_xb_09_1"
+        },
+        {
+            "file" : "flyer_xb_09_02"
+        },
+        {
+            "file" : "flyer_xiezi_pengdu_yujing"
+        },
+        {
+            "file" : "flyer_xiezi_longjuanfeng"
+        },
+        {
+            "file" : "flyer_cw_2_gongji01"
+        },
+        {
+            "file" : "flyer_shenqi_shandianhuo"
+        },
+        {
+            "file" : "flyer_shenqi_shuilongjuan"
+        },
+        {
+            "file" : "flyer_zsz_zhaohuanfazhen"
+        },
+        {
+            "file" : "flyer_yuansuchuanci_mao_dm"
+        },
+        {
+            "file" : "flyer_chuanci_dm_baoza_bing"
+        },
+        {
+            "file" : "flyer_touzhi_dm_baoza"
+        },
+        {
+            "file" : "flyer_jineng03_fukong_baozha_dm"
+        },
+        {
+            "file" : "flyer_jineng03_fukong_baozha1_dm"
+        }
+    ]
+}

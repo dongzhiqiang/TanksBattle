@@ -1,0 +1,250 @@
+﻿
+{
+    "nodeCounter" : 14,
+    "trees"       : [
+        {
+            "name" : "塔利亚找主角",
+            "expand" : true,
+            "root"   : {
+                "__type" : "Simple.BehaviorTree.SequenceCfg",
+                "children" : [
+                    {
+                        "__type" : "Simple.BehaviorTree.IsRoleStateCfg",
+                        "role"   : {
+                            "__type" : "Simple.BehaviorTree.ValueRole",
+                            "roleType" : 1,
+                            "name"     : "",
+                            "region"   : 0,
+                            "type"     : 6
+                        },
+                        "states" : "空闲|移动",
+                        "interrupt" : 0,
+                        "resetTreeWhenInterrupt" : false,
+                        "id"                     : 3,
+                        "ingore"                 : false,
+                        "showNote"               : false,
+                        "resetTempValueIfEnable" : true,
+                        "note"                   : "",
+                        "localPos"               : {
+                            "x" : -150.0,
+                            "y" : 130.0
+                        }
+                    },
+                    {
+                        "__type" : "Simple.BehaviorTree.SetRoleCfg",
+                        "find"   : {
+                            "__type" : "Simple.BehaviorTree.ValueRole",
+                            "roleType" : 4,
+                            "name"     : "",
+                            "region"   : 0,
+                            "type"     : 6
+                        },
+                        "targetVal" : {
+                            "__type" : "Simple.BehaviorTree.ValueRole",
+                            "roleType" : 1,
+                            "name"     : "主角",
+                            "region"   : 1,
+                            "type"     : 6
+                        },
+                        "notRefindIfExist" : {
+                            "__type" : "Simple.BehaviorTree.Value`1[System.Boolean]",
+                            "v"      : true,
+                            "name"   : "",
+                            "region" : 0,
+                            "type"   : 2
+                        },
+                        "interrupt"        : 0,
+                        "resetTreeWhenInterrupt" : false,
+                        "id"                     : 4,
+                        "ingore"                 : false,
+                        "showNote"               : false,
+                        "resetTempValueIfEnable" : true,
+                        "note"                   : "",
+                        "localPos"               : {
+                            "x" : -40.0,
+                            "y" : 130.0
+                        }
+                    },
+                    {
+                        "__type" : "Simple.BehaviorTree.RoleAniCfg",
+                        "param"  : "kuqi:循环:2",
+                        "errorIfNoFindAni" : true,
+                        "id"               : 13,
+                        "ingore"           : false,
+                        "showNote"         : false,
+                        "resetTempValueIfEnable" : true,
+                        "note"                   : "",
+                        "localPos"               : {
+                            "x" : 70.0,
+                            "y" : 130.0
+                        }
+                    },
+                    {
+                        "__type" : "Simple.BehaviorTree.KeepDistanceCfg",
+                        "target" : {
+                            "__type" : "Simple.BehaviorTree.ValueRole",
+                            "roleType" : 4,
+                            "name"     : "",
+                            "region"   : 0,
+                            "type"     : 6
+                        },
+                        "dis1"   : 1.0,
+                        "dis2"   : 2.0,
+                        "angle1" : 0.0,
+                        "angle2" : 0.0,
+                        "keepIfTargetMove" : true,
+                        "id"               : 5,
+                        "ingore"           : false,
+                        "showNote"         : false,
+                        "resetTempValueIfEnable" : true,
+                        "note"                   : "",
+                        "localPos"               : {
+                            "x" : 190.0,
+                            "y" : 130.0
+                        }
+                    }
+                ],
+                "expandChild" : true,
+                "id"          : 2,
+                "ingore"      : false,
+                "showNote"    : false,
+                "resetTempValueIfEnable" : true,
+                "note"                   : "",
+                "localPos"               : {
+                    "x" : 1760.0,
+                    "y" : 1770.0
+                }
+            },
+            "valueMgrCfg" : {
+                "m_value" : [
+                    {
+                        "__type" : "Simple.BehaviorTree.ValueRole",
+                        "roleType" : 1,
+                        "name"     : "主角",
+                        "region"   : 0,
+                        "type"     : 6
+                    }
+                ]
+            }
+        },
+        {
+            "name" : "塔利亚盯着主角",
+            "expand" : true,
+            "root"   : {
+                "__type" : "Simple.BehaviorTree.SequenceCfg",
+                "children" : [
+                    {
+                        "__type" : "Simple.BehaviorTree.IsRoleStateCfg",
+                        "role"   : {
+                            "__type" : "Simple.BehaviorTree.ValueRole",
+                            "roleType" : 1,
+                            "name"     : "",
+                            "region"   : 0,
+                            "type"     : 6
+                        },
+                        "states" : "空闲|移动|包围|战斗|动作序列",
+                        "interrupt" : 0,
+                        "resetTreeWhenInterrupt" : false,
+                        "id"                     : 8,
+                        "ingore"                 : false,
+                        "showNote"               : false,
+                        "resetTempValueIfEnable" : true,
+                        "note"                   : "",
+                        "localPos"               : {
+                            "x" : -210.0,
+                            "y" : 130.0
+                        }
+                    },
+                    {
+                        "__type" : "Simple.BehaviorTree.SetRoleCfg",
+                        "find"   : {
+                            "__type" : "Simple.BehaviorTree.ValueRole",
+                            "roleType" : 4,
+                            "name"     : "",
+                            "region"   : 0,
+                            "type"     : 6
+                        },
+                        "targetVal" : {
+                            "__type" : "Simple.BehaviorTree.ValueRole",
+                            "roleType" : 1,
+                            "name"     : "主角",
+                            "region"   : 1,
+                            "type"     : 6
+                        },
+                        "notRefindIfExist" : {
+                            "__type" : "Simple.BehaviorTree.Value`1[System.Boolean]",
+                            "v"      : true,
+                            "name"   : "",
+                            "region" : 0,
+                            "type"   : 2
+                        },
+                        "interrupt"        : 0,
+                        "resetTreeWhenInterrupt" : false,
+                        "id"                     : 14,
+                        "ingore"                 : false,
+                        "showNote"               : false,
+                        "resetTempValueIfEnable" : true,
+                        "note"                   : "",
+                        "localPos"               : {
+                            "x" : -70.0,
+                            "y" : 130.0
+                        }
+                    },
+                    {
+                        "__type" : "Simple.BehaviorTree.RoundCfg",
+                        "target" : {
+                            "__type" : "Simple.BehaviorTree.ValueRole",
+                            "roleType" : 4,
+                            "name"     : "主角",
+                            "region"   : 0,
+                            "type"     : 6
+                        },
+                        "type"   : 6,
+                        "round1" : 1.0,
+                        "round2" : 1.0,
+                        "run"    : 1.0,
+                        "speedRate" : 0.5,
+                        "angle1"    : 20.0,
+                        "angle2"    : 40.0,
+                        "look1"     : 10.0,
+                        "look2"     : 20.0,
+                        "id"        : 9,
+                        "ingore"    : false,
+                        "showNote"  : false,
+                        "resetTempValueIfEnable" : true,
+                        "note"                   : "",
+                        "localPos"               : {
+                            "x" : 150.0,
+                            "y" : 130.0
+                        }
+                    }
+                ],
+                "expandChild" : true,
+                "id"          : 7,
+                "ingore"      : false,
+                "showNote"    : false,
+                "resetTempValueIfEnable" : true,
+                "note"                   : "",
+                "localPos"               : {
+                    "x" : 1810.0,
+                    "y" : 2070.0
+                }
+            },
+            "valueMgrCfg" : {
+                "m_value" : [
+                    {
+                        "__type" : "Simple.BehaviorTree.ValueRole",
+                        "roleType" : 1,
+                        "name"     : "主角",
+                        "region"   : 0,
+                        "type"     : 6
+                    }
+                ]
+            }
+        }
+    ],
+    "names"       : [
+        "塔利亚找主角",
+        "塔利亚盯着主角"
+    ]
+}

@@ -1,0 +1,42 @@
+﻿
+{
+    "storyList" : [
+        {
+            "__type" : "StoryTalkCfg",
+            "roleId" : "yadianna",
+            "content" : "斯巴达人，你总算来了。",
+            "localIdx" : 0,
+            "soundId"  : 0,
+            "type"     : 0,
+            "time"     : 2
+        },
+        {
+            "__type" : "StoryTalkCfg",
+            "roleId" : "kratos",
+            "content" : "雅典娜？你为何在这里？",
+            "localIdx" : 1,
+            "soundId"  : 0,
+            "type"     : 0,
+            "time"     : 2
+        },
+        {
+            "__type" : "StoryTalkCfg",
+            "roleId" : "yadianna",
+            "content" : "任何侵略希腊的行动我都不能容忍！所以我帮你抵挡了一阵波斯军，接下来斯巴达城就交给你了。",
+            "localIdx" : 0,
+            "soundId"  : 0,
+            "type"     : 0,
+            "time"     : 4
+        },
+        {
+            "__type" : "StoryTalkCfg",
+            "roleId" : "kratos",
+            "content" : "我会让他们好好尝尝失败的滋味的！",
+            "localIdx" : 1,
+            "soundId"  : 0,
+            "type"     : 0,
+            "time"     : 2
+        }
+    ],
+    "canSpeed"  : true
+}

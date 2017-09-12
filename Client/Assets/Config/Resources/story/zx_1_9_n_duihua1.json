@@ -1,0 +1,42 @@
+﻿
+{
+    "storyList" : [
+        {
+            "__type" : "StoryTalkCfg",
+            "roleId" : "xiaobing",
+            "content" : "主人，温泉关就在前面。",
+            "localIdx" : 0,
+            "soundId"  : 0,
+            "type"     : 0,
+            "time"     : 2
+        },
+        {
+            "__type" : "StoryTalkCfg",
+            "roleId" : "kratos",
+            "content" : "准备好武器，我要让这些波斯走狗付出代价！",
+            "localIdx" : 1,
+            "soundId"  : 0,
+            "type"     : 0,
+            "time"     : 3
+        },
+        {
+            "__type" : "StoryTalkCfg",
+            "roleId" : "xiaobing",
+            "content" : "不好，那是波斯兵的营帐！薛西斯的手下企图埋伏在这险峻的山崖上，对我们致以重击……",
+            "localIdx" : 0,
+            "soundId"  : 0,
+            "type"     : 0,
+            "time"     : 5
+        },
+        {
+            "__type" : "StoryTalkCfg",
+            "roleId" : "kratos",
+            "content" : "毁了他们的营帐，用他们的尸体给温泉关铺路！",
+            "localIdx" : 1,
+            "soundId"  : 0,
+            "type"     : 0,
+            "time"     : 3
+        }
+    ],
+    "canSpeed"  : true
+}

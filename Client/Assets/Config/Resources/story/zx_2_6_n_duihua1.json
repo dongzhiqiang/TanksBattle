@@ -1,0 +1,42 @@
+﻿
+{
+    "storyList" : [
+        {
+            "__type" : "StoryTalkCfg",
+            "roleId" : "xiaobing",
+            "content" : "这里是……色雷斯人的领土，主人为何来此？",
+            "localIdx" : 0,
+            "soundId"  : 0,
+            "type"     : 0,
+            "time"     : 4
+        },
+        {
+            "__type" : "StoryTalkCfg",
+            "roleId" : "kratos",
+            "content" : "色雷斯人轻视阿瑞斯，该死！",
+            "localIdx" : 1,
+            "soundId"  : 0,
+            "type"     : 0,
+            "time"     : 4
+        },
+        {
+            "__type" : "StoryTalkCfg",
+            "roleId" : "xiaobing",
+            "content" : "确实，对于阿瑞斯来说，他们是可怕的异教徒。",
+            "localIdx" : 0,
+            "soundId"  : 0,
+            "type"     : 0,
+            "time"     : 4
+        },
+        {
+            "__type" : "StoryTalkCfg",
+            "roleId" : "kratos",
+            "content" : "阿瑞斯助我消灭薛西斯，重振斯巴达，阿瑞斯的敌人就是我斯巴达的敌人！",
+            "localIdx" : 1,
+            "soundId"  : 0,
+            "type"     : 0,
+            "time"     : 6
+        }
+    ],
+    "canSpeed"  : true
+}

@@ -1,0 +1,15 @@
+﻿
+{
+    "storyList" : [
+        {
+            "__type" : "StoryTalkCfg",
+            "roleId" : "meidiya",
+            "content" : "斯巴达人，从此刻起，黑暗之力为你所用！",
+            "localIdx" : 1,
+            "soundId"  : 0,
+            "type"     : 0,
+            "time"     : 4
+        }
+    ],
+    "canSpeed"  : true
+}

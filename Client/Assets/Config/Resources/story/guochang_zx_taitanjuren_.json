@@ -1,0 +1,15 @@
+﻿
+{
+    "storyList" : [
+        {
+            "__type" : "StoryMovieCfg",
+            "movieId" : "G_taitangjuren_01",
+            "prefab"  : "G_taitangjuren",
+            "isLoop"  : false,
+            "soundId" : 0,
+            "type"    : 1,
+            "time"    : 0
+        }
+    ],
+    "canSpeed"  : true
+}

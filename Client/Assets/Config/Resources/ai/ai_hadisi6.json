@@ -1,0 +1,839 @@
+﻿
+{
+    "nodeCounter" : 112,
+    "trees"       : [
+        {
+            "name" : "小地狱犬",
+            "expand" : true,
+            "root"   : {
+                "__type" : "Simple.BehaviorTree.SequenceCfg",
+                "children" : [
+                    {
+                        "__type" : "Simple.BehaviorTree.IsRoleStateCfg",
+                        "role"   : {
+                            "__type" : "Simple.BehaviorTree.ValueRole",
+                            "roleType" : 1,
+                            "name"     : "",
+                            "region"   : 0,
+                            "type"     : 6
+                        },
+                        "states" : "空闲|移动|战斗|包围",
+                        "interrupt" : 2,
+                        "resetTreeWhenInterrupt" : false,
+                        "id"                     : 5,
+                        "ingore"                 : false,
+                        "showNote"               : false,
+                        "resetTempValueIfEnable" : true,
+                        "note"                   : "",
+                        "localPos"               : {
+                            "x" : -1010.0,
+                            "y" : 110.0
+                        }
+                    },
+                    {
+                        "__type" : "Simple.BehaviorTree.PatrolCfg",
+                        "beginType" : 1,
+                        "type"      : 0,
+                        "range"     : {
+                            "__type" : "Simple.BehaviorTree.Value`1[System.Single]",
+                            "v"      : 1.0,
+                            "name"   : "",
+                            "region" : 0,
+                            "type"   : 1
+                        },
+                        "posName"   : "down3",
+                        "id"        : 111,
+                        "ingore"    : false,
+                        "showNote"  : false,
+                        "resetTempValueIfEnable" : true,
+                        "note"                   : "",
+                        "localPos"               : {
+                            "x" : -810.0,
+                            "y" : 130.0
+                        }
+                    },
+                    {
+                        "__type" : "Simple.BehaviorTree.SelectorCfg",
+                        "children" : [
+                            {
+                                "__type" : "Simple.BehaviorTree.SequenceCfg",
+                                "children" : [
+                                    {
+                                        "__type" : "Simple.BehaviorTree.CompareRoleCfg",
+                                        "v1"     : {
+                                            "__type" : "Simple.BehaviorTree.ValueRole",
+                                            "roleType" : 0,
+                                            "name"     : "",
+                                            "region"   : 0,
+                                            "type"     : 6
+                                        },
+                                        "v2"     : {
+                                            "__type" : "Simple.BehaviorTree.ValueRole",
+                                            "roleType" : 1,
+                                            "name"     : "血球",
+                                            "region"   : 1,
+                                            "type"     : 6
+                                        },
+                                        "comp"   : 1,
+                                        "ret"    : {
+                                            "__type" : "Simple.BehaviorTree.Value`1[System.Boolean]",
+                                            "v"      : false,
+                                            "name"   : "",
+                                            "region" : 0,
+                                            "type"   : 2
+                                        },
+                                        "alwaysSuccess" : false,
+                                        "interrupt"     : 0,
+                                        "resetTreeWhenInterrupt" : false,
+                                        "id"                     : 71,
+                                        "ingore"                 : false,
+                                        "showNote"               : false,
+                                        "resetTempValueIfEnable" : true,
+                                        "note"                   : "",
+                                        "localPos"               : {
+                                            "x" : -230.0,
+                                            "y" : 120.0
+                                        }
+                                    },
+                                    {
+                                        "__type" : "Simple.BehaviorTree.GetRoleFlagCfg",
+                                        "r"      : {
+                                            "__type" : "Simple.BehaviorTree.ValueRole",
+                                            "roleType" : 1,
+                                            "name"     : "血球",
+                                            "region"   : 1,
+                                            "type"     : 6
+                                        },
+                                        "flag"   : "舔舐",
+                                        "ret"    : {
+                                            "__type" : "Simple.BehaviorTree.Value`1[System.Int32]",
+                                            "v"      : 0,
+                                            "name"   : "舔舐计数",
+                                            "region" : 1,
+                                            "type"   : 0
+                                        },
+                                        "interrupt" : 0,
+                                        "resetTreeWhenInterrupt" : false,
+                                        "id"                     : 101,
+                                        "ingore"                 : false,
+                                        "showNote"               : false,
+                                        "resetTempValueIfEnable" : true,
+                                        "note"                   : "",
+                                        "localPos"               : {
+                                            "x" : -100.0,
+                                            "y" : 160.0
+                                        }
+                                    },
+                                    {
+                                        "__type" : "Simple.BehaviorTree.CompareIntCfg",
+                                        "v1"     : {
+                                            "__type" : "Simple.BehaviorTree.Value`1[System.Int32]",
+                                            "v"      : 0,
+                                            "name"   : "舔舐计数",
+                                            "region" : 1,
+                                            "type"   : 0
+                                        },
+                                        "v2"     : {
+                                            "__type" : "Simple.BehaviorTree.Value`1[System.Int32]",
+                                            "v"      : 0,
+                                            "name"   : "舔舐限制",
+                                            "region" : 1,
+                                            "type"   : 0
+                                        },
+                                        "comp"   : 3,
+                                        "ret"    : {
+                                            "__type" : "Simple.BehaviorTree.Value`1[System.Boolean]",
+                                            "v"      : false,
+                                            "name"   : "",
+                                            "region" : 0,
+                                            "type"   : 2
+                                        },
+                                        "alwaysSuccess" : false,
+                                        "interrupt"     : 0,
+                                        "resetTreeWhenInterrupt" : false,
+                                        "id"                     : 74,
+                                        "ingore"                 : false,
+                                        "showNote"               : false,
+                                        "resetTempValueIfEnable" : true,
+                                        "note"                   : "",
+                                        "localPos"               : {
+                                            "x" : 30.0,
+                                            "y" : 140.0
+                                        }
+                                    }
+                                ],
+                                "expandChild" : true,
+                                "id"          : 77,
+                                "ingore"      : false,
+                                "showNote"    : true,
+                                "resetTempValueIfEnable" : true,
+                                "note"                   : "如果血球不为空，且舔舐计数还有剩下",
+                                "localPos"               : {
+                                    "x" : -760.0,
+                                    "y" : 210.0
+                                }
+                            },
+                            {
+                                "__type" : "Simple.BehaviorTree.SequenceCfg",
+                                "children" : [
+                                    {
+                                        "__type" : "Simple.BehaviorTree.FindRoleByFlagCfg",
+                                        "flag"   : "xueqiu",
+                                        "ret"    : {
+                                            "__type" : "Simple.BehaviorTree.ValueRole",
+                                            "roleType" : 1,
+                                            "name"     : "血球",
+                                            "region"   : 1,
+                                            "type"     : 6
+                                        },
+                                        "notRefindIfExist" : false,
+                                        "orderType"        : 1,
+                                        "interrupt"        : 0,
+                                        "resetTreeWhenInterrupt" : false,
+                                        "id"                     : 82,
+                                        "ingore"                 : false,
+                                        "showNote"               : false,
+                                        "resetTempValueIfEnable" : true,
+                                        "note"                   : "",
+                                        "localPos"               : {
+                                            "x" : -100.0,
+                                            "y" : 140.0
+                                        }
+                                    },
+                                    {
+                                        "__type" : "Simple.BehaviorTree.GetRoleFlagCfg",
+                                        "r"      : {
+                                            "__type" : "Simple.BehaviorTree.ValueRole",
+                                            "roleType" : 1,
+                                            "name"     : "血球",
+                                            "region"   : 1,
+                                            "type"     : 6
+                                        },
+                                        "flag"   : "舔舐",
+                                        "ret"    : {
+                                            "__type" : "Simple.BehaviorTree.Value`1[System.Int32]",
+                                            "v"      : 0,
+                                            "name"   : "舔舐计数",
+                                            "region" : 1,
+                                            "type"   : 0
+                                        },
+                                        "interrupt" : 0,
+                                        "resetTreeWhenInterrupt" : false,
+                                        "id"                     : 102,
+                                        "ingore"                 : false,
+                                        "showNote"               : false,
+                                        "resetTempValueIfEnable" : true,
+                                        "note"                   : "",
+                                        "localPos"               : {
+                                            "x" : 40.0,
+                                            "y" : 180.0
+                                        }
+                                    },
+                                    {
+                                        "__type" : "Simple.BehaviorTree.CompareIntCfg",
+                                        "v1"     : {
+                                            "__type" : "Simple.BehaviorTree.Value`1[System.Int32]",
+                                            "v"      : 0,
+                                            "name"   : "舔舐计数",
+                                            "region" : 1,
+                                            "type"   : 0
+                                        },
+                                        "v2"     : {
+                                            "__type" : "Simple.BehaviorTree.Value`1[System.Int32]",
+                                            "v"      : 0,
+                                            "name"   : "舔舐限制",
+                                            "region" : 1,
+                                            "type"   : 0
+                                        },
+                                        "comp"   : 3,
+                                        "ret"    : {
+                                            "__type" : "Simple.BehaviorTree.Value`1[System.Boolean]",
+                                            "v"      : false,
+                                            "name"   : "",
+                                            "region" : 0,
+                                            "type"   : 2
+                                        },
+                                        "alwaysSuccess" : false,
+                                        "interrupt"     : 0,
+                                        "resetTreeWhenInterrupt" : false,
+                                        "id"                     : 80,
+                                        "ingore"                 : false,
+                                        "showNote"               : false,
+                                        "resetTempValueIfEnable" : true,
+                                        "note"                   : "",
+                                        "localPos"               : {
+                                            "x" : 160.0,
+                                            "y" : 200.0
+                                        }
+                                    }
+                                ],
+                                "expandChild" : true,
+                                "id"          : 79,
+                                "ingore"      : false,
+                                "showNote"    : true,
+                                "resetTempValueIfEnable" : true,
+                                "note"                   : "寻找第一个血球，且舔舐计数还有剩下",
+                                "localPos"               : {
+                                    "x" : -450.0,
+                                    "y" : 210.0
+                                }
+                            },
+                            {
+                                "__type" : "Simple.BehaviorTree.SequenceCfg",
+                                "children" : [
+                                    {
+                                        "__type" : "Simple.BehaviorTree.FindRoleByFlagCfg",
+                                        "flag"   : "xueqiu",
+                                        "ret"    : {
+                                            "__type" : "Simple.BehaviorTree.ValueRole",
+                                            "roleType" : 1,
+                                            "name"     : "血球",
+                                            "region"   : 1,
+                                            "type"     : 6
+                                        },
+                                        "notRefindIfExist" : false,
+                                        "orderType"        : 1,
+                                        "interrupt"        : 0,
+                                        "resetTreeWhenInterrupt" : false,
+                                        "id"                     : 86,
+                                        "ingore"                 : false,
+                                        "showNote"               : false,
+                                        "resetTempValueIfEnable" : true,
+                                        "note"                   : "",
+                                        "localPos"               : {
+                                            "x" : -100.0,
+                                            "y" : 110.0
+                                        }
+                                    },
+                                    {
+                                        "__type" : "Simple.BehaviorTree.GetRoleFlagCfg",
+                                        "r"      : {
+                                            "__type" : "Simple.BehaviorTree.ValueRole",
+                                            "roleType" : 1,
+                                            "name"     : "血球",
+                                            "region"   : 1,
+                                            "type"     : 6
+                                        },
+                                        "flag"   : "舔舐",
+                                        "ret"    : {
+                                            "__type" : "Simple.BehaviorTree.Value`1[System.Int32]",
+                                            "v"      : 0,
+                                            "name"   : "舔舐计数",
+                                            "region" : 1,
+                                            "type"   : 0
+                                        },
+                                        "interrupt" : 0,
+                                        "resetTreeWhenInterrupt" : false,
+                                        "id"                     : 103,
+                                        "ingore"                 : false,
+                                        "showNote"               : false,
+                                        "resetTempValueIfEnable" : true,
+                                        "note"                   : "",
+                                        "localPos"               : {
+                                            "x" : 0.0,
+                                            "y" : 110.0
+                                        }
+                                    },
+                                    {
+                                        "__type" : "Simple.BehaviorTree.CompareIntCfg",
+                                        "v1"     : {
+                                            "__type" : "Simple.BehaviorTree.Value`1[System.Int32]",
+                                            "v"      : 0,
+                                            "name"   : "舔舐计数",
+                                            "region" : 1,
+                                            "type"   : 0
+                                        },
+                                        "v2"     : {
+                                            "__type" : "Simple.BehaviorTree.Value`1[System.Int32]",
+                                            "v"      : 0,
+                                            "name"   : "舔舐限制",
+                                            "region" : 1,
+                                            "type"   : 0
+                                        },
+                                        "comp"   : 3,
+                                        "ret"    : {
+                                            "__type" : "Simple.BehaviorTree.Value`1[System.Boolean]",
+                                            "v"      : false,
+                                            "name"   : "",
+                                            "region" : 0,
+                                            "type"   : 2
+                                        },
+                                        "alwaysSuccess" : false,
+                                        "interrupt"     : 0,
+                                        "resetTreeWhenInterrupt" : false,
+                                        "id"                     : 84,
+                                        "ingore"                 : false,
+                                        "showNote"               : false,
+                                        "resetTempValueIfEnable" : true,
+                                        "note"                   : "",
+                                        "localPos"               : {
+                                            "x" : 110.0,
+                                            "y" : 110.0
+                                        }
+                                    }
+                                ],
+                                "expandChild" : true,
+                                "id"          : 83,
+                                "ingore"      : false,
+                                "showNote"    : true,
+                                "resetTempValueIfEnable" : true,
+                                "note"                   : "寻找第2个血球，且舔舐计数还有剩下",
+                                "localPos"               : {
+                                    "x" : -60.0,
+                                    "y" : 270.0
+                                }
+                            },
+                            {
+                                "__type" : "Simple.BehaviorTree.SequenceCfg",
+                                "children" : [
+                                    {
+                                        "__type" : "Simple.BehaviorTree.FindRoleByFlagCfg",
+                                        "flag"   : "xueqiu",
+                                        "ret"    : {
+                                            "__type" : "Simple.BehaviorTree.ValueRole",
+                                            "roleType" : 1,
+                                            "name"     : "血球",
+                                            "region"   : 1,
+                                            "type"     : 6
+                                        },
+                                        "notRefindIfExist" : false,
+                                        "orderType"        : 1,
+                                        "interrupt"        : 0,
+                                        "resetTreeWhenInterrupt" : false,
+                                        "id"                     : 90,
+                                        "ingore"                 : false,
+                                        "showNote"               : false,
+                                        "resetTempValueIfEnable" : true,
+                                        "note"                   : "",
+                                        "localPos"               : {
+                                            "x" : -100.0,
+                                            "y" : 110.0
+                                        }
+                                    },
+                                    {
+                                        "__type" : "Simple.BehaviorTree.GetRoleFlagCfg",
+                                        "r"      : {
+                                            "__type" : "Simple.BehaviorTree.ValueRole",
+                                            "roleType" : 1,
+                                            "name"     : "血球",
+                                            "region"   : 1,
+                                            "type"     : 6
+                                        },
+                                        "flag"   : "舔舐",
+                                        "ret"    : {
+                                            "__type" : "Simple.BehaviorTree.Value`1[System.Int32]",
+                                            "v"      : 0,
+                                            "name"   : "舔舐计数",
+                                            "region" : 1,
+                                            "type"   : 0
+                                        },
+                                        "interrupt" : 0,
+                                        "resetTreeWhenInterrupt" : false,
+                                        "id"                     : 104,
+                                        "ingore"                 : false,
+                                        "showNote"               : false,
+                                        "resetTempValueIfEnable" : true,
+                                        "note"                   : "",
+                                        "localPos"               : {
+                                            "x" : 0.0,
+                                            "y" : 110.0
+                                        }
+                                    },
+                                    {
+                                        "__type" : "Simple.BehaviorTree.CompareIntCfg",
+                                        "v1"     : {
+                                            "__type" : "Simple.BehaviorTree.Value`1[System.Int32]",
+                                            "v"      : 0,
+                                            "name"   : "舔舐计数",
+                                            "region" : 1,
+                                            "type"   : 0
+                                        },
+                                        "v2"     : {
+                                            "__type" : "Simple.BehaviorTree.Value`1[System.Int32]",
+                                            "v"      : 0,
+                                            "name"   : "舔舐限制",
+                                            "region" : 1,
+                                            "type"   : 0
+                                        },
+                                        "comp"   : 3,
+                                        "ret"    : {
+                                            "__type" : "Simple.BehaviorTree.Value`1[System.Boolean]",
+                                            "v"      : false,
+                                            "name"   : "",
+                                            "region" : 0,
+                                            "type"   : 2
+                                        },
+                                        "alwaysSuccess" : false,
+                                        "interrupt"     : 0,
+                                        "resetTreeWhenInterrupt" : false,
+                                        "id"                     : 88,
+                                        "ingore"                 : false,
+                                        "showNote"               : false,
+                                        "resetTempValueIfEnable" : true,
+                                        "note"                   : "",
+                                        "localPos"               : {
+                                            "x" : 110.0,
+                                            "y" : 110.0
+                                        }
+                                    }
+                                ],
+                                "expandChild" : true,
+                                "id"          : 87,
+                                "ingore"      : false,
+                                "showNote"    : true,
+                                "resetTempValueIfEnable" : true,
+                                "note"                   : "寻找第3个血球，且舔舐计数还有剩下",
+                                "localPos"               : {
+                                    "x" : 280.0,
+                                    "y" : 380.0
+                                }
+                            }
+                        ],
+                        "expandChild" : true,
+                        "id"          : 69,
+                        "ingore"      : false,
+                        "showNote"    : true,
+                        "resetTempValueIfEnable" : true,
+                        "note"                   : "查找血球，如果没有血球满计数了，跑向主角",
+                        "localPos"               : {
+                            "x" : -170.0,
+                            "y" : 120.0
+                        }
+                    },
+                    {
+                        "__type" : "Simple.BehaviorTree.SelectorCfg",
+                        "children" : [
+                            {
+                                "__type" : "Simple.BehaviorTree.SequenceCfg",
+                                "children" : [
+                                    {
+                                        "__type" : "Simple.BehaviorTree.CompareRoleCfg",
+                                        "v1"     : {
+                                            "__type" : "Simple.BehaviorTree.ValueRole",
+                                            "roleType" : 0,
+                                            "name"     : "",
+                                            "region"   : 0,
+                                            "type"     : 6
+                                        },
+                                        "v2"     : {
+                                            "__type" : "Simple.BehaviorTree.ValueRole",
+                                            "roleType" : 1,
+                                            "name"     : "血球",
+                                            "region"   : 1,
+                                            "type"     : 6
+                                        },
+                                        "comp"   : 0,
+                                        "ret"    : {
+                                            "__type" : "Simple.BehaviorTree.Value`1[System.Boolean]",
+                                            "v"      : false,
+                                            "name"   : "",
+                                            "region" : 0,
+                                            "type"   : 2
+                                        },
+                                        "alwaysSuccess" : false,
+                                        "interrupt"     : 0,
+                                        "resetTreeWhenInterrupt" : false,
+                                        "id"                     : 96,
+                                        "ingore"                 : false,
+                                        "showNote"               : false,
+                                        "resetTempValueIfEnable" : true,
+                                        "note"                   : "",
+                                        "localPos"               : {
+                                            "x" : -80.0,
+                                            "y" : 110.0
+                                        }
+                                    },
+                                    {
+                                        "__type" : "Simple.BehaviorTree.PatrolCfg",
+                                        "beginType" : 1,
+                                        "type"      : 2,
+                                        "range"     : {
+                                            "__type" : "Simple.BehaviorTree.Value`1[System.Single]",
+                                            "v"      : 4.0,
+                                            "name"   : "",
+                                            "region" : 0,
+                                            "type"   : 1
+                                        },
+                                        "posName"   : "back",
+                                        "id"        : 112,
+                                        "ingore"    : false,
+                                        "showNote"  : false,
+                                        "resetTempValueIfEnable" : true,
+                                        "note"                   : "",
+                                        "localPos"               : {
+                                            "x" : 20.0,
+                                            "y" : 110.0
+                                        }
+                                    }
+                                ],
+                                "expandChild" : true,
+                                "id"          : 95,
+                                "ingore"      : false,
+                                "showNote"    : true,
+                                "resetTempValueIfEnable" : true,
+                                "note"                   : "如果没有合适的血球那么追逐下主角",
+                                "localPos"               : {
+                                    "x" : -110.0,
+                                    "y" : 120.0
+                                }
+                            },
+                            {
+                                "__type" : "Simple.BehaviorTree.SequenceCfg",
+                                "children" : [
+                                    {
+                                        "__type" : "Simple.BehaviorTree.RoleDistanceCfg",
+                                        "v1"     : {
+                                            "__type" : "Simple.BehaviorTree.ValueRole",
+                                            "roleType" : 9,
+                                            "name"     : "血球",
+                                            "region"   : 1,
+                                            "type"     : 6
+                                        },
+                                        "v2"     : {
+                                            "__type" : "Simple.BehaviorTree.ValueRole",
+                                            "roleType" : 1,
+                                            "name"     : "",
+                                            "region"   : 0,
+                                            "type"     : 6
+                                        },
+                                        "ret"    : {
+                                            "__type" : "Simple.BehaviorTree.Value`1[System.Single]",
+                                            "v"      : 0.0,
+                                            "name"   : "与血球距离",
+                                            "region" : 1,
+                                            "type"   : 1
+                                        },
+                                        "id"     : 6,
+                                        "ingore" : false,
+                                        "showNote" : false,
+                                        "resetTempValueIfEnable" : true,
+                                        "note"                   : "",
+                                        "localPos"               : {
+                                            "x" : -100.0,
+                                            "y" : 110.0
+                                        }
+                                    },
+                                    {
+                                        "__type" : "Simple.BehaviorTree.CompareFloatCfg",
+                                        "v1"     : {
+                                            "__type" : "Simple.BehaviorTree.Value`1[System.Single]",
+                                            "v"      : 0.0,
+                                            "name"   : "与血球距离",
+                                            "region" : 1,
+                                            "type"   : 1
+                                        },
+                                        "v2"     : {
+                                            "__type" : "Simple.BehaviorTree.Value`1[System.Single]",
+                                            "v"      : 3.0,
+                                            "name"   : "与血球距离限制",
+                                            "region" : 1,
+                                            "type"   : 1
+                                        },
+                                        "comp"   : 2,
+                                        "ret"    : {
+                                            "__type" : "Simple.BehaviorTree.Value`1[System.Boolean]",
+                                            "v"      : false,
+                                            "name"   : "",
+                                            "region" : 0,
+                                            "type"   : 2
+                                        },
+                                        "alwaysSuccess" : false,
+                                        "interrupt"     : 0,
+                                        "resetTreeWhenInterrupt" : false,
+                                        "id"                     : 8,
+                                        "ingore"                 : false,
+                                        "showNote"               : false,
+                                        "resetTempValueIfEnable" : true,
+                                        "note"                   : "",
+                                        "localPos"               : {
+                                            "x" : 0.0,
+                                            "y" : 110.0
+                                        }
+                                    },
+                                    {
+                                        "__type" : "Simple.BehaviorTree.RoundCfg",
+                                        "target" : {
+                                            "__type" : "Simple.BehaviorTree.ValueRole",
+                                            "roleType" : 6,
+                                            "name"     : "血球",
+                                            "region"   : 1,
+                                            "type"     : 6
+                                        },
+                                        "type"   : 0,
+                                        "round1" : 1.0,
+                                        "round2" : 5.0,
+                                        "run"    : 10.0,
+                                        "speedRate" : 0.5,
+                                        "angle1"    : 40.0,
+                                        "angle2"    : 70.0,
+                                        "look1"     : 2.0,
+                                        "look2"     : 4.0,
+                                        "id"        : 109,
+                                        "ingore"    : false,
+                                        "showNote"  : false,
+                                        "resetTempValueIfEnable" : true,
+                                        "note"                   : "",
+                                        "localPos"               : {
+                                            "x" : 100.0,
+                                            "y" : 110.0
+                                        }
+                                    }
+                                ],
+                                "expandChild" : true,
+                                "id"          : 98,
+                                "ingore"      : false,
+                                "showNote"    : true,
+                                "resetTempValueIfEnable" : true,
+                                "note"                   : "如果离血球很远，那么跑过去",
+                                "localPos"               : {
+                                    "x" : 130.0,
+                                    "y" : 130.0
+                                }
+                            },
+                            {
+                                "__type" : "Simple.BehaviorTree.RoleFlagCounterCfg",
+                                "r"      : {
+                                    "__type" : "Simple.BehaviorTree.ValueRole",
+                                    "roleType" : 1,
+                                    "name"     : "血球",
+                                    "region"   : 1,
+                                    "type"     : 6
+                                },
+                                "flag"   : "舔舐",
+                                "children" : [
+                                    {
+                                        "__type" : "Simple.BehaviorTree.UseSkillCfg",
+                                        "target" : {
+                                            "__type" : "Simple.BehaviorTree.ValueRole",
+                                            "roleType" : 1,
+                                            "name"     : "血球",
+                                            "region"   : 1,
+                                            "type"     : 6
+                                        },
+                                        "skillId" : {
+                                            "__type" : "Simple.BehaviorTree.Value`1[System.String]",
+                                            "v"      : "tianxue",
+                                            "name"   : "",
+                                            "region" : 0,
+                                            "type"   : 3
+                                        },
+                                        "autoFindSkill" : {
+                                            "__type" : "Simple.BehaviorTree.Value`1[System.Boolean]",
+                                            "v"      : false,
+                                            "name"   : "",
+                                            "region" : 0,
+                                            "type"   : 2
+                                        },
+                                        "autoFindTarget" : {
+                                            "__type" : "Simple.BehaviorTree.Value`1[System.Boolean]",
+                                            "v"      : false,
+                                            "name"   : "",
+                                            "region" : 0,
+                                            "type"   : 2
+                                        },
+                                        "errorIfNoTarget" : {
+                                            "__type" : "Simple.BehaviorTree.Value`1[System.Boolean]",
+                                            "v"      : false,
+                                            "name"   : "",
+                                            "region" : 0,
+                                            "type"   : 2
+                                        },
+                                        "errorIfDis"      : {
+                                            "__type" : "Simple.BehaviorTree.Value`1[System.Boolean]",
+                                            "v"      : true,
+                                            "name"   : "",
+                                            "region" : 0,
+                                            "type"   : 2
+                                        },
+                                        "waitIfCD"        : false,
+                                        "id"              : 24,
+                                        "ingore"          : false,
+                                        "showNote"        : false,
+                                        "resetTempValueIfEnable" : true,
+                                        "note"                   : "",
+                                        "localPos"               : {
+                                            "x" : 10.0,
+                                            "y" : 130.0
+                                        }
+                                    }
+                                ],
+                                "expandChild" : true,
+                                "id"          : 46,
+                                "ingore"      : false,
+                                "showNote"    : true,
+                                "resetTempValueIfEnable" : true,
+                                "note"                   : "舔舐",
+                                "localPos"               : {
+                                    "x" : 470.0,
+                                    "y" : 130.0
+                                }
+                            }
+                        ],
+                        "expandChild" : true,
+                        "id"          : 94,
+                        "ingore"      : false,
+                        "showNote"    : false,
+                        "resetTempValueIfEnable" : true,
+                        "note"                   : "",
+                        "localPos"               : {
+                            "x" : 410.0,
+                            "y" : 120.0
+                        }
+                    }
+                ],
+                "expandChild" : true,
+                "id"          : 2,
+                "ingore"      : false,
+                "showNote"    : false,
+                "resetTempValueIfEnable" : true,
+                "note"                   : "",
+                "localPos"               : {
+                    "x" : 1500.0,
+                    "y" : 1640.0
+                }
+            },
+            "valueMgrCfg" : {
+                "m_value" : [
+                    {
+                        "__type" : "Simple.BehaviorTree.Value`1[System.Single]",
+                        "v"      : 0.0,
+                        "name"   : "与血球距离",
+                        "region" : 0,
+                        "type"   : 1
+                    },
+                    {
+                        "__type" : "Simple.BehaviorTree.Value`1[System.Single]",
+                        "v"      : 5.0,
+                        "name"   : "与血球距离限制",
+                        "region" : 0,
+                        "type"   : 1
+                    },
+                    {
+                        "__type" : "Simple.BehaviorTree.Value`1[System.Int32]",
+                        "v"      : 0,
+                        "name"   : "舔舐计数",
+                        "region" : 0,
+                        "type"   : 0
+                    },
+                    {
+                        "__type" : "Simple.BehaviorTree.Value`1[System.Int32]",
+                        "v"      : 5,
+                        "name"   : "舔舐限制",
+                        "region" : 0,
+                        "type"   : 0
+                    },
+                    {
+                        "__type" : "Simple.BehaviorTree.ValueRole",
+                        "roleType" : 1,
+                        "name"     : "血球",
+                        "region"   : 0,
+                        "type"     : 6
+                    }
+                ]
+            }
+        }
+    ],
+    "names"       : [
+        "小地狱犬"
+    ]
+}

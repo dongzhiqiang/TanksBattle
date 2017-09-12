@@ -1,0 +1,53 @@
+﻿
+{
+    "sceneName" : "chengshi_001",
+    "mRefGroupList" : [
+    ],
+    "mBornList"     : [
+        {
+            "mPosition" : {
+                "x" : 9.20293235778809,
+                "y" : 0.860000014305115,
+                "z" : -2.64645624160767
+            },
+            "mEulerAngles" : {
+                "x" : 0.0,
+                "y" : -0.00224983459338546,
+                "z" : 0.0
+            },
+            "mBornTypeId"  : "",
+            "mDeadTypeId"  : ""
+        }
+    ],
+    "mCheckList"    : [
+        {
+            "triggerType" : 0,
+            "triggerNum"  : 1,
+            "triggerTimes" : 1,
+            "checkFlag"    : "born",
+            "eventCfgList" : [
+                {
+                    "eveType" : 0,
+                    "content" : "\n{\n    \"__type\" : \"EventCfg_StartLevel\"\n}"
+                }
+            ],
+            "actionCfgList" : [
+                {
+                    "eveType" : 5,
+                    "content" : "\n{\n    \"__type\" : \"ActionCfg_CreateHero\",\n    \"_idx\"   : 0,\n    \"_delay\" : 0\n}"
+                },
+                {
+                    "eveType" : 8,
+                    "content" : "\n{\n    \"__type\" : \"ActionCfg_ShowDir\",\n    \"findPos\" : {\n        \"x\" : 1.47492778301239,\n        \"y\" : 2.85153889656067,\n        \"z\" : -1.50605547428131\n    },\n    \"_idx\"    : 0,\n    \"_delay\"  : 0\n}"
+                }
+            ]
+        }
+    ],
+    "mAreaList"     : [
+    ],
+    "mStoryIdList"  : [
+    ],
+    "mGroupIdList"  : [
+    ],
+    "mShowWaveGroupId" : ""
+}

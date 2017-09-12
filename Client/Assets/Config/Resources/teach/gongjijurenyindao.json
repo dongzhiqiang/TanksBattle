@@ -1,0 +1,52 @@
+﻿
+{
+    "teachName" : "gongjijurenyindao",
+    "teachDesc" : "",
+    "priority"  : 1,
+    "coolDown"  : 0,
+    "dataKey"   : "",
+    "postTeach" : "",
+    "stopSoundWhenFinish" : false,
+    "replayUnfinished"    : false,
+    "canInterrupt"        : false,
+    "backChecks"          : [
+    ],
+    "cancelActions"       : [
+    ],
+    "triggerConds"        : [
+    ],
+    "checkConds"          : [
+    ],
+    "stepList"            : [
+        {
+            "name" : "移动",
+            "force" : false,
+            "pauseMode" : 0,
+            "keyStep"   : false,
+            "maskAlpha" : 200,
+            "tipMsg"    : "",
+            "centerTip" : "攻击巨人的<color=#4db7e9>手部</color>可使强壮的巨人进入<color=#4db7e9>虚弱</color>状态。",
+            "stopPreSnd" : false,
+            "muteMusic"  : false,
+            "soundId"    : 0,
+            "timeoutInMS" : 5000,
+            "timeoutStop" : false,
+            "stepObj"     : 2,
+            "stepObjParam" : "",
+            "stepObjParam2" : "",
+            "uiOpType"      : 0,
+            "circleType"    : 0,
+            "arrowType"     : 0,
+            "uiOpParam"     : "",
+            "uiOpParam2"    : "",
+            "sceneOpType"   : 1,
+            "sceneGuideType" : 1,
+            "sceneOpParam"   : "282.8979,-13.14,-111.6892",
+            "sceneOpParam2"  : "5",
+            "stepSkipType"   : 0,
+            "skipParam"      : "",
+            "skipParam2"     : "",
+            "stopIfNeedSkip" : false
+        }
+    ]
+}

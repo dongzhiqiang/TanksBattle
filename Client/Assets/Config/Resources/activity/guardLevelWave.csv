@@ -1,0 +1,17 @@
+波次,积分,怪物总数量,怪物百分比属性
+id,point,monsterNum,propRate
+1,100,4,r_zhiaishouhu_1
+2,100,5,r_zhiaishouhu_2
+3,100,6,r_zhiaishouhu_3
+4,100,6,r_zhiaishouhu_4
+5,150,1,r_zhiaishouhu_5
+6,150,6,r_zhiaishouhu_6
+7,150,6,r_zhiaishouhu_7
+8,150,6,r_zhiaishouhu_8
+9,150,5,r_zhiaishouhu_9
+10,200,1,r_zhiaishouhu_10
+11,200,4,r_zhiaishouhu_11
+12,200,6,r_zhiaishouhu_12
+13,200,6,r_zhiaishouhu_13
+14,200,6,r_zhiaishouhu_14
+15,251,1,r_zhiaishouhu_15

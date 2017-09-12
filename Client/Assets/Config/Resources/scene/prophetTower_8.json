@@ -1,0 +1,1630 @@
+﻿
+{
+    "sceneName" : "bp_test11",
+    "mRefGroupList" : [
+        {
+            "refreshType" : 0,
+            "Points"      : [
+                {
+                    "pos" : {
+                        "x" : 8.61653327941895,
+                        "y" : 0.380000114440918,
+                        "z" : -0.359254360198975
+                    },
+                    "dir" : {
+                        "x" : 0.0,
+                        "y" : 180.0,
+                        "z" : 0.0
+                    },
+                    "camp" : 1,
+                    "buffId" : 2322,
+                    "roleId" : "xb_03",
+                    "pointFlag" : "Group1-1",
+                    "bornDelay" : 0.0,
+                    "ai"        : "ai_xb_2_yuyan:预言之塔远程骷髅AI",
+                    "bornTypeId" : "wuchusheng_smoke",
+                    "deadTypeId" : "",
+                    "groundDeadTypeId" : "",
+                    "isShowBloodBar"   : 0,
+                    "isShowFriendBloodBar" : 0,
+                    "isShowTargetBar"      : 0,
+                    "pathfindingList"      : [
+                    ],
+                    "boxAddNum"            : 0,
+                    "boxAddType"           : 0,
+                    "boxBuffId"            : 0,
+                    "hate"                 : {
+                        "hateIfHit" : 0,
+                        "hateIfBeHit" : 5,
+                        "hateIfRefGroup" : [
+                        ],
+                        "hateIfChange"   : 0,
+                        "behateIfBegin"  : 0
+                    }
+                },
+                {
+                    "pos" : {
+                        "x" : 6.54473161697388,
+                        "y" : 0.380000948905945,
+                        "z" : 2.58116292953491
+                    },
+                    "dir" : {
+                        "x" : 0.0,
+                        "y" : 180.0,
+                        "z" : 0.0
+                    },
+                    "camp" : 1,
+                    "buffId" : 2322,
+                    "roleId" : "xb_03",
+                    "pointFlag" : "Group1-2",
+                    "bornDelay" : 0.100000001490116,
+                    "ai"        : "ai_xb_2_yuyan:预言之塔远程骷髅AI",
+                    "bornTypeId" : "wuchusheng_smoke",
+                    "deadTypeId" : "",
+                    "groundDeadTypeId" : "",
+                    "isShowBloodBar"   : 0,
+                    "isShowFriendBloodBar" : 0,
+                    "isShowTargetBar"      : 0,
+                    "pathfindingList"      : [
+                    ],
+                    "boxAddNum"            : 0,
+                    "boxAddType"           : 0,
+                    "boxBuffId"            : 0,
+                    "hate"                 : {
+                        "hateIfHit" : 0,
+                        "hateIfBeHit" : 5,
+                        "hateIfRefGroup" : [
+                        ],
+                        "hateIfChange"   : 0,
+                        "behateIfBegin"  : 0
+                    }
+                },
+                {
+                    "pos" : {
+                        "x" : -6.85307884216309,
+                        "y" : 0.3800008893013,
+                        "z" : 2.02173566818237
+                    },
+                    "dir" : {
+                        "x" : 0.0,
+                        "y" : 180.0,
+                        "z" : 0.0
+                    },
+                    "camp" : 1,
+                    "buffId" : 2322,
+                    "roleId" : "xb_03",
+                    "pointFlag" : "Group1-3",
+                    "bornDelay" : 0.200000002980232,
+                    "ai"        : "ai_xb_2_yuyan:预言之塔远程骷髅AI",
+                    "bornTypeId" : "wuchusheng_smoke",
+                    "deadTypeId" : "",
+                    "groundDeadTypeId" : "",
+                    "isShowBloodBar"   : 0,
+                    "isShowFriendBloodBar" : 0,
+                    "isShowTargetBar"      : 0,
+                    "pathfindingList"      : [
+                    ],
+                    "boxAddNum"            : 0,
+                    "boxAddType"           : 0,
+                    "boxBuffId"            : 0,
+                    "hate"                 : {
+                        "hateIfHit" : 0,
+                        "hateIfBeHit" : 5,
+                        "hateIfRefGroup" : [
+                        ],
+                        "hateIfChange"   : 0,
+                        "behateIfBegin"  : 0
+                    }
+                },
+                {
+                    "pos" : {
+                        "x" : -3.50084447860718,
+                        "y" : 0.380000710487366,
+                        "z" : 5.06563472747803
+                    },
+                    "dir" : {
+                        "x" : 0.0,
+                        "y" : 180.0,
+                        "z" : 0.0
+                    },
+                    "camp" : 1,
+                    "buffId" : 2322,
+                    "roleId" : "xb_03",
+                    "pointFlag" : "Group1-4",
+                    "bornDelay" : 0.300000011920929,
+                    "ai"        : "ai_xb_2_yuyan:预言之塔远程骷髅AI",
+                    "bornTypeId" : "wuchusheng_smoke",
+                    "deadTypeId" : "",
+                    "groundDeadTypeId" : "",
+                    "isShowBloodBar"   : 0,
+                    "isShowFriendBloodBar" : 0,
+                    "isShowTargetBar"      : 0,
+                    "pathfindingList"      : [
+                    ],
+                    "boxAddNum"            : 0,
+                    "boxAddType"           : 0,
+                    "boxBuffId"            : 0,
+                    "hate"                 : {
+                        "hateIfHit" : 0,
+                        "hateIfBeHit" : 5,
+                        "hateIfRefGroup" : [
+                        ],
+                        "hateIfChange"   : 0,
+                        "behateIfBegin"  : 0
+                    }
+                },
+                {
+                    "pos" : {
+                        "x" : 3.31068205833435,
+                        "y" : 0.380000591278076,
+                        "z" : 5.9919900894165
+                    },
+                    "dir" : {
+                        "x" : 0.0,
+                        "y" : 180.0,
+                        "z" : 0.0
+                    },
+                    "camp" : 1,
+                    "buffId" : 2322,
+                    "roleId" : "xb_03",
+                    "pointFlag" : "Group1-5",
+                    "bornDelay" : 0.400000005960464,
+                    "ai"        : "ai_xb_2_yuyan:预言之塔远程骷髅AI",
+                    "bornTypeId" : "wuchusheng_smoke",
+                    "deadTypeId" : "",
+                    "groundDeadTypeId" : "",
+                    "isShowBloodBar"   : 0,
+                    "isShowFriendBloodBar" : 0,
+                    "isShowTargetBar"      : 0,
+                    "pathfindingList"      : [
+                    ],
+                    "boxAddNum"            : 0,
+                    "boxAddType"           : 0,
+                    "boxBuffId"            : 0,
+                    "hate"                 : {
+                        "hateIfHit" : 0,
+                        "hateIfBeHit" : 5,
+                        "hateIfRefGroup" : [
+                        ],
+                        "hateIfChange"   : 0,
+                        "behateIfBegin"  : 0
+                    }
+                },
+                {
+                    "pos" : {
+                        "x" : -8.7114372253418,
+                        "y" : 0.380000799894333,
+                        "z" : -0.347643613815308
+                    },
+                    "dir" : {
+                        "x" : 0.0,
+                        "y" : 180.0,
+                        "z" : 0.0
+                    },
+                    "camp" : 1,
+                    "buffId" : 2322,
+                    "roleId" : "xb_03",
+                    "pointFlag" : "Group1-6",
+                    "bornDelay" : 0.0,
+                    "ai"        : "ai_xb_2_yuyan:预言之塔远程骷髅AI",
+                    "bornTypeId" : "wuchusheng_smoke",
+                    "deadTypeId" : "",
+                    "groundDeadTypeId" : "",
+                    "isShowBloodBar"   : 0,
+                    "isShowFriendBloodBar" : 0,
+                    "isShowTargetBar"      : 0,
+                    "pathfindingList"      : [
+                    ],
+                    "boxAddNum"            : 0,
+                    "boxAddType"           : 0,
+                    "boxBuffId"            : 0,
+                    "hate"                 : {
+                        "hateIfHit" : 0,
+                        "hateIfBeHit" : 0,
+                        "hateIfRefGroup" : [
+                        ],
+                        "hateIfChange"   : 0,
+                        "behateIfBegin"  : 0
+                    }
+                }
+            ],
+            "groupFlag"   : "Group1",
+            "nextGroupFlag" : "",
+            "nextWaveDelay" : 0,
+            "delayTime"     : 0.0,
+            "refreshNum"    : 1,
+            "pointNum"      : 1
+        },
+        {
+            "refreshType" : 0,
+            "Points"      : [
+                {
+                    "pos" : {
+                        "x" : -5.69999217987061,
+                        "y" : 0.3800008893013,
+                        "z" : 5.23181772232056
+                    },
+                    "dir" : {
+                        "x" : 0.0,
+                        "y" : 181.211990356445,
+                        "z" : 0.0
+                    },
+                    "camp" : 1,
+                    "buffId" : 2322,
+                    "roleId" : "xb_01",
+                    "pointFlag" : "Group2-1",
+                    "bornDelay" : 0.0,
+                    "ai"        : "-1",
+                    "bornTypeId" : "",
+                    "deadTypeId" : "",
+                    "groundDeadTypeId" : "",
+                    "isShowBloodBar"   : 0,
+                    "isShowFriendBloodBar" : 0,
+                    "isShowTargetBar"      : 0,
+                    "pathfindingList"      : [
+                    ],
+                    "boxAddNum"            : 0,
+                    "boxAddType"           : 0,
+                    "boxBuffId"            : 0,
+                    "hate"                 : {
+                        "hateIfHit" : 0,
+                        "hateIfBeHit" : 0,
+                        "hateIfRefGroup" : [
+                        ],
+                        "hateIfChange"   : 0,
+                        "behateIfBegin"  : 0
+                    }
+                },
+                {
+                    "pos" : {
+                        "x" : 6.42350196838379,
+                        "y" : 0.38000014424324,
+                        "z" : 2.84819579124451
+                    },
+                    "dir" : {
+                        "x" : 0.0,
+                        "y" : 180.0,
+                        "z" : 0.0
+                    },
+                    "camp" : 1,
+                    "buffId" : 2322,
+                    "roleId" : "xb_01",
+                    "pointFlag" : "Group2-2",
+                    "bornDelay" : 0.100000001490116,
+                    "ai"        : "-1",
+                    "bornTypeId" : "",
+                    "deadTypeId" : "",
+                    "groundDeadTypeId" : "",
+                    "isShowBloodBar"   : 0,
+                    "isShowFriendBloodBar" : 0,
+                    "isShowTargetBar"      : 0,
+                    "pathfindingList"      : [
+                    ],
+                    "boxAddNum"            : 0,
+                    "boxAddType"           : 0,
+                    "boxBuffId"            : 0,
+                    "hate"                 : {
+                        "hateIfHit" : 0,
+                        "hateIfBeHit" : 0,
+                        "hateIfRefGroup" : [
+                        ],
+                        "hateIfChange"   : 0,
+                        "behateIfBegin"  : 0
+                    }
+                },
+                {
+                    "pos" : {
+                        "x" : 5.05378437042236,
+                        "y" : 0.380001246929169,
+                        "z" : 4.73125028610229
+                    },
+                    "dir" : {
+                        "x" : 0.0,
+                        "y" : 180.0,
+                        "z" : 0.0
+                    },
+                    "camp" : 1,
+                    "buffId" : 2322,
+                    "roleId" : "xb_01",
+                    "pointFlag" : "Group2-3",
+                    "bornDelay" : 0.200000002980232,
+                    "ai"        : "-1",
+                    "bornTypeId" : "",
+                    "deadTypeId" : "",
+                    "groundDeadTypeId" : "",
+                    "isShowBloodBar"   : 0,
+                    "isShowFriendBloodBar" : 0,
+                    "isShowTargetBar"      : 0,
+                    "pathfindingList"      : [
+                    ],
+                    "boxAddNum"            : 0,
+                    "boxAddType"           : 0,
+                    "boxBuffId"            : 0,
+                    "hate"                 : {
+                        "hateIfHit" : 0,
+                        "hateIfBeHit" : 0,
+                        "hateIfRefGroup" : [
+                        ],
+                        "hateIfChange"   : 0,
+                        "behateIfBegin"  : 0
+                    }
+                },
+                {
+                    "pos" : {
+                        "x" : -2.74158883094788,
+                        "y" : 0.3800008893013,
+                        "z" : 6.0805401802063
+                    },
+                    "dir" : {
+                        "x" : 0.0,
+                        "y" : 180.0,
+                        "z" : 0.0
+                    },
+                    "camp" : 1,
+                    "buffId" : 2322,
+                    "roleId" : "xb_01",
+                    "pointFlag" : "Group2-4",
+                    "bornDelay" : 0.300000011920929,
+                    "ai"        : "-1",
+                    "bornTypeId" : "",
+                    "deadTypeId" : "",
+                    "groundDeadTypeId" : "",
+                    "isShowBloodBar"   : 0,
+                    "isShowFriendBloodBar" : 0,
+                    "isShowTargetBar"      : 0,
+                    "pathfindingList"      : [
+                    ],
+                    "boxAddNum"            : 0,
+                    "boxAddType"           : 0,
+                    "boxBuffId"            : 0,
+                    "hate"                 : {
+                        "hateIfHit" : 0,
+                        "hateIfBeHit" : 0,
+                        "hateIfRefGroup" : [
+                        ],
+                        "hateIfChange"   : 0,
+                        "behateIfBegin"  : 0
+                    }
+                },
+                {
+                    "pos" : {
+                        "x" : 3.60509490966797,
+                        "y" : 0.380000770092011,
+                        "z" : 6.17026805877686
+                    },
+                    "dir" : {
+                        "x" : 0.0,
+                        "y" : 180.0,
+                        "z" : 0.0
+                    },
+                    "camp" : 1,
+                    "buffId" : 2322,
+                    "roleId" : "xb_01",
+                    "pointFlag" : "Group2-5",
+                    "bornDelay" : 0.400000005960464,
+                    "ai"        : "-1",
+                    "bornTypeId" : "",
+                    "deadTypeId" : "",
+                    "groundDeadTypeId" : "",
+                    "isShowBloodBar"   : 0,
+                    "isShowFriendBloodBar" : 0,
+                    "isShowTargetBar"      : 0,
+                    "pathfindingList"      : [
+                    ],
+                    "boxAddNum"            : 0,
+                    "boxAddType"           : 0,
+                    "boxBuffId"            : 0,
+                    "hate"                 : {
+                        "hateIfHit" : 0,
+                        "hateIfBeHit" : 0,
+                        "hateIfRefGroup" : [
+                        ],
+                        "hateIfChange"   : 0,
+                        "behateIfBegin"  : 0
+                    }
+                },
+                {
+                    "pos" : {
+                        "x" : -6.94598007202148,
+                        "y" : 0.38000100851059,
+                        "z" : 2.65766429901123
+                    },
+                    "dir" : {
+                        "x" : 0.0,
+                        "y" : 180.0,
+                        "z" : 0.0
+                    },
+                    "camp" : 1,
+                    "buffId" : 2322,
+                    "roleId" : "xb_01",
+                    "pointFlag" : "Group2-6",
+                    "bornDelay" : 0.5,
+                    "ai"        : "-1",
+                    "bornTypeId" : "",
+                    "deadTypeId" : "",
+                    "groundDeadTypeId" : "",
+                    "isShowBloodBar"   : 0,
+                    "isShowFriendBloodBar" : 0,
+                    "isShowTargetBar"      : 0,
+                    "pathfindingList"      : [
+                    ],
+                    "boxAddNum"            : 0,
+                    "boxAddType"           : 0,
+                    "boxBuffId"            : 0,
+                    "hate"                 : {
+                        "hateIfHit" : 0,
+                        "hateIfBeHit" : 0,
+                        "hateIfRefGroup" : [
+                        ],
+                        "hateIfChange"   : 0,
+                        "behateIfBegin"  : 0
+                    }
+                }
+            ],
+            "groupFlag"   : "Group2",
+            "nextGroupFlag" : "",
+            "nextWaveDelay" : 0,
+            "delayTime"     : 0.0,
+            "refreshNum"    : 1,
+            "pointNum"      : 1
+        },
+        {
+            "refreshType" : 0,
+            "Points"      : [
+                {
+                    "pos" : {
+                        "x" : 0.221919104456902,
+                        "y" : 0.380000472068787,
+                        "z" : -5.8899998664856
+                    },
+                    "dir" : {
+                        "x" : 0.0,
+                        "y" : 0.0,
+                        "z" : 0.0
+                    },
+                    "camp" : 1,
+                    "buffId" : 2322,
+                    "roleId" : "xb_03",
+                    "pointFlag" : "Group3-1",
+                    "bornDelay" : 0.0,
+                    "ai"        : "ai_xb_2_yuyan:预言之塔远程骷髅AI",
+                    "bornTypeId" : "",
+                    "deadTypeId" : "",
+                    "groundDeadTypeId" : "",
+                    "isShowBloodBar"   : 0,
+                    "isShowFriendBloodBar" : 0,
+                    "isShowTargetBar"      : 0,
+                    "pathfindingList"      : [
+                    ],
+                    "boxAddNum"            : 0,
+                    "boxAddType"           : 0,
+                    "boxBuffId"            : 0,
+                    "hate"                 : {
+                        "hateIfHit" : 0,
+                        "hateIfBeHit" : 0,
+                        "hateIfRefGroup" : [
+                        ],
+                        "hateIfChange"   : 0,
+                        "behateIfBegin"  : 0
+                    }
+                },
+                {
+                    "pos" : {
+                        "x" : 7.86999988555908,
+                        "y" : 0.37999963760376,
+                        "z" : -1.03999996185303
+                    },
+                    "dir" : {
+                        "x" : 0.0,
+                        "y" : 0.0,
+                        "z" : 0.0
+                    },
+                    "camp" : 1,
+                    "buffId" : 2322,
+                    "roleId" : "xb_03",
+                    "pointFlag" : "Group3-2",
+                    "bornDelay" : 0.0,
+                    "ai"        : "ai_xb_2_yuyan:预言之塔远程骷髅AI",
+                    "bornTypeId" : "",
+                    "deadTypeId" : "",
+                    "groundDeadTypeId" : "",
+                    "isShowBloodBar"   : 0,
+                    "isShowFriendBloodBar" : 0,
+                    "isShowTargetBar"      : 0,
+                    "pathfindingList"      : [
+                    ],
+                    "boxAddNum"            : 0,
+                    "boxAddType"           : 0,
+                    "boxBuffId"            : 0,
+                    "hate"                 : {
+                        "hateIfHit" : 0,
+                        "hateIfBeHit" : 0,
+                        "hateIfRefGroup" : [
+                        ],
+                        "hateIfChange"   : 0,
+                        "behateIfBegin"  : 0
+                    }
+                },
+                {
+                    "pos" : {
+                        "x" : 6.15000009536743,
+                        "y" : 0.380000025033951,
+                        "z" : -4.38000011444092
+                    },
+                    "dir" : {
+                        "x" : 0.0,
+                        "y" : 0.0,
+                        "z" : 0.0
+                    },
+                    "camp" : 1,
+                    "buffId" : 2322,
+                    "roleId" : "xb_03",
+                    "pointFlag" : "Group3-3",
+                    "bornDelay" : 0.0,
+                    "ai"        : "ai_xb_2_yuyan:预言之塔远程骷髅AI",
+                    "bornTypeId" : "",
+                    "deadTypeId" : "",
+                    "groundDeadTypeId" : "",
+                    "isShowBloodBar"   : 0,
+                    "isShowFriendBloodBar" : 0,
+                    "isShowTargetBar"      : 0,
+                    "pathfindingList"      : [
+                    ],
+                    "boxAddNum"            : 0,
+                    "boxAddType"           : 0,
+                    "boxBuffId"            : 0,
+                    "hate"                 : {
+                        "hateIfHit" : 0,
+                        "hateIfBeHit" : 0,
+                        "hateIfRefGroup" : [
+                        ],
+                        "hateIfChange"   : 0,
+                        "behateIfBegin"  : 0
+                    }
+                },
+                {
+                    "pos" : {
+                        "x" : -7.26973438262939,
+                        "y" : 0.379999667406082,
+                        "z" : -1.00999999046326
+                    },
+                    "dir" : {
+                        "x" : 0.0,
+                        "y" : 0.0,
+                        "z" : 0.0
+                    },
+                    "camp" : 1,
+                    "buffId" : 2322,
+                    "roleId" : "xb_03",
+                    "pointFlag" : "Group3-4",
+                    "bornDelay" : 0.0,
+                    "ai"        : "ai_xb_2_yuyan:预言之塔远程骷髅AI",
+                    "bornTypeId" : "",
+                    "deadTypeId" : "",
+                    "groundDeadTypeId" : "",
+                    "isShowBloodBar"   : 0,
+                    "isShowFriendBloodBar" : 0,
+                    "isShowTargetBar"      : 0,
+                    "pathfindingList"      : [
+                    ],
+                    "boxAddNum"            : 0,
+                    "boxAddType"           : 0,
+                    "boxBuffId"            : 0,
+                    "hate"                 : {
+                        "hateIfHit" : 0,
+                        "hateIfBeHit" : 0,
+                        "hateIfRefGroup" : [
+                        ],
+                        "hateIfChange"   : 0,
+                        "behateIfBegin"  : 0
+                    }
+                },
+                {
+                    "pos" : {
+                        "x" : -4.03924608230591,
+                        "y" : 0.380000293254852,
+                        "z" : -7.32000017166138
+                    },
+                    "dir" : {
+                        "x" : 0.0,
+                        "y" : 0.0,
+                        "z" : 0.0
+                    },
+                    "camp" : 1,
+                    "buffId" : 2322,
+                    "roleId" : "xb_03",
+                    "pointFlag" : "Group3-5",
+                    "bornDelay" : 0.0,
+                    "ai"        : "ai_xb_2_yuyan:预言之塔远程骷髅AI",
+                    "bornTypeId" : "",
+                    "deadTypeId" : "",
+                    "groundDeadTypeId" : "",
+                    "isShowBloodBar"   : 0,
+                    "isShowFriendBloodBar" : 0,
+                    "isShowTargetBar"      : 0,
+                    "pathfindingList"      : [
+                    ],
+                    "boxAddNum"            : 0,
+                    "boxAddType"           : 0,
+                    "boxBuffId"            : 0,
+                    "hate"                 : {
+                        "hateIfHit" : 0,
+                        "hateIfBeHit" : 0,
+                        "hateIfRefGroup" : [
+                        ],
+                        "hateIfChange"   : 0,
+                        "behateIfBegin"  : 0
+                    }
+                },
+                {
+                    "pos" : {
+                        "x" : 3.66602897644043,
+                        "y" : 0.380000472068787,
+                        "z" : -7.55999994277954
+                    },
+                    "dir" : {
+                        "x" : 0.0,
+                        "y" : 0.0,
+                        "z" : 0.0
+                    },
+                    "camp" : 1,
+                    "buffId" : 2322,
+                    "roleId" : "xb_03",
+                    "pointFlag" : "Group3-6",
+                    "bornDelay" : 0.0,
+                    "ai"        : "ai_xb_2_yuyan:预言之塔远程骷髅AI",
+                    "bornTypeId" : "",
+                    "deadTypeId" : "",
+                    "groundDeadTypeId" : "",
+                    "isShowBloodBar"   : 0,
+                    "isShowFriendBloodBar" : 0,
+                    "isShowTargetBar"      : 0,
+                    "pathfindingList"      : [
+                    ],
+                    "boxAddNum"            : 0,
+                    "boxAddType"           : 0,
+                    "boxBuffId"            : 0,
+                    "hate"                 : {
+                        "hateIfHit" : 0,
+                        "hateIfBeHit" : 0,
+                        "hateIfRefGroup" : [
+                        ],
+                        "hateIfChange"   : 0,
+                        "behateIfBegin"  : 0
+                    }
+                }
+            ],
+            "groupFlag"   : "Group3",
+            "nextGroupFlag" : "",
+            "nextWaveDelay" : 0,
+            "delayTime"     : 0.0,
+            "refreshNum"    : 1,
+            "pointNum"      : 1
+        },
+        {
+            "refreshType" : 0,
+            "Points"      : [
+                {
+                    "pos" : {
+                        "x" : -2.78908443450928,
+                        "y" : 0.38000026345253,
+                        "z" : -6.71486186981201
+                    },
+                    "dir" : {
+                        "x" : 0.0,
+                        "y" : 27.6800384521484,
+                        "z" : 0.0
+                    },
+                    "camp" : 1,
+                    "buffId" : 2322,
+                    "roleId" : "xb_01",
+                    "pointFlag" : "Group4-1",
+                    "bornDelay" : 0.0,
+                    "ai"        : "ai_jinzhan_shouhu:守护小怪AI",
+                    "bornTypeId" : "wuchusheng_smoke",
+                    "deadTypeId" : "",
+                    "groundDeadTypeId" : "",
+                    "isShowBloodBar"   : 0,
+                    "isShowFriendBloodBar" : 0,
+                    "isShowTargetBar"      : 0,
+                    "pathfindingList"      : [
+                    ],
+                    "boxAddNum"            : 0,
+                    "boxAddType"           : 0,
+                    "boxBuffId"            : 0,
+                    "hate"                 : {
+                        "hateIfHit" : 0,
+                        "hateIfBeHit" : 0,
+                        "hateIfRefGroup" : [
+                        ],
+                        "hateIfChange"   : 0,
+                        "behateIfBegin"  : 0
+                    }
+                },
+                {
+                    "pos" : {
+                        "x" : -5.43414211273193,
+                        "y" : 0.380000174045563,
+                        "z" : -3.31589961051941
+                    },
+                    "dir" : {
+                        "x" : 0.0,
+                        "y" : 61.5371284484863,
+                        "z" : 0.0
+                    },
+                    "camp" : 1,
+                    "buffId" : 2322,
+                    "roleId" : "xb_01",
+                    "pointFlag" : "Group4-2",
+                    "bornDelay" : 0.0,
+                    "ai"        : "ai_jinzhan_shouhu:守护小怪AI",
+                    "bornTypeId" : "",
+                    "deadTypeId" : "",
+                    "groundDeadTypeId" : "",
+                    "isShowBloodBar"   : 0,
+                    "isShowFriendBloodBar" : 0,
+                    "isShowTargetBar"      : 0,
+                    "pathfindingList"      : [
+                    ],
+                    "boxAddNum"            : 0,
+                    "boxAddType"           : 0,
+                    "boxBuffId"            : 0,
+                    "hate"                 : {
+                        "hateIfHit" : 0,
+                        "hateIfBeHit" : 0,
+                        "hateIfRefGroup" : [
+                        ],
+                        "hateIfChange"   : 0,
+                        "behateIfBegin"  : 0
+                    }
+                },
+                {
+                    "pos" : {
+                        "x" : 4.33454895019531,
+                        "y" : 0.380000323057175,
+                        "z" : -5.49606657028198
+                    },
+                    "dir" : {
+                        "x" : 0.0,
+                        "y" : 313.734375,
+                        "z" : 0.0
+                    },
+                    "camp" : 1,
+                    "buffId" : 2322,
+                    "roleId" : "xb_01",
+                    "pointFlag" : "Group4-3",
+                    "bornDelay" : 0.0,
+                    "ai"        : "ai_jinzhan_shouhu:守护小怪AI",
+                    "bornTypeId" : "",
+                    "deadTypeId" : "",
+                    "groundDeadTypeId" : "",
+                    "isShowBloodBar"   : 0,
+                    "isShowFriendBloodBar" : 0,
+                    "isShowTargetBar"      : 0,
+                    "pathfindingList"      : [
+                    ],
+                    "boxAddNum"            : 0,
+                    "boxAddType"           : 0,
+                    "boxBuffId"            : 0,
+                    "hate"                 : {
+                        "hateIfHit" : 0,
+                        "hateIfBeHit" : 0,
+                        "hateIfRefGroup" : [
+                        ],
+                        "hateIfChange"   : 0,
+                        "behateIfBegin"  : 0
+                    }
+                },
+                {
+                    "pos" : {
+                        "x" : 5.13515090942383,
+                        "y" : 0.38000014424324,
+                        "z" : -0.6005619764328
+                    },
+                    "dir" : {
+                        "x" : 0.0,
+                        "y" : 245.793762207031,
+                        "z" : 0.0
+                    },
+                    "camp" : 1,
+                    "buffId" : 2322,
+                    "roleId" : "xb_01",
+                    "pointFlag" : "Group4-4",
+                    "bornDelay" : 0.0,
+                    "ai"        : "ai_jinzhan_shouhu:守护小怪AI",
+                    "bornTypeId" : "",
+                    "deadTypeId" : "",
+                    "groundDeadTypeId" : "",
+                    "isShowBloodBar"   : 0,
+                    "isShowFriendBloodBar" : 0,
+                    "isShowTargetBar"      : 0,
+                    "pathfindingList"      : [
+                    ],
+                    "boxAddNum"            : 0,
+                    "boxAddType"           : 0,
+                    "boxBuffId"            : 0,
+                    "hate"                 : {
+                        "hateIfHit" : 0,
+                        "hateIfBeHit" : 0,
+                        "hateIfRefGroup" : [
+                        ],
+                        "hateIfChange"   : 0,
+                        "behateIfBegin"  : 0
+                    }
+                },
+                {
+                    "pos" : {
+                        "x" : 5.21247243881226,
+                        "y" : 0.379999756813049,
+                        "z" : 3.44447159767151
+                    },
+                    "dir" : {
+                        "x" : 0.0,
+                        "y" : 249.017120361328,
+                        "z" : 0.0
+                    },
+                    "camp" : 1,
+                    "buffId" : 2322,
+                    "roleId" : "xb_01",
+                    "pointFlag" : "Group4-5",
+                    "bornDelay" : 0.0,
+                    "ai"        : "ai_jinzhan_shouhu:守护小怪AI",
+                    "bornTypeId" : "",
+                    "deadTypeId" : "",
+                    "groundDeadTypeId" : "",
+                    "isShowBloodBar"   : 0,
+                    "isShowFriendBloodBar" : 0,
+                    "isShowTargetBar"      : 0,
+                    "pathfindingList"      : [
+                    ],
+                    "boxAddNum"            : 0,
+                    "boxAddType"           : 0,
+                    "boxBuffId"            : 0,
+                    "hate"                 : {
+                        "hateIfHit" : 0,
+                        "hateIfBeHit" : 0,
+                        "hateIfRefGroup" : [
+                        ],
+                        "hateIfChange"   : 0,
+                        "behateIfBegin"  : 0
+                    }
+                },
+                {
+                    "pos" : {
+                        "x" : 2.97323298454285,
+                        "y" : 0.379998803138733,
+                        "z" : -8.72999954223633
+                    },
+                    "dir" : {
+                        "x" : 0.0,
+                        "y" : 0.0,
+                        "z" : 0.0
+                    },
+                    "camp" : 1,
+                    "buffId" : 2322,
+                    "roleId" : "xb_01",
+                    "pointFlag" : "Group4-6",
+                    "bornDelay" : 0.0,
+                    "ai"        : "ai_jinzhan_shouhu:守护小怪AI",
+                    "bornTypeId" : "",
+                    "deadTypeId" : "",
+                    "groundDeadTypeId" : "",
+                    "isShowBloodBar"   : 0,
+                    "isShowFriendBloodBar" : 0,
+                    "isShowTargetBar"      : 0,
+                    "pathfindingList"      : [
+                    ],
+                    "boxAddNum"            : 0,
+                    "boxAddType"           : 0,
+                    "boxBuffId"            : 0,
+                    "hate"                 : {
+                        "hateIfHit" : 0,
+                        "hateIfBeHit" : 0,
+                        "hateIfRefGroup" : [
+                        ],
+                        "hateIfChange"   : 0,
+                        "behateIfBegin"  : 0
+                    }
+                },
+                {
+                    "pos" : {
+                        "x" : -5.76718854904175,
+                        "y" : 0.380000472068787,
+                        "z" : 4.40874624252319
+                    },
+                    "dir" : {
+                        "x" : 0.0,
+                        "y" : 167.989959716797,
+                        "z" : 0.0
+                    },
+                    "camp" : 1,
+                    "buffId" : 2322,
+                    "roleId" : "xb_01",
+                    "pointFlag" : "Group4-7",
+                    "bornDelay" : 0.0,
+                    "ai"        : "ai_jinzhan_shouhu:守护小怪AI",
+                    "bornTypeId" : "",
+                    "deadTypeId" : "",
+                    "groundDeadTypeId" : "",
+                    "isShowBloodBar"   : 0,
+                    "isShowFriendBloodBar" : 0,
+                    "isShowTargetBar"      : 0,
+                    "pathfindingList"      : [
+                    ],
+                    "boxAddNum"            : 0,
+                    "boxAddType"           : 0,
+                    "boxBuffId"            : 0,
+                    "hate"                 : {
+                        "hateIfHit" : 0,
+                        "hateIfBeHit" : 0,
+                        "hateIfRefGroup" : [
+                        ],
+                        "hateIfChange"   : 0,
+                        "behateIfBegin"  : 0
+                    }
+                },
+                {
+                    "pos" : {
+                        "x" : -7.87686252593994,
+                        "y" : 0.379999995231628,
+                        "z" : -0.130664095282555
+                    },
+                    "dir" : {
+                        "x" : 0.0,
+                        "y" : 124.556449890137,
+                        "z" : 0.0
+                    },
+                    "camp" : 1,
+                    "buffId" : 2322,
+                    "roleId" : "xb_01",
+                    "pointFlag" : "Group4-8",
+                    "bornDelay" : 0.0,
+                    "ai"        : "ai_jinzhan_shouhu:守护小怪AI",
+                    "bornTypeId" : "",
+                    "deadTypeId" : "",
+                    "groundDeadTypeId" : "",
+                    "isShowBloodBar"   : 0,
+                    "isShowFriendBloodBar" : 0,
+                    "isShowTargetBar"      : 0,
+                    "pathfindingList"      : [
+                    ],
+                    "boxAddNum"            : 0,
+                    "boxAddType"           : 0,
+                    "boxBuffId"            : 0,
+                    "hate"                 : {
+                        "hateIfHit" : 0,
+                        "hateIfBeHit" : 0,
+                        "hateIfRefGroup" : [
+                        ],
+                        "hateIfChange"   : 0,
+                        "behateIfBegin"  : 0
+                    }
+                }
+            ],
+            "groupFlag"   : "Group4",
+            "nextGroupFlag" : "",
+            "nextWaveDelay" : 0,
+            "delayTime"     : 0.0,
+            "refreshNum"    : 1,
+            "pointNum"      : 1
+        },
+        {
+            "refreshType" : 0,
+            "Points"      : [
+                {
+                    "pos" : {
+                        "x" : -4.78690958023071,
+                        "y" : 0.380000233650208,
+                        "z" : 4.61792516708374
+                    },
+                    "dir" : {
+                        "x" : 0.0,
+                        "y" : 180.091278076172,
+                        "z" : 0.0
+                    },
+                    "camp" : 1,
+                    "buffId" : 2322,
+                    "roleId" : "xb_01",
+                    "pointFlag" : "Group5-1",
+                    "bornDelay" : 0.0,
+                    "ai"        : "ai_jinzhan_shouhu:守护小怪AI",
+                    "bornTypeId" : "",
+                    "deadTypeId" : "",
+                    "groundDeadTypeId" : "",
+                    "isShowBloodBar"   : 0,
+                    "isShowFriendBloodBar" : 0,
+                    "isShowTargetBar"      : 0,
+                    "pathfindingList"      : [
+                    ],
+                    "boxAddNum"            : 0,
+                    "boxAddType"           : 0,
+                    "boxBuffId"            : 0,
+                    "hate"                 : {
+                        "hateIfHit" : 0,
+                        "hateIfBeHit" : 0,
+                        "hateIfRefGroup" : [
+                        ],
+                        "hateIfChange"   : 0,
+                        "behateIfBegin"  : 0
+                    }
+                },
+                {
+                    "pos" : {
+                        "x" : -2.36709928512573,
+                        "y" : 0.380000233650208,
+                        "z" : 4.82842683792114
+                    },
+                    "dir" : {
+                        "x" : 0.0,
+                        "y" : 167.507583618164,
+                        "z" : 0.0
+                    },
+                    "camp" : 1,
+                    "buffId" : 2322,
+                    "roleId" : "xb_01",
+                    "pointFlag" : "Group5-2",
+                    "bornDelay" : 0.0,
+                    "ai"        : "ai_jinzhan_shouhu:守护小怪AI",
+                    "bornTypeId" : "",
+                    "deadTypeId" : "",
+                    "groundDeadTypeId" : "",
+                    "isShowBloodBar"   : 0,
+                    "isShowFriendBloodBar" : 0,
+                    "isShowTargetBar"      : 0,
+                    "pathfindingList"      : [
+                    ],
+                    "boxAddNum"            : 0,
+                    "boxAddType"           : 0,
+                    "boxBuffId"            : 0,
+                    "hate"                 : {
+                        "hateIfHit" : 0,
+                        "hateIfBeHit" : 0,
+                        "hateIfRefGroup" : [
+                        ],
+                        "hateIfChange"   : 0,
+                        "behateIfBegin"  : 0
+                    }
+                },
+                {
+                    "pos" : {
+                        "x" : -6.67396259307861,
+                        "y" : 0.380000233650208,
+                        "z" : 3.5242760181427
+                    },
+                    "dir" : {
+                        "x" : 0.0,
+                        "y" : 178.500961303711,
+                        "z" : 0.0
+                    },
+                    "camp" : 1,
+                    "buffId" : 2322,
+                    "roleId" : "xb_01",
+                    "pointFlag" : "Group5-3",
+                    "bornDelay" : 0.0,
+                    "ai"        : "ai_jinzhan_shouhu:守护小怪AI",
+                    "bornTypeId" : "",
+                    "deadTypeId" : "",
+                    "groundDeadTypeId" : "",
+                    "isShowBloodBar"   : 0,
+                    "isShowFriendBloodBar" : 0,
+                    "isShowTargetBar"      : 0,
+                    "pathfindingList"      : [
+                    ],
+                    "boxAddNum"            : 0,
+                    "boxAddType"           : 0,
+                    "boxBuffId"            : 0,
+                    "hate"                 : {
+                        "hateIfHit" : 0,
+                        "hateIfBeHit" : 0,
+                        "hateIfRefGroup" : [
+                        ],
+                        "hateIfChange"   : 0,
+                        "behateIfBegin"  : 0
+                    }
+                },
+                {
+                    "pos" : {
+                        "x" : 3.13072609901428,
+                        "y" : 0.380000472068787,
+                        "z" : 4.37754154205322
+                    },
+                    "dir" : {
+                        "x" : 0.0,
+                        "y" : 186.485214233398,
+                        "z" : 0.0
+                    },
+                    "camp" : 1,
+                    "buffId" : 2322,
+                    "roleId" : "xb_01",
+                    "pointFlag" : "Group5-4",
+                    "bornDelay" : 0.0,
+                    "ai"        : "ai_jinzhan_shouhu:守护小怪AI",
+                    "bornTypeId" : "",
+                    "deadTypeId" : "",
+                    "groundDeadTypeId" : "",
+                    "isShowBloodBar"   : 0,
+                    "isShowFriendBloodBar" : 0,
+                    "isShowTargetBar"      : 0,
+                    "pathfindingList"      : [
+                    ],
+                    "boxAddNum"            : 0,
+                    "boxAddType"           : 0,
+                    "boxBuffId"            : 0,
+                    "hate"                 : {
+                        "hateIfHit" : 0,
+                        "hateIfBeHit" : 0,
+                        "hateIfRefGroup" : [
+                        ],
+                        "hateIfChange"   : 0,
+                        "behateIfBegin"  : 0
+                    }
+                },
+                {
+                    "pos" : {
+                        "x" : 5.41240692138672,
+                        "y" : 0.379999995231628,
+                        "z" : 4.5544605255127
+                    },
+                    "dir" : {
+                        "x" : 0.0,
+                        "y" : 159.885894775391,
+                        "z" : 0.0
+                    },
+                    "camp" : 1,
+                    "buffId" : 2322,
+                    "roleId" : "xb_01",
+                    "pointFlag" : "Group5-5",
+                    "bornDelay" : 0.0,
+                    "ai"        : "ai_jinzhan_shouhu:守护小怪AI",
+                    "bornTypeId" : "",
+                    "deadTypeId" : "",
+                    "groundDeadTypeId" : "",
+                    "isShowBloodBar"   : 0,
+                    "isShowFriendBloodBar" : 0,
+                    "isShowTargetBar"      : 0,
+                    "pathfindingList"      : [
+                    ],
+                    "boxAddNum"            : 0,
+                    "boxAddType"           : 0,
+                    "boxBuffId"            : 0,
+                    "hate"                 : {
+                        "hateIfHit" : 0,
+                        "hateIfBeHit" : 0,
+                        "hateIfRefGroup" : [
+                        ],
+                        "hateIfChange"   : 0,
+                        "behateIfBegin"  : 0
+                    }
+                },
+                {
+                    "pos" : {
+                        "x" : 7.14899826049805,
+                        "y" : 0.379999995231628,
+                        "z" : 2.85105872154236
+                    },
+                    "dir" : {
+                        "x" : 0.0,
+                        "y" : 181.272476196289,
+                        "z" : 0.0
+                    },
+                    "camp" : 1,
+                    "buffId" : 2322,
+                    "roleId" : "xb_01",
+                    "pointFlag" : "Group5-6",
+                    "bornDelay" : 0.0,
+                    "ai"        : "ai_jinzhan_shouhu:守护小怪AI",
+                    "bornTypeId" : "",
+                    "deadTypeId" : "",
+                    "groundDeadTypeId" : "",
+                    "isShowBloodBar"   : 0,
+                    "isShowFriendBloodBar" : 0,
+                    "isShowTargetBar"      : 0,
+                    "pathfindingList"      : [
+                    ],
+                    "boxAddNum"            : 0,
+                    "boxAddType"           : 0,
+                    "boxBuffId"            : 0,
+                    "hate"                 : {
+                        "hateIfHit" : 0,
+                        "hateIfBeHit" : 0,
+                        "hateIfRefGroup" : [
+                        ],
+                        "hateIfChange"   : 0,
+                        "behateIfBegin"  : 0
+                    }
+                }
+            ],
+            "groupFlag"   : "Group5",
+            "nextGroupFlag" : "",
+            "nextWaveDelay" : 0,
+            "delayTime"     : 0.0,
+            "refreshNum"    : 1,
+            "pointNum"      : 1
+        },
+        {
+            "refreshType" : 0,
+            "Points"      : [
+                {
+                    "pos" : {
+                        "x" : 2.72176074981689,
+                        "y" : 0.379999965429306,
+                        "z" : 1.55952143669128
+                    },
+                    "dir" : {
+                        "x" : 0.0,
+                        "y" : 181.953857421875,
+                        "z" : 0.0
+                    },
+                    "camp" : 1,
+                    "buffId" : 0,
+                    "roleId" : "jy_01",
+                    "pointFlag" : "Group6-1",
+                    "bornDelay" : 0.0,
+                    "ai"        : "-1",
+                    "bornTypeId" : "",
+                    "deadTypeId" : "",
+                    "groundDeadTypeId" : "",
+                    "isShowBloodBar"   : 0,
+                    "isShowFriendBloodBar" : 0,
+                    "isShowTargetBar"      : 0,
+                    "pathfindingList"      : [
+                    ],
+                    "boxAddNum"            : 0,
+                    "boxAddType"           : 0,
+                    "boxBuffId"            : 0,
+                    "hate"                 : {
+                        "hateIfHit" : 0,
+                        "hateIfBeHit" : 0,
+                        "hateIfRefGroup" : [
+                        ],
+                        "hateIfChange"   : 0,
+                        "behateIfBegin"  : 0
+                    }
+                },
+                {
+                    "pos" : {
+                        "x" : -2.31096076965332,
+                        "y" : 0.379999995231628,
+                        "z" : 1.06452512741089
+                    },
+                    "dir" : {
+                        "x" : 0.0,
+                        "y" : 174.287033081055,
+                        "z" : 0.0
+                    },
+                    "camp" : 1,
+                    "buffId" : 0,
+                    "roleId" : "jy_01",
+                    "pointFlag" : "Group6-2",
+                    "bornDelay" : 0.0,
+                    "ai"        : "-1",
+                    "bornTypeId" : "",
+                    "deadTypeId" : "",
+                    "groundDeadTypeId" : "",
+                    "isShowBloodBar"   : 0,
+                    "isShowFriendBloodBar" : 0,
+                    "isShowTargetBar"      : 0,
+                    "pathfindingList"      : [
+                    ],
+                    "boxAddNum"            : 0,
+                    "boxAddType"           : 0,
+                    "boxBuffId"            : 0,
+                    "hate"                 : {
+                        "hateIfHit" : 0,
+                        "hateIfBeHit" : 0,
+                        "hateIfRefGroup" : [
+                        ],
+                        "hateIfChange"   : 0,
+                        "behateIfBegin"  : 0
+                    }
+                }
+            ],
+            "groupFlag"   : "Group7",
+            "nextGroupFlag" : "",
+            "nextWaveDelay" : 0,
+            "delayTime"     : 0.0,
+            "refreshNum"    : 1,
+            "pointNum"      : 1
+        },
+        {
+            "refreshType" : 0,
+            "Points"      : [
+                {
+                    "pos" : {
+                        "x" : -0.713995933532715,
+                        "y" : 0.380000233650208,
+                        "z" : -2.67555856704712
+                    },
+                    "dir" : {
+                        "x" : 0.0,
+                        "y" : 190.453353881836,
+                        "z" : 0.0
+                    },
+                    "camp" : 1,
+                    "buffId" : 0,
+                    "roleId" : "jy_01",
+                    "pointFlag" : "Group7-1",
+                    "bornDelay" : 0.0,
+                    "ai"        : "-1",
+                    "bornTypeId" : "",
+                    "deadTypeId" : "",
+                    "groundDeadTypeId" : "",
+                    "isShowBloodBar"   : 0,
+                    "isShowFriendBloodBar" : 0,
+                    "isShowTargetBar"      : 0,
+                    "pathfindingList"      : [
+                    ],
+                    "boxAddNum"            : 0,
+                    "boxAddType"           : 0,
+                    "boxBuffId"            : 0,
+                    "hate"                 : {
+                        "hateIfHit" : 0,
+                        "hateIfBeHit" : 0,
+                        "hateIfRefGroup" : [
+                        ],
+                        "hateIfChange"   : 0,
+                        "behateIfBegin"  : 0
+                    }
+                }
+            ],
+            "groupFlag"   : "Group6",
+            "nextGroupFlag" : "",
+            "nextWaveDelay" : 0,
+            "delayTime"     : 0.0,
+            "refreshNum"    : 1,
+            "pointNum"      : 1
+        }
+    ],
+    "mBornList"     : [
+        {
+            "mPosition" : {
+                "x" : 1.75774300098419,
+                "y" : 0.379999995231628,
+                "z" : -8.2626838684082
+            },
+            "mEulerAngles" : {
+                "x" : 0.0,
+                "y" : 0.0,
+                "z" : 0.0
+            },
+            "mBornTypeId"  : "herobegin",
+            "mDeadTypeId"  : "herodead",
+            "mGroundDeadTypeId" : "",
+            "hate"              : {
+                "hateIfHit" : 0,
+                "hateIfBeHit" : 0,
+                "hateIfRefGroup" : [
+                    {
+                        "flag" : "Group5",
+                        "hate" : 500
+                    }
+                ],
+                "hateIfChange"   : 0,
+                "behateIfBegin"  : 0
+            }
+        }
+    ],
+    "mCheckList"    : [
+        {
+            "triggerType" : 0,
+            "triggerNum"  : 1,
+            "triggerTimes" : 1,
+            "checkFlag"    : "Start",
+            "eventCfgList" : [
+                {
+                    "eveType" : 0,
+                    "content" : "\n{\n    \"__type\" : \"EventCfg_StartLevel\"\n}"
+                }
+            ],
+            "actionCfgList" : [
+                {
+                    "eveType" : 5,
+                    "content" : "\n{\n    \"__type\" : \"ActionCfg_CreateHero\",\n    \"changeCam\" : null,\n    \"_idx\"      : 0,\n    \"_delay\"    : 0.0\n}"
+                },
+                {
+                    "eveType" : 2,
+                    "content" : "\n{\n    \"__type\" : \"ActionCfg_ActivateRefresh\",\n    \"refreshID\" : \"Group1\",\n    \"_idx\"      : 1,\n    \"_delay\"    : 1.0\n}"
+                },
+                {
+                    "eveType" : 2,
+                    "content" : "\n{\n    \"__type\" : \"ActionCfg_ActivateRefresh\",\n    \"refreshID\" : \"Group6\",\n    \"_idx\"      : 1,\n    \"_delay\"    : 1.0\n}"
+                },
+                {
+                    "eveType" : 11,
+                    "content" : "\n{\n    \"__type\" : \"ActionCfg_Buff\",\n    \"bHaveHero\" : false,\n    \"FlagList\"  : \"Group1\",\n    \"buffId\"    : 9999,\n    \"_idx\"      : 2,\n    \"_delay\"    : 0.0\n}"
+                }
+            ]
+        },
+        {
+            "triggerType" : 0,
+            "triggerNum"  : 1,
+            "triggerTimes" : 1,
+            "checkFlag"    : "1",
+            "eventCfgList" : [
+                {
+                    "eveType" : 8,
+                    "content" : "\n{\n    \"__type\" : \"EventCfg_RefreshDead\",\n    \"flagId\" : \"Group1\",\n    \"bDeadStart\" : true\n}"
+                }
+            ],
+            "actionCfgList" : [
+                {
+                    "eveType" : 2,
+                    "content" : "\n{\n    \"__type\" : \"ActionCfg_ActivateRefresh\",\n    \"refreshID\" : \"Group2\",\n    \"_idx\"      : 0,\n    \"_delay\"    : 0.0\n}"
+                },
+                {
+                    "eveType" : 11,
+                    "content" : "\n{\n    \"__type\" : \"ActionCfg_Buff\",\n    \"bHaveHero\" : false,\n    \"FlagList\"  : \"Group2\",\n    \"buffId\"    : 9999,\n    \"_idx\"      : 1,\n    \"_delay\"    : 0.0\n}"
+                }
+            ]
+        },
+        {
+            "triggerType" : 0,
+            "triggerNum"  : 1,
+            "triggerTimes" : 1,
+            "checkFlag"    : "2",
+            "eventCfgList" : [
+                {
+                    "eveType" : 8,
+                    "content" : "\n{\n    \"__type\" : \"EventCfg_RefreshDead\",\n    \"flagId\" : \"Group2\",\n    \"bDeadStart\" : true\n}"
+                }
+            ],
+            "actionCfgList" : [
+                {
+                    "eveType" : 2,
+                    "content" : "\n{\n    \"__type\" : \"ActionCfg_ActivateRefresh\",\n    \"refreshID\" : \"Group3\",\n    \"_idx\"      : 0,\n    \"_delay\"    : 0.0\n}"
+                },
+                {
+                    "eveType" : 11,
+                    "content" : "\n{\n    \"__type\" : \"ActionCfg_Buff\",\n    \"bHaveHero\" : false,\n    \"FlagList\"  : \"Group3\",\n    \"buffId\"    : 9999,\n    \"_idx\"      : 1,\n    \"_delay\"    : 0.0\n}"
+                }
+            ]
+        },
+        {
+            "triggerType" : 0,
+            "triggerNum"  : 1,
+            "triggerTimes" : 1,
+            "checkFlag"    : "3",
+            "eventCfgList" : [
+                {
+                    "eveType" : 8,
+                    "content" : "\n{\n    \"__type\" : \"EventCfg_RefreshDead\",\n    \"flagId\" : \"Group3\",\n    \"bDeadStart\" : false\n}"
+                }
+            ],
+            "actionCfgList" : [
+                {
+                    "eveType" : 2,
+                    "content" : "\n{\n    \"__type\" : \"ActionCfg_ActivateRefresh\",\n    \"refreshID\" : \"Group4\",\n    \"_idx\"      : 0,\n    \"_delay\"    : 0.0\n}"
+                },
+                {
+                    "eveType" : 11,
+                    "content" : "\n{\n    \"__type\" : \"ActionCfg_Buff\",\n    \"bHaveHero\" : false,\n    \"FlagList\"  : \"Group4\",\n    \"buffId\"    : 9999,\n    \"_idx\"      : 1,\n    \"_delay\"    : 0.0\n}"
+                }
+            ]
+        },
+        {
+            "triggerType" : 0,
+            "triggerNum"  : 1,
+            "triggerTimes" : 1,
+            "checkFlag"    : "4",
+            "eventCfgList" : [
+                {
+                    "eveType" : 8,
+                    "content" : "\n{\n    \"__type\" : \"EventCfg_RefreshDead\",\n    \"flagId\" : \"Group4\",\n    \"bDeadStart\" : false\n}"
+                }
+            ],
+            "actionCfgList" : [
+                {
+                    "eveType" : 2,
+                    "content" : "\n{\n    \"__type\" : \"ActionCfg_ActivateRefresh\",\n    \"refreshID\" : \"Group5\",\n    \"_idx\"      : 0,\n    \"_delay\"    : 0.0\n}"
+                },
+                {
+                    "eveType" : 11,
+                    "content" : "\n{\n    \"__type\" : \"ActionCfg_Buff\",\n    \"bHaveHero\" : false,\n    \"FlagList\"  : \"Group5\",\n    \"buffId\"    : 9999,\n    \"_idx\"      : 1,\n    \"_delay\"    : 0.0\n}"
+                }
+            ]
+        },
+        {
+            "triggerType" : 0,
+            "triggerNum"  : 1,
+            "triggerTimes" : 1,
+            "checkFlag"    : "5",
+            "eventCfgList" : [
+                {
+                    "eveType" : 8,
+                    "content" : "\n{\n    \"__type\" : \"EventCfg_RefreshDead\",\n    \"flagId\" : \"Group6\",\n    \"bDeadStart\" : false\n}"
+                }
+            ],
+            "actionCfgList" : [
+                {
+                    "eveType" : 2,
+                    "content" : "\n{\n    \"__type\" : \"ActionCfg_ActivateRefresh\",\n    \"refreshID\" : \"Group7\",\n    \"_idx\"      : 0,\n    \"_delay\"    : 0.0\n}"
+                }
+            ]
+        },
+        {
+            "triggerType" : 0,
+            "triggerNum"  : 1,
+            "triggerTimes" : 1,
+            "checkFlag"    : "lose",
+            "eventCfgList" : [
+                {
+                    "eveType" : 1,
+                    "content" : "\n{\n    \"__type\" : \"EventCfg_EnterTime\",\n    \"secNum\" : 181\n}"
+                }
+            ],
+            "actionCfgList" : [
+                {
+                    "eveType" : 4,
+                    "content" : "\n{\n    \"__type\" : \"ActionCfg_Lose\",\n    \"_idx\"   : 0,\n    \"_delay\" : 0.0\n}"
+                }
+            ]
+        },
+        {
+            "triggerType" : 0,
+            "triggerNum"  : 1,
+            "triggerTimes" : 1,
+            "checkFlag"    : "lose2",
+            "eventCfgList" : [
+                {
+                    "eveType" : 6,
+                    "content" : "\n{\n    \"__type\" : \"EventCfg_RoleDead\",\n    \"flagId\" : \"\",\n    \"bDeadStart\" : false\n}"
+                }
+            ],
+            "actionCfgList" : [
+                {
+                    "eveType" : 4,
+                    "content" : "\n{\n    \"__type\" : \"ActionCfg_Lose\",\n    \"_idx\"   : 0,\n    \"_delay\" : 0.0\n}"
+                }
+            ]
+        },
+        {
+            "triggerType" : 0,
+            "triggerNum"  : 1,
+            "triggerTimes" : 1,
+            "checkFlag"    : "win",
+            "eventCfgList" : [
+                {
+                    "eveType" : 8,
+                    "content" : "\n{\n    \"__type\" : \"EventCfg_RefreshDead\",\n    \"flagId\" : \"Group7\",\n    \"bDeadStart\" : false\n}"
+                }
+            ],
+            "actionCfgList" : [
+                {
+                    "eveType" : 3,
+                    "content" : "\n{\n    \"__type\" : \"ActionCfg_Win\",\n    \"_idx\"   : 0,\n    \"_delay\" : 0.0\n}"
+                },
+                {
+                    "eveType" : 38,
+                    "content" : "\n{\n    \"__type\" : \"ActionCfg_KillMonster\",\n    \"bHaveHero\" : false,\n    \"flagIds\"   : \"Group1,Group2,Group3,Group5,\",\n    \"bHeroKill\" : false,\n    \"_idx\"      : 0,\n    \"_delay\"    : 0.0\n}"
+                },
+                {
+                    "eveType" : 41,
+                    "content" : "\n{\n    \"__type\" : \"ActionCfg_RemoveEvent\",\n    \"eventId\" : \"1\",\n    \"_idx\"    : 0,\n    \"_delay\"  : 0.0\n}"
+                },
+                {
+                    "eveType" : 41,
+                    "content" : "\n{\n    \"__type\" : \"ActionCfg_RemoveEvent\",\n    \"eventId\" : \"2\",\n    \"_idx\"    : 0,\n    \"_delay\"  : 0.0\n}"
+                },
+                {
+                    "eveType" : 41,
+                    "content" : "\n{\n    \"__type\" : \"ActionCfg_RemoveEvent\",\n    \"eventId\" : \"3\",\n    \"_idx\"    : 0,\n    \"_delay\"  : 0.0\n}"
+                },
+                {
+                    "eveType" : 41,
+                    "content" : "\n{\n    \"__type\" : \"ActionCfg_RemoveEvent\",\n    \"eventId\" : \"4\",\n    \"_idx\"    : 0,\n    \"_delay\"  : 0.0\n}"
+                }
+            ]
+        }
+    ],
+    "mAreaList"     : [
+    ],
+    "mCameraList"   : [
+    ],
+    "mStoryIdList"  : [
+    ],
+    "mGroupIdList"  : [
+    ],
+    "mPoss"         : [
+    ],
+    "mShowWaveGroupId" : ""
+}

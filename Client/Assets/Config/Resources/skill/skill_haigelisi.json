@@ -1,0 +1,3438 @@
+﻿
+{
+    "file" : "skill_haigelisi",
+    "skills" : [
+        {
+            "skillId" : "gongji01",
+            "name"    : "普攻",
+            "desc"    : "",
+            "icon"    : "",
+            "mp"      : 0,
+            "mpNeed"  : -1,
+            "cd"      : 0.0,
+            "showWeapon" : true,
+            "isInternal" : false,
+            "parentSkillId" : "",
+            "aniName"       : "gongji01",
+            "aniType"       : 0,
+            "fade"          : 0.200000002980232,
+            "duration"      : -1.0,
+            "continueIfPress" : false,
+            "aniRate"         : {
+                "clips" : [
+                ],
+                "speed" : 1.0
+            },
+            "moveType"        : 0,
+            "dirType"         : 0,
+            "rotateSpeed"     : 360.0,
+            "moveSpeed"       : 3.0,
+            "beginTranFrame"  : 0,
+            "endTranFrame"    : -1,
+            "autoFace"        : true,
+            "firstRange"      : {
+                "type" : 0,
+                "beginOffsetAngle" : 0.0,
+                "endOffsetAngle"   : 0.0,
+                "begingOffsetPos"  : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "endOffsetPos"     : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "distance"         : 10.0,
+                "heightLimit"      : -1.0,
+                "rectLimit"        : 3.0,
+                "angleLimit"       : 90.0,
+                "showArea"         : false,
+                "showRange"        : false
+            },
+            "secondRange"     : {
+                "type" : 0,
+                "beginOffsetAngle" : 0.0,
+                "endOffsetAngle"   : 0.0,
+                "begingOffsetPos"  : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "endOffsetPos"     : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "distance"         : 10.0,
+                "heightLimit"      : -1.0,
+                "rectLimit"        : 3.0,
+                "angleLimit"       : 90.0,
+                "showArea"         : false,
+                "showRange"        : false
+            },
+            "thirdRange"      : {
+                "type" : 0,
+                "beginOffsetAngle" : 0.0,
+                "endOffsetAngle"   : 0.0,
+                "begingOffsetPos"  : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "endOffsetPos"     : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "distance"         : 10.0,
+                "heightLimit"      : -1.0,
+                "rectLimit"        : 3.0,
+                "angleLimit"       : 90.0,
+                "showArea"         : false,
+                "showRange"        : false
+            },
+            "attackRange"     : {
+                "type" : 0,
+                "beginOffsetAngle" : 0.0,
+                "endOffsetAngle"   : 0.0,
+                "begingOffsetPos"  : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "endOffsetPos"     : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "distance"         : 2.5,
+                "heightLimit"      : 2.0,
+                "rectLimit"        : 3.0,
+                "angleLimit"       : 90.0,
+                "showArea"         : true,
+                "showRange"        : true
+            },
+            "cancelPriority"  : 0,
+            "isAirSkill"      : false,
+            "canCanel"        : true,
+            "canBeCanel"      : true,
+            "cancelPreFrame"  : 0,
+            "cancelPostFrame" : -1,
+            "comboSkillId"    : "",
+            "comboPreFrame"   : 0,
+            "comboPostFrame"  : -1,
+            "comboWaitFrame"  : 30,
+            "showComboIcon"   : true,
+            "eventGroup"      : {
+                "file" : "skill_event_group",
+                "isFile" : false,
+                "frames" : [
+                    {
+                        "id" : 8,
+                        "frameType" : 0,
+                        "frameBegin" : 0,
+                        "frameEnd"   : -1,
+                        "frameInterval" : 1,
+                        "countLimit"    : -1,
+                        "countTargetLimit" : -1,
+                        "countFrameLimit"  : -1,
+                        "frameLimit"       : -1,
+                        "targetOrderType"  : 0,
+                        "conditions"       : [
+                        ],
+                        "targetConditions" : [
+                        ],
+                        "targetRanges"     : [
+                            {
+                                "range" : {
+                                    "type" : 0,
+                                    "beginOffsetAngle" : 0.0,
+                                    "endOffsetAngle"   : 0.0,
+                                    "begingOffsetPos"  : {
+                                        "x" : 0.0,
+                                        "y" : 0.0,
+                                        "z" : 0.0
+                                    },
+                                    "endOffsetPos"     : {
+                                        "x" : 0.0,
+                                        "y" : 0.0,
+                                        "z" : 0.0
+                                    },
+                                    "distance"         : 100.0,
+                                    "heightLimit"      : 2.0,
+                                    "rectLimit"        : 3.0,
+                                    "angleLimit"       : 90.0,
+                                    "showArea"         : false,
+                                    "showRange"        : false
+                                },
+                                "targetType" : 6
+                            }
+                        ],
+                        "events"           : [
+                            {
+                                "__type" : "MoveEventCfg",
+                                "moveType" : 2,
+                                "dirType"  : 3,
+                                "self"     : true,
+                                "distance" : 0.0199999995529652,
+                                "frame"    : 10,
+                                "avoid"    : false,
+                                "touchOverFrame" : -1,
+                                "endIfSkillEnd"  : false,
+                                "endSkill"       : "",
+                                "ingore"         : false,
+                                "eventCountLimit" : -1,
+                                "eventCountFrameLimit" : -1,
+                                "id"                   : 1,
+                                "priority"             : 0,
+                                "ingoreIfNotHero"      : false
+                            }
+                        ],
+                        "selId"            : 1
+                    },
+                    {
+                        "id" : 9,
+                        "frameType" : 0,
+                        "frameBegin" : 10,
+                        "frameEnd"   : -1,
+                        "frameInterval" : 1,
+                        "countLimit"    : -1,
+                        "countTargetLimit" : -1,
+                        "countFrameLimit"  : -1,
+                        "frameLimit"       : -1,
+                        "targetOrderType"  : 0,
+                        "conditions"       : [
+                        ],
+                        "targetConditions" : [
+                        ],
+                        "targetRanges"     : [
+                            {
+                                "range" : {
+                                    "type" : 0,
+                                    "beginOffsetAngle" : 0.0,
+                                    "endOffsetAngle"   : 0.0,
+                                    "begingOffsetPos"  : {
+                                        "x" : 0.0,
+                                        "y" : 0.0,
+                                        "z" : 0.0
+                                    },
+                                    "endOffsetPos"     : {
+                                        "x" : 0.0,
+                                        "y" : 0.0,
+                                        "z" : 0.0
+                                    },
+                                    "distance"         : 5.0,
+                                    "heightLimit"      : 2.0,
+                                    "rectLimit"        : 3.0,
+                                    "angleLimit"       : 90.0,
+                                    "showArea"         : false,
+                                    "showRange"        : false
+                                },
+                                "targetType" : 0
+                            }
+                        ],
+                        "events"           : [
+                            {
+                                "__type" : "SoundEventCfg",
+                                "soundId" : 40502,
+                                "ingore"  : false,
+                                "eventCountLimit" : -1,
+                                "eventCountFrameLimit" : -1,
+                                "id"                   : 1,
+                                "priority"             : 0,
+                                "ingoreIfNotHero"      : false
+                            }
+                        ],
+                        "selId"            : 1
+                    },
+                    {
+                        "id" : 1,
+                        "frameType" : 1,
+                        "frameBegin" : 11,
+                        "frameEnd"   : -1,
+                        "frameInterval" : 1,
+                        "countLimit"    : -1,
+                        "countTargetLimit" : 1,
+                        "countFrameLimit"  : -1,
+                        "frameLimit"       : -1,
+                        "targetOrderType"  : 0,
+                        "conditions"       : [
+                        ],
+                        "targetConditions" : [
+                        ],
+                        "targetRanges"     : [
+                            {
+                                "range" : {
+                                    "type" : 1,
+                                    "beginOffsetAngle" : 0.0,
+                                    "endOffsetAngle"   : 0.0,
+                                    "begingOffsetPos"  : {
+                                        "x" : 0.0,
+                                        "y" : 0.0,
+                                        "z" : 0.0
+                                    },
+                                    "endOffsetPos"     : {
+                                        "x" : 0.0,
+                                        "y" : 0.0,
+                                        "z" : 0.0
+                                    },
+                                    "distance"         : 2.5,
+                                    "heightLimit"      : 2.0,
+                                    "rectLimit"        : 3.0,
+                                    "angleLimit"       : 45.0,
+                                    "showArea"         : false,
+                                    "showRange"        : false
+                                },
+                                "targetType" : 2
+                            }
+                        ],
+                        "events"           : [
+                            {
+                                "__type" : "DamageEventCfg",
+                                "rate"   : 0.330000013113022,
+                                "hitFx"  : "小打击",
+                                "hitFxAdjust" : true,
+                                "shield"      : 10.0,
+                                "elem"        : 5,
+                                "playElemEventGroup" : true,
+                                "ingore"             : false,
+                                "eventCountLimit"    : -1,
+                                "eventCountFrameLimit" : -1,
+                                "id"                   : 1,
+                                "priority"             : 0,
+                                "ingoreIfNotHero"      : false
+                            },
+                            {
+                                "__type" : "HitSkillEventCfg",
+                                "duration" : 0.300000011920929,
+                                "floatSpeed" : 8.0,
+                                "floatAccelerated" : -20.0,
+                                "groundFloat"      : {
+                                    "__type" : "HitFloatSkillEventCfg",
+                                    "speed"  : 8.0,
+                                    "acceleratedUp" : -19.0,
+                                    "acceleratedDown" : -19.0,
+                                    "groundDuration"  : 0.5,
+                                    "reverseSpeed"    : 2.0,
+                                    "speedDown"       : -4.0,
+                                    "hitDuration"     : 0.300000011920929,
+                                    "ingore"          : false,
+                                    "eventCountLimit" : -1,
+                                    "eventCountFrameLimit" : -1,
+                                    "id"                   : 0,
+                                    "priority"             : 0,
+                                    "ingoreIfNotHero"      : false
+                                },
+                                "ingore"           : false,
+                                "eventCountLimit"  : -1,
+                                "eventCountFrameLimit" : -1,
+                                "id"                   : 2,
+                                "priority"             : 0,
+                                "ingoreIfNotHero"      : false
+                            },
+                            {
+                                "__type" : "MoveEventCfg",
+                                "moveType" : 2,
+                                "dirType"  : 0,
+                                "self"     : false,
+                                "distance" : 1.0,
+                                "frame"    : 2,
+                                "avoid"    : false,
+                                "touchOverFrame" : -1,
+                                "endIfSkillEnd"  : false,
+                                "endSkill"       : "",
+                                "ingore"         : false,
+                                "eventCountLimit" : -1,
+                                "eventCountFrameLimit" : -1,
+                                "id"                   : 3,
+                                "priority"             : 0,
+                                "ingoreIfNotHero"      : false
+                            },
+                            {
+                                "__type" : "SoundEventCfg",
+                                "soundId" : 10001,
+                                "ingore"  : false,
+                                "eventCountLimit" : -1,
+                                "eventCountFrameLimit" : -1,
+                                "id"                   : 4,
+                                "priority"             : 0,
+                                "ingoreIfNotHero"      : false
+                            }
+                        ],
+                        "selId"            : 1
+                    },
+                    {
+                        "id" : 2,
+                        "frameType" : 0,
+                        "frameBegin" : 12,
+                        "frameEnd"   : -1,
+                        "frameInterval" : 1,
+                        "countLimit"    : -1,
+                        "countTargetLimit" : -1,
+                        "countFrameLimit"  : -1,
+                        "frameLimit"       : -1,
+                        "targetOrderType"  : 0,
+                        "conditions"       : [
+                        ],
+                        "targetConditions" : [
+                        ],
+                        "targetRanges"     : [
+                            {
+                                "range" : {
+                                    "type" : 0,
+                                    "beginOffsetAngle" : 0.0,
+                                    "endOffsetAngle"   : 0.0,
+                                    "begingOffsetPos"  : {
+                                        "x" : 0.0,
+                                        "y" : 0.0,
+                                        "z" : 0.0
+                                    },
+                                    "endOffsetPos"     : {
+                                        "x" : 0.0,
+                                        "y" : 0.0,
+                                        "z" : 0.0
+                                    },
+                                    "distance"         : 5.0,
+                                    "heightLimit"      : 2.0,
+                                    "rectLimit"        : 3.0,
+                                    "angleLimit"       : 90.0,
+                                    "showArea"         : false,
+                                    "showRange"        : false
+                                },
+                                "targetType" : 0
+                            }
+                        ],
+                        "events"           : [
+                            {
+                                "__type" : "MoveEventCfg",
+                                "moveType" : 0,
+                                "dirType"  : 1,
+                                "self"     : false,
+                                "distance" : 1.0,
+                                "frame"    : 20,
+                                "avoid"    : false,
+                                "touchOverFrame" : -1,
+                                "endIfSkillEnd"  : false,
+                                "endSkill"       : "",
+                                "ingore"         : false,
+                                "eventCountLimit" : -1,
+                                "eventCountFrameLimit" : -1,
+                                "id"                   : 1,
+                                "priority"             : 0,
+                                "ingoreIfNotHero"      : false
+                            }
+                        ],
+                        "selId"            : 1
+                    },
+                    {
+                        "id" : 7,
+                        "frameType" : 0,
+                        "frameBegin" : 17,
+                        "frameEnd"   : -1,
+                        "frameInterval" : 1,
+                        "countLimit"    : -1,
+                        "countTargetLimit" : -1,
+                        "countFrameLimit"  : -1,
+                        "frameLimit"       : -1,
+                        "targetOrderType"  : 0,
+                        "conditions"       : [
+                        ],
+                        "targetConditions" : [
+                        ],
+                        "targetRanges"     : [
+                            {
+                                "range" : {
+                                    "type" : 0,
+                                    "beginOffsetAngle" : 0.0,
+                                    "endOffsetAngle"   : 0.0,
+                                    "begingOffsetPos"  : {
+                                        "x" : 0.0,
+                                        "y" : 0.0,
+                                        "z" : 0.0
+                                    },
+                                    "endOffsetPos"     : {
+                                        "x" : 0.0,
+                                        "y" : 0.0,
+                                        "z" : 0.0
+                                    },
+                                    "distance"         : 100.0,
+                                    "heightLimit"      : 2.0,
+                                    "rectLimit"        : 3.0,
+                                    "angleLimit"       : 90.0,
+                                    "showArea"         : false,
+                                    "showRange"        : false
+                                },
+                                "targetType" : 6
+                            }
+                        ],
+                        "events"           : [
+                            {
+                                "__type" : "MoveEventCfg",
+                                "moveType" : 2,
+                                "dirType"  : 3,
+                                "self"     : true,
+                                "distance" : 0.0199999995529652,
+                                "frame"    : 5,
+                                "avoid"    : false,
+                                "touchOverFrame" : -1,
+                                "endIfSkillEnd"  : false,
+                                "endSkill"       : "",
+                                "ingore"         : false,
+                                "eventCountLimit" : -1,
+                                "eventCountFrameLimit" : -1,
+                                "id"                   : 1,
+                                "priority"             : 0,
+                                "ingoreIfNotHero"      : false
+                            }
+                        ],
+                        "selId"            : 1
+                    },
+                    {
+                        "id" : 3,
+                        "frameType" : 0,
+                        "frameBegin" : 22,
+                        "frameEnd"   : -1,
+                        "frameInterval" : 1,
+                        "countLimit"    : -1,
+                        "countTargetLimit" : -1,
+                        "countFrameLimit"  : -1,
+                        "frameLimit"       : -1,
+                        "targetOrderType"  : 0,
+                        "conditions"       : [
+                        ],
+                        "targetConditions" : [
+                        ],
+                        "targetRanges"     : [
+                            {
+                                "range" : {
+                                    "type" : 0,
+                                    "beginOffsetAngle" : 0.0,
+                                    "endOffsetAngle"   : 0.0,
+                                    "begingOffsetPos"  : {
+                                        "x" : 0.0,
+                                        "y" : 0.0,
+                                        "z" : 0.0
+                                    },
+                                    "endOffsetPos"     : {
+                                        "x" : 0.0,
+                                        "y" : 0.0,
+                                        "z" : 0.0
+                                    },
+                                    "distance"         : 5.0,
+                                    "heightLimit"      : 2.0,
+                                    "rectLimit"        : 3.0,
+                                    "angleLimit"       : 90.0,
+                                    "showArea"         : false,
+                                    "showRange"        : false
+                                },
+                                "targetType" : 0
+                            }
+                        ],
+                        "events"           : [
+                            {
+                                "__type" : "MoveEventCfg",
+                                "moveType" : 0,
+                                "dirType"  : 1,
+                                "self"     : false,
+                                "distance" : 1.0,
+                                "frame"    : 20,
+                                "avoid"    : false,
+                                "touchOverFrame" : -1,
+                                "endIfSkillEnd"  : false,
+                                "endSkill"       : "",
+                                "ingore"         : false,
+                                "eventCountLimit" : -1,
+                                "eventCountFrameLimit" : -1,
+                                "id"                   : 1,
+                                "priority"             : 0,
+                                "ingoreIfNotHero"      : false
+                            }
+                        ],
+                        "selId"            : 1
+                    },
+                    {
+                        "id" : 4,
+                        "frameType" : 1,
+                        "frameBegin" : 25,
+                        "frameEnd"   : -1,
+                        "frameInterval" : 1,
+                        "countLimit"    : -1,
+                        "countTargetLimit" : 1,
+                        "countFrameLimit"  : -1,
+                        "frameLimit"       : -1,
+                        "targetOrderType"  : 0,
+                        "conditions"       : [
+                        ],
+                        "targetConditions" : [
+                        ],
+                        "targetRanges"     : [
+                            {
+                                "range" : {
+                                    "type" : 1,
+                                    "beginOffsetAngle" : 0.0,
+                                    "endOffsetAngle"   : 0.0,
+                                    "begingOffsetPos"  : {
+                                        "x" : 0.0,
+                                        "y" : 0.0,
+                                        "z" : 0.0
+                                    },
+                                    "endOffsetPos"     : {
+                                        "x" : 0.0,
+                                        "y" : 0.0,
+                                        "z" : 0.0
+                                    },
+                                    "distance"         : 2.5,
+                                    "heightLimit"      : 2.0,
+                                    "rectLimit"        : 3.0,
+                                    "angleLimit"       : 45.0,
+                                    "showArea"         : false,
+                                    "showRange"        : false
+                                },
+                                "targetType" : 2
+                            }
+                        ],
+                        "events"           : [
+                            {
+                                "__type" : "DamageEventCfg",
+                                "rate"   : 0.330000013113022,
+                                "hitFx"  : "小打击",
+                                "hitFxAdjust" : true,
+                                "shield"      : 10.0,
+                                "elem"        : 5,
+                                "playElemEventGroup" : true,
+                                "ingore"             : false,
+                                "eventCountLimit"    : -1,
+                                "eventCountFrameLimit" : -1,
+                                "id"                   : 1,
+                                "priority"             : 0,
+                                "ingoreIfNotHero"      : false
+                            },
+                            {
+                                "__type" : "HitSkillEventCfg",
+                                "duration" : 0.300000011920929,
+                                "floatSpeed" : 8.0,
+                                "floatAccelerated" : -20.0,
+                                "groundFloat"      : {
+                                    "__type" : "HitFloatSkillEventCfg",
+                                    "speed"  : 8.0,
+                                    "acceleratedUp" : -19.0,
+                                    "acceleratedDown" : -19.0,
+                                    "groundDuration"  : 0.5,
+                                    "reverseSpeed"    : 2.0,
+                                    "speedDown"       : -4.0,
+                                    "hitDuration"     : 0.300000011920929,
+                                    "ingore"          : false,
+                                    "eventCountLimit" : -1,
+                                    "eventCountFrameLimit" : -1,
+                                    "id"                   : 0,
+                                    "priority"             : 0,
+                                    "ingoreIfNotHero"      : false
+                                },
+                                "ingore"           : false,
+                                "eventCountLimit"  : -1,
+                                "eventCountFrameLimit" : -1,
+                                "id"                   : 2,
+                                "priority"             : 0,
+                                "ingoreIfNotHero"      : false
+                            },
+                            {
+                                "__type" : "MoveEventCfg",
+                                "moveType" : 2,
+                                "dirType"  : 0,
+                                "self"     : false,
+                                "distance" : 1.0,
+                                "frame"    : 2,
+                                "avoid"    : false,
+                                "touchOverFrame" : -1,
+                                "endIfSkillEnd"  : false,
+                                "endSkill"       : "",
+                                "ingore"         : false,
+                                "eventCountLimit" : -1,
+                                "eventCountFrameLimit" : -1,
+                                "id"                   : 3,
+                                "priority"             : 0,
+                                "ingoreIfNotHero"      : false
+                            },
+                            {
+                                "__type" : "SoundEventCfg",
+                                "soundId" : 10001,
+                                "ingore"  : false,
+                                "eventCountLimit" : -1,
+                                "eventCountFrameLimit" : -1,
+                                "id"                   : 4,
+                                "priority"             : 0,
+                                "ingoreIfNotHero"      : false
+                            }
+                        ],
+                        "selId"            : 2
+                    },
+                    {
+                        "id" : 5,
+                        "frameType" : 0,
+                        "frameBegin" : 47,
+                        "frameEnd"   : -1,
+                        "frameInterval" : 1,
+                        "countLimit"    : -1,
+                        "countTargetLimit" : 1,
+                        "countFrameLimit"  : -1,
+                        "frameLimit"       : -1,
+                        "targetOrderType"  : 0,
+                        "conditions"       : [
+                        ],
+                        "targetConditions" : [
+                        ],
+                        "targetRanges"     : [
+                            {
+                                "range" : {
+                                    "type" : 0,
+                                    "beginOffsetAngle" : 0.0,
+                                    "endOffsetAngle"   : 0.0,
+                                    "begingOffsetPos"  : {
+                                        "x" : 0.0,
+                                        "y" : 0.0,
+                                        "z" : 0.0
+                                    },
+                                    "endOffsetPos"     : {
+                                        "x" : 0.0,
+                                        "y" : 0.0,
+                                        "z" : 0.0
+                                    },
+                                    "distance"         : 4.0,
+                                    "heightLimit"      : 2.0,
+                                    "rectLimit"        : 3.0,
+                                    "angleLimit"       : 90.0,
+                                    "showArea"         : false,
+                                    "showRange"        : false
+                                },
+                                "targetType" : 2
+                            }
+                        ],
+                        "events"           : [
+                            {
+                                "__type" : "DamageEventCfg",
+                                "rate"   : 0.330000013113022,
+                                "hitFx"  : "概率飙血",
+                                "hitFxAdjust" : true,
+                                "shield"      : 10.0,
+                                "elem"        : 5,
+                                "playElemEventGroup" : true,
+                                "ingore"             : false,
+                                "eventCountLimit"    : -1,
+                                "eventCountFrameLimit" : -1,
+                                "id"                   : 1,
+                                "priority"             : 0,
+                                "ingoreIfNotHero"      : false
+                            },
+                            {
+                                "__type" : "HitFlySkillEventCfg",
+                                "speed"  : 8.0,
+                                "acceleratedUp" : -9.0,
+                                "acceleratedDown" : -9.0,
+                                "groundDuration"  : 0.5,
+                                "reverseSpeed"    : 1.0,
+                                "speedDown"       : -4.0,
+                                "hitDuration"     : 0.300000011920929,
+                                "ingore"          : false,
+                                "eventCountLimit" : -1,
+                                "eventCountFrameLimit" : -1,
+                                "id"                   : 3,
+                                "priority"             : 0,
+                                "ingoreIfNotHero"      : false
+                            },
+                            {
+                                "__type" : "MoveEventCfg",
+                                "moveType" : 2,
+                                "dirType"  : 0,
+                                "self"     : false,
+                                "distance" : 3.0,
+                                "frame"    : 20,
+                                "avoid"    : false,
+                                "touchOverFrame" : -1,
+                                "endIfSkillEnd"  : false,
+                                "endSkill"       : "",
+                                "ingore"         : false,
+                                "eventCountLimit" : -1,
+                                "eventCountFrameLimit" : -1,
+                                "id"                   : 4,
+                                "priority"             : 0,
+                                "ingoreIfNotHero"      : false
+                            },
+                            {
+                                "__type" : "SoundEventCfg",
+                                "soundId" : 10001,
+                                "ingore"  : false,
+                                "eventCountLimit" : -1,
+                                "eventCountFrameLimit" : -1,
+                                "id"                   : 5,
+                                "priority"             : 0,
+                                "ingoreIfNotHero"      : false
+                            }
+                        ],
+                        "selId"            : 3
+                    }
+                ],
+                "selId"  : 8,
+                "allScroll" : {
+                    "x" : 0.0,
+                    "y" : 0.0
+                },
+                "contentScroll" : {
+                    "x" : 0.0,
+                    "y" : 0.0
+                },
+                "maxWidth"      : 1550.0
+            },
+            "skillStates"     : [
+            ],
+            "endStates"       : [
+            ],
+            "endEventGroupId" : "",
+            "endIfCancel"     : false,
+            "endIfBehit"      : false
+        },
+        {
+            "skillId" : "jineng_didongshanyao",
+            "name"    : "地动山摇",
+            "desc"    : "",
+            "icon"    : "",
+            "mp"      : 0,
+            "mpNeed"  : -1,
+            "cd"      : 25.0,
+            "showWeapon" : true,
+            "isInternal" : false,
+            "parentSkillId" : "",
+            "aniName"       : "jineng_didongshanyao",
+            "aniType"       : 0,
+            "fade"          : 0.200000002980232,
+            "duration"      : -1.0,
+            "continueIfPress" : false,
+            "aniRate"         : {
+                "clips" : [
+                ],
+                "speed" : 1.0
+            },
+            "moveType"        : 0,
+            "dirType"         : 0,
+            "rotateSpeed"     : 360.0,
+            "moveSpeed"       : 3.0,
+            "beginTranFrame"  : 0,
+            "endTranFrame"    : -1,
+            "autoFace"        : true,
+            "firstRange"      : {
+                "type" : 0,
+                "beginOffsetAngle" : 0.0,
+                "endOffsetAngle"   : 0.0,
+                "begingOffsetPos"  : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "endOffsetPos"     : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "distance"         : 5.0,
+                "heightLimit"      : -1.0,
+                "rectLimit"        : 3.0,
+                "angleLimit"       : 90.0,
+                "showArea"         : false,
+                "showRange"        : false
+            },
+            "secondRange"     : {
+                "type" : 0,
+                "beginOffsetAngle" : 0.0,
+                "endOffsetAngle"   : 0.0,
+                "begingOffsetPos"  : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "endOffsetPos"     : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "distance"         : 5.0,
+                "heightLimit"      : -1.0,
+                "rectLimit"        : 3.0,
+                "angleLimit"       : 90.0,
+                "showArea"         : false,
+                "showRange"        : false
+            },
+            "thirdRange"      : {
+                "type" : 0,
+                "beginOffsetAngle" : 0.0,
+                "endOffsetAngle"   : 0.0,
+                "begingOffsetPos"  : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "endOffsetPos"     : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "distance"         : 5.0,
+                "heightLimit"      : -1.0,
+                "rectLimit"        : 3.0,
+                "angleLimit"       : 90.0,
+                "showArea"         : false,
+                "showRange"        : false
+            },
+            "attackRange"     : {
+                "type" : 0,
+                "beginOffsetAngle" : 0.0,
+                "endOffsetAngle"   : 0.0,
+                "begingOffsetPos"  : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "endOffsetPos"     : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "distance"         : 5.0,
+                "heightLimit"      : 2.0,
+                "rectLimit"        : 3.0,
+                "angleLimit"       : 90.0,
+                "showArea"         : false,
+                "showRange"        : false
+            },
+            "cancelPriority"  : 0,
+            "isAirSkill"      : false,
+            "canCanel"        : true,
+            "canBeCanel"      : true,
+            "cancelPreFrame"  : 0,
+            "cancelPostFrame" : -1,
+            "comboSkillId"    : "",
+            "comboPreFrame"   : 0,
+            "comboPostFrame"  : -1,
+            "comboWaitFrame"  : 30,
+            "showComboIcon"   : true,
+            "eventGroup"      : {
+                "file" : "skill_event_group",
+                "isFile" : false,
+                "frames" : [
+                    {
+                        "id" : 8,
+                        "frameType" : 0,
+                        "frameBegin" : 0,
+                        "frameEnd"   : -1,
+                        "frameInterval" : 1,
+                        "countLimit"    : -1,
+                        "countTargetLimit" : -1,
+                        "countFrameLimit"  : -1,
+                        "frameLimit"       : -1,
+                        "targetOrderType"  : 0,
+                        "conditions"       : [
+                        ],
+                        "targetConditions" : [
+                        ],
+                        "targetRanges"     : [
+                            {
+                                "range" : {
+                                    "type" : 0,
+                                    "beginOffsetAngle" : 0.0,
+                                    "endOffsetAngle"   : 0.0,
+                                    "begingOffsetPos"  : {
+                                        "x" : 0.0,
+                                        "y" : 0.0,
+                                        "z" : 0.0
+                                    },
+                                    "endOffsetPos"     : {
+                                        "x" : 0.0,
+                                        "y" : 0.0,
+                                        "z" : 0.0
+                                    },
+                                    "distance"         : 5.0,
+                                    "heightLimit"      : 2.0,
+                                    "rectLimit"        : 3.0,
+                                    "angleLimit"       : 90.0,
+                                    "showArea"         : false,
+                                    "showRange"        : false
+                                },
+                                "targetType" : 0
+                            }
+                        ],
+                        "events"           : [
+                            {
+                                "__type" : "SoundEventCfg",
+                                "soundId" : 40503,
+                                "ingore"  : false,
+                                "eventCountLimit" : -1,
+                                "eventCountFrameLimit" : -1,
+                                "id"                   : 1,
+                                "priority"             : 0,
+                                "ingoreIfNotHero"      : false
+                            }
+                        ],
+                        "selId"            : 1
+                    },
+                    {
+                        "id" : 7,
+                        "frameType" : 0,
+                        "frameBegin" : 60,
+                        "frameEnd"   : -1,
+                        "frameInterval" : 1,
+                        "countLimit"    : -1,
+                        "countTargetLimit" : -1,
+                        "countFrameLimit"  : -1,
+                        "frameLimit"       : -1,
+                        "targetOrderType"  : 0,
+                        "conditions"       : [
+                        ],
+                        "targetConditions" : [
+                        ],
+                        "targetRanges"     : [
+                            {
+                                "range" : {
+                                    "type" : 0,
+                                    "beginOffsetAngle" : 0.0,
+                                    "endOffsetAngle"   : 0.0,
+                                    "begingOffsetPos"  : {
+                                        "x" : 0.0,
+                                        "y" : 0.0,
+                                        "z" : 0.0
+                                    },
+                                    "endOffsetPos"     : {
+                                        "x" : 0.0,
+                                        "y" : 0.0,
+                                        "z" : 0.0
+                                    },
+                                    "distance"         : 5.0,
+                                    "heightLimit"      : 2.0,
+                                    "rectLimit"        : 3.0,
+                                    "angleLimit"       : 90.0,
+                                    "showArea"         : false,
+                                    "showRange"        : false
+                                },
+                                "targetType" : 0
+                            }
+                        ],
+                        "events"           : [
+                            {
+                                "__type" : "BuffEventCfg",
+                                "self"   : false,
+                                "buffParams" : [
+                                    {
+                                        "id" : 411,
+                                        "end" : true,
+                                        "frame" : -3.0
+                                    }
+                                ],
+                                "ingore"     : false,
+                                "eventCountLimit" : -1,
+                                "eventCountFrameLimit" : -1,
+                                "id"                   : 1,
+                                "priority"             : 0,
+                                "ingoreIfNotHero"      : false
+                            }
+                        ],
+                        "selId"            : 1
+                    },
+                    {
+                        "id" : 1,
+                        "frameType" : 0,
+                        "frameBegin" : 73,
+                        "frameEnd"   : -1,
+                        "frameInterval" : 1,
+                        "countLimit"    : -1,
+                        "countTargetLimit" : -1,
+                        "countFrameLimit"  : -1,
+                        "frameLimit"       : -1,
+                        "targetOrderType"  : 0,
+                        "conditions"       : [
+                        ],
+                        "targetConditions" : [
+                        ],
+                        "targetRanges"     : [
+                            {
+                                "range" : {
+                                    "type" : 0,
+                                    "beginOffsetAngle" : 0.0,
+                                    "endOffsetAngle"   : 0.0,
+                                    "begingOffsetPos"  : {
+                                        "x" : 0.0,
+                                        "y" : 0.0,
+                                        "z" : 0.0
+                                    },
+                                    "endOffsetPos"     : {
+                                        "x" : 0.0,
+                                        "y" : 0.0,
+                                        "z" : 0.0
+                                    },
+                                    "distance"         : 5.0,
+                                    "heightLimit"      : 2.0,
+                                    "rectLimit"        : 3.0,
+                                    "angleLimit"       : 90.0,
+                                    "showArea"         : false,
+                                    "showRange"        : false
+                                },
+                                "targetType" : 2
+                            }
+                        ],
+                        "events"           : [
+                            {
+                                "__type" : "DamageEventCfg",
+                                "rate"   : 0.200000002980232,
+                                "hitFx"  : "小打击",
+                                "hitFxAdjust" : true,
+                                "shield"      : 10.0,
+                                "elem"        : 5,
+                                "playElemEventGroup" : true,
+                                "ingore"             : false,
+                                "eventCountLimit"    : -1,
+                                "eventCountFrameLimit" : -1,
+                                "id"                   : 1,
+                                "priority"             : 0,
+                                "ingoreIfNotHero"      : false
+                            },
+                            {
+                                "__type" : "HitSkillEventCfg",
+                                "duration" : 0.300000011920929,
+                                "floatSpeed" : 8.0,
+                                "floatAccelerated" : -20.0,
+                                "groundFloat"      : {
+                                    "__type" : "HitFloatSkillEventCfg",
+                                    "speed"  : 8.0,
+                                    "acceleratedUp" : -19.0,
+                                    "acceleratedDown" : -19.0,
+                                    "groundDuration"  : 0.5,
+                                    "reverseSpeed"    : 2.0,
+                                    "speedDown"       : -4.0,
+                                    "hitDuration"     : 0.300000011920929,
+                                    "ingore"          : false,
+                                    "eventCountLimit" : -1,
+                                    "eventCountFrameLimit" : -1,
+                                    "id"                   : 0,
+                                    "priority"             : 0,
+                                    "ingoreIfNotHero"      : false
+                                },
+                                "ingore"           : false,
+                                "eventCountLimit"  : -1,
+                                "eventCountFrameLimit" : -1,
+                                "id"                   : 2,
+                                "priority"             : 0,
+                                "ingoreIfNotHero"      : false
+                            },
+                            {
+                                "__type" : "MoveEventCfg",
+                                "moveType" : 2,
+                                "dirType"  : 0,
+                                "self"     : false,
+                                "distance" : 1.0,
+                                "frame"    : 2,
+                                "avoid"    : false,
+                                "touchOverFrame" : -1,
+                                "endIfSkillEnd"  : false,
+                                "endSkill"       : "",
+                                "ingore"         : true,
+                                "eventCountLimit" : -1,
+                                "eventCountFrameLimit" : -1,
+                                "id"                   : 4,
+                                "priority"             : 0,
+                                "ingoreIfNotHero"      : false
+                            },
+                            {
+                                "__type" : "SoundEventCfg",
+                                "soundId" : 10002,
+                                "ingore"  : false,
+                                "eventCountLimit" : -1,
+                                "eventCountFrameLimit" : -1,
+                                "id"                   : 5,
+                                "priority"             : 0,
+                                "ingoreIfNotHero"      : false
+                            }
+                        ],
+                        "selId"            : 1
+                    },
+                    {
+                        "id" : 2,
+                        "frameType" : 0,
+                        "frameBegin" : 75,
+                        "frameEnd"   : -1,
+                        "frameInterval" : 1,
+                        "countLimit"    : -1,
+                        "countTargetLimit" : -1,
+                        "countFrameLimit"  : -1,
+                        "frameLimit"       : -1,
+                        "targetOrderType"  : 0,
+                        "conditions"       : [
+                        ],
+                        "targetConditions" : [
+                        ],
+                        "targetRanges"     : [
+                            {
+                                "range" : {
+                                    "type" : 0,
+                                    "beginOffsetAngle" : 0.0,
+                                    "endOffsetAngle"   : 0.0,
+                                    "begingOffsetPos"  : {
+                                        "x" : 0.0,
+                                        "y" : 0.0,
+                                        "z" : 0.0
+                                    },
+                                    "endOffsetPos"     : {
+                                        "x" : 0.0,
+                                        "y" : 0.0,
+                                        "z" : 0.0
+                                    },
+                                    "distance"         : 8.0,
+                                    "heightLimit"      : 2.0,
+                                    "rectLimit"        : 3.0,
+                                    "angleLimit"       : 90.0,
+                                    "showArea"         : false,
+                                    "showRange"        : false
+                                },
+                                "targetType" : 2
+                            }
+                        ],
+                        "events"           : [
+                            {
+                                "__type" : "DamageEventCfg",
+                                "rate"   : 0.200000002980232,
+                                "hitFx"  : "小打击",
+                                "hitFxAdjust" : true,
+                                "shield"      : 10.0,
+                                "elem"        : 5,
+                                "playElemEventGroup" : true,
+                                "ingore"             : false,
+                                "eventCountLimit"    : -1,
+                                "eventCountFrameLimit" : -1,
+                                "id"                   : 1,
+                                "priority"             : 0,
+                                "ingoreIfNotHero"      : false
+                            },
+                            {
+                                "__type" : "HitSkillEventCfg",
+                                "duration" : 0.300000011920929,
+                                "floatSpeed" : 8.0,
+                                "floatAccelerated" : -20.0,
+                                "groundFloat"      : {
+                                    "__type" : "HitFloatSkillEventCfg",
+                                    "speed"  : 8.0,
+                                    "acceleratedUp" : -19.0,
+                                    "acceleratedDown" : -19.0,
+                                    "groundDuration"  : 0.5,
+                                    "reverseSpeed"    : 2.0,
+                                    "speedDown"       : -4.0,
+                                    "hitDuration"     : 0.300000011920929,
+                                    "ingore"          : false,
+                                    "eventCountLimit" : -1,
+                                    "eventCountFrameLimit" : -1,
+                                    "id"                   : 0,
+                                    "priority"             : 0,
+                                    "ingoreIfNotHero"      : false
+                                },
+                                "ingore"           : false,
+                                "eventCountLimit"  : -1,
+                                "eventCountFrameLimit" : -1,
+                                "id"                   : 2,
+                                "priority"             : 0,
+                                "ingoreIfNotHero"      : false
+                            },
+                            {
+                                "__type" : "MoveEventCfg",
+                                "moveType" : 2,
+                                "dirType"  : 0,
+                                "self"     : false,
+                                "distance" : 1.0,
+                                "frame"    : 2,
+                                "avoid"    : false,
+                                "touchOverFrame" : -1,
+                                "endIfSkillEnd"  : false,
+                                "endSkill"       : "",
+                                "ingore"         : true,
+                                "eventCountLimit" : -1,
+                                "eventCountFrameLimit" : -1,
+                                "id"                   : 3,
+                                "priority"             : 0,
+                                "ingoreIfNotHero"      : false
+                            },
+                            {
+                                "__type" : "SoundEventCfg",
+                                "soundId" : 10002,
+                                "ingore"  : false,
+                                "eventCountLimit" : -1,
+                                "eventCountFrameLimit" : -1,
+                                "id"                   : 4,
+                                "priority"             : 0,
+                                "ingoreIfNotHero"      : false
+                            }
+                        ],
+                        "selId"            : 1
+                    },
+                    {
+                        "id" : 3,
+                        "frameType" : 0,
+                        "frameBegin" : 80,
+                        "frameEnd"   : -1,
+                        "frameInterval" : 1,
+                        "countLimit"    : -1,
+                        "countTargetLimit" : -1,
+                        "countFrameLimit"  : -1,
+                        "frameLimit"       : -1,
+                        "targetOrderType"  : 0,
+                        "conditions"       : [
+                        ],
+                        "targetConditions" : [
+                        ],
+                        "targetRanges"     : [
+                            {
+                                "range" : {
+                                    "type" : 0,
+                                    "beginOffsetAngle" : 0.0,
+                                    "endOffsetAngle"   : 0.0,
+                                    "begingOffsetPos"  : {
+                                        "x" : 0.0,
+                                        "y" : 0.0,
+                                        "z" : 0.0
+                                    },
+                                    "endOffsetPos"     : {
+                                        "x" : 0.0,
+                                        "y" : 0.0,
+                                        "z" : 0.0
+                                    },
+                                    "distance"         : 10.0,
+                                    "heightLimit"      : 2.0,
+                                    "rectLimit"        : 3.0,
+                                    "angleLimit"       : 90.0,
+                                    "showArea"         : false,
+                                    "showRange"        : false
+                                },
+                                "targetType" : 2
+                            }
+                        ],
+                        "events"           : [
+                            {
+                                "__type" : "DamageEventCfg",
+                                "rate"   : 0.200000002980232,
+                                "hitFx"  : "小打击",
+                                "hitFxAdjust" : true,
+                                "shield"      : 10.0,
+                                "elem"        : 5,
+                                "playElemEventGroup" : true,
+                                "ingore"             : false,
+                                "eventCountLimit"    : -1,
+                                "eventCountFrameLimit" : -1,
+                                "id"                   : 1,
+                                "priority"             : 0,
+                                "ingoreIfNotHero"      : false
+                            },
+                            {
+                                "__type" : "HitSkillEventCfg",
+                                "duration" : 0.300000011920929,
+                                "floatSpeed" : 8.0,
+                                "floatAccelerated" : -20.0,
+                                "groundFloat"      : {
+                                    "__type" : "HitFloatSkillEventCfg",
+                                    "speed"  : 8.0,
+                                    "acceleratedUp" : -19.0,
+                                    "acceleratedDown" : -19.0,
+                                    "groundDuration"  : 0.5,
+                                    "reverseSpeed"    : 2.0,
+                                    "speedDown"       : -4.0,
+                                    "hitDuration"     : 0.300000011920929,
+                                    "ingore"          : false,
+                                    "eventCountLimit" : -1,
+                                    "eventCountFrameLimit" : -1,
+                                    "id"                   : 0,
+                                    "priority"             : 0,
+                                    "ingoreIfNotHero"      : false
+                                },
+                                "ingore"           : false,
+                                "eventCountLimit"  : -1,
+                                "eventCountFrameLimit" : -1,
+                                "id"                   : 2,
+                                "priority"             : 0,
+                                "ingoreIfNotHero"      : false
+                            },
+                            {
+                                "__type" : "MoveEventCfg",
+                                "moveType" : 2,
+                                "dirType"  : 0,
+                                "self"     : false,
+                                "distance" : 1.0,
+                                "frame"    : 2,
+                                "avoid"    : false,
+                                "touchOverFrame" : -1,
+                                "endIfSkillEnd"  : false,
+                                "endSkill"       : "",
+                                "ingore"         : true,
+                                "eventCountLimit" : -1,
+                                "eventCountFrameLimit" : -1,
+                                "id"                   : 3,
+                                "priority"             : 0,
+                                "ingoreIfNotHero"      : false
+                            },
+                            {
+                                "__type" : "SoundEventCfg",
+                                "soundId" : 10002,
+                                "ingore"  : false,
+                                "eventCountLimit" : -1,
+                                "eventCountFrameLimit" : -1,
+                                "id"                   : 4,
+                                "priority"             : 0,
+                                "ingoreIfNotHero"      : false
+                            }
+                        ],
+                        "selId"            : 1
+                    },
+                    {
+                        "id" : 5,
+                        "frameType" : 0,
+                        "frameBegin" : 85,
+                        "frameEnd"   : -1,
+                        "frameInterval" : 1,
+                        "countLimit"    : -1,
+                        "countTargetLimit" : -1,
+                        "countFrameLimit"  : -1,
+                        "frameLimit"       : -1,
+                        "targetOrderType"  : 0,
+                        "conditions"       : [
+                        ],
+                        "targetConditions" : [
+                        ],
+                        "targetRanges"     : [
+                            {
+                                "range" : {
+                                    "type" : 0,
+                                    "beginOffsetAngle" : 0.0,
+                                    "endOffsetAngle"   : 0.0,
+                                    "begingOffsetPos"  : {
+                                        "x" : 0.0,
+                                        "y" : 0.0,
+                                        "z" : 0.0
+                                    },
+                                    "endOffsetPos"     : {
+                                        "x" : 0.0,
+                                        "y" : 0.0,
+                                        "z" : 0.0
+                                    },
+                                    "distance"         : 14.0,
+                                    "heightLimit"      : 2.0,
+                                    "rectLimit"        : 3.0,
+                                    "angleLimit"       : 90.0,
+                                    "showArea"         : false,
+                                    "showRange"        : false
+                                },
+                                "targetType" : 2
+                            }
+                        ],
+                        "events"           : [
+                            {
+                                "__type" : "DamageEventCfg",
+                                "rate"   : 0.200000002980232,
+                                "hitFx"  : "小打击",
+                                "hitFxAdjust" : true,
+                                "shield"      : 10.0,
+                                "elem"        : 5,
+                                "playElemEventGroup" : true,
+                                "ingore"             : false,
+                                "eventCountLimit"    : -1,
+                                "eventCountFrameLimit" : -1,
+                                "id"                   : 1,
+                                "priority"             : 0,
+                                "ingoreIfNotHero"      : false
+                            },
+                            {
+                                "__type" : "HitSkillEventCfg",
+                                "duration" : 0.300000011920929,
+                                "floatSpeed" : 8.0,
+                                "floatAccelerated" : -20.0,
+                                "groundFloat"      : {
+                                    "__type" : "HitFloatSkillEventCfg",
+                                    "speed"  : 8.0,
+                                    "acceleratedUp" : -19.0,
+                                    "acceleratedDown" : -19.0,
+                                    "groundDuration"  : 0.5,
+                                    "reverseSpeed"    : 2.0,
+                                    "speedDown"       : -4.0,
+                                    "hitDuration"     : 0.300000011920929,
+                                    "ingore"          : false,
+                                    "eventCountLimit" : -1,
+                                    "eventCountFrameLimit" : -1,
+                                    "id"                   : 0,
+                                    "priority"             : 0,
+                                    "ingoreIfNotHero"      : false
+                                },
+                                "ingore"           : false,
+                                "eventCountLimit"  : -1,
+                                "eventCountFrameLimit" : -1,
+                                "id"                   : 2,
+                                "priority"             : 0,
+                                "ingoreIfNotHero"      : false
+                            },
+                            {
+                                "__type" : "MoveEventCfg",
+                                "moveType" : 2,
+                                "dirType"  : 0,
+                                "self"     : false,
+                                "distance" : 1.0,
+                                "frame"    : 2,
+                                "avoid"    : false,
+                                "touchOverFrame" : -1,
+                                "endIfSkillEnd"  : false,
+                                "endSkill"       : "",
+                                "ingore"         : true,
+                                "eventCountLimit" : -1,
+                                "eventCountFrameLimit" : -1,
+                                "id"                   : 3,
+                                "priority"             : 0,
+                                "ingoreIfNotHero"      : false
+                            },
+                            {
+                                "__type" : "SoundEventCfg",
+                                "soundId" : 10002,
+                                "ingore"  : false,
+                                "eventCountLimit" : -1,
+                                "eventCountFrameLimit" : -1,
+                                "id"                   : 4,
+                                "priority"             : 0,
+                                "ingoreIfNotHero"      : false
+                            }
+                        ],
+                        "selId"            : 1
+                    },
+                    {
+                        "id" : 6,
+                        "frameType" : 0,
+                        "frameBegin" : 90,
+                        "frameEnd"   : -1,
+                        "frameInterval" : 1,
+                        "countLimit"    : -1,
+                        "countTargetLimit" : -1,
+                        "countFrameLimit"  : -1,
+                        "frameLimit"       : -1,
+                        "targetOrderType"  : 0,
+                        "conditions"       : [
+                        ],
+                        "targetConditions" : [
+                        ],
+                        "targetRanges"     : [
+                            {
+                                "range" : {
+                                    "type" : 0,
+                                    "beginOffsetAngle" : 0.0,
+                                    "endOffsetAngle"   : 0.0,
+                                    "begingOffsetPos"  : {
+                                        "x" : 0.0,
+                                        "y" : 0.0,
+                                        "z" : 0.0
+                                    },
+                                    "endOffsetPos"     : {
+                                        "x" : 0.0,
+                                        "y" : 0.0,
+                                        "z" : 0.0
+                                    },
+                                    "distance"         : 16.0,
+                                    "heightLimit"      : 2.0,
+                                    "rectLimit"        : 3.0,
+                                    "angleLimit"       : 90.0,
+                                    "showArea"         : false,
+                                    "showRange"        : false
+                                },
+                                "targetType" : 2
+                            }
+                        ],
+                        "events"           : [
+                            {
+                                "__type" : "DamageEventCfg",
+                                "rate"   : 0.200000002980232,
+                                "hitFx"  : "小打击",
+                                "hitFxAdjust" : true,
+                                "shield"      : 10.0,
+                                "elem"        : 5,
+                                "playElemEventGroup" : true,
+                                "ingore"             : false,
+                                "eventCountLimit"    : -1,
+                                "eventCountFrameLimit" : -1,
+                                "id"                   : 1,
+                                "priority"             : 0,
+                                "ingoreIfNotHero"      : false
+                            },
+                            {
+                                "__type" : "HitSkillEventCfg",
+                                "duration" : 0.300000011920929,
+                                "floatSpeed" : 8.0,
+                                "floatAccelerated" : -20.0,
+                                "groundFloat"      : {
+                                    "__type" : "HitFloatSkillEventCfg",
+                                    "speed"  : 8.0,
+                                    "acceleratedUp" : -19.0,
+                                    "acceleratedDown" : -19.0,
+                                    "groundDuration"  : 0.5,
+                                    "reverseSpeed"    : 2.0,
+                                    "speedDown"       : -4.0,
+                                    "hitDuration"     : 0.300000011920929,
+                                    "ingore"          : false,
+                                    "eventCountLimit" : -1,
+                                    "eventCountFrameLimit" : -1,
+                                    "id"                   : 0,
+                                    "priority"             : 0,
+                                    "ingoreIfNotHero"      : false
+                                },
+                                "ingore"           : false,
+                                "eventCountLimit"  : -1,
+                                "eventCountFrameLimit" : -1,
+                                "id"                   : 2,
+                                "priority"             : 0,
+                                "ingoreIfNotHero"      : false
+                            },
+                            {
+                                "__type" : "MoveEventCfg",
+                                "moveType" : 2,
+                                "dirType"  : 0,
+                                "self"     : false,
+                                "distance" : 1.0,
+                                "frame"    : 2,
+                                "avoid"    : false,
+                                "touchOverFrame" : -1,
+                                "endIfSkillEnd"  : false,
+                                "endSkill"       : "",
+                                "ingore"         : true,
+                                "eventCountLimit" : -1,
+                                "eventCountFrameLimit" : -1,
+                                "id"                   : 3,
+                                "priority"             : 0,
+                                "ingoreIfNotHero"      : false
+                            },
+                            {
+                                "__type" : "SoundEventCfg",
+                                "soundId" : 10002,
+                                "ingore"  : false,
+                                "eventCountLimit" : -1,
+                                "eventCountFrameLimit" : -1,
+                                "id"                   : 4,
+                                "priority"             : 0,
+                                "ingoreIfNotHero"      : false
+                            }
+                        ],
+                        "selId"            : 1
+                    }
+                ],
+                "selId"  : 1,
+                "allScroll" : {
+                    "x" : 0.0,
+                    "y" : 0.0
+                },
+                "contentScroll" : {
+                    "x" : 0.0,
+                    "y" : 0.0
+                },
+                "maxWidth"      : 1550.0
+            },
+            "skillStates"     : [
+            ],
+            "endStates"       : [
+            ],
+            "endEventGroupId" : "",
+            "endIfCancel"     : false,
+            "endIfBehit"      : false
+        },
+        {
+            "skillId" : "jineng_liliangjiefang",
+            "name"    : "力量解放",
+            "desc"    : "",
+            "icon"    : "",
+            "mp"      : 0,
+            "mpNeed"  : -1,
+            "cd"      : 30.0,
+            "showWeapon" : true,
+            "isInternal" : false,
+            "parentSkillId" : "",
+            "aniName"       : "jineng_liliangjiefang",
+            "aniType"       : 0,
+            "fade"          : 0.200000002980232,
+            "duration"      : -1.0,
+            "continueIfPress" : false,
+            "aniRate"         : {
+                "clips" : [
+                ],
+                "speed" : 1.0
+            },
+            "moveType"        : 0,
+            "dirType"         : 0,
+            "rotateSpeed"     : 360.0,
+            "moveSpeed"       : 3.0,
+            "beginTranFrame"  : 0,
+            "endTranFrame"    : -1,
+            "autoFace"        : true,
+            "firstRange"      : {
+                "type" : 0,
+                "beginOffsetAngle" : 0.0,
+                "endOffsetAngle"   : 0.0,
+                "begingOffsetPos"  : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "endOffsetPos"     : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "distance"         : 15.0,
+                "heightLimit"      : -1.0,
+                "rectLimit"        : 3.0,
+                "angleLimit"       : 90.0,
+                "showArea"         : false,
+                "showRange"        : false
+            },
+            "secondRange"     : {
+                "type" : 0,
+                "beginOffsetAngle" : 0.0,
+                "endOffsetAngle"   : 0.0,
+                "begingOffsetPos"  : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "endOffsetPos"     : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "distance"         : 15.0,
+                "heightLimit"      : -1.0,
+                "rectLimit"        : 3.0,
+                "angleLimit"       : 90.0,
+                "showArea"         : false,
+                "showRange"        : false
+            },
+            "thirdRange"      : {
+                "type" : 0,
+                "beginOffsetAngle" : 0.0,
+                "endOffsetAngle"   : 0.0,
+                "begingOffsetPos"  : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "endOffsetPos"     : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "distance"         : 15.0,
+                "heightLimit"      : -1.0,
+                "rectLimit"        : 3.0,
+                "angleLimit"       : 90.0,
+                "showArea"         : false,
+                "showRange"        : false
+            },
+            "attackRange"     : {
+                "type" : 0,
+                "beginOffsetAngle" : 0.0,
+                "endOffsetAngle"   : 0.0,
+                "begingOffsetPos"  : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "endOffsetPos"     : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "distance"         : 5.0,
+                "heightLimit"      : 2.0,
+                "rectLimit"        : 3.0,
+                "angleLimit"       : 90.0,
+                "showArea"         : true,
+                "showRange"        : false
+            },
+            "cancelPriority"  : 0,
+            "isAirSkill"      : false,
+            "canCanel"        : true,
+            "canBeCanel"      : true,
+            "cancelPreFrame"  : 0,
+            "cancelPostFrame" : -1,
+            "comboSkillId"    : "",
+            "comboPreFrame"   : 0,
+            "comboPostFrame"  : -1,
+            "comboWaitFrame"  : 30,
+            "showComboIcon"   : true,
+            "eventGroup"      : {
+                "file" : "skill_event_group",
+                "isFile" : false,
+                "frames" : [
+                    {
+                        "id" : 1,
+                        "frameType" : 1,
+                        "frameBegin" : 0,
+                        "frameEnd"   : 60,
+                        "frameInterval" : 10,
+                        "countLimit"    : -1,
+                        "countTargetLimit" : 6,
+                        "countFrameLimit"  : -1,
+                        "frameLimit"       : -1,
+                        "targetOrderType"  : 0,
+                        "conditions"       : [
+                        ],
+                        "targetConditions" : [
+                        ],
+                        "targetRanges"     : [
+                            {
+                                "range" : {
+                                    "type" : 0,
+                                    "beginOffsetAngle" : 0.0,
+                                    "endOffsetAngle"   : 0.0,
+                                    "begingOffsetPos"  : {
+                                        "x" : 0.0,
+                                        "y" : 0.0,
+                                        "z" : 0.0
+                                    },
+                                    "endOffsetPos"     : {
+                                        "x" : 0.0,
+                                        "y" : 0.0,
+                                        "z" : 0.0
+                                    },
+                                    "distance"         : 6.0,
+                                    "heightLimit"      : 2.0,
+                                    "rectLimit"        : 3.0,
+                                    "angleLimit"       : 90.0,
+                                    "showArea"         : false,
+                                    "showRange"        : false
+                                },
+                                "targetType" : 2
+                            }
+                        ],
+                        "events"           : [
+                            {
+                                "__type" : "DamageEventCfg",
+                                "rate"   : 0.0410000011324883,
+                                "hitFx"  : "小打击",
+                                "hitFxAdjust" : true,
+                                "shield"      : 10.0,
+                                "elem"        : 5,
+                                "playElemEventGroup" : true,
+                                "ingore"             : false,
+                                "eventCountLimit"    : -1,
+                                "eventCountFrameLimit" : -1,
+                                "id"                   : 1,
+                                "priority"             : 0,
+                                "ingoreIfNotHero"      : false
+                            },
+                            {
+                                "__type" : "SoundEventCfg",
+                                "soundId" : 10002,
+                                "ingore"  : false,
+                                "eventCountLimit" : -1,
+                                "eventCountFrameLimit" : -1,
+                                "id"                   : 2,
+                                "priority"             : 0,
+                                "ingoreIfNotHero"      : false
+                            }
+                        ],
+                        "selId"            : 2
+                    },
+                    {
+                        "id" : 5,
+                        "frameType" : 0,
+                        "frameBegin" : 0,
+                        "frameEnd"   : -1,
+                        "frameInterval" : 1,
+                        "countLimit"    : -1,
+                        "countTargetLimit" : -1,
+                        "countFrameLimit"  : -1,
+                        "frameLimit"       : -1,
+                        "targetOrderType"  : 0,
+                        "conditions"       : [
+                        ],
+                        "targetConditions" : [
+                        ],
+                        "targetRanges"     : [
+                            {
+                                "range" : {
+                                    "type" : 0,
+                                    "beginOffsetAngle" : 0.0,
+                                    "endOffsetAngle"   : 0.0,
+                                    "begingOffsetPos"  : {
+                                        "x" : 0.0,
+                                        "y" : 0.0,
+                                        "z" : 0.0
+                                    },
+                                    "endOffsetPos"     : {
+                                        "x" : 0.0,
+                                        "y" : 0.0,
+                                        "z" : 0.0
+                                    },
+                                    "distance"         : 5.0,
+                                    "heightLimit"      : 2.0,
+                                    "rectLimit"        : 3.0,
+                                    "angleLimit"       : 90.0,
+                                    "showArea"         : false,
+                                    "showRange"        : false
+                                },
+                                "targetType" : 0
+                            }
+                        ],
+                        "events"           : [
+                            {
+                                "__type" : "SoundEventCfg",
+                                "soundId" : 40506,
+                                "ingore"  : false,
+                                "eventCountLimit" : -1,
+                                "eventCountFrameLimit" : -1,
+                                "id"                   : 1,
+                                "priority"             : 0,
+                                "ingoreIfNotHero"      : false
+                            }
+                        ],
+                        "selId"            : 1
+                    },
+                    {
+                        "id" : 2,
+                        "frameType" : 0,
+                        "frameBegin" : 60,
+                        "frameEnd"   : -1,
+                        "frameInterval" : 1,
+                        "countLimit"    : -1,
+                        "countTargetLimit" : -1,
+                        "countFrameLimit"  : -1,
+                        "frameLimit"       : -1,
+                        "targetOrderType"  : 0,
+                        "conditions"       : [
+                        ],
+                        "targetConditions" : [
+                        ],
+                        "targetRanges"     : [
+                            {
+                                "range" : {
+                                    "type" : 0,
+                                    "beginOffsetAngle" : 0.0,
+                                    "endOffsetAngle"   : 0.0,
+                                    "begingOffsetPos"  : {
+                                        "x" : 0.0,
+                                        "y" : 0.0,
+                                        "z" : 0.0
+                                    },
+                                    "endOffsetPos"     : {
+                                        "x" : 0.0,
+                                        "y" : 0.0,
+                                        "z" : 0.0
+                                    },
+                                    "distance"         : 7.0,
+                                    "heightLimit"      : 2.0,
+                                    "rectLimit"        : 3.0,
+                                    "angleLimit"       : 90.0,
+                                    "showArea"         : false,
+                                    "showRange"        : false
+                                },
+                                "targetType" : 2
+                            }
+                        ],
+                        "events"           : [
+                            {
+                                "__type" : "DamageEventCfg",
+                                "rate"   : 0.25,
+                                "hitFx"  : "小打击",
+                                "hitFxAdjust" : true,
+                                "shield"      : 10.0,
+                                "elem"        : 5,
+                                "playElemEventGroup" : true,
+                                "ingore"             : false,
+                                "eventCountLimit"    : -1,
+                                "eventCountFrameLimit" : -1,
+                                "id"                   : 1,
+                                "priority"             : 0,
+                                "ingoreIfNotHero"      : false
+                            },
+                            {
+                                "__type" : "HitSkillEventCfg",
+                                "duration" : 0.300000011920929,
+                                "floatSpeed" : 8.0,
+                                "floatAccelerated" : -20.0,
+                                "groundFloat"      : {
+                                    "__type" : "HitFloatSkillEventCfg",
+                                    "speed"  : 8.0,
+                                    "acceleratedUp" : -19.0,
+                                    "acceleratedDown" : -19.0,
+                                    "groundDuration"  : 0.5,
+                                    "reverseSpeed"    : 2.0,
+                                    "speedDown"       : -4.0,
+                                    "hitDuration"     : 0.300000011920929,
+                                    "ingore"          : false,
+                                    "eventCountLimit" : -1,
+                                    "eventCountFrameLimit" : -1,
+                                    "id"                   : 0,
+                                    "priority"             : 0,
+                                    "ingoreIfNotHero"      : false
+                                },
+                                "ingore"           : false,
+                                "eventCountLimit"  : -1,
+                                "eventCountFrameLimit" : -1,
+                                "id"                   : 2,
+                                "priority"             : 0,
+                                "ingoreIfNotHero"      : false
+                            },
+                            {
+                                "__type" : "HitFloatSkillEventCfg",
+                                "speed"  : 10.0,
+                                "acceleratedUp" : -12.0,
+                                "acceleratedDown" : -19.0,
+                                "groundDuration"  : 0.5,
+                                "reverseSpeed"    : 1.0,
+                                "speedDown"       : -9.0,
+                                "hitDuration"     : 0.300000011920929,
+                                "ingore"          : true,
+                                "eventCountLimit" : -1,
+                                "eventCountFrameLimit" : -1,
+                                "id"                   : 3,
+                                "priority"             : 0,
+                                "ingoreIfNotHero"      : false
+                            },
+                            {
+                                "__type" : "SoundEventCfg",
+                                "soundId" : 10001,
+                                "ingore"  : false,
+                                "eventCountLimit" : -1,
+                                "eventCountFrameLimit" : -1,
+                                "id"                   : 4,
+                                "priority"             : 0,
+                                "ingoreIfNotHero"      : false
+                            }
+                        ],
+                        "selId"            : 3
+                    },
+                    {
+                        "id" : 3,
+                        "frameType" : 0,
+                        "frameBegin" : 75,
+                        "frameEnd"   : -1,
+                        "frameInterval" : 1,
+                        "countLimit"    : -1,
+                        "countTargetLimit" : -1,
+                        "countFrameLimit"  : -1,
+                        "frameLimit"       : -1,
+                        "targetOrderType"  : 0,
+                        "conditions"       : [
+                        ],
+                        "targetConditions" : [
+                        ],
+                        "targetRanges"     : [
+                            {
+                                "range" : {
+                                    "type" : 0,
+                                    "beginOffsetAngle" : 0.0,
+                                    "endOffsetAngle"   : 0.0,
+                                    "begingOffsetPos"  : {
+                                        "x" : 0.0,
+                                        "y" : 0.0,
+                                        "z" : 0.0
+                                    },
+                                    "endOffsetPos"     : {
+                                        "x" : 0.0,
+                                        "y" : 0.0,
+                                        "z" : 0.0
+                                    },
+                                    "distance"         : 8.0,
+                                    "heightLimit"      : 7.0,
+                                    "rectLimit"        : 3.0,
+                                    "angleLimit"       : 90.0,
+                                    "showArea"         : false,
+                                    "showRange"        : false
+                                },
+                                "targetType" : 2
+                            }
+                        ],
+                        "events"           : [
+                            {
+                                "__type" : "DamageEventCfg",
+                                "rate"   : 0.25,
+                                "hitFx"  : "小打击",
+                                "hitFxAdjust" : true,
+                                "shield"      : 10.0,
+                                "elem"        : 5,
+                                "playElemEventGroup" : true,
+                                "ingore"             : false,
+                                "eventCountLimit"    : -1,
+                                "eventCountFrameLimit" : -1,
+                                "id"                   : 1,
+                                "priority"             : 0,
+                                "ingoreIfNotHero"      : false
+                            },
+                            {
+                                "__type" : "HitSkillEventCfg",
+                                "duration" : 0.300000011920929,
+                                "floatSpeed" : 8.0,
+                                "floatAccelerated" : -20.0,
+                                "groundFloat"      : {
+                                    "__type" : "HitFloatSkillEventCfg",
+                                    "speed"  : 8.0,
+                                    "acceleratedUp" : -19.0,
+                                    "acceleratedDown" : -19.0,
+                                    "groundDuration"  : 0.5,
+                                    "reverseSpeed"    : 2.0,
+                                    "speedDown"       : -4.0,
+                                    "hitDuration"     : 0.300000011920929,
+                                    "ingore"          : false,
+                                    "eventCountLimit" : -1,
+                                    "eventCountFrameLimit" : -1,
+                                    "id"                   : 0,
+                                    "priority"             : 0,
+                                    "ingoreIfNotHero"      : false
+                                },
+                                "ingore"           : false,
+                                "eventCountLimit"  : -1,
+                                "eventCountFrameLimit" : -1,
+                                "id"                   : 2,
+                                "priority"             : 0,
+                                "ingoreIfNotHero"      : false
+                            },
+                            {
+                                "__type" : "MoveEventCfg",
+                                "moveType" : 2,
+                                "dirType"  : 0,
+                                "self"     : false,
+                                "distance" : 5.0,
+                                "frame"    : 20,
+                                "avoid"    : false,
+                                "touchOverFrame" : -1,
+                                "endIfSkillEnd"  : false,
+                                "endSkill"       : "",
+                                "ingore"         : true,
+                                "eventCountLimit" : -1,
+                                "eventCountFrameLimit" : -1,
+                                "id"                   : 3,
+                                "priority"             : 0,
+                                "ingoreIfNotHero"      : false
+                            },
+                            {
+                                "__type" : "SoundEventCfg",
+                                "soundId" : 10001,
+                                "ingore"  : false,
+                                "eventCountLimit" : -1,
+                                "eventCountFrameLimit" : -1,
+                                "id"                   : 4,
+                                "priority"             : 0,
+                                "ingoreIfNotHero"      : false
+                            }
+                        ],
+                        "selId"            : 3
+                    },
+                    {
+                        "id" : 4,
+                        "frameType" : 0,
+                        "frameBegin" : 85,
+                        "frameEnd"   : -1,
+                        "frameInterval" : 1,
+                        "countLimit"    : -1,
+                        "countTargetLimit" : -1,
+                        "countFrameLimit"  : -1,
+                        "frameLimit"       : -1,
+                        "targetOrderType"  : 0,
+                        "conditions"       : [
+                        ],
+                        "targetConditions" : [
+                        ],
+                        "targetRanges"     : [
+                            {
+                                "range" : {
+                                    "type" : 0,
+                                    "beginOffsetAngle" : 0.0,
+                                    "endOffsetAngle"   : 0.0,
+                                    "begingOffsetPos"  : {
+                                        "x" : 0.0,
+                                        "y" : 0.0,
+                                        "z" : 0.0
+                                    },
+                                    "endOffsetPos"     : {
+                                        "x" : 0.0,
+                                        "y" : 0.0,
+                                        "z" : 0.0
+                                    },
+                                    "distance"         : 15.0,
+                                    "heightLimit"      : 7.0,
+                                    "rectLimit"        : 3.0,
+                                    "angleLimit"       : 90.0,
+                                    "showArea"         : false,
+                                    "showRange"        : false
+                                },
+                                "targetType" : 2
+                            }
+                        ],
+                        "events"           : [
+                            {
+                                "__type" : "DamageEventCfg",
+                                "rate"   : 0.25,
+                                "hitFx"  : "小打击",
+                                "hitFxAdjust" : true,
+                                "shield"      : 10.0,
+                                "elem"        : 5,
+                                "playElemEventGroup" : true,
+                                "ingore"             : false,
+                                "eventCountLimit"    : -1,
+                                "eventCountFrameLimit" : -1,
+                                "id"                   : 1,
+                                "priority"             : 0,
+                                "ingoreIfNotHero"      : false
+                            },
+                            {
+                                "__type" : "MoveEventCfg",
+                                "moveType" : 2,
+                                "dirType"  : 0,
+                                "self"     : false,
+                                "distance" : 5.0,
+                                "frame"    : 20,
+                                "avoid"    : false,
+                                "touchOverFrame" : -1,
+                                "endIfSkillEnd"  : false,
+                                "endSkill"       : "",
+                                "ingore"         : true,
+                                "eventCountLimit" : -1,
+                                "eventCountFrameLimit" : -1,
+                                "id"                   : 3,
+                                "priority"             : 0,
+                                "ingoreIfNotHero"      : false
+                            },
+                            {
+                                "__type" : "HitFlySkillEventCfg",
+                                "speed"  : 16.0,
+                                "acceleratedUp" : -19.0,
+                                "acceleratedDown" : -21.0,
+                                "groundDuration"  : 0.5,
+                                "reverseSpeed"    : 1.0,
+                                "speedDown"       : -9.0,
+                                "hitDuration"     : 0.300000011920929,
+                                "ingore"          : true,
+                                "eventCountLimit" : -1,
+                                "eventCountFrameLimit" : -1,
+                                "id"                   : 4,
+                                "priority"             : 0,
+                                "ingoreIfNotHero"      : false
+                            },
+                            {
+                                "__type" : "SoundEventCfg",
+                                "soundId" : 10001,
+                                "ingore"  : false,
+                                "eventCountLimit" : -1,
+                                "eventCountFrameLimit" : -1,
+                                "id"                   : 5,
+                                "priority"             : 0,
+                                "ingoreIfNotHero"      : false
+                            }
+                        ],
+                        "selId"            : 3
+                    }
+                ],
+                "selId"  : 3,
+                "allScroll" : {
+                    "x" : 0.0,
+                    "y" : 0.0
+                },
+                "contentScroll" : {
+                    "x" : 0.0,
+                    "y" : 0.0
+                },
+                "maxWidth"      : 1305.0
+            },
+            "skillStates"     : [
+            ],
+            "endStates"       : [
+            ],
+            "endEventGroupId" : "",
+            "endIfCancel"     : false,
+            "endIfBehit"      : false
+        },
+        {
+            "skillId" : "jineng_juedoushiboji01",
+            "name"    : "角斗士搏击",
+            "desc"    : "",
+            "icon"    : "",
+            "mp"      : 0,
+            "mpNeed"  : -1,
+            "cd"      : 15.0,
+            "showWeapon" : true,
+            "isInternal" : false,
+            "parentSkillId" : "",
+            "aniName"       : "jineng_juedoushiboji01",
+            "aniType"       : 1,
+            "fade"          : 0.200000002980232,
+            "duration"      : 1.5,
+            "continueIfPress" : false,
+            "aniRate"         : {
+                "clips" : [
+                ],
+                "speed" : 1.0
+            },
+            "moveType"        : 0,
+            "dirType"         : 0,
+            "rotateSpeed"     : 360.0,
+            "moveSpeed"       : 3.0,
+            "beginTranFrame"  : 0,
+            "endTranFrame"    : -1,
+            "autoFace"        : true,
+            "firstRange"      : {
+                "type" : 0,
+                "beginOffsetAngle" : 0.0,
+                "endOffsetAngle"   : 0.0,
+                "begingOffsetPos"  : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "endOffsetPos"     : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "distance"         : 20.0,
+                "heightLimit"      : -1.0,
+                "rectLimit"        : 3.0,
+                "angleLimit"       : 90.0,
+                "showArea"         : true,
+                "showRange"        : false
+            },
+            "secondRange"     : {
+                "type" : 0,
+                "beginOffsetAngle" : 0.0,
+                "endOffsetAngle"   : 0.0,
+                "begingOffsetPos"  : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "endOffsetPos"     : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "distance"         : 20.0,
+                "heightLimit"      : -1.0,
+                "rectLimit"        : 3.0,
+                "angleLimit"       : 90.0,
+                "showArea"         : false,
+                "showRange"        : false
+            },
+            "thirdRange"      : {
+                "type" : 0,
+                "beginOffsetAngle" : 0.0,
+                "endOffsetAngle"   : 0.0,
+                "begingOffsetPos"  : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "endOffsetPos"     : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "distance"         : 20.0,
+                "heightLimit"      : -1.0,
+                "rectLimit"        : 3.0,
+                "angleLimit"       : 90.0,
+                "showArea"         : false,
+                "showRange"        : false
+            },
+            "attackRange"     : {
+                "type" : 0,
+                "beginOffsetAngle" : 0.0,
+                "endOffsetAngle"   : 0.0,
+                "begingOffsetPos"  : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "endOffsetPos"     : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "distance"         : 20.0,
+                "heightLimit"      : 2.0,
+                "rectLimit"        : 3.0,
+                "angleLimit"       : 90.0,
+                "showArea"         : true,
+                "showRange"        : false
+            },
+            "cancelPriority"  : 0,
+            "isAirSkill"      : false,
+            "canCanel"        : true,
+            "canBeCanel"      : true,
+            "cancelPreFrame"  : 0,
+            "cancelPostFrame" : 0,
+            "comboSkillId"    : "",
+            "comboPreFrame"   : 0,
+            "comboPostFrame"  : -1,
+            "comboWaitFrame"  : 30,
+            "showComboIcon"   : true,
+            "eventGroup"      : {
+                "file" : "skill_event_group",
+                "isFile" : false,
+                "frames" : [
+                    {
+                        "id" : 1,
+                        "frameType" : 0,
+                        "frameBegin" : 0,
+                        "frameEnd"   : -1,
+                        "frameInterval" : 1,
+                        "countLimit"    : -1,
+                        "countTargetLimit" : -1,
+                        "countFrameLimit"  : -1,
+                        "frameLimit"       : -1,
+                        "targetOrderType"  : 0,
+                        "conditions"       : [
+                        ],
+                        "targetConditions" : [
+                        ],
+                        "targetRanges"     : [
+                            {
+                                "range" : {
+                                    "type" : 0,
+                                    "beginOffsetAngle" : 0.0,
+                                    "endOffsetAngle"   : 0.0,
+                                    "begingOffsetPos"  : {
+                                        "x" : 0.0,
+                                        "y" : 0.0,
+                                        "z" : 0.0
+                                    },
+                                    "endOffsetPos"     : {
+                                        "x" : 0.0,
+                                        "y" : 0.0,
+                                        "z" : 0.0
+                                    },
+                                    "distance"         : 100.0,
+                                    "heightLimit"      : 2.0,
+                                    "rectLimit"        : 3.0,
+                                    "angleLimit"       : 90.0,
+                                    "showArea"         : false,
+                                    "showRange"        : false
+                                },
+                                "targetType" : 6
+                            }
+                        ],
+                        "events"           : [
+                            {
+                                "__type" : "MoveEventCfg",
+                                "moveType" : 2,
+                                "dirType"  : 1,
+                                "self"     : true,
+                                "distance" : 10.0,
+                                "frame"    : 44,
+                                "avoid"    : false,
+                                "touchOverFrame" : 0,
+                                "endIfSkillEnd"  : false,
+                                "endSkill"       : "jineng_juedoushiboji02",
+                                "ingore"         : false,
+                                "eventCountLimit" : -1,
+                                "eventCountFrameLimit" : -1,
+                                "id"                   : 1,
+                                "priority"             : 10,
+                                "ingoreIfNotHero"      : false
+                            }
+                        ],
+                        "selId"            : 1
+                    },
+                    {
+                        "id" : 3,
+                        "frameType" : 0,
+                        "frameBegin" : 0,
+                        "frameEnd"   : -1,
+                        "frameInterval" : 1,
+                        "countLimit"    : -1,
+                        "countTargetLimit" : -1,
+                        "countFrameLimit"  : -1,
+                        "frameLimit"       : -1,
+                        "targetOrderType"  : 0,
+                        "conditions"       : [
+                        ],
+                        "targetConditions" : [
+                        ],
+                        "targetRanges"     : [
+                            {
+                                "range" : {
+                                    "type" : 0,
+                                    "beginOffsetAngle" : 0.0,
+                                    "endOffsetAngle"   : 0.0,
+                                    "begingOffsetPos"  : {
+                                        "x" : 0.0,
+                                        "y" : 0.0,
+                                        "z" : 0.0
+                                    },
+                                    "endOffsetPos"     : {
+                                        "x" : 0.0,
+                                        "y" : 0.0,
+                                        "z" : 0.0
+                                    },
+                                    "distance"         : 5.0,
+                                    "heightLimit"      : 2.0,
+                                    "rectLimit"        : 3.0,
+                                    "angleLimit"       : 90.0,
+                                    "showArea"         : false,
+                                    "showRange"        : false
+                                },
+                                "targetType" : 0
+                            }
+                        ],
+                        "events"           : [
+                            {
+                                "__type" : "BuffEventCfg",
+                                "self"   : false,
+                                "buffParams" : [
+                                    {
+                                        "id" : 2305,
+                                        "end" : true,
+                                        "frame" : -3.0
+                                    }
+                                ],
+                                "ingore"     : false,
+                                "eventCountLimit" : -1,
+                                "eventCountFrameLimit" : -1,
+                                "id"                   : 1,
+                                "priority"             : 0,
+                                "ingoreIfNotHero"      : false
+                            }
+                        ],
+                        "selId"            : 1
+                    }
+                ],
+                "selId"  : 1,
+                "allScroll" : {
+                    "x" : 0.0,
+                    "y" : 0.0
+                },
+                "contentScroll" : {
+                    "x" : 0.0,
+                    "y" : 0.0
+                },
+                "maxWidth"      : 1550.0
+            },
+            "skillStates"     : [
+            ],
+            "endStates"       : [
+            ],
+            "endEventGroupId" : "",
+            "endIfCancel"     : false,
+            "endIfBehit"      : false
+        },
+        {
+            "skillId" : "jineng_juedoushiboji02",
+            "name"    : "角斗士搏击02",
+            "desc"    : "",
+            "icon"    : "",
+            "mp"      : 0,
+            "mpNeed"  : -1,
+            "cd"      : 0.0,
+            "showWeapon" : true,
+            "isInternal" : false,
+            "parentSkillId" : "",
+            "aniName"       : "jineng_juedoushiboji02",
+            "aniType"       : 0,
+            "fade"          : 0.200000002980232,
+            "duration"      : -1.0,
+            "continueIfPress" : false,
+            "aniRate"         : {
+                "clips" : [
+                ],
+                "speed" : 1.0
+            },
+            "moveType"        : 0,
+            "dirType"         : 0,
+            "rotateSpeed"     : 360.0,
+            "moveSpeed"       : 3.0,
+            "beginTranFrame"  : 0,
+            "endTranFrame"    : -1,
+            "autoFace"        : true,
+            "firstRange"      : {
+                "type" : 0,
+                "beginOffsetAngle" : 0.0,
+                "endOffsetAngle"   : 0.0,
+                "begingOffsetPos"  : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "endOffsetPos"     : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "distance"         : 5.0,
+                "heightLimit"      : -1.0,
+                "rectLimit"        : 3.0,
+                "angleLimit"       : 90.0,
+                "showArea"         : false,
+                "showRange"        : false
+            },
+            "secondRange"     : {
+                "type" : 0,
+                "beginOffsetAngle" : 0.0,
+                "endOffsetAngle"   : 0.0,
+                "begingOffsetPos"  : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "endOffsetPos"     : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "distance"         : 5.0,
+                "heightLimit"      : -1.0,
+                "rectLimit"        : 3.0,
+                "angleLimit"       : 90.0,
+                "showArea"         : false,
+                "showRange"        : false
+            },
+            "thirdRange"      : {
+                "type" : 0,
+                "beginOffsetAngle" : 0.0,
+                "endOffsetAngle"   : 0.0,
+                "begingOffsetPos"  : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "endOffsetPos"     : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "distance"         : 5.0,
+                "heightLimit"      : -1.0,
+                "rectLimit"        : 3.0,
+                "angleLimit"       : 90.0,
+                "showArea"         : false,
+                "showRange"        : false
+            },
+            "attackRange"     : {
+                "type" : 0,
+                "beginOffsetAngle" : 0.0,
+                "endOffsetAngle"   : 0.0,
+                "begingOffsetPos"  : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "endOffsetPos"     : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "distance"         : 5.0,
+                "heightLimit"      : 2.0,
+                "rectLimit"        : 3.0,
+                "angleLimit"       : 90.0,
+                "showArea"         : false,
+                "showRange"        : false
+            },
+            "cancelPriority"  : 0,
+            "isAirSkill"      : false,
+            "canCanel"        : true,
+            "canBeCanel"      : true,
+            "cancelPreFrame"  : 0,
+            "cancelPostFrame" : 1,
+            "comboSkillId"    : "",
+            "comboPreFrame"   : 0,
+            "comboPostFrame"  : -1,
+            "comboWaitFrame"  : 30,
+            "showComboIcon"   : true,
+            "eventGroup"      : {
+                "file" : "skill_event_group",
+                "isFile" : false,
+                "frames" : [
+                    {
+                        "id" : 4,
+                        "frameType" : 0,
+                        "frameBegin" : 20,
+                        "frameEnd"   : -1,
+                        "frameInterval" : 1,
+                        "countLimit"    : -1,
+                        "countTargetLimit" : -1,
+                        "countFrameLimit"  : -1,
+                        "frameLimit"       : -1,
+                        "targetOrderType"  : 0,
+                        "conditions"       : [
+                        ],
+                        "targetConditions" : [
+                        ],
+                        "targetRanges"     : [
+                            {
+                                "range" : {
+                                    "type" : 0,
+                                    "beginOffsetAngle" : 0.0,
+                                    "endOffsetAngle"   : 0.0,
+                                    "begingOffsetPos"  : {
+                                        "x" : 0.0,
+                                        "y" : 0.0,
+                                        "z" : 0.0
+                                    },
+                                    "endOffsetPos"     : {
+                                        "x" : 0.0,
+                                        "y" : 0.0,
+                                        "z" : 0.0
+                                    },
+                                    "distance"         : 5.0,
+                                    "heightLimit"      : 2.0,
+                                    "rectLimit"        : 3.0,
+                                    "angleLimit"       : 90.0,
+                                    "showArea"         : false,
+                                    "showRange"        : false
+                                },
+                                "targetType" : 0
+                            }
+                        ],
+                        "events"           : [
+                            {
+                                "__type" : "SoundEventCfg",
+                                "soundId" : 40504,
+                                "ingore"  : false,
+                                "eventCountLimit" : -1,
+                                "eventCountFrameLimit" : -1,
+                                "id"                   : 1,
+                                "priority"             : 0,
+                                "ingoreIfNotHero"      : false
+                            }
+                        ],
+                        "selId"            : 1
+                    },
+                    {
+                        "id" : 1,
+                        "frameType" : 0,
+                        "frameBegin" : 23,
+                        "frameEnd"   : -1,
+                        "frameInterval" : 1,
+                        "countLimit"    : -1,
+                        "countTargetLimit" : -1,
+                        "countFrameLimit"  : -1,
+                        "frameLimit"       : -1,
+                        "targetOrderType"  : 0,
+                        "conditions"       : [
+                        ],
+                        "targetConditions" : [
+                        ],
+                        "targetRanges"     : [
+                            {
+                                "range" : {
+                                    "type" : 0,
+                                    "beginOffsetAngle" : 0.0,
+                                    "endOffsetAngle"   : 0.0,
+                                    "begingOffsetPos"  : {
+                                        "x" : 0.0,
+                                        "y" : 0.0,
+                                        "z" : 0.0
+                                    },
+                                    "endOffsetPos"     : {
+                                        "x" : 0.0,
+                                        "y" : 0.0,
+                                        "z" : 0.0
+                                    },
+                                    "distance"         : 3.0,
+                                    "heightLimit"      : 2.0,
+                                    "rectLimit"        : 3.0,
+                                    "angleLimit"       : 90.0,
+                                    "showArea"         : false,
+                                    "showRange"        : true
+                                },
+                                "targetType" : 2
+                            }
+                        ],
+                        "events"           : [
+                            {
+                                "__type" : "DamageEventCfg",
+                                "rate"   : 0.5,
+                                "hitFx"  : "概率飙血",
+                                "hitFxAdjust" : true,
+                                "shield"      : 10.0,
+                                "elem"        : 5,
+                                "playElemEventGroup" : true,
+                                "ingore"             : false,
+                                "eventCountLimit"    : -1,
+                                "eventCountFrameLimit" : -1,
+                                "id"                   : 1,
+                                "priority"             : 0,
+                                "ingoreIfNotHero"      : false
+                            },
+                            {
+                                "__type" : "HitSkillEventCfg",
+                                "duration" : 0.300000011920929,
+                                "floatSpeed" : 8.0,
+                                "floatAccelerated" : -20.0,
+                                "groundFloat"      : {
+                                    "__type" : "HitFloatSkillEventCfg",
+                                    "speed"  : 8.0,
+                                    "acceleratedUp" : -19.0,
+                                    "acceleratedDown" : -19.0,
+                                    "groundDuration"  : 0.5,
+                                    "reverseSpeed"    : 2.0,
+                                    "speedDown"       : -4.0,
+                                    "hitDuration"     : 0.300000011920929,
+                                    "ingore"          : false,
+                                    "eventCountLimit" : -1,
+                                    "eventCountFrameLimit" : -1,
+                                    "id"                   : 0,
+                                    "priority"             : 0,
+                                    "ingoreIfNotHero"      : false
+                                },
+                                "ingore"           : false,
+                                "eventCountLimit"  : -1,
+                                "eventCountFrameLimit" : -1,
+                                "id"                   : 2,
+                                "priority"             : 0,
+                                "ingoreIfNotHero"      : false
+                            },
+                            {
+                                "__type" : "HitFloatSkillEventCfg",
+                                "speed"  : 10.0,
+                                "acceleratedUp" : -11.0,
+                                "acceleratedDown" : -9.0,
+                                "groundDuration"  : 0.5,
+                                "reverseSpeed"    : 1.0,
+                                "speedDown"       : -4.0,
+                                "hitDuration"     : 0.300000011920929,
+                                "ingore"          : false,
+                                "eventCountLimit" : -1,
+                                "eventCountFrameLimit" : -1,
+                                "id"                   : 3,
+                                "priority"             : 0,
+                                "ingoreIfNotHero"      : false
+                            },
+                            {
+                                "__type" : "SoundEventCfg",
+                                "soundId" : 10003,
+                                "ingore"  : false,
+                                "eventCountLimit" : -1,
+                                "eventCountFrameLimit" : -1,
+                                "id"                   : 4,
+                                "priority"             : 0,
+                                "ingoreIfNotHero"      : false
+                            }
+                        ],
+                        "selId"            : 2
+                    },
+                    {
+                        "id" : 3,
+                        "frameType" : 0,
+                        "frameBegin" : 30,
+                        "frameEnd"   : -1,
+                        "frameInterval" : 1,
+                        "countLimit"    : -1,
+                        "countTargetLimit" : -1,
+                        "countFrameLimit"  : -1,
+                        "frameLimit"       : -1,
+                        "targetOrderType"  : 0,
+                        "conditions"       : [
+                        ],
+                        "targetConditions" : [
+                        ],
+                        "targetRanges"     : [
+                            {
+                                "range" : {
+                                    "type" : 0,
+                                    "beginOffsetAngle" : 0.0,
+                                    "endOffsetAngle"   : 0.0,
+                                    "begingOffsetPos"  : {
+                                        "x" : 0.0,
+                                        "y" : 0.0,
+                                        "z" : 0.0
+                                    },
+                                    "endOffsetPos"     : {
+                                        "x" : 0.0,
+                                        "y" : 0.0,
+                                        "z" : 0.0
+                                    },
+                                    "distance"         : 100.0,
+                                    "heightLimit"      : 2.0,
+                                    "rectLimit"        : 3.0,
+                                    "angleLimit"       : 90.0,
+                                    "showArea"         : false,
+                                    "showRange"        : false
+                                },
+                                "targetType" : 6
+                            }
+                        ],
+                        "events"           : [
+                            {
+                                "__type" : "MoveEventCfg",
+                                "moveType" : 2,
+                                "dirType"  : 3,
+                                "self"     : true,
+                                "distance" : 0.0199999995529652,
+                                "frame"    : 20,
+                                "avoid"    : false,
+                                "touchOverFrame" : -1,
+                                "endIfSkillEnd"  : false,
+                                "endSkill"       : "",
+                                "ingore"         : false,
+                                "eventCountLimit" : -1,
+                                "eventCountFrameLimit" : -1,
+                                "id"                   : 1,
+                                "priority"             : 0,
+                                "ingoreIfNotHero"      : false
+                            }
+                        ],
+                        "selId"            : 1
+                    },
+                    {
+                        "id" : 5,
+                        "frameType" : 0,
+                        "frameBegin" : 38,
+                        "frameEnd"   : -1,
+                        "frameInterval" : 1,
+                        "countLimit"    : -1,
+                        "countTargetLimit" : -1,
+                        "countFrameLimit"  : -1,
+                        "frameLimit"       : -1,
+                        "targetOrderType"  : 0,
+                        "conditions"       : [
+                        ],
+                        "targetConditions" : [
+                        ],
+                        "targetRanges"     : [
+                            {
+                                "range" : {
+                                    "type" : 0,
+                                    "beginOffsetAngle" : 0.0,
+                                    "endOffsetAngle"   : 0.0,
+                                    "begingOffsetPos"  : {
+                                        "x" : 0.0,
+                                        "y" : 0.0,
+                                        "z" : 0.0
+                                    },
+                                    "endOffsetPos"     : {
+                                        "x" : 0.0,
+                                        "y" : 0.0,
+                                        "z" : 0.0
+                                    },
+                                    "distance"         : 5.0,
+                                    "heightLimit"      : 2.0,
+                                    "rectLimit"        : 3.0,
+                                    "angleLimit"       : 90.0,
+                                    "showArea"         : false,
+                                    "showRange"        : false
+                                },
+                                "targetType" : 0
+                            }
+                        ],
+                        "events"           : [
+                            {
+                                "__type" : "SoundEventCfg",
+                                "soundId" : 40505,
+                                "ingore"  : false,
+                                "eventCountLimit" : -1,
+                                "eventCountFrameLimit" : -1,
+                                "id"                   : 1,
+                                "priority"             : 0,
+                                "ingoreIfNotHero"      : false
+                            }
+                        ],
+                        "selId"            : 1
+                    },
+                    {
+                        "id" : 2,
+                        "frameType" : 0,
+                        "frameBegin" : 48,
+                        "frameEnd"   : -1,
+                        "frameInterval" : 1,
+                        "countLimit"    : -1,
+                        "countTargetLimit" : -1,
+                        "countFrameLimit"  : -1,
+                        "frameLimit"       : -1,
+                        "targetOrderType"  : 0,
+                        "conditions"       : [
+                        ],
+                        "targetConditions" : [
+                        ],
+                        "targetRanges"     : [
+                            {
+                                "range" : {
+                                    "type" : 1,
+                                    "beginOffsetAngle" : 0.0,
+                                    "endOffsetAngle"   : 0.0,
+                                    "begingOffsetPos"  : {
+                                        "x" : 0.0,
+                                        "y" : 0.0,
+                                        "z" : 0.0
+                                    },
+                                    "endOffsetPos"     : {
+                                        "x" : 0.0,
+                                        "y" : 0.0,
+                                        "z" : 0.0
+                                    },
+                                    "distance"         : 3.0,
+                                    "heightLimit"      : 2.0,
+                                    "rectLimit"        : 3.0,
+                                    "angleLimit"       : 45.0,
+                                    "showArea"         : false,
+                                    "showRange"        : true
+                                },
+                                "targetType" : 2
+                            }
+                        ],
+                        "events"           : [
+                            {
+                                "__type" : "DamageEventCfg",
+                                "rate"   : 0.5,
+                                "hitFx"  : "小打击",
+                                "hitFxAdjust" : true,
+                                "shield"      : 10.0,
+                                "elem"        : 5,
+                                "playElemEventGroup" : true,
+                                "ingore"             : false,
+                                "eventCountLimit"    : -1,
+                                "eventCountFrameLimit" : -1,
+                                "id"                   : 1,
+                                "priority"             : 0,
+                                "ingoreIfNotHero"      : false
+                            },
+                            {
+                                "__type" : "MoveEventCfg",
+                                "moveType" : 2,
+                                "dirType"  : 0,
+                                "self"     : false,
+                                "distance" : 5.0,
+                                "frame"    : 20,
+                                "avoid"    : false,
+                                "touchOverFrame" : -1,
+                                "endIfSkillEnd"  : false,
+                                "endSkill"       : "",
+                                "ingore"         : false,
+                                "eventCountLimit" : -1,
+                                "eventCountFrameLimit" : -1,
+                                "id"                   : 3,
+                                "priority"             : 0,
+                                "ingoreIfNotHero"      : false
+                            },
+                            {
+                                "__type" : "HitFlySkillEventCfg",
+                                "speed"  : 8.0,
+                                "acceleratedUp" : -9.0,
+                                "acceleratedDown" : -9.0,
+                                "groundDuration"  : 0.5,
+                                "reverseSpeed"    : 1.0,
+                                "speedDown"       : -4.0,
+                                "hitDuration"     : 0.300000011920929,
+                                "ingore"          : false,
+                                "eventCountLimit" : -1,
+                                "eventCountFrameLimit" : -1,
+                                "id"                   : 4,
+                                "priority"             : 0,
+                                "ingoreIfNotHero"      : false
+                            },
+                            {
+                                "__type" : "SoundEventCfg",
+                                "soundId" : 10006,
+                                "ingore"  : false,
+                                "eventCountLimit" : -1,
+                                "eventCountFrameLimit" : -1,
+                                "id"                   : 5,
+                                "priority"             : 0,
+                                "ingoreIfNotHero"      : false
+                            }
+                        ],
+                        "selId"            : 2
+                    }
+                ],
+                "selId"  : 1,
+                "allScroll" : {
+                    "x" : 0.0,
+                    "y" : 0.0
+                },
+                "contentScroll" : {
+                    "x" : 0.0,
+                    "y" : 0.0
+                },
+                "maxWidth"      : 1550.0
+            },
+            "skillStates"     : [
+            ],
+            "endStates"       : [
+            ],
+            "endEventGroupId" : "",
+            "endIfCancel"     : false,
+            "endIfBehit"      : false
+        },
+        {
+            "skillId" : "duoshan",
+            "name"    : "",
+            "desc"    : "",
+            "icon"    : "",
+            "mp"      : 0,
+            "mpNeed"  : -1,
+            "cd"      : 5.0,
+            "showWeapon" : true,
+            "isInternal" : false,
+            "parentSkillId" : "",
+            "aniName"       : "duoshan",
+            "aniType"       : 0,
+            "fade"          : 0.200000002980232,
+            "duration"      : -1.0,
+            "continueIfPress" : false,
+            "aniRate"         : {
+                "clips" : [
+                ],
+                "speed" : 1.0
+            },
+            "moveType"        : 0,
+            "dirType"         : 0,
+            "rotateSpeed"     : 360.0,
+            "moveSpeed"       : 3.0,
+            "beginTranFrame"  : 0,
+            "endTranFrame"    : -1,
+            "autoFace"        : true,
+            "firstRange"      : {
+                "type" : 0,
+                "beginOffsetAngle" : 0.0,
+                "endOffsetAngle"   : 0.0,
+                "begingOffsetPos"  : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "endOffsetPos"     : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "distance"         : 5.0,
+                "heightLimit"      : -1.0,
+                "rectLimit"        : 3.0,
+                "angleLimit"       : 90.0,
+                "showArea"         : false,
+                "showRange"        : false
+            },
+            "secondRange"     : {
+                "type" : 0,
+                "beginOffsetAngle" : 0.0,
+                "endOffsetAngle"   : 0.0,
+                "begingOffsetPos"  : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "endOffsetPos"     : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "distance"         : 5.0,
+                "heightLimit"      : -1.0,
+                "rectLimit"        : 3.0,
+                "angleLimit"       : 90.0,
+                "showArea"         : false,
+                "showRange"        : false
+            },
+            "thirdRange"      : {
+                "type" : 0,
+                "beginOffsetAngle" : 0.0,
+                "endOffsetAngle"   : 0.0,
+                "begingOffsetPos"  : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "endOffsetPos"     : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "distance"         : 5.0,
+                "heightLimit"      : -1.0,
+                "rectLimit"        : 3.0,
+                "angleLimit"       : 90.0,
+                "showArea"         : false,
+                "showRange"        : false
+            },
+            "attackRange"     : {
+                "type" : 0,
+                "beginOffsetAngle" : 0.0,
+                "endOffsetAngle"   : 0.0,
+                "begingOffsetPos"  : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "endOffsetPos"     : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "distance"         : 5.0,
+                "heightLimit"      : 2.0,
+                "rectLimit"        : 3.0,
+                "angleLimit"       : 90.0,
+                "showArea"         : false,
+                "showRange"        : false
+            },
+            "cancelPriority"  : 0,
+            "isAirSkill"      : false,
+            "canCanel"        : true,
+            "canBeCanel"      : true,
+            "cancelPreFrame"  : 0,
+            "cancelPostFrame" : -1,
+            "comboSkillId"    : "",
+            "comboPreFrame"   : 0,
+            "comboPostFrame"  : -1,
+            "comboWaitFrame"  : 30,
+            "showComboIcon"   : true,
+            "eventGroup"      : {
+                "file" : "skill_event_group",
+                "isFile" : false,
+                "frames" : [
+                    {
+                        "id" : 2,
+                        "frameType" : 0,
+                        "frameBegin" : 0,
+                        "frameEnd"   : -1,
+                        "frameInterval" : 1,
+                        "countLimit"    : -1,
+                        "countTargetLimit" : -1,
+                        "countFrameLimit"  : -1,
+                        "frameLimit"       : -1,
+                        "targetOrderType"  : 0,
+                        "conditions"       : [
+                        ],
+                        "targetConditions" : [
+                        ],
+                        "targetRanges"     : [
+                            {
+                                "range" : {
+                                    "type" : 0,
+                                    "beginOffsetAngle" : 0.0,
+                                    "endOffsetAngle"   : 0.0,
+                                    "begingOffsetPos"  : {
+                                        "x" : 0.0,
+                                        "y" : 0.0,
+                                        "z" : 0.0
+                                    },
+                                    "endOffsetPos"     : {
+                                        "x" : 0.0,
+                                        "y" : 0.0,
+                                        "z" : 0.0
+                                    },
+                                    "distance"         : 5.0,
+                                    "heightLimit"      : 2.0,
+                                    "rectLimit"        : 3.0,
+                                    "angleLimit"       : 90.0,
+                                    "showArea"         : false,
+                                    "showRange"        : false
+                                },
+                                "targetType" : 0
+                            }
+                        ],
+                        "events"           : [
+                            {
+                                "__type" : "BuffEventCfg",
+                                "self"   : false,
+                                "buffParams" : [
+                                    {
+                                        "id" : 2304,
+                                        "end" : true,
+                                        "frame" : -3.0
+                                    }
+                                ],
+                                "ingore"     : false,
+                                "eventCountLimit" : -1,
+                                "eventCountFrameLimit" : -1,
+                                "id"                   : 1,
+                                "priority"             : 0,
+                                "ingoreIfNotHero"      : false
+                            }
+                        ],
+                        "selId"            : 1
+                    },
+                    {
+                        "id" : 3,
+                        "frameType" : 0,
+                        "frameBegin" : 0,
+                        "frameEnd"   : -1,
+                        "frameInterval" : 1,
+                        "countLimit"    : -1,
+                        "countTargetLimit" : -1,
+                        "countFrameLimit"  : -1,
+                        "frameLimit"       : -1,
+                        "targetOrderType"  : 0,
+                        "conditions"       : [
+                        ],
+                        "targetConditions" : [
+                        ],
+                        "targetRanges"     : [
+                            {
+                                "range" : {
+                                    "type" : 0,
+                                    "beginOffsetAngle" : 0.0,
+                                    "endOffsetAngle"   : 0.0,
+                                    "begingOffsetPos"  : {
+                                        "x" : 0.0,
+                                        "y" : 0.0,
+                                        "z" : 0.0
+                                    },
+                                    "endOffsetPos"     : {
+                                        "x" : 0.0,
+                                        "y" : 0.0,
+                                        "z" : 0.0
+                                    },
+                                    "distance"         : 5.0,
+                                    "heightLimit"      : 2.0,
+                                    "rectLimit"        : 3.0,
+                                    "angleLimit"       : 90.0,
+                                    "showArea"         : false,
+                                    "showRange"        : false
+                                },
+                                "targetType" : 0
+                            }
+                        ],
+                        "events"           : [
+                            {
+                                "__type" : "SoundEventCfg",
+                                "soundId" : 23,
+                                "ingore"  : false,
+                                "eventCountLimit" : -1,
+                                "eventCountFrameLimit" : -1,
+                                "id"                   : 1,
+                                "priority"             : 0,
+                                "ingoreIfNotHero"      : false
+                            }
+                        ],
+                        "selId"            : 1
+                    },
+                    {
+                        "id" : 1,
+                        "frameType" : 0,
+                        "frameBegin" : 6,
+                        "frameEnd"   : -1,
+                        "frameInterval" : 1,
+                        "countLimit"    : -1,
+                        "countTargetLimit" : -1,
+                        "countFrameLimit"  : -1,
+                        "frameLimit"       : -1,
+                        "targetOrderType"  : 0,
+                        "conditions"       : [
+                        ],
+                        "targetConditions" : [
+                        ],
+                        "targetRanges"     : [
+                            {
+                                "range" : {
+                                    "type" : 0,
+                                    "beginOffsetAngle" : 0.0,
+                                    "endOffsetAngle"   : 0.0,
+                                    "begingOffsetPos"  : {
+                                        "x" : 0.0,
+                                        "y" : 0.0,
+                                        "z" : 0.0
+                                    },
+                                    "endOffsetPos"     : {
+                                        "x" : 0.0,
+                                        "y" : 0.0,
+                                        "z" : 0.0
+                                    },
+                                    "distance"         : 5.0,
+                                    "heightLimit"      : 2.0,
+                                    "rectLimit"        : 3.0,
+                                    "angleLimit"       : 90.0,
+                                    "showArea"         : false,
+                                    "showRange"        : false
+                                },
+                                "targetType" : 0
+                            }
+                        ],
+                        "events"           : [
+                            {
+                                "__type" : "MoveEventCfg",
+                                "moveType" : 1,
+                                "dirType"  : 0,
+                                "self"     : false,
+                                "distance" : 3.0,
+                                "frame"    : 9,
+                                "avoid"    : false,
+                                "touchOverFrame" : -1,
+                                "endIfSkillEnd"  : false,
+                                "endSkill"       : "",
+                                "ingore"         : false,
+                                "eventCountLimit" : -1,
+                                "eventCountFrameLimit" : -1,
+                                "id"                   : 1,
+                                "priority"             : 0,
+                                "ingoreIfNotHero"      : false
+                            }
+                        ],
+                        "selId"            : 1
+                    },
+                    {
+                        "id" : 4,
+                        "frameType" : 0,
+                        "frameBegin" : 9,
+                        "frameEnd"   : -1,
+                        "frameInterval" : 1,
+                        "countLimit"    : -1,
+                        "countTargetLimit" : -1,
+                        "countFrameLimit"  : -1,
+                        "frameLimit"       : -1,
+                        "targetOrderType"  : 0,
+                        "conditions"       : [
+                        ],
+                        "targetConditions" : [
+                        ],
+                        "targetRanges"     : [
+                            {
+                                "range" : {
+                                    "type" : 0,
+                                    "beginOffsetAngle" : 0.0,
+                                    "endOffsetAngle"   : 0.0,
+                                    "begingOffsetPos"  : {
+                                        "x" : 0.0,
+                                        "y" : 0.0,
+                                        "z" : 0.0
+                                    },
+                                    "endOffsetPos"     : {
+                                        "x" : 0.0,
+                                        "y" : 0.0,
+                                        "z" : 0.0
+                                    },
+                                    "distance"         : 5.0,
+                                    "heightLimit"      : 2.0,
+                                    "rectLimit"        : 3.0,
+                                    "angleLimit"       : 90.0,
+                                    "showArea"         : false,
+                                    "showRange"        : false
+                                },
+                                "targetType" : 0
+                            }
+                        ],
+                        "events"           : [
+                            {
+                                "__type" : "SoundEventCfg",
+                                "soundId" : 24,
+                                "ingore"  : false,
+                                "eventCountLimit" : -1,
+                                "eventCountFrameLimit" : -1,
+                                "id"                   : 1,
+                                "priority"             : 0,
+                                "ingoreIfNotHero"      : false
+                            }
+                        ],
+                        "selId"            : 1
+                    }
+                ],
+                "selId"  : 4,
+                "allScroll" : {
+                    "x" : 0.0,
+                    "y" : 0.0
+                },
+                "contentScroll" : {
+                    "x" : 0.0,
+                    "y" : 0.0
+                },
+                "maxWidth"      : 1210.0
+            },
+            "skillStates"     : [
+            ],
+            "endStates"       : [
+            ],
+            "endEventGroupId" : "",
+            "endIfCancel"     : false,
+            "endIfBehit"      : false
+        }
+    ]
+}

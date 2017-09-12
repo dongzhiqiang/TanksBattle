@@ -1,0 +1,13 @@
+﻿
+{
+    "storyList" : [
+        {
+            "__type" : "StoryTalkCfg",
+            "roleId" : "kratos",
+            "content" : "此处为过场动画,奎爷视角：看见一个鞋子趴在房顶一跃而下跳向镜头,镜头拉黑切入战斗",
+            "localIdx" : 0,
+            "type"     : 0,
+            "time"     : 10
+        }
+    ]
+}

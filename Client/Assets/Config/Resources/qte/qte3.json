@@ -1,0 +1,26 @@
+﻿
+{
+    "__type" : "BigQteCfg",
+    "Name"   : "qte3",
+    "Duration" : 8.0,
+    "stages"   : [
+        {
+            "idx" : 0,
+            "winInfo" : {
+                "duration" : 0.8803351521492,
+                "events"   : [
+                ]
+            },
+            "loseInfo" : null
+        },
+        {
+            "idx" : 1,
+            "winInfo" : {
+                "duration" : 0.990910470485687,
+                "events"   : [
+                ]
+            },
+            "loseInfo" : null
+        }
+    ]
+}

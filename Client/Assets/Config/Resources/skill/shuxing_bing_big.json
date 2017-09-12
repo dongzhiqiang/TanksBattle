@@ -1,0 +1,101 @@
+﻿
+{
+    "file" : "shuxing_bing_big",
+    "isFile" : true,
+    "frames" : [
+        {
+            "id" : 1,
+            "frameType" : 0,
+            "frameBegin" : 0,
+            "frameEnd"   : -1,
+            "frameInterval" : 1,
+            "countLimit"    : 1,
+            "countTargetLimit" : -1,
+            "countFrameLimit"  : 1,
+            "frameLimit"       : -1,
+            "targetOrderType"  : 0,
+            "conditions"       : [
+            ],
+            "targetConditions" : [
+            ],
+            "targetRanges"     : [
+                {
+                    "range" : {
+                        "type" : 0,
+                        "beginOffsetAngle" : 0.0,
+                        "endOffsetAngle"   : 0.0,
+                        "begingOffsetPos"  : {
+                            "x" : 0.0,
+                            "y" : 0.0,
+                            "z" : 0.0
+                        },
+                        "endOffsetPos"     : {
+                            "x" : 0.0,
+                            "y" : 0.0,
+                            "z" : 0.0
+                        },
+                        "distance"         : 10.0,
+                        "heightLimit"      : 2.0,
+                        "rectLimit"        : 3.0,
+                        "angleLimit"       : 90.0,
+                        "showArea"         : false,
+                        "showRange"        : false
+                    },
+                    "targetType" : 6
+                }
+            ],
+            "events"           : [
+                {
+                    "__type" : "FxEventCfg",
+                    "createCfg" : {
+                        "name" : "shuxing_bing_big",
+                        "fireFx" : "",
+                        "iceFx"  : "",
+                        "thunderFx" : "",
+                        "darkFx"    : "",
+                        "durationFrame" : -1,
+                        "dirType"       : 1,
+                        "posType"       : 4,
+                        "dirOffset"     : 0.0,
+                        "posOffset"     : {
+                            "x" : 0.0,
+                            "y" : 0.0,
+                            "z" : 0.0
+                        },
+                        "randomBegin"   : 0.0,
+                        "randomEnd"     : 0.0,
+                        "num"           : 1,
+                        "multiDirOffset" : 0.0,
+                        "multiPosOffset" : {
+                            "x" : 0.0,
+                            "y" : 0.0,
+                            "z" : 0.0
+                        },
+                        "bone"           : "",
+                        "follow"         : true,
+                        "alignSourceY"   : false
+                    },
+                    "flyer"     : "flyer_shuxing_bing_big",
+                    "useHapponPos" : false,
+                    "ingore"       : false,
+                    "eventCountLimit" : -1,
+                    "eventCountFrameLimit" : 1,
+                    "id"                   : 1,
+                    "priority"             : 0,
+                    "ingoreIfNotHero"      : false
+                }
+            ],
+            "selId"            : 1
+        }
+    ],
+    "selId"  : 1,
+    "allScroll" : {
+        "x" : 0.0,
+        "y" : 0.0
+    },
+    "contentScroll" : {
+        "x" : 0.0,
+        "y" : 0.0
+    },
+    "maxWidth"      : 1260.0
+}

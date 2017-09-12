@@ -1,0 +1,17 @@
+id,释放者id,被释放者id,要释放的技能,要释放的技能2,释放者血量限制,被释放者血量限制
+id,sourceId,targetId,skills,skills2,sourceHp,targetHp
+1,kratos,xb_01,qte_xb_01,chongzhuang_xb_01,100,100
+2,kratos,xb_02,qte_xb_02,chongzhuang_xb_01,100,100
+3,kratos,xb_03,qte_xb_03,chongzhuang_xb_01,100,100
+4,kratos,xb_04,qte_xb_04,chongzhuang_xb_04,100,100
+5,kratos,xb_05,qte_xb_05,chongzhuang_xb_05,100,100
+6,kratos,xb_06,qte_xb_06,chongzhuang_xb_06,100,100
+7,kratos,xb_07,qte_xb_07,chongzhuang_xb_06,100,100
+8,kratos,xb_08,qte_xb_08,chongzhuang_xb_06,100,100
+9,kratos,jy_04,qte_big_jy_04,,100,100
+10,kratos,shouhu_xb_01,qte_xb_01,chongzhuang_xb_01,100,100
+11,kratos,shouhu_xb_03,qte_xb_03,chongzhuang_xb_01,100,100
+12,kratos,shouhu_xb_02,qte_xb_02,chongzhuang_xb_01,100,100
+13,kratos,shouhu_xb_06,qte_xb_06,chongzhuang_xb_06,100,100
+14,kratos,shouhu_xb_07,qte_xb_07,chongzhuang_xb_06,100,100
+15,kratos,shouhu_xb_08,qte_xb_08,chongzhuang_xb_06,100,100

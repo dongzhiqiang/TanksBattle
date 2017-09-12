@@ -1,0 +1,1948 @@
+﻿
+{
+    "sceneName" : "the_blood_of_hades",
+    "mRefGroupList" : [
+        {
+            "refreshType" : 0,
+            "Points"      : [
+                {
+                    "pos" : {
+                        "x" : -50.0,
+                        "y" : 8.89999961853027,
+                        "z" : -5.0
+                    },
+                    "dir" : {
+                        "x" : 0.0,
+                        "y" : 90.0,
+                        "z" : 0.0
+                    },
+                    "camp" : 1,
+                    "buffId" : 2112,
+                    "roleId" : "hd_hadisi_xiaogou",
+                    "pointFlag" : "dogup1",
+                    "bornDelay" : 0.0,
+                    "ai"        : "ai_hadisi:小地狱犬",
+                    "bornTypeId" : "",
+                    "deadTypeId" : "",
+                    "groundDeadTypeId" : "",
+                    "isShowBloodBar"   : 0,
+                    "isShowFriendBloodBar" : 0,
+                    "pathfindingList"      : [
+                    ],
+                    "boxAddNum"            : 0,
+                    "boxAddType"           : 0,
+                    "boxBuffId"            : 0,
+                    "hate"                 : {
+                        "hateIfHit" : 0,
+                        "hateIfBeHit" : 0,
+                        "hateIfRefGroup" : [
+                        ],
+                        "hateIfChange"   : 0,
+                        "behateIfBegin"  : 0
+                    }
+                },
+                {
+                    "pos" : {
+                        "x" : -50.0,
+                        "y" : 8.89999961853027,
+                        "z" : 0.0
+                    },
+                    "dir" : {
+                        "x" : 0.0,
+                        "y" : 90.0,
+                        "z" : 0.0
+                    },
+                    "camp" : 1,
+                    "buffId" : 2112,
+                    "roleId" : "hd_hadisi_xiaogou",
+                    "pointFlag" : "dogup2",
+                    "bornDelay" : 1.0,
+                    "ai"        : "ai_hadisi2:小地狱犬",
+                    "bornTypeId" : "",
+                    "deadTypeId" : "",
+                    "groundDeadTypeId" : "",
+                    "isShowBloodBar"   : 0,
+                    "isShowFriendBloodBar" : 0,
+                    "pathfindingList"      : [
+                    ],
+                    "boxAddNum"            : 0,
+                    "boxAddType"           : 0,
+                    "boxBuffId"            : 0,
+                    "hate"                 : {
+                        "hateIfHit" : 0,
+                        "hateIfBeHit" : 0,
+                        "hateIfRefGroup" : [
+                        ],
+                        "hateIfChange"   : 0,
+                        "behateIfBegin"  : 0
+                    }
+                },
+                {
+                    "pos" : {
+                        "x" : -55.0,
+                        "y" : 8.89999961853027,
+                        "z" : -5.0
+                    },
+                    "dir" : {
+                        "x" : 0.0,
+                        "y" : 90.0,
+                        "z" : 0.0
+                    },
+                    "camp" : 1,
+                    "buffId" : 2112,
+                    "roleId" : "hd_hadisi_xiaogou",
+                    "pointFlag" : "dogup3",
+                    "bornDelay" : 0.0,
+                    "ai"        : "ai_hadisi:小地狱犬",
+                    "bornTypeId" : "",
+                    "deadTypeId" : "",
+                    "groundDeadTypeId" : "",
+                    "isShowBloodBar"   : 0,
+                    "isShowFriendBloodBar" : 0,
+                    "pathfindingList"      : [
+                    ],
+                    "boxAddNum"            : 0,
+                    "boxAddType"           : 0,
+                    "boxBuffId"            : 0,
+                    "hate"                 : {
+                        "hateIfHit" : 0,
+                        "hateIfBeHit" : 0,
+                        "hateIfRefGroup" : [
+                        ],
+                        "hateIfChange"   : 0,
+                        "behateIfBegin"  : 0
+                    }
+                },
+                {
+                    "pos" : {
+                        "x" : -55.0,
+                        "y" : 8.89999961853027,
+                        "z" : 0.0
+                    },
+                    "dir" : {
+                        "x" : 0.0,
+                        "y" : 90.0,
+                        "z" : 0.0
+                    },
+                    "camp" : 1,
+                    "buffId" : 2112,
+                    "roleId" : "hd_hadisi_xiaogou",
+                    "pointFlag" : "dogup4",
+                    "bornDelay" : 1.0,
+                    "ai"        : "ai_hadisi2:小地狱犬",
+                    "bornTypeId" : "",
+                    "deadTypeId" : "",
+                    "groundDeadTypeId" : "",
+                    "isShowBloodBar"   : 0,
+                    "isShowFriendBloodBar" : 0,
+                    "pathfindingList"      : [
+                    ],
+                    "boxAddNum"            : 0,
+                    "boxAddType"           : 0,
+                    "boxBuffId"            : 0,
+                    "hate"                 : {
+                        "hateIfHit" : 0,
+                        "hateIfBeHit" : 0,
+                        "hateIfRefGroup" : [
+                        ],
+                        "hateIfChange"   : 0,
+                        "behateIfBegin"  : 0
+                    }
+                }
+            ],
+            "groupFlag"   : "dog1",
+            "nextGroupFlag" : "",
+            "nextWaveDelay" : 0,
+            "delayTime"     : 0.0,
+            "refreshNum"    : 1,
+            "pointNum"      : 1
+        },
+        {
+            "refreshType" : 0,
+            "Points"      : [
+                {
+                    "pos" : {
+                        "x" : -60.0,
+                        "y" : 4.32999992370605,
+                        "z" : 15.0
+                    },
+                    "dir" : {
+                        "x" : 0.0,
+                        "y" : 90.0,
+                        "z" : 0.0
+                    },
+                    "camp" : 1,
+                    "buffId" : 2114,
+                    "roleId" : "hd_hadisi_xiaogou",
+                    "pointFlag" : "dog2down1",
+                    "bornDelay" : 0.0,
+                    "ai"        : "ai_hadisi4:小地狱犬",
+                    "bornTypeId" : "",
+                    "deadTypeId" : "",
+                    "groundDeadTypeId" : "",
+                    "isShowBloodBar"   : 0,
+                    "isShowFriendBloodBar" : 0,
+                    "pathfindingList"      : [
+                    ],
+                    "boxAddNum"            : 0,
+                    "boxAddType"           : 0,
+                    "boxBuffId"            : 0,
+                    "hate"                 : {
+                        "hateIfHit" : 0,
+                        "hateIfBeHit" : 0,
+                        "hateIfRefGroup" : [
+                        ],
+                        "hateIfChange"   : 0,
+                        "behateIfBegin"  : 0
+                    }
+                },
+                {
+                    "pos" : {
+                        "x" : -60.0,
+                        "y" : 4.32999992370605,
+                        "z" : 20.0
+                    },
+                    "dir" : {
+                        "x" : 0.0,
+                        "y" : 90.0,
+                        "z" : 0.0
+                    },
+                    "camp" : 1,
+                    "buffId" : 2114,
+                    "roleId" : "hd_hadisi_xiaogou",
+                    "pointFlag" : "dog2down2",
+                    "bornDelay" : 1.0,
+                    "ai"        : "ai_hadisi5:小地狱犬",
+                    "bornTypeId" : "",
+                    "deadTypeId" : "",
+                    "groundDeadTypeId" : "",
+                    "isShowBloodBar"   : 0,
+                    "isShowFriendBloodBar" : 0,
+                    "pathfindingList"      : [
+                    ],
+                    "boxAddNum"            : 0,
+                    "boxAddType"           : 0,
+                    "boxBuffId"            : 0,
+                    "hate"                 : {
+                        "hateIfHit" : 0,
+                        "hateIfBeHit" : 0,
+                        "hateIfRefGroup" : [
+                        ],
+                        "hateIfChange"   : 0,
+                        "behateIfBegin"  : 0
+                    }
+                },
+                {
+                    "pos" : {
+                        "x" : -65.0,
+                        "y" : 4.32999992370605,
+                        "z" : 15.0
+                    },
+                    "dir" : {
+                        "x" : 0.0,
+                        "y" : 90.0,
+                        "z" : 0.0
+                    },
+                    "camp" : 1,
+                    "buffId" : 2114,
+                    "roleId" : "hd_hadisi_xiaogou",
+                    "pointFlag" : "dog2down3",
+                    "bornDelay" : 0.0,
+                    "ai"        : "ai_hadisi4:小地狱犬",
+                    "bornTypeId" : "",
+                    "deadTypeId" : "",
+                    "groundDeadTypeId" : "",
+                    "isShowBloodBar"   : 0,
+                    "isShowFriendBloodBar" : 0,
+                    "pathfindingList"      : [
+                    ],
+                    "boxAddNum"            : 0,
+                    "boxAddType"           : 0,
+                    "boxBuffId"            : 0,
+                    "hate"                 : {
+                        "hateIfHit" : 0,
+                        "hateIfBeHit" : 0,
+                        "hateIfRefGroup" : [
+                        ],
+                        "hateIfChange"   : 0,
+                        "behateIfBegin"  : 0
+                    }
+                },
+                {
+                    "pos" : {
+                        "x" : -65.0,
+                        "y" : 4.32999992370605,
+                        "z" : 20.0
+                    },
+                    "dir" : {
+                        "x" : 0.0,
+                        "y" : 90.0,
+                        "z" : 0.0
+                    },
+                    "camp" : 1,
+                    "buffId" : 2114,
+                    "roleId" : "hd_hadisi_xiaogou",
+                    "pointFlag" : "dog2down4",
+                    "bornDelay" : 1.0,
+                    "ai"        : "ai_hadisi5:小地狱犬",
+                    "bornTypeId" : "",
+                    "deadTypeId" : "",
+                    "groundDeadTypeId" : "",
+                    "isShowBloodBar"   : 0,
+                    "isShowFriendBloodBar" : 0,
+                    "pathfindingList"      : [
+                    ],
+                    "boxAddNum"            : 0,
+                    "boxAddType"           : 0,
+                    "boxBuffId"            : 0,
+                    "hate"                 : {
+                        "hateIfHit" : 0,
+                        "hateIfBeHit" : 0,
+                        "hateIfRefGroup" : [
+                        ],
+                        "hateIfChange"   : 0,
+                        "behateIfBegin"  : 0
+                    }
+                },
+                {
+                    "pos" : {
+                        "x" : -62.5,
+                        "y" : 4.32999992370605,
+                        "z" : 17.5
+                    },
+                    "dir" : {
+                        "x" : 0.0,
+                        "y" : 90.0,
+                        "z" : 0.0
+                    },
+                    "camp" : 1,
+                    "buffId" : 2114,
+                    "roleId" : "hd_hadisi_dagou_big",
+                    "pointFlag" : "dog2downS",
+                    "bornDelay" : 3.0,
+                    "ai"        : "ai_hadisi6:小地狱犬",
+                    "bornTypeId" : "",
+                    "deadTypeId" : "",
+                    "groundDeadTypeId" : "",
+                    "isShowBloodBar"   : 0,
+                    "isShowFriendBloodBar" : 0,
+                    "pathfindingList"      : [
+                    ],
+                    "boxAddNum"            : 0,
+                    "boxAddType"           : 0,
+                    "boxBuffId"            : 0,
+                    "hate"                 : {
+                        "hateIfHit" : 0,
+                        "hateIfBeHit" : 0,
+                        "hateIfRefGroup" : [
+                        ],
+                        "hateIfChange"   : 0,
+                        "behateIfBegin"  : 0
+                    }
+                }
+            ],
+            "groupFlag"   : "dog2",
+            "nextGroupFlag" : "",
+            "nextWaveDelay" : 0,
+            "delayTime"     : 0.0,
+            "refreshNum"    : 1,
+            "pointNum"      : 1
+        },
+        {
+            "refreshType" : 0,
+            "Points"      : [
+                {
+                    "pos" : {
+                        "x" : -55.0,
+                        "y" : 8.89999961853027,
+                        "z" : -5.0
+                    },
+                    "dir" : {
+                        "x" : 0.0,
+                        "y" : 90.0,
+                        "z" : 0.0
+                    },
+                    "camp" : 1,
+                    "buffId" : 2116,
+                    "roleId" : "hd_hadisi_xiaogou",
+                    "pointFlag" : "dog3up1",
+                    "bornDelay" : 0.0,
+                    "ai"        : "ai_hadisi:小地狱犬",
+                    "bornTypeId" : "",
+                    "deadTypeId" : "",
+                    "groundDeadTypeId" : "",
+                    "isShowBloodBar"   : 0,
+                    "isShowFriendBloodBar" : 0,
+                    "pathfindingList"      : [
+                    ],
+                    "boxAddNum"            : 0,
+                    "boxAddType"           : 0,
+                    "boxBuffId"            : 0,
+                    "hate"                 : {
+                        "hateIfHit" : 0,
+                        "hateIfBeHit" : 0,
+                        "hateIfRefGroup" : [
+                        ],
+                        "hateIfChange"   : 0,
+                        "behateIfBegin"  : 0
+                    }
+                },
+                {
+                    "pos" : {
+                        "x" : -55.0,
+                        "y" : 8.89999961853027,
+                        "z" : 0.0
+                    },
+                    "dir" : {
+                        "x" : 0.0,
+                        "y" : 90.0,
+                        "z" : 0.0
+                    },
+                    "camp" : 1,
+                    "buffId" : 2116,
+                    "roleId" : "hd_hadisi_xiaogou",
+                    "pointFlag" : "dog3up2",
+                    "bornDelay" : 1.0,
+                    "ai"        : "ai_hadisi2:小地狱犬",
+                    "bornTypeId" : "",
+                    "deadTypeId" : "",
+                    "groundDeadTypeId" : "",
+                    "isShowBloodBar"   : 0,
+                    "isShowFriendBloodBar" : 0,
+                    "pathfindingList"      : [
+                    ],
+                    "boxAddNum"            : 0,
+                    "boxAddType"           : 0,
+                    "boxBuffId"            : 0,
+                    "hate"                 : {
+                        "hateIfHit" : 0,
+                        "hateIfBeHit" : 0,
+                        "hateIfRefGroup" : [
+                        ],
+                        "hateIfChange"   : 0,
+                        "behateIfBegin"  : 0
+                    }
+                },
+                {
+                    "pos" : {
+                        "x" : -60.0,
+                        "y" : 8.89999961853027,
+                        "z" : -5.0
+                    },
+                    "dir" : {
+                        "x" : 0.0,
+                        "y" : 90.0,
+                        "z" : 0.0
+                    },
+                    "camp" : 1,
+                    "buffId" : 2116,
+                    "roleId" : "hd_hadisi_xiaogou",
+                    "pointFlag" : "dog3up3",
+                    "bornDelay" : 0.0,
+                    "ai"        : "ai_hadisi:小地狱犬",
+                    "bornTypeId" : "",
+                    "deadTypeId" : "",
+                    "groundDeadTypeId" : "",
+                    "isShowBloodBar"   : 0,
+                    "isShowFriendBloodBar" : 0,
+                    "pathfindingList"      : [
+                    ],
+                    "boxAddNum"            : 0,
+                    "boxAddType"           : 0,
+                    "boxBuffId"            : 0,
+                    "hate"                 : {
+                        "hateIfHit" : 0,
+                        "hateIfBeHit" : 0,
+                        "hateIfRefGroup" : [
+                        ],
+                        "hateIfChange"   : 0,
+                        "behateIfBegin"  : 0
+                    }
+                },
+                {
+                    "pos" : {
+                        "x" : -60.0,
+                        "y" : 8.89999961853027,
+                        "z" : 0.0
+                    },
+                    "dir" : {
+                        "x" : 0.0,
+                        "y" : 90.0,
+                        "z" : 0.0
+                    },
+                    "camp" : 1,
+                    "buffId" : 2116,
+                    "roleId" : "hd_hadisi_xiaogou",
+                    "pointFlag" : "dog3up4",
+                    "bornDelay" : 1.0,
+                    "ai"        : "ai_hadisi2:小地狱犬",
+                    "bornTypeId" : "",
+                    "deadTypeId" : "",
+                    "groundDeadTypeId" : "",
+                    "isShowBloodBar"   : 0,
+                    "isShowFriendBloodBar" : 0,
+                    "pathfindingList"      : [
+                    ],
+                    "boxAddNum"            : 0,
+                    "boxAddType"           : 0,
+                    "boxBuffId"            : 0,
+                    "hate"                 : {
+                        "hateIfHit" : 0,
+                        "hateIfBeHit" : 0,
+                        "hateIfRefGroup" : [
+                        ],
+                        "hateIfChange"   : 0,
+                        "behateIfBegin"  : 0
+                    }
+                },
+                {
+                    "pos" : {
+                        "x" : -65.0,
+                        "y" : 8.89999961853027,
+                        "z" : -5.0
+                    },
+                    "dir" : {
+                        "x" : 0.0,
+                        "y" : 90.0,
+                        "z" : 0.0
+                    },
+                    "camp" : 1,
+                    "buffId" : 2116,
+                    "roleId" : "hd_hadisi_xiaogou",
+                    "pointFlag" : "dog3up5",
+                    "bornDelay" : 0.0,
+                    "ai"        : "ai_hadisi:小地狱犬",
+                    "bornTypeId" : "",
+                    "deadTypeId" : "",
+                    "groundDeadTypeId" : "",
+                    "isShowBloodBar"   : 0,
+                    "isShowFriendBloodBar" : 0,
+                    "pathfindingList"      : [
+                    ],
+                    "boxAddNum"            : 0,
+                    "boxAddType"           : 0,
+                    "boxBuffId"            : 0,
+                    "hate"                 : {
+                        "hateIfHit" : 0,
+                        "hateIfBeHit" : 0,
+                        "hateIfRefGroup" : [
+                        ],
+                        "hateIfChange"   : 0,
+                        "behateIfBegin"  : 0
+                    }
+                }
+            ],
+            "groupFlag"   : "dog3",
+            "nextGroupFlag" : "",
+            "nextWaveDelay" : 0,
+            "delayTime"     : 0.0,
+            "refreshNum"    : 1,
+            "pointNum"      : 1
+        },
+        {
+            "refreshType" : 0,
+            "Points"      : [
+                {
+                    "pos" : {
+                        "x" : -55.0,
+                        "y" : 4.32999992370605,
+                        "z" : 15.0
+                    },
+                    "dir" : {
+                        "x" : 0.0,
+                        "y" : 90.0,
+                        "z" : 0.0
+                    },
+                    "camp" : 1,
+                    "buffId" : 2118,
+                    "roleId" : "hd_hadisi_xiaogou",
+                    "pointFlag" : "dog4down1",
+                    "bornDelay" : 0.0,
+                    "ai"        : "ai_hadisi4:小地狱犬",
+                    "bornTypeId" : "",
+                    "deadTypeId" : "",
+                    "groundDeadTypeId" : "",
+                    "isShowBloodBar"   : 0,
+                    "isShowFriendBloodBar" : 0,
+                    "pathfindingList"      : [
+                    ],
+                    "boxAddNum"            : 0,
+                    "boxAddType"           : 0,
+                    "boxBuffId"            : 0,
+                    "hate"                 : {
+                        "hateIfHit" : 0,
+                        "hateIfBeHit" : 0,
+                        "hateIfRefGroup" : [
+                        ],
+                        "hateIfChange"   : 0,
+                        "behateIfBegin"  : 0
+                    }
+                },
+                {
+                    "pos" : {
+                        "x" : -55.0,
+                        "y" : 4.32999992370605,
+                        "z" : 20.0
+                    },
+                    "dir" : {
+                        "x" : 0.0,
+                        "y" : 90.0,
+                        "z" : 0.0
+                    },
+                    "camp" : 1,
+                    "buffId" : 2118,
+                    "roleId" : "hd_hadisi_xiaogou",
+                    "pointFlag" : "dog4down2",
+                    "bornDelay" : 1.0,
+                    "ai"        : "ai_hadisi5:小地狱犬",
+                    "bornTypeId" : "",
+                    "deadTypeId" : "",
+                    "groundDeadTypeId" : "",
+                    "isShowBloodBar"   : 0,
+                    "isShowFriendBloodBar" : 0,
+                    "pathfindingList"      : [
+                    ],
+                    "boxAddNum"            : 0,
+                    "boxAddType"           : 0,
+                    "boxBuffId"            : 0,
+                    "hate"                 : {
+                        "hateIfHit" : 0,
+                        "hateIfBeHit" : 0,
+                        "hateIfRefGroup" : [
+                        ],
+                        "hateIfChange"   : 0,
+                        "behateIfBegin"  : 0
+                    }
+                },
+                {
+                    "pos" : {
+                        "x" : -60.0,
+                        "y" : 4.32999992370605,
+                        "z" : 15.0
+                    },
+                    "dir" : {
+                        "x" : 0.0,
+                        "y" : 90.0,
+                        "z" : 0.0
+                    },
+                    "camp" : 1,
+                    "buffId" : 2118,
+                    "roleId" : "hd_hadisi_xiaogou",
+                    "pointFlag" : "dog4down3",
+                    "bornDelay" : 0.0,
+                    "ai"        : "ai_hadisi4:小地狱犬",
+                    "bornTypeId" : "",
+                    "deadTypeId" : "",
+                    "groundDeadTypeId" : "",
+                    "isShowBloodBar"   : 0,
+                    "isShowFriendBloodBar" : 0,
+                    "pathfindingList"      : [
+                    ],
+                    "boxAddNum"            : 0,
+                    "boxAddType"           : 0,
+                    "boxBuffId"            : 0,
+                    "hate"                 : {
+                        "hateIfHit" : 0,
+                        "hateIfBeHit" : 0,
+                        "hateIfRefGroup" : [
+                        ],
+                        "hateIfChange"   : 0,
+                        "behateIfBegin"  : 0
+                    }
+                },
+                {
+                    "pos" : {
+                        "x" : -60.0,
+                        "y" : 4.32999992370605,
+                        "z" : 20.0
+                    },
+                    "dir" : {
+                        "x" : 0.0,
+                        "y" : 90.0,
+                        "z" : 0.0
+                    },
+                    "camp" : 1,
+                    "buffId" : 2118,
+                    "roleId" : "hd_hadisi_xiaogou",
+                    "pointFlag" : "dog4down4",
+                    "bornDelay" : 1.0,
+                    "ai"        : "ai_hadisi5:小地狱犬",
+                    "bornTypeId" : "",
+                    "deadTypeId" : "",
+                    "groundDeadTypeId" : "",
+                    "isShowBloodBar"   : 0,
+                    "isShowFriendBloodBar" : 0,
+                    "pathfindingList"      : [
+                    ],
+                    "boxAddNum"            : 0,
+                    "boxAddType"           : 0,
+                    "boxBuffId"            : 0,
+                    "hate"                 : {
+                        "hateIfHit" : 0,
+                        "hateIfBeHit" : 0,
+                        "hateIfRefGroup" : [
+                        ],
+                        "hateIfChange"   : 0,
+                        "behateIfBegin"  : 0
+                    }
+                },
+                {
+                    "pos" : {
+                        "x" : -65.0,
+                        "y" : 4.32999992370605,
+                        "z" : 20.0
+                    },
+                    "dir" : {
+                        "x" : 0.0,
+                        "y" : 90.0,
+                        "z" : 0.0
+                    },
+                    "camp" : 1,
+                    "buffId" : 2118,
+                    "roleId" : "hd_hadisi_xiaogou",
+                    "pointFlag" : "dog4down5",
+                    "bornDelay" : 0.0,
+                    "ai"        : "ai_hadisi5:小地狱犬",
+                    "bornTypeId" : "",
+                    "deadTypeId" : "",
+                    "groundDeadTypeId" : "",
+                    "isShowBloodBar"   : 0,
+                    "isShowFriendBloodBar" : 0,
+                    "pathfindingList"      : [
+                    ],
+                    "boxAddNum"            : 0,
+                    "boxAddType"           : 0,
+                    "boxBuffId"            : 0,
+                    "hate"                 : {
+                        "hateIfHit" : 0,
+                        "hateIfBeHit" : 0,
+                        "hateIfRefGroup" : [
+                        ],
+                        "hateIfChange"   : 0,
+                        "behateIfBegin"  : 0
+                    }
+                },
+                {
+                    "pos" : {
+                        "x" : -65.0,
+                        "y" : 4.32999992370605,
+                        "z" : 15.0
+                    },
+                    "dir" : {
+                        "x" : 0.0,
+                        "y" : 90.0,
+                        "z" : 0.0
+                    },
+                    "camp" : 1,
+                    "buffId" : 2118,
+                    "roleId" : "hd_hadisi_dagou_big",
+                    "pointFlag" : "dog4downS",
+                    "bornDelay" : 3.0,
+                    "ai"        : "ai_hadisi6:小地狱犬",
+                    "bornTypeId" : "",
+                    "deadTypeId" : "",
+                    "groundDeadTypeId" : "",
+                    "isShowBloodBar"   : 0,
+                    "isShowFriendBloodBar" : 0,
+                    "pathfindingList"      : [
+                    ],
+                    "boxAddNum"            : 0,
+                    "boxAddType"           : 0,
+                    "boxBuffId"            : 0,
+                    "hate"                 : {
+                        "hateIfHit" : 0,
+                        "hateIfBeHit" : 0,
+                        "hateIfRefGroup" : [
+                        ],
+                        "hateIfChange"   : 0,
+                        "behateIfBegin"  : 0
+                    }
+                }
+            ],
+            "groupFlag"   : "dog4",
+            "nextGroupFlag" : "",
+            "nextWaveDelay" : 0,
+            "delayTime"     : 0.0,
+            "refreshNum"    : 1,
+            "pointNum"      : 1
+        },
+        {
+            "refreshType" : 0,
+            "Points"      : [
+                {
+                    "pos" : {
+                        "x" : -55.0,
+                        "y" : 8.89999961853027,
+                        "z" : -5.0
+                    },
+                    "dir" : {
+                        "x" : 0.0,
+                        "y" : 90.0,
+                        "z" : 0.0
+                    },
+                    "camp" : 1,
+                    "buffId" : 2119,
+                    "roleId" : "hd_hadisi_xiaogou",
+                    "pointFlag" : "dog5up1",
+                    "bornDelay" : 0.0,
+                    "ai"        : "ai_hadisi:小地狱犬",
+                    "bornTypeId" : "",
+                    "deadTypeId" : "",
+                    "groundDeadTypeId" : "",
+                    "isShowBloodBar"   : 0,
+                    "isShowFriendBloodBar" : 0,
+                    "pathfindingList"      : [
+                    ],
+                    "boxAddNum"            : 0,
+                    "boxAddType"           : 0,
+                    "boxBuffId"            : 0,
+                    "hate"                 : {
+                        "hateIfHit" : 0,
+                        "hateIfBeHit" : 0,
+                        "hateIfRefGroup" : [
+                        ],
+                        "hateIfChange"   : 0,
+                        "behateIfBegin"  : 0
+                    }
+                },
+                {
+                    "pos" : {
+                        "x" : -55.0,
+                        "y" : 8.89999961853027,
+                        "z" : 0.0
+                    },
+                    "dir" : {
+                        "x" : 0.0,
+                        "y" : 90.0,
+                        "z" : 0.0
+                    },
+                    "camp" : 1,
+                    "buffId" : 2119,
+                    "roleId" : "hd_hadisi_xiaogou",
+                    "pointFlag" : "dog5up2",
+                    "bornDelay" : 1.0,
+                    "ai"        : "ai_hadisi2:小地狱犬",
+                    "bornTypeId" : "",
+                    "deadTypeId" : "",
+                    "groundDeadTypeId" : "",
+                    "isShowBloodBar"   : 0,
+                    "isShowFriendBloodBar" : 0,
+                    "pathfindingList"      : [
+                    ],
+                    "boxAddNum"            : 0,
+                    "boxAddType"           : 0,
+                    "boxBuffId"            : 0,
+                    "hate"                 : {
+                        "hateIfHit" : 0,
+                        "hateIfBeHit" : 0,
+                        "hateIfRefGroup" : [
+                        ],
+                        "hateIfChange"   : 0,
+                        "behateIfBegin"  : 0
+                    }
+                },
+                {
+                    "pos" : {
+                        "x" : -60.0,
+                        "y" : 8.89999961853027,
+                        "z" : -5.0
+                    },
+                    "dir" : {
+                        "x" : 0.0,
+                        "y" : 90.0,
+                        "z" : 0.0
+                    },
+                    "camp" : 1,
+                    "buffId" : 2119,
+                    "roleId" : "hd_hadisi_xiaogou",
+                    "pointFlag" : "dog5up3",
+                    "bornDelay" : 0.0,
+                    "ai"        : "ai_hadisi:小地狱犬",
+                    "bornTypeId" : "",
+                    "deadTypeId" : "",
+                    "groundDeadTypeId" : "",
+                    "isShowBloodBar"   : 0,
+                    "isShowFriendBloodBar" : 0,
+                    "pathfindingList"      : [
+                    ],
+                    "boxAddNum"            : 0,
+                    "boxAddType"           : 0,
+                    "boxBuffId"            : 0,
+                    "hate"                 : {
+                        "hateIfHit" : 0,
+                        "hateIfBeHit" : 0,
+                        "hateIfRefGroup" : [
+                        ],
+                        "hateIfChange"   : 0,
+                        "behateIfBegin"  : 0
+                    }
+                },
+                {
+                    "pos" : {
+                        "x" : -60.0,
+                        "y" : 8.89999961853027,
+                        "z" : 0.0
+                    },
+                    "dir" : {
+                        "x" : 0.0,
+                        "y" : 90.0,
+                        "z" : 0.0
+                    },
+                    "camp" : 1,
+                    "buffId" : 2119,
+                    "roleId" : "hd_hadisi_xiaogou",
+                    "pointFlag" : "dog5up4",
+                    "bornDelay" : 1.0,
+                    "ai"        : "ai_hadisi2:小地狱犬",
+                    "bornTypeId" : "",
+                    "deadTypeId" : "",
+                    "groundDeadTypeId" : "",
+                    "isShowBloodBar"   : 0,
+                    "isShowFriendBloodBar" : 0,
+                    "pathfindingList"      : [
+                    ],
+                    "boxAddNum"            : 0,
+                    "boxAddType"           : 0,
+                    "boxBuffId"            : 0,
+                    "hate"                 : {
+                        "hateIfHit" : 0,
+                        "hateIfBeHit" : 0,
+                        "hateIfRefGroup" : [
+                        ],
+                        "hateIfChange"   : 0,
+                        "behateIfBegin"  : 0
+                    }
+                },
+                {
+                    "pos" : {
+                        "x" : -55.0,
+                        "y" : 4.32999992370605,
+                        "z" : 15.0
+                    },
+                    "dir" : {
+                        "x" : 0.0,
+                        "y" : 90.0,
+                        "z" : 0.0
+                    },
+                    "camp" : 1,
+                    "buffId" : 2119,
+                    "roleId" : "hd_hadisi_xiaogou",
+                    "pointFlag" : "dog5down1",
+                    "bornDelay" : 10.0,
+                    "ai"        : "ai_hadisi4:小地狱犬",
+                    "bornTypeId" : "",
+                    "deadTypeId" : "",
+                    "groundDeadTypeId" : "",
+                    "isShowBloodBar"   : 0,
+                    "isShowFriendBloodBar" : 0,
+                    "pathfindingList"      : [
+                    ],
+                    "boxAddNum"            : 0,
+                    "boxAddType"           : 0,
+                    "boxBuffId"            : 0,
+                    "hate"                 : {
+                        "hateIfHit" : 0,
+                        "hateIfBeHit" : 0,
+                        "hateIfRefGroup" : [
+                        ],
+                        "hateIfChange"   : 0,
+                        "behateIfBegin"  : 0
+                    }
+                },
+                {
+                    "pos" : {
+                        "x" : -55.0,
+                        "y" : 4.32999992370605,
+                        "z" : 20.0
+                    },
+                    "dir" : {
+                        "x" : 0.0,
+                        "y" : 90.0,
+                        "z" : 0.0
+                    },
+                    "camp" : 1,
+                    "buffId" : 2119,
+                    "roleId" : "hd_hadisi_xiaogou",
+                    "pointFlag" : "dog5down2",
+                    "bornDelay" : 11.0,
+                    "ai"        : "ai_hadisi5:小地狱犬",
+                    "bornTypeId" : "",
+                    "deadTypeId" : "",
+                    "groundDeadTypeId" : "",
+                    "isShowBloodBar"   : 0,
+                    "isShowFriendBloodBar" : 0,
+                    "pathfindingList"      : [
+                    ],
+                    "boxAddNum"            : 0,
+                    "boxAddType"           : 0,
+                    "boxBuffId"            : 0,
+                    "hate"                 : {
+                        "hateIfHit" : 0,
+                        "hateIfBeHit" : 0,
+                        "hateIfRefGroup" : [
+                        ],
+                        "hateIfChange"   : 0,
+                        "behateIfBegin"  : 0
+                    }
+                },
+                {
+                    "pos" : {
+                        "x" : -60.0,
+                        "y" : 4.32999992370605,
+                        "z" : 15.0
+                    },
+                    "dir" : {
+                        "x" : 0.0,
+                        "y" : 90.0,
+                        "z" : 0.0
+                    },
+                    "camp" : 1,
+                    "buffId" : 2119,
+                    "roleId" : "hd_hadisi_xiaogou",
+                    "pointFlag" : "dog5down3",
+                    "bornDelay" : 10.0,
+                    "ai"        : "ai_hadisi4:小地狱犬",
+                    "bornTypeId" : "",
+                    "deadTypeId" : "",
+                    "groundDeadTypeId" : "",
+                    "isShowBloodBar"   : 0,
+                    "isShowFriendBloodBar" : 0,
+                    "pathfindingList"      : [
+                    ],
+                    "boxAddNum"            : 0,
+                    "boxAddType"           : 0,
+                    "boxBuffId"            : 0,
+                    "hate"                 : {
+                        "hateIfHit" : 0,
+                        "hateIfBeHit" : 0,
+                        "hateIfRefGroup" : [
+                        ],
+                        "hateIfChange"   : 0,
+                        "behateIfBegin"  : 0
+                    }
+                },
+                {
+                    "pos" : {
+                        "x" : -60.0,
+                        "y" : 4.32999992370605,
+                        "z" : 20.0
+                    },
+                    "dir" : {
+                        "x" : 0.0,
+                        "y" : 90.0,
+                        "z" : 0.0
+                    },
+                    "camp" : 1,
+                    "buffId" : 2119,
+                    "roleId" : "hd_hadisi_xiaogou",
+                    "pointFlag" : "dog5down4",
+                    "bornDelay" : 11.0,
+                    "ai"        : "ai_hadisi5:小地狱犬",
+                    "bornTypeId" : "",
+                    "deadTypeId" : "",
+                    "groundDeadTypeId" : "",
+                    "isShowBloodBar"   : 0,
+                    "isShowFriendBloodBar" : 0,
+                    "pathfindingList"      : [
+                    ],
+                    "boxAddNum"            : 0,
+                    "boxAddType"           : 0,
+                    "boxBuffId"            : 0,
+                    "hate"                 : {
+                        "hateIfHit" : 0,
+                        "hateIfBeHit" : 0,
+                        "hateIfRefGroup" : [
+                        ],
+                        "hateIfChange"   : 0,
+                        "behateIfBegin"  : 0
+                    }
+                },
+                {
+                    "pos" : {
+                        "x" : -60.0,
+                        "y" : 8.89999961853027,
+                        "z" : -10.0
+                    },
+                    "dir" : {
+                        "x" : 0.0,
+                        "y" : 90.0,
+                        "z" : 0.0
+                    },
+                    "camp" : 1,
+                    "buffId" : 0,
+                    "roleId" : "hd_hadisi_dagou_big",
+                    "pointFlag" : "dog5upS",
+                    "bornDelay" : 5.0,
+                    "ai"        : "ai_hadisi3:小地狱犬",
+                    "bornTypeId" : "",
+                    "deadTypeId" : "",
+                    "groundDeadTypeId" : "",
+                    "isShowBloodBar"   : 0,
+                    "isShowFriendBloodBar" : 0,
+                    "pathfindingList"      : [
+                    ],
+                    "boxAddNum"            : 0,
+                    "boxAddType"           : 0,
+                    "boxBuffId"            : 0,
+                    "hate"                 : {
+                        "hateIfHit" : 0,
+                        "hateIfBeHit" : 0,
+                        "hateIfRefGroup" : [
+                        ],
+                        "hateIfChange"   : 0,
+                        "behateIfBegin"  : 0
+                    }
+                },
+                {
+                    "pos" : {
+                        "x" : -60.0,
+                        "y" : 4.32999992370605,
+                        "z" : 10.0
+                    },
+                    "dir" : {
+                        "x" : 0.0,
+                        "y" : 90.0,
+                        "z" : 0.0
+                    },
+                    "camp" : 1,
+                    "buffId" : 0,
+                    "roleId" : "hd_hadisi_dagou_big",
+                    "pointFlag" : "dog5downS",
+                    "bornDelay" : 15.0,
+                    "ai"        : "ai_hadisi6:小地狱犬",
+                    "bornTypeId" : "",
+                    "deadTypeId" : "",
+                    "groundDeadTypeId" : "",
+                    "isShowBloodBar"   : 0,
+                    "isShowFriendBloodBar" : 0,
+                    "pathfindingList"      : [
+                    ],
+                    "boxAddNum"            : 0,
+                    "boxAddType"           : 0,
+                    "boxBuffId"            : 0,
+                    "hate"                 : {
+                        "hateIfHit" : 0,
+                        "hateIfBeHit" : 0,
+                        "hateIfRefGroup" : [
+                        ],
+                        "hateIfChange"   : 0,
+                        "behateIfBegin"  : 0
+                    }
+                },
+                {
+                    "pos" : {
+                        "x" : -60.0,
+                        "y" : 8.89999961853027,
+                        "z" : -10.0
+                    },
+                    "dir" : {
+                        "x" : 0.0,
+                        "y" : 90.0,
+                        "z" : 0.0
+                    },
+                    "camp" : 1,
+                    "buffId" : 0,
+                    "roleId" : "hd_hadisi_dagou_big",
+                    "pointFlag" : "dog5upS2",
+                    "bornDelay" : 20.0,
+                    "ai"        : "ai_hadisi3:小地狱犬",
+                    "bornTypeId" : "",
+                    "deadTypeId" : "",
+                    "groundDeadTypeId" : "",
+                    "isShowBloodBar"   : 0,
+                    "isShowFriendBloodBar" : 0,
+                    "pathfindingList"      : [
+                    ],
+                    "boxAddNum"            : 0,
+                    "boxAddType"           : 0,
+                    "boxBuffId"            : 0,
+                    "hate"                 : {
+                        "hateIfHit" : 0,
+                        "hateIfBeHit" : 0,
+                        "hateIfRefGroup" : [
+                        ],
+                        "hateIfChange"   : 0,
+                        "behateIfBegin"  : 0
+                    }
+                },
+                {
+                    "pos" : {
+                        "x" : -60.0,
+                        "y" : 4.32999992370605,
+                        "z" : 10.0
+                    },
+                    "dir" : {
+                        "x" : 0.0,
+                        "y" : 90.0,
+                        "z" : 0.0
+                    },
+                    "camp" : 1,
+                    "buffId" : 0,
+                    "roleId" : "hd_hadisi_dagou_big",
+                    "pointFlag" : "dog5downS2",
+                    "bornDelay" : 25.0,
+                    "ai"        : "ai_hadisi6:小地狱犬",
+                    "bornTypeId" : "",
+                    "deadTypeId" : "",
+                    "groundDeadTypeId" : "",
+                    "isShowBloodBar"   : 0,
+                    "isShowFriendBloodBar" : 0,
+                    "pathfindingList"      : [
+                    ],
+                    "boxAddNum"            : 0,
+                    "boxAddType"           : 0,
+                    "boxBuffId"            : 0,
+                    "hate"                 : {
+                        "hateIfHit" : 0,
+                        "hateIfBeHit" : 0,
+                        "hateIfRefGroup" : [
+                        ],
+                        "hateIfChange"   : 0,
+                        "behateIfBegin"  : 0
+                    }
+                }
+            ],
+            "groupFlag"   : "dog5",
+            "nextGroupFlag" : "",
+            "nextWaveDelay" : 0,
+            "delayTime"     : 0.0,
+            "refreshNum"    : 1,
+            "pointNum"      : 1
+        },
+        {
+            "refreshType" : 0,
+            "Points"      : [
+                {
+                    "pos" : {
+                        "x" : 0.293032646179199,
+                        "y" : 4.42999982833862,
+                        "z" : 0.398743450641632
+                    },
+                    "dir" : {
+                        "x" : 0.0,
+                        "y" : 137.65185546875,
+                        "z" : 0.0
+                    },
+                    "camp" : 0,
+                    "buffId" : 0,
+                    "roleId" : "hd_hadisi_xueqiu",
+                    "pointFlag" : "xueqiu1",
+                    "bornDelay" : 0.0,
+                    "ai"        : "",
+                    "bornTypeId" : "",
+                    "deadTypeId" : "",
+                    "groundDeadTypeId" : "",
+                    "isShowBloodBar"   : 0,
+                    "isShowFriendBloodBar" : 0,
+                    "pathfindingList"      : [
+                    ],
+                    "boxAddNum"            : 0,
+                    "boxAddType"           : 0,
+                    "boxBuffId"            : 0,
+                    "hate"                 : {
+                        "hateIfHit" : 0,
+                        "hateIfBeHit" : 0,
+                        "hateIfRefGroup" : [
+                        ],
+                        "hateIfChange"   : 0,
+                        "behateIfBegin"  : 0
+                    }
+                }
+            ],
+            "groupFlag"   : "xueqiu1",
+            "nextGroupFlag" : "",
+            "nextWaveDelay" : 0,
+            "delayTime"     : 0.0,
+            "refreshNum"    : 1,
+            "pointNum"      : 1
+        },
+        {
+            "refreshType" : 0,
+            "Points"      : [
+                {
+                    "pos" : {
+                        "x" : 39.8870544433594,
+                        "y" : 8.81999969482422,
+                        "z" : -12.3423690795898
+                    },
+                    "dir" : {
+                        "x" : 0.0,
+                        "y" : 48.8582649230957,
+                        "z" : 0.0
+                    },
+                    "camp" : 0,
+                    "buffId" : 0,
+                    "roleId" : "hd_hadisi_xueqiu",
+                    "pointFlag" : "xueqiu2",
+                    "bornDelay" : 0.0,
+                    "ai"        : "",
+                    "bornTypeId" : "",
+                    "deadTypeId" : "",
+                    "groundDeadTypeId" : "",
+                    "isShowBloodBar"   : 0,
+                    "isShowFriendBloodBar" : 0,
+                    "pathfindingList"      : [
+                    ],
+                    "boxAddNum"            : 0,
+                    "boxAddType"           : 0,
+                    "boxBuffId"            : 0,
+                    "hate"                 : {
+                        "hateIfHit" : 0,
+                        "hateIfBeHit" : 0,
+                        "hateIfRefGroup" : [
+                        ],
+                        "hateIfChange"   : 0,
+                        "behateIfBegin"  : 0
+                    }
+                }
+            ],
+            "groupFlag"   : "xueqiu2",
+            "nextGroupFlag" : "",
+            "nextWaveDelay" : 0,
+            "delayTime"     : 0.0,
+            "refreshNum"    : 1,
+            "pointNum"      : 1
+        },
+        {
+            "refreshType" : 0,
+            "Points"      : [
+                {
+                    "pos" : {
+                        "x" : 34.4943923950195,
+                        "y" : 4.51000022888184,
+                        "z" : 19.9823188781738
+                    },
+                    "dir" : {
+                        "x" : 0.0,
+                        "y" : 240.00016784668,
+                        "z" : 0.0
+                    },
+                    "camp" : 0,
+                    "buffId" : 0,
+                    "roleId" : "hd_hadisi_xueqiu",
+                    "pointFlag" : "xueqiu3",
+                    "bornDelay" : 0.0,
+                    "ai"        : "",
+                    "bornTypeId" : "",
+                    "deadTypeId" : "",
+                    "groundDeadTypeId" : "",
+                    "isShowBloodBar"   : 0,
+                    "isShowFriendBloodBar" : 0,
+                    "pathfindingList"      : [
+                    ],
+                    "boxAddNum"            : 0,
+                    "boxAddType"           : 0,
+                    "boxBuffId"            : 0,
+                    "hate"                 : {
+                        "hateIfHit" : 0,
+                        "hateIfBeHit" : 0,
+                        "hateIfRefGroup" : [
+                        ],
+                        "hateIfChange"   : 0,
+                        "behateIfBegin"  : 0
+                    }
+                }
+            ],
+            "groupFlag"   : "xueqiu3",
+            "nextGroupFlag" : "",
+            "nextWaveDelay" : 0,
+            "delayTime"     : 0.0,
+            "refreshNum"    : 1,
+            "pointNum"      : 1
+        }
+    ],
+    "mBornList"     : [
+        {
+            "mPosition" : {
+                "x" : 0.0,
+                "y" : 25.0799999237061,
+                "z" : 0.0
+            },
+            "mEulerAngles" : {
+                "x" : 0.0,
+                "y" : 0.0,
+                "z" : 0.0
+            },
+            "mBornTypeId"  : "herobegin",
+            "mDeadTypeId"  : "herodead",
+            "mGroundDeadTypeId" : "",
+            "hate"              : {
+                "hateIfHit" : 0,
+                "hateIfBeHit" : 0,
+                "hateIfRefGroup" : [
+                ],
+                "hateIfChange"   : 0,
+                "behateIfBegin"  : 0
+            }
+        }
+    ],
+    "mCheckList"    : [
+        {
+            "triggerType" : 0,
+            "triggerNum"  : 1,
+            "triggerTimes" : 1,
+            "checkFlag"    : "Check1",
+            "eventCfgList" : [
+                {
+                    "eveType" : 0,
+                    "content" : "\n{\n    \"__type\" : \"EventCfg_StartLevel\"\n}"
+                }
+            ],
+            "actionCfgList" : [
+                {
+                    "eveType" : 5,
+                    "content" : "\n{\n    \"__type\" : \"ActionCfg_CreateHero\",\n    \"changeCam\" : null,\n    \"_idx\"      : 0,\n    \"_delay\"    : 0.0\n}"
+                },
+                {
+                    "eveType" : 2,
+                    "content" : "\n{\n    \"__type\" : \"ActionCfg_ActivateRefresh\",\n    \"refreshID\" : \"xueqiu1\",\n    \"_idx\"      : 0,\n    \"_delay\"    : 0.0\n}"
+                },
+                {
+                    "eveType" : 2,
+                    "content" : "\n{\n    \"__type\" : \"ActionCfg_ActivateRefresh\",\n    \"refreshID\" : \"dog1\",\n    \"_idx\"      : 0,\n    \"_delay\"    : 1.0\n}"
+                },
+                {
+                    "eveType" : 13,
+                    "content" : "\n{\n    \"__type\" : \"ActionCfg_AddWave\",\n    \"_idx\"   : 0,\n    \"_delay\" : 0.0\n}"
+                },
+                {
+                    "eveType" : 2,
+                    "content" : "\n{\n    \"__type\" : \"ActionCfg_ActivateRefresh\",\n    \"refreshID\" : \"xueqiu2\",\n    \"_idx\"      : 0,\n    \"_delay\"    : 0.0\n}"
+                },
+                {
+                    "eveType" : 2,
+                    "content" : "\n{\n    \"__type\" : \"ActionCfg_ActivateRefresh\",\n    \"refreshID\" : \"xueqiu3\",\n    \"_idx\"      : 0,\n    \"_delay\"    : 0.0\n}"
+                }
+            ]
+        },
+        {
+            "triggerType" : 1,
+            "triggerNum"  : 1,
+            "triggerTimes" : 1,
+            "checkFlag"    : "wave2",
+            "eventCfgList" : [
+                {
+                    "eveType" : 8,
+                    "content" : "\n{\n    \"__type\" : \"EventCfg_RefreshDead\",\n    \"flagId\" : \"dog1\",\n    \"bDeadStart\" : true\n}"
+                },
+                {
+                    "eveType" : 1,
+                    "content" : "\n{\n    \"__type\" : \"EventCfg_EnterTime\",\n    \"secNum\" : 25\n}"
+                }
+            ],
+            "actionCfgList" : [
+                {
+                    "eveType" : 13,
+                    "content" : "\n{\n    \"__type\" : \"ActionCfg_AddWave\",\n    \"_idx\"   : 0,\n    \"_delay\" : 0.0\n}"
+                },
+                {
+                    "eveType" : 2,
+                    "content" : "\n{\n    \"__type\" : \"ActionCfg_ActivateRefresh\",\n    \"refreshID\" : \"dog2\",\n    \"_idx\"      : 0,\n    \"_delay\"    : 0.0\n}"
+                }
+            ]
+        },
+        {
+            "triggerType" : 1,
+            "triggerNum"  : 1,
+            "triggerTimes" : 1,
+            "checkFlag"    : "wave3",
+            "eventCfgList" : [
+                {
+                    "eveType" : 8,
+                    "content" : "\n{\n    \"__type\" : \"EventCfg_RefreshDead\",\n    \"flagId\" : \"dog2\",\n    \"bDeadStart\" : true\n}"
+                },
+                {
+                    "eveType" : 1,
+                    "content" : "\n{\n    \"__type\" : \"EventCfg_EnterTime\",\n    \"secNum\" : 50\n}"
+                }
+            ],
+            "actionCfgList" : [
+                {
+                    "eveType" : 13,
+                    "content" : "\n{\n    \"__type\" : \"ActionCfg_AddWave\",\n    \"_idx\"   : 0,\n    \"_delay\" : 0.0\n}"
+                },
+                {
+                    "eveType" : 2,
+                    "content" : "\n{\n    \"__type\" : \"ActionCfg_ActivateRefresh\",\n    \"refreshID\" : \"dog3\",\n    \"_idx\"      : 0,\n    \"_delay\"    : 0.0\n}"
+                }
+            ]
+        },
+        {
+            "triggerType" : 1,
+            "triggerNum"  : 1,
+            "triggerTimes" : 1,
+            "checkFlag"    : "wave4",
+            "eventCfgList" : [
+                {
+                    "eveType" : 8,
+                    "content" : "\n{\n    \"__type\" : \"EventCfg_RefreshDead\",\n    \"flagId\" : \"dog3\",\n    \"bDeadStart\" : true\n}"
+                },
+                {
+                    "eveType" : 1,
+                    "content" : "\n{\n    \"__type\" : \"EventCfg_EnterTime\",\n    \"secNum\" : 75\n}"
+                }
+            ],
+            "actionCfgList" : [
+                {
+                    "eveType" : 13,
+                    "content" : "\n{\n    \"__type\" : \"ActionCfg_AddWave\",\n    \"_idx\"   : 0,\n    \"_delay\" : 0.0\n}"
+                },
+                {
+                    "eveType" : 2,
+                    "content" : "\n{\n    \"__type\" : \"ActionCfg_ActivateRefresh\",\n    \"refreshID\" : \"dog4\",\n    \"_idx\"      : 0,\n    \"_delay\"    : 0.0\n}"
+                }
+            ]
+        },
+        {
+            "triggerType" : 1,
+            "triggerNum"  : 1,
+            "triggerTimes" : 1,
+            "checkFlag"    : "wave5",
+            "eventCfgList" : [
+                {
+                    "eveType" : 8,
+                    "content" : "\n{\n    \"__type\" : \"EventCfg_RefreshDead\",\n    \"flagId\" : \"dog4\",\n    \"bDeadStart\" : true\n}"
+                },
+                {
+                    "eveType" : 1,
+                    "content" : "\n{\n    \"__type\" : \"EventCfg_EnterTime\",\n    \"secNum\" : 100\n}"
+                }
+            ],
+            "actionCfgList" : [
+                {
+                    "eveType" : 13,
+                    "content" : "\n{\n    \"__type\" : \"ActionCfg_AddWave\",\n    \"_idx\"   : 0,\n    \"_delay\" : 0.0\n}"
+                },
+                {
+                    "eveType" : 2,
+                    "content" : "\n{\n    \"__type\" : \"ActionCfg_ActivateRefresh\",\n    \"refreshID\" : \"dog5\",\n    \"_idx\"      : 0,\n    \"_delay\"    : 0.0\n}"
+                }
+            ]
+        },
+        {
+            "triggerType" : 0,
+            "triggerNum"  : 1,
+            "triggerTimes" : 1,
+            "checkFlag"    : "success",
+            "eventCfgList" : [
+                {
+                    "eveType" : 3,
+                    "content" : "\n{\n    \"__type\" : \"EventCfg_Win\"\n}"
+                }
+            ],
+            "actionCfgList" : [
+                {
+                    "eveType" : 3,
+                    "content" : "\n{\n    \"__type\" : \"ActionCfg_Win\",\n    \"_idx\"   : 0,\n    \"_delay\" : 0.0\n}"
+                }
+            ]
+        },
+        {
+            "triggerType" : 0,
+            "triggerNum"  : 1,
+            "triggerTimes" : 1,
+            "checkFlag"    : "success2",
+            "eventCfgList" : [
+                {
+                    "eveType" : 6,
+                    "content" : "\n{\n    \"__type\" : \"EventCfg_RoleDead\",\n    \"flagId\" : \"\",\n    \"bDeadStart\" : true\n}"
+                }
+            ],
+            "actionCfgList" : [
+                {
+                    "eveType" : 3,
+                    "content" : "\n{\n    \"__type\" : \"ActionCfg_Win\",\n    \"_idx\"   : 0,\n    \"_delay\" : 0.0\n}"
+                }
+            ]
+        },
+        {
+            "triggerType" : 0,
+            "triggerNum"  : 1,
+            "triggerTimes" : -1,
+            "checkFlag"    : "xueqiu1reborn",
+            "eventCfgList" : [
+                {
+                    "eveType" : 8,
+                    "content" : "\n{\n    \"__type\" : \"EventCfg_RefreshDead\",\n    \"flagId\" : \"xueqiu1\",\n    \"bDeadStart\" : false\n}"
+                }
+            ],
+            "actionCfgList" : [
+                {
+                    "eveType" : 2,
+                    "content" : "\n{\n    \"__type\" : \"ActionCfg_ActivateRefresh\",\n    \"refreshID\" : \"xueqiu1\",\n    \"_idx\"      : 0,\n    \"_delay\"    : 30.0\n}"
+                }
+            ]
+        },
+        {
+            "triggerType" : 0,
+            "triggerNum"  : 1,
+            "triggerTimes" : -1,
+            "checkFlag"    : "xueqiu2reborn",
+            "eventCfgList" : [
+                {
+                    "eveType" : 8,
+                    "content" : "\n{\n    \"__type\" : \"EventCfg_RefreshDead\",\n    \"flagId\" : \"xueqiu2\",\n    \"bDeadStart\" : false\n}"
+                }
+            ],
+            "actionCfgList" : [
+                {
+                    "eveType" : 2,
+                    "content" : "\n{\n    \"__type\" : \"ActionCfg_ActivateRefresh\",\n    \"refreshID\" : \"xueqiu2\",\n    \"_idx\"      : 0,\n    \"_delay\"    : 30.0\n}"
+                }
+            ]
+        },
+        {
+            "triggerType" : 0,
+            "triggerNum"  : 1,
+            "triggerTimes" : -1,
+            "checkFlag"    : "xueqiu3reborn",
+            "eventCfgList" : [
+                {
+                    "eveType" : 8,
+                    "content" : "\n{\n    \"__type\" : \"EventCfg_RefreshDead\",\n    \"flagId\" : \"xueqiu3\",\n    \"bDeadStart\" : false\n}"
+                }
+            ],
+            "actionCfgList" : [
+                {
+                    "eveType" : 2,
+                    "content" : "\n{\n    \"__type\" : \"ActionCfg_ActivateRefresh\",\n    \"refreshID\" : \"xueqiu3\",\n    \"_idx\"      : 0,\n    \"_delay\"    : 30.0\n}"
+                }
+            ]
+        },
+        {
+            "triggerType" : 0,
+            "triggerNum"  : 1,
+            "triggerTimes" : -1,
+            "checkFlag"    : "turn",
+            "eventCfgList" : [
+                {
+                    "eveType" : 10,
+                    "content" : "\n{\n    \"__type\" : \"EventCfg_RoleNum\",\n    \"roleNum\" : 2,\n    \"bUnder\"  : false,\n    \"roleId\"  : \"bs_02\"\n}"
+                }
+            ],
+            "actionCfgList" : [
+                {
+                    "eveType" : 33,
+                    "content" : "\n{\n    \"__type\" : \"ActionCfg_ChangeAI\",\n    \"groupId\" : \"dog1\",\n    \"ai\"      : \"ai_xb_04:僵尸狗AI\",\n    \"_idx\"    : 0,\n    \"_delay\"  : 0.0\n}"
+                },
+                {
+                    "eveType" : 33,
+                    "content" : "\n{\n    \"__type\" : \"ActionCfg_ChangeAI\",\n    \"groupId\" : \"dog2\",\n    \"ai\"      : \"ai_xb_04:僵尸狗AI\",\n    \"_idx\"    : 0,\n    \"_delay\"  : 0.0\n}"
+                },
+                {
+                    "eveType" : 33,
+                    "content" : "\n{\n    \"__type\" : \"ActionCfg_ChangeAI\",\n    \"groupId\" : \"dog3\",\n    \"ai\"      : \"ai_xb_04:僵尸狗AI\",\n    \"_idx\"    : 0,\n    \"_delay\"  : 0.0\n}"
+                },
+                {
+                    "eveType" : 33,
+                    "content" : "\n{\n    \"__type\" : \"ActionCfg_ChangeAI\",\n    \"groupId\" : \"dog4\",\n    \"ai\"      : \"ai_xb_04:僵尸狗AI\",\n    \"_idx\"    : 0,\n    \"_delay\"  : 0.0\n}"
+                },
+                {
+                    "eveType" : 33,
+                    "content" : "\n{\n    \"__type\" : \"ActionCfg_ChangeAI\",\n    \"groupId\" : \"dog5\",\n    \"ai\"      : \"ai_xb_04:僵尸狗AI\",\n    \"_idx\"    : 0,\n    \"_delay\"  : 0.0\n}"
+                }
+            ]
+        }
+    ],
+    "mAreaList"     : [
+    ],
+    "mCameraList"   : [
+    ],
+    "mStoryIdList"  : [
+    ],
+    "mGroupIdList"  : [
+    ],
+    "mPoss"         : [
+        {
+            "name" : "up1",
+            "ps"   : [
+                {
+                    "x" : -43.6221885681152,
+                    "y" : 8.89999961853027,
+                    "z" : -4.07201814651489
+                },
+                {
+                    "x" : -31.1046104431152,
+                    "y" : 4.33000040054321,
+                    "z" : -4.07201814651489
+                },
+                {
+                    "x" : -27.1401958465576,
+                    "y" : 4.33000040054321,
+                    "z" : -0.658009171485901
+                },
+                {
+                    "x" : -22.1199855804443,
+                    "y" : 4.33000040054321,
+                    "z" : 2.66859698295593
+                },
+                {
+                    "x" : -14.1473951339722,
+                    "y" : 4.32999992370605,
+                    "z" : -1.43831944465637
+                },
+                {
+                    "x" : -1.76483881473541,
+                    "y" : 4.51000070571899,
+                    "z" : -1.75296306610107
+                }
+            ]
+        },
+        {
+            "name" : "up2",
+            "ps"   : [
+                {
+                    "x" : -43.5353546142578,
+                    "y" : 8.90000057220459,
+                    "z" : -0.137034133076668
+                },
+                {
+                    "x" : -30.681604385376,
+                    "y" : 4.32999992370605,
+                    "z" : 0.167595148086548
+                },
+                {
+                    "x" : -26.1170272827148,
+                    "y" : 4.32999992370605,
+                    "z" : 3.33603930473328
+                },
+                {
+                    "x" : -20.9864673614502,
+                    "y" : 4.32999992370605,
+                    "z" : 6.78521919250488
+                },
+                {
+                    "x" : -14.3943481445313,
+                    "y" : 4.32999992370605,
+                    "z" : 3.45572280883789
+                },
+                {
+                    "x" : -1.83535397052765,
+                    "y" : 4.51000070571899,
+                    "z" : 2.05054974555969
+                }
+            ]
+        },
+        {
+            "name" : "up3",
+            "ps"   : [
+                {
+                    "x" : -43.9165115356445,
+                    "y" : 8.89999961853027,
+                    "z" : -2.04083847999573
+                },
+                {
+                    "x" : -30.8942451477051,
+                    "y" : 4.33000040054321,
+                    "z" : -2.04083824157715
+                },
+                {
+                    "x" : -25.7815933227539,
+                    "y" : 4.32999992370605,
+                    "z" : 2.73025822639465
+                },
+                {
+                    "x" : -21.9123706817627,
+                    "y" : 4.33000040054321,
+                    "z" : 4.39373922348022
+                },
+                {
+                    "x" : -13.2212028503418,
+                    "y" : 4.33000040054321,
+                    "z" : 2.73436665534973
+                },
+                {
+                    "x" : -2.28571677207947,
+                    "y" : 4.33000040054321,
+                    "z" : -6.25860404968262
+                },
+                {
+                    "x" : 13.4790849685669,
+                    "y" : 4.33000040054321,
+                    "z" : -5.48514747619629
+                },
+                {
+                    "x" : 23.2646675109863,
+                    "y" : 8.65000057220459,
+                    "z" : -8.65746116638184
+                },
+                {
+                    "x" : 38.8126068115234,
+                    "y" : 8.81999969482422,
+                    "z" : -12.3911552429199
+                }
+            ]
+        },
+        {
+            "name" : "down1",
+            "ps"   : [
+                {
+                    "x" : -34.6101226806641,
+                    "y" : 4.33000040054321,
+                    "z" : 12.1584148406982
+                },
+                {
+                    "x" : -29.6183967590332,
+                    "y" : 4.33000040054321,
+                    "z" : 11.7957468032837
+                },
+                {
+                    "x" : -29.6183929443359,
+                    "y" : 4.33000040054321,
+                    "z" : -3.49761271476746
+                },
+                {
+                    "x" : -27.8501224517822,
+                    "y" : 4.33000040054321,
+                    "z" : -1.15437543392181
+                },
+                {
+                    "x" : -23.7945308685303,
+                    "y" : 4.33000040054321,
+                    "z" : 2.21692490577698
+                },
+                {
+                    "x" : -16.1086139678955,
+                    "y" : 4.33000040054321,
+                    "z" : 2.38772821426392
+                },
+                {
+                    "x" : -1.61554658412933,
+                    "y" : 4.51000022888184,
+                    "z" : -1.84522032737732
+                }
+            ]
+        },
+        {
+            "name" : "down2",
+            "ps"   : [
+                {
+                    "x" : -34.127613067627,
+                    "y" : 4.33000040054321,
+                    "z" : 17.9372501373291
+                },
+                {
+                    "x" : -29.6183967590332,
+                    "y" : 4.32999992370605,
+                    "z" : 17.8822956085205
+                },
+                {
+                    "x" : -29.6183929443359,
+                    "y" : 4.33000040054321,
+                    "z" : 2.65907692909241
+                },
+                {
+                    "x" : -26.7194290161133,
+                    "y" : 4.33000040054321,
+                    "z" : 3.76891422271729
+                },
+                {
+                    "x" : -22.5531349182129,
+                    "y" : 4.33000040054321,
+                    "z" : 5.95945501327515
+                },
+                {
+                    "x" : -14.1120710372925,
+                    "y" : 4.33000040054321,
+                    "z" : 5.95945501327515
+                },
+                {
+                    "x" : -1.62607753276825,
+                    "y" : 4.51000070571899,
+                    "z" : 1.92032027244568
+                }
+            ]
+        },
+        {
+            "name" : "down3",
+            "ps"   : [
+                {
+                    "x" : -31.0867042541504,
+                    "y" : 4.32999992370605,
+                    "z" : 7.59609889984131
+                },
+                {
+                    "x" : -27.6573944091797,
+                    "y" : 4.33000040054321,
+                    "z" : 0.0584754683077335
+                },
+                {
+                    "x" : -21.9123706817627,
+                    "y" : 4.33000040054321,
+                    "z" : 4.39373922348022
+                },
+                {
+                    "x" : 0.934641301631927,
+                    "y" : 4.33000040054321,
+                    "z" : 6.70219612121582
+                },
+                {
+                    "x" : 15.1483325958252,
+                    "y" : 4.32999992370605,
+                    "z" : 9.80128288269043
+                },
+                {
+                    "x" : 34.296142578125,
+                    "y" : 4.51000070571899,
+                    "z" : 18.9568481445313
+                }
+            ]
+        },
+        {
+            "name" : "back",
+            "ps"   : [
+                {
+                    "x" : -0.370671570301056,
+                    "y" : 4.51000070571899,
+                    "z" : -0.452536523342133
+                },
+                {
+                    "x" : 12.453540802002,
+                    "y" : 4.32999992370605,
+                    "z" : -8.34224414825439
+                },
+                {
+                    "x" : 23.9270935058594,
+                    "y" : 8.65000057220459,
+                    "z" : -11.6274032592773
+                },
+                {
+                    "x" : 39.1238403320313,
+                    "y" : 8.81999969482422,
+                    "z" : -13.0502300262451
+                },
+                {
+                    "x" : 23.6324996948242,
+                    "y" : 8.65000057220459,
+                    "z" : -6.48353147506714
+                },
+                {
+                    "x" : 13.8734645843506,
+                    "y" : 4.33000040054321,
+                    "z" : -3.86860752105713
+                },
+                {
+                    "x" : 14.4983644485474,
+                    "y" : 4.33000040054321,
+                    "z" : 7.34783744812012
+                },
+                {
+                    "x" : 33.8344841003418,
+                    "y" : 4.51000070571899,
+                    "z" : 19.1672992706299
+                },
+                {
+                    "x" : 12.354471206665,
+                    "y" : 4.33000040054321,
+                    "z" : 12.2819023132324
+                },
+                {
+                    "x" : 0.0970395728945732,
+                    "y" : 4.51000070571899,
+                    "z" : 1.43827152252197
+                }
+            ]
+        }
+    ],
+    "mShowWaveGroupId" : ""
+}

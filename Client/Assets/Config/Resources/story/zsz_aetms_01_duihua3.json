@@ -1,0 +1,24 @@
+﻿
+{
+    "storyList" : [
+        {
+            "__type" : "StoryTalkCfg",
+            "roleId" : "aertemisi",
+            "content" : "俄纽斯，这个丑陋的异教徒，竟敢忘记我的祭品，忽视我的存在！",
+            "localIdx" : 0,
+            "soundId"  : 0,
+            "type"     : 0,
+            "time"     : 4
+        },
+        {
+            "__type" : "StoryTalkCfg",
+            "roleId" : "aertemisi",
+            "content" : "去吧，我可爱的狼群，把卡吕冬的人都撕成碎片!他们要为自己国王所犯下的罪行付出应有的代价！",
+            "localIdx" : 0,
+            "soundId"  : 0,
+            "type"     : 0,
+            "time"     : 6
+        }
+    ],
+    "canSpeed"  : true
+}

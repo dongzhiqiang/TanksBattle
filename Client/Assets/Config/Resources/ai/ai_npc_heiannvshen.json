@@ -1,0 +1,308 @@
+﻿
+{
+    "nodeCounter" : 18,
+    "trees"       : [
+        {
+            "name" : "梅地亚找主角",
+            "expand" : true,
+            "root"   : {
+                "__type" : "Simple.BehaviorTree.SequenceCfg",
+                "children" : [
+                    {
+                        "__type" : "Simple.BehaviorTree.IsRoleStateCfg",
+                        "role"   : {
+                            "__type" : "Simple.BehaviorTree.ValueRole",
+                            "roleType" : 1,
+                            "name"     : "",
+                            "region"   : 0,
+                            "type"     : 6
+                        },
+                        "states" : "空闲|移动",
+                        "interrupt" : 0,
+                        "resetTreeWhenInterrupt" : false,
+                        "id"                     : 3,
+                        "ingore"                 : false,
+                        "showNote"               : false,
+                        "resetTempValueIfEnable" : true,
+                        "note"                   : "",
+                        "localPos"               : {
+                            "x" : -110.0,
+                            "y" : 150.0
+                        }
+                    },
+                    {
+                        "__type" : "Simple.BehaviorTree.SetRoleCfg",
+                        "find"   : {
+                            "__type" : "Simple.BehaviorTree.ValueRole",
+                            "roleType" : 1,
+                            "name"     : "",
+                            "region"   : 0,
+                            "type"     : 6
+                        },
+                        "targetVal" : {
+                            "__type" : "Simple.BehaviorTree.ValueRole",
+                            "roleType" : 1,
+                            "name"     : "主角",
+                            "region"   : 1,
+                            "type"     : 6
+                        },
+                        "notRefindIfExist" : {
+                            "__type" : "Simple.BehaviorTree.Value`1[System.Boolean]",
+                            "v"      : true,
+                            "name"   : "",
+                            "region" : 0,
+                            "type"   : 2
+                        },
+                        "interrupt"        : 0,
+                        "resetTreeWhenInterrupt" : false,
+                        "id"                     : 4,
+                        "ingore"                 : false,
+                        "showNote"               : false,
+                        "resetTempValueIfEnable" : true,
+                        "note"                   : "",
+                        "localPos"               : {
+                            "x" : -10.0,
+                            "y" : 150.0
+                        }
+                    },
+                    {
+                        "__type" : "Simple.BehaviorTree.KeepDistanceCfg",
+                        "target" : {
+                            "__type" : "Simple.BehaviorTree.ValueRole",
+                            "roleType" : 4,
+                            "name"     : "",
+                            "region"   : 0,
+                            "type"     : 6
+                        },
+                        "dis1"   : 1.0,
+                        "dis2"   : 3.0,
+                        "angle1" : 0.0,
+                        "angle2" : 0.0,
+                        "keepIfTargetMove" : true,
+                        "id"               : 9,
+                        "ingore"           : false,
+                        "showNote"         : false,
+                        "resetTempValueIfEnable" : true,
+                        "note"                   : "",
+                        "localPos"               : {
+                            "x" : 100.0,
+                            "y" : 150.0
+                        }
+                    },
+                    {
+                        "__type" : "Simple.BehaviorTree.RoleAniCfg",
+                        "param"  : "jineng_mingjiedeguihuan:单次",
+                        "errorIfNoFindAni" : true,
+                        "id"               : 5,
+                        "ingore"           : false,
+                        "showNote"         : false,
+                        "resetTempValueIfEnable" : true,
+                        "note"                   : "",
+                        "localPos"               : {
+                            "x" : 200.0,
+                            "y" : 150.0
+                        }
+                    },
+                    {
+                        "__type" : "Simple.BehaviorTree.RandomFloatCfg",
+                        "min"    : {
+                            "__type" : "Simple.BehaviorTree.Value`1[System.Single]",
+                            "v"      : 3.0,
+                            "name"   : "",
+                            "region" : 0,
+                            "type"   : 1
+                        },
+                        "max"    : {
+                            "__type" : "Simple.BehaviorTree.Value`1[System.Single]",
+                            "v"      : 5.0,
+                            "name"   : "",
+                            "region" : 0,
+                            "type"   : 1
+                        },
+                        "ret"    : {
+                            "__type" : "Simple.BehaviorTree.Value`1[System.Single]",
+                            "v"      : 0.0,
+                            "name"   : "发呆时间",
+                            "region" : 1,
+                            "type"   : 1
+                        },
+                        "id"     : 8,
+                        "ingore" : false,
+                        "showNote" : false,
+                        "resetTempValueIfEnable" : true,
+                        "note"                   : "",
+                        "localPos"               : {
+                            "x" : 320.0,
+                            "y" : 150.0
+                        }
+                    },
+                    {
+                        "__type" : "Simple.BehaviorTree.WaitCfg",
+                        "waitTime" : {
+                            "__type" : "Simple.BehaviorTree.Value`1[System.Single]",
+                            "v"      : 5.0,
+                            "name"   : "发呆时间",
+                            "region" : 1,
+                            "type"   : 1
+                        },
+                        "id"       : 7,
+                        "ingore"   : false,
+                        "showNote" : false,
+                        "resetTempValueIfEnable" : true,
+                        "note"                   : "",
+                        "localPos"               : {
+                            "x" : 430.0,
+                            "y" : 150.0
+                        }
+                    }
+                ],
+                "expandChild" : true,
+                "id"          : 2,
+                "ingore"      : false,
+                "showNote"    : false,
+                "resetTempValueIfEnable" : true,
+                "note"                   : "",
+                "localPos"               : {
+                    "x" : 1760.0,
+                    "y" : 1810.0
+                }
+            },
+            "valueMgrCfg" : {
+                "m_value" : [
+                    {
+                        "__type" : "Simple.BehaviorTree.ValueRole",
+                        "roleType" : 1,
+                        "name"     : "主角",
+                        "region"   : 0,
+                        "type"     : 6
+                    },
+                    {
+                        "__type" : "Simple.BehaviorTree.Value`1[System.Single]",
+                        "v"      : 0.0,
+                        "name"   : "发呆时间",
+                        "region" : 0,
+                        "type"   : 1
+                    }
+                ]
+            }
+        },
+        {
+            "name" : "美狄亚寻路AI",
+            "expand" : true,
+            "root"   : {
+                "__type" : "Simple.BehaviorTree.SequenceCfg",
+                "children" : [
+                    {
+                        "__type" : "Simple.BehaviorTree.IsRoleStateCfg",
+                        "role"   : {
+                            "__type" : "Simple.BehaviorTree.ValueRole",
+                            "roleType" : 1,
+                            "name"     : "",
+                            "region"   : 0,
+                            "type"     : 6
+                        },
+                        "states" : "空闲|移动",
+                        "interrupt" : 0,
+                        "resetTreeWhenInterrupt" : false,
+                        "id"                     : 16,
+                        "ingore"                 : false,
+                        "showNote"               : false,
+                        "resetTempValueIfEnable" : true,
+                        "note"                   : "",
+                        "localPos"               : {
+                            "x" : -110.0,
+                            "y" : 150.0
+                        }
+                    },
+                    {
+                        "__type" : "Simple.BehaviorTree.PatrolCfg",
+                        "beginType" : 1,
+                        "type"      : 0,
+                        "range"     : {
+                            "__type" : "Simple.BehaviorTree.Value`1[System.Single]",
+                            "v"      : 1.0,
+                            "name"   : "",
+                            "region" : 0,
+                            "type"   : 1
+                        },
+                        "posName"   : "mdy_1",
+                        "id"        : 17,
+                        "ingore"    : false,
+                        "showNote"  : false,
+                        "resetTempValueIfEnable" : true,
+                        "note"                   : "",
+                        "localPos"               : {
+                            "x" : 120.0,
+                            "y" : 150.0
+                        }
+                    },
+                    {
+                        "__type" : "Simple.BehaviorTree.RoleAniCfg",
+                        "param"  : "jineng_mingjiedeguihuan:单次",
+                        "errorIfNoFindAni" : true,
+                        "id"               : 13,
+                        "ingore"           : false,
+                        "showNote"         : false,
+                        "resetTempValueIfEnable" : true,
+                        "note"                   : "",
+                        "localPos"               : {
+                            "x" : 310.0,
+                            "y" : 150.0
+                        }
+                    },
+                    {
+                        "__type" : "Simple.BehaviorTree.WaitCfg",
+                        "waitTime" : {
+                            "__type" : "Simple.BehaviorTree.Value`1[System.Single]",
+                            "v"      : 999.0,
+                            "name"   : "",
+                            "region" : 0,
+                            "type"   : 1
+                        },
+                        "id"       : 18,
+                        "ingore"   : false,
+                        "showNote" : false,
+                        "resetTempValueIfEnable" : true,
+                        "note"                   : "",
+                        "localPos"               : {
+                            "x" : 470.0,
+                            "y" : 160.0
+                        }
+                    }
+                ],
+                "expandChild" : true,
+                "id"          : 10,
+                "ingore"      : false,
+                "showNote"    : false,
+                "resetTempValueIfEnable" : true,
+                "note"                   : "",
+                "localPos"               : {
+                    "x" : 1752.0,
+                    "y" : 2094.5
+                }
+            },
+            "valueMgrCfg" : {
+                "m_value" : [
+                    {
+                        "__type" : "Simple.BehaviorTree.ValueRole",
+                        "roleType" : 1,
+                        "name"     : "主角",
+                        "region"   : 0,
+                        "type"     : 6
+                    },
+                    {
+                        "__type" : "Simple.BehaviorTree.Value`1[System.Single]",
+                        "v"      : 0.0,
+                        "name"   : "发呆时间",
+                        "region" : 0,
+                        "type"   : 1
+                    }
+                ]
+            }
+        }
+    ],
+    "names"       : [
+        "梅地亚找主角",
+        "美狄亚寻路AI"
+    ]
+}

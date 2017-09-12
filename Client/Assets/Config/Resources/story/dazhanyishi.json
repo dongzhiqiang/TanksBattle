@@ -1,0 +1,14 @@
+﻿
+{
+    "storyList" : [
+        {
+            "__type" : "StoryMovieCfg",
+            "movieId" : "1-1",
+            "prefab"  : "1-1",
+            "isLoop"  : false,
+            "soundId" : 0,
+            "type"    : 1,
+            "time"    : 0
+        }
+    ]
+}

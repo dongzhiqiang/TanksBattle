@@ -1,0 +1,15 @@
+﻿
+{
+    "storyList" : [
+        {
+            "__type" : "StoryTalkCfg",
+            "roleId" : "kratos",
+            "content" : "你休想再从我身边夺走她们！！！",
+            "localIdx" : 0,
+            "soundId"  : 0,
+            "type"     : 0,
+            "time"     : 10
+        }
+    ],
+    "canSpeed"  : true
+}

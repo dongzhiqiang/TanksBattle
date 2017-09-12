@@ -1,0 +1,51 @@
+﻿
+{
+    "storyList" : [
+        {
+            "__type" : "StoryTalkCfg",
+            "roleId" : "yadianna",
+            "content" : "复仇女神的手段超出了我的想像，德尔斐的预言者竟被她抓去了塔耳塔洛斯！",
+            "localIdx" : 1,
+            "soundId"  : 0,
+            "type"     : 0,
+            "time"     : 10
+        },
+        {
+            "__type" : "StoryTalkCfg",
+            "roleId" : "kratos",
+            "content" : "既然如此，塔耳塔洛斯将是我下一个目的地。",
+            "localIdx" : 0,
+            "soundId"  : 0,
+            "type"     : 0,
+            "time"     : 10
+        },
+        {
+            "__type" : "StoryTalkCfg",
+            "roleId" : "yadianna",
+            "content" : "我真为你感到担心，塔耳塔洛斯充满了危险与恐惧，你必须振作精神，全力应对。",
+            "localIdx" : 1,
+            "soundId"  : 0,
+            "type"     : 0,
+            "time"     : 10
+        },
+        {
+            "__type" : "StoryTalkCfg",
+            "roleId" : "kratos",
+            "content" : "雅典娜，你要记住，该感到害怕的人永远都不可能是我。",
+            "localIdx" : 0,
+            "soundId"  : 0,
+            "type"     : 0,
+            "time"     : 10
+        },
+        {
+            "__type" : "StoryTalkCfg",
+            "roleId" : "yadianna",
+            "content" : "愿众神的庇佑保护你。",
+            "localIdx" : 1,
+            "soundId"  : 0,
+            "type"     : 0,
+            "time"     : 10
+        }
+    ],
+    "canSpeed"  : true
+}

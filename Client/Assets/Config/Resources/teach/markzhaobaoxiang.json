@@ -1,0 +1,52 @@
+﻿
+{
+    "teachName" : "markzhaobaoxiang",
+    "teachDesc" : "",
+    "priority"  : 1,
+    "coolDown"  : 0,
+    "dataKey"   : "zhaobaoxiang",
+    "postTeach" : "",
+    "stopSoundWhenFinish" : false,
+    "replayUnfinished"    : false,
+    "canInterrupt"        : false,
+    "backChecks"          : [
+    ],
+    "cancelActions"       : [
+    ],
+    "triggerConds"        : [
+    ],
+    "checkConds"          : [
+    ],
+    "stepList"            : [
+        {
+            "name" : "设置标记",
+            "force" : false,
+            "pauseMode" : 0,
+            "keyStep"   : true,
+            "maskAlpha" : 200,
+            "tipMsg"    : "",
+            "centerTip" : "",
+            "stopPreSnd" : false,
+            "muteMusic"  : false,
+            "soundId"    : 0,
+            "timeoutInMS" : 0,
+            "timeoutStop" : false,
+            "stepObj"     : 0,
+            "stepObjParam" : "",
+            "stepObjParam2" : "",
+            "uiOpType"      : 0,
+            "circleType"    : 0,
+            "arrowType"     : 0,
+            "uiOpParam"     : "",
+            "uiOpParam2"    : "",
+            "sceneOpType"   : 0,
+            "sceneGuideType" : 0,
+            "sceneOpParam"   : "",
+            "sceneOpParam2"  : "",
+            "stepSkipType"   : 0,
+            "skipParam"      : "",
+            "skipParam2"     : "",
+            "stopIfNeedSkip" : false
+        }
+    ]
+}

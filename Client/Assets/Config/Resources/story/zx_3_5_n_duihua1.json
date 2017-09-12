@@ -1,0 +1,33 @@
+﻿
+{
+    "storyList" : [
+        {
+            "__type" : "StoryTalkCfg",
+            "roleId" : "kratos",
+            "content" : "这只丑陋的东西口流涎液，恶臭冲天，目露凶光却也不过是这塔耳塔洛斯的看门狗罢了。",
+            "localIdx" : 0,
+            "soundId"  : 0,
+            "type"     : 0,
+            "time"     : 10
+        },
+        {
+            "__type" : "StoryTalkCfg",
+            "roleId" : "meidiya",
+            "content" : "也许我们应该好好陪它玩一玩。",
+            "localIdx" : 1,
+            "soundId"  : 0,
+            "type"     : 0,
+            "time"     : 10
+        },
+        {
+            "__type" : "StoryTalkCfg",
+            "roleId" : "kratos",
+            "content" : "我只想快点拧下这三颗肮脏的头颅，好让它停止这刺耳的哀嚎。",
+            "localIdx" : 0,
+            "soundId"  : 0,
+            "type"     : 0,
+            "time"     : 10
+        }
+    ],
+    "canSpeed"  : true
+}

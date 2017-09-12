@@ -1,0 +1,113 @@
+﻿
+{
+    "nodeCounter" : 5,
+    "trees"       : [
+        {
+            "name" : "地刺AI",
+            "expand" : true,
+            "root"   : {
+                "__type" : "Simple.BehaviorTree.SequenceCfg",
+                "children" : [
+                    {
+                        "__type" : "Simple.BehaviorTree.WaitCfg",
+                        "waitTime" : {
+                            "__type" : "Simple.BehaviorTree.Value`1[System.Single]",
+                            "v"      : 5.0,
+                            "name"   : "waittime",
+                            "region" : 1,
+                            "type"   : 1
+                        },
+                        "id"       : 3,
+                        "ingore"   : false,
+                        "showNote" : false,
+                        "resetTempValueIfEnable" : true,
+                        "note"                   : "",
+                        "localPos"               : {
+                            "x" : -130.0,
+                            "y" : 140.0
+                        }
+                    },
+                    {
+                        "__type" : "Simple.BehaviorTree.UseSkillCfg",
+                        "target" : {
+                            "__type" : "Simple.BehaviorTree.ValueRole",
+                            "roleType" : 0,
+                            "name"     : "",
+                            "region"   : 0,
+                            "type"     : 6
+                        },
+                        "skillId" : {
+                            "__type" : "Simple.BehaviorTree.Value`1[System.String]",
+                            "v"      : "gongji00",
+                            "name"   : "",
+                            "region" : 0,
+                            "type"   : 3
+                        },
+                        "autoFindSkill" : {
+                            "__type" : "Simple.BehaviorTree.Value`1[System.Boolean]",
+                            "v"      : false,
+                            "name"   : "",
+                            "region" : 0,
+                            "type"   : 2
+                        },
+                        "autoFindTarget" : {
+                            "__type" : "Simple.BehaviorTree.Value`1[System.Boolean]",
+                            "v"      : true,
+                            "name"   : "",
+                            "region" : 0,
+                            "type"   : 2
+                        },
+                        "errorIfNoTarget" : {
+                            "__type" : "Simple.BehaviorTree.Value`1[System.Boolean]",
+                            "v"      : false,
+                            "name"   : "",
+                            "region" : 0,
+                            "type"   : 2
+                        },
+                        "errorIfDis"      : {
+                            "__type" : "Simple.BehaviorTree.Value`1[System.Boolean]",
+                            "v"      : false,
+                            "name"   : "",
+                            "region" : 0,
+                            "type"   : 2
+                        },
+                        "waitIfCD"        : false,
+                        "id"              : 4,
+                        "ingore"          : false,
+                        "showNote"        : true,
+                        "resetTempValueIfEnable" : true,
+                        "note"                   : "",
+                        "localPos"               : {
+                            "x" : 150.0,
+                            "y" : 150.0
+                        }
+                    }
+                ],
+                "expandChild" : true,
+                "id"          : 2,
+                "ingore"      : false,
+                "showNote"    : false,
+                "resetTempValueIfEnable" : true,
+                "note"                   : "",
+                "localPos"               : {
+                    "x" : 1890.0,
+                    "y" : 1770.0
+                }
+            },
+            "valueMgrCfg" : {
+                "m_value" : [
+                    {
+                        "__type" : "Simple.BehaviorTree.Value`1[System.Single]",
+                        "v"      : 4.0,
+                        "name"   : "waittime",
+                        "region" : 0,
+                        "type"   : 1
+                    }
+                ]
+            }
+        }
+    ],
+    "names"       : [
+        "地刺AI"
+    ]
+}

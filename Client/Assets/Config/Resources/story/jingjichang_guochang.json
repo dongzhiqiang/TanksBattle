@@ -1,0 +1,14 @@
+﻿
+{
+    "storyList" : [
+        {
+            "__type" : "StoryMovieCfg",
+            "movieId" : "jingjichang_guochang01",
+            "prefab"  : "jingjichang_guochang",
+            "isLoop"  : false,
+            "soundId" : 0,
+            "type"    : 1,
+            "time"    : 0
+        }
+    ]
+}

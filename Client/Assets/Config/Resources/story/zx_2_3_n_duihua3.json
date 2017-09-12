@@ -1,0 +1,24 @@
+﻿
+{
+    "storyList" : [
+        {
+            "__type" : "StoryTalkCfg",
+            "roleId" : "bosijiangjun",
+            "content" : "吾王有命，手刃[主角]之人，赏千车黄金，百车美女！",
+            "localIdx" : 0,
+            "soundId"  : 0,
+            "type"     : 0,
+            "time"     : 5
+        },
+        {
+            "__type" : "StoryTalkCfg",
+            "roleId" : "bosijiangjun",
+            "content" : "斯巴达恶魔，今日定让你命丧于此！",
+            "localIdx" : 1,
+            "soundId"  : 0,
+            "type"     : 0,
+            "time"     : 4
+        }
+    ],
+    "canSpeed"  : true
+}

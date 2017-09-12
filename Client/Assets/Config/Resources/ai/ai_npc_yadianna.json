@@ -1,0 +1,169 @@
+﻿
+{
+    "nodeCounter" : 7,
+    "trees"       : [
+        {
+            "name" : "雅典娜NPCAI",
+            "expand" : true,
+            "root"   : {
+                "__type" : "Simple.BehaviorTree.SequenceCfg",
+                "children" : [
+                    {
+                        "__type" : "Simple.BehaviorTree.IsRoleStateCfg",
+                        "role"   : {
+                            "__type" : "Simple.BehaviorTree.ValueRole",
+                            "roleType" : 1,
+                            "name"     : "",
+                            "region"   : 0,
+                            "type"     : 6
+                        },
+                        "states" : "空闲|移动",
+                        "interrupt" : 0,
+                        "resetTreeWhenInterrupt" : false,
+                        "id"                     : 3,
+                        "ingore"                 : false,
+                        "showNote"               : false,
+                        "resetTempValueIfEnable" : true,
+                        "note"                   : "",
+                        "localPos"               : {
+                            "x" : -200.0,
+                            "y" : 110.0
+                        }
+                    },
+                    {
+                        "__type" : "Simple.BehaviorTree.SetRoleCfg",
+                        "find"   : {
+                            "__type" : "Simple.BehaviorTree.ValueRole",
+                            "roleType" : 1,
+                            "name"     : "",
+                            "region"   : 0,
+                            "type"     : 6
+                        },
+                        "targetVal" : {
+                            "__type" : "Simple.BehaviorTree.ValueRole",
+                            "roleType" : 1,
+                            "name"     : "主角",
+                            "region"   : 1,
+                            "type"     : 6
+                        },
+                        "notRefindIfExist" : {
+                            "__type" : "Simple.BehaviorTree.Value`1[System.Boolean]",
+                            "v"      : true,
+                            "name"   : "",
+                            "region" : 0,
+                            "type"   : 2
+                        },
+                        "interrupt"        : 0,
+                        "resetTreeWhenInterrupt" : false,
+                        "id"                     : 4,
+                        "ingore"                 : false,
+                        "showNote"               : false,
+                        "resetTempValueIfEnable" : true,
+                        "note"                   : "",
+                        "localPos"               : {
+                            "x" : -90.0,
+                            "y" : 110.0
+                        }
+                    },
+                    {
+                        "__type" : "Simple.BehaviorTree.RoleAniCfg",
+                        "param"  : "shenshengshouhu:单次",
+                        "errorIfNoFindAni" : true,
+                        "id"               : 5,
+                        "ingore"           : false,
+                        "showNote"         : false,
+                        "resetTempValueIfEnable" : true,
+                        "note"                   : "",
+                        "localPos"               : {
+                            "x" : 20.0,
+                            "y" : 110.0
+                        }
+                    },
+                    {
+                        "__type" : "Simple.BehaviorTree.RandomFloatCfg",
+                        "min"    : {
+                            "__type" : "Simple.BehaviorTree.Value`1[System.Single]",
+                            "v"      : 5.0,
+                            "name"   : "",
+                            "region" : 0,
+                            "type"   : 1
+                        },
+                        "max"    : {
+                            "__type" : "Simple.BehaviorTree.Value`1[System.Single]",
+                            "v"      : 10.0,
+                            "name"   : "",
+                            "region" : 0,
+                            "type"   : 1
+                        },
+                        "ret"    : {
+                            "__type" : "Simple.BehaviorTree.Value`1[System.Single]",
+                            "v"      : 0.0,
+                            "name"   : "发呆时间",
+                            "region" : 1,
+                            "type"   : 1
+                        },
+                        "id"     : 7,
+                        "ingore" : false,
+                        "showNote" : false,
+                        "resetTempValueIfEnable" : true,
+                        "note"                   : "",
+                        "localPos"               : {
+                            "x" : 120.0,
+                            "y" : 110.0
+                        }
+                    },
+                    {
+                        "__type" : "Simple.BehaviorTree.WaitCfg",
+                        "waitTime" : {
+                            "__type" : "Simple.BehaviorTree.Value`1[System.Single]",
+                            "v"      : 5.0,
+                            "name"   : "发呆时间",
+                            "region" : 1,
+                            "type"   : 1
+                        },
+                        "id"       : 6,
+                        "ingore"   : false,
+                        "showNote" : false,
+                        "resetTempValueIfEnable" : true,
+                        "note"                   : "",
+                        "localPos"               : {
+                            "x" : 220.0,
+                            "y" : 110.0
+                        }
+                    }
+                ],
+                "expandChild" : true,
+                "id"          : 2,
+                "ingore"      : false,
+                "showNote"    : false,
+                "resetTempValueIfEnable" : true,
+                "note"                   : "",
+                "localPos"               : {
+                    "x" : 1780.0,
+                    "y" : 1750.0
+                }
+            },
+            "valueMgrCfg" : {
+                "m_value" : [
+                    {
+                        "__type" : "Simple.BehaviorTree.ValueRole",
+                        "roleType" : 1,
+                        "name"     : "主角",
+                        "region"   : 0,
+                        "type"     : 6
+                    },
+                    {
+                        "__type" : "Simple.BehaviorTree.Value`1[System.Single]",
+                        "v"      : 0.0,
+                        "name"   : "发呆时间",
+                        "region" : 0,
+                        "type"   : 1
+                    }
+                ]
+            }
+        }
+    ],
+    "names"       : [
+        "雅典娜NPCAI"
+    ]
+}

@@ -1,0 +1,189 @@
+﻿
+{
+    "cfgs" : [
+        {
+            "name" : "guanqia",
+            "desc" : ""
+        },
+        {
+            "name" : "guanqia2",
+            "desc" : ""
+        },
+        {
+            "name" : "jineng",
+            "desc" : ""
+        },
+        {
+            "name" : "gongji",
+            "desc" : ""
+        },
+        {
+            "name" : "yingxiong",
+            "desc" : ""
+        },
+        {
+            "name" : "finishskillop",
+            "desc" : ""
+        },
+        {
+            "name" : "zhuangbeishengji",
+            "desc" : ""
+        },
+        {
+            "name" : "shenshi",
+            "desc" : ""
+        },
+        {
+            "name" : "qijue",
+            "desc" : ""
+        },
+        {
+            "name" : "chujue",
+            "desc" : ""
+        },
+        {
+            "name" : "chongzhuang",
+            "desc" : ""
+        },
+        {
+            "name" : "yaogan",
+            "desc" : ""
+        },
+        {
+            "name" : "finishqteop",
+            "desc" : ""
+        },
+        {
+            "name" : "finishbatitip",
+            "desc" : ""
+        },
+        {
+            "name" : "wuqijingtong",
+            "desc" : ""
+        },
+        {
+            "name" : "qiandao",
+            "desc" : ""
+        },
+        {
+            "name" : "gedang",
+            "desc" : ""
+        },
+        {
+            "name" : "jinbifuben",
+            "desc" : ""
+        },
+        {
+            "name" : "jingjichang",
+            "desc" : ""
+        },
+        {
+            "name" : "meirirenwu",
+            "desc" : ""
+        },
+        {
+            "name" : "qiehuanwuqi",
+            "desc" : ""
+        },
+        {
+            "name" : "nailihuifutishi",
+            "desc" : "耐力为0时提示用普攻来增加耐力"
+        },
+        {
+            "name" : "fukonggongji",
+            "desc" : ""
+        },
+        {
+            "name" : "weinasienci",
+            "desc" : ""
+        },
+        {
+            "name" : "chengzhangrenwu",
+            "desc" : ""
+        },
+        {
+            "name" : "hadisizhixue",
+            "desc" : ""
+        },
+        {
+            "name" : "zhiaishouhu",
+            "desc" : ""
+        },
+        {
+            "name" : "zhuangbeibaoxiang",
+            "desc" : ""
+        },
+        {
+            "name" : "gonghui",
+            "desc" : ""
+        },
+        {
+            "name" : "zchuanwuqi",
+            "desc" : ""
+        },
+        {
+            "name" : "gongjijurenyindao",
+            "desc" : ""
+        },
+        {
+            "name" : "gongjijurenyindao1",
+            "desc" : ""
+        },
+        {
+            "name" : "guanqiashenshi",
+            "desc" : ""
+        },
+        {
+            "name" : "qiehuanwuqihou",
+            "desc" : ""
+        },
+        {
+            "name" : "yuansushuxing",
+            "desc" : ""
+        },
+        {
+            "name" : "zhaobaoxiangyindao",
+            "desc" : ""
+        },
+        {
+            "name" : "qteniutou",
+            "desc" : ""
+        },
+        {
+            "name" : "markzhaobaoxiang",
+            "desc" : ""
+        },
+        {
+            "name" : "fangunzhiyin",
+            "desc" : ""
+        },
+        {
+            "name" : "xuzhangyidong",
+            "desc" : ""
+        },
+        {
+            "name" : "xingjibaoxiang",
+            "desc" : ""
+        },
+        {
+            "name" : "zhongshenzhuan",
+            "desc" : ""
+        },
+        {
+            "name" : "shenqiqiangduo",
+            "desc" : ""
+        },
+        {
+            "name" : "yuyanzhezhita",
+            "desc" : ""
+        },
+        {
+            "name" : "jinruzhucheng1",
+            "desc" : ""
+        },
+        {
+            "name" : "yuansuyindao",
+            "desc" : ""
+        }
+    ]
+}

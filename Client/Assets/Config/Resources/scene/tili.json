@@ -1,0 +1,36 @@
+﻿
+{
+    "sceneName" : "tili",
+    "mRefGroupList" : [
+    ],
+    "mBornList"     : [
+    ],
+    "mCheckList"    : [
+        {
+            "triggerType" : 0,
+            "triggerNum"  : 1,
+            "triggerTimes" : 1,
+            "checkFlag"    : "Check1",
+            "eventCfgList" : [
+                {
+                    "eveType" : 2,
+                    "content" : "\n{\n    \"__type\" : \"EventCfg_NpcDead\",\n    \"npcID\"  : \"-1\",\n    \"count\"  : 0\n}"
+                }
+            ],
+            "actionCfgList" : [
+                {
+                    "eveType" : 10,
+                    "content" : "\n{\n    \"__type\" : \"ActionCfg_Story\",\n    \"storyId\" : \"tili_guochang\",\n    \"_idx\"    : 0,\n    \"_delay\"  : 0.0\n}"
+                }
+            ]
+        }
+    ],
+    "mAreaList"     : [
+    ],
+    "mStoryIdList"  : [
+        "tili_guochang"
+    ],
+    "mGroupIdList"  : [
+    ],
+    "mShowWaveGroupId" : ""
+}

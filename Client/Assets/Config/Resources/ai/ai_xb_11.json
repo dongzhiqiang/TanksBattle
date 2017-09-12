@@ -1,0 +1,435 @@
+﻿
+{
+    "nodeCounter" : 19,
+    "trees"       : [
+        {
+            "name" : "熔岩自爆怪AI",
+            "expand" : true,
+            "root"   : {
+                "__type" : "Simple.BehaviorTree.SequenceCfg",
+                "children" : [
+                    {
+                        "__type" : "Simple.BehaviorTree.IsRoleStateCfg",
+                        "role"   : {
+                            "__type" : "Simple.BehaviorTree.ValueRole",
+                            "roleType" : 1,
+                            "name"     : "",
+                            "region"   : 0,
+                            "type"     : 6
+                        },
+                        "states" : "空闲|移动",
+                        "interrupt" : 0,
+                        "resetTreeWhenInterrupt" : false,
+                        "id"                     : 18,
+                        "ingore"                 : false,
+                        "showNote"               : false,
+                        "resetTempValueIfEnable" : true,
+                        "note"                   : "",
+                        "localPos"               : {
+                            "x" : -370.0,
+                            "y" : 120.0
+                        }
+                    },
+                    {
+                        "__type" : "Simple.BehaviorTree.SelectorCfg",
+                        "children" : [
+                            {
+                                "__type" : "Simple.BehaviorTree.FailureCfg",
+                                "children" : [
+                                    {
+                                        "__type" : "Simple.BehaviorTree.SequenceCfg",
+                                        "children" : [
+                                            {
+                                                "__type" : "Simple.BehaviorTree.RandomFloatCfg",
+                                                "min"    : {
+                                                    "__type" : "Simple.BehaviorTree.Value`1[System.Single]",
+                                                    "v"      : 0.5,
+                                                    "name"   : "",
+                                                    "region" : 0,
+                                                    "type"   : 1
+                                                },
+                                                "max"    : {
+                                                    "__type" : "Simple.BehaviorTree.Value`1[System.Single]",
+                                                    "v"      : 5.0,
+                                                    "name"   : "",
+                                                    "region" : 0,
+                                                    "type"   : 1
+                                                },
+                                                "ret"    : {
+                                                    "__type" : "Simple.BehaviorTree.Value`1[System.Single]",
+                                                    "v"      : 0.0,
+                                                    "name"   : "发呆时间",
+                                                    "region" : 1,
+                                                    "type"   : 1
+                                                },
+                                                "id"     : 9,
+                                                "ingore" : false,
+                                                "showNote" : false,
+                                                "resetTempValueIfEnable" : true,
+                                                "note"                   : "",
+                                                "localPos"               : {
+                                                    "x" : 40.0,
+                                                    "y" : 230.0
+                                                }
+                                            },
+                                            {
+                                                "__type" : "Simple.BehaviorTree.WaitCfg",
+                                                "waitTime" : {
+                                                    "__type" : "Simple.BehaviorTree.Value`1[System.Single]",
+                                                    "v"      : 5.0,
+                                                    "name"   : "发呆时间",
+                                                    "region" : 1,
+                                                    "type"   : 1
+                                                },
+                                                "id"       : 8,
+                                                "ingore"   : false,
+                                                "showNote" : false,
+                                                "resetTempValueIfEnable" : true,
+                                                "note"                   : "",
+                                                "localPos"               : {
+                                                    "x" : 190.0,
+                                                    "y" : 230.0
+                                                }
+                                            }
+                                        ],
+                                        "expandChild" : true,
+                                        "id"          : 7,
+                                        "ingore"      : false,
+                                        "showNote"    : false,
+                                        "resetTempValueIfEnable" : true,
+                                        "note"                   : "",
+                                        "localPos"               : {
+                                            "x" : -70.0,
+                                            "y" : 140.0
+                                        }
+                                    }
+                                ],
+                                "expandChild" : true,
+                                "id"          : 19,
+                                "ingore"      : false,
+                                "showNote"    : false,
+                                "resetTempValueIfEnable" : true,
+                                "note"                   : "",
+                                "localPos"               : {
+                                    "x" : -440.0,
+                                    "y" : 140.0
+                                }
+                            },
+                            {
+                                "__type" : "Simple.BehaviorTree.SequenceCfg",
+                                "children" : [
+                                    {
+                                        "__type" : "Simple.BehaviorTree.IsRoleStateCfg",
+                                        "role"   : {
+                                            "__type" : "Simple.BehaviorTree.ValueRole",
+                                            "roleType" : 1,
+                                            "name"     : "",
+                                            "region"   : 0,
+                                            "type"     : 6
+                                        },
+                                        "states" : "空闲|移动|战斗",
+                                        "interrupt" : 2,
+                                        "resetTreeWhenInterrupt" : false,
+                                        "id"                     : 17,
+                                        "ingore"                 : false,
+                                        "showNote"               : false,
+                                        "resetTempValueIfEnable" : true,
+                                        "note"                   : "",
+                                        "localPos"               : {
+                                            "x" : -230.0,
+                                            "y" : 230.0
+                                        }
+                                    },
+                                    {
+                                        "__type" : "Simple.BehaviorTree.AllowBeAttackCfg",
+                                        "role"   : {
+                                            "__type" : "Simple.BehaviorTree.ValueRole",
+                                            "roleType" : 8,
+                                            "name"     : "",
+                                            "region"   : 0,
+                                            "type"     : 6
+                                        },
+                                        "interrupt" : 2,
+                                        "resetTreeWhenInterrupt" : false,
+                                        "id"                     : 16,
+                                        "ingore"                 : false,
+                                        "showNote"               : false,
+                                        "resetTempValueIfEnable" : true,
+                                        "note"                   : "",
+                                        "localPos"               : {
+                                            "x" : -100.0,
+                                            "y" : 230.0
+                                        }
+                                    },
+                                    {
+                                        "__type" : "Simple.BehaviorTree.SetRoleCfg",
+                                        "find"   : {
+                                            "__type" : "Simple.BehaviorTree.ValueRole",
+                                            "roleType" : 8,
+                                            "name"     : "",
+                                            "region"   : 0,
+                                            "type"     : 6
+                                        },
+                                        "targetVal" : {
+                                            "__type" : "Simple.BehaviorTree.ValueRole",
+                                            "roleType" : 1,
+                                            "name"     : "当前仇恨",
+                                            "region"   : 1,
+                                            "type"     : 6
+                                        },
+                                        "notRefindIfExist" : {
+                                            "__type" : "Simple.BehaviorTree.Value`1[System.Boolean]",
+                                            "v"      : false,
+                                            "name"   : "",
+                                            "region" : 0,
+                                            "type"   : 2
+                                        },
+                                        "interrupt"        : 3,
+                                        "resetTreeWhenInterrupt" : true,
+                                        "id"                     : 15,
+                                        "ingore"                 : false,
+                                        "showNote"               : false,
+                                        "resetTempValueIfEnable" : true,
+                                        "note"                   : "",
+                                        "localPos"               : {
+                                            "x" : 10.0,
+                                            "y" : 230.0
+                                        }
+                                    },
+                                    {
+                                        "__type" : "Simple.BehaviorTree.FindSkillCfg",
+                                        "target" : {
+                                            "__type" : "Simple.BehaviorTree.ValueRole",
+                                            "roleType" : 1,
+                                            "name"     : "当前仇恨",
+                                            "region"   : 0,
+                                            "type"     : 6
+                                        },
+                                        "skillId" : {
+                                            "__type" : "Simple.BehaviorTree.Value`1[System.String]",
+                                            "v"      : "",
+                                            "name"   : "当前查找技能",
+                                            "region" : 1,
+                                            "type"   : 3
+                                        },
+                                        "range"   : {
+                                            "__type" : "Simple.BehaviorTree.Value`1[System.Single]",
+                                            "v"      : 0.0,
+                                            "name"   : "当前技能范围",
+                                            "region" : 1,
+                                            "type"   : 1
+                                        },
+                                        "interrupt" : 0,
+                                        "resetTreeWhenInterrupt" : false,
+                                        "id"                     : 14,
+                                        "ingore"                 : false,
+                                        "showNote"               : false,
+                                        "resetTempValueIfEnable" : true,
+                                        "note"                   : "",
+                                        "localPos"               : {
+                                            "x" : 120.0,
+                                            "y" : 230.0
+                                        }
+                                    },
+                                    {
+                                        "__type" : "Simple.BehaviorTree.SubFloatCfg",
+                                        "v1"     : {
+                                            "__type" : "Simple.BehaviorTree.Value`1[System.Single]",
+                                            "v"      : 0.0,
+                                            "name"   : "当前技能范围",
+                                            "region" : 1,
+                                            "type"   : 1
+                                        },
+                                        "v2"     : {
+                                            "__type" : "Simple.BehaviorTree.Value`1[System.Single]",
+                                            "v"      : 0.0,
+                                            "name"   : "",
+                                            "region" : 0,
+                                            "type"   : 1
+                                        },
+                                        "ret"    : {
+                                            "__type" : "Simple.BehaviorTree.Value`1[System.Single]",
+                                            "v"      : 0.0,
+                                            "name"   : "追踪距离",
+                                            "region" : 1,
+                                            "type"   : 1
+                                        },
+                                        "id"     : 13,
+                                        "ingore" : false,
+                                        "showNote" : false,
+                                        "resetTempValueIfEnable" : true,
+                                        "note"                   : "",
+                                        "localPos"               : {
+                                            "x" : 230.0,
+                                            "y" : 230.0
+                                        }
+                                    },
+                                    {
+                                        "__type" : "Simple.BehaviorTree.TraceCfg",
+                                        "target" : {
+                                            "__type" : "Simple.BehaviorTree.ValueRole",
+                                            "roleType" : 1,
+                                            "name"     : "当前仇恨",
+                                            "region"   : 1,
+                                            "type"     : 6
+                                        },
+                                        "dis"    : {
+                                            "__type" : "Simple.BehaviorTree.Value`1[System.Single]",
+                                            "v"      : 0.0,
+                                            "name"   : "追踪距离",
+                                            "region" : 1,
+                                            "type"   : 1
+                                        },
+                                        "id"     : 12,
+                                        "ingore" : false,
+                                        "showNote" : false,
+                                        "resetTempValueIfEnable" : true,
+                                        "note"                   : "",
+                                        "localPos"               : {
+                                            "x" : 330.0,
+                                            "y" : 230.0
+                                        }
+                                    },
+                                    {
+                                        "__type" : "Simple.BehaviorTree.UseSkillCfg",
+                                        "target" : {
+                                            "__type" : "Simple.BehaviorTree.ValueRole",
+                                            "roleType" : 2,
+                                            "name"     : "当前仇恨",
+                                            "region"   : 1,
+                                            "type"     : 6
+                                        },
+                                        "skillId" : {
+                                            "__type" : "Simple.BehaviorTree.Value`1[System.String]",
+                                            "v"      : "",
+                                            "name"   : "当前查找技能",
+                                            "region" : 1,
+                                            "type"   : 3
+                                        },
+                                        "autoFindSkill" : {
+                                            "__type" : "Simple.BehaviorTree.Value`1[System.Boolean]",
+                                            "v"      : false,
+                                            "name"   : "",
+                                            "region" : 0,
+                                            "type"   : 2
+                                        },
+                                        "autoFindTarget" : {
+                                            "__type" : "Simple.BehaviorTree.Value`1[System.Boolean]",
+                                            "v"      : true,
+                                            "name"   : "",
+                                            "region" : 0,
+                                            "type"   : 2
+                                        },
+                                        "errorIfNoTarget" : {
+                                            "__type" : "Simple.BehaviorTree.Value`1[System.Boolean]",
+                                            "v"      : false,
+                                            "name"   : "",
+                                            "region" : 0,
+                                            "type"   : 2
+                                        },
+                                        "errorIfDis"      : {
+                                            "__type" : "Simple.BehaviorTree.Value`1[System.Boolean]",
+                                            "v"      : false,
+                                            "name"   : "",
+                                            "region" : 0,
+                                            "type"   : 2
+                                        },
+                                        "waitIfCD"        : false,
+                                        "id"              : 11,
+                                        "ingore"          : false,
+                                        "showNote"        : false,
+                                        "resetTempValueIfEnable" : true,
+                                        "note"                   : "",
+                                        "localPos"               : {
+                                            "x" : 430.0,
+                                            "y" : 230.0
+                                        }
+                                    }
+                                ],
+                                "expandChild" : true,
+                                "id"          : 10,
+                                "ingore"      : false,
+                                "showNote"    : false,
+                                "resetTempValueIfEnable" : true,
+                                "note"                   : "",
+                                "localPos"               : {
+                                    "x" : 130.0,
+                                    "y" : 160.0
+                                }
+                            }
+                        ],
+                        "expandChild" : true,
+                        "id"          : 6,
+                        "ingore"      : false,
+                        "showNote"    : false,
+                        "resetTempValueIfEnable" : true,
+                        "note"                   : "",
+                        "localPos"               : {
+                            "x" : -140.0,
+                            "y" : 240.0
+                        }
+                    }
+                ],
+                "expandChild" : true,
+                "id"          : 5,
+                "ingore"      : false,
+                "showNote"    : false,
+                "resetTempValueIfEnable" : true,
+                "note"                   : "",
+                "localPos"               : {
+                    "x" : 1650.0,
+                    "y" : 1830.0
+                }
+            },
+            "valueMgrCfg" : {
+                "m_value" : [
+                    {
+                        "__type" : "Simple.BehaviorTree.ValueRole",
+                        "roleType" : 1,
+                        "name"     : "当前仇恨",
+                        "region"   : 0,
+                        "type"     : 6
+                    },
+                    {
+                        "__type" : "Simple.BehaviorTree.Value`1[System.String]",
+                        "v"      : "",
+                        "name"   : "当前查找技能",
+                        "region" : 0,
+                        "type"   : 3
+                    },
+                    {
+                        "__type" : "Simple.BehaviorTree.Value`1[System.Single]",
+                        "v"      : 0.0,
+                        "name"   : "当前技能范围",
+                        "region" : 0,
+                        "type"   : 1
+                    },
+                    {
+                        "__type" : "Simple.BehaviorTree.Value`1[System.Single]",
+                        "v"      : 0.0,
+                        "name"   : "追踪距离",
+                        "region" : 0,
+                        "type"   : 1
+                    },
+                    {
+                        "__type" : "Simple.BehaviorTree.Value`1[System.Single]",
+                        "v"      : 0.0,
+                        "name"   : "休闲随机",
+                        "region" : 0,
+                        "type"   : 1
+                    },
+                    {
+                        "__type" : "Simple.BehaviorTree.Value`1[System.Single]",
+                        "v"      : 0.0,
+                        "name"   : "发呆时间",
+                        "region" : 0,
+                        "type"   : 1
+                    }
+                ]
+            }
+        }
+    ],
+    "names"       : [
+        "熔岩自爆怪AI"
+    ]
+}

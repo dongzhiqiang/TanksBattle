@@ -1,0 +1,49 @@
+﻿
+{
+    "file" : "flyer_fashiyujing_01",
+    "eventGroup" : {
+        "file" : "skill_event_group",
+        "isFile" : false,
+        "frames" : [
+        ],
+        "selId"  : 0,
+        "allScroll" : {
+            "x" : 0.0,
+            "y" : 0.0
+        },
+        "contentScroll" : {
+            "x" : 0.0,
+            "y" : 0.0
+        },
+        "maxWidth"      : 0.0
+    },
+    "durationFrame" : 50,
+    "endFlyerCreateCfg" : {
+        "name" : "",
+        "durationFrame" : -1,
+        "dirType"       : 1,
+        "posType"       : 0,
+        "dirOffset"     : 0.0,
+        "posOffset"     : {
+            "x" : 0.0,
+            "y" : 0.0,
+            "z" : 0.0
+        },
+        "randomBegin"   : 0.0,
+        "randomEnd"     : 0.0,
+        "num"           : 1,
+        "multiDirOffset" : 0.0,
+        "multiPosOffset" : {
+            "x" : 0.0,
+            "y" : 0.0,
+            "z" : 0.0
+        },
+        "bone"           : "",
+        "follow"         : true
+    },
+    "endFlyer"          : null,
+    "touchDestroyFrame" : 50,
+    "pathCfg"           : {
+        "__type" : "FlyerPathCfg"
+    }
+}

@@ -1,0 +1,76 @@
+﻿
+{
+    "valueMgrCfg" : {
+        "m_value" : [
+            {
+                "__type" : "Simple.BehaviorTree.Value`1[System.Single]",
+                "v"      : 3.0,
+                "name"   : "群体攻击cd[",
+                "region" : 0,
+                "type"   : 1
+            },
+            {
+                "__type" : "Simple.BehaviorTree.Value`1[System.Single]",
+                "v"      : 7.0,
+                "name"   : "群体攻击cd]",
+                "region" : 0,
+                "type"   : 1
+            },
+            {
+                "__type" : "Simple.BehaviorTree.Value`1[System.Int32]",
+                "v"      : 1,
+                "name"   : "群体攻击[",
+                "region" : 0,
+                "type"   : 0
+            },
+            {
+                "__type" : "Simple.BehaviorTree.Value`1[System.Int32]",
+                "v"      : 0,
+                "name"   : "群体攻击]",
+                "region" : 0,
+                "type"   : 0
+            }
+        ]
+    },
+    "files"       : [
+        "ai_tongyong",
+        "ai_xb_04",
+        "ai_bs_04",
+        "ai_jy_01",
+        "ai_jy_02",
+        "ai_jy_03",
+        "ai_bs_05",
+        "ai_bs_01",
+        "ai_bs_06",
+        "ai_xb_yuancheng",
+        "ai_shixianggui",
+        "ai_baowei",
+        "ai_tongyong_yuan",
+        "ai_hadisi",
+        "ai_bs_03",
+        "ai_cw_8",
+        "ai_cw_6",
+        "ai_bs_02",
+        "ai_jinzhan_shouhu",
+        "ai_bs_07",
+        "ai_npc_taliya",
+        "ai_dici_04",
+        "ai_npc_heiannvshen",
+        "ai_taopao_xb",
+        "ai_npc_yadianna",
+        "ai_fuchounvshen_npc",
+        "ai_1_7_renleifashi",
+        "ai_pingming_man",
+        "ai_pingming_woman",
+        "ai_fujiang_01",
+        "ai_cw_2",
+        "ai_cw_1",
+        "ai_xb_2_yuyan",
+        "ai_zsz_xxs_01_xxs",
+        "ai_zsz_niutou",
+        "ai_zsz_mdy_02_mdy",
+        "ai_zsz_mdy_02_yas",
+        "ai_zsz_aetms_01",
+        "ai_xb_11"
+    ]
+}

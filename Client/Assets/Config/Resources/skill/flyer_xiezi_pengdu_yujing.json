@@ -1,0 +1,59 @@
+﻿
+{
+    "file" : "flyer_xiezi_pengdu_yujing",
+    "eventGroup" : {
+        "file" : "skill_event_group",
+        "isFile" : false,
+        "frames" : [
+        ],
+        "selId"  : 0,
+        "allScroll" : {
+            "x" : 0.0,
+            "y" : 0.0
+        },
+        "contentScroll" : {
+            "x" : 0.0,
+            "y" : 0.0
+        },
+        "maxWidth"      : 0.0
+    },
+    "durationFrame" : 30,
+    "endFlyerCreateCfg" : {
+        "name" : "mod_xiezi_pengdu_baozha",
+        "fireFx" : "",
+        "iceFx"  : "",
+        "thunderFx" : "",
+        "darkFx"    : "",
+        "durationFrame" : -1,
+        "dirType"       : 1,
+        "posType"       : 0,
+        "dirOffset"     : 0.0,
+        "posOffset"     : {
+            "x" : 0.0,
+            "y" : 0.0,
+            "z" : 0.0
+        },
+        "randomBegin"   : 0.0,
+        "randomEnd"     : 0.0,
+        "num"           : 1,
+        "multiDirOffset" : 0.0,
+        "multiPosOffset" : {
+            "x" : 0.0,
+            "y" : 0.0,
+            "z" : 0.0
+        },
+        "bone"           : "",
+        "follow"         : true,
+        "alignSourceY"   : false
+    },
+    "endFlyer"          : "flyer_xiezi_pengdu_shanghai",
+    "touchDestroyFrame" : 1,
+    "touchTargetDestroyFrame" : 1,
+    "pathCfg"                 : {
+        "__type" : "FlyerPathCfg",
+        "_dirType" : 0,
+        "_selfTurnSpeed" : 360.0
+    },
+    "endEventGroupId"         : "",
+    "targetType"              : 2
+}

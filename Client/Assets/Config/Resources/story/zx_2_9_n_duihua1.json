@@ -1,0 +1,33 @@
+﻿
+{
+    "storyList" : [
+        {
+            "__type" : "StoryTalkCfg",
+            "roleId" : "kratos",
+            "content" : "阿瑞斯！我要让他血债血偿！",
+            "localIdx" : 1,
+            "soundId"  : 0,
+            "type"     : 0,
+            "time"     : 3
+        },
+        {
+            "__type" : "StoryTalkCfg",
+            "roleId" : "meidiya",
+            "content" : "主人，请您尽快走出悲伤，斯巴达人民还需要您。阿瑞斯的走狗们偷袭我斯巴达，抓走了我们的百姓……",
+            "localIdx" : 0,
+            "soundId"  : 0,
+            "type"     : 0,
+            "time"     : 10
+        },
+        {
+            "__type" : "StoryTalkCfg",
+            "roleId" : "kratos",
+            "content" : "我已失去我的妻女，不能再失去我的人民！",
+            "localIdx" : 1,
+            "soundId"  : 0,
+            "type"     : 0,
+            "time"     : 4
+        }
+    ],
+    "canSpeed"  : true
+}

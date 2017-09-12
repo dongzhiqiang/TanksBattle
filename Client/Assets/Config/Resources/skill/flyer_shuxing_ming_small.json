@@ -1,0 +1,377 @@
+﻿
+{
+    "file" : "flyer_shuxing_ming_small",
+    "eventGroup" : {
+        "file" : "skill_event_group",
+        "isFile" : false,
+        "frames" : [
+            {
+                "id" : 1,
+                "frameType" : 1,
+                "frameBegin" : 0,
+                "frameEnd"   : -1,
+                "frameInterval" : 5,
+                "countLimit"    : -1,
+                "countTargetLimit" : -1,
+                "countFrameLimit"  : -1,
+                "frameLimit"       : -1,
+                "targetOrderType"  : 0,
+                "conditions"       : [
+                ],
+                "targetConditions" : [
+                    {
+                        "__type" : "SECFlag",
+                        "flag"   : "可抓取"
+                    }
+                ],
+                "targetRanges"     : [
+                    {
+                        "range" : {
+                            "type" : 3,
+                            "beginOffsetAngle" : 0.0,
+                            "endOffsetAngle"   : 0.0,
+                            "begingOffsetPos"  : {
+                                "x" : 0.0,
+                                "y" : 0.0,
+                                "z" : 0.0
+                            },
+                            "endOffsetPos"     : {
+                                "x" : 0.0,
+                                "y" : 0.0,
+                                "z" : 0.0
+                            },
+                            "distance"         : 10.0,
+                            "heightLimit"      : 2.5,
+                            "rectLimit"        : 3.0,
+                            "angleLimit"       : 90.0,
+                            "showArea"         : false,
+                            "showRange"        : false
+                        },
+                        "targetType" : 2
+                    }
+                ],
+                "events"           : [
+                    {
+                        "__type" : "DamageEventCfg",
+                        "rate"   : 0.0,
+                        "hitFx"  : "",
+                        "hitFxAdjust" : true,
+                        "shield"      : 10.0,
+                        "elem"        : 4,
+                        "playElemEventGroup" : false,
+                        "ingore"             : false,
+                        "eventCountLimit"    : -1,
+                        "eventCountFrameLimit" : -1,
+                        "id"                   : 1,
+                        "priority"             : 0,
+                        "ingoreIfNotHero"      : false
+                    },
+                    {
+                        "__type" : "HitSkillEventCfg",
+                        "duration" : 0.300000011920929,
+                        "floatSpeed" : 6.5,
+                        "floatAccelerated" : -19.0,
+                        "groundFloat"      : {
+                            "__type" : "HitFloatSkillEventCfg",
+                            "speed"  : 6.5,
+                            "acceleratedUp" : -19.0,
+                            "acceleratedDown" : -19.0,
+                            "groundDuration"  : 0.5,
+                            "reverseSpeed"    : 2.0,
+                            "speedDown"       : -4.0,
+                            "hitDuration"     : 0.300000011920929,
+                            "ingore"          : false,
+                            "eventCountLimit" : -1,
+                            "eventCountFrameLimit" : -1,
+                            "id"                   : 0,
+                            "priority"             : 0,
+                            "ingoreIfNotHero"      : false
+                        },
+                        "ingore"           : false,
+                        "eventCountLimit"  : -1,
+                        "eventCountFrameLimit" : -1,
+                        "id"                   : 2,
+                        "priority"             : 0,
+                        "ingoreIfNotHero"      : false
+                    },
+                    {
+                        "__type" : "FxEventCfg",
+                        "createCfg" : {
+                            "name" : "fx_shake1",
+                            "fireFx" : "",
+                            "iceFx"  : "",
+                            "thunderFx" : "",
+                            "darkFx"    : "",
+                            "durationFrame" : -1,
+                            "dirType"       : 1,
+                            "posType"       : 0,
+                            "dirOffset"     : 0.0,
+                            "posOffset"     : {
+                                "x" : 0.0,
+                                "y" : 0.0,
+                                "z" : 0.0
+                            },
+                            "randomBegin"   : 0.0,
+                            "randomEnd"     : 0.0,
+                            "num"           : 1,
+                            "multiDirOffset" : 0.0,
+                            "multiPosOffset" : {
+                                "x" : 0.0,
+                                "y" : 0.0,
+                                "z" : 0.0
+                            },
+                            "bone"           : "",
+                            "follow"         : true,
+                            "alignSourceY"   : false
+                        },
+                        "flyer"     : "",
+                        "useHapponPos" : false,
+                        "ingore"       : false,
+                        "eventCountLimit" : -1,
+                        "eventCountFrameLimit" : -1,
+                        "id"                   : 3,
+                        "priority"             : 0,
+                        "ingoreIfNotHero"      : false
+                    },
+                    {
+                        "__type" : "BuffEventCfg",
+                        "self"   : false,
+                        "buffParams" : [
+                            {
+                                "id" : 503,
+                                "end" : false,
+                                "frame" : -3.0
+                            },
+                            {
+                                "id" : 508,
+                                "end" : false,
+                                "frame" : -3.0
+                            }
+                        ],
+                        "ingore"     : false,
+                        "eventCountLimit" : -1,
+                        "eventCountFrameLimit" : -1,
+                        "id"                   : 4,
+                        "priority"             : 0,
+                        "ingoreIfNotHero"      : false
+                    }
+                ],
+                "selId"            : 1
+            },
+            {
+                "id" : 2,
+                "frameType" : 1,
+                "frameBegin" : 0,
+                "frameEnd"   : -1,
+                "frameInterval" : 5,
+                "countLimit"    : -1,
+                "countTargetLimit" : -1,
+                "countFrameLimit"  : -1,
+                "frameLimit"       : -1,
+                "targetOrderType"  : 0,
+                "conditions"       : [
+                ],
+                "targetConditions" : [
+                    {
+                        "__type" : "SECFlag",
+                        "flag"   : "不可抓取"
+                    }
+                ],
+                "targetRanges"     : [
+                    {
+                        "range" : {
+                            "type" : 3,
+                            "beginOffsetAngle" : 0.0,
+                            "endOffsetAngle"   : 0.0,
+                            "begingOffsetPos"  : {
+                                "x" : 0.0,
+                                "y" : 0.0,
+                                "z" : 0.0
+                            },
+                            "endOffsetPos"     : {
+                                "x" : 0.0,
+                                "y" : 0.0,
+                                "z" : 0.0
+                            },
+                            "distance"         : 5.0,
+                            "heightLimit"      : 2.5,
+                            "rectLimit"        : 3.0,
+                            "angleLimit"       : 90.0,
+                            "showArea"         : false,
+                            "showRange"        : false
+                        },
+                        "targetType" : 2
+                    }
+                ],
+                "events"           : [
+                    {
+                        "__type" : "DamageEventCfg",
+                        "rate"   : 0.0,
+                        "hitFx"  : "",
+                        "hitFxAdjust" : true,
+                        "shield"      : 10.0,
+                        "elem"        : 4,
+                        "playElemEventGroup" : false,
+                        "ingore"             : false,
+                        "eventCountLimit"    : -1,
+                        "eventCountFrameLimit" : -1,
+                        "id"                   : 1,
+                        "priority"             : 0,
+                        "ingoreIfNotHero"      : false
+                    },
+                    {
+                        "__type" : "HitSkillEventCfg",
+                        "duration" : 0.300000011920929,
+                        "floatSpeed" : 6.5,
+                        "floatAccelerated" : -19.0,
+                        "groundFloat"      : {
+                            "__type" : "HitFloatSkillEventCfg",
+                            "speed"  : 6.5,
+                            "acceleratedUp" : -19.0,
+                            "acceleratedDown" : -19.0,
+                            "groundDuration"  : 0.5,
+                            "reverseSpeed"    : 2.0,
+                            "speedDown"       : -4.0,
+                            "hitDuration"     : 0.300000011920929,
+                            "ingore"          : false,
+                            "eventCountLimit" : -1,
+                            "eventCountFrameLimit" : -1,
+                            "id"                   : 0,
+                            "priority"             : 0,
+                            "ingoreIfNotHero"      : false
+                        },
+                        "ingore"           : false,
+                        "eventCountLimit"  : -1,
+                        "eventCountFrameLimit" : -1,
+                        "id"                   : 2,
+                        "priority"             : 0,
+                        "ingoreIfNotHero"      : false
+                    },
+                    {
+                        "__type" : "FxEventCfg",
+                        "createCfg" : {
+                            "name" : "fx_shake1",
+                            "fireFx" : "",
+                            "iceFx"  : "",
+                            "thunderFx" : "",
+                            "darkFx"    : "",
+                            "durationFrame" : -1,
+                            "dirType"       : 1,
+                            "posType"       : 0,
+                            "dirOffset"     : 0.0,
+                            "posOffset"     : {
+                                "x" : 0.0,
+                                "y" : 0.0,
+                                "z" : 0.0
+                            },
+                            "randomBegin"   : 0.0,
+                            "randomEnd"     : 0.0,
+                            "num"           : 1,
+                            "multiDirOffset" : 0.0,
+                            "multiPosOffset" : {
+                                "x" : 0.0,
+                                "y" : 0.0,
+                                "z" : 0.0
+                            },
+                            "bone"           : "",
+                            "follow"         : true,
+                            "alignSourceY"   : false
+                        },
+                        "flyer"     : "",
+                        "useHapponPos" : false,
+                        "ingore"       : false,
+                        "eventCountLimit" : -1,
+                        "eventCountFrameLimit" : -1,
+                        "id"                   : 3,
+                        "priority"             : 0,
+                        "ingoreIfNotHero"      : false
+                    },
+                    {
+                        "__type" : "BuffEventCfg",
+                        "self"   : false,
+                        "buffParams" : [
+                            {
+                                "id" : 513,
+                                "end" : false,
+                                "frame" : -3.0
+                            },
+                            {
+                                "id" : 518,
+                                "end" : false,
+                                "frame" : -3.0
+                            }
+                        ],
+                        "ingore"     : false,
+                        "eventCountLimit" : -1,
+                        "eventCountFrameLimit" : -1,
+                        "id"                   : 4,
+                        "priority"             : 0,
+                        "ingoreIfNotHero"      : false
+                    }
+                ],
+                "selId"            : 1
+            }
+        ],
+        "selId"  : 2,
+        "allScroll" : {
+            "x" : 0.0,
+            "y" : 0.0
+        },
+        "contentScroll" : {
+            "x" : 1024.0,
+            "y" : 0.0
+        },
+        "maxWidth"      : 2420.0
+    },
+    "durationFrame" : 240,
+    "endFlyerCreateCfg" : {
+        "name" : "",
+        "fireFx" : "",
+        "iceFx"  : "",
+        "thunderFx" : "",
+        "darkFx"    : "",
+        "durationFrame" : -1,
+        "dirType"       : 1,
+        "posType"       : 0,
+        "dirOffset"     : 0.0,
+        "posOffset"     : {
+            "x" : 0.0,
+            "y" : 0.0,
+            "z" : 0.0
+        },
+        "randomBegin"   : 0.0,
+        "randomEnd"     : 0.0,
+        "num"           : 1,
+        "multiDirOffset" : 0.0,
+        "multiPosOffset" : {
+            "x" : 0.0,
+            "y" : 0.0,
+            "z" : 0.0
+        },
+        "bone"           : "",
+        "follow"         : true,
+        "alignSourceY"   : false
+    },
+    "endFlyer"          : null,
+    "touchDestroyFrame" : -1,
+    "touchTargetDestroyFrame" : -1,
+    "pathCfg"                 : {
+        "__type" : "FlyerPathCfgToward",
+        "offset" : {
+            "x" : 0.0,
+            "y" : 1.0,
+            "z" : 0.0
+        },
+        "speedBegin" : 15.0,
+        "beginFrame" : 0.0,
+        "speedToward" : 15.0,
+        "towardFrame" : 240.0,
+        "turnSpeed"   : 480.0,
+        "touchDis"    : 0.800000011920929,
+        "touchCount"  : 8,
+        "_dirType"    : 1,
+        "_selfTurnSpeed" : 360.0
+    },
+    "endEventGroupId"         : "",
+    "targetType"              : 2
+}

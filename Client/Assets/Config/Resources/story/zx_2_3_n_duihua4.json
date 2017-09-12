@@ -1,0 +1,23 @@
+﻿
+{
+    "storyList" : [
+        {
+            "__type" : "StoryTalkCfg",
+            "roleId" : "bosijiangjun",
+            "content" : "吾王有命！杀死这个斯巴达人的勇士可以……",
+            "localIdx" : 0,
+            "soundId"  : 0,
+            "type"     : 0,
+            "time"     : 10
+        },
+        {
+            "__type" : "StoryTalkCfg",
+            "roleId" : "beiqiunvzi",
+            "content" : "斯巴达魔鬼，快下地狱吧！",
+            "localIdx" : 1,
+            "soundId"  : 0,
+            "type"     : 0,
+            "time"     : 10
+        }
+    ]
+}

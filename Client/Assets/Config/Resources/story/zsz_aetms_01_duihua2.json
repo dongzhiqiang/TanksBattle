@@ -1,0 +1,24 @@
+﻿
+{
+    "storyList" : [
+        {
+            "__type" : "StoryTalkCfg",
+            "roleId" : "xiaohei",
+            "content" : "阿尔忒弥斯心胸狭隘，报复心强！她竟引来狼群企图残害我们！",
+            "localIdx" : 0,
+            "soundId"  : 0,
+            "type"     : 0,
+            "time"     : 4
+        },
+        {
+            "__type" : "StoryTalkCfg",
+            "roleId" : "xiaohei",
+            "content" : "为了我们的子民，我们要举起手中的武器，驱逐饿狼，保卫家园！",
+            "localIdx" : 0,
+            "soundId"  : 0,
+            "type"     : 0,
+            "time"     : 4
+        }
+    ],
+    "canSpeed"  : true
+}

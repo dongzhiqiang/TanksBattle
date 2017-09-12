@@ -1,0 +1,24 @@
+﻿
+{
+    "storyList" : [
+        {
+            "__type" : "StoryTalkCfg",
+            "roleId" : "meidiya",
+            "content" : "伊阿宋拿到了金羊毛，惹恼了我的父亲，父亲下令将伊阿宋困在山路上，可怜的伊阿宋正与那只萨提尔殊死搏斗……",
+            "localIdx" : 0,
+            "soundId"  : 0,
+            "type"     : 0,
+            "time"     : 5
+        },
+        {
+            "__type" : "StoryTalkCfg",
+            "roleId" : "meidiya",
+            "content" : "我定要尽全力消灭这些挡路的亡灵军团，杀了萨提尔，救出亲爱的伊阿宋……",
+            "localIdx" : 0,
+            "soundId"  : 0,
+            "type"     : 0,
+            "time"     : 4
+        }
+    ],
+    "canSpeed"  : true
+}

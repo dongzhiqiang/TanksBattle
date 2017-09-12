@@ -1,0 +1,33 @@
+﻿
+{
+    "storyList" : [
+        {
+            "__type" : "StoryTalkCfg",
+            "roleId" : "manwang",
+            "content" : "可怜的斯巴达人，就这么想成为我的刀下亡魂吗？",
+            "localIdx" : 0,
+            "soundId"  : 0,
+            "type"     : 0,
+            "time"     : 4
+        },
+        {
+            "__type" : "StoryTalkCfg",
+            "roleId" : "kratos",
+            "content" : "薛西斯，你掳我妻女，杀我百姓，今日我必杀你以慰我斯巴达人民的在天之灵！",
+            "localIdx" : 1,
+            "soundId"  : 0,
+            "type"     : 0,
+            "time"     : 6
+        },
+        {
+            "__type" : "StoryTalkCfg",
+            "roleId" : "manwang",
+            "content" : "想杀我？哈哈哈！我受诸神之庇佑，数千万臣民在我脚下颤抖。斯巴达人，若不臣服于我，那你就去死吧！",
+            "localIdx" : 0,
+            "soundId"  : 0,
+            "type"     : 0,
+            "time"     : 8
+        }
+    ],
+    "canSpeed"  : true
+}

@@ -1,0 +1,15 @@
+﻿
+{
+    "storyList" : [
+        {
+            "__type" : "StoryMovieCfg",
+            "movieId" : "guochang_hd_zhiaishouhu_ain",
+            "prefab"  : "guochang_hd_zhiaishouhu",
+            "isLoop"  : false,
+            "soundId" : 0,
+            "type"    : 1,
+            "time"    : 0
+        }
+    ],
+    "canSpeed"  : true
+}

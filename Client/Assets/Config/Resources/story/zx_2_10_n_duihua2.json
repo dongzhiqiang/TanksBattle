@@ -1,0 +1,33 @@
+﻿
+{
+    "storyList" : [
+        {
+            "__type" : "StoryTalkCfg",
+            "roleId" : "fuchounvshen",
+            "content" : "[主角]，你违背了对阿瑞斯的誓言！身为誓言守护者的我必须制裁你！",
+            "localIdx" : 1,
+            "soundId"  : 0,
+            "type"     : 0,
+            "time"     : 5
+        },
+        {
+            "__type" : "StoryTalkCfg",
+            "roleId" : "kratos",
+            "content" : "阿瑞斯杀我妻女，令我坠入痛苦深渊，我将不再遵守我的誓言！",
+            "localIdx" : 0,
+            "soundId"  : 0,
+            "type"     : 0,
+            "time"     : 5
+        },
+        {
+            "__type" : "StoryTalkCfg",
+            "roleId" : "fuchounvshen",
+            "content" : "可耻的背叛者，你到塔耳塔洛斯去好好反省吧！",
+            "localIdx" : 1,
+            "soundId"  : 0,
+            "type"     : 0,
+            "time"     : 5
+        }
+    ],
+    "canSpeed"  : true
+}

@@ -1,0 +1,60 @@
+﻿
+{
+    "storyList" : [
+        {
+            "__type" : "StoryTalkCfg",
+            "roleId" : "kratos",
+            "content" : "雅典娜，你怎么在这里？",
+            "localIdx" : 1,
+            "soundId"  : 0,
+            "type"     : 0,
+            "time"     : 2
+        },
+        {
+            "__type" : "StoryTalkCfg",
+            "roleId" : "yadianna",
+            "content" : "[主角]，你的不幸我已知晓。若你想寻求解脱，德尔斐神庙可以帮助你。",
+            "localIdx" : 0,
+            "soundId"  : 0,
+            "type"     : 0,
+            "time"     : 4
+        },
+        {
+            "__type" : "StoryTalkCfg",
+            "roleId" : "kratos",
+            "content" : "德尔斐神庙？",
+            "localIdx" : 1,
+            "soundId"  : 0,
+            "type"     : 0,
+            "time"     : 1
+        },
+        {
+            "__type" : "StoryTalkCfg",
+            "roleId" : "yadianna",
+            "content" : "德尔斐神庙的预言者会指引你。但是你需要帮助预言者杀死他的敌人——复仇女神厄里倪厄斯。",
+            "localIdx" : 0,
+            "soundId"  : 0,
+            "type"     : 0,
+            "time"     : 5
+        },
+        {
+            "__type" : "StoryTalkCfg",
+            "roleId" : "kratos",
+            "content" : "那个阿瑞斯的走狗！我绝不放过她！",
+            "localIdx" : 1,
+            "soundId"  : 0,
+            "type"     : 0,
+            "time"     : 3
+        },
+        {
+            "__type" : "StoryTalkCfg",
+            "roleId" : "yadianna",
+            "content" : "[主角]，我很期待你的表现……",
+            "localIdx" : 0,
+            "soundId"  : 0,
+            "type"     : 0,
+            "time"     : 2
+        }
+    ],
+    "canSpeed"  : true
+}

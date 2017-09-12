@@ -1,0 +1,34 @@
+﻿
+{
+    "__type" : "BigQteCfg",
+    "Name"   : "qte1",
+    "Duration" : 8.0,
+    "stages"   : [
+        {
+            "idx" : 0,
+            "winInfo" : {
+                "duration" : 3.76515746116638,
+                "events"   : [
+                    {
+                        "m_objType" : 0,
+                        "aniName"   : "5lianji03",
+                        "wrapMode"  : 4,
+                        "m_type"    : 1,
+                        "startTime" : 0.381940007209778,
+                        "duration"  : 3.27988052368164
+                    }
+                ]
+            },
+            "loseInfo" : null
+        },
+        {
+            "idx" : 1,
+            "winInfo" : {
+                "duration" : 0.990910470485687,
+                "events"   : [
+                ]
+            },
+            "loseInfo" : null
+        }
+    ]
+}

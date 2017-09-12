@@ -1,0 +1,778 @@
+﻿
+{
+    "sceneName" : "zsz_mdy_01",
+    "mRefGroupList" : [
+        {
+            "refreshType" : 0,
+            "Points"      : [
+                {
+                    "pos" : {
+                        "x" : -161.561874389648,
+                        "y" : 1.27972388267517,
+                        "z" : -15.36803150177
+                    },
+                    "dir" : {
+                        "x" : 0.0,
+                        "y" : 392.399993896484,
+                        "z" : 0.0
+                    },
+                    "camp" : 8,
+                    "buffId" : 0,
+                    "roleId" : "npc_heiannvshen",
+                    "pointFlag" : "mdy-1",
+                    "bornDelay" : 0.0,
+                    "ai"        : "-1",
+                    "bornTypeId" : "wuchusheng",
+                    "deadTypeId" : "",
+                    "groundDeadTypeId" : "",
+                    "isShowBloodBar"   : 0,
+                    "isShowFriendBloodBar" : 0,
+                    "isShowTargetBar"      : 0,
+                    "pathfindingList"      : [
+                    ],
+                    "boxAddNum"            : 0,
+                    "boxAddType"           : 0,
+                    "boxBuffId"            : 0,
+                    "hate"                 : {
+                        "hateIfHit" : 0,
+                        "hateIfBeHit" : 0,
+                        "hateIfRefGroup" : [
+                        ],
+                        "hateIfChange"   : 0,
+                        "behateIfBegin"  : 0
+                    }
+                }
+            ],
+            "groupFlag"   : "mdy",
+            "nextGroupFlag" : "",
+            "nextWaveDelay" : 0,
+            "delayTime"     : 0.0,
+            "refreshNum"    : 1,
+            "pointNum"      : 1
+        },
+        {
+            "refreshType" : 0,
+            "Points"      : [
+                {
+                    "pos" : {
+                        "x" : -190.03450012207,
+                        "y" : 1.44330096244812,
+                        "z" : -12.6343173980713
+                    },
+                    "dir" : {
+                        "x" : 0.0,
+                        "y" : 55.0,
+                        "z" : 0.0
+                    },
+                    "camp" : 1,
+                    "buffId" : 3024,
+                    "roleId" : "zsz_mdy_01_niutou",
+                    "pointFlag" : "boss1-1",
+                    "bornDelay" : 0.0,
+                    "ai"        : "ai_zsz_niutou:众神传牛头AI1",
+                    "bornTypeId" : "zsz_niutou",
+                    "deadTypeId" : "jy_01dead",
+                    "groundDeadTypeId" : "",
+                    "isShowBloodBar"   : 0,
+                    "isShowFriendBloodBar" : 0,
+                    "isShowTargetBar"      : 0,
+                    "pathfindingList"      : [
+                    ],
+                    "boxAddNum"            : 0,
+                    "boxAddType"           : 0,
+                    "boxBuffId"            : 0,
+                    "hate"                 : {
+                        "hateIfHit" : 0,
+                        "hateIfBeHit" : 0,
+                        "hateIfRefGroup" : [
+                        ],
+                        "hateIfChange"   : 0,
+                        "behateIfBegin"  : 0
+                    }
+                }
+            ],
+            "groupFlag"   : "boss1",
+            "nextGroupFlag" : "",
+            "nextWaveDelay" : 0,
+            "delayTime"     : 0.0,
+            "refreshNum"    : 1,
+            "pointNum"      : 1
+        },
+        {
+            "refreshType" : 0,
+            "Points"      : [
+                {
+                    "pos" : {
+                        "x" : -190.03450012207,
+                        "y" : 1.44330179691315,
+                        "z" : -5.8298134803772
+                    },
+                    "dir" : {
+                        "x" : 0.0,
+                        "y" : 105.0,
+                        "z" : 0.0
+                    },
+                    "camp" : 1,
+                    "buffId" : 3028,
+                    "roleId" : "zsz_mdy_01_niutou",
+                    "pointFlag" : "boss2-1",
+                    "bornDelay" : 0.0,
+                    "ai"        : "ai_zsz_niutou:众神传牛头AI2",
+                    "bornTypeId" : "zsz_niutou",
+                    "deadTypeId" : "jy_01dead",
+                    "groundDeadTypeId" : "",
+                    "isShowBloodBar"   : 0,
+                    "isShowFriendBloodBar" : 0,
+                    "isShowTargetBar"      : 0,
+                    "pathfindingList"      : [
+                    ],
+                    "boxAddNum"            : 0,
+                    "boxAddType"           : 0,
+                    "boxBuffId"            : 0,
+                    "hate"                 : {
+                        "hateIfHit" : 0,
+                        "hateIfBeHit" : 0,
+                        "hateIfRefGroup" : [
+                        ],
+                        "hateIfChange"   : 0,
+                        "behateIfBegin"  : 0
+                    }
+                }
+            ],
+            "groupFlag"   : "boss2",
+            "nextGroupFlag" : "",
+            "nextWaveDelay" : 0,
+            "delayTime"     : 0.0,
+            "refreshNum"    : 1,
+            "pointNum"      : 1
+        }
+    ],
+    "mBornList"     : [
+        {
+            "mPosition" : {
+                "x" : -154.876220703125,
+                "y" : 1.27972424030304,
+                "z" : -7.59495067596436
+            },
+            "mEulerAngles" : {
+                "x" : 0.0,
+                "y" : 244.387802124023,
+                "z" : 0.0
+            },
+            "mBornTypeId"  : "herobegin",
+            "mDeadTypeId"  : "herodead",
+            "mGroundDeadTypeId" : "",
+            "hate"              : {
+                "hateIfHit" : 0,
+                "hateIfBeHit" : 0,
+                "hateIfRefGroup" : [
+                ],
+                "hateIfChange"   : 0,
+                "behateIfBegin"  : 0
+            },
+            "mPet1Position"     : {
+                "x" : 0.0,
+                "y" : 0.0,
+                "z" : 0.0
+            },
+            "mPet1EulerAngles"  : {
+                "x" : 1.0,
+                "y" : 1.0,
+                "z" : 1.0
+            },
+            "mPet1BornTypeId"   : "",
+            "mPet1DeadTypeId"   : "",
+            "mPet1GroundDeadTypeId" : "",
+            "pet1hate"              : {
+                "hateIfHit" : 0,
+                "hateIfBeHit" : 0,
+                "hateIfRefGroup" : [
+                ],
+                "hateIfChange"   : 0,
+                "behateIfBegin"  : 0
+            },
+            "mPet2Position"         : {
+                "x" : 0.0,
+                "y" : 0.0,
+                "z" : 0.0
+            },
+            "mPet2EulerAngles"      : {
+                "x" : 1.0,
+                "y" : 1.0,
+                "z" : 1.0
+            },
+            "mPet2BornTypeId"       : "",
+            "mPet2DeadTypeId"       : "",
+            "mPet2GroundDeadTypeId" : "",
+            "pet2hate"              : {
+                "hateIfHit" : 0,
+                "hateIfBeHit" : 0,
+                "hateIfRefGroup" : [
+                ],
+                "hateIfChange"   : 0,
+                "behateIfBegin"  : 0
+            }
+        }
+    ],
+    "mCheckList"    : [
+        {
+            "triggerType" : 0,
+            "triggerNum"  : 1,
+            "triggerTimes" : 1,
+            "checkFlag"    : "born",
+            "eventCfgList" : [
+                {
+                    "eveType" : 0,
+                    "content" : "\n{\n    \"__type\" : \"EventCfg_StartLevel\"\n}"
+                }
+            ],
+            "actionCfgList" : [
+                {
+                    "eveType" : 6,
+                    "content" : "\n{\n    \"__type\" : \"ActionCfg_ActivateDangban\",\n    \"flagId\" : \"Dangban1\",\n    \"_idx\"   : 0,\n    \"_delay\" : 0.0\n}"
+                },
+                {
+                    "eveType" : 6,
+                    "content" : "\n{\n    \"__type\" : \"ActionCfg_ActivateDangban\",\n    \"flagId\" : \"Dangban2\",\n    \"_idx\"   : 1,\n    \"_delay\" : 0.0\n}"
+                },
+                {
+                    "eveType" : 2,
+                    "content" : "\n{\n    \"__type\" : \"ActionCfg_ActivateRefresh\",\n    \"refreshID\" : \"mdy\",\n    \"_idx\"      : 2,\n    \"_delay\"    : 0.0\n}"
+                },
+                {
+                    "eveType" : 5,
+                    "content" : "\n{\n    \"__type\" : \"ActionCfg_CreateHero\",\n    \"changeCam\" : null,\n    \"_idx\"      : 3,\n    \"_delay\"    : 0.0\n}"
+                },
+                {
+                    "eveType" : 8,
+                    "content" : "\n{\n    \"__type\" : \"ActionCfg_ShowDir\",\n    \"findPos\" : {\n        \"x\" : -160.861251831055,\n        \"y\" : 1.27972340583801,\n        \"z\" : -14.5473690032959\n    },\n    \"_idx\"    : 4,\n    \"_delay\"  : 1.0\n}"
+                },
+                {
+                    "eveType" : 29,
+                    "content" : "\n{\n    \"__type\" : \"ActionCfg_ShowTips\",\n    \"desc\"   : \"与美狄亚对话\",\n    \"_idx\"   : 5,\n    \"_delay\" : 0.0\n}"
+                }
+            ]
+        },
+        {
+            "triggerType" : 0,
+            "triggerNum"  : 1,
+            "triggerTimes" : 1,
+            "checkFlag"    : "1_1",
+            "eventCfgList" : [
+                {
+                    "eveType" : 4,
+                    "content" : "\n{\n    \"__type\" : \"EventCfg_Area\",\n    \"areaFlag\" : \"Area3\",\n    \"bEnter\"   : true,\n    \"bHaveHero\" : true,\n    \"NpcIdList\" : \"\",\n    \"timeNum\"   : 0\n}"
+                }
+            ],
+            "actionCfgList" : [
+                {
+                    "eveType" : 30,
+                    "content" : "\n{\n    \"__type\" : \"ActionCfg_HideTips\",\n    \"_idx\"   : 0,\n    \"_delay\" : 0.0\n}"
+                },
+                {
+                    "eveType" : 9,
+                    "content" : "\n{\n    \"__type\" : \"ActionCfg_HideDir\",\n    \"_idx\"   : 1,\n    \"_delay\" : 0.0\n}"
+                },
+                {
+                    "eveType" : 17,
+                    "content" : "\n{\n    \"__type\" : \"ActionCfg_Camera\",\n    \"cameraFlag\" : \"mdy\",\n    \"_idx\"       : 2,\n    \"_delay\"     : 0.0\n}"
+                },
+                {
+                    "eveType" : 10,
+                    "content" : "\n{\n    \"__type\" : \"ActionCfg_Story\",\n    \"storyId\" : \"zsz_mdy_01_duihua1\",\n    \"_idx\"    : 3,\n    \"_delay\"  : 0.200000002980232\n}"
+                },
+                {
+                    "eveType" : 33,
+                    "content" : "\n{\n    \"__type\" : \"ActionCfg_ChangeAI\",\n    \"groupId\" : \"mdy-1\",\n    \"ai\"      : \"ai_npc_heiannvshen:美狄亚寻路AI\",\n    \"_idx\"    : 4,\n    \"_delay\"  : 0.5\n}"
+                },
+                {
+                    "eveType" : 7,
+                    "content" : "\n{\n    \"__type\" : \"ActionCfg_HideDangban\",\n    \"flagId\" : \"Dangban2\",\n    \"_idx\"   : 5,\n    \"_delay\" : 3.0\n}"
+                },
+                {
+                    "eveType" : 27,
+                    "content" : "\n{\n    \"__type\" : \"ActionCfg_ShowIdea\",\n    \"desc\"   : \"这两头弥诺陶洛斯一心同体，请千万小心！\",\n    \"_idx\"   : 6,\n    \"_delay\" : 0.0\n}"
+                },
+                {
+                    "eveType" : 8,
+                    "content" : "\n{\n    \"__type\" : \"ActionCfg_ShowDir\",\n    \"findPos\" : {\n        \"x\" : -176.457870483398,\n        \"y\" : 1.3236448764801,\n        \"z\" : -7.66133451461792\n    },\n    \"_idx\"    : 7,\n    \"_delay\"  : 0.0\n}"
+                },
+                {
+                    "eveType" : 28,
+                    "content" : "\n{\n    \"__type\" : \"ActionCfg_HideIdea\",\n    \"_idx\"   : 8,\n    \"_delay\" : 4.0\n}"
+                }
+            ]
+        },
+        {
+            "triggerType" : 0,
+            "triggerNum"  : 1,
+            "triggerTimes" : 1,
+            "checkFlag"    : "2_1",
+            "eventCfgList" : [
+                {
+                    "eveType" : 4,
+                    "content" : "\n{\n    \"__type\" : \"EventCfg_Area\",\n    \"areaFlag\" : \"Area4\",\n    \"bEnter\"   : true,\n    \"bHaveHero\" : true,\n    \"NpcIdList\" : \"\",\n    \"timeNum\"   : 0\n}"
+                }
+            ],
+            "actionCfgList" : [
+                {
+                    "eveType" : 9,
+                    "content" : "\n{\n    \"__type\" : \"ActionCfg_HideDir\",\n    \"_idx\"   : 0,\n    \"_delay\" : 0.0\n}"
+                },
+                {
+                    "eveType" : 6,
+                    "content" : "\n{\n    \"__type\" : \"ActionCfg_ActivateDangban\",\n    \"flagId\" : \"Dangban2\",\n    \"_idx\"   : 1,\n    \"_delay\" : 0.0\n}"
+                },
+                {
+                    "eveType" : 28,
+                    "content" : "\n{\n    \"__type\" : \"ActionCfg_HideIdea\",\n    \"_idx\"   : 2,\n    \"_delay\" : 0.0\n}"
+                },
+                {
+                    "eveType" : 17,
+                    "content" : "\n{\n    \"__type\" : \"ActionCfg_Camera\",\n    \"cameraFlag\" : \"boss\",\n    \"_idx\"       : 3,\n    \"_delay\"     : 0.0\n}"
+                },
+                {
+                    "eveType" : 2,
+                    "content" : "\n{\n    \"__type\" : \"ActionCfg_ActivateRefresh\",\n    \"refreshID\" : \"boss1\",\n    \"_idx\"      : 4,\n    \"_delay\"    : 0.300000011920929\n}"
+                },
+                {
+                    "eveType" : 2,
+                    "content" : "\n{\n    \"__type\" : \"ActionCfg_ActivateRefresh\",\n    \"refreshID\" : \"boss2\",\n    \"_idx\"      : 5,\n    \"_delay\"    : 0.0\n}"
+                },
+                {
+                    "eveType" : 38,
+                    "content" : "\n{\n    \"__type\" : \"ActionCfg_KillMonster\",\n    \"bHaveHero\" : false,\n    \"flagIds\"   : \"mdy-1\",\n    \"bHeroKill\" : false,\n    \"_idx\"      : 6,\n    \"_delay\"    : 0.0\n}"
+                },
+                {
+                    "eveType" : 29,
+                    "content" : "\n{\n    \"__type\" : \"ActionCfg_ShowTips\",\n    \"desc\"   : \"击败两头弥诺陶洛斯\",\n    \"_idx\"   : 7,\n    \"_delay\" : 4.0\n}"
+                }
+            ]
+        },
+        {
+            "triggerType" : 0,
+            "triggerNum"  : 1,
+            "triggerTimes" : 99,
+            "checkFlag"    : "3_1",
+            "eventCfgList" : [
+                {
+                    "eveType" : 12,
+                    "content" : "\n{\n    \"__type\" : \"EventCfg_None\"\n}"
+                }
+            ],
+            "actionCfgList" : [
+                {
+                    "eveType" : 30,
+                    "content" : "\n{\n    \"__type\" : \"ActionCfg_HideTips\",\n    \"_idx\"   : 0,\n    \"_delay\" : 0.0\n}"
+                },
+                {
+                    "eveType" : 33,
+                    "content" : "\n{\n    \"__type\" : \"ActionCfg_ChangeAI\",\n    \"groupId\" : \"boss1-1\",\n    \"ai\"      : \"ai_zsz_niutou:众神传牛复活AI\",\n    \"_idx\"    : 1,\n    \"_delay\"  : 0.0\n}"
+                },
+                {
+                    "eveType" : 33,
+                    "content" : "\n{\n    \"__type\" : \"ActionCfg_ChangeAI\",\n    \"groupId\" : \"boss2-1\",\n    \"ai\"      : \"ai_zsz_niutou:众神传牛头救人AI\",\n    \"_idx\"    : 2,\n    \"_delay\"  : 3.0\n}"
+                },
+                {
+                    "eveType" : 29,
+                    "content" : "\n{\n    \"__type\" : \"ActionCfg_ShowTips\",\n    \"desc\"   : \"弥诺陶洛斯开始复活同伴，快消灭他！\",\n    \"_idx\"   : 3,\n    \"_delay\" : 0.0\n}"
+                },
+                {
+                    "eveType" : 30,
+                    "content" : "\n{\n    \"__type\" : \"ActionCfg_HideTips\",\n    \"_idx\"   : 4,\n    \"_delay\" : 5.0\n}"
+                },
+                {
+                    "eveType" : 29,
+                    "content" : "\n{\n    \"__type\" : \"ActionCfg_ShowTips\",\n    \"desc\"   : \"弥诺陶洛斯被复活！\",\n    \"_idx\"   : 5,\n    \"_delay\" : 0.100000001490116\n}"
+                },
+                {
+                    "eveType" : 33,
+                    "content" : "\n{\n    \"__type\" : \"ActionCfg_ChangeAI\",\n    \"groupId\" : \"boss2-1\",\n    \"ai\"      : \"ai_zsz_niutou:众神传牛头AI2\",\n    \"_idx\"    : 6,\n    \"_delay\"  : 0.0\n}"
+                },
+                {
+                    "eveType" : 11,
+                    "content" : "\n{\n    \"__type\" : \"ActionCfg_Buff\",\n    \"bHaveHero\" : false,\n    \"FlagList\"  : \"boss1-1\",\n    \"buffId\"    : 3023,\n    \"_idx\"      : 7,\n    \"_delay\"    : 0.0\n}"
+                },
+                {
+                    "eveType" : 33,
+                    "content" : "\n{\n    \"__type\" : \"ActionCfg_ChangeAI\",\n    \"groupId\" : \"boss1-1\",\n    \"ai\"      : \"ai_zsz_niutou:众神传牛头AI1\",\n    \"_idx\"    : 8,\n    \"_delay\"  : 1.0\n}"
+                },
+                {
+                    "eveType" : 32,
+                    "content" : "\n{\n    \"__type\" : \"ActionCfg_BuffRemove\",\n    \"bHaveHero\" : false,\n    \"FlagList\"  : \"boss1-1\",\n    \"buffId\"    : 3026,\n    \"_idx\"      : 9,\n    \"_delay\"    : 0.0\n}"
+                },
+                {
+                    "eveType" : 30,
+                    "content" : "\n{\n    \"__type\" : \"ActionCfg_HideTips\",\n    \"_idx\"   : 10,\n    \"_delay\" : 3.0\n}"
+                }
+            ]
+        },
+        {
+            "triggerType" : 0,
+            "triggerNum"  : 1,
+            "triggerTimes" : 99,
+            "checkFlag"    : "3_2",
+            "eventCfgList" : [
+                {
+                    "eveType" : 12,
+                    "content" : "\n{\n    \"__type\" : \"EventCfg_None\"\n}"
+                }
+            ],
+            "actionCfgList" : [
+                {
+                    "eveType" : 30,
+                    "content" : "\n{\n    \"__type\" : \"ActionCfg_HideTips\",\n    \"_idx\"   : 0,\n    \"_delay\" : 0.0\n}"
+                },
+                {
+                    "eveType" : 33,
+                    "content" : "\n{\n    \"__type\" : \"ActionCfg_ChangeAI\",\n    \"groupId\" : \"boss2-1\",\n    \"ai\"      : \"ai_zsz_niutou:众神传牛复活AI\",\n    \"_idx\"    : 1,\n    \"_delay\"  : 0.0\n}"
+                },
+                {
+                    "eveType" : 33,
+                    "content" : "\n{\n    \"__type\" : \"ActionCfg_ChangeAI\",\n    \"groupId\" : \"boss1-1\",\n    \"ai\"      : \"ai_zsz_niutou:众神传牛头救人AI\",\n    \"_idx\"    : 2,\n    \"_delay\"  : 3.0\n}"
+                },
+                {
+                    "eveType" : 29,
+                    "content" : "\n{\n    \"__type\" : \"ActionCfg_ShowTips\",\n    \"desc\"   : \"弥诺陶洛斯开始复活同伴，快消灭他！\",\n    \"_idx\"   : 3,\n    \"_delay\" : 0.0\n}"
+                },
+                {
+                    "eveType" : 30,
+                    "content" : "\n{\n    \"__type\" : \"ActionCfg_HideTips\",\n    \"_idx\"   : 4,\n    \"_delay\" : 5.0\n}"
+                },
+                {
+                    "eveType" : 29,
+                    "content" : "\n{\n    \"__type\" : \"ActionCfg_ShowTips\",\n    \"desc\"   : \"弥诺陶洛斯被复活\",\n    \"_idx\"   : 5,\n    \"_delay\" : 0.100000001490116\n}"
+                },
+                {
+                    "eveType" : 33,
+                    "content" : "\n{\n    \"__type\" : \"ActionCfg_ChangeAI\",\n    \"groupId\" : \"boss1-1\",\n    \"ai\"      : \"ai_zsz_niutou:众神传牛头AI1\",\n    \"_idx\"    : 6,\n    \"_delay\"  : 0.0\n}"
+                },
+                {
+                    "eveType" : 11,
+                    "content" : "\n{\n    \"__type\" : \"ActionCfg_Buff\",\n    \"bHaveHero\" : false,\n    \"FlagList\"  : \"boss2-1\",\n    \"buffId\"    : 3023,\n    \"_idx\"      : 7,\n    \"_delay\"    : 0.0\n}"
+                },
+                {
+                    "eveType" : 33,
+                    "content" : "\n{\n    \"__type\" : \"ActionCfg_ChangeAI\",\n    \"groupId\" : \"boss2-1\",\n    \"ai\"      : \"ai_zsz_niutou:众神传牛头AI2\",\n    \"_idx\"    : 8,\n    \"_delay\"  : 1.0\n}"
+                },
+                {
+                    "eveType" : 32,
+                    "content" : "\n{\n    \"__type\" : \"ActionCfg_BuffRemove\",\n    \"bHaveHero\" : false,\n    \"FlagList\"  : \"boss2-1\",\n    \"buffId\"    : 3030,\n    \"_idx\"      : 9,\n    \"_delay\"    : 0.0\n}"
+                },
+                {
+                    "eveType" : 30,
+                    "content" : "\n{\n    \"__type\" : \"ActionCfg_HideTips\",\n    \"_idx\"   : 10,\n    \"_delay\" : 3.0\n}"
+                }
+            ]
+        },
+        {
+            "triggerType" : 0,
+            "triggerNum"  : 1,
+            "triggerTimes" : 1,
+            "checkFlag"    : "win",
+            "eventCfgList" : [
+                {
+                    "eveType" : 12,
+                    "content" : "\n{\n    \"__type\" : \"EventCfg_None\"\n}"
+                }
+            ],
+            "actionCfgList" : [
+                {
+                    "eveType" : 41,
+                    "content" : "\n{\n    \"__type\" : \"ActionCfg_RemoveEvent\",\n    \"eventId\" : \"lose\",\n    \"_idx\"    : 0,\n    \"_delay\"  : 0.0\n}"
+                },
+                {
+                    "eveType" : 38,
+                    "content" : "\n{\n    \"__type\" : \"ActionCfg_KillMonster\",\n    \"bHaveHero\" : false,\n    \"flagIds\"   : \"boss1-1,boss2-1\",\n    \"bHeroKill\" : true,\n    \"_idx\"      : 1,\n    \"_delay\"    : 0.0\n}"
+                },
+                {
+                    "eveType" : 30,
+                    "content" : "\n{\n    \"__type\" : \"ActionCfg_HideTips\",\n    \"_idx\"   : 2,\n    \"_delay\" : 0.0\n}"
+                },
+                {
+                    "eveType" : 29,
+                    "content" : "\n{\n    \"__type\" : \"ActionCfg_ShowTips\",\n    \"desc\"   : \"成功驯服弥诺陶洛斯！\",\n    \"_idx\"   : 3,\n    \"_delay\" : 0.100000001490116\n}"
+                },
+                {
+                    "eveType" : 17,
+                    "content" : "\n{\n    \"__type\" : \"ActionCfg_Camera\",\n    \"cameraFlag\" : \"win\",\n    \"_idx\"       : 4,\n    \"_delay\"     : 0.0\n}"
+                },
+                {
+                    "eveType" : 34,
+                    "content" : "\n{\n    \"__type\" : \"ActionCfg_TimeScale\",\n    \"ratio\"  : 0.25,\n    \"duration\" : 3.0,\n    \"_idx\"     : 5,\n    \"_delay\"   : 0.0\n}"
+                },
+                {
+                    "eveType" : 31,
+                    "content" : "\n{\n    \"__type\" : \"ActionCfg_GlobalFly\",\n    \"flyer\"  : \"flyer_level_end\",\n    \"createCfg\" : {\n        \"name\" : \"fx_sphere\",\n        \"fireFx\" : \"\",\n        \"iceFx\"  : \"\",\n        \"thunderFx\" : \"\",\n        \"darkFx\"    : \"\",\n        \"durationFrame\" : -2,\n        \"dirType\"       : 1,\n        \"posType\"       : 0,\n        \"dirOffset\"     : 0.0,\n        \"posOffset\"     : {\n            \"x\" : 0.0,\n            \"y\" : 0.0,\n            \"z\" : 0.0\n        },\n        \"randomBegin\"   : 0.0,\n        \"randomEnd\"     : 0.0,\n        \"num\"           : 1,\n        \"multiDirOffset\" : 0.0,\n        \"multiPosOffset\" : {\n            \"x\" : 0.0,\n            \"y\" : 0.0,\n            \"z\" : 0.0\n        },\n        \"bone\"           : \"\",\n        \"follow\"         : true,\n        \"alignSourceY\"   : true\n    },\n    \"_idx\"      : 6,\n    \"_delay\"    : 0.200000002980232\n}"
+                },
+                {
+                    "eveType" : 3,
+                    "content" : "\n{\n    \"__type\" : \"ActionCfg_Win\",\n    \"_idx\"   : 7,\n    \"_delay\" : 0.0\n}"
+                }
+            ]
+        },
+        {
+            "triggerType" : 0,
+            "triggerNum"  : 1,
+            "triggerTimes" : 1,
+            "checkFlag"    : "lose",
+            "eventCfgList" : [
+                {
+                    "eveType" : 6,
+                    "content" : "\n{\n    \"__type\" : \"EventCfg_RoleDead\",\n    \"flagId\" : \"\",\n    \"bDeadStart\" : false\n}"
+                }
+            ],
+            "actionCfgList" : [
+                {
+                    "eveType" : 41,
+                    "content" : "\n{\n    \"__type\" : \"ActionCfg_RemoveEvent\",\n    \"eventId\" : \"win\",\n    \"_idx\"    : 0,\n    \"_delay\"  : 0.0\n}"
+                },
+                {
+                    "eveType" : 4,
+                    "content" : "\n{\n    \"__type\" : \"ActionCfg_Lose\",\n    \"_idx\"   : 1,\n    \"_delay\" : 0.0\n}"
+                }
+            ]
+        }
+    ],
+    "mAreaList"     : [
+        {
+            "bActivate" : true,
+            "areaFlag"  : "Dangban1",
+            "pos"       : {
+                "x" : -151.699996948242,
+                "y" : 1.27972340583801,
+                "z" : -8.80000019073486
+            },
+            "dir"       : {
+                "x" : 0.0,
+                "y" : 282.420013427734,
+                "z" : 0.0
+            },
+            "size"      : {
+                "x" : 1.20000004768372,
+                "y" : 1.0,
+                "z" : 1.0
+            },
+            "areaType"  : 1,
+            "dangbanType" : 2
+        },
+        {
+            "bActivate" : true,
+            "areaFlag"  : "Dangban2",
+            "pos"       : {
+                "x" : -169.610000610352,
+                "y" : 1.27972340583801,
+                "z" : -9.5
+            },
+            "dir"       : {
+                "x" : 0.0,
+                "y" : 178.669998168945,
+                "z" : 0.0
+            },
+            "size"      : {
+                "x" : 1.0,
+                "y" : 1.0,
+                "z" : 1.99000000953674
+            },
+            "areaType"  : 1,
+            "dangbanType" : 5
+        },
+        {
+            "bActivate" : true,
+            "areaFlag"  : "Area3",
+            "pos"       : {
+                "x" : -160.410003662109,
+                "y" : 1.27972340583801,
+                "z" : -14.1999998092651
+            },
+            "dir"       : {
+                "x" : 0.0,
+                "y" : 219.800048828125,
+                "z" : 0.0
+            },
+            "size"      : {
+                "x" : 5.0,
+                "y" : 3.0,
+                "z" : 4.0
+            },
+            "areaType"  : 0,
+            "dangbanType" : -1
+        },
+        {
+            "bActivate" : true,
+            "areaFlag"  : "Area4",
+            "pos"       : {
+                "x" : -177.639999389648,
+                "y" : 1.32364392280579,
+                "z" : -8.29841232299805
+            },
+            "dir"       : {
+                "x" : 0.0,
+                "y" : 90.0,
+                "z" : 0.0
+            },
+            "size"      : {
+                "x" : 39.5,
+                "y" : 3.0,
+                "z" : 6.19999980926514
+            },
+            "areaType"  : 0,
+            "dangbanType" : -1
+        }
+    ],
+    "mCameraList"   : [
+        {
+            "cameraFlag" : "mdy",
+            "cameraList" : [
+                {
+                    "groupId" : "mdy",
+                    "pointId" : "mdy-1",
+                    "roleId"  : "",
+                    "offset"  : {
+                        "x" : 1.0,
+                        "y" : 0.0,
+                        "z" : 1.0
+                    },
+                    "verticalAngle" : 20.0,
+                    "horizontalAngle" : 120.0,
+                    "fov"             : -1.0,
+                    "distance"        : 5.0,
+                    "moveTime"        : 0.200000002980232,
+                    "stayTime"        : 12.0,
+                    "overDuration"    : 0.5,
+                    "accSpeed"        : 0.0,
+                    "decSpeed"        : 0.0,
+                    "maxSpeed"        : 0.0
+                }
+            ]
+        },
+        {
+            "cameraFlag" : "boss",
+            "cameraList" : [
+                {
+                    "groupId" : "boss1",
+                    "pointId" : "boss1-1",
+                    "roleId"  : "",
+                    "offset"  : {
+                        "x" : 0.0,
+                        "y" : 0.0,
+                        "z" : 0.0
+                    },
+                    "verticalAngle" : 20.0,
+                    "horizontalAngle" : 250.0,
+                    "fov"             : -1.0,
+                    "distance"        : 4.0,
+                    "moveTime"        : 0.200000002980232,
+                    "stayTime"        : 0.699999988079071,
+                    "overDuration"    : 0.5,
+                    "accSpeed"        : 0.0,
+                    "decSpeed"        : 0.0,
+                    "maxSpeed"        : 0.0
+                },
+                {
+                    "groupId" : "boss2",
+                    "pointId" : "boss2-1",
+                    "roleId"  : "",
+                    "offset"  : {
+                        "x" : 0.0,
+                        "y" : 0.0,
+                        "z" : 0.0
+                    },
+                    "verticalAngle" : 20.0,
+                    "horizontalAngle" : 280.0,
+                    "fov"             : -1.0,
+                    "distance"        : 4.0,
+                    "moveTime"        : 0.5,
+                    "stayTime"        : 0.699999988079071,
+                    "overDuration"    : 0.5,
+                    "accSpeed"        : 0.0,
+                    "decSpeed"        : 0.0,
+                    "maxSpeed"        : 0.0
+                },
+                {
+                    "groupId" : "boss1",
+                    "pointId" : "boss1-1",
+                    "roleId"  : "",
+                    "offset"  : {
+                        "x" : 0.0,
+                        "y" : 0.0,
+                        "z" : 4.0
+                    },
+                    "verticalAngle" : 20.0,
+                    "horizontalAngle" : 270.0,
+                    "fov"             : -1.0,
+                    "distance"        : 5.0,
+                    "moveTime"        : 0.5,
+                    "stayTime"        : 0.0500000007450581,
+                    "overDuration"    : 2.5,
+                    "accSpeed"        : 0.0,
+                    "decSpeed"        : 0.0,
+                    "maxSpeed"        : 0.0
+                },
+                {
+                    "groupId" : "boss1",
+                    "pointId" : "boss1-1",
+                    "roleId"  : "",
+                    "offset"  : {
+                        "x" : 0.0,
+                        "y" : 0.0,
+                        "z" : 4.0
+                    },
+                    "verticalAngle" : 20.0,
+                    "horizontalAngle" : 270.0,
+                    "fov"             : -1.0,
+                    "distance"        : 9.0,
+                    "moveTime"        : 2.5,
+                    "stayTime"        : 0.100000001490116,
+                    "overDuration"    : 0.200000002980232,
+                    "accSpeed"        : 0.0,
+                    "decSpeed"        : 0.0,
+                    "maxSpeed"        : 0.0
+                }
+            ]
+        },
+        {
+            "cameraFlag" : "win",
+            "cameraList" : [
+                {
+                    "groupId" : "",
+                    "pointId" : "",
+                    "roleId"  : "kratos",
+                    "offset"  : {
+                        "x" : 0.5,
+                        "y" : 0.0,
+                        "z" : 0.5
+                    },
+                    "verticalAngle" : 0.0,
+                    "horizontalAngle" : 130.0,
+                    "fov"             : -1.0,
+                    "distance"        : 5.0,
+                    "moveTime"        : 0.200000002980232,
+                    "stayTime"        : 2.0,
+                    "overDuration"    : 0.5,
+                    "accSpeed"        : 0.0,
+                    "decSpeed"        : 0.0,
+                    "maxSpeed"        : 0.0
+                }
+            ]
+        }
+    ],
+    "mStoryIdList"  : [
+        "zsz_mdy_01_duihua1"
+    ],
+    "mGroupIdList"  : [
+    ],
+    "mPoss"         : [
+        {
+            "name" : "mdy_1",
+            "ps"   : [
+                {
+                    "x" : -167.15983581543,
+                    "y" : 1.27972388267517,
+                    "z" : -8.68338584899902
+                }
+            ]
+        }
+    ],
+    "mShowWaveGroupId" : ""
+}

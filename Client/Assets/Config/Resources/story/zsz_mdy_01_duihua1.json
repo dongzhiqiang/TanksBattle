@@ -1,0 +1,33 @@
+﻿
+{
+    "storyList" : [
+        {
+            "__type" : "StoryTalkCfg",
+            "roleId" : "meidiya",
+            "content" : "自从在科尔喀斯见到了伊阿宋，我就深深的爱上了这个正直善良的忒萨利亚王子。",
+            "localIdx" : 0,
+            "soundId"  : 0,
+            "type"     : 0,
+            "time"     : 4
+        },
+        {
+            "__type" : "StoryTalkCfg",
+            "roleId" : "meidiya",
+            "content" : "可是我的父亲为了刁难他，竟让他带着那两头凶猛的弥诺陶洛斯犁地……",
+            "localIdx" : 0,
+            "soundId"  : 0,
+            "type"     : 0,
+            "time"     : 4
+        },
+        {
+            "__type" : "StoryTalkCfg",
+            "roleId" : "meidiya",
+            "content" : "勇士，我恳请你帮我制服这两头恶牛，拯救我的心上人，我会倾尽全力去报答你。",
+            "localIdx" : 0,
+            "soundId"  : 0,
+            "type"     : 0,
+            "time"     : 4
+        }
+    ],
+    "canSpeed"  : true
+}

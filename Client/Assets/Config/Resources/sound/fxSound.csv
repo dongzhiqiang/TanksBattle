@@ -1,0 +1,3 @@
+特效预制体名,对应音效id,销毁时停止声音
+mod,soundId,stopIfEnd
+fx_kratos_5lianji05_zadi,5,1

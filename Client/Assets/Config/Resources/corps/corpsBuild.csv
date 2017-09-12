@@ -1,0 +1,5 @@
+公会建设id,名称,开启VIP等级,每日个人次数,花费,个人可得贡献,公会可得建设度,名称图片资源
+id,name,openVipLv,dailyNum,cost,contri,corpsConstr,nameImg
+1,初级建设,0,1,1|20000,100,50,ui_zi_chujijianshe
+2,中级建设,0,1,2|50,600,300,ui_zi_zhongjijianshe
+3,高级建设,5,1,2|500,4000,2000,ui_zi_gaojijianshe

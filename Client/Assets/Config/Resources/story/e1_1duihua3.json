@@ -1,0 +1,13 @@
+﻿
+{
+    "storyList" : [
+        {
+            "__type" : "StoryTalkCfg",
+            "roleId" : "kratos",
+            "content" : "此处激活3个技能按钮和相关引导",
+            "localIdx" : 0,
+            "type"     : 0,
+            "time"     : 10
+        }
+    ]
+}

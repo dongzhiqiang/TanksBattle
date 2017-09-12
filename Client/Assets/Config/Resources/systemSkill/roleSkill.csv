@@ -1,0 +1,80 @@
+角色id,ID,名字,描述,简短描述,连击开启等级,升级消耗,开启宠物星级,铭文,战斗力系数
+roleId,id,name,description,briefDesc,comboLimit,levelCostId,needPetStar,talent,powerRate
+cw_1,gongji01,雷光之拳,宙斯运用雷电之力，快速打出数拳，对敌人造成大量伤害。,,,1000,1,,{skill:combat}
+cw_1,leiguangdan,球形闪电,宙斯放出两个球形闪电，闪电击中敌人后会继续对其造成数次伤害。,,,1000,1,,{skill:combat}
+cw_1,chongci,电幕冲撞,宙斯蓄满神力后快速向前冲刺，对被撞击的敌人造成伤害并将其击退。,,,1000,2,,{skill:combat}
+cw_1,zhaohuanfenshen,无所不在,万神之王宙斯拥有召唤分身的能力，分身可继承本体的全部技能，但自身较为脆弱。,,,1000,3,,{skill:combat}
+cw_2,gongji01,太阳神箭,阿波罗运用娴熟的射术，向目标射出一支火箭，对其造成伤害。,,,1000,1,,{skill:combat}
+cw_2,huoyanshengjian,灼热之箭,阿波罗向前方域射出一支火箭，命中敌人后产生爆炸并造成范围伤害。,,,1000,1,,{skill:combat}
+cw_2,duochongsheji,多重射击,阿波罗蓄力后向前方射出一支火箭，对火箭飞行路径上的所有目标造成伤害，并附加灼烧效果。,,,1000,2,,{skill:combat}
+cw_2,jianyuliuxing,箭雨流星,阿波罗向天空射出多枚箭矢，在目标区域落下大量如太阳光芒般闪耀的陨石。造成强大的范围伤害并附加灼烧效果。,,,1000,3,,{skill:combat}
+cw_3,yingxiong_kuangzhanshi_01,薛西斯普攻,薛西斯普攻,,,1000,1,,{skill:combat}
+cw_3,yingxiong_kuangzhanshi_1,薛西斯技能1,薛西斯技能1,,,1000,1,,{skill:combat}
+cw_3,yingxiong_kuangzhanshi_2,薛西斯技能2,薛西斯技能2,,,1000,2,,{skill:combat}
+cw_3,yingxiong_kuangzhanshi_3,薛西斯技能3,薛西斯技能3,,,1000,3,,{skill:combat}
+cw_4,gongji01,摄魂之抓,哈迪斯操纵带有黑暗力量的钩抓，释放出魔法波，对敌人造成数次伤害。,,,1000,1,,{skill:combat}
+cw_4,heianzhebi,死亡结界,哈迪斯召唤冥界亡魂的能量形成保护自己的结界，提高自身防御并对接近的敌人造成伤害。,,,1000,1,,{skill:combat}
+cw_4,shihunbaolie,死亡旋风,哈迪斯吞噬周围所有敌人的灵魂，对敌人造成伤害并减速，持续时间结束再次造成范围爆炸伤害。,,,1000,2,,{skill:combat}
+cw_4,sicongdichu01,地狱之门,哈迪斯钻入地下数秒后，在敌人脚下位置突然冲出地面，猛撞目标并造成范围伤害。,,,1000,3,,{skill:combat}
+cw_4,sicongdichu02,地狱之门,哈迪斯钻入地下数秒后，在敌人脚下位置突然冲出地面，猛撞目标并造成范围伤害。,,,1000,1,,{skill:combat}
+cw_4,sicongdichu03,地狱之门,哈迪斯钻入地下数秒后，在敌人脚下位置突然冲出地面，猛撞目标并造成范围伤害。,,,1000,2,,{skill:combat}
+cw_5,yingxiong_kuangzhanshi_01,薛西斯普攻,薛西斯普攻,,,1000,1,,{skill:combat}
+cw_5,yingxiong_kuangzhanshi_1,薛西斯技能1,薛西斯技能1,,,1000,1,,{skill:combat}
+cw_5,yingxiong_kuangzhanshi_2,薛西斯技能2,薛西斯技能2,,,1000,2,,{skill:combat}
+cw_5,yingxiong_kuangzhanshi_3,薛西斯技能3,薛西斯技能3,,,1000,3,,{skill:combat}
+cw_6,gongji01,大力神重拳,海格力斯运用天生神力，连出两记重拳，最后怒击地面，对敌人造成范围伤害。,,,1000,1,,{skill:combat}
+cw_6,jineng_juedoushiboji01,喀戎之怒,海格力斯得到人马贤者喀戎的传授，发起无敌的冲刺，对敌人造成伤害和眩晕效果，冲刺期间免疫控制技能，且可减免伤害。,,,1000,1,,{skill:combat}
+cw_6,jineng_didongshanyao,地裂山崩,愤怒的海格力斯运用强大的魔法，跳起后猛砸地面，向前方发出一道很宽的冲击波，对敌人造成伤害并嘲讽周围目标。,,,1000,2,,{skill:combat}
+cw_6,jineng_liliangjiefang,力量解放,海格力斯将全身力量解放出来，猛砸地面，在以砸地点为中心的圆形范围内连续喷出数次气流和光柱，造成强大的范围伤害。,,,1000,3,,{skill:combat}
+cw_7,yingxiong_kuangzhanshi_01,薛西斯普攻,薛西斯普攻,,,1000,1,,{skill:combat}
+cw_7,yingxiong_kuangzhanshi_1,薛西斯技能1,薛西斯技能1,,,1000,1,,{skill:combat}
+cw_7,yingxiong_kuangzhanshi_2,薛西斯技能2,薛西斯技能2,,,1000,2,,{skill:combat}
+cw_7,yingxiong_kuangzhanshi_3,薛西斯技能3,薛西斯技能3,,,1000,3,,{skill:combat}
+cw_8,gongji01,复仇梦魇,美狄亚释放出具有强烈复仇欲望的梦魇，对路径上的敌人造成伤害并有概率令其进入恐惧状态。,,,1000,1,,{skill:combat}
+cw_8,xianxuejidian,秘之祭典,美狄亚运用秘法，召唤幽魂治疗一个友方单位。,,,1000,1,,{skill:combat}
+cw_8,jineng_siwangchanrao,死亡缠绕,美狄亚召唤出择人而噬的凶魂，对敌人造成持续伤害并降低敌人的防御力。,,,1000,2,,{skill:combat}
+cw_8,jineng_mingjiedeguihuan,失序的幽魂,美狄亚放出混乱的白色幽魂，对敌人造成伤害并使其眩晕。,,,1000,3,,{skill:combat}
+cw_9,gongji01,海水群飞,海皇波塞冬运用魔法，召唤海水飞击敌人，对其造成伤害。,,,1000,1,,{skill:combat}
+cw_9,shufuxuanwo,束缚漩涡,波塞冬召唤出一个大漩涡，将敌人困在其中，对其造成伤害并附加眩晕效果。,,,1000,1,,{skill:combat}
+cw_9,shenjishanyao,神戟闪耀,波塞冬举起三叉戟，将强大的魔法力量赋予自己，在一定时间内给自己的技能附加水属性伤害。,,,1000,2,,{skill:combat}
+cw_9,haiyaoqiangxi,海妖强袭,波塞冬运用魔法，召唤出海妖，将敌人击倒后拖入水中，对其造成伤害。,,,1000,3,,{skill:combat}
+cw_10,gongji01,黑暗女神普攻,黑暗女神普攻,,,1000,1,,{skill:combat}
+cw_10,jineng_siwangchanrao,黑暗女神技能1,黑暗女神技能1,,,1000,1,,{skill:combat}
+cw_10,jineng_mingjiedeguihuan,黑暗女神技能2,黑暗女神技能2,,,1000,2,,{skill:combat}
+cw_11,yingxiong_kuangzhanshi_01,薛西斯普攻,薛西斯普攻,,,1000,1,,{skill:combat}
+cw_11,yingxiong_kuangzhanshi_1,薛西斯技能1,薛西斯技能1,,,1000,1,,{skill:combat}
+cw_11,yingxiong_kuangzhanshi_2,薛西斯技能2,薛西斯技能2,,,1000,2,,{skill:combat}
+cw_11,yingxiong_kuangzhanshi_3,薛西斯技能3,薛西斯技能3,,,1000,3,,{skill:combat}
+cw_12,gongji01,黑暗女神普攻,黑暗女神普攻,,,1000,1,,{skill:combat}
+cw_12,jineng_siwangchanrao,黑暗女神技能1,黑暗女神技能1,,,1000,1,,{skill:combat}
+cw_12,jineng_mingjiedeguihuan,黑暗女神技能2,黑暗女神技能2,,,1000,2,,{skill:combat}
+cw_13,gongji01,左冲右突,薛西斯举起战锤，横扫直击，气势逼人，对敌人造成伤害。,,,1000,1,,{skill:combat}
+cw_13,dahuixuan_01,横扫万军,薛西斯横握千钧战锤，然后飞速旋转，触者即伤，挡者即亡，造成强大的范围伤害。,,,1000,1,,{skill:combat}
+cw_13,dizheng_01,波斯王之怒,薛西斯陷入王者之怒状态中，举起战锤数次猛击地面，对敌人造成伤害并将其击飞。,,,1000,2,,{skill:combat}
+cw_13,dizheng_02,波斯王之怒,薛西斯陷入王者之怒状态中，举起战锤数次猛击地面，对敌人造成伤害并将其击飞。,,,1000,2,,{skill:combat}
+cw_13,dizheng_03,波斯王之怒,薛西斯陷入王者之怒状态中，举起战锤数次猛击地面，对敌人造成伤害并将其击飞。,,,1000,2,,{skill:combat}
+cw_13,dizheng_04,波斯王之怒,薛西斯陷入王者之怒状态中，举起战锤数次猛击地面，对敌人造成伤害并将其击飞。,,,1000,2,,{skill:combat}
+cw_13,dizheng_05,波斯王之怒,薛西斯陷入王者之怒状态中，举起战锤数次猛击地面，对敌人造成伤害并将其击飞。,,,1000,2,,{skill:combat}
+cw_13,zhaohuanfenshen,死亡分身,薛西斯召唤出已死亡的替身的灵魂，令他再次为自己战斗，对敌人造成伤害。,,,1000,3,,{skill:combat}
+cw_14,gongji01,恐怖尖刺,复仇女神将长在背部的可怖尖刺向前伸出并攻击敌人，对敌人造成伤害。,,,1000,1,,{skill:combat}
+cw_14,congtianerjiang01,灭顶之灾,复仇女神骤然飞向空中，借下冲之势运用尖刺击倒敌人，最后再猛刺敌人，对敌人造成伤害。,,,1000,1,,{skill:combat}
+cw_14,congtianerjiang02,灭顶之灾,复仇女神骤然飞向空中，借下冲之势运用尖刺击倒敌人，最后再猛刺敌人，对敌人造成伤害。,,,1000,1,,{skill:combat}
+cw_14,congtianerjiang03,灭顶之灾,复仇女神骤然飞向空中，借下冲之势运用尖刺击倒敌人，最后再猛刺敌人，对敌人造成伤害。,,,1000,1,,{skill:combat}
+cw_14,dicigongji,荆棘之路,复仇女神举起尖刺猛刺地面，尖刺刺入地中再穿出地面，对前方的敌人造成伤害。,,,1000,2,,{skill:combat}
+cw_14,zhuarenfengbao,爪刃风暴,复仇女神掀动爪刃，快速旋转身体，应之而动的爪刃可以破坏一切，并对敌人造成范围伤害。,,,1000,3,,{skill:combat}
+kratos,5lianji01,屠龙之刃,舞动链刃左劈右砍，最后加以一记重砸，其威力可以杀死凶猛的恶龙。升级对目标造成的伤害提高<color=green>{skill_next:miaoshu}%</color>。,升级 伤害+{skill_next:miaoshu}%,"1,1",2000,,,{skill:combat}
+kratos,jineng01_01_dahuixuan,战刃回旋,运用墨西拿海峡中卡律布狄斯漩涡的力量，将链刃舞动得像吞噬万物的漩涡一样。升级对目标造成的伤害提高<color=green>{skill_next:miaoshu}%</color>。,升级 伤害+{skill_next:miaoshu}%,"1,1",2000,,"1,2",{skill:combat}
+kratos,jineng02_01_shuzhizhongji,裂地之击,得到海皇波塞冬的祝福，愤怒地挥动链刃斩击，如海水劈开大地一般不可抵挡。升级对目标造成的伤害提高<color=green>{skill_next:miaoshu}%</color>。,升级 伤害+{skill_next:miaoshu}%,"1,1",2000,,"3,4",{skill:combat}
+kratos,jineng03_01_zhongjifei,灵魂撕裂,向四面八方挥出链刃，链刃所及之处，甚至连飘荡的灵魂也无法幸免。升级对目标造成的伤害提高<color=green>{skill_next:miaoshu}%</color>。,升级 伤害+{skill_next:miaoshu}%,"1,1",2000,,"5,6",{skill:combat}
+kratos,4lianji01_dj,英仙剑斩,运用英仙座珀尔修斯的剑术连出四剑，使四周的敌人心胆俱裂，不敢近身。升级对目标造成的伤害提高<color=green>{skill_next:miaoshu}%</color>。,升级 伤害+{skill_next:miaoshu}%,"1,1",2000,,,{skill:combat}
+kratos,jineng01_01_zhongza_dj,提丰之灾,得到巨人提丰的祝福，剑上附着了飓风的力量，连人带剑旋转得像旋风一般。升级对目标造成的伤害提高<color=green>{skill_next:miaoshu}%</color>。,升级 伤害+{skill_next:miaoshu}%,"1,1",2000,,"7,8",{skill:combat}
+kratos,jineng02_01_zhuizongzhan_dj,席拉之火,运用火焰泰坦席拉的力量，挥动带着魔火的巨剑直冲向前，使敌人无法脱逃。升级对目标造成的伤害提高<color=green>{skill_next:miaoshu}%</color>。,升级 伤害+{skill_next:miaoshu}%,"1,1",2000,,"9,10",{skill:combat}
+kratos,jineng03_01_banyuezhan_dj,诸神之怒,将众神的怒火凝集在巨剑之上，连续挥动跳劈，其威力可以毁灭大地。升级对目标造成的伤害提高<color=green>{skill_next:miaoshu}%</color>。,升级 伤害+{skill_next:miaoshu}%,"1,1",2000,,"11,12",{skill:combat}
+kratos,3lianji01_mc,安泰之力,抡起大锤，旋转挥舞，将巨大的重锤使用得如同安泰俄斯一样轻而易举。升级对目标造成的伤害提高<color=green>{skill_next:miaoshu}%</color>。,升级 伤害+{skill_next:miaoshu}%,"1,1",2000,,,{skill:combat}
+kratos,jineng01_01_liediji_mc,神灭之锤,抡起大锤，施以三下重砸，攻击范围笼罩下，即使是众神也会灰飞烟灭。升级对目标造成的伤害提高<color=green>{skill_next:miaoshu}%</color>。,升级 伤害+{skill_next:miaoshu}%,"1,1",2000,,,{skill:combat}
+kratos,jineng02_01_chongcitiaoji_mc,大力神冲撞,运用大力神的力量，用重锤冲撞重砸敌人，使触到的敌人全化为齑粉。升级对目标造成的伤害提高<color=green>{skill_next:miaoshu}%</color>。,升级 伤害+{skill_next:miaoshu}%,"1,1",2000,,,{skill:combat}
+kratos,jineng03_xuli01_mc,泰坦之怒,得到创世泰坦们的祝福，愤怒的挥舞巨锤，巨锤所到处，山崩地裂。升级对目标造成的伤害提高<color=green>{skill_next:miaoshu}%</color>。,升级 伤害+{skill_next:miaoshu}%,"1,1",2000,,,{skill:combat}
+kratos,4lianji01_dm,赫克托之矛,运用特洛伊英雄赫克托的绝技，将矛直刺横扫，招式中迸发出无穷威力。升级对目标造成的伤害提高<color=green>{skill_next:miaoshu}%</color>。,升级 伤害+{skill_next:miaoshu}%,"1,1",2000,,,{skill:combat}
+kratos,jineng01_01_chongci_dm,忒休斯冲刺,运用雅典英雄忒休斯的绝技，持矛奋力向前冲刺，最后再加以数下猛击。升级对目标造成的伤害提高<color=green>{skill_next:miaoshu}%</color>。,升级 伤害+{skill_next:miaoshu}%,"1,1",2000,,,{skill:combat}
+kratos,jineng02_01_xulitiaoji_xuli_dm,幻影长矛,运用魔法，将长矛化作数十道幻影攻击敌人，使敌人眼花缭乱，无处潜逃。升级对目标造成的伤害提高<color=green>{skill_next:miaoshu}%</color>。,升级 伤害+{skill_next:miaoshu}%,"1,1",2000,,,{skill:combat}
+kratos,jineng03_01_fangyufanji_xuli02_dm,阿基琉斯之怒,将英雄阿基琉斯的愤怒贯注在长矛上，对敌人连续展开如暴风骤雨般的攻击。升级对目标造成的伤害提高<color=green>{skill_next:miaoshu}%</color>。,升级 伤害+{skill_next:miaoshu}%,"1,1",2000,,,{skill:combat}

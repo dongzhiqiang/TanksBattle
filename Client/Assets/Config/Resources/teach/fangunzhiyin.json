@@ -1,0 +1,87 @@
+﻿
+{
+    "teachName" : "fangunzhiyin",
+    "teachDesc" : "",
+    "priority"  : 1,
+    "coolDown"  : 0,
+    "dataKey"   : "fangun",
+    "postTeach" : "",
+    "stopSoundWhenFinish" : false,
+    "replayUnfinished"    : false,
+    "canInterrupt"        : false,
+    "backChecks"          : [
+    ],
+    "cancelActions"       : [
+    ],
+    "triggerConds"        : [
+        {
+            "triggerType" : 10,
+            "triggerParam" : "",
+            "triggerParam2" : "5,bs_03,pengdu,30"
+        }
+    ],
+    "checkConds"          : [
+    ],
+    "stepList"            : [
+        {
+            "name" : "按住摇杆",
+            "force" : false,
+            "pauseMode" : 0,
+            "keyStep"   : false,
+            "maskAlpha" : 200,
+            "tipMsg"    : "<color=#4db7e9>按住摇杆</color>的同时",
+            "centerTip" : "",
+            "stopPreSnd" : false,
+            "muteMusic"  : false,
+            "soundId"    : 0,
+            "timeoutInMS" : 3000,
+            "timeoutStop" : false,
+            "stepObj"     : 1,
+            "stepObjParam" : "",
+            "stepObjParam2" : "",
+            "uiOpType"      : 1,
+            "circleType"    : 1,
+            "arrowType"     : 2,
+            "uiOpParam"     : "/UIRoot/CanvasRoot/UILevel/areaJoystick/joystick/center",
+            "uiOpParam2"    : "",
+            "sceneOpType"   : 0,
+            "sceneGuideType" : 0,
+            "sceneOpParam"   : "",
+            "sceneOpParam2"  : "",
+            "stepSkipType"   : 0,
+            "skipParam"      : "",
+            "skipParam2"     : "",
+            "stopIfNeedSkip" : false
+        },
+        {
+            "name" : "进行翻滚",
+            "force" : false,
+            "pauseMode" : 0,
+            "keyStep"   : true,
+            "maskAlpha" : 200,
+            "tipMsg"    : "<color=#4db7e9>格挡按钮</color>会切换为<color=#4db7e9>翻滚按钮</color>，点击翻滚按钮可躲避敌人的攻击。",
+            "centerTip" : "",
+            "stopPreSnd" : false,
+            "muteMusic"  : false,
+            "soundId"    : 0,
+            "timeoutInMS" : 6000,
+            "timeoutStop" : false,
+            "stepObj"     : 1,
+            "stepObjParam" : "",
+            "stepObjParam2" : "",
+            "uiOpType"      : 1,
+            "circleType"    : 1,
+            "arrowType"     : 2,
+            "uiOpParam"     : "/UIRoot/CanvasRoot/UILevel/areaJoystick/skill/block",
+            "uiOpParam2"    : "",
+            "sceneOpType"   : 0,
+            "sceneGuideType" : 0,
+            "sceneOpParam"   : "",
+            "sceneOpParam2"  : "",
+            "stepSkipType"   : 0,
+            "skipParam"      : "",
+            "skipParam2"     : "",
+            "stopIfNeedSkip" : false
+        }
+    ]
+}

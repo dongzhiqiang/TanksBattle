@@ -1,0 +1,52 @@
+﻿
+{
+    "teachName" : "jinruzhucheng1",
+    "teachDesc" : "",
+    "priority"  : 1,
+    "coolDown"  : 0,
+    "dataKey"   : "",
+    "postTeach" : "",
+    "stopSoundWhenFinish" : false,
+    "replayUnfinished"    : false,
+    "canInterrupt"        : false,
+    "backChecks"          : [
+    ],
+    "cancelActions"       : [
+    ],
+    "triggerConds"        : [
+    ],
+    "checkConds"          : [
+    ],
+    "stepList"            : [
+        {
+            "name" : "移动",
+            "force" : false,
+            "pauseMode" : 0,
+            "keyStep"   : false,
+            "maskAlpha" : 200,
+            "tipMsg"    : "",
+            "centerTip" : "",
+            "stopPreSnd" : false,
+            "muteMusic"  : false,
+            "soundId"    : 0,
+            "timeoutInMS" : 10000,
+            "timeoutStop" : false,
+            "stepObj"     : 2,
+            "stepObjParam" : "",
+            "stepObjParam2" : "",
+            "uiOpType"      : 0,
+            "circleType"    : 0,
+            "arrowType"     : 0,
+            "uiOpParam"     : "",
+            "uiOpParam2"    : "",
+            "sceneOpType"   : 1,
+            "sceneGuideType" : 1,
+            "sceneOpParam"   : "4.616529,8.06,214.6002",
+            "sceneOpParam2"  : "1",
+            "stepSkipType"   : 0,
+            "skipParam"      : "",
+            "skipParam2"     : "",
+            "stopIfNeedSkip" : false
+        }
+    ]
+}

@@ -1,0 +1,52 @@
+﻿
+{
+    "teachName" : "zhaobaoxiangyindao",
+    "teachDesc" : "",
+    "priority"  : 1,
+    "coolDown"  : 0,
+    "dataKey"   : "zhaobaoxiang",
+    "postTeach" : "",
+    "stopSoundWhenFinish" : false,
+    "replayUnfinished"    : false,
+    "canInterrupt"        : false,
+    "backChecks"          : [
+    ],
+    "cancelActions"       : [
+    ],
+    "triggerConds"        : [
+    ],
+    "checkConds"          : [
+    ],
+    "stepList"            : [
+        {
+            "name" : "移动",
+            "force" : false,
+            "pauseMode" : 0,
+            "keyStep"   : true,
+            "maskAlpha" : 200,
+            "tipMsg"    : "",
+            "centerTip" : "还没找到宝箱？神鹰之眼提示：沿着这条路寻找吧。",
+            "stopPreSnd" : false,
+            "muteMusic"  : false,
+            "soundId"    : 0,
+            "timeoutInMS" : 10000,
+            "timeoutStop" : false,
+            "stepObj"     : 2,
+            "stepObjParam" : "",
+            "stepObjParam2" : "",
+            "uiOpType"      : 0,
+            "circleType"    : 0,
+            "arrowType"     : 0,
+            "uiOpParam"     : "",
+            "uiOpParam2"    : "",
+            "sceneOpType"   : 1,
+            "sceneGuideType" : 1,
+            "sceneOpParam"   : "-18.9664,6.733518,23.78295",
+            "sceneOpParam2"  : "2",
+            "stepSkipType"   : 0,
+            "skipParam"      : "",
+            "skipParam2"     : "",
+            "stopIfNeedSkip" : false
+        }
+    ]
+}

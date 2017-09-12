@@ -1,0 +1,410 @@
+﻿
+{
+    "sceneName" : "ceshi",
+    "mRefGroupList" : [
+        {
+            "refreshType" : 0,
+            "Points"      : [
+                {
+                    "pos" : {
+                        "x" : 2.12181425094604,
+                        "y" : 2.79821372032166,
+                        "z" : -3.2266526222229
+                    },
+                    "dir" : {
+                        "x" : 0.0,
+                        "y" : 90.0,
+                        "z" : 0.0
+                    },
+                    "camp" : 1,
+                    "buffId" : 0,
+                    "roleId" : "jy_02",
+                    "pointFlag" : "Group1-1",
+                    "bornDelay" : 0.0,
+                    "ai"        : "-1",
+                    "bornTypeId" : "jingying_02begin",
+                    "deadTypeId" : "jingying_02dead",
+                    "groundDeadTypeId" : "",
+                    "isShowBloodBar"   : 1,
+                    "pathfindingList"  : [
+                    ],
+                    "boxAddNum"        : 0,
+                    "boxAddType"       : 0,
+                    "boxBuffId"        : 0,
+                    "hate"             : {
+                        "hateIfHit" : 0,
+                        "hateIfBeHit" : 0,
+                        "hateIfRefGroup" : [
+                        ],
+                        "hateIfChange"   : 0
+                    }
+                },
+                {
+                    "pos" : {
+                        "x" : -5.54392004013062,
+                        "y" : 2.90154123306274,
+                        "z" : 3.84781932830811
+                    },
+                    "dir" : {
+                        "x" : 0.0,
+                        "y" : 16.9699993133545,
+                        "z" : 0.0
+                    },
+                    "camp" : 1,
+                    "buffId" : 0,
+                    "roleId" : "xb_01",
+                    "pointFlag" : "Group1-2",
+                    "bornDelay" : 0.0,
+                    "ai"        : "-1",
+                    "bornTypeId" : "",
+                    "deadTypeId" : "",
+                    "groundDeadTypeId" : "",
+                    "isShowBloodBar"   : 0,
+                    "pathfindingList"  : [
+                    ],
+                    "boxAddNum"        : 0,
+                    "boxAddType"       : 0,
+                    "boxBuffId"        : 0,
+                    "hate"             : {
+                        "hateIfHit" : 0,
+                        "hateIfBeHit" : 0,
+                        "hateIfRefGroup" : [
+                        ],
+                        "hateIfChange"   : 0
+                    }
+                },
+                {
+                    "pos" : {
+                        "x" : 10.1982393264771,
+                        "y" : 2.90154123306274,
+                        "z" : 4.47478151321411
+                    },
+                    "dir" : {
+                        "x" : 0.0,
+                        "y" : 8.2984676361084,
+                        "z" : 0.0
+                    },
+                    "camp" : 1,
+                    "buffId" : 0,
+                    "roleId" : "xb_02",
+                    "pointFlag" : "Group1-3",
+                    "bornDelay" : 0.0,
+                    "ai"        : "-1",
+                    "bornTypeId" : "",
+                    "deadTypeId" : "",
+                    "groundDeadTypeId" : "",
+                    "isShowBloodBar"   : 0,
+                    "pathfindingList"  : [
+                    ],
+                    "boxAddNum"        : 0,
+                    "boxAddType"       : 0,
+                    "boxBuffId"        : 0,
+                    "hate"             : {
+                        "hateIfHit" : 0,
+                        "hateIfBeHit" : 0,
+                        "hateIfRefGroup" : [
+                        ],
+                        "hateIfChange"   : 0
+                    }
+                },
+                {
+                    "pos" : {
+                        "x" : -5.51294898986816,
+                        "y" : 2.90154004096985,
+                        "z" : -5.98790454864502
+                    },
+                    "dir" : {
+                        "x" : 0.0,
+                        "y" : 112.79566192627,
+                        "z" : 0.0
+                    },
+                    "camp" : 1,
+                    "buffId" : 0,
+                    "roleId" : "xb_02",
+                    "pointFlag" : "Group1-4",
+                    "bornDelay" : 0.0,
+                    "ai"        : "-1",
+                    "bornTypeId" : "",
+                    "deadTypeId" : "",
+                    "groundDeadTypeId" : "",
+                    "isShowBloodBar"   : 0,
+                    "pathfindingList"  : [
+                    ],
+                    "boxAddNum"        : 0,
+                    "boxAddType"       : 0,
+                    "boxBuffId"        : 0,
+                    "hate"             : {
+                        "hateIfHit" : 0,
+                        "hateIfBeHit" : 0,
+                        "hateIfRefGroup" : [
+                        ],
+                        "hateIfChange"   : 0
+                    }
+                },
+                {
+                    "pos" : {
+                        "x" : 9.82653903961182,
+                        "y" : 2.90153980255127,
+                        "z" : -6.65833711624146
+                    },
+                    "dir" : {
+                        "x" : 0.0,
+                        "y" : 112.79566192627,
+                        "z" : 0.0
+                    },
+                    "camp" : 1,
+                    "buffId" : 0,
+                    "roleId" : "xb_03",
+                    "pointFlag" : "Group1-5",
+                    "bornDelay" : 0.0,
+                    "ai"        : "-1",
+                    "bornTypeId" : "",
+                    "deadTypeId" : "",
+                    "groundDeadTypeId" : "",
+                    "isShowBloodBar"   : 0,
+                    "pathfindingList"  : [
+                    ],
+                    "boxAddNum"        : 0,
+                    "boxAddType"       : 0,
+                    "boxBuffId"        : 0,
+                    "hate"             : {
+                        "hateIfHit" : 0,
+                        "hateIfBeHit" : 0,
+                        "hateIfRefGroup" : [
+                        ],
+                        "hateIfChange"   : 0
+                    }
+                },
+                {
+                    "pos" : {
+                        "x" : 2.39229989051819,
+                        "y" : 2.90154194831848,
+                        "z" : 9.4710807800293
+                    },
+                    "dir" : {
+                        "x" : 0.0,
+                        "y" : 112.79566192627,
+                        "z" : 0.0
+                    },
+                    "camp" : 1,
+                    "buffId" : 0,
+                    "roleId" : "xb_04",
+                    "pointFlag" : "Group1-6",
+                    "bornDelay" : 0.0,
+                    "ai"        : "-1",
+                    "bornTypeId" : "",
+                    "deadTypeId" : "",
+                    "groundDeadTypeId" : "",
+                    "isShowBloodBar"   : 0,
+                    "pathfindingList"  : [
+                    ],
+                    "boxAddNum"        : 0,
+                    "boxAddType"       : 0,
+                    "boxBuffId"        : 0,
+                    "hate"             : {
+                        "hateIfHit" : 0,
+                        "hateIfBeHit" : 0,
+                        "hateIfRefGroup" : [
+                        ],
+                        "hateIfChange"   : 0
+                    }
+                },
+                {
+                    "pos" : {
+                        "x" : 14.5734901428223,
+                        "y" : 2.90154051780701,
+                        "z" : -0.887975692749023
+                    },
+                    "dir" : {
+                        "x" : 0.0,
+                        "y" : 112.79566192627,
+                        "z" : 0.0
+                    },
+                    "camp" : 1,
+                    "buffId" : 0,
+                    "roleId" : "xb_02",
+                    "pointFlag" : "Group1-7",
+                    "bornDelay" : 0.0,
+                    "ai"        : "-1",
+                    "bornTypeId" : "",
+                    "deadTypeId" : "",
+                    "groundDeadTypeId" : "",
+                    "isShowBloodBar"   : 0,
+                    "pathfindingList"  : [
+                    ],
+                    "boxAddNum"        : 0,
+                    "boxAddType"       : 0,
+                    "boxBuffId"        : 0,
+                    "hate"             : {
+                        "hateIfHit" : 0,
+                        "hateIfBeHit" : 0,
+                        "hateIfRefGroup" : [
+                        ],
+                        "hateIfChange"   : 0
+                    }
+                },
+                {
+                    "pos" : {
+                        "x" : -12.8278722763062,
+                        "y" : 2.90154051780701,
+                        "z" : -0.820283889770508
+                    },
+                    "dir" : {
+                        "x" : 0.0,
+                        "y" : 112.79566192627,
+                        "z" : 0.0
+                    },
+                    "camp" : 1,
+                    "buffId" : 0,
+                    "roleId" : "xb_02",
+                    "pointFlag" : "Group1-8",
+                    "bornDelay" : 0.0,
+                    "ai"        : "-1",
+                    "bornTypeId" : "",
+                    "deadTypeId" : "",
+                    "groundDeadTypeId" : "",
+                    "isShowBloodBar"   : 0,
+                    "pathfindingList"  : [
+                    ],
+                    "boxAddNum"        : 0,
+                    "boxAddType"       : 0,
+                    "boxBuffId"        : 0,
+                    "hate"             : {
+                        "hateIfHit" : 0,
+                        "hateIfBeHit" : 0,
+                        "hateIfRefGroup" : [
+                        ],
+                        "hateIfChange"   : 0
+                    }
+                },
+                {
+                    "pos" : {
+                        "x" : -9.93522167205811,
+                        "y" : 2.90154218673706,
+                        "z" : 11.6536102294922
+                    },
+                    "dir" : {
+                        "x" : 0.0,
+                        "y" : 112.79566192627,
+                        "z" : 0.0
+                    },
+                    "camp" : 1,
+                    "buffId" : 0,
+                    "roleId" : "xb_05",
+                    "pointFlag" : "Group1-9",
+                    "bornDelay" : 0.0,
+                    "ai"        : "-1",
+                    "bornTypeId" : "",
+                    "deadTypeId" : "",
+                    "groundDeadTypeId" : "",
+                    "isShowBloodBar"   : 0,
+                    "pathfindingList"  : [
+                    ],
+                    "boxAddNum"        : 0,
+                    "boxAddType"       : 0,
+                    "boxBuffId"        : 0,
+                    "hate"             : {
+                        "hateIfHit" : 0,
+                        "hateIfBeHit" : 0,
+                        "hateIfRefGroup" : [
+                        ],
+                        "hateIfChange"   : 0
+                    }
+                },
+                {
+                    "pos" : {
+                        "x" : 13.1399517059326,
+                        "y" : 2.90153956413269,
+                        "z" : -9.88491725921631
+                    },
+                    "dir" : {
+                        "x" : 0.0,
+                        "y" : 112.79566192627,
+                        "z" : 0.0
+                    },
+                    "camp" : 1,
+                    "buffId" : 0,
+                    "roleId" : "xb_06",
+                    "pointFlag" : "Group1-10",
+                    "bornDelay" : 0.0,
+                    "ai"        : "-1",
+                    "bornTypeId" : "",
+                    "deadTypeId" : "",
+                    "groundDeadTypeId" : "",
+                    "isShowBloodBar"   : 0,
+                    "pathfindingList"  : [
+                    ],
+                    "boxAddNum"        : 0,
+                    "boxAddType"       : 0,
+                    "boxBuffId"        : 0,
+                    "hate"             : {
+                        "hateIfHit" : 0,
+                        "hateIfBeHit" : 0,
+                        "hateIfRefGroup" : [
+                        ],
+                        "hateIfChange"   : 0
+                    }
+                }
+            ],
+            "groupFlag"   : "Group1",
+            "nextGroupFlag" : "",
+            "nextWaveDelay" : 0,
+            "delayTime"     : 0.0,
+            "refreshNum"    : 1,
+            "pointNum"      : 1
+        }
+    ],
+    "mBornList"     : [
+        {
+            "mPosition" : {
+                "x" : 2.25019979476929,
+                "y" : 2.90153908729553,
+                "z" : -15.705340385437
+            },
+            "mEulerAngles" : {
+                "x" : 0.0,
+                "y" : 349.953552246094,
+                "z" : 0.0
+            },
+            "mBornTypeId"  : "",
+            "mDeadTypeId"  : "",
+            "mGroundDeadTypeId" : "",
+            "hate"              : {
+                "hateIfHit" : 0,
+                "hateIfBeHit" : 0,
+                "hateIfRefGroup" : [
+                ],
+                "hateIfChange"   : 0
+            }
+        }
+    ],
+    "mCheckList"    : [
+        {
+            "triggerType" : 0,
+            "triggerNum"  : 1,
+            "triggerTimes" : 1,
+            "checkFlag"    : "Check1",
+            "eventCfgList" : [
+                {
+                    "eveType" : 0,
+                    "content" : "\n{\n    \"__type\" : \"EventCfg_StartLevel\"\n}"
+                }
+            ],
+            "actionCfgList" : [
+                {
+                    "eveType" : 5,
+                    "content" : "\n{\n    \"__type\" : \"ActionCfg_CreateHero\",\n    \"changeCam\" : null,\n    \"_idx\"      : 0,\n    \"_delay\"    : 0.0\n}"
+                }
+            ]
+        }
+    ],
+    "mAreaList"     : [
+    ],
+    "mCameraList"   : [
+    ],
+    "mStoryIdList"  : [
+    ],
+    "mGroupIdList"  : [
+    ],
+    "mShowWaveGroupId" : ""
+}

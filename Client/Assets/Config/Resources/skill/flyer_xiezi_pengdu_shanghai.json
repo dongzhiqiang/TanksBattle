@@ -1,0 +1,119 @@
+﻿
+{
+    "file" : "flyer_xiezi_pengdu_shanghai",
+    "eventGroup" : {
+        "file" : "skill_event_group",
+        "isFile" : false,
+        "frames" : [
+            {
+                "id" : 1,
+                "frameType" : 1,
+                "frameBegin" : 0,
+                "frameEnd"   : -1,
+                "frameInterval" : 10,
+                "countLimit"    : -1,
+                "countTargetLimit" : 3,
+                "countFrameLimit"  : -1,
+                "frameLimit"       : -1,
+                "targetOrderType"  : 0,
+                "conditions"       : [
+                ],
+                "targetConditions" : [
+                ],
+                "targetRanges"     : [
+                    {
+                        "range" : {
+                            "type" : 3,
+                            "beginOffsetAngle" : 0.0,
+                            "endOffsetAngle"   : 0.0,
+                            "begingOffsetPos"  : {
+                                "x" : 0.0,
+                                "y" : 0.0,
+                                "z" : 0.0
+                            },
+                            "endOffsetPos"     : {
+                                "x" : 0.0,
+                                "y" : 0.0,
+                                "z" : 0.0
+                            },
+                            "distance"         : 5.0,
+                            "heightLimit"      : 2.0,
+                            "rectLimit"        : 3.0,
+                            "angleLimit"       : 90.0,
+                            "showArea"         : false,
+                            "showRange"        : false
+                        },
+                        "targetType" : 2
+                    }
+                ],
+                "events"           : [
+                    {
+                        "__type" : "DamageEventCfg",
+                        "rate"   : 0.109999999403954,
+                        "hitFx"  : "",
+                        "hitFxAdjust" : true,
+                        "shield"      : 10.0,
+                        "elem"        : 5,
+                        "playElemEventGroup" : true,
+                        "ingore"             : false,
+                        "eventCountLimit"    : -1,
+                        "eventCountFrameLimit" : -1,
+                        "id"                   : 1,
+                        "priority"             : 0,
+                        "ingoreIfNotHero"      : false
+                    }
+                ],
+                "selId"            : 1
+            }
+        ],
+        "selId"  : 1,
+        "allScroll" : {
+            "x" : 0.0,
+            "y" : 0.0
+        },
+        "contentScroll" : {
+            "x" : 0.0,
+            "y" : 0.0
+        },
+        "maxWidth"      : 1255.0
+    },
+    "durationFrame" : -1,
+    "endFlyerCreateCfg" : {
+        "name" : "",
+        "fireFx" : "",
+        "iceFx"  : "",
+        "thunderFx" : "",
+        "darkFx"    : "",
+        "durationFrame" : -1,
+        "dirType"       : 1,
+        "posType"       : 0,
+        "dirOffset"     : 0.0,
+        "posOffset"     : {
+            "x" : 0.0,
+            "y" : 0.0,
+            "z" : 0.0
+        },
+        "randomBegin"   : 0.0,
+        "randomEnd"     : 0.0,
+        "num"           : 1,
+        "multiDirOffset" : 0.0,
+        "multiPosOffset" : {
+            "x" : 0.0,
+            "y" : 0.0,
+            "z" : 0.0
+        },
+        "bone"           : "",
+        "follow"         : true,
+        "alignSourceY"   : false
+    },
+    "endFlyer"          : null,
+    "touchDestroyFrame" : -1,
+    "touchTargetDestroyFrame" : -1,
+    "pathCfg"                 : {
+        "__type" : "FlyerPathCfg",
+        "_dirType" : 0,
+        "_selfTurnSpeed" : 360.0
+    },
+    "endEventGroupId"         : "",
+    "targetType"              : 2
+}

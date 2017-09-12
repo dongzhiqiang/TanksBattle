@@ -1,0 +1,72 @@
+﻿
+{
+    "file" : "boss_taitan_zhaoguai",
+    "isFile" : true,
+    "frames" : [
+        {
+            "id" : 1,
+            "frameType" : 0,
+            "frameBegin" : 0,
+            "frameEnd"   : -1,
+            "frameInterval" : 1,
+            "countLimit"    : -1,
+            "countTargetLimit" : -1,
+            "countFrameLimit"  : -1,
+            "frameLimit"       : -1,
+            "targetOrderType"  : 0,
+            "conditions"       : [
+            ],
+            "targetConditions" : [
+            ],
+            "targetRanges"     : [
+                {
+                    "range" : {
+                        "type" : 0,
+                        "beginOffsetAngle" : 0.0,
+                        "endOffsetAngle"   : 0.0,
+                        "begingOffsetPos"  : {
+                            "x" : 0.0,
+                            "y" : 0.0,
+                            "z" : 0.0
+                        },
+                        "endOffsetPos"     : {
+                            "x" : 0.0,
+                            "y" : 0.0,
+                            "z" : 0.0
+                        },
+                        "distance"         : 5.0,
+                        "heightLimit"      : 2.0,
+                        "rectLimit"        : 3.0,
+                        "angleLimit"       : 90.0,
+                        "showArea"         : false,
+                        "showRange"        : false
+                    },
+                    "targetType" : 0
+                }
+            ],
+            "events"           : [
+                {
+                    "__type" : "SceneEventEventCfg",
+                    "sceneEvent" : "boss_xuanyun",
+                    "ingore"     : false,
+                    "eventCountLimit" : -1,
+                    "eventCountFrameLimit" : -1,
+                    "id"                   : 1,
+                    "priority"             : 0,
+                    "ingoreIfNotHero"      : false
+                }
+            ],
+            "selId"            : 1
+        }
+    ],
+    "selId"  : 1,
+    "allScroll" : {
+        "x" : 0.0,
+        "y" : 0.0
+    },
+    "contentScroll" : {
+        "x" : 0.0,
+        "y" : 0.0
+    },
+    "maxWidth"      : 950.0
+}

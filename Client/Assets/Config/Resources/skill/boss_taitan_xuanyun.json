@@ -1,0 +1,139 @@
+﻿
+{
+    "file" : "boss_taitan_xuanyun",
+    "isFile" : false,
+    "frames" : [
+        {
+            "id" : 1,
+            "frameType" : 0,
+            "frameBegin" : 0,
+            "frameEnd"   : -1,
+            "frameInterval" : 1,
+            "countLimit"    : -1,
+            "countTargetLimit" : 1,
+            "countFrameLimit"  : -1,
+            "frameLimit"       : -1,
+            "targetOrderType"  : 0,
+            "conditions"       : [
+            ],
+            "targetConditions" : [
+                {
+                    "__type" : "SECFlag",
+                    "flag"   : "泰坦"
+                }
+            ],
+            "targetRanges"     : [
+                {
+                    "range" : {
+                        "type" : 0,
+                        "beginOffsetAngle" : 0.0,
+                        "endOffsetAngle"   : 0.0,
+                        "begingOffsetPos"  : {
+                            "x" : 0.0,
+                            "y" : 0.0,
+                            "z" : 0.0
+                        },
+                        "endOffsetPos"     : {
+                            "x" : 0.0,
+                            "y" : 0.0,
+                            "z" : 0.0
+                        },
+                        "distance"         : 100.0,
+                        "heightLimit"      : 10.0,
+                        "rectLimit"        : 3.0,
+                        "angleLimit"       : 90.0,
+                        "showArea"         : false,
+                        "showRange"        : false
+                    },
+                    "targetType" : 3
+                }
+            ],
+            "events"           : [
+                {
+                    "__type" : "BuffEventCfg",
+                    "self"   : false,
+                    "buffParams" : [
+                        {
+                            "id" : 317,
+                            "end" : false,
+                            "frame" : -3.0
+                        }
+                    ],
+                    "ingore"     : false,
+                    "eventCountLimit" : -1,
+                    "eventCountFrameLimit" : -1,
+                    "id"                   : 1,
+                    "priority"             : 11,
+                    "ingoreIfNotHero"      : false
+                }
+            ],
+            "selId"            : 1
+        },
+        {
+            "id" : 2,
+            "frameType" : 0,
+            "frameBegin" : 0,
+            "frameEnd"   : -1,
+            "frameInterval" : 1,
+            "countLimit"    : -1,
+            "countTargetLimit" : -1,
+            "countFrameLimit"  : -1,
+            "frameLimit"       : -1,
+            "targetOrderType"  : 0,
+            "conditions"       : [
+            ],
+            "targetConditions" : [
+            ],
+            "targetRanges"     : [
+                {
+                    "range" : {
+                        "type" : 0,
+                        "beginOffsetAngle" : 0.0,
+                        "endOffsetAngle"   : 0.0,
+                        "begingOffsetPos"  : {
+                            "x" : 0.0,
+                            "y" : 0.0,
+                            "z" : 0.0
+                        },
+                        "endOffsetPos"     : {
+                            "x" : 0.0,
+                            "y" : 0.0,
+                            "z" : 0.0
+                        },
+                        "distance"         : 5.0,
+                        "heightLimit"      : 2.0,
+                        "rectLimit"        : 3.0,
+                        "angleLimit"       : 90.0,
+                        "showArea"         : false,
+                        "showRange"        : false
+                    },
+                    "targetType" : 0
+                }
+            ],
+            "events"           : [
+                {
+                    "__type" : "CameraChangeEventCfg",
+                    "cameraName" : "Trigger08",
+                    "stayTime"   : 14.0,
+                    "ingore"     : false,
+                    "eventCountLimit" : -1,
+                    "eventCountFrameLimit" : -1,
+                    "id"                   : 1,
+                    "priority"             : 0,
+                    "ingoreIfNotHero"      : false
+                }
+            ],
+            "selId"            : 1
+        }
+    ],
+    "selId"  : 2,
+    "allScroll" : {
+        "x" : 0.0,
+        "y" : 0.0
+    },
+    "contentScroll" : {
+        "x" : 0.0,
+        "y" : 0.0
+    },
+    "maxWidth"      : 1080.0
+}

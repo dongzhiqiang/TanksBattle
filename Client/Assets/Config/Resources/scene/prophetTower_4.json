@@ -1,0 +1,1735 @@
+﻿
+{
+    "sceneName" : "prophetTower_4",
+    "mRefGroupList" : [
+        {
+            "refreshType" : 0,
+            "Points"      : [
+                {
+                    "pos" : {
+                        "x" : 0.566392719745636,
+                        "y" : 0.379999876022339,
+                        "z" : -2.23107385635376
+                    },
+                    "dir" : {
+                        "x" : 0.0,
+                        "y" : 165.216049194336,
+                        "z" : 0.0
+                    },
+                    "camp" : 1,
+                    "buffId" : 0,
+                    "roleId" : "xb_07",
+                    "pointFlag" : "Group1-1",
+                    "bornDelay" : 0.5,
+                    "ai"        : "ai_xb_2_yuyan:预言者之塔疯狂长矛",
+                    "bornTypeId" : "wuchusheng_smoke",
+                    "deadTypeId" : "",
+                    "groundDeadTypeId" : "",
+                    "isShowBloodBar"   : 0,
+                    "isShowFriendBloodBar" : 0,
+                    "isShowTargetBar"      : 0,
+                    "pathfindingList"      : [
+                    ],
+                    "boxAddNum"            : 0,
+                    "boxAddType"           : 0,
+                    "boxBuffId"            : 0,
+                    "hate"                 : {
+                        "hateIfHit" : 0,
+                        "hateIfBeHit" : 5,
+                        "hateIfRefGroup" : [
+                        ],
+                        "hateIfChange"   : 0,
+                        "behateIfBegin"  : 0
+                    }
+                },
+                {
+                    "pos" : {
+                        "x" : 4.3403172492981,
+                        "y" : 0.380000352859497,
+                        "z" : -2.23364305496216
+                    },
+                    "dir" : {
+                        "x" : 0.0,
+                        "y" : 205.516876220703,
+                        "z" : 0.0
+                    },
+                    "camp" : 1,
+                    "buffId" : 0,
+                    "roleId" : "xb_07",
+                    "pointFlag" : "Group1-2",
+                    "bornDelay" : 1.0,
+                    "ai"        : "ai_xb_2_yuyan:预言者之塔疯狂长矛",
+                    "bornTypeId" : "wuchusheng_smoke",
+                    "deadTypeId" : "",
+                    "groundDeadTypeId" : "",
+                    "isShowBloodBar"   : 0,
+                    "isShowFriendBloodBar" : 0,
+                    "isShowTargetBar"      : 0,
+                    "pathfindingList"      : [
+                    ],
+                    "boxAddNum"            : 0,
+                    "boxAddType"           : 0,
+                    "boxBuffId"            : 0,
+                    "hate"                 : {
+                        "hateIfHit" : 0,
+                        "hateIfBeHit" : 5,
+                        "hateIfRefGroup" : [
+                        ],
+                        "hateIfChange"   : 0,
+                        "behateIfBegin"  : 0
+                    }
+                },
+                {
+                    "pos" : {
+                        "x" : -3.75187039375305,
+                        "y" : 0.380000352859497,
+                        "z" : -2.33645081520081
+                    },
+                    "dir" : {
+                        "x" : 0.0,
+                        "y" : 152.692169189453,
+                        "z" : 0.0
+                    },
+                    "camp" : 1,
+                    "buffId" : 0,
+                    "roleId" : "xb_07",
+                    "pointFlag" : "Group1-3",
+                    "bornDelay" : 1.5,
+                    "ai"        : "ai_xb_2_yuyan:预言者之塔疯狂长矛",
+                    "bornTypeId" : "wuchusheng_smoke",
+                    "deadTypeId" : "",
+                    "groundDeadTypeId" : "",
+                    "isShowBloodBar"   : 0,
+                    "isShowFriendBloodBar" : 0,
+                    "isShowTargetBar"      : 0,
+                    "pathfindingList"      : [
+                    ],
+                    "boxAddNum"            : 0,
+                    "boxAddType"           : 0,
+                    "boxBuffId"            : 0,
+                    "hate"                 : {
+                        "hateIfHit" : 0,
+                        "hateIfBeHit" : 5,
+                        "hateIfRefGroup" : [
+                        ],
+                        "hateIfChange"   : 0,
+                        "behateIfBegin"  : 0
+                    }
+                },
+                {
+                    "pos" : {
+                        "x" : -1.61633098125458,
+                        "y" : 0.380000114440918,
+                        "z" : 1.27224588394165
+                    },
+                    "dir" : {
+                        "x" : 0.0,
+                        "y" : 174.388153076172,
+                        "z" : 0.0
+                    },
+                    "camp" : 1,
+                    "buffId" : 0,
+                    "roleId" : "xb_07",
+                    "pointFlag" : "Group1-4",
+                    "bornDelay" : 0.0,
+                    "ai"        : "ai_xb_2_yuyan:预言者之塔疯狂长矛",
+                    "bornTypeId" : "wuchusheng_smoke",
+                    "deadTypeId" : "",
+                    "groundDeadTypeId" : "",
+                    "isShowBloodBar"   : 0,
+                    "isShowFriendBloodBar" : 0,
+                    "isShowTargetBar"      : 0,
+                    "pathfindingList"      : [
+                    ],
+                    "boxAddNum"            : 0,
+                    "boxAddType"           : 0,
+                    "boxBuffId"            : 0,
+                    "hate"                 : {
+                        "hateIfHit" : 0,
+                        "hateIfBeHit" : 5,
+                        "hateIfRefGroup" : [
+                        ],
+                        "hateIfChange"   : 0,
+                        "behateIfBegin"  : 0
+                    }
+                },
+                {
+                    "pos" : {
+                        "x" : 2.69132685661316,
+                        "y" : 0.380000114440918,
+                        "z" : 1.80427277088165
+                    },
+                    "dir" : {
+                        "x" : 0.0,
+                        "y" : 171.945251464844,
+                        "z" : 0.0
+                    },
+                    "camp" : 1,
+                    "buffId" : 0,
+                    "roleId" : "xb_07",
+                    "pointFlag" : "Group1-5",
+                    "bornDelay" : 0.5,
+                    "ai"        : "ai_xb_2_yuyan:预言者之塔疯狂长矛",
+                    "bornTypeId" : "wuchusheng_smoke",
+                    "deadTypeId" : "",
+                    "groundDeadTypeId" : "",
+                    "isShowBloodBar"   : 0,
+                    "isShowFriendBloodBar" : 0,
+                    "isShowTargetBar"      : 0,
+                    "pathfindingList"      : [
+                    ],
+                    "boxAddNum"            : 0,
+                    "boxAddType"           : 0,
+                    "boxBuffId"            : 0,
+                    "hate"                 : {
+                        "hateIfHit" : 0,
+                        "hateIfBeHit" : 5,
+                        "hateIfRefGroup" : [
+                        ],
+                        "hateIfChange"   : 0,
+                        "behateIfBegin"  : 0
+                    }
+                },
+                {
+                    "pos" : {
+                        "x" : -5.09810256958008,
+                        "y" : 0.380000233650208,
+                        "z" : -5.16156053543091
+                    },
+                    "dir" : {
+                        "x" : 0.0,
+                        "y" : 156.740905761719,
+                        "z" : 0.0
+                    },
+                    "camp" : 1,
+                    "buffId" : 0,
+                    "roleId" : "xb_07",
+                    "pointFlag" : "Group1-6",
+                    "bornDelay" : 1.0,
+                    "ai"        : "ai_xb_2_yuyan:预言者之塔疯狂长矛",
+                    "bornTypeId" : "wuchusheng_smoke",
+                    "deadTypeId" : "",
+                    "groundDeadTypeId" : "",
+                    "isShowBloodBar"   : 0,
+                    "isShowFriendBloodBar" : 0,
+                    "isShowTargetBar"      : 0,
+                    "pathfindingList"      : [
+                    ],
+                    "boxAddNum"            : 0,
+                    "boxAddType"           : 0,
+                    "boxBuffId"            : 0,
+                    "hate"                 : {
+                        "hateIfHit" : 0,
+                        "hateIfBeHit" : 0,
+                        "hateIfRefGroup" : [
+                        ],
+                        "hateIfChange"   : 0,
+                        "behateIfBegin"  : 0
+                    }
+                },
+                {
+                    "pos" : {
+                        "x" : 6.80575275421143,
+                        "y" : 0.380000472068787,
+                        "z" : -4.64145946502686
+                    },
+                    "dir" : {
+                        "x" : 0.0,
+                        "y" : 179.999908447266,
+                        "z" : 0.0
+                    },
+                    "camp" : 1,
+                    "buffId" : 0,
+                    "roleId" : "xb_07",
+                    "pointFlag" : "Group1-7",
+                    "bornDelay" : 1.5,
+                    "ai"        : "ai_xb_2_yuyan:预言者之塔疯狂长矛",
+                    "bornTypeId" : "wuchusheng_smoke",
+                    "deadTypeId" : "",
+                    "groundDeadTypeId" : "",
+                    "isShowBloodBar"   : 0,
+                    "isShowFriendBloodBar" : 0,
+                    "isShowTargetBar"      : 0,
+                    "pathfindingList"      : [
+                    ],
+                    "boxAddNum"            : 0,
+                    "boxAddType"           : 0,
+                    "boxBuffId"            : 0,
+                    "hate"                 : {
+                        "hateIfHit" : 0,
+                        "hateIfBeHit" : 0,
+                        "hateIfRefGroup" : [
+                        ],
+                        "hateIfChange"   : 0,
+                        "behateIfBegin"  : 0
+                    }
+                },
+                {
+                    "pos" : {
+                        "x" : 1.9179413318634,
+                        "y" : 0.380000472068787,
+                        "z" : -4.46880388259888
+                    },
+                    "dir" : {
+                        "x" : 0.0,
+                        "y" : 176.120529174805,
+                        "z" : 0.0
+                    },
+                    "camp" : 1,
+                    "buffId" : 0,
+                    "roleId" : "xb_07",
+                    "pointFlag" : "Group1-8",
+                    "bornDelay" : 0.0,
+                    "ai"        : "ai_xb_2_yuyan:预言者之塔疯狂长矛",
+                    "bornTypeId" : "wuchusheng_smoke",
+                    "deadTypeId" : "",
+                    "groundDeadTypeId" : "",
+                    "isShowBloodBar"   : 0,
+                    "isShowFriendBloodBar" : 0,
+                    "isShowTargetBar"      : 0,
+                    "pathfindingList"      : [
+                    ],
+                    "boxAddNum"            : 0,
+                    "boxAddType"           : 0,
+                    "boxBuffId"            : 0,
+                    "hate"                 : {
+                        "hateIfHit" : 0,
+                        "hateIfBeHit" : 0,
+                        "hateIfRefGroup" : [
+                        ],
+                        "hateIfChange"   : 0,
+                        "behateIfBegin"  : 0
+                    }
+                }
+            ],
+            "groupFlag"   : "Group1",
+            "nextGroupFlag" : "",
+            "nextWaveDelay" : 0,
+            "delayTime"     : 0.0,
+            "refreshNum"    : 1,
+            "pointNum"      : 5
+        },
+        {
+            "refreshType" : 0,
+            "Points"      : [
+                {
+                    "pos" : {
+                        "x" : -5.69999217987061,
+                        "y" : 0.380000472068787,
+                        "z" : 1.75899040699005
+                    },
+                    "dir" : {
+                        "x" : 0.0,
+                        "y" : 181.211990356445,
+                        "z" : 0.0
+                    },
+                    "camp" : 1,
+                    "buffId" : 2322,
+                    "roleId" : "xb_07",
+                    "pointFlag" : "Group2-1",
+                    "bornDelay" : 0.0,
+                    "ai"        : "ai_xb_2_yuyan:预言者之塔疯狂长矛",
+                    "bornTypeId" : "",
+                    "deadTypeId" : "",
+                    "groundDeadTypeId" : "",
+                    "isShowBloodBar"   : 0,
+                    "isShowFriendBloodBar" : 0,
+                    "isShowTargetBar"      : 0,
+                    "pathfindingList"      : [
+                    ],
+                    "boxAddNum"            : 0,
+                    "boxAddType"           : 0,
+                    "boxBuffId"            : 0,
+                    "hate"                 : {
+                        "hateIfHit" : 0,
+                        "hateIfBeHit" : 0,
+                        "hateIfRefGroup" : [
+                        ],
+                        "hateIfChange"   : 0,
+                        "behateIfBegin"  : 0
+                    }
+                },
+                {
+                    "pos" : {
+                        "x" : 0.190612748265266,
+                        "y" : 0.380000233650208,
+                        "z" : 3.72950148582459
+                    },
+                    "dir" : {
+                        "x" : 0.0,
+                        "y" : 158.786102294922,
+                        "z" : 0.0
+                    },
+                    "camp" : 1,
+                    "buffId" : 2322,
+                    "roleId" : "xb_07",
+                    "pointFlag" : "Group2-2",
+                    "bornDelay" : 0.5,
+                    "ai"        : "ai_xb_2_yuyan:预言者之塔疯狂长矛",
+                    "bornTypeId" : "",
+                    "deadTypeId" : "",
+                    "groundDeadTypeId" : "",
+                    "isShowBloodBar"   : 0,
+                    "isShowFriendBloodBar" : 0,
+                    "isShowTargetBar"      : 0,
+                    "pathfindingList"      : [
+                    ],
+                    "boxAddNum"            : 0,
+                    "boxAddType"           : 0,
+                    "boxBuffId"            : 0,
+                    "hate"                 : {
+                        "hateIfHit" : 0,
+                        "hateIfBeHit" : 0,
+                        "hateIfRefGroup" : [
+                        ],
+                        "hateIfChange"   : 0,
+                        "behateIfBegin"  : 0
+                    }
+                },
+                {
+                    "pos" : {
+                        "x" : 6.1745400428772,
+                        "y" : 0.380000233650208,
+                        "z" : -3.81998109817505
+                    },
+                    "dir" : {
+                        "x" : 0.0,
+                        "y" : 230.249588012695,
+                        "z" : 0.0
+                    },
+                    "camp" : 1,
+                    "buffId" : 2322,
+                    "roleId" : "xb_07",
+                    "pointFlag" : "Group2-3",
+                    "bornDelay" : 1.0,
+                    "ai"        : "ai_xb_2_yuyan:预言者之塔疯狂长矛",
+                    "bornTypeId" : "",
+                    "deadTypeId" : "",
+                    "groundDeadTypeId" : "",
+                    "isShowBloodBar"   : 0,
+                    "isShowFriendBloodBar" : 0,
+                    "isShowTargetBar"      : 0,
+                    "pathfindingList"      : [
+                    ],
+                    "boxAddNum"            : 0,
+                    "boxAddType"           : 0,
+                    "boxBuffId"            : 0,
+                    "hate"                 : {
+                        "hateIfHit" : 0,
+                        "hateIfBeHit" : 0,
+                        "hateIfRefGroup" : [
+                        ],
+                        "hateIfChange"   : 0,
+                        "behateIfBegin"  : 0
+                    }
+                },
+                {
+                    "pos" : {
+                        "x" : -1.69231331348419,
+                        "y" : 0.379999995231628,
+                        "z" : -1.54283857345581
+                    },
+                    "dir" : {
+                        "x" : 0.0,
+                        "y" : 164.577026367188,
+                        "z" : 0.0
+                    },
+                    "camp" : 1,
+                    "buffId" : 2322,
+                    "roleId" : "xb_07",
+                    "pointFlag" : "Group2-4",
+                    "bornDelay" : 1.5,
+                    "ai"        : "ai_xb_2_yuyan:预言者之塔疯狂长矛",
+                    "bornTypeId" : "",
+                    "deadTypeId" : "",
+                    "groundDeadTypeId" : "",
+                    "isShowBloodBar"   : 0,
+                    "isShowFriendBloodBar" : 0,
+                    "isShowTargetBar"      : 0,
+                    "pathfindingList"      : [
+                    ],
+                    "boxAddNum"            : 0,
+                    "boxAddType"           : 0,
+                    "boxBuffId"            : 0,
+                    "hate"                 : {
+                        "hateIfHit" : 0,
+                        "hateIfBeHit" : 0,
+                        "hateIfRefGroup" : [
+                        ],
+                        "hateIfChange"   : 0,
+                        "behateIfBegin"  : 0
+                    }
+                },
+                {
+                    "pos" : {
+                        "x" : 4.39616680145264,
+                        "y" : 0.380000233650208,
+                        "z" : 1.79293704032898
+                    },
+                    "dir" : {
+                        "x" : 0.0,
+                        "y" : 233.700225830078,
+                        "z" : 0.0
+                    },
+                    "camp" : 1,
+                    "buffId" : 2322,
+                    "roleId" : "xb_07",
+                    "pointFlag" : "Group2-5",
+                    "bornDelay" : 0.0,
+                    "ai"        : "ai_xb_2_yuyan:预言者之塔疯狂长矛",
+                    "bornTypeId" : "",
+                    "deadTypeId" : "",
+                    "groundDeadTypeId" : "",
+                    "isShowBloodBar"   : 0,
+                    "isShowFriendBloodBar" : 0,
+                    "isShowTargetBar"      : 0,
+                    "pathfindingList"      : [
+                    ],
+                    "boxAddNum"            : 0,
+                    "boxAddType"           : 0,
+                    "boxBuffId"            : 0,
+                    "hate"                 : {
+                        "hateIfHit" : 0,
+                        "hateIfBeHit" : 0,
+                        "hateIfRefGroup" : [
+                        ],
+                        "hateIfChange"   : 0,
+                        "behateIfBegin"  : 0
+                    }
+                },
+                {
+                    "pos" : {
+                        "x" : -6.94598007202148,
+                        "y" : 0.380000233650208,
+                        "z" : -3.78804302215576
+                    },
+                    "dir" : {
+                        "x" : 0.0,
+                        "y" : 137.504257202148,
+                        "z" : 0.0
+                    },
+                    "camp" : 1,
+                    "buffId" : 2322,
+                    "roleId" : "xb_07",
+                    "pointFlag" : "Group2-6",
+                    "bornDelay" : 0.5,
+                    "ai"        : "ai_xb_2_yuyan:预言者之塔疯狂长矛",
+                    "bornTypeId" : "",
+                    "deadTypeId" : "",
+                    "groundDeadTypeId" : "",
+                    "isShowBloodBar"   : 0,
+                    "isShowFriendBloodBar" : 0,
+                    "isShowTargetBar"      : 0,
+                    "pathfindingList"      : [
+                    ],
+                    "boxAddNum"            : 0,
+                    "boxAddType"           : 0,
+                    "boxBuffId"            : 0,
+                    "hate"                 : {
+                        "hateIfHit" : 0,
+                        "hateIfBeHit" : 0,
+                        "hateIfRefGroup" : [
+                        ],
+                        "hateIfChange"   : 0,
+                        "behateIfBegin"  : 0
+                    }
+                },
+                {
+                    "pos" : {
+                        "x" : -3.27827048301697,
+                        "y" : 0.379999995231628,
+                        "z" : -4.89265871047974
+                    },
+                    "dir" : {
+                        "x" : 0.0,
+                        "y" : 146.867752075195,
+                        "z" : 0.0
+                    },
+                    "camp" : 1,
+                    "buffId" : 2322,
+                    "roleId" : "xb_07",
+                    "pointFlag" : "Group2-7",
+                    "bornDelay" : 1.0,
+                    "ai"        : "ai_xb_2_yuyan:预言者之塔疯狂长矛",
+                    "bornTypeId" : "",
+                    "deadTypeId" : "",
+                    "groundDeadTypeId" : "",
+                    "isShowBloodBar"   : 0,
+                    "isShowFriendBloodBar" : 0,
+                    "isShowTargetBar"      : 0,
+                    "pathfindingList"      : [
+                    ],
+                    "boxAddNum"            : 0,
+                    "boxAddType"           : 0,
+                    "boxBuffId"            : 0,
+                    "hate"                 : {
+                        "hateIfHit" : 0,
+                        "hateIfBeHit" : 0,
+                        "hateIfRefGroup" : [
+                        ],
+                        "hateIfChange"   : 0,
+                        "behateIfBegin"  : 0
+                    }
+                },
+                {
+                    "pos" : {
+                        "x" : 1.06824243068695,
+                        "y" : 0.380000233650208,
+                        "z" : -2.20565819740295
+                    },
+                    "dir" : {
+                        "x" : 0.0,
+                        "y" : 168.428100585938,
+                        "z" : 0.0
+                    },
+                    "camp" : 1,
+                    "buffId" : 2322,
+                    "roleId" : "xb_07",
+                    "pointFlag" : "Group2-8",
+                    "bornDelay" : 1.5,
+                    "ai"        : "ai_xb_2_yuyan:预言者之塔疯狂长矛",
+                    "bornTypeId" : "",
+                    "deadTypeId" : "",
+                    "groundDeadTypeId" : "",
+                    "isShowBloodBar"   : 0,
+                    "isShowFriendBloodBar" : 0,
+                    "isShowTargetBar"      : 0,
+                    "pathfindingList"      : [
+                    ],
+                    "boxAddNum"            : 0,
+                    "boxAddType"           : 0,
+                    "boxBuffId"            : 0,
+                    "hate"                 : {
+                        "hateIfHit" : 0,
+                        "hateIfBeHit" : 0,
+                        "hateIfRefGroup" : [
+                        ],
+                        "hateIfChange"   : 0,
+                        "behateIfBegin"  : 0
+                    }
+                }
+            ],
+            "groupFlag"   : "Group2",
+            "nextGroupFlag" : "",
+            "nextWaveDelay" : 0,
+            "delayTime"     : 0.0,
+            "refreshNum"    : 1,
+            "pointNum"      : 5
+        },
+        {
+            "refreshType" : 0,
+            "Points"      : [
+                {
+                    "pos" : {
+                        "x" : 0.221919104456902,
+                        "y" : 0.380000472068787,
+                        "z" : 5.77719116210938
+                    },
+                    "dir" : {
+                        "x" : 0.0,
+                        "y" : 186.047988891602,
+                        "z" : 0.0
+                    },
+                    "camp" : 1,
+                    "buffId" : 2322,
+                    "roleId" : "xb_07",
+                    "pointFlag" : "Group3-1",
+                    "bornDelay" : 0.0,
+                    "ai"        : "ai_xb_2_yuyan:预言者之塔疯狂长矛",
+                    "bornTypeId" : "",
+                    "deadTypeId" : "",
+                    "groundDeadTypeId" : "",
+                    "isShowBloodBar"   : 0,
+                    "isShowFriendBloodBar" : 0,
+                    "isShowTargetBar"      : 0,
+                    "pathfindingList"      : [
+                    ],
+                    "boxAddNum"            : 0,
+                    "boxAddType"           : 0,
+                    "boxBuffId"            : 0,
+                    "hate"                 : {
+                        "hateIfHit" : 0,
+                        "hateIfBeHit" : 0,
+                        "hateIfRefGroup" : [
+                        ],
+                        "hateIfChange"   : 0,
+                        "behateIfBegin"  : 0
+                    }
+                },
+                {
+                    "pos" : {
+                        "x" : 4.49100494384766,
+                        "y" : 0.379999995231628,
+                        "z" : 4.13948011398315
+                    },
+                    "dir" : {
+                        "x" : 0.0,
+                        "y" : 193.448379516602,
+                        "z" : 0.0
+                    },
+                    "camp" : 1,
+                    "buffId" : 2322,
+                    "roleId" : "xb_07",
+                    "pointFlag" : "Group3-2",
+                    "bornDelay" : 0.5,
+                    "ai"        : "ai_xb_2_yuyan:预言者之塔疯狂长矛",
+                    "bornTypeId" : "",
+                    "deadTypeId" : "",
+                    "groundDeadTypeId" : "",
+                    "isShowBloodBar"   : 0,
+                    "isShowFriendBloodBar" : 0,
+                    "isShowTargetBar"      : 0,
+                    "pathfindingList"      : [
+                    ],
+                    "boxAddNum"            : 0,
+                    "boxAddType"           : 0,
+                    "boxBuffId"            : 0,
+                    "hate"                 : {
+                        "hateIfHit" : 0,
+                        "hateIfBeHit" : 0,
+                        "hateIfRefGroup" : [
+                        ],
+                        "hateIfChange"   : 0,
+                        "behateIfBegin"  : 0
+                    }
+                },
+                {
+                    "pos" : {
+                        "x" : 7.10264730453491,
+                        "y" : 0.380000472068787,
+                        "z" : 0.891249477863312
+                    },
+                    "dir" : {
+                        "x" : 0.0,
+                        "y" : 238.395843505859,
+                        "z" : 0.0
+                    },
+                    "camp" : 1,
+                    "buffId" : 2322,
+                    "roleId" : "xb_07",
+                    "pointFlag" : "Group3-3",
+                    "bornDelay" : 1.0,
+                    "ai"        : "ai_xb_2_yuyan:预言者之塔疯狂长矛",
+                    "bornTypeId" : "",
+                    "deadTypeId" : "",
+                    "groundDeadTypeId" : "",
+                    "isShowBloodBar"   : 0,
+                    "isShowFriendBloodBar" : 0,
+                    "isShowTargetBar"      : 0,
+                    "pathfindingList"      : [
+                    ],
+                    "boxAddNum"            : 0,
+                    "boxAddType"           : 0,
+                    "boxBuffId"            : 0,
+                    "hate"                 : {
+                        "hateIfHit" : 0,
+                        "hateIfBeHit" : 0,
+                        "hateIfRefGroup" : [
+                        ],
+                        "hateIfChange"   : 0,
+                        "behateIfBegin"  : 0
+                    }
+                },
+                {
+                    "pos" : {
+                        "x" : -3.66114473342896,
+                        "y" : 0.379999995231628,
+                        "z" : 5.02823925018311
+                    },
+                    "dir" : {
+                        "x" : 0.0,
+                        "y" : 169.400527954102,
+                        "z" : 0.0
+                    },
+                    "camp" : 1,
+                    "buffId" : 2322,
+                    "roleId" : "xb_07",
+                    "pointFlag" : "Group3-4",
+                    "bornDelay" : 1.5,
+                    "ai"        : "ai_xb_2_yuyan:预言者之塔疯狂长矛",
+                    "bornTypeId" : "",
+                    "deadTypeId" : "",
+                    "groundDeadTypeId" : "",
+                    "isShowBloodBar"   : 0,
+                    "isShowFriendBloodBar" : 0,
+                    "isShowTargetBar"      : 0,
+                    "pathfindingList"      : [
+                    ],
+                    "boxAddNum"            : 0,
+                    "boxAddType"           : 0,
+                    "boxBuffId"            : 0,
+                    "hate"                 : {
+                        "hateIfHit" : 0,
+                        "hateIfBeHit" : 0,
+                        "hateIfRefGroup" : [
+                        ],
+                        "hateIfChange"   : 0,
+                        "behateIfBegin"  : 0
+                    }
+                },
+                {
+                    "pos" : {
+                        "x" : -4.03924608230591,
+                        "y" : 0.379999995231628,
+                        "z" : -8.42425918579102
+                    },
+                    "dir" : {
+                        "x" : 0.0,
+                        "y" : 19.9998416900635,
+                        "z" : 0.0
+                    },
+                    "camp" : 1,
+                    "buffId" : 2322,
+                    "roleId" : "xb_07",
+                    "pointFlag" : "Group3-5",
+                    "bornDelay" : 0.0,
+                    "ai"        : "ai_xb_2_yuyan:预言者之塔疯狂长矛",
+                    "bornTypeId" : "",
+                    "deadTypeId" : "",
+                    "groundDeadTypeId" : "",
+                    "isShowBloodBar"   : 0,
+                    "isShowFriendBloodBar" : 0,
+                    "isShowTargetBar"      : 0,
+                    "pathfindingList"      : [
+                    ],
+                    "boxAddNum"            : 0,
+                    "boxAddType"           : 0,
+                    "boxBuffId"            : 0,
+                    "hate"                 : {
+                        "hateIfHit" : 0,
+                        "hateIfBeHit" : 0,
+                        "hateIfRefGroup" : [
+                        ],
+                        "hateIfChange"   : 0,
+                        "behateIfBegin"  : 0
+                    }
+                },
+                {
+                    "pos" : {
+                        "x" : 4.34726333618164,
+                        "y" : 0.380000233650208,
+                        "z" : -9.0489387512207
+                    },
+                    "dir" : {
+                        "x" : 0.0,
+                        "y" : 319.559051513672,
+                        "z" : 0.0
+                    },
+                    "camp" : 1,
+                    "buffId" : 2322,
+                    "roleId" : "xb_07",
+                    "pointFlag" : "Group3-6",
+                    "bornDelay" : 0.5,
+                    "ai"        : "ai_xb_2_yuyan:预言者之塔疯狂长矛",
+                    "bornTypeId" : "",
+                    "deadTypeId" : "",
+                    "groundDeadTypeId" : "",
+                    "isShowBloodBar"   : 0,
+                    "isShowFriendBloodBar" : 0,
+                    "isShowTargetBar"      : 0,
+                    "pathfindingList"      : [
+                    ],
+                    "boxAddNum"            : 0,
+                    "boxAddType"           : 0,
+                    "boxBuffId"            : 0,
+                    "hate"                 : {
+                        "hateIfHit" : 0,
+                        "hateIfBeHit" : 0,
+                        "hateIfRefGroup" : [
+                        ],
+                        "hateIfChange"   : 0,
+                        "behateIfBegin"  : 0
+                    }
+                },
+                {
+                    "pos" : {
+                        "x" : -5.98541164398193,
+                        "y" : 0.380000233650208,
+                        "z" : -5.20251607894897
+                    },
+                    "dir" : {
+                        "x" : 0.0,
+                        "y" : 65.0048446655273,
+                        "z" : 0.0
+                    },
+                    "camp" : 1,
+                    "buffId" : 2322,
+                    "roleId" : "xb_07",
+                    "pointFlag" : "Group3-7",
+                    "bornDelay" : 1.0,
+                    "ai"        : "ai_xb_2_yuyan:预言者之塔疯狂长矛",
+                    "bornTypeId" : "",
+                    "deadTypeId" : "",
+                    "groundDeadTypeId" : "",
+                    "isShowBloodBar"   : 0,
+                    "isShowFriendBloodBar" : 0,
+                    "isShowTargetBar"      : 0,
+                    "pathfindingList"      : [
+                    ],
+                    "boxAddNum"            : 0,
+                    "boxAddType"           : 0,
+                    "boxBuffId"            : 0,
+                    "hate"                 : {
+                        "hateIfHit" : 0,
+                        "hateIfBeHit" : 0,
+                        "hateIfRefGroup" : [
+                        ],
+                        "hateIfChange"   : 0,
+                        "behateIfBegin"  : 0
+                    }
+                },
+                {
+                    "pos" : {
+                        "x" : -0.365996390581131,
+                        "y" : 0.380000233650208,
+                        "z" : -9.93747806549072
+                    },
+                    "dir" : {
+                        "x" : 0.0,
+                        "y" : 0.0,
+                        "z" : 0.0
+                    },
+                    "camp" : 1,
+                    "buffId" : 2322,
+                    "roleId" : "xb_07",
+                    "pointFlag" : "Group3-8",
+                    "bornDelay" : 1.5,
+                    "ai"        : "ai_xb_2_yuyan:预言者之塔疯狂长矛",
+                    "bornTypeId" : "",
+                    "deadTypeId" : "",
+                    "groundDeadTypeId" : "",
+                    "isShowBloodBar"   : 0,
+                    "isShowFriendBloodBar" : 0,
+                    "isShowTargetBar"      : 0,
+                    "pathfindingList"      : [
+                    ],
+                    "boxAddNum"            : 0,
+                    "boxAddType"           : 0,
+                    "boxBuffId"            : 0,
+                    "hate"                 : {
+                        "hateIfHit" : 0,
+                        "hateIfBeHit" : 0,
+                        "hateIfRefGroup" : [
+                        ],
+                        "hateIfChange"   : 0,
+                        "behateIfBegin"  : 0
+                    }
+                }
+            ],
+            "groupFlag"   : "Group3",
+            "nextGroupFlag" : "",
+            "nextWaveDelay" : 0,
+            "delayTime"     : 0.0,
+            "refreshNum"    : 1,
+            "pointNum"      : 5
+        },
+        {
+            "refreshType" : 0,
+            "Points"      : [
+                {
+                    "pos" : {
+                        "x" : -2.78908443450928,
+                        "y" : 0.379999995231628,
+                        "z" : -8.98739719390869
+                    },
+                    "dir" : {
+                        "x" : 0.0,
+                        "y" : 27.6800384521484,
+                        "z" : 0.0
+                    },
+                    "camp" : 1,
+                    "buffId" : 2322,
+                    "roleId" : "xb_07",
+                    "pointFlag" : "Group4-1",
+                    "bornDelay" : 0.0,
+                    "ai"        : "ai_xb_2_yuyan:预言者之塔疯狂长矛",
+                    "bornTypeId" : "",
+                    "deadTypeId" : "",
+                    "groundDeadTypeId" : "",
+                    "isShowBloodBar"   : 0,
+                    "isShowFriendBloodBar" : 0,
+                    "isShowTargetBar"      : 0,
+                    "pathfindingList"      : [
+                    ],
+                    "boxAddNum"            : 0,
+                    "boxAddType"           : 0,
+                    "boxBuffId"            : 0,
+                    "hate"                 : {
+                        "hateIfHit" : 0,
+                        "hateIfBeHit" : 0,
+                        "hateIfRefGroup" : [
+                        ],
+                        "hateIfChange"   : 0,
+                        "behateIfBegin"  : 0
+                    }
+                },
+                {
+                    "pos" : {
+                        "x" : -6.21120548248291,
+                        "y" : 0.379999995231628,
+                        "z" : -4.88431787490845
+                    },
+                    "dir" : {
+                        "x" : 0.0,
+                        "y" : 61.5371284484863,
+                        "z" : 0.0
+                    },
+                    "camp" : 1,
+                    "buffId" : 2322,
+                    "roleId" : "xb_07",
+                    "pointFlag" : "Group4-2",
+                    "bornDelay" : 0.5,
+                    "ai"        : "ai_xb_2_yuyan:预言者之塔疯狂长矛",
+                    "bornTypeId" : "",
+                    "deadTypeId" : "",
+                    "groundDeadTypeId" : "",
+                    "isShowBloodBar"   : 0,
+                    "isShowFriendBloodBar" : 0,
+                    "isShowTargetBar"      : 0,
+                    "pathfindingList"      : [
+                    ],
+                    "boxAddNum"            : 0,
+                    "boxAddType"           : 0,
+                    "boxBuffId"            : 0,
+                    "hate"                 : {
+                        "hateIfHit" : 0,
+                        "hateIfBeHit" : 0,
+                        "hateIfRefGroup" : [
+                        ],
+                        "hateIfChange"   : 0,
+                        "behateIfBegin"  : 0
+                    }
+                },
+                {
+                    "pos" : {
+                        "x" : 7.30757236480713,
+                        "y" : 0.380000233650208,
+                        "z" : -6.27775907516479
+                    },
+                    "dir" : {
+                        "x" : 0.0,
+                        "y" : 313.734375,
+                        "z" : 0.0
+                    },
+                    "camp" : 1,
+                    "buffId" : 2322,
+                    "roleId" : "xb_07",
+                    "pointFlag" : "Group4-3",
+                    "bornDelay" : 1.0,
+                    "ai"        : "ai_xb_2_yuyan:预言者之塔疯狂长矛",
+                    "bornTypeId" : "",
+                    "deadTypeId" : "",
+                    "groundDeadTypeId" : "",
+                    "isShowBloodBar"   : 0,
+                    "isShowFriendBloodBar" : 0,
+                    "isShowTargetBar"      : 0,
+                    "pathfindingList"      : [
+                    ],
+                    "boxAddNum"            : 0,
+                    "boxAddType"           : 0,
+                    "boxBuffId"            : 0,
+                    "hate"                 : {
+                        "hateIfHit" : 0,
+                        "hateIfBeHit" : 0,
+                        "hateIfRefGroup" : [
+                        ],
+                        "hateIfChange"   : 0,
+                        "behateIfBegin"  : 0
+                    }
+                },
+                {
+                    "pos" : {
+                        "x" : 6.77997970581055,
+                        "y" : 0.379999995231628,
+                        "z" : -1.92195987701416
+                    },
+                    "dir" : {
+                        "x" : 0.0,
+                        "y" : 245.793762207031,
+                        "z" : 0.0
+                    },
+                    "camp" : 1,
+                    "buffId" : 2322,
+                    "roleId" : "xb_07",
+                    "pointFlag" : "Group4-4",
+                    "bornDelay" : 1.5,
+                    "ai"        : "ai_xb_2_yuyan:预言者之塔疯狂长矛",
+                    "bornTypeId" : "",
+                    "deadTypeId" : "",
+                    "groundDeadTypeId" : "",
+                    "isShowBloodBar"   : 0,
+                    "isShowFriendBloodBar" : 0,
+                    "isShowTargetBar"      : 0,
+                    "pathfindingList"      : [
+                    ],
+                    "boxAddNum"            : 0,
+                    "boxAddType"           : 0,
+                    "boxBuffId"            : 0,
+                    "hate"                 : {
+                        "hateIfHit" : 0,
+                        "hateIfBeHit" : 0,
+                        "hateIfRefGroup" : [
+                        ],
+                        "hateIfChange"   : 0,
+                        "behateIfBegin"  : 0
+                    }
+                },
+                {
+                    "pos" : {
+                        "x" : 5.39634704589844,
+                        "y" : 0.379999756813049,
+                        "z" : 3.44447159767151
+                    },
+                    "dir" : {
+                        "x" : 0.0,
+                        "y" : 249.017120361328,
+                        "z" : 0.0
+                    },
+                    "camp" : 1,
+                    "buffId" : 2322,
+                    "roleId" : "xb_07",
+                    "pointFlag" : "Group4-5",
+                    "bornDelay" : 0.0,
+                    "ai"        : "ai_xb_2_yuyan:预言者之塔疯狂长矛",
+                    "bornTypeId" : "",
+                    "deadTypeId" : "",
+                    "groundDeadTypeId" : "",
+                    "isShowBloodBar"   : 0,
+                    "isShowFriendBloodBar" : 0,
+                    "isShowTargetBar"      : 0,
+                    "pathfindingList"      : [
+                    ],
+                    "boxAddNum"            : 0,
+                    "boxAddType"           : 0,
+                    "boxBuffId"            : 0,
+                    "hate"                 : {
+                        "hateIfHit" : 0,
+                        "hateIfBeHit" : 0,
+                        "hateIfRefGroup" : [
+                        ],
+                        "hateIfChange"   : 0,
+                        "behateIfBegin"  : 0
+                    }
+                },
+                {
+                    "pos" : {
+                        "x" : 1.03563499450684,
+                        "y" : 0.380000472068787,
+                        "z" : 5.6964373588562
+                    },
+                    "dir" : {
+                        "x" : 0.0,
+                        "y" : 159.037780761719,
+                        "z" : 0.0
+                    },
+                    "camp" : 1,
+                    "buffId" : 2322,
+                    "roleId" : "xb_07",
+                    "pointFlag" : "Group4-6",
+                    "bornDelay" : 0.5,
+                    "ai"        : "ai_xb_2_yuyan:预言者之塔疯狂长矛",
+                    "bornTypeId" : "",
+                    "deadTypeId" : "",
+                    "groundDeadTypeId" : "",
+                    "isShowBloodBar"   : 0,
+                    "isShowFriendBloodBar" : 0,
+                    "isShowTargetBar"      : 0,
+                    "pathfindingList"      : [
+                    ],
+                    "boxAddNum"            : 0,
+                    "boxAddType"           : 0,
+                    "boxBuffId"            : 0,
+                    "hate"                 : {
+                        "hateIfHit" : 0,
+                        "hateIfBeHit" : 0,
+                        "hateIfRefGroup" : [
+                        ],
+                        "hateIfChange"   : 0,
+                        "behateIfBegin"  : 0
+                    }
+                },
+                {
+                    "pos" : {
+                        "x" : -4.37857246398926,
+                        "y" : 0.380000472068787,
+                        "z" : 4.40874624252319
+                    },
+                    "dir" : {
+                        "x" : 0.0,
+                        "y" : 167.989959716797,
+                        "z" : 0.0
+                    },
+                    "camp" : 1,
+                    "buffId" : 2322,
+                    "roleId" : "xb_07",
+                    "pointFlag" : "Group4-7",
+                    "bornDelay" : 1.0,
+                    "ai"        : "ai_xb_2_yuyan:预言者之塔疯狂长矛",
+                    "bornTypeId" : "",
+                    "deadTypeId" : "",
+                    "groundDeadTypeId" : "",
+                    "isShowBloodBar"   : 0,
+                    "isShowFriendBloodBar" : 0,
+                    "isShowTargetBar"      : 0,
+                    "pathfindingList"      : [
+                    ],
+                    "boxAddNum"            : 0,
+                    "boxAddType"           : 0,
+                    "boxBuffId"            : 0,
+                    "hate"                 : {
+                        "hateIfHit" : 0,
+                        "hateIfBeHit" : 0,
+                        "hateIfRefGroup" : [
+                        ],
+                        "hateIfChange"   : 0,
+                        "behateIfBegin"  : 0
+                    }
+                },
+                {
+                    "pos" : {
+                        "x" : -8.93354034423828,
+                        "y" : 0.379999995231628,
+                        "z" : -0.130664095282555
+                    },
+                    "dir" : {
+                        "x" : 0.0,
+                        "y" : 124.556449890137,
+                        "z" : 0.0
+                    },
+                    "camp" : 1,
+                    "buffId" : 2322,
+                    "roleId" : "xb_07",
+                    "pointFlag" : "Group4-8",
+                    "bornDelay" : 1.5,
+                    "ai"        : "ai_xb_2_yuyan:预言者之塔疯狂长矛",
+                    "bornTypeId" : "",
+                    "deadTypeId" : "",
+                    "groundDeadTypeId" : "",
+                    "isShowBloodBar"   : 0,
+                    "isShowFriendBloodBar" : 0,
+                    "isShowTargetBar"      : 0,
+                    "pathfindingList"      : [
+                    ],
+                    "boxAddNum"            : 0,
+                    "boxAddType"           : 0,
+                    "boxBuffId"            : 0,
+                    "hate"                 : {
+                        "hateIfHit" : 0,
+                        "hateIfBeHit" : 0,
+                        "hateIfRefGroup" : [
+                        ],
+                        "hateIfChange"   : 0,
+                        "behateIfBegin"  : 0
+                    }
+                }
+            ],
+            "groupFlag"   : "Group4",
+            "nextGroupFlag" : "",
+            "nextWaveDelay" : 0,
+            "delayTime"     : 0.0,
+            "refreshNum"    : 1,
+            "pointNum"      : 5
+        },
+        {
+            "refreshType" : 0,
+            "Points"      : [
+                {
+                    "pos" : {
+                        "x" : 1.1742228269577,
+                        "y" : 0.380000233650208,
+                        "z" : 3.82852840423584
+                    },
+                    "dir" : {
+                        "x" : 0.0,
+                        "y" : 180.0,
+                        "z" : 0.0
+                    },
+                    "camp" : 1,
+                    "buffId" : 2322,
+                    "roleId" : "xb_07",
+                    "pointFlag" : "Group5-1",
+                    "bornDelay" : 0.0,
+                    "ai"        : "ai_xb_2_yuyan:预言者之塔疯狂长矛",
+                    "bornTypeId" : "",
+                    "deadTypeId" : "",
+                    "groundDeadTypeId" : "",
+                    "isShowBloodBar"   : 0,
+                    "isShowFriendBloodBar" : 0,
+                    "isShowTargetBar"      : 0,
+                    "pathfindingList"      : [
+                    ],
+                    "boxAddNum"            : 0,
+                    "boxAddType"           : 0,
+                    "boxBuffId"            : 0,
+                    "hate"                 : {
+                        "hateIfHit" : 0,
+                        "hateIfBeHit" : 0,
+                        "hateIfRefGroup" : [
+                        ],
+                        "hateIfChange"   : 0,
+                        "behateIfBegin"  : 0
+                    }
+                },
+                {
+                    "pos" : {
+                        "x" : -1.29541516304016,
+                        "y" : 0.380000233650208,
+                        "z" : 4.46639251708984
+                    },
+                    "dir" : {
+                        "x" : 0.0,
+                        "y" : 180.0,
+                        "z" : 0.0
+                    },
+                    "camp" : 1,
+                    "buffId" : 2322,
+                    "roleId" : "xb_07",
+                    "pointFlag" : "Group5-2",
+                    "bornDelay" : 0.5,
+                    "ai"        : "ai_xb_2_yuyan:预言者之塔疯狂长矛",
+                    "bornTypeId" : "",
+                    "deadTypeId" : "",
+                    "groundDeadTypeId" : "",
+                    "isShowBloodBar"   : 0,
+                    "isShowFriendBloodBar" : 0,
+                    "isShowTargetBar"      : 0,
+                    "pathfindingList"      : [
+                    ],
+                    "boxAddNum"            : 0,
+                    "boxAddType"           : 0,
+                    "boxBuffId"            : 0,
+                    "hate"                 : {
+                        "hateIfHit" : 0,
+                        "hateIfBeHit" : 0,
+                        "hateIfRefGroup" : [
+                        ],
+                        "hateIfChange"   : 0,
+                        "behateIfBegin"  : 0
+                    }
+                },
+                {
+                    "pos" : {
+                        "x" : 3.61165332794189,
+                        "y" : 0.380000233650208,
+                        "z" : 4.53231906890869
+                    },
+                    "dir" : {
+                        "x" : 0.0,
+                        "y" : 180.0,
+                        "z" : 0.0
+                    },
+                    "camp" : 1,
+                    "buffId" : 2322,
+                    "roleId" : "xb_07",
+                    "pointFlag" : "Group5-3",
+                    "bornDelay" : 1.0,
+                    "ai"        : "ai_xb_2_yuyan:预言者之塔疯狂长矛",
+                    "bornTypeId" : "",
+                    "deadTypeId" : "",
+                    "groundDeadTypeId" : "",
+                    "isShowBloodBar"   : 0,
+                    "isShowFriendBloodBar" : 0,
+                    "isShowTargetBar"      : 0,
+                    "pathfindingList"      : [
+                    ],
+                    "boxAddNum"            : 0,
+                    "boxAddType"           : 0,
+                    "boxBuffId"            : 0,
+                    "hate"                 : {
+                        "hateIfHit" : 0,
+                        "hateIfBeHit" : 0,
+                        "hateIfRefGroup" : [
+                        ],
+                        "hateIfChange"   : 0,
+                        "behateIfBegin"  : 0
+                    }
+                },
+                {
+                    "pos" : {
+                        "x" : -4.1599383354187,
+                        "y" : 0.379999995231628,
+                        "z" : 0.122103497385979
+                    },
+                    "dir" : {
+                        "x" : 0.0,
+                        "y" : 180.0,
+                        "z" : 0.0
+                    },
+                    "camp" : 1,
+                    "buffId" : 2322,
+                    "roleId" : "xb_07",
+                    "pointFlag" : "Group5-4",
+                    "bornDelay" : 1.5,
+                    "ai"        : "ai_xb_2_yuyan:预言者之塔疯狂长矛",
+                    "bornTypeId" : "",
+                    "deadTypeId" : "",
+                    "groundDeadTypeId" : "",
+                    "isShowBloodBar"   : 0,
+                    "isShowFriendBloodBar" : 0,
+                    "isShowTargetBar"      : 0,
+                    "pathfindingList"      : [
+                    ],
+                    "boxAddNum"            : 0,
+                    "boxAddType"           : 0,
+                    "boxBuffId"            : 0,
+                    "hate"                 : {
+                        "hateIfHit" : 0,
+                        "hateIfBeHit" : 0,
+                        "hateIfRefGroup" : [
+                        ],
+                        "hateIfChange"   : 0,
+                        "behateIfBegin"  : 0
+                    }
+                },
+                {
+                    "pos" : {
+                        "x" : -6.65355825424194,
+                        "y" : 0.379999995231628,
+                        "z" : -2.37247204780579
+                    },
+                    "dir" : {
+                        "x" : 0.0,
+                        "y" : 180.0,
+                        "z" : 0.0
+                    },
+                    "camp" : 1,
+                    "buffId" : 2322,
+                    "roleId" : "xb_07",
+                    "pointFlag" : "Group5-5",
+                    "bornDelay" : 0.0,
+                    "ai"        : "ai_xb_2_yuyan:预言者之塔疯狂长矛",
+                    "bornTypeId" : "",
+                    "deadTypeId" : "",
+                    "groundDeadTypeId" : "",
+                    "isShowBloodBar"   : 0,
+                    "isShowFriendBloodBar" : 0,
+                    "isShowTargetBar"      : 0,
+                    "pathfindingList"      : [
+                    ],
+                    "boxAddNum"            : 0,
+                    "boxAddType"           : 0,
+                    "boxBuffId"            : 0,
+                    "hate"                 : {
+                        "hateIfHit" : 0,
+                        "hateIfBeHit" : 0,
+                        "hateIfRefGroup" : [
+                        ],
+                        "hateIfChange"   : 0,
+                        "behateIfBegin"  : 0
+                    }
+                },
+                {
+                    "pos" : {
+                        "x" : 6.98892450332642,
+                        "y" : 0.380000233650208,
+                        "z" : 0.70749306678772
+                    },
+                    "dir" : {
+                        "x" : 0.0,
+                        "y" : 180.0,
+                        "z" : 0.0
+                    },
+                    "camp" : 1,
+                    "buffId" : 2322,
+                    "roleId" : "xb_07",
+                    "pointFlag" : "Group5-6",
+                    "bornDelay" : 0.5,
+                    "ai"        : "ai_xb_2_yuyan:预言者之塔疯狂长矛",
+                    "bornTypeId" : "",
+                    "deadTypeId" : "",
+                    "groundDeadTypeId" : "",
+                    "isShowBloodBar"   : 0,
+                    "isShowFriendBloodBar" : 0,
+                    "isShowTargetBar"      : 0,
+                    "pathfindingList"      : [
+                    ],
+                    "boxAddNum"            : 0,
+                    "boxAddType"           : 0,
+                    "boxBuffId"            : 0,
+                    "hate"                 : {
+                        "hateIfHit" : 0,
+                        "hateIfBeHit" : 0,
+                        "hateIfRefGroup" : [
+                        ],
+                        "hateIfChange"   : 0,
+                        "behateIfBegin"  : 0
+                    }
+                },
+                {
+                    "pos" : {
+                        "x" : 7.11644411087036,
+                        "y" : 0.380000233650208,
+                        "z" : -2.65896821022034
+                    },
+                    "dir" : {
+                        "x" : 0.0,
+                        "y" : 180.0,
+                        "z" : 0.0
+                    },
+                    "camp" : 1,
+                    "buffId" : 2322,
+                    "roleId" : "xb_07",
+                    "pointFlag" : "Group5-7",
+                    "bornDelay" : 1.0,
+                    "ai"        : "ai_xb_2_yuyan:预言者之塔疯狂长矛",
+                    "bornTypeId" : "",
+                    "deadTypeId" : "",
+                    "groundDeadTypeId" : "",
+                    "isShowBloodBar"   : 0,
+                    "isShowFriendBloodBar" : 0,
+                    "isShowTargetBar"      : 0,
+                    "pathfindingList"      : [
+                    ],
+                    "boxAddNum"            : 0,
+                    "boxAddType"           : 0,
+                    "boxBuffId"            : 0,
+                    "hate"                 : {
+                        "hateIfHit" : 0,
+                        "hateIfBeHit" : 0,
+                        "hateIfRefGroup" : [
+                        ],
+                        "hateIfChange"   : 0,
+                        "behateIfBegin"  : 0
+                    }
+                },
+                {
+                    "pos" : {
+                        "x" : 1.77568602561951,
+                        "y" : 0.380000233650208,
+                        "z" : -0.782671213150024
+                    },
+                    "dir" : {
+                        "x" : 0.0,
+                        "y" : 180.0,
+                        "z" : 0.0
+                    },
+                    "camp" : 1,
+                    "buffId" : 2322,
+                    "roleId" : "xb_07",
+                    "pointFlag" : "Group5-8",
+                    "bornDelay" : 1.5,
+                    "ai"        : "ai_xb_2_yuyan:预言者之塔疯狂长矛",
+                    "bornTypeId" : "",
+                    "deadTypeId" : "",
+                    "groundDeadTypeId" : "",
+                    "isShowBloodBar"   : 0,
+                    "isShowFriendBloodBar" : 0,
+                    "isShowTargetBar"      : 0,
+                    "pathfindingList"      : [
+                    ],
+                    "boxAddNum"            : 0,
+                    "boxAddType"           : 0,
+                    "boxBuffId"            : 0,
+                    "hate"                 : {
+                        "hateIfHit" : 0,
+                        "hateIfBeHit" : 0,
+                        "hateIfRefGroup" : [
+                        ],
+                        "hateIfChange"   : 0,
+                        "behateIfBegin"  : 0
+                    }
+                }
+            ],
+            "groupFlag"   : "Group5",
+            "nextGroupFlag" : "",
+            "nextWaveDelay" : 0,
+            "delayTime"     : 0.0,
+            "refreshNum"    : 1,
+            "pointNum"      : 5
+        }
+    ],
+    "mBornList"     : [
+        {
+            "mPosition" : {
+                "x" : 1.75774300098419,
+                "y" : 0.379999995231628,
+                "z" : -8.2626838684082
+            },
+            "mEulerAngles" : {
+                "x" : 0.0,
+                "y" : 0.0,
+                "z" : 0.0
+            },
+            "mBornTypeId"  : "herobegin",
+            "mDeadTypeId"  : "herodead",
+            "mGroundDeadTypeId" : "",
+            "hate"              : {
+                "hateIfHit" : 0,
+                "hateIfBeHit" : 0,
+                "hateIfRefGroup" : [
+                ],
+                "hateIfChange"   : 0,
+                "behateIfBegin"  : 0
+            }
+        }
+    ],
+    "mCheckList"    : [
+        {
+            "triggerType" : 0,
+            "triggerNum"  : 1,
+            "triggerTimes" : 1,
+            "checkFlag"    : "Start",
+            "eventCfgList" : [
+                {
+                    "eveType" : 0,
+                    "content" : "\n{\n    \"__type\" : \"EventCfg_StartLevel\"\n}"
+                }
+            ],
+            "actionCfgList" : [
+                {
+                    "eveType" : 5,
+                    "content" : "\n{\n    \"__type\" : \"ActionCfg_CreateHero\",\n    \"changeCam\" : null,\n    \"_idx\"      : 0,\n    \"_delay\"    : 0.0\n}"
+                },
+                {
+                    "eveType" : 2,
+                    "content" : "\n{\n    \"__type\" : \"ActionCfg_ActivateRefresh\",\n    \"refreshID\" : \"Group1\",\n    \"_idx\"      : 1,\n    \"_delay\"    : 0.5\n}"
+                }
+            ]
+        },
+        {
+            "triggerType" : 0,
+            "triggerNum"  : 1,
+            "triggerTimes" : 1,
+            "checkFlag"    : "lose",
+            "eventCfgList" : [
+                {
+                    "eveType" : 1,
+                    "content" : "\n{\n    \"__type\" : \"EventCfg_EnterTime\",\n    \"secNum\" : 181\n}"
+                }
+            ],
+            "actionCfgList" : [
+                {
+                    "eveType" : 41,
+                    "content" : "\n{\n    \"__type\" : \"ActionCfg_RemoveEvent\",\n    \"eventId\" : \"win\",\n    \"_idx\"    : 0,\n    \"_delay\"  : 0.0\n}"
+                },
+                {
+                    "eveType" : 29,
+                    "content" : "\n{\n    \"__type\" : \"ActionCfg_ShowTips\",\n    \"desc\"   : \"时间到！！！\",\n    \"_idx\"   : 0,\n    \"_delay\" : 0.0\n}"
+                },
+                {
+                    "eveType" : 4,
+                    "content" : "\n{\n    \"__type\" : \"ActionCfg_Lose\",\n    \"_idx\"   : 1,\n    \"_delay\" : 2.0\n}"
+                }
+            ]
+        },
+        {
+            "triggerType" : 0,
+            "triggerNum"  : 1,
+            "triggerTimes" : 1,
+            "checkFlag"    : "win",
+            "eventCfgList" : [
+                {
+                    "eveType" : 8,
+                    "content" : "\n{\n    \"__type\" : \"EventCfg_RefreshDead\",\n    \"flagId\" : \"Group5\",\n    \"bDeadStart\" : false\n}"
+                }
+            ],
+            "actionCfgList" : [
+                {
+                    "eveType" : 3,
+                    "content" : "\n{\n    \"__type\" : \"ActionCfg_Win\",\n    \"_idx\"   : 0,\n    \"_delay\" : 0.0\n}"
+                }
+            ]
+        },
+        {
+            "triggerType" : 0,
+            "triggerNum"  : 1,
+            "triggerTimes" : 1,
+            "checkFlag"    : "1",
+            "eventCfgList" : [
+                {
+                    "eveType" : 8,
+                    "content" : "\n{\n    \"__type\" : \"EventCfg_RefreshDead\",\n    \"flagId\" : \"Group1\",\n    \"bDeadStart\" : true\n}"
+                }
+            ],
+            "actionCfgList" : [
+                {
+                    "eveType" : 2,
+                    "content" : "\n{\n    \"__type\" : \"ActionCfg_ActivateRefresh\",\n    \"refreshID\" : \"Group2\",\n    \"_idx\"      : 0,\n    \"_delay\"    : 0.0\n}"
+                }
+            ]
+        },
+        {
+            "triggerType" : 0,
+            "triggerNum"  : 1,
+            "triggerTimes" : 1,
+            "checkFlag"    : "2",
+            "eventCfgList" : [
+                {
+                    "eveType" : 8,
+                    "content" : "\n{\n    \"__type\" : \"EventCfg_RefreshDead\",\n    \"flagId\" : \"Group2\",\n    \"bDeadStart\" : true\n}"
+                }
+            ],
+            "actionCfgList" : [
+                {
+                    "eveType" : 2,
+                    "content" : "\n{\n    \"__type\" : \"ActionCfg_ActivateRefresh\",\n    \"refreshID\" : \"Group3\",\n    \"_idx\"      : 0,\n    \"_delay\"    : 0.0\n}"
+                }
+            ]
+        },
+        {
+            "triggerType" : 0,
+            "triggerNum"  : 1,
+            "triggerTimes" : 1,
+            "checkFlag"    : "3",
+            "eventCfgList" : [
+                {
+                    "eveType" : 8,
+                    "content" : "\n{\n    \"__type\" : \"EventCfg_RefreshDead\",\n    \"flagId\" : \"Group3\",\n    \"bDeadStart\" : true\n}"
+                }
+            ],
+            "actionCfgList" : [
+                {
+                    "eveType" : 2,
+                    "content" : "\n{\n    \"__type\" : \"ActionCfg_ActivateRefresh\",\n    \"refreshID\" : \"Group4\",\n    \"_idx\"      : 0,\n    \"_delay\"    : 0.0\n}"
+                }
+            ]
+        },
+        {
+            "triggerType" : 0,
+            "triggerNum"  : 1,
+            "triggerTimes" : 1,
+            "checkFlag"    : "4",
+            "eventCfgList" : [
+                {
+                    "eveType" : 8,
+                    "content" : "\n{\n    \"__type\" : \"EventCfg_RefreshDead\",\n    \"flagId\" : \"Group4\",\n    \"bDeadStart\" : true\n}"
+                }
+            ],
+            "actionCfgList" : [
+                {
+                    "eveType" : 2,
+                    "content" : "\n{\n    \"__type\" : \"ActionCfg_ActivateRefresh\",\n    \"refreshID\" : \"Group5\",\n    \"_idx\"      : 0,\n    \"_delay\"    : 0.0\n}"
+                }
+            ]
+        },
+        {
+            "triggerType" : 0,
+            "triggerNum"  : 1,
+            "triggerTimes" : 1,
+            "checkFlag"    : "lose2",
+            "eventCfgList" : [
+                {
+                    "eveType" : 6,
+                    "content" : "\n{\n    \"__type\" : \"EventCfg_RoleDead\",\n    \"flagId\" : \"\",\n    \"bDeadStart\" : false\n}"
+                }
+            ],
+            "actionCfgList" : [
+                {
+                    "eveType" : 4,
+                    "content" : "\n{\n    \"__type\" : \"ActionCfg_Lose\",\n    \"_idx\"   : 0,\n    \"_delay\" : 1.0\n}"
+                }
+            ]
+        }
+    ],
+    "mAreaList"     : [
+    ],
+    "mCameraList"   : [
+    ],
+    "mStoryIdList"  : [
+    ],
+    "mGroupIdList"  : [
+    ],
+    "mPoss"         : [
+    ],
+    "mShowWaveGroupId" : ""
+}

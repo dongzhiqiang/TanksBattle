@@ -1,0 +1,17 @@
+﻿
+{
+    "file" : "event_group_00002",
+    "isFile" : false,
+    "frames" : [
+    ],
+    "selId"  : 1,
+    "allScroll" : {
+        "x" : 0.0,
+        "y" : 0.0
+    },
+    "contentScroll" : {
+        "x" : 0.0,
+        "y" : 0.0
+    },
+    "maxWidth"      : 0.0
+}
