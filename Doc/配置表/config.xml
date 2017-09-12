@@ -1,0 +1,239 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Root>
+	<Config clientPath = "..\..\Client\Assets\Config\Resources" serverPath ="..\..\Server\GameServer\data" endPause = "false"/>
+
+    <XlsFile file="attributes.xlsx">
+		<Table name="固定属性表" client="property/propValue.csv" server="property/propValue.csv"/> 
+		<Table name="百分比属性表" client="property/propRate.csv" server="property/propRate.csv"/> 
+		<Table name="属性分配比例表" client="property/propDistribute.csv" server="property/propDistribute.csv"/>
+		<Table name="角色属性等级系数" client="property/roleLvProp.csv" server="property/roleLvProp.csv"/>
+		<Table name="怪物属性等级系数" client="property/monsterLvProp.csv" />
+		<Table name="属性值系数" client="property/roleTypeProp.csv" server="property/roleTypeProp.csv"/>
+		<Table name="属性定义表" client="property/propType.csv" server="property/propType.csv"/>
+		<Table name="常量表" client="property/propBasic.csv" server="property/propBasic.csv"/>
+	</XlsFile>
+
+    <XlsFile file="robot.xlsx">
+                <Table name="机器人表" server="property/robotCfg.csv" />
+	</XlsFile>
+
+
+    <XlsFile file="role.xlsx">
+		<Table name="角色表" client="role.csv" server = "role/role.csv"/> 
+		<Table name="角色经验表" client="role/lvExp.csv" server = "role/lvExp.csv"/> 
+		<Table name="角色特效表" client="role/roleFx.csv"/> 
+		<Table name="武器表" client="role/weapon.csv" server = "role/weapon.csv"/> 
+		<Table name="元素属性表" client="role/element.csv" server = "role/element.csv"/> 
+		<Table name="打击属性表" client="role/hitProp.csv" /> 
+                <Table name="神侍组合动作" client="role/petAniGroup.csv" /> 
+	</XlsFile>
+
+    <XlsFile file="item.xlsx">
+		<Table name="道具表" client="item/item.csv" server = "item/item.csv"/> 
+		<Table name="道具类型表" client="item/itemType.csv" server = "item/itemType.csv"/> 
+		<Table name="获取途径表" client="item/itemAchieve.csv" /> 
+		<Table name="获取途径类型表" client="item/itemAchieveType.csv" /> 
+        <Table name="初始道具" server = "item/itemInitList.csv"/> 
+	</XlsFile>
+
+    <XlsFile file="equip.xlsx">
+		<Table name="装备表" client="equip/equip.csv" server = "equip/equip.csv"/> 
+		<Table name="装备升级消耗" client="equip/equipUpgradeCost.csv" server = "equip/equipUpgradeCost.csv"/> 
+		<Table name="进阶消耗ID" client="equip/equipAdvanceCost.csv" server = "equip/equipAdvanceCost.csv"/> 
+		<Table name="觉醒消耗ID" client="equip/equipRouseCost.csv" server = "equip/equipRouseCost.csv"/> 
+		<Table name="装备基础属性" client="equip/equipProp.csv" />
+		<Table name="初始装备表"        server = "equip/equipInitList.csv"/> 
+		<Table name="装备进阶系数表"     client="equip/equipAdvanceRate.csv" server="equip/equipAdvanceRate.csv"/>
+		<Table name="装备觉醒系数表"     client="equip/equipRouseRate.csv" server="equip/equipRouseRate.csv"/>
+		<Table name="装备位表" client="equip/equipPos.csv" />
+	</XlsFile>
+
+    <XlsFile file="pet.xlsx">
+		<Table name="宠物等阶系数" client="pet/petAdvLvPropRate.csv" server="pet/petAdvLvPropRate.csv"/>
+		<Table name="宠物星级系数" client="pet/petStarPropRate.csv" server="pet/petStarPropRate.csv"/>
+		<Table name="宠物升级消耗" client="pet/petUpgradeCost.csv" server = "pet/petUpgradeCost.csv"/> 
+		<Table name="宠物进阶消耗" client="pet/petAdvanceCost.csv" server = "pet/petAdvanceCost.csv"/> 
+		<Table name="宠物升星消耗" client="pet/petUpstarCost.csv" server = "pet/petUpstarCost.csv"/> 
+		<Table name="宠物类型表" client="pet/petType.csv" />
+		<Table name="出战宠物转化比例表" client="pet/petBattleAssistRate.csv" server="pet/petBattleAssistRate.csv"/>
+		<Table name="宠物天赋表" client="pet/talent.csv" server="pet/talent.csv"/> 
+		<Table name="宠物天赋等级表" client="pet/petTalentLv.csv" server="pet/petTalentLv.csv"/> 
+		<Table name="天赋位置表" client="pet/talentPos.csv" server="pet/talentPos.csv"/> 
+		<Table name="天赋类型表" client="pet/talentType.csv"/> 
+		<Table name="宠物羁绊表" client="pet/petBond.csv" server="pet/petBond.csv"/> 
+		<Table name="宠物出战位表" client="pet/petPos.csv" server="pet/petPos.csv"/> 
+		<Table name="宠物出战阵型表" client="pet/petFormation.csv" server="pet/petFormation.csv"/> 
+	</XlsFile>
+
+	<XlsFile file="room.xlsx">
+		<Table name="关卡表" client="room/room.csv" server = "room/room.csv"/>
+        <Table name="关卡扫荡" client="room/sweepLevelCfg.csv" server = "room/sweepLevelCfg.csv"/>
+		<Table name="关卡结点表" client="room/roomNode.csv" server = "room/roomNode.csv"/> 
+		<Table name="通关条件表" client="room/conditions.csv" /> 
+		<Table name="加载界面tips" client="room/loadingTips.csv" /> 
+		<Table name="AI测试" client="room/aiTest.csv" /> 
+		<Table name="关卡推荐战斗力差值" client="room/powerFactor1.csv" /> 
+		<Table name="关卡推荐战斗力比值" client="room/powerFactor2.csv" /> 
+		<Table name="三星奖励" client="room/starReward.csv" server = "room/starReward.csv"/> 
+	</XlsFile>
+
+	<XlsFile file="systemSkill.xlsx">
+		<Table name="状态表" client="systemSkill/systemBuff.csv" /> 
+		<Table name="角色技能表" client="systemSkill/roleSkill.csv" server="systemSkill/roleSkill.csv"/> 
+		<Table name="技能表" client="systemSkill/systemSkill.csv" /> 
+		<Table name="铭文表" client="systemSkill/heroTalent.csv" server="systemSkill/heroTalent.csv"/> 
+		<Table name="等级消耗表" client="systemSkill/skillLvCost.csv" server="systemSkill/skillLvCost.csv"/> 
+		<Table name="等级系数" client="systemSkill/skillLvRate.csv" server="systemSkill/skillLvRate.csv"/> 
+		<Table name="等级值" client="systemSkill/skillLvValue.csv" server="systemSkill/skillLvValue.csv"/> 
+		<Table name="大qte" client="systemSkill/bigQteCfg.csv" /> 
+	</XlsFile>
+
+	<XlsFile file="combatSkill.xlsx">
+		<Table name="状态说明表" client="systemSkill/buffType.csv" /> 
+		<Table name="状态表" client="systemSkill/combatBuff.csv" /> 
+		<Table name="小qte表" client="systemSkill/qte.csv" /> 
+		<Table name="大qte表" client="systemSkill/bigQte.csv" /> 
+	</XlsFile>
+
+	<XlsFile file="configValue.xlsx">
+		<Table name="常用参数配置" client="other/configValue.csv" server = "other/configValue.csv"/> 
+        <Table name="品质配置" client="other/quality.csv" /> 
+        <Table name="错误码描述" client="other/errorCode.csv" /> 
+		<Table name="语言配置" client="other/languageCfg.csv" server = "other/languageCfg.csv"/> 
+        <Table name="测试模式给道具" server="other/testItem.csv"/> 
+	</XlsFile>
+
+	<XlsFile file="reward.xlsx">
+		<Table name="奖励表" client="reward/reward.csv" server="reward/reward.csv" /> 
+	</XlsFile>
+
+    <XlsFile file="activity.xlsx">
+		<Table name="金币副本基本配置" client="activity/goldLevelBasic.csv" server="activity/goldLevelBasic.csv" /> 
+        <Table name="金币副本关卡配置" client="activity/goldLevelMode.csv" server="activity/goldLevelMode.csv" /> 
+        <Table name="地狱犬副本基本配置" client="activity/hadesLevelBasic.csv" server="activity/hadesLevelBasic.csv" /> 
+        <Table name="地狱犬副本关卡配置" client="activity/hadesLevelMode.csv" server="activity/hadesLevelMode.csv" /> 
+        <Table name="地狱犬基础奖励表"  server="activity/hadesBaseReward.csv" /> 
+        <Table name="地狱犬评价奖励表"  server="activity/hadesEvaluateReward.csv" /> 
+        <Table name="通关评价表"  client="activity/levelEvaluate.csv" /> 
+        <Table name="爱神的恩赐基本配置" client="activity/venusLevelBasic.csv" server="activity/venusLevelBasic.csv" /> 
+        <Table name="爱神的恩赐按钮时间配置" client="activity/venusLevelButton.csv"/> 
+        <Table name="爱神的恩赐奖励表" client="activity/venusLevelReward.csv" server="activity/venusLevelReward.csv"/> 
+        <Table name="守护家人基本配置" client="activity/guardLevelBasic.csv" server="activity/guardLevelBasic.csv" /> 
+        <Table name="守护家人关卡配置" client="activity/guardLevelMode.csv" server="activity/guardLevelMode.csv" /> 
+        <Table name="守护家人基础奖励表"  server="activity/guardBaseReward.csv" /> 
+        <Table name="守护家人评价奖励表"  server="activity/guardEvaluateReward.csv" /> 
+        <Table name="守护家人评价表"  server="activity/guardEvaluate.csv" /> 
+        <Table name="守护家人波次表" client="activity/guardLevelWave.csv" /> 
+        <Table name="众神传基本配置" client="activity/eliteLevelBasic.csv" server="activity/eliteLevelBasic.csv" /> 
+        <Table name="众神传重置配置" client="activity/eliteLevelReset.csv" server="activity/eliteLevelReset.csv" /> 
+        <Table name="众神传关卡配置" client="activity/eliteLevel.csv" server="activity/eliteLevel.csv" /> 
+        <Table name="战争学院表" client="activity/activity.csv" /> 
+		<Table name="预言者之塔" client="activity/prophetTower.csv" server="activity/prophetTower.csv" /> 
+		<Table name="预言者之塔阶段奖励" client="activity/prophetTowerStageReward.csv" server="activity/prophetTowerStageReward.csv" /> 
+        <Table name="神器抢夺基本配置" client="activity/treasureRobBasic.csv" server="activity/treasureRobBasic.csv" /> 
+        <Table name="神器抢夺碎片配置" server="activity/treasureRobPiece.csv" /> 
+		<Table name="神器抢夺机器人" server="activity/treasureRobot.csv" /> 
+	</XlsFile>
+
+    <XlsFile file="story.xlsx">
+        <Table name="剧情人物配置"  client="story/storyRole.csv" /> 
+	</XlsFile>
+
+    <XlsFile file="arena.xlsx">
+        <Table name="基本配置"  client="activity/arenaBasicCfg.csv" server="activity/arenaBasicCfg.csv" />
+        <Table name="段位配置"  client="activity/arenaGradeCfg.csv" server="activity/arenaGradeCfg.csv" />
+        <Table name="竞技场机器人"  server="activity/arenaRobotCfg.csv" />
+        <Table name="每日排行奖励"  client="activity/arenaRankCfg.csv" server="activity/arenaRankCfg.csv" />
+	</XlsFile>
+
+    <XlsFile file="sound.xlsx">
+	    <Table name="音效特效表" client="sound/sound.csv"/> 
+        <Table name="UI按钮音效" client="sound/UIsound.csv"/> 
+		<Table name="动作音效" client="sound/aniSound.csv"/> 
+		<Table name="特效音效" client="sound/fxSound.csv"/> 
+    </XlsFile>
+    
+    <XlsFile file="system.xlsx">
+		<Table name="系统开启" client="system/system.csv" server="system/system.csv"/> 
+    </XlsFile>
+
+    <XlsFile file="opActivity.xlsx">
+        <Table name="月签到奖励" client="opActivity/checkInReward.csv" server="opActivity/checkInReward.csv"/> 
+        <Table name="冲级豪礼奖励" client="opActivity/levelReward.csv" server="opActivity/levelReward.csv"/>
+        <Table name="精彩活动页面排序" client="opActivity/opActivitiySort.csv"/> 
+        <Table name="宝藏基本配置" client="opActivity/lotteryBasicCfg.csv" server="opActivity/lotteryBasicCfg.csv"/>
+        <Table name="宝藏随机库" client="opActivity/lotteryRandPool.csv" server="opActivity/lotteryRandPool.csv"/>
+        <Table name="宝藏奖励预览" client="opActivity/lotteryPreview.csv"/>
+    </XlsFile>
+	
+	<XlsFile file="friend.xlsx">
+	    <Table name="好友上限配置" client="friend/friendMax.csv" server="friend/friendMax.csv" /> 
+		<Table name="菜单栏" client="friend/roleMenu.csv"/> 
+    </XlsFile>
+    
+    <XlsFile file="flame.xlsx">
+		<Table name="圣火基础配置" client="flame/flame.csv" server="flame/flame.csv"/> 
+		<Table name="圣火等级" client="flame/flameLevel.csv" server="flame/flameLevel.csv"/> 
+		<Table name="圣火培养材料转化" client="flame/flameMaterial.csv" server="flame/flameMaterial.csv"/> 
+    </XlsFile>
+
+	<XlsFile file="task.xlsx">
+	    <Table name="每日任务奖励" client="task/taskReward.csv" server="task/taskReward.csv" />   
+	    <Table name="活跃度奖励" client="task/vitalityReward.csv" server="task/vitalityReward.csv" /> 
+	    <Table name="成长任务基本配置表" client="task/growthTask.csv" server="task/growthTask.csv" />   
+	    <Table name="阶段表" client="task/growthTaskStage.csv" server="task/growthTaskStage.csv" />
+    </XlsFile>
+	
+	<XlsFile file="vip.xlsx">
+	    <Table name="VIP" client="vip/vip.csv" server="vip/vip.csv" /> 
+            <Table name="VIP礼包" client="vip/vipGift.csv" server="vip/vipGift.csv" /> 
+            <Table name="竞技场购买价格配置" client="vip/arenaBuy.csv" server="vip/arenaBuy.csv" /> 
+            <Table name="体力购买价格配置" client="vip/staminaBuy.csv" server="vip/staminaBuy.csv" /> 
+    </XlsFile>
+	
+	<XlsFile file="corps.xlsx">
+	    <Table name="公会基本配置" client="corps/corpsBase.csv" server="corps/corpsBase.csv" /> 
+		<Table name="公会配置" client="corps/corps.csv" server="corps/corps.csv" /> 
+		<Table name="职能" client="corps/func.csv" server="corps/func.csv" /> 
+		<Table name="职位权限" client="corps/posFunc.csv" server="corps/posFunc.csv" /> 
+		<Table name="公会初始宣言" server="corps/initDeclare.csv" /> 
+		<Table name="日志" client="corps/corpsLog.csv" /> 
+		<Table name="公会建设" client="corps/corpsBuild.csv" server="corps/corpsBuild.csv"/> 
+    </XlsFile>
+
+    <XlsFile file="exchangeShop.xlsx">
+	    <Table name="兑换商店配置" client="exchangeShop/exchangeShop.csv" server="exchangeShop/exchangeShop.csv" />   
+	    <Table name="商品配置" client="exchangeShop/wares.csv" server="exchangeShop/wares.csv" /> 
+    </XlsFile>
+    
+    <XlsFile file="badWords.xlsx">
+	    <Table name="昵称屏蔽字" client="other/nickBadWords.csv"/>
+	    <Table name="聊天屏蔽字" client="other/chatBadWords.csv"/>
+    </XlsFile>
+	
+	<XlsFile file="warriorsTried.xlsx">
+	    <Table name="基本配置" client="warriorsTried/base.csv" server="warriorsTried/base.csv" /> 
+		<Table name="刷新价格" client="warriorsTried/refreshCost.csv" server="warriorsTried/refreshCost.csv" /> 
+		<Table name="星级试炼表" client="warriorsTried/starTried.csv" server="warriorsTried/starTried.csv" /> 
+		<Table name="试炼关卡表" client="warriorsTried/triedLevel.csv" server="warriorsTried/triedLevel.csv" /> 
+		<Table name="试炼等级关卡" client="warriorsTried/levelRoom.csv" server="warriorsTried/levelRoom.csv" /> 
+    </XlsFile>
+
+    <XlsFile file="stronger.xlsx">
+	    <Table name="基础配置表" client="stronger/strongerBasic.csv"/>
+	    <Table name="具体配置表" client="stronger/strongerDetail.csv"/>
+            <Table name="进度文本" client="stronger/strongerProgress.csv"/>
+ 	    <Table name="英雄提升" client="stronger/strongerHero.csv"/>
+	    <Table name="神侍提升" client="stronger/strongerPet.csv"/>
+    </XlsFile>
+
+    <XlsFile file="treasure.xlsx">
+		<Table name="神器基础配置" client="treasure/treasure.csv" server="treasure/treasure.csv"/> 
+		<Table name="神器等级表" client="treasure/treasureLevel.csv" server="treasure/treasureLevel.csv"/> 
+    </XlsFile>
+    
+    <XlsFile file="rank.xlsx">
+		<Table name="基本配置" client="rank/rankBasicConfig.csv" server="rank/rankBasicConfig.csv"/> 
+		<Table name="点赞奖励" server="rank/rankLikeReward.csv"/> 
+    </XlsFile>
+</Root>  
