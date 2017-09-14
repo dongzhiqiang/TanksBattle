@@ -9,3 +9,6 @@
 /Client/Log
 /Client/Temp
 /Client/bin/GOW.apk
+/Server/MongoDB
+/Server/GameServer/logs
+/Server/GlobalServer/logs
