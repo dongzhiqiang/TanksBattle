@@ -163,12 +163,14 @@ public class Main : MonoBehaviour {
             equips.Add(new EquipVo(27000, 1, 1));
             petVo.equips = equips;
 
-            var pets = new List<FullRoleInfoVo>(new FullRoleInfoVo[] { petVo });
-            roleVo.pets = pets;
+            //var pets = new List<FullRoleInfoVo>(new FullRoleInfoVo[] { petVo });
+            //roleVo.pets = pets;
 
             //创建英雄
             RoleMgr.instance.CreateHero(roleVo);
-
+            if (isSingle)
+            {
+            }
             //进入主城
             LevelMgr.instance.GotoMaincity();
 #endregion

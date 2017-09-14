@@ -91,7 +91,10 @@ public class RoleMgr : SingletonMonoBehaviour<RoleMgr>, IRoleMgr
         cxt.euler = Vector3.zero;
         cxt.camp = camp;
         cxt.aiBehavior = "";
-        m_hero = CreateNetRole(vo, true, cxt);
+        if (Main.instance.isSingle)
+            m_hero = CreateRole(cxt, true);
+        else
+            m_hero = CreateNetRole(vo, true, cxt);
 
         EventMgr.FireAll(MSG.MSG_ROLE, MSG_ROLE.HERO_CREATED);
     }
@@ -134,7 +137,7 @@ public class RoleMgr : SingletonMonoBehaviour<RoleMgr>, IRoleMgr
         if (vo.props.TryGetValue("heroId", out heroIdProp) && heroIdProp.Int != 0)//是玩家
         {
             role.SetPart(new ItemsPart());
-            role.SetPart(new PetsPart());//存着宠物
+            //role.SetPart(new PetsPart());//存着宠物
             role.SetPart(new LevelsPart());
             role.SetPart(new ActivityPart());
             role.SetPart(new WeaponPart());
@@ -147,10 +150,10 @@ public class RoleMgr : SingletonMonoBehaviour<RoleMgr>, IRoleMgr
             role.SetPart(new CorpsPart());
             role.SetPart(new ShopsPart());
             role.SetPart(new EliteLevelsPart());
-            role.SetPart(new PetFormationsPart());
+            //role.SetPart(new PetFormationsPart());
             role.SetPart(new TreasurePart());
             role.ItemsPart.Init(role);
-            role.PetsPart.Init(role);
+            //role.PetsPart.Init(role);
             role.LevelsPart.Init(role);
             role.ActivityPart.Init(role);
             role.WeaponPart.Init(role);
@@ -163,7 +166,7 @@ public class RoleMgr : SingletonMonoBehaviour<RoleMgr>, IRoleMgr
             role.CorpsPart.Init(role);
             role.ShopsPart.Init(role);
             role.EliteLevelsPart.Init(role);
-            role.PetFormationsPart.Init(role);
+            //role.PetFormationsPart.Init(role);
             role.TreasurePart.Init(role);
         }
         else//是宠物
@@ -230,7 +233,41 @@ public class RoleMgr : SingletonMonoBehaviour<RoleMgr>, IRoleMgr
         role.SetString(enProp.roleId, cxt.roleId);
         role.SetString(enProp.name,cfg.name);
 
-
+        if (cxt.roleId == "kratos")
+        {
+            role.SetPart(new ItemsPart());
+            //role.SetPart(new PetsPart());//存着宠物
+            role.SetPart(new LevelsPart());
+            role.SetPart(new ActivityPart());
+            role.SetPart(new WeaponPart());
+            role.SetPart(new SystemsPart());
+            role.SetPart(new MailPart());
+            role.SetPart(new OpActivityPart());
+            role.SetPart(new FlamesPart());
+            role.SetPart(new SocialPart());
+            role.SetPart(new TaskPart());
+            role.SetPart(new CorpsPart());
+            role.SetPart(new ShopsPart());
+            role.SetPart(new EliteLevelsPart());
+            //role.SetPart(new PetFormationsPart());
+            role.SetPart(new TreasurePart());
+            role.ItemsPart.Init(role);
+            //role.PetsPart.Init(role);
+            role.LevelsPart.Init(role);
+            role.ActivityPart.Init(role);
+            role.WeaponPart.Init(role);
+            role.OpActivityPart.Init(role);
+            role.SystemsPart.Init(role);
+            role.MailPart.Init(role);   //邮件初始化
+            role.FlamesPart.Init(role);
+            role.SocialPart.Init(role);
+            role.TaskPart.Init(role);
+            role.CorpsPart.Init(role);
+            role.ShopsPart.Init(role);
+            role.EliteLevelsPart.Init(role);
+            //role.PetFormationsPart.Init(role);
+            role.TreasurePart.Init(role);
+        }
         //加载模型
         if (!dontLoadModel)
             role.Load(cxt);

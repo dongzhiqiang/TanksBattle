@@ -24,7 +24,7 @@ public class PetFormationsPart : RolePart
 
 
     #region Properties
-    public override enPart Type { get { return enPart.petFormations; } }
+    public override enPart Type { get { return enPart.max; } }
     public Dictionary<int, PetFormation> PetFormations { get { return m_petFormations; } }
     #endregion
 
