@@ -1,4 +1,6 @@
-﻿Shader "DynamicShadowProjector/Blit/Blit" {
+﻿// Upgrade NOTE: replaced 'mul(UNITY_MATRIX_MVP,*)' with 'UnityObjectToClipPos(*)'
+
+Shader "DynamicShadowProjector/Blit/Blit" {
 	Properties {
 		_MainTex ("Albedo (RGB)", 2D) = "white" {}
 	}
@@ -24,7 +26,7 @@
 			v2f_blit vert_lod(appdata_img v)
 			{
 				v2f_blit o;
-				o.pos = mul(UNITY_MATRIX_MVP, v.vertex);
+				o.pos = UnityObjectToClipPos(v.vertex);
 				o.uv0.xy = v.texcoord.xy;
 				o.uv0.zw = _MipLevel;
 				return o;
@@ -46,7 +48,7 @@
 			v2f_blit vert_bias(appdata_img v)
 			{
 				v2f_blit o;
-				o.pos = mul(UNITY_MATRIX_MVP, v.vertex);
+				o.pos = UnityObjectToClipPos(v.vertex);
 				o.uv0.xy = v.texcoord.xy;
 				o.uv0.zw = _MipBias;
 				return o;

@@ -1,3 +1,5 @@
+// Upgrade NOTE: replaced 'mul(UNITY_MATRIX_MVP,*)' with 'UnityObjectToClipPos(*)'
+
 Shader "Hidden/PP/Xffect/glow_per_obj/replacement" {
 	Properties {
 		_MainTex ("Base (RGB)", 2D) = "white" {}
@@ -49,7 +51,7 @@ Shader "Hidden/PP/Xffect/glow_per_obj/replacement" {
 			v2f vert (appdata_t v)
 			{
 				v2f o;
-				o.pos = mul(UNITY_MATRIX_MVP, v.vertex);
+				o.pos = UnityObjectToClipPos(v.vertex);
 				o.projPos = ComputeScreenPos (o.pos);
 				COMPUTE_EYEDEPTH(o.projPos.z);
 				o.color = v.color;

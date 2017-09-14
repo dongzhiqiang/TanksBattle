@@ -669,7 +669,7 @@ public class SceneEditor : Editor
                                     SceneMgr.instance.mDangbanDict[mAreaViewList[i].areaFlag].gameObject.SetActive(false);
                             }
                             else
-                                GameObject.Destroy(Room.instance.mAreaGroup.transform.FindChild(mAreaViewList[i].areaFlag).gameObject);
+                                GameObject.Destroy(Room.instance.mAreaGroup.transform.Find(mAreaViewList[i].areaFlag).gameObject);
                             mAreaViewList.Remove(mAreaViewList[i]);
                             return;
                         }

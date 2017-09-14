@@ -26,7 +26,7 @@ public class ActionHideDangban : SceneAction
 
     IEnumerator HideEffect(GameObject go)
     {
-        Transform closeTran = go.transform.FindChild("DangBan");
+        Transform closeTran = go.transform.Find("DangBan");
         if (closeTran != null)
         {
             Animator ani = closeTran.GetComponent<Animator>();

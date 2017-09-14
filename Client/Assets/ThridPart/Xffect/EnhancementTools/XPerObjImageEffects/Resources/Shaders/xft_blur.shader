@@ -1,4 +1,6 @@
-﻿Shader "Xffect/PerObj/blur_conetap" {
+﻿// Upgrade NOTE: replaced 'mul(UNITY_MATRIX_MVP,*)' with 'UnityObjectToClipPos(*)'
+
+Shader "Xffect/PerObj/blur_conetap" {
 Properties {
 	_MainTex ("", 2D) = "" {}
 }
@@ -32,7 +34,7 @@ ENDCG
 		half4 _BlurOffsets;
 		v2f vert( appdata_img v ) {
 			v2f o; 
-			o.pos = mul(UNITY_MATRIX_MVP, v.vertex);
+			o.pos = UnityObjectToClipPos(v.vertex);
 			o.uv = v.texcoord - _BlurOffsets.xy * _MainTex_TexelSize.xy; // hack, _BlurOffsets corresponding to the offsets set by scripts.
 			o.taps[0] = o.uv + _MainTex_TexelSize * _BlurOffsets.xy;
 			o.taps[1] = o.uv - _MainTex_TexelSize * _BlurOffsets.xy;

@@ -23,7 +23,7 @@ public class RealtimeReflections : MonoBehaviour
     {
         foreach (var probe in reflectionProbes) {
             probe.mode = UnityEngine.Rendering.ReflectionProbeMode.Realtime;
-            probe.type = UnityEngine.Rendering.ReflectionProbeType.Cube;
+            //probe.type = UnityEngine.Rendering.ReflectionProbeType.Cube;
             probe.boxProjection = true;
             probe.resolution = cubemapSize;//jsbd
             probe.transform.parent = transform.parent;

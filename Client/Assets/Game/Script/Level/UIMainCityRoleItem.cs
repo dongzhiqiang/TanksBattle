@@ -52,7 +52,7 @@ public class UIMainCityRoleItem : MonoBehaviour {
             Camera ca = CameraMgr.instance.CurCamera;
             Camera caUI = UIMgr.instance.UICameraHight;
 
-            Transform title = roleGo.transform.FindChild("model/Title");
+            Transform title = roleGo.transform.Find("model/Title");
             Vector3 newPos = title.position;
             if (role.GetInt(enProp.heroId) > 0)           
                 newPos = new Vector3(title.transform.position.x, title.transform.position.y - 1f, title.transform.position.z);
@@ -79,7 +79,7 @@ public class UIMainCityRoleItem : MonoBehaviour {
             Camera ca = CameraMgr.instance.CurCamera;
             Camera caUI = UIMgr.instance.UICameraHight;
 
-            Transform title = roleGo.transform.FindChild("model/Title");
+            Transform title = roleGo.transform.Find("model/Title");
             Vector3 newPos = title.position;
             if (role.GetInt(enProp.heroId) > 0)
                 newPos = new Vector3(title.transform.position.x, title.transform.position.y - 1f, title.transform.position.z);

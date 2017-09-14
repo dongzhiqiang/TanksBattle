@@ -372,9 +372,9 @@ public class UIMainCity : UIPanel
         int maxStamina = RoleLvExpCfg.Get(m_role.GetInt(enProp.level)).maxStamina;
 
         Text txt = GetItem(enSystem.stamina).txt;
-        Text txt1 = txt.transform.FindChild("txt1").GetComponent<Text>();
-        Text txt2 = txt.transform.FindChild("txt2").GetComponent<Text>();
-        Text txt3 = txt.transform.FindChild("txt3").GetComponent<Text>();
+        Text txt1 = txt.transform.Find("txt1").GetComponent<Text>();
+        Text txt2 = txt.transform.Find("txt2").GetComponent<Text>();
+        Text txt3 = txt.transform.Find("txt3").GetComponent<Text>();
         txt.GetComponent<Text>().enabled = false;
         if (txt1 == null || txt2 == null || txt3 == null)
         {

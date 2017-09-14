@@ -1,10 +1,12 @@
+// Upgrade NOTE: replaced 'mul(UNITY_MATRIX_MVP,*)' with 'UnityObjectToClipPos(*)'
+
 #if !defined(DSP_SHADOW_CGINC_INCLUDED)
 #define DSP_SHADOW_CGINC_INCLUDED
 #include "UnityCG.cginc"
 
 float4 DSPShadowVertOpaque(float4 vertex : POSITION) : SV_POSITION
 {
-	return mul(UNITY_MATRIX_MVP, vertex);
+	return UnityObjectToClipPos(vertex);
 }
 
 fixed4 DSPShadowFragOpaque() : COLOR
@@ -20,7 +22,7 @@ float4 _MainTex_ST;
 DSP_V2F_SHADOW_TRANS DSPShadowVertTrans(float4 vertex : POSITION, float4 texcoord : TEXCOORD0)
 {
 	DSP_V2F_SHADOW_TRANS o;
-	o.pos = mul(UNITY_MATRIX_MVP, vertex);
+	o.pos = UnityObjectToClipPos(vertex);
 	o.uv = TRANSFORM_TEX(texcoord, _MainTex);
 	return o;
 }

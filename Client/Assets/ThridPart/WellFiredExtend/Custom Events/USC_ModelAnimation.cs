@@ -25,7 +25,7 @@ public class USC_ModelAnimation : USEventBase
 
         if (m_Ani == null && AffectedObject != null)
         {
-            m_model = AffectedObject.transform.FindChild("model");
+            m_model = AffectedObject.transform.Find("model");
 
 
             if (m_model != null)

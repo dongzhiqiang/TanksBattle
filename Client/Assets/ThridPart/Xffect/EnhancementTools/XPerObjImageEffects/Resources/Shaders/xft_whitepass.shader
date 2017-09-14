@@ -1,4 +1,6 @@
-﻿Shader "Xffect/PerObj/whitepass" {
+﻿// Upgrade NOTE: replaced 'mul(UNITY_MATRIX_MVP,*)' with 'UnityObjectToClipPos(*)'
+
+Shader "Xffect/PerObj/whitepass" {
 	Properties {
 	_MainTex ("", 2D) = "white" {}
 	}
@@ -20,7 +22,7 @@
 
 		v2f_surf vert_surf (appdata_full v) {
 		  v2f_surf o;
-		  o.pos = mul (UNITY_MATRIX_MVP, v.vertex);
+		  o.pos = UnityObjectToClipPos (v.vertex);
 		  o.tex = v.texcoord;
 		  return o;
 		}

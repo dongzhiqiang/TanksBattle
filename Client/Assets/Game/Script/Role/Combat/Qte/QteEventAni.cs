@@ -24,11 +24,11 @@ public class QteEventAni : QteEvent
         }
         else if (m_objType == enQteEventObjType.Qte_Obj_Hero && CurQte.ModelHero != null)
         {
-            mod = CurQte.ModelHero.FindChild("model");
+            mod = CurQte.ModelHero.Find("model");
         }
         else if (m_objType == enQteEventObjType.Qte_Obj_Target && CurQte.ModelTarget != null)
         {
-            mod = CurQte.ModelTarget.FindChild("model");
+            mod = CurQte.ModelTarget.Find("model");
         }
 
         if (mod != null)

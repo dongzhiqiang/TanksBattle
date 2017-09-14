@@ -337,7 +337,7 @@ namespace DynamicShadowProjector {
 			}
 			if (0 < m_mipLevel) {
 				m_shadowTexture.useMipMap = true;
-				m_shadowTexture.generateMips = false;
+				m_shadowTexture.autoGenerateMips = false;
 				m_shadowTexture.mipMapBias = 0.0f;
 				m_shadowTexture.filterMode = FilterMode.Trilinear;
 			}

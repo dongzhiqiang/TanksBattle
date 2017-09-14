@@ -1,4 +1,6 @@
-﻿Shader "DynamicShadowProjector/Blit/CopyMipmap" {
+﻿// Upgrade NOTE: replaced 'mul(UNITY_MATRIX_MVP,*)' with 'UnityObjectToClipPos(*)'
+
+Shader "DynamicShadowProjector/Blit/CopyMipmap" {
 	Properties {
 		_MainTex ("Albedo (RGB)", 2D) = "white" {}
 	}
@@ -27,7 +29,7 @@
 	v2f_blit vert_blit(appdata_img v)
 	{
 		v2f_blit o;
-		o.pos = mul(UNITY_MATRIX_MVP, v.vertex);
+		o.pos = UnityObjectToClipPos(v.vertex);
     	o.uv0 = v.texcoord.xy;
 		return o;
 	}
@@ -41,7 +43,7 @@
 	v2f_downsample vert_downsample(appdata_img v)
 	{
 		v2f_downsample o;
-		o.pos = mul(UNITY_MATRIX_MVP, v.vertex);
+		o.pos = UnityObjectToClipPos(v.vertex);
     	o.uv0 = v.texcoord.xy + _MainTex_TexelSize.xy;
 		o.uv1 = v.texcoord.xy - _MainTex_TexelSize.xy;
 		o.uv2 = v.texcoord.xy + _MainTex_TexelSize.xy * half2(1,-1);

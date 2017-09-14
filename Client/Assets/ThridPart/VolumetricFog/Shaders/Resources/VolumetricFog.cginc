@@ -1,4 +1,7 @@
-﻿#ifndef Volumetric_Fog_Include
+﻿// Upgrade NOTE: replaced '_World2Object' with 'unity_WorldToObject'
+// Upgrade NOTE: replaced 'mul(UNITY_MATRIX_MVP,*)' with 'UnityObjectToClipPos(*)'
+
+#ifndef Volumetric_Fog_Include
 #define Volumetric_Fog_Include
 
 /////////////////Includes//////////////////////
@@ -57,8 +60,8 @@ FirstPersonV2F FirstPersonVert (A2V IN)
 
 	OUT.vLocalPos = IN.vertex.xyz;
 	OUT.vViewPos = mul((float4x4)UNITY_MATRIX_MV, float4(IN.vertex.xyz, 1.0f)).xyz;
-	OUT.vLocalCamPos = mul((float4x4)_World2Object, (float4(_WorldSpaceCameraPos, 1.0f))).xyz;
-	OUT.vPos = mul(UNITY_MATRIX_MVP, IN.vertex);
+	OUT.vLocalCamPos = mul((float4x4)unity_WorldToObject, (float4(_WorldSpaceCameraPos, 1.0f))).xyz;
+	OUT.vPos = UnityObjectToClipPos(IN.vertex);
 	OUT.vScreenPos = ComputeScreenPos(OUT.vPos);
 
 	return OUT;
@@ -111,10 +114,10 @@ ThirdPersonV2F ThirdPersonVert (appdata_full IN)
 
 	OUT.vLocalPos = IN.vertex.xyz;
 	OUT.vViewPos = mul((float4x4)UNITY_MATRIX_MV, float4(IN.vertex.xyz, 1.0f)).xyz;
-	OUT.vLocalCamPos = mul((float4x4)_World2Object, (float4(_WorldSpaceCameraPos, 1.0f))).xyz;
-	OUT.vPos = mul(UNITY_MATRIX_MVP, IN.vertex);
+	OUT.vLocalCamPos = mul((float4x4)unity_WorldToObject, (float4(_WorldSpaceCameraPos, 1.0f))).xyz;
+	OUT.vPos = UnityObjectToClipPos(IN.vertex);
 	OUT.vScreenPos = ComputeScreenPos(OUT.vPos);
-	OUT.vLocalCenter = mul((float4x4)_World2Object, (float4(_Center.xyz, 1.0f))).xyz;
+	OUT.vLocalCenter = mul((float4x4)unity_WorldToObject, (float4(_Center.xyz, 1.0f))).xyz;
 	return OUT;
 }
 

@@ -1,3 +1,5 @@
+// Upgrade NOTE: replaced 'mul(UNITY_MATRIX_MVP,*)' with 'UnityObjectToClipPos(*)'
+
 
 Shader "Self-Illumin/AngryBots/InterlacePatternBlendAlpha" {
 	Properties {
@@ -28,7 +30,7 @@ Shader "Self-Illumin/AngryBots/InterlacePatternBlendAlpha" {
 		{
 			v2f o;
 
-			o.pos = mul (UNITY_MATRIX_MVP, v.vertex);	
+			o.pos = UnityObjectToClipPos (v.vertex);	
 			o.uv.xy = TRANSFORM_TEX(v.texcoord.xy, _MainTex);
 			o.uv2.xy = TRANSFORM_TEX(v.texcoord.xy, _InterlacePattern) + _Time.xx * _InterlacePattern_ST.zw;
 

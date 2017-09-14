@@ -1,4 +1,8 @@
-﻿Shader "DynamicShadowProjector/Projector/Mipmapped Shadow" {
+﻿// Upgrade NOTE: replaced '_Projector' with 'unity_Projector'
+// Upgrade NOTE: replaced '_ProjectorClip' with 'unity_ProjectorClip'
+// Upgrade NOTE: replaced 'mul(UNITY_MATRIX_MVP,*)' with 'UnityObjectToClipPos(*)'
+
+Shader "DynamicShadowProjector/Projector/Mipmapped Shadow" {
 	Properties {
 		_ShadowTex ("Cookie", 2D) = "gray" {}
 		_ClipScale ("Near Clip Sharpness", Float) = 100
@@ -29,9 +33,9 @@
 			DSP_V2F_PROJECTOR DSPProjectorVertMipmap(float4 vertex : POSITION, float3 normal : NORMAL)
 			{
 				DSP_V2F_PROJECTOR o;
-				o.pos = mul (UNITY_MATRIX_MVP, vertex);
-				o.uvShadow = mul (_Projector, vertex);
-				float z = mul(_ProjectorClip, vertex).x;
+				o.pos = UnityObjectToClipPos (vertex);
+				o.uvShadow = mul (unity_Projector, vertex);
+				float z = mul(unity_ProjectorClip, vertex).x;
 				o.uvShadow.z = _DSPMipLevel * z;
 				o.alpha.x = _ClipScale * z;
 				o.alpha.y = DSPCalculateDiffuseShadowAlpha(vertex, normal);

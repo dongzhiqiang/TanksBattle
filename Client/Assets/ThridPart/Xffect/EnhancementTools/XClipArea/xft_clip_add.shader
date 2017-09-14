@@ -1,4 +1,7 @@
-﻿Shader "Xffect/clip/additive" {
+﻿// Upgrade NOTE: replaced '_Object2World' with 'unity_ObjectToWorld'
+// Upgrade NOTE: replaced 'mul(UNITY_MATRIX_MVP,*)' with 'UnityObjectToClipPos(*)'
+
+Shader "Xffect/clip/additive" {
 Properties {
  _TintColor ("Tint Color", Color) = (0.5,0.5,0.5,0.5)
  _MainTex ("Main Texture", 2D) = "white" {}
@@ -46,9 +49,9 @@ Category {
          v2f vert (appdata_t v)
          {
              v2f o;
-			 o.wpos = mul (_Object2World, v.vertex);
+			 o.wpos = mul (unity_ObjectToWorld, v.vertex);
 			 o.color = v.color;
-             o.vertex = mul(UNITY_MATRIX_MVP, v.vertex);
+             o.vertex = UnityObjectToClipPos(v.vertex);
              o.texcoord = v.texcoord;
              return o;
          }

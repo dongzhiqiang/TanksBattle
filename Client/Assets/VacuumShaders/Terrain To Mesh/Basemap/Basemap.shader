@@ -1,3 +1,5 @@
+// Upgrade NOTE: replaced 'mul(UNITY_MATRIX_MVP,*)' with 'UnityObjectToClipPos(*)'
+
 // VacuumShaders 2015
 // https://www.facebook.com/VacuumShaders
 
@@ -41,7 +43,7 @@ Shader "Hidden/VacuumShaders/Terrain To Mesh/Basemap"
 	v2f vert( appdata_img v ) 
 	{ 
 		v2f o;
-		o.pos = mul(UNITY_MATRIX_MVP, v.vertex);		
+		o.pos = UnityObjectToClipPos(v.vertex);		
 		
 		o.uv =  v.texcoord.xy;	
 		#if UNITY_UV_STARTS_AT_TOP

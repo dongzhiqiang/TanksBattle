@@ -108,7 +108,7 @@ public class ModuleChangeEditor : EditorWindow
                 UnityEditorInternal.ComponentUtility.PasteComponentAsNew(goNew);
             }
             //找阴影 设置引用
-            Transform shadow = model.parent.FindChild("fx_shadow_dynamic/Shadow Projector");
+            Transform shadow = model.parent.Find("fx_shadow_dynamic/Shadow Projector");
             if (shadow != null)
             {
                 DrawTargetObject draw = shadow.GetComponent<DrawTargetObject>();

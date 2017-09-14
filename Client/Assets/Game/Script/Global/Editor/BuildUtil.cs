@@ -20,7 +20,7 @@ public class BuildUtil
     public static void SetSingle()
     {
         PlayerSettings.productName = "GOWSingle";
-        PlayerSettings.bundleIdentifier = "com.Empty.GOWSingle";
+        PlayerSettings.applicationIdentifier = "com.Empty.GOWSingle";
         GameObject go =GameObject.Find("Main");
         if(go ==null)return;
         go.GetComponent<Main>().isSingle =true;
@@ -30,7 +30,7 @@ public class BuildUtil
     public static void SetNormal()
     {
         PlayerSettings.productName = "GOW";
-        PlayerSettings.bundleIdentifier = "com.Empty.GOW";
+        PlayerSettings.applicationIdentifier = "com.Empty.GOW";
         GameObject go = GameObject.Find("Main");
         if (go == null) return;
         go.GetComponent<Main>().isSingle = false;

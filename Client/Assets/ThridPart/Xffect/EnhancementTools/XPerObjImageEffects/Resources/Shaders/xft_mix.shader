@@ -1,4 +1,6 @@
-﻿Shader "Xffect/PerObj/mix" {
+﻿// Upgrade NOTE: replaced 'mul(UNITY_MATRIX_MVP,*)' with 'UnityObjectToClipPos(*)'
+
+Shader "Xffect/PerObj/mix" {
 Properties {
 	_MainTex ("", 2D) = "" {}
 }
@@ -36,7 +38,7 @@ ENDCG
 
 		v2f vert( appdata_img v ) {
 			v2f o; 
-			o.pos = mul(UNITY_MATRIX_MVP, v.vertex);
+			o.pos = UnityObjectToClipPos(v.vertex);
 			o.uv = v.texcoord.xy;
 			return o;
 		}
@@ -79,7 +81,7 @@ ENDCG
 		half4 _OutlineColor;
 		v2f vert( appdata_img v ) {
 			v2f o; 
-			o.pos = mul(UNITY_MATRIX_MVP, v.vertex);
+			o.pos = UnityObjectToClipPos(v.vertex);
 			o.uv = v.texcoord.xy;
 			return o;
 		}

@@ -340,10 +340,10 @@ public class DebugUI : SingletonMonoBehaviour<DebugUI>
 
         //内存相关
 #if ENABLE_PROFILER
-        GUI.Label(new Rect((50) * s, 80 * s, 300 * s, 30 * s),string.Format("mono 堆大小:{0:f0}", (Profiler.GetMonoHeapSize()/1024f)/1024f));
-        GUI.Label(new Rect((50) * s, 120 * s, 300 * s, 30 * s), string.Format("mono 使用到的大小:{0:f0}", (Profiler.GetMonoUsedSize() / 1024f) / 1024f));
-        GUI.Label(new Rect((50) * s, 160 * s, 300 * s, 30 * s), string.Format("总内存大小:{0:f}", (Profiler.GetTotalReservedMemory() / 1024f) / 1024f));
-        GUI.Label(new Rect((50) * s, 200 * s, 300 * s, 30 * s), string.Format("预留中的:{0:f0}", (Profiler.GetTotalUnusedReservedMemory() / 1024f) / 1024f));
+        GUI.Label(new Rect((50) * s, 80 * s, 300 * s, 30 * s),string.Format("mono 堆大小:{0:f0}", (UnityEngine.Profiling.Profiler.GetMonoHeapSize()/1024f)/1024f));
+        GUI.Label(new Rect((50) * s, 120 * s, 300 * s, 30 * s), string.Format("mono 使用到的大小:{0:f0}", (UnityEngine.Profiling.Profiler.GetMonoUsedSize() / 1024f) / 1024f));
+        GUI.Label(new Rect((50) * s, 160 * s, 300 * s, 30 * s), string.Format("总内存大小:{0:f}", (UnityEngine.Profiling.Profiler.GetTotalReservedMemory() / 1024f) / 1024f));
+        GUI.Label(new Rect((50) * s, 200 * s, 300 * s, 30 * s), string.Format("预留中的:{0:f0}", (UnityEngine.Profiling.Profiler.GetTotalUnusedReservedMemory() / 1024f) / 1024f));
         
 #endif
         ////抗锯齿

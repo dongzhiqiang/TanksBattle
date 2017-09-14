@@ -1,4 +1,7 @@
-﻿Shader "Particles/UIParticleMask" {
+﻿// Upgrade NOTE: replaced '_Object2World' with 'unity_ObjectToWorld'
+// Upgrade NOTE: replaced 'mul(UNITY_MATRIX_MVP,*)' with 'UnityObjectToClipPos(*)'
+
+Shader "Particles/UIParticleMask" {
 Properties {
 	_TintColor ("Tint Color", Color) = (0.5,0.5,0.5,0.5)
 	_MainTex ("Particle Texture", 2D) = "white" {}
@@ -55,8 +58,8 @@ Category {
 			v2f vert (appdata_t v)
 			{
 				v2f o;
-                o.vpos = mul(_Object2World, v.vertex).xyz;
-				o.vertex = mul(UNITY_MATRIX_MVP, v.vertex);
+                o.vpos = mul(unity_ObjectToWorld, v.vertex).xyz;
+				o.vertex = UnityObjectToClipPos(v.vertex);
 				#ifdef SOFTPARTICLES_ON
 				o.projPos = ComputeScreenPos (o.vertex);
 				COMPUTE_EYEDEPTH(o.projPos.z);

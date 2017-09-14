@@ -1,4 +1,6 @@
-﻿Shader "Xffect/displacement-dissolve/additive" {
+﻿// Upgrade NOTE: replaced 'mul(UNITY_MATRIX_MVP,*)' with 'UnityObjectToClipPos(*)'
+
+Shader "Xffect/displacement-dissolve/additive" {
 Properties {
  _TintColor ("Tint Color", Color) = (0.5,0.5,0.5,0.5)
  _MainTex ("Main Texture", 2D) = "white" {}
@@ -67,7 +69,7 @@ Category {
          v2f vert (appdata_t v)
          {
              v2f o;
-             o.vertex = mul(UNITY_MATRIX_MVP, v.vertex);
+             o.vertex = UnityObjectToClipPos(v.vertex);
              o.color = v.color;
              o.texcoord = v.texcoord;
 			 o.param = v.param;

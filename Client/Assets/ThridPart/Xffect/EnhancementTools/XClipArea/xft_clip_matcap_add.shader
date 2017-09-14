@@ -1,4 +1,7 @@
-﻿// MatCap Shader, (c) 2013,2014 Jean Moreno
+﻿// Upgrade NOTE: replaced '_Object2World' with 'unity_ObjectToWorld'
+// Upgrade NOTE: replaced 'mul(UNITY_MATRIX_MVP,*)' with 'UnityObjectToClipPos(*)'
+
+// MatCap Shader, (c) 2013,2014 Jean Moreno
 
 Shader "Xffect/clip/matcap_add"
 {
@@ -37,9 +40,9 @@ Shader "Xffect/clip/matcap_add"
 				{
 					v2f o;
 
-					o.wpos = mul (_Object2World, v.vertex);
+					o.wpos = mul (unity_ObjectToWorld, v.vertex);
 
-					o.pos = mul (UNITY_MATRIX_MVP, v.vertex);
+					o.pos = UnityObjectToClipPos (v.vertex);
 					
 					half2 capCoord;
 					capCoord.x = dot(UNITY_MATRIX_IT_MV[0].xyz,v.normal);

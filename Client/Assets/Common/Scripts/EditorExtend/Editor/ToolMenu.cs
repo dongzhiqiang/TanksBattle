@@ -183,7 +183,7 @@ public class ToolMenu
                 continue;
 
             ++totalCount;
-            if (textureImporter.textureType == TextureImporterType.Advanced && textureImporter.mipmapEnabled == false)
+            if (textureImporter.textureType == TextureImporterType.Default && textureImporter.mipmapEnabled == false)
                 continue;
             set.Add(textureImporter);
         }
@@ -200,7 +200,7 @@ public class ToolMenu
         //设置格式
         foreach (TextureImporter t in set)
         {
-            t.textureType = TextureImporterType.Advanced;
+            t.textureType = TextureImporterType.Default;
             t.mipmapEnabled = false;
             t.generateMipsInLinearSpace = false;
             t.isReadable = false;

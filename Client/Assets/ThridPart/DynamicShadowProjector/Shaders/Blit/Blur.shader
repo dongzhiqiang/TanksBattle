@@ -1,4 +1,6 @@
-﻿Shader "DynamicShadowProjector/Blit/Blur" {
+﻿// Upgrade NOTE: replaced 'mul(UNITY_MATRIX_MVP,*)' with 'UnityObjectToClipPos(*)'
+
+Shader "DynamicShadowProjector/Blit/Blur" {
 	Properties {
 		_MainTex ("Base (RGB)", 2D) = "white" {}
 	}
@@ -36,7 +38,7 @@
 	v2f_3tap vert_3tap_H(appdata_img v)
 	{
 		v2f_3tap o;
-		o.pos = mul(UNITY_MATRIX_MVP, v.vertex);
+		o.pos = UnityObjectToClipPos(v.vertex);
        	o.uv0 = v.texcoord.xy;
        	o.uv1 = v.texcoord.xyxy + _MainTex_TexelSize.x * half4(_OffsetH.x, 0, -_OffsetH.x, 0);
        	return o;
@@ -44,7 +46,7 @@
 	v2f_3tap vert_3tap_V(appdata_img v)
 	{
 		v2f_3tap o;
-		o.pos = mul(UNITY_MATRIX_MVP, v.vertex);
+		o.pos = UnityObjectToClipPos(v.vertex);
        	o.uv0 = v.texcoord.xy;
        	o.uv1 = v.texcoord.xyxy + _MainTex_TexelSize.y * half4(0, _OffsetV.x, 0, -_OffsetV.x);
        	return o;
@@ -66,7 +68,7 @@
 	v2f_5tap vert_5tap_H(appdata_img v)
 	{
 		v2f_5tap o;
-		o.pos = mul(UNITY_MATRIX_MVP, v.vertex);
+		o.pos = UnityObjectToClipPos(v.vertex);
        	o.uv0 = v.texcoord.xy;
        	o.uv1 = v.texcoord.xyxy + _MainTex_TexelSize.x * half4(_OffsetH.x, 0, -_OffsetH.x, 0);
        	o.uv2 = v.texcoord.xyxy + _MainTex_TexelSize.x * half4(_OffsetH.y, 0, -_OffsetH.y, 0);
@@ -75,7 +77,7 @@
 	v2f_5tap vert_5tap_V(appdata_img v)
 	{
 		v2f_5tap o;
-		o.pos = mul(UNITY_MATRIX_MVP, v.vertex);
+		o.pos = UnityObjectToClipPos(v.vertex);
        	o.uv0 = v.texcoord.xy;
        	o.uv1 = v.texcoord.xyxy + _MainTex_TexelSize.y * half4(0, _OffsetV.x, 0, -_OffsetV.x);
        	o.uv2 = v.texcoord.xyxy + _MainTex_TexelSize.y * half4(0, _OffsetV.y, 0, -_OffsetV.y);
@@ -102,7 +104,7 @@
 	v2f_7tap vert_7tap_H(appdata_img v)
 	{
 		v2f_7tap o;
-		o.pos = mul(UNITY_MATRIX_MVP, v.vertex);
+		o.pos = UnityObjectToClipPos(v.vertex);
        	o.uv0 = v.texcoord.xy;
        	o.uv1 = v.texcoord.xyxy + _MainTex_TexelSize.x * half4(_OffsetH.x, 0, -_OffsetH.x, 0);
        	o.uv2 = v.texcoord.xyxy + _MainTex_TexelSize.x * half4(_OffsetH.y, 0, -_OffsetH.y, 0);
@@ -112,7 +114,7 @@
 	v2f_7tap vert_7tap_V(appdata_img v)
 	{
 		v2f_7tap o;
-		o.pos = mul(UNITY_MATRIX_MVP, v.vertex);
+		o.pos = UnityObjectToClipPos(v.vertex);
        	o.uv0 = v.texcoord.xy;
        	o.uv1 = v.texcoord.xyxy + _MainTex_TexelSize.y * half4(0, _OffsetV.x, 0, -_OffsetV.x);
        	o.uv2 = v.texcoord.xyxy + _MainTex_TexelSize.y * half4(0, _OffsetV.y, 0, -_OffsetV.y);

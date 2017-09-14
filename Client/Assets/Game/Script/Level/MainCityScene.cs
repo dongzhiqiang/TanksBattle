@@ -116,8 +116,8 @@ public class MainCityScene : LevelBase
 
     public override void OnExit()
     {
-        heroGo.transform.FindChild("model/weapon_mesh_01").gameObject.SetActive(true);
-        heroGo.transform.FindChild("model/weapon_mesh").gameObject.SetActive(true);
+        heroGo.transform.Find("model/weapon_mesh_01").gameObject.SetActive(true);
+        heroGo.transform.Find("model/weapon_mesh").gameObject.SetActive(true);
         heroGo.transform.localScale = Vector3.one;
         if (heroGo != null)
         {
@@ -145,8 +145,8 @@ public class MainCityScene : LevelBase
         modelObj.transform.rotation = heroPos.transform.rotation;
         modelObj.transform.localScale = heroPos.transform.localScale;
 
-        modelObj.transform.FindChild("model/weapon_mesh_01").gameObject.SetActive(false);
-        modelObj.transform.FindChild("model/weapon_mesh").gameObject.SetActive(false);
+        modelObj.transform.Find("model/weapon_mesh_01").gameObject.SetActive(false);
+        modelObj.transform.Find("model/weapon_mesh").gameObject.SetActive(false);
 
 
         heroAni = modelObj.transform.Find("model").GetComponent<AniFxMgr>();

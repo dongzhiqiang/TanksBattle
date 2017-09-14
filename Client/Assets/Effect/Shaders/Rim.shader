@@ -1,4 +1,6 @@
-﻿Shader "Custom/Rim" {
+﻿// Upgrade NOTE: replaced 'mul(UNITY_MATRIX_MVP,*)' with 'UnityObjectToClipPos(*)'
+
+Shader "Custom/Rim" {
 	Properties {
 	_Color ("Rim Color", Color) = (0.5,0.5,0.5,0.5)
 	_FPOW("FPOW Fresnel", Float) = 5.0
@@ -44,7 +46,7 @@ Category {
 			v2f vert (appdata_t v)
 			{
 				v2f o;
-				o.vertex = mul(UNITY_MATRIX_MVP, v.vertex);
+				o.vertex = UnityObjectToClipPos(v.vertex);
 				
 				float3 viewDir = normalize(ObjSpaceViewDir(v.vertex));
                 half fresnel = saturate(1.0 - dot(v.normal, viewDir));

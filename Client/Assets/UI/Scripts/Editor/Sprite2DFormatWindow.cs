@@ -117,7 +117,7 @@ public class Sprite2DFormatWindow : EditorWindow
             if (string.IsNullOrEmpty(m_atlasName))
                 tex.textureType = TextureImporterType.Sprite;
             else
-                tex.textureType = TextureImporterType.Advanced;
+                tex.textureType = TextureImporterType.Default;
             tex.npotScale = TextureImporterNPOTScale.None;
             tex.lightmap = false;
             tex.normalmap = false;
