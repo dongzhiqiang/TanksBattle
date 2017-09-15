@@ -168,9 +168,6 @@ public class Main : MonoBehaviour {
 
             //创建英雄
             RoleMgr.instance.CreateHero(roleVo);
-            if (isSingle)
-            {
-            }
             //进入主城
             LevelMgr.instance.GotoMaincity();
 #endregion

@@ -92,7 +92,11 @@ public class RoleMgr : SingletonMonoBehaviour<RoleMgr>, IRoleMgr
         cxt.camp = camp;
         cxt.aiBehavior = "";
         if (Main.instance.isSingle)
+        {
             m_hero = CreateRole(cxt, true);
+            //初始化网络数据 不设置成网络初始化时会删掉
+            m_hero.InitNet(vo);
+        }
         else
             m_hero = CreateNetRole(vo, true, cxt);
 
@@ -436,7 +440,7 @@ public class RoleMgr : SingletonMonoBehaviour<RoleMgr>, IRoleMgr
 
 
         //先设置状态，注意要再下面OnDestroy之前，不然可能出现销毁中可以使用技能或者添加状态而没有任何报错的情况
-        bool needDestroyRole =!(role.IsNetRole &&notDestroyNet);
+        bool needDestroyRole =!(role.IsNetRole && notDestroyNet);
         if (needDestroyRole)
             role.State = Role.enState.none;
         else
