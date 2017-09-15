@@ -22,7 +22,7 @@ public class PetsPart:RolePart
     private static PropertyTable tempProps1 = new PropertyTable();
 
     #region Properties
-    public override enPart Type { get { return enPart.max; } }
+    public override enPart Type { get { return enPart.pets; } }
     public Dictionary<string, Role> Pets { get { return m_pets; } }
     public Role Owner { get { return this.Parent.Parent; } }
     #endregion

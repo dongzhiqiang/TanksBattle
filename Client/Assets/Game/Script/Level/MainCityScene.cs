@@ -34,7 +34,7 @@ public class MainCityScene : LevelBase
     {
         Role hero = RoleMgr.instance.Hero;
         //加载主角模型
-         GameObjectPool.GetPool(GameObjectPool.enPool.Role).Get(RoleMgr.instance.Hero.Cfg.mod, null, OnLoadHeroMod, false);
+        GameObjectPool.GetPool(GameObjectPool.enPool.Role).Get(RoleMgr.instance.Hero.Cfg.mod, null, OnLoadHeroMod, false);
 
         //加载神侍模型
         List<Role> myPets = hero.PetsPart.GetMainPets();

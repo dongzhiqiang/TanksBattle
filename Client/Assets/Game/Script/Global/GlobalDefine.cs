@@ -101,8 +101,8 @@ public enum enPart
     combat,
     ai,
     items,
-    //petFormations, // petformation初始化需要放在pets前面
-    //pets,
+    petFormations, // petformation初始化需要放在pets前面
+    pets,
     equips,
     levels,
     petSkills,
