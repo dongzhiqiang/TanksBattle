@@ -111,61 +111,61 @@ public class Main : MonoBehaviour {
         }
         else
         {
-#region 单机测试
-            FullRoleInfoVo roleVo    = new FullRoleInfoVo();
+            #region 单机测试
+            //FullRoleInfoVo roleVo    = new FullRoleInfoVo();
 
-            var props = new Dictionary<string, Property>();
-            props["guid"] = new Property(Util.GenerateGUID());
-            props["roleId"] = new Property("kratos");
-            props["name"] = new Property("单机测试");
-            props["level"] = new Property(35);
-            props["stamina"] = new Property(0);
-            roleVo.props = props;
+            //var props = new Dictionary<string, Property>();
+            //props["guid"] = new Property(Util.GenerateGUID());
+            //props["roleId"] = new Property("kratos");
+            //props["name"] = new Property("单机测试");
+            //props["level"] = new Property(35);
+            //props["stamina"] = new Property(0);
+            //roleVo.props = props;
 
-            var equips = new List<EquipVo>();
-            equips.Add(new EquipVo(11000, 1, 1));
-            equips.Add(new EquipVo(11100, 1, 1));
-            equips.Add(new EquipVo(11200, 1, 1));
-            equips.Add(new EquipVo(11300, 1, 1));
-            equips.Add(new EquipVo(12000, 1, 1));
-            equips.Add(new EquipVo(13000, 1, 1));
-            equips.Add(new EquipVo(14000, 1, 1));
-            equips.Add(new EquipVo(15000, 1, 1));
-            equips.Add(new EquipVo(16000, 1, 1));
-            equips.Add(new EquipVo(17000, 1, 1));
-            roleVo.equips = equips;
+            //var equips = new List<EquipVo>();
+            //equips.Add(new EquipVo(11000, 1, 1));
+            //equips.Add(new EquipVo(11100, 1, 1));
+            //equips.Add(new EquipVo(11200, 1, 1));
+            //equips.Add(new EquipVo(11300, 1, 1));
+            //equips.Add(new EquipVo(12000, 1, 1));
+            //equips.Add(new EquipVo(13000, 1, 1));
+            //equips.Add(new EquipVo(14000, 1, 1));
+            //equips.Add(new EquipVo(15000, 1, 1));
+            //equips.Add(new EquipVo(16000, 1, 1));
+            //equips.Add(new EquipVo(17000, 1, 1));
+            //roleVo.equips = equips;
 
-            var weapons = new WeaponInfoVo();
-            roleVo.weapons = weapons;
+            //var weapons = new WeaponInfoVo();
+            //roleVo.weapons = weapons;
 
-            ////创建宠物
-            FullRoleInfoVo petVo = new FullRoleInfoVo();
+            //////创建宠物
+            //FullRoleInfoVo petVo = new FullRoleInfoVo();
 
-            props = new Dictionary<string, Property>();
-            props["guid"] = new Property(Util.GenerateGUID());
-            props["roleId"] = new Property("cw_1");
-            props["name"] = new Property("单机测试");
-            props["level"] = new Property(1);
-            props["advLv"] = new Property(1);
-            props["star"] = new Property(1);
-            petVo.props = props;
+            //props = new Dictionary<string, Property>();
+            //props["guid"] = new Property(Util.GenerateGUID());
+            //props["roleId"] = new Property("cw_1");
+            //props["name"] = new Property("单机测试");
+            //props["level"] = new Property(1);
+            //props["advLv"] = new Property(1);
+            //props["star"] = new Property(1);
+            //petVo.props = props;
 
-            equips = new List<EquipVo>();
-            equips.Add(new EquipVo(21000, 1, 1));
-            equips.Add(null);
-            equips.Add(null);
-            equips.Add(null);
-            equips.Add(new EquipVo(22000, 1, 1));
-            equips.Add(new EquipVo(23000, 1, 1));
-            equips.Add(new EquipVo(24000, 1, 1));
-            equips.Add(new EquipVo(25000, 1, 1));
-            equips.Add(new EquipVo(26000, 1, 1));
-            equips.Add(new EquipVo(27000, 1, 1));
-            petVo.equips = equips;
+            //equips = new List<EquipVo>();
+            //equips.Add(new EquipVo(21000, 1, 1));
+            //equips.Add(null);
+            //equips.Add(null);
+            //equips.Add(null);
+            //equips.Add(new EquipVo(22000, 1, 1));
+            //equips.Add(new EquipVo(23000, 1, 1));
+            //equips.Add(new EquipVo(24000, 1, 1));
+            //equips.Add(new EquipVo(25000, 1, 1));
+            //equips.Add(new EquipVo(26000, 1, 1));
+            //equips.Add(new EquipVo(27000, 1, 1));
+            //petVo.equips = equips;
 
-            var pets = new List<FullRoleInfoVo>(new FullRoleInfoVo[] { petVo });
-            roleVo.pets = pets;
-
+            //var pets = new List<FullRoleInfoVo>(new FullRoleInfoVo[] { petVo });
+            //roleVo.pets = pets;
+            FullRoleInfoVo roleVo = Util.LoadJsonFile<FullRoleInfoVo>("SinglePlayerInfo");
             //创建英雄
             RoleMgr.instance.CreateHero(roleVo);
             //进入主城
@@ -217,6 +217,5 @@ public class Main : MonoBehaviour {
         });
         
     }
-    
-    
+
 }

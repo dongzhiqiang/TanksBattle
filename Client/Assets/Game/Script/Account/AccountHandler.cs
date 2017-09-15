@@ -366,6 +366,12 @@ public class AccountHandler
             NetMgr.instance.Close();//确保断开
             return;
         }
+#if UNITY_EDITOR
+        //保存玩家数据 以便单机时登录
+        string jsonStr = JsonMapper.ToJson(info, false);
+        //Debug.Log("jsonStr -- \n" + jsonStr);
+        Util.SaveJsonFile("SinglePlayerInfo", info);
+#endif
         PlayerStateMachine.Instance.GotoState(enPlayerState.playGame, info);
     }
 

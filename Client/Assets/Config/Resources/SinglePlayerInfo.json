@@ -1,0 +1,798 @@
+﻿
+{
+    "props" : {
+        "channelId" : "default",
+        "userId"    : "1",
+        "heroId"    : 1,
+        "guid"      : "1_15e67088e79_4c7",
+        "createTime" : 1504967167,
+        "roleId"     : "kratos",
+        "name"       : "勇士885301",
+        "level"      : 4,
+        "exp"        : 3,
+        "stamina"    : 51,
+        "staminaTime" : 1505493841,
+        "gold"        : 48957,
+        "towerWinTime" : 1505437150,
+        "power"        : 846,
+        "maxPowerPet"  : "",
+        "powerPets"    : 0,
+        "powerTotal"   : 846,
+        "lastLogin"    : 1505493893,
+        "loginCount"   : 20,
+        "lastLogout"   : 1505493666,
+        "upEquipNum"   : 15,
+        "upEquipTime"  : 1505493870,
+        "corpsId"      : 0,
+        "advLv"        : 0,
+        "star"         : 0,
+        "offline"      : 0
+    },
+    "pets"  : [
+    ],
+    "items" : [
+        {
+            "itemId" : 40301,
+            "num"    : 5
+        },
+        {
+            "itemId" : 100101,
+            "num"    : 1
+        },
+        {
+            "itemId" : 20000,
+            "num"    : 3
+        },
+        {
+            "itemId" : 100001,
+            "num"    : 4
+        },
+        {
+            "itemId" : 40200,
+            "num"    : 14
+        }
+    ],
+    "equips" : [
+        {
+            "equipId" : 12000,
+            "level"   : 4,
+            "advLv"   : 1
+        },
+        {
+            "equipId" : 13000,
+            "level"   : 4,
+            "advLv"   : 1
+        },
+        {
+            "equipId" : 14000,
+            "level"   : 4,
+            "advLv"   : 1
+        },
+        {
+            "equipId" : 15000,
+            "level"   : 4,
+            "advLv"   : 1
+        },
+        {
+            "equipId" : 16000,
+            "level"   : 1,
+            "advLv"   : 1
+        },
+        {
+            "equipId" : 17000,
+            "level"   : 1,
+            "advLv"   : 1
+        },
+        {
+            "equipId" : 11000,
+            "level"   : 1,
+            "advLv"   : 1
+        },
+        {
+            "equipId" : 11100,
+            "level"   : 1,
+            "advLv"   : 1
+        },
+        {
+            "equipId" : 11200,
+            "level"   : 1,
+            "advLv"   : 1
+        },
+        {
+            "equipId" : 11300,
+            "level"   : 4,
+            "advLv"   : 1
+        }
+    ],
+    "levelInfo" : {
+        "curNode" : "1",
+        "curLevel" : "3",
+        "starsReward" : {
+        },
+        "levels"      : {
+            "1" : {
+                "isWin" : true,
+                "roomId" : "1",
+                "nodeId" : "1",
+                "starsInfo" : {
+                    "1002" : 1,
+                    "1206" : 1,
+                    "1604" : 1
+                },
+                "enterNum"  : 1,
+                "lastEnter" : 1505493719
+            },
+            "2" : {
+                "isWin" : true,
+                "roomId" : "2",
+                "nodeId" : "1",
+                "starsInfo" : {
+                    "1002" : 1,
+                    "1206" : 1,
+                    "1604" : 1
+                },
+                "enterNum"  : 1,
+                "lastEnter" : 1505493790
+            },
+            "3" : {
+                "isWin" : true,
+                "roomId" : "3",
+                "nodeId" : "1",
+                "starsInfo" : {
+                    "1002" : 1,
+                    "1206" : 1,
+                    "1604" : 1
+                },
+                "enterNum"  : 1,
+                "lastEnter" : 1505493841
+            }
+        }
+    },
+    "petSkills" : null,
+    "talents"   : null,
+    "actProps"  : {
+        "treasureRobedTime" : 1505437150,
+        "treasureRobedMax"  : 3,
+        "treasureRobedCnt"  : 3,
+        "mainLvlTime"       : 1505493841,
+        "mainNormalLvlCnt"  : 3
+    },
+    "weapons"   : {
+        "curWeapon" : 3,
+        "weapons"   : [
+            {
+                "skills" : [
+                    {
+                        "lv" : 1,
+                        "talents" : [
+                        ]
+                    },
+                    {
+                        "lv" : 1,
+                        "talents" : [
+                            {
+                                "lv" : 0
+                            },
+                            {
+                                "lv" : 0
+                            }
+                        ]
+                    },
+                    {
+                        "lv" : 1,
+                        "talents" : [
+                            {
+                                "lv" : 0
+                            },
+                            {
+                                "lv" : 0
+                            }
+                        ]
+                    },
+                    {
+                        "lv" : 1,
+                        "talents" : [
+                            {
+                                "lv" : 0
+                            },
+                            {
+                                "lv" : 0
+                            }
+                        ]
+                    }
+                ],
+                "elements" : [
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            },
+            {
+                "skills" : [
+                    {
+                        "lv" : 1,
+                        "talents" : [
+                        ]
+                    },
+                    {
+                        "lv" : 1,
+                        "talents" : [
+                            {
+                                "lv" : 0
+                            },
+                            {
+                                "lv" : 0
+                            }
+                        ]
+                    },
+                    {
+                        "lv" : 1,
+                        "talents" : [
+                            {
+                                "lv" : 0
+                            },
+                            {
+                                "lv" : 0
+                            }
+                        ]
+                    },
+                    {
+                        "lv" : 1,
+                        "talents" : [
+                            {
+                                "lv" : 0
+                            },
+                            {
+                                "lv" : 0
+                            }
+                        ]
+                    }
+                ],
+                "elements" : [
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            },
+            {
+                "skills" : [
+                    {
+                        "lv" : 1,
+                        "talents" : [
+                        ]
+                    },
+                    {
+                        "lv" : 1,
+                        "talents" : [
+                        ]
+                    },
+                    {
+                        "lv" : 1,
+                        "talents" : [
+                        ]
+                    },
+                    {
+                        "lv" : 1,
+                        "talents" : [
+                        ]
+                    }
+                ],
+                "elements" : [
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            },
+            {
+                "skills" : [
+                    {
+                        "lv" : 1,
+                        "talents" : [
+                        ]
+                    },
+                    {
+                        "lv" : 1,
+                        "talents" : [
+                        ]
+                    },
+                    {
+                        "lv" : 1,
+                        "talents" : [
+                        ]
+                    },
+                    {
+                        "lv" : 1,
+                        "talents" : [
+                        ]
+                    }
+                ],
+                "elements" : [
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            }
+        ]
+    },
+    "mails"     : [
+    ],
+    "opActProps" : {
+        "checkInNums" : 1,
+        "lastCheckIn" : 1505493854
+    },
+    "systems"    : [
+        {
+            "systemId" : 60,
+            "active"   : false
+        },
+        {
+            "systemId" : 3,
+            "active"   : true
+        },
+        {
+            "systemId" : 4,
+            "active"   : true
+        },
+        {
+            "systemId" : 5,
+            "active"   : true
+        },
+        {
+            "systemId" : 6,
+            "active"   : true
+        },
+        {
+            "systemId" : 7,
+            "active"   : false
+        },
+        {
+            "systemId" : 8,
+            "active"   : true
+        },
+        {
+            "systemId" : 9,
+            "active"   : true
+        },
+        {
+            "systemId" : 10,
+            "active"   : true
+        },
+        {
+            "systemId" : 11,
+            "active"   : true
+        },
+        {
+            "systemId" : 12,
+            "active"   : true
+        },
+        {
+            "systemId" : 13,
+            "active"   : true
+        },
+        {
+            "systemId" : 14,
+            "active"   : true
+        },
+        {
+            "systemId" : 15,
+            "active"   : false
+        },
+        {
+            "systemId" : 16,
+            "active"   : true
+        },
+        {
+            "systemId" : 17,
+            "active"   : false
+        },
+        {
+            "systemId" : 18,
+            "active"   : true
+        },
+        {
+            "systemId" : 19,
+            "active"   : false
+        },
+        {
+            "systemId" : 20,
+            "active"   : false
+        },
+        {
+            "systemId" : 21,
+            "active"   : true
+        },
+        {
+            "systemId" : 22,
+            "active"   : false
+        },
+        {
+            "systemId" : 50,
+            "active"   : false
+        },
+        {
+            "systemId" : 51,
+            "active"   : false
+        },
+        {
+            "systemId" : 52,
+            "active"   : false
+        },
+        {
+            "systemId" : 53,
+            "active"   : true
+        },
+        {
+            "systemId" : 54,
+            "active"   : false
+        },
+        {
+            "systemId" : 55,
+            "active"   : false
+        },
+        {
+            "systemId" : 56,
+            "active"   : false
+        },
+        {
+            "systemId" : 57,
+            "active"   : false
+        },
+        {
+            "systemId" : 58,
+            "active"   : false
+        },
+        {
+            "systemId" : 59,
+            "active"   : false
+        },
+        {
+            "systemId" : 61,
+            "active"   : false
+        },
+        {
+            "systemId" : 62,
+            "active"   : false
+        },
+        {
+            "systemId" : 63,
+            "active"   : false
+        },
+        {
+            "systemId" : 64,
+            "active"   : false
+        },
+        {
+            "systemId" : 65,
+            "active"   : false
+        },
+        {
+            "systemId" : 66,
+            "active"   : false
+        },
+        {
+            "systemId" : 67,
+            "active"   : false
+        },
+        {
+            "systemId" : 68,
+            "active"   : true
+        },
+        {
+            "systemId" : 69,
+            "active"   : false
+        },
+        {
+            "systemId" : 70,
+            "active"   : false
+        },
+        {
+            "systemId" : 71,
+            "active"   : false
+        },
+        {
+            "systemId" : 72,
+            "active"   : false
+        }
+    ],
+    "teaches"    : {
+        "atk_op" : 1,
+        "upgradeequip" : 1,
+        "skill_op"     : 1,
+        "openhero"     : 1,
+        "openpet"      : -1,
+        "qte_op"       : 1,
+        "bati_tip"     : 1,
+        "opencheckin"  : 1
+    },
+    "flames"     : [
+    ],
+    "taskProps"  : {
+    },
+    "social"     : {
+        "friends" : [
+        ],
+        "addReqs" : [
+        ],
+        "sendStam" : [
+        ],
+        "collStam" : [
+        ],
+        "unCollStam" : [
+        ]
+    },
+    "shops"      : [
+        {
+            "shopId" : 1,
+            "freshNum" : 0,
+            "lastRefreshTime" : 1505491200,
+            "wares"           : [
+                {
+                    "wareId" : 100,
+                    "wareIndex" : 0,
+                    "isSold"    : false
+                },
+                {
+                    "wareId" : 101,
+                    "wareIndex" : 1,
+                    "isSold"    : false
+                },
+                {
+                    "wareId" : 102,
+                    "wareIndex" : 2,
+                    "isSold"    : false
+                },
+                {
+                    "wareId" : 103,
+                    "wareIndex" : 3,
+                    "isSold"    : false
+                },
+                {
+                    "wareId" : 104,
+                    "wareIndex" : 4,
+                    "isSold"    : false
+                },
+                {
+                    "wareId" : 105,
+                    "wareIndex" : 5,
+                    "isSold"    : false
+                },
+                {
+                    "wareId" : 110,
+                    "wareIndex" : 6,
+                    "isSold"    : false
+                },
+                {
+                    "wareId" : 108,
+                    "wareIndex" : 7,
+                    "isSold"    : false
+                }
+            ]
+        },
+        {
+            "shopId" : 2,
+            "freshNum" : 0,
+            "lastRefreshTime" : 1505491200,
+            "wares"           : [
+                {
+                    "wareId" : 200,
+                    "wareIndex" : 0,
+                    "isSold"    : false
+                },
+                {
+                    "wareId" : 201,
+                    "wareIndex" : 1,
+                    "isSold"    : false
+                },
+                {
+                    "wareId" : 202,
+                    "wareIndex" : 2,
+                    "isSold"    : false
+                },
+                {
+                    "wareId" : 203,
+                    "wareIndex" : 3,
+                    "isSold"    : false
+                },
+                {
+                    "wareId" : 204,
+                    "wareIndex" : 4,
+                    "isSold"    : false
+                },
+                {
+                    "wareId" : 205,
+                    "wareIndex" : 5,
+                    "isSold"    : false
+                },
+                {
+                    "wareId" : 206,
+                    "wareIndex" : 6,
+                    "isSold"    : false
+                },
+                {
+                    "wareId" : 207,
+                    "wareIndex" : 7,
+                    "isSold"    : false
+                }
+            ]
+        },
+        {
+            "shopId" : 3,
+            "freshNum" : 0,
+            "lastRefreshTime" : 1505491200,
+            "wares"           : [
+                {
+                    "wareId" : 300,
+                    "wareIndex" : 0,
+                    "isSold"    : false
+                },
+                {
+                    "wareId" : 301,
+                    "wareIndex" : 1,
+                    "isSold"    : false
+                },
+                {
+                    "wareId" : 302,
+                    "wareIndex" : 2,
+                    "isSold"    : false
+                },
+                {
+                    "wareId" : 303,
+                    "wareIndex" : 3,
+                    "isSold"    : false
+                },
+                {
+                    "wareId" : 304,
+                    "wareIndex" : 4,
+                    "isSold"    : false
+                },
+                {
+                    "wareId" : 308,
+                    "wareIndex" : 5,
+                    "isSold"    : false
+                },
+                {
+                    "wareId" : 313,
+                    "wareIndex" : 6,
+                    "isSold"    : false
+                },
+                {
+                    "wareId" : 312,
+                    "wareIndex" : 7,
+                    "isSold"    : false
+                }
+            ]
+        },
+        {
+            "shopId" : 4,
+            "freshNum" : 0,
+            "lastRefreshTime" : 1505491200,
+            "wares"           : [
+                {
+                    "wareId" : 400,
+                    "wareIndex" : 0,
+                    "isSold"    : false
+                },
+                {
+                    "wareId" : 401,
+                    "wareIndex" : 1,
+                    "isSold"    : false
+                },
+                {
+                    "wareId" : 402,
+                    "wareIndex" : 2,
+                    "isSold"    : false
+                },
+                {
+                    "wareId" : 403,
+                    "wareIndex" : 3,
+                    "isSold"    : false
+                },
+                {
+                    "wareId" : 404,
+                    "wareIndex" : 4,
+                    "isSold"    : false
+                },
+                {
+                    "wareId" : 405,
+                    "wareIndex" : 5,
+                    "isSold"    : false
+                },
+                {
+                    "wareId" : 406,
+                    "wareIndex" : 6,
+                    "isSold"    : false
+                },
+                {
+                    "wareId" : 409,
+                    "wareIndex" : 7,
+                    "isSold"    : false
+                }
+            ]
+        },
+        {
+            "shopId" : 5,
+            "freshNum" : 0,
+            "lastRefreshTime" : 1505491200,
+            "wares"           : [
+                {
+                    "wareId" : 511,
+                    "wareIndex" : 0,
+                    "isSold"    : false
+                },
+                {
+                    "wareId" : 505,
+                    "wareIndex" : 1,
+                    "isSold"    : false
+                },
+                {
+                    "wareId" : 513,
+                    "wareIndex" : 2,
+                    "isSold"    : false
+                },
+                {
+                    "wareId" : 502,
+                    "wareIndex" : 3,
+                    "isSold"    : false
+                },
+                {
+                    "wareId" : 505,
+                    "wareIndex" : 4,
+                    "isSold"    : false
+                },
+                {
+                    "wareId" : 504,
+                    "wareIndex" : 5,
+                    "isSold"    : false
+                },
+                {
+                    "wareId" : 504,
+                    "wareIndex" : 6,
+                    "isSold"    : false
+                },
+                {
+                    "wareId" : 503,
+                    "wareIndex" : 7,
+                    "isSold"    : false
+                }
+            ]
+        }
+    ],
+    "corps"      : null,
+    "eliteLevels" : [
+    ],
+    "warriorTried" : {
+        "remainTried" : 0,
+        "refresh"     : 0,
+        "uptime"      : 0,
+        "trieds"      : null
+    },
+    "prophetTower" : {
+        "getRewardState" : [
+        ],
+        "randomId"       : [
+        ]
+    },
+    "petFormations" : [
+        {
+            "formationId" : 1,
+            "formation"   : [
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ]
+        }
+    ],
+    "treasures"     : {
+        "battleTreasure" : [
+        ],
+        "treasures"      : {
+        }
+    }
+}
