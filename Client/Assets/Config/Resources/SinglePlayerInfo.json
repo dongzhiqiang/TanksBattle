@@ -13,14 +13,14 @@
         "stamina"    : 51,
         "staminaTime" : 1505493841,
         "gold"        : 48957,
-        "towerWinTime" : 1505437150,
+        "towerWinTime" : 1505527704,
         "power"        : 846,
         "maxPowerPet"  : "",
         "powerPets"    : 0,
         "powerTotal"   : 846,
-        "lastLogin"    : 1505493893,
-        "loginCount"   : 20,
-        "lastLogout"   : 1505493666,
+        "lastLogin"    : 1505527988,
+        "loginCount"   : 23,
+        "lastLogout"   : 1505527895,
         "upEquipNum"   : 15,
         "upEquipTime"  : 1505493870,
         "corpsId"      : 0,
@@ -33,7 +33,7 @@
     "items" : [
         {
             "itemId" : 40301,
-            "num"    : 5
+            "num"    : 4
         },
         {
             "itemId" : 100101,
@@ -151,9 +151,9 @@
     "petSkills" : null,
     "talents"   : null,
     "actProps"  : {
-        "treasureRobedTime" : 1505437150,
+        "treasureRobedTime" : 1505527704,
         "treasureRobedMax"  : 3,
-        "treasureRobedCnt"  : 3,
+        "treasureRobedCnt"  : 2,
         "mainLvlTime"       : 1505493841,
         "mainNormalLvlCnt"  : 3
     },
@@ -528,7 +528,7 @@
         {
             "shopId" : 1,
             "freshNum" : 0,
-            "lastRefreshTime" : 1505491200,
+            "lastRefreshTime" : 1505512800,
             "wares"           : [
                 {
                     "wareId" : 100,
@@ -561,7 +561,7 @@
                     "isSold"    : false
                 },
                 {
-                    "wareId" : 110,
+                    "wareId" : 109,
                     "wareIndex" : 6,
                     "isSold"    : false
                 },
@@ -575,7 +575,7 @@
         {
             "shopId" : 2,
             "freshNum" : 0,
-            "lastRefreshTime" : 1505491200,
+            "lastRefreshTime" : 1505512800,
             "wares"           : [
                 {
                     "wareId" : 200,
@@ -622,7 +622,7 @@
         {
             "shopId" : 3,
             "freshNum" : 0,
-            "lastRefreshTime" : 1505491200,
+            "lastRefreshTime" : 1505512800,
             "wares"           : [
                 {
                     "wareId" : 300,
@@ -650,17 +650,17 @@
                     "isSold"    : false
                 },
                 {
-                    "wareId" : 308,
+                    "wareId" : 309,
                     "wareIndex" : 5,
                     "isSold"    : false
                 },
                 {
-                    "wareId" : 313,
+                    "wareId" : 310,
                     "wareIndex" : 6,
                     "isSold"    : false
                 },
                 {
-                    "wareId" : 312,
+                    "wareId" : 310,
                     "wareIndex" : 7,
                     "isSold"    : false
                 }
@@ -669,7 +669,7 @@
         {
             "shopId" : 4,
             "freshNum" : 0,
-            "lastRefreshTime" : 1505491200,
+            "lastRefreshTime" : 1505512800,
             "wares"           : [
                 {
                     "wareId" : 400,
@@ -707,7 +707,7 @@
                     "isSold"    : false
                 },
                 {
-                    "wareId" : 409,
+                    "wareId" : 410,
                     "wareIndex" : 7,
                     "isSold"    : false
                 }
@@ -716,45 +716,45 @@
         {
             "shopId" : 5,
             "freshNum" : 0,
-            "lastRefreshTime" : 1505491200,
+            "lastRefreshTime" : 1505512800,
             "wares"           : [
                 {
-                    "wareId" : 511,
+                    "wareId" : 506,
                     "wareIndex" : 0,
                     "isSold"    : false
                 },
                 {
-                    "wareId" : 505,
+                    "wareId" : 504,
                     "wareIndex" : 1,
                     "isSold"    : false
                 },
                 {
-                    "wareId" : 513,
+                    "wareId" : 506,
                     "wareIndex" : 2,
                     "isSold"    : false
                 },
                 {
-                    "wareId" : 502,
+                    "wareId" : 500,
                     "wareIndex" : 3,
                     "isSold"    : false
                 },
                 {
-                    "wareId" : 505,
+                    "wareId" : 513,
                     "wareIndex" : 4,
                     "isSold"    : false
                 },
                 {
-                    "wareId" : 504,
+                    "wareId" : 503,
                     "wareIndex" : 5,
                     "isSold"    : false
                 },
                 {
-                    "wareId" : 504,
+                    "wareId" : 508,
                     "wareIndex" : 6,
                     "isSold"    : false
                 },
                 {
-                    "wareId" : 503,
+                    "wareId" : 509,
                     "wareIndex" : 7,
                     "isSold"    : false
                 }

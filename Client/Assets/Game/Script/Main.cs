@@ -14,10 +14,11 @@ using LitJson;
 
 
 
-public class Main : MonoBehaviour {
+public class Main : MonoBehaviour
+{
     public static Main instance;
     public bool isSingle = false;
-    public Material[] preLoadMats ;//预加载的材质球
+    public Material[] preLoadMats;//预加载的材质球
 
     void Awake()
     {
@@ -26,11 +27,11 @@ public class Main : MonoBehaviour {
         //阻止手机进入休眠
         Screen.sleepTimeout = SleepTimeout.NeverSleep;
 
-        
 
-        
+
+
         //可能品质设置有问题，简单检查下
-        if(QualitySettings.antiAliasing !=0)
+        if (QualitySettings.antiAliasing != 0)
         {
             Debuger.LogError("抗锯齿没有关闭，可能quality设置有问题");
             QualitySettings.antiAliasing = 0;
@@ -40,13 +41,14 @@ public class Main : MonoBehaviour {
         DontDestroyOnLoad(this.gameObject);//过场景保留
     }
 
-	// Use this for initialization
-	void Start () {
+    // Use this for initialization
+    void Start()
+    {
         StartCoroutine(CoInit());
-	}
-	
-	// Update is called once per frame
-	void Update () 
+    }
+
+    // Update is called once per frame
+    void Update()
     {
 #if UNITY_EDITOR
         //录屏
@@ -69,7 +71,7 @@ public class Main : MonoBehaviour {
         Debuger.LogError("ART_DEBUG 宏没有去掉，不能运行游戏");
         yield break;
 #endif
-        
+
         //本地日志，先启动,内部会监听所有的Debug.log
         LogUtil.Init();
         QualityMgr.instance.Init();
@@ -80,12 +82,12 @@ public class Main : MonoBehaviour {
         uiLoding.SetProgress(0, uiTotalProgress);
         while (!asyncOpUI.isDone || !asyncOpCfg.isDone)
         {
-            uiLoding.SetProgress((asyncOpUI.progress+ asyncOpCfg.progress)*0.5f* uiTotalProgress, uiTotalProgress);
+            uiLoding.SetProgress((asyncOpUI.progress + asyncOpCfg.progress) * 0.5f * uiTotalProgress, uiTotalProgress);
             yield return 0;
         }
         uiLoding.SetProgress(uiTotalProgress);
         yield return 0;
-        
+
         //管理器初始化
         DebugUI.instance.Init();
         uiLoding.ChangeTips();
@@ -112,7 +114,7 @@ public class Main : MonoBehaviour {
         else
         {
             #region 单机测试
-            //FullRoleInfoVo roleVo    = new FullRoleInfoVo();
+            //FullRoleInfoVo roleVo = new FullRoleInfoVo();
 
             //var props = new Dictionary<string, Property>();
             //props["guid"] = new Property(Util.GenerateGUID());
@@ -165,17 +167,19 @@ public class Main : MonoBehaviour {
 
             //var pets = new List<FullRoleInfoVo>(new FullRoleInfoVo[] { petVo });
             //roleVo.pets = pets;
+
             FullRoleInfoVo roleVo = Util.LoadJsonFile<FullRoleInfoVo>("SinglePlayerInfo");
             //创建英雄
             RoleMgr.instance.CreateHero(roleVo);
+
             //进入主城
             LevelMgr.instance.GotoMaincity();
-#endregion
+            #endregion
         }
         uiLoding.Close();
     }
 
-    
+
     void OnDisable()
     {
         instance = null;
@@ -193,7 +197,7 @@ public class Main : MonoBehaviour {
         a();
         var t2 = DateTime.Now;
         Debuger.Log("耗时:{0:f0} ", (t2 - t1).TotalMilliseconds);
-        
+
     }
 
     void Test2(int i)
@@ -207,15 +211,14 @@ public class Main : MonoBehaviour {
     [ContextMenu("Test1")]
     void Test1()
     {
-       
-        Test(()=> {
-            
+
+        Test(() => {
+
             Action<int> a = Test2;
             Debuger.Log(Util.GetDelegateName(a));
-            Action<int> b=(int param)=> { };
+            Action<int> b = (int param) => { };
             Debuger.Log(Util.GetDelegateName(b));
         });
-        
-    }
 
+    }
 }

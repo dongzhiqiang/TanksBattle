@@ -21,7 +21,7 @@ public enum enOrderRole
 
 public class RoleMgr : SingletonMonoBehaviour<RoleMgr>, IRoleMgr
 {
-    
+
     public class CloseComparer : IComparer<float>
     {
         public int Compare(float a, float b)
@@ -35,7 +35,7 @@ public class RoleMgr : SingletonMonoBehaviour<RoleMgr>, IRoleMgr
     public const string RoleMgrLocking = "RoleMgrLocking";
 
     #region Fields
-    Dictionary<int, Role> m_initRoles = new Dictionary<int,Role>();
+    Dictionary<int, Role> m_initRoles = new Dictionary<int, Role>();
     Dictionary<int, Role> m_roles = new Dictionary<int, Role>();
     Dictionary<int, Role> m_deadRoles = new Dictionary<int, Role>();
 
@@ -48,11 +48,14 @@ public class RoleMgr : SingletonMonoBehaviour<RoleMgr>, IRoleMgr
 
 
     #region Properties
-    public Role Hero { get { return m_hero;} }
+    public Role Hero { get { return m_hero; } }
     //注意这个接口比较底层，会取到宝箱和陷阱，取的时候要判断下是不是宝箱和陷阱
-    public ICollection<Role> Roles { get{return m_roles.Values;}}
-    public Role GlobalEnemy { get {
-            if(m_globalEnemy!=null&&m_globalEnemy.IsUnAlive(m_globalEnemyId))
+    public ICollection<Role> Roles { get { return m_roles.Values; } }
+    public Role GlobalEnemy
+    {
+        get
+        {
+            if (m_globalEnemy != null && m_globalEnemy.IsUnAlive(m_globalEnemyId))
             {
                 Debuger.LogError("全局敌人已经死亡却被访问");
                 return null;
@@ -66,7 +69,7 @@ public class RoleMgr : SingletonMonoBehaviour<RoleMgr>, IRoleMgr
     #region Mono Frame
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
@@ -75,14 +78,15 @@ public class RoleMgr : SingletonMonoBehaviour<RoleMgr>, IRoleMgr
 
     }
     #endregion
-   
+
 
 
     #region Private Methods
-    
+
     #endregion
     //只创建主角，但是不创建模型
-    public void CreateHero(FullRoleInfoVo vo,enCamp camp = enCamp.camp1){
+    public void CreateHero(FullRoleInfoVo vo, enCamp camp = enCamp.camp1)
+    {
 
         RoleBornCxt cxt = IdTypePool<RoleBornCxt>.Get();
         cxt.OnClear();
@@ -91,14 +95,7 @@ public class RoleMgr : SingletonMonoBehaviour<RoleMgr>, IRoleMgr
         cxt.euler = Vector3.zero;
         cxt.camp = camp;
         cxt.aiBehavior = "";
-        if (Main.instance.isSingle)
-        {
-            m_hero = CreateRole(cxt, true);
-            //初始化网络数据 不设置成网络初始化时会删掉
-            m_hero.InitNet(vo);
-        }
-        else
-            m_hero = CreateNetRole(vo, true, cxt);
+        m_hero = CreateNetRole(vo, true, cxt);
 
         EventMgr.FireAll(MSG.MSG_ROLE, MSG_ROLE.HERO_CREATED);
     }
@@ -149,7 +146,7 @@ public class RoleMgr : SingletonMonoBehaviour<RoleMgr>, IRoleMgr
             role.SetPart(new MailPart());
             role.SetPart(new OpActivityPart());
             role.SetPart(new FlamesPart());
-			role.SetPart(new SocialPart());
+            role.SetPart(new SocialPart());
             role.SetPart(new TaskPart());
             role.SetPart(new CorpsPart());
             role.SetPart(new ShopsPart());
@@ -165,7 +162,7 @@ public class RoleMgr : SingletonMonoBehaviour<RoleMgr>, IRoleMgr
             role.SystemsPart.Init(role);
             role.MailPart.Init(role);   //邮件初始化
             role.FlamesPart.Init(role);
-			role.SocialPart.Init(role);
+            role.SocialPart.Init(role);
             role.TaskPart.Init(role);
             role.CorpsPart.Init(role);
             role.ShopsPart.Init(role);
@@ -183,13 +180,13 @@ public class RoleMgr : SingletonMonoBehaviour<RoleMgr>, IRoleMgr
             role.PetSkillsPart.Init(role);
             role.TalentsPart.Init(role);
         }
-        
+
         //设置相关属性
         role.SetInt(enProp.camp, (int)cxt.camp);
 
         //初始化网络数据
         role.InitNet(vo);
-        
+
         //加载模型
         if (!dontLoadModel)
             role.Load(cxt);
@@ -199,7 +196,7 @@ public class RoleMgr : SingletonMonoBehaviour<RoleMgr>, IRoleMgr
         return role;
     }
 
-    public Role CreateRole(RoleBornCxt cxt, bool dontLoadModel=false)
+    public Role CreateRole(RoleBornCxt cxt, bool dontLoadModel = false)
     {
         if (cxt == null)
             return null;
@@ -207,27 +204,27 @@ public class RoleMgr : SingletonMonoBehaviour<RoleMgr>, IRoleMgr
         RoleCfg cfg = RoleCfg.Get(cxt.roleId);
         if (cfg == null)
         {
-            Debuger.LogError("找不到角色id:{0}",cxt.roleId);
+            Debuger.LogError("找不到角色id:{0}", cxt.roleId);
             return null;
         }
-            
-        Role role =IdTypePool<Role>.Get();
+
+        Role role = IdTypePool<Role>.Get();
 
         //检错的代码，以后删除
         if (m_initRoles.ContainsKey(role.Id))
-            Debuger.LogError("角色对象池使用了仍在使用的角色 m_initRoles id:{0}",role.Id);
+            Debuger.LogError("角色对象池使用了仍在使用的角色 m_initRoles id:{0}", role.Id);
         else if (m_roles.ContainsKey(role.Id))
             Debuger.LogError("角色对象池使用了仍在使用的角色 m_roles id:{0}", role.Id);
         else if (m_deadRoles.ContainsKey(role.Id))
             Debuger.LogError("角色对象池使用了仍在使用的角色 m_deadRoles id:{0}", role.Id);
 
         role.State = Role.enState.init;
-        m_initRoles[role.Id] =role;
+        m_initRoles[role.Id] = role;
         if (!role.Init(cfg))
         {
             Debuger.LogError("初始化角色失败");
             if (role.State == Role.enState.init)//这里要先判断下是不是这个状态，内部可能调用到了AliveRole
-                DestroyRole(role);    
+                DestroyRole(role);
             return null;
         }
 
@@ -235,43 +232,9 @@ public class RoleMgr : SingletonMonoBehaviour<RoleMgr>, IRoleMgr
         role.SetInt(enProp.camp, (int)cxt.camp);
         role.SetInt(enProp.level, cxt.level);
         role.SetString(enProp.roleId, cxt.roleId);
-        role.SetString(enProp.name,cfg.name);
+        role.SetString(enProp.name, cfg.name);
 
-        if (cxt.roleId == "kratos") //单机主角初始化
-        {
-            role.SetPart(new ItemsPart());
-            //role.SetPart(new PetsPart());//存着宠物
-            role.SetPart(new LevelsPart());
-            role.SetPart(new ActivityPart());
-            role.SetPart(new WeaponPart());
-            role.SetPart(new SystemsPart());
-            role.SetPart(new MailPart());
-            role.SetPart(new OpActivityPart());
-            role.SetPart(new FlamesPart());
-            role.SetPart(new SocialPart());
-            role.SetPart(new TaskPart());
-            role.SetPart(new CorpsPart());
-            role.SetPart(new ShopsPart());
-            role.SetPart(new EliteLevelsPart());
-            //role.SetPart(new PetFormationsPart());
-            role.SetPart(new TreasurePart());
-            role.ItemsPart.Init(role);
-            //role.PetsPart.Init(role);
-            role.LevelsPart.Init(role);
-            role.ActivityPart.Init(role);
-            role.WeaponPart.Init(role);
-            role.OpActivityPart.Init(role);
-            role.SystemsPart.Init(role);
-            role.MailPart.Init(role);   //邮件初始化
-            role.FlamesPart.Init(role);
-            role.SocialPart.Init(role);
-            role.TaskPart.Init(role);
-            role.CorpsPart.Init(role);
-            role.ShopsPart.Init(role);
-            role.EliteLevelsPart.Init(role);
-            //role.PetFormationsPart.Init(role);
-            role.TreasurePart.Init(role);
-        }
+
         //加载模型
         if (!dontLoadModel)
             role.Load(cxt);
@@ -297,7 +260,7 @@ public class RoleMgr : SingletonMonoBehaviour<RoleMgr>, IRoleMgr
         cxt.pos = info == null ? Vector3.zero : info.mPosition;
         cxt.euler = info.mEulerAngles;
 
-        if (m_globalEnemy!=null &&!m_globalEnemy.IsUnAlive(m_globalEnemyId))
+        if (m_globalEnemy != null && !m_globalEnemy.IsUnAlive(m_globalEnemyId))
         {
             Debuger.LogError("创建全局敌人的时候发现之前的全局敌人没有销毁");
             DestroyRole(m_globalEnemy);
@@ -316,17 +279,17 @@ public class RoleMgr : SingletonMonoBehaviour<RoleMgr>, IRoleMgr
         r.AddFlag(RoleMgrLocking);
     }
 
-    public void UnlockRole(Role r,bool reset=false)
+    public void UnlockRole(Role r, bool reset = false)
     {
         if (reset)
-            r.SetFlag(RoleMgrLocking,0);
+            r.SetFlag(RoleMgrLocking, 0);
         else
-            r.AddFlag(RoleMgrLocking,-1);
+            r.AddFlag(RoleMgrLocking, -1);
     }
 
     public void AliveRole(Role role)
     {
-        if(!m_initRoles.ContainsKey(role.Id))
+        if (!m_initRoles.ContainsKey(role.Id))
         {
             Debuger.LogError("角色不在m_initRoles中 id:{0} 状态:{1}", role.Id, role.State);
             return;
@@ -337,11 +300,11 @@ public class RoleMgr : SingletonMonoBehaviour<RoleMgr>, IRoleMgr
         m_roles[role.Id] = role;
     }
 
-    public void DeadRole(Role role, bool isGround = false,bool checkLocking=true, bool bHeroKill = true)
+    public void DeadRole(Role role, bool isGround = false, bool checkLocking = true, bool bHeroKill = true)
     {
-        if(checkLocking &&role.GetFlag(RoleMgrLocking)!=0)
+        if (checkLocking && role.GetFlag(RoleMgrLocking) != 0)
         {
-            Debuger.LogError("逻辑错误，锁定中的角色不能被杀死:{0}",role.Cfg.id);
+            Debuger.LogError("逻辑错误，锁定中的角色不能被杀死:{0}", role.Cfg.id);
             return;
         }
 
@@ -353,10 +316,11 @@ public class RoleMgr : SingletonMonoBehaviour<RoleMgr>, IRoleMgr
             return;
         }
 
-        if (!m_roles.ContainsKey(role.Id)){
+        if (!m_roles.ContainsKey(role.Id))
+        {
             Debuger.LogError("角色不在m_roles中 id:{0} 状态:{1}", role.Id, role.State);
             return;
-        }    
+        }
         else
             m_roles.Remove(role.Id);
 
@@ -377,9 +341,9 @@ public class RoleMgr : SingletonMonoBehaviour<RoleMgr>, IRoleMgr
         if (m_updatingDead == null)
             return false;
 
-        if(m_updatingDead.State== Role.enState.alive)//有可能已经被销毁了，这里要判断下
+        if (m_updatingDead.State == Role.enState.alive)//有可能已经被销毁了，这里要判断下
             DeadRole(m_updatingDead, m_updatingDead.RoleModel.IsGround);
-        m_updatingDead= null;
+        m_updatingDead = null;
         return true;
     }
 
@@ -388,9 +352,9 @@ public class RoleMgr : SingletonMonoBehaviour<RoleMgr>, IRoleMgr
         return m_updatingDead == r;
     }
 
-    public void DestroyRole(Role role,bool notDestroyNet=true, bool checkLocking = true)
+    public void DestroyRole(Role role, bool notDestroyNet = true, bool checkLocking = true)
     {
-        
+
         if (role.RoleModel != null && role.RoleModel.IsUpdating)
         {
             //Debuger.Log("更新中销毁");
@@ -414,7 +378,7 @@ public class RoleMgr : SingletonMonoBehaviour<RoleMgr>, IRoleMgr
             else
                 m_roles.Remove(role.Id);
             needDestroyModel = true;
-            
+
         }
         else if (role.State == Role.enState.dead)
         {
@@ -423,7 +387,7 @@ public class RoleMgr : SingletonMonoBehaviour<RoleMgr>, IRoleMgr
             else
                 m_deadRoles.Remove(role.Id);
             needDestroyModel = true;
-            
+
         }
         else
         {
@@ -432,7 +396,7 @@ public class RoleMgr : SingletonMonoBehaviour<RoleMgr>, IRoleMgr
         }
 
         //检查下锁定
-        if (role.State != Role.enState.init &&checkLocking && role.GetFlag(RoleMgrLocking) > 0)
+        if (role.State != Role.enState.init && checkLocking && role.GetFlag(RoleMgrLocking) > 0)
         {
             Debuger.LogError("逻辑错误，锁定中的角色不能被销毁:{0}", role.Cfg.id);
             return;
@@ -440,7 +404,7 @@ public class RoleMgr : SingletonMonoBehaviour<RoleMgr>, IRoleMgr
 
 
         //先设置状态，注意要再下面OnDestroy之前，不然可能出现销毁中可以使用技能或者添加状态而没有任何报错的情况
-        bool needDestroyRole =!(role.IsNetRole && notDestroyNet);
+        bool needDestroyRole = !(role.IsNetRole && notDestroyNet);
         if (needDestroyRole)
             role.State = Role.enState.none;
         else
@@ -469,13 +433,13 @@ public class RoleMgr : SingletonMonoBehaviour<RoleMgr>, IRoleMgr
     {
         if (m_updatingDestroy == null)
             return false;
-        
+
         DestroyRole(m_updatingDestroy);
         m_updatingDestroy = null;
         return true;
     }
 
-    public bool IsNeedDestroy(Role  r)
+    public bool IsNeedDestroy(Role r)
     {
         return m_updatingDestroy == r;
     }
@@ -488,11 +452,11 @@ public class RoleMgr : SingletonMonoBehaviour<RoleMgr>, IRoleMgr
         l.AddRange(m_deadRoles.Values);
         if (!isIncludeHero)
         {
-            if(Hero.State == Role.enState.alive)
+            if (Hero.State == Role.enState.alive)
             {
                 l.Remove(Hero);
                 List<Role> pets = Hero.PetsPart.GetMainPets();
-                foreach(Role p in pets)
+                foreach (Role p in pets)
                 {
                     if (p != null && p.State == Role.enState.alive)
                         l.Remove(p);
@@ -500,8 +464,9 @@ public class RoleMgr : SingletonMonoBehaviour<RoleMgr>, IRoleMgr
             }
         }
 
-        for(int i=0;i<l.Count;++i){
-            DestroyRole(l[i], true,checkLocking);
+        for (int i = 0; i < l.Count; ++i)
+        {
+            DestroyRole(l[i], true, checkLocking);
         }
 
     }
@@ -515,7 +480,7 @@ public class RoleMgr : SingletonMonoBehaviour<RoleMgr>, IRoleMgr
     {
         foreach (Role r in m_roles.Values)
         {
-            if(r.GetString(enProp.roleId)==roleId)
+            if (r.GetString(enProp.roleId) == roleId)
                 return r;
         }
         return null;
@@ -532,12 +497,12 @@ public class RoleMgr : SingletonMonoBehaviour<RoleMgr>, IRoleMgr
         return l;
     }
 
-   
-    float OrderRole(Role source,Role target, enOrderRole orderType)
+
+    float OrderRole(Role source, Role target, enOrderRole orderType)
     {
         switch (orderType)
         {
-            case enOrderRole.normal:return float.MinValue;
+            case enOrderRole.normal: return float.MinValue;
             case enOrderRole.closest: return source.DistanceSq(target);
             default:
                 {
@@ -548,10 +513,10 @@ public class RoleMgr : SingletonMonoBehaviour<RoleMgr>, IRoleMgr
     }
 
     //找到有这个标记的角色，如果n=-1,那么有标记就行了，否则标记要==n
-    public Role GetRoleByFlag(string flag, int n = -1, Role except=null, Role source =null, enOrderRole orderType= enOrderRole.normal)
+    public Role GetRoleByFlag(string flag, int n = -1, Role except = null, Role source = null, enOrderRole orderType = enOrderRole.normal)
     {
         float min = float.MaxValue;
-        Role find=null;
+        Role find = null;
         int tem;
 
         source = source == null ? Hero : source;
@@ -567,7 +532,7 @@ public class RoleMgr : SingletonMonoBehaviour<RoleMgr>, IRoleMgr
             float order = OrderRole(source, r, orderType);
             if (order == float.MinValue)
                 return r;
-            else if (order<min)
+            else if (order < min)
             {
                 min = order;
                 find = r;
@@ -575,26 +540,26 @@ public class RoleMgr : SingletonMonoBehaviour<RoleMgr>, IRoleMgr
         }
         return find;
     }
-    
+
 
     //找到当前角色id的下一个角色
     public Role FindNextRole(string roleId, Role curRole)
     {
-        List<Role> l= RoleMgr.instance.GetRolesByRoleId(roleId);
-        if(l.Count==0)return null;
+        List<Role> l = RoleMgr.instance.GetRolesByRoleId(roleId);
+        if (l.Count == 0) return null;
 
         int i = l.IndexOf(curRole);
-        if(i == -1)
+        if (i == -1)
             return l[0];
-        else if(i==0 && l.Count==1)//有且只有当前这一个的情况
+        else if (i == 0 && l.Count == 1)//有且只有当前这一个的情况
             return null;
-        else if(i== l.Count-1)//最后一个的话，选择第一个
+        else if (i == l.Count - 1)//最后一个的话，选择第一个
             return l[0];
         else//选择下一个
-            return l[i+1];  
+            return l[i + 1];
     }
 
-    public Role GetClosestTarget(Role source, Vector3 srcPos,enSkillEventTargetType targetType, bool canBeTrap = false, bool canBeBox = false, Role except = null)
+    public Role GetClosestTarget(Role source, Vector3 srcPos, enSkillEventTargetType targetType, bool canBeTrap = false, bool canBeBox = false, Role except = null)
     {
         Role target = null;
         float d1 = 0, d2 = 0;
@@ -625,10 +590,10 @@ public class RoleMgr : SingletonMonoBehaviour<RoleMgr>, IRoleMgr
         return target;
     }
 
-    public Role GetClosestTarget(Role source, enSkillEventTargetType targetType,bool canBeTrap = false,bool canBeBox = false, Role except = null)
+    public Role GetClosestTarget(Role source, enSkillEventTargetType targetType, bool canBeTrap = false, bool canBeBox = false, Role except = null)
     {
         Vector3 srcPos = source.transform.position;
-        return GetClosestTarget(source,srcPos,targetType, canBeTrap, canBeBox, except);
+        return GetClosestTarget(source, srcPos, targetType, canBeTrap, canBeBox, except);
     }
 
 
@@ -636,10 +601,10 @@ public class RoleMgr : SingletonMonoBehaviour<RoleMgr>, IRoleMgr
     //获取某类型的对象，获取之后按照由近到远的顺序排列,注意SortedList创建的时候要用这个比较器new RoleMgr.CloseComparer()，否则add键值一样的话会报错
     public void GetCloseTargets(Role source, enSkillEventTargetType targetType, ref SortedList<float, Role> targets, bool canBeTrap = false, bool canBeBox = false)
     {
-    
+
         if (targets.Count != 0) targets.Clear();
         Vector3 srcPos = source.transform.position;
-        
+
         //遍历进行碰撞检测
         foreach (Role r in m_roles.Values)
         {
@@ -652,7 +617,7 @@ public class RoleMgr : SingletonMonoBehaviour<RoleMgr>, IRoleMgr
             if (!MatchTargetType(targetType, source, r))
                 continue;
 
-            targets.Add((srcPos - r.transform.position).sqrMagnitude,r);
+            targets.Add((srcPos - r.transform.position).sqrMagnitude, r);
         }
     }
 
@@ -669,7 +634,7 @@ public class RoleMgr : SingletonMonoBehaviour<RoleMgr>, IRoleMgr
             if (!CollideUtil.Hit(srcPos, srcDir, r.TranPart.Pos, r.RoleModel.Radius, c))
                 continue;
 
-          return r;
+            return r;
         }
         return null;
     }
@@ -677,13 +642,13 @@ public class RoleMgr : SingletonMonoBehaviour<RoleMgr>, IRoleMgr
 
     public bool MatchTargetType(enSkillEventTargetType targetType, Role source, Role target)
     {
-        if(targetType == enSkillEventTargetType.selfAlway || targetType == enSkillEventTargetType.self)
+        if (targetType == enSkillEventTargetType.selfAlway || targetType == enSkillEventTargetType.self)
             return source == target;
 
         if (targetType == enSkillEventTargetType.target)
         {
-            Skill s =source.CombatPart.CurSkill;
-            return (s!= null && s.Target == target);
+            Skill s = source.CombatPart.CurSkill;
+            return (s != null && s.Target == target);
         }
 
         enCamp srcCamp = source.GetCamp();
@@ -691,20 +656,20 @@ public class RoleMgr : SingletonMonoBehaviour<RoleMgr>, IRoleMgr
         if (targetType == enSkillEventTargetType.enemy)
             return srcCamp != enCamp.neutral && targetCamp != enCamp.neutral && srcCamp != targetCamp;
         else if (targetType == enSkillEventTargetType.same)
-            return srcCamp == targetCamp && source!= target;
+            return srcCamp == targetCamp && source != target;
         else if (targetType == enSkillEventTargetType.neutral)
             return targetCamp == enCamp.neutral;
         else if (targetType == enSkillEventTargetType.selfSame)
-            return srcCamp == targetCamp ;
+            return srcCamp == targetCamp;
         else if (targetType == enSkillEventTargetType.exceptSelf)
-            return source!= target;
+            return source != target;
         else
             Debuger.LogError("未知的类型:{0}", targetType);
-            
+
         return false;
     }
 
-    public bool IsEnemy(Role a,Role b)
+    public bool IsEnemy(Role a, Role b)
     {
         if (a == null || b == null || a.State != Role.enState.alive || b.State != Role.enState.alive)
         {
@@ -713,10 +678,10 @@ public class RoleMgr : SingletonMonoBehaviour<RoleMgr>, IRoleMgr
         }
         enCamp campA = a.GetCamp();
         enCamp campB = b.GetCamp();
-        if(campA == enCamp.neutral || campB == enCamp.neutral)
+        if (campA == enCamp.neutral || campB == enCamp.neutral)
             return false;
 
-        return campA!= campB;
+        return campA != campB;
     }
 
     //显示或者隐藏所有角色
