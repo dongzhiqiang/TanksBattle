@@ -3,7 +3,7 @@ name,desc,value,type
 Stamina,初始体力值,60,Int
 StaminaRecoverTime,体力恢复间隔时间,300,Int
 channelId,渠道ID,default,String
-loginHost,登录服主机名,127.0.0.1,String
+loginHost,登录服主机名,192.168.0.214,String
 clientVer,客户端版本,0.0.0,String
 unshieldDuation,通用气绝时间,20,Float
 shieldRateAdd,每进入一次气绝增加百分之多少气力系数和气绝时间系数,0.1,Float
