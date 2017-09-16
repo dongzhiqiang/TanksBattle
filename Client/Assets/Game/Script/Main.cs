@@ -110,6 +110,7 @@ public class Main : MonoBehaviour
         {
             //进入登录态
             PlayerStateMachine.Instance.GotoState(enPlayerState.login);
+            uiLoding.Close();
         }
         else
         {
@@ -176,7 +177,7 @@ public class Main : MonoBehaviour
             LevelMgr.instance.GotoMaincity();
             #endregion
         }
-        uiLoding.Close();
+        //uiLoding.Close(); //单机登陆时不要close loading 以免影响场景加载
     }
 
 

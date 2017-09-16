@@ -18,9 +18,9 @@
         "maxPowerPet"  : "",
         "powerPets"    : 0,
         "powerTotal"   : 846,
-        "lastLogin"    : 1505527988,
-        "loginCount"   : 23,
-        "lastLogout"   : 1505527895,
+        "lastLogin"    : 1505530502,
+        "loginCount"   : 26,
+        "lastLogout"   : 1505530015,
         "upEquipNum"   : 15,
         "upEquipTime"  : 1505493870,
         "corpsId"      : 0,
@@ -33,7 +33,7 @@
     "items" : [
         {
             "itemId" : 40301,
-            "num"    : 4
+            "num"    : 3
         },
         {
             "itemId" : 100101,
@@ -153,7 +153,7 @@
     "actProps"  : {
         "treasureRobedTime" : 1505527704,
         "treasureRobedMax"  : 3,
-        "treasureRobedCnt"  : 2,
+        "treasureRobedCnt"  : 3,
         "mainLvlTime"       : 1505493841,
         "mainNormalLvlCnt"  : 3
     },
@@ -556,17 +556,17 @@
                     "isSold"    : false
                 },
                 {
-                    "wareId" : 105,
+                    "wareId" : 106,
                     "wareIndex" : 5,
                     "isSold"    : false
                 },
                 {
-                    "wareId" : 109,
+                    "wareId" : 107,
                     "wareIndex" : 6,
                     "isSold"    : false
                 },
                 {
-                    "wareId" : 108,
+                    "wareId" : 109,
                     "wareIndex" : 7,
                     "isSold"    : false
                 }
@@ -645,17 +645,17 @@
                     "isSold"    : false
                 },
                 {
-                    "wareId" : 304,
+                    "wareId" : 306,
                     "wareIndex" : 4,
                     "isSold"    : false
                 },
                 {
-                    "wareId" : 309,
+                    "wareId" : 308,
                     "wareIndex" : 5,
                     "isSold"    : false
                 },
                 {
-                    "wareId" : 310,
+                    "wareId" : 313,
                     "wareIndex" : 6,
                     "isSold"    : false
                 },
@@ -719,42 +719,42 @@
             "lastRefreshTime" : 1505512800,
             "wares"           : [
                 {
-                    "wareId" : 506,
+                    "wareId" : 505,
                     "wareIndex" : 0,
                     "isSold"    : false
                 },
                 {
-                    "wareId" : 504,
+                    "wareId" : 501,
                     "wareIndex" : 1,
                     "isSold"    : false
                 },
                 {
-                    "wareId" : 506,
+                    "wareId" : 513,
                     "wareIndex" : 2,
                     "isSold"    : false
                 },
                 {
-                    "wareId" : 500,
+                    "wareId" : 513,
                     "wareIndex" : 3,
                     "isSold"    : false
                 },
                 {
-                    "wareId" : 513,
+                    "wareId" : 501,
                     "wareIndex" : 4,
                     "isSold"    : false
                 },
                 {
-                    "wareId" : 503,
+                    "wareId" : 506,
                     "wareIndex" : 5,
                     "isSold"    : false
                 },
                 {
-                    "wareId" : 508,
+                    "wareId" : 500,
                     "wareIndex" : 6,
                     "isSold"    : false
                 },
                 {
-                    "wareId" : 509,
+                    "wareId" : 500,
                     "wareIndex" : 7,
                     "isSold"    : false
                 }
