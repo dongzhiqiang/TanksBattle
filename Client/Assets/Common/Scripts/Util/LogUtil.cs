@@ -93,7 +93,7 @@ public class LogUtil{
         if (Directory.Exists("/sdcard"))
         {
             try{
-                string appSdPath = "/sdcard/"+Application.bundleIdentifier;
+                string appSdPath = "/sdcard/"+Application.identifier;
                 PathName = appSdPath+"/Log";
                 if (!Directory.Exists(appSdPath))
                     Directory.CreateDirectory(appSdPath);
@@ -107,7 +107,7 @@ public class LogUtil{
 #else
         PathName = Application.temporaryCachePath+"/Log";///data/data/xxx.xxx.xxx/cache
 #endif
-        
+
         if (!Directory.Exists(PathName))
             Directory.CreateDirectory(PathName);
 

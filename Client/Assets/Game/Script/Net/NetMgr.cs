@@ -325,6 +325,13 @@ public class NetMgr : Singleton<NetMgr>
     public void Send(byte module, int command, object obj, bool waitResponse = true)
     {
         string key = module + "_" + command;
+
+        if (Main.instance.isSingle)
+        {
+            Debug.LogWarning("单机模式下不发送消息 : " + key);
+            return;
+        }
+        
         if (waitResponse && m_waitResponse.ContainsKey(key))
             return;
         if (m_connector.Send(module, command, obj))
