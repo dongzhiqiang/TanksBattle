@@ -38,7 +38,7 @@ public class UIGainStamina : UIPanel
         for (int i = 0; i < 14; i++ )
         {
             GameObject copyed = GameObject.Instantiate(m_buttons[0].gameObject);
-            copyed.transform.parent = m_grid.transform;
+            copyed.transform.SetParent(m_grid.transform);
             copyed.transform.localPosition = Vector3.zero;
             copyed.transform.localScale = Vector3.one;
             m_buttons.Add(copyed.GetComponent<UIStaminaButton>());
