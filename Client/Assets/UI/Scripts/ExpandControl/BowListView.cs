@@ -235,7 +235,7 @@ public class BowListView : MonoBehaviour,
         if (inactiveNodes.Count == 0)
         {
             result = GameObject.Instantiate(m_templeItem);
-            result.transform.parent = this.transform;
+            result.transform.SetParent(this.transform);
         }
         else
         {

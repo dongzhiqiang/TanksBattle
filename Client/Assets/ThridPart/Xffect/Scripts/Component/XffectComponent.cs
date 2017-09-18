@@ -388,7 +388,7 @@ namespace Xft
                 //after the editor reimported scripts, the MeshList in memory will be cleared.
                 if (obj == null)
                     continue;
-                obj.transform.parent = this.transform;
+                obj.transform.SetParent(this.transform);
 
                 //fixed 2012.6.25, 
                 obj.transform.position = Vector3.zero;

@@ -90,7 +90,7 @@ public class BowChain : MonoBehaviour
     {
         GameObject result;
         result = GameObject.Instantiate(m_template);
-        result.transform.parent = this.transform;
+        result.transform.SetParent(this.transform);
         result.transform.localScale = Vector3.one;
         result.gameObject.SetActive(true);
         return result;
