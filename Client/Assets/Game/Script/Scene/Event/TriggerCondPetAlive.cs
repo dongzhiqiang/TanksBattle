@@ -50,14 +50,6 @@ public class TriggerCondPetAlive : SceneTrigger
             bAchieve = false;
             return;
         }
-
-        List<Role> pets = hero.PetsPart.GetMainPets();
-        foreach(Role pet in pets)
-        {
-            if (pet.Id == role.Id)
-            {
-                bAchieve = false;
-            }
-        }
+        
     }
 }

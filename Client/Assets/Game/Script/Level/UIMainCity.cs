@@ -186,11 +186,6 @@ public class UIMainCity : UIPanel
         FreshToggleTip();
 
         //角色头顶信息
-        PetsPart petsPart = m_role.PetsPart;
-        foreach (Role pet in petsPart.Pets.Values)
-        {
-            pet.PetsPart.AddCheckPetTip(FreshRolesInfo);
-        }
         m_observer8 = m_role.AddPropChange(enProp.level, FreshRolesInfo);
         FreshRolesInfo();
         if (s_onOpen!=null)

@@ -154,10 +154,7 @@ public class ArenaScene : LevelBase
 
         m_enemyHero.transform.forward = enemyTofrientForward;
         hero.transform.forward = -enemyTofrientForward;
-
-        //创建对方宠物1
-        yield return LevelMgr.instance.CreatePet(m_enemyHero, enCamp.camp2);
-
+        
         ++m_friendRoleCount;
         hero.Add(MSG_ROLE.DEAD, OnFriendRoleDead);
         hero.RoleBornCxt.deadAniId = basicCfg.myHeroDeadType;
@@ -167,15 +164,11 @@ public class ArenaScene : LevelBase
         //设置仇恨目标
         hero.HatePart.AddHate(m_enemyHero, basicCfg.addHateValue);
 
-        List<Role> myPets = hero.PetsPart.GetMainPets();
         string heroArenaPosStr = hero.ActivityPart.GetString(enActProp.arenaPos);
         List<int> heroArenaPos = heroArenaPosStr == "" ? ArenaBasicCfg.GetArenaPos("1,0,2") : ArenaBasicCfg.GetArenaPos(heroArenaPosStr);
         string enemyArenaPosStr = m_enemyHero.ActivityPart.GetString(enActProp.arenaPos);
         List<int> enemyArenaPos = enemyArenaPosStr == "" ? ArenaBasicCfg.GetArenaPos("1,0,2") : ArenaBasicCfg.GetArenaPos(enemyArenaPosStr);
-
-        PetFormation myPetFormation = hero.PetFormationsPart.GetCurPetFormation();
-        PetFormation enemyPetFormation = m_enemyHero.PetFormationsPart.GetCurPetFormation(); 
-
+        
         //设置主角位置
         for (int i = 0; i < heroArenaPos.Count; ++i)
         {
@@ -195,80 +188,6 @@ public class ArenaScene : LevelBase
                 }               
             }
         }
-        foreach (Role pet in myPets)
-        {
-            if (pet != null)
-            {
-                ++m_friendRoleCount;
-                pet.Add(MSG_ROLE.DEAD, OnFriendRoleDead);
-                pet.RoleBornCxt.deadAniId = basicCfg.myPetDeadType;
-                pet.RoleBornCxt.groundDeadAniId = basicCfg.myPetDeadType;
-                m_uiArenaArea.AddMyPartRole(pet);
-                m_leftDmgParams.Add(new DamageDataParamItem(pet.Id, pet.GetString(enProp.name), pet.GetString(enProp.roleId)));
-
-                //移动神侍的位置和仇恨目标
-                var petGuid = pet.GetString(enProp.guid);
-                if (petGuid == myPetFormation.GetPetGuid(enPetPos.pet1Main))
-                {
-                    for (int i = 0; i < heroArenaPos.Count; ++i)
-                    {
-                        if (heroArenaPos[i] == 1)
-                        {
-                            switch (i)
-                            {
-                                case 0:
-                                    pet.TranPart.SetPos(new Vector3(basicCfg.myPos1[0], pet.TranPart.Pos.y, basicCfg.myPos1[1]));
-                                    break;
-                                case 1:
-                                    pet.TranPart.SetPos(new Vector3(basicCfg.myPos2[0], pet.TranPart.Pos.y, basicCfg.myPos1[1]));
-                                    break;
-                                case 2:
-                                    pet.TranPart.SetPos(new Vector3(basicCfg.myPos3[0], pet.TranPart.Pos.y, basicCfg.myPos1[1]));
-                                    break;
-                            }
-                        }
-                    }
-                    //如果对方有对应的神侍就设置仇恨目标
-                    string enemyPetGuid = enemyPetFormation.GetPetGuid(enPetPos.pet1Main);
-                    if (!string.IsNullOrEmpty(enemyPetGuid))
-                    {
-                        var tempPet = m_enemyHero.PetsPart.GetPet(enemyPetGuid);
-                        if (tempPet != null)
-                            pet.HatePart.AddHate(tempPet, basicCfg.addHateValue);
-                    }
-                }
-                else if (petGuid == myPetFormation.GetPetGuid(enPetPos.pet2Main))
-                {
-                    for (int i = 0; i < heroArenaPos.Count; ++i)
-                    {
-                        if (heroArenaPos[i] == 2)
-                        {
-                            switch (i)
-                            {
-                                case 0:
-                                    pet.TranPart.SetPos(new Vector3(basicCfg.myPos1[0], pet.TranPart.Pos.y, basicCfg.myPos1[1]));
-                                    break;
-                                case 1:
-                                    pet.TranPart.SetPos(new Vector3(basicCfg.myPos2[0], pet.TranPart.Pos.y, basicCfg.myPos1[1]));
-                                    break;
-                                case 2:
-                                    pet.TranPart.SetPos(new Vector3(basicCfg.myPos3[0], pet.TranPart.Pos.y, basicCfg.myPos1[1]));
-                                    break;
-                            }
-                        }
-                    }
-                    //如果对方有对应的神侍就设置仇恨目标
-                    string enemyPetGuid = enemyPetFormation.GetPetGuid(enPetPos.pet2Main);
-                    if (!string.IsNullOrEmpty(enemyPetGuid))
-                    {
-                        var tempPet = m_enemyHero.PetsPart.GetPet(enemyPetGuid);
-                        if (tempPet != null)
-                            pet.HatePart.AddHate(tempPet, basicCfg.addHateValue);
-                    }
-                }
-            }
-        }
-
         ++m_enemyRoleCount;
         m_enemyHero.Add(MSG_ROLE.DEAD, OnEnemyRoleDead);
         //对方主角的死亡方式已在预加载时修改了
@@ -297,100 +216,25 @@ public class ArenaScene : LevelBase
                 }
             }
         }
-        List<Role> enemyPets = m_enemyHero.PetsPart.GetMainPets();
+        //加上状态
 
-        foreach (Role pet in enemyPets)
+        if (basicCfg.heroBuffId != 0)
         {
-            if (pet != null)
-            {
-                ++m_enemyRoleCount;
-                pet.Add(MSG_ROLE.DEAD, OnEnemyRoleDead);
-                pet.RoleBornCxt.deadAniId = basicCfg.itsPetDeadType;
-                pet.RoleBornCxt.groundDeadAniId = basicCfg.itsPetDeadType;
-                m_uiArenaArea.AddItsPartRole(pet);
-                m_rightDmgParams.Add(new DamageDataParamItem(pet.Id, pet.GetString(enProp.name), pet.GetString(enProp.roleId)));
-
-                //移动神侍的位置和仇恨目标
-                var petGuid = pet.GetString(enProp.guid);
-                if (petGuid == enemyPetFormation.GetPetGuid(enPetPos.pet1Main))
-                {
-                    for (int i = 0; i < enemyArenaPos.Count; ++i)
-                    {
-                        if (enemyArenaPos[i] == 1)
-                        {
-                            switch (i)
-                            {
-                                case 0:
-                                    pet.TranPart.SetPos(new Vector3(basicCfg.itsPos1[0], pet.TranPart.Pos.y, basicCfg.itsPos1[1]));
-                                    break;
-                                case 1:
-                                    pet.TranPart.SetPos(new Vector3(basicCfg.itsPos2[0], pet.TranPart.Pos.y, basicCfg.itsPos2[1]));
-                                    break;
-                                case 2:
-                                    pet.TranPart.SetPos(new Vector3(basicCfg.itsPos3[0], pet.TranPart.Pos.y, basicCfg.itsPos3[1]));
-                                    break;
-                            }
-                        }
-                    }
-                    //如果对方有对应的神侍就设置仇恨目标
-                    var tempPet = hero.PetsPart.GetPet(myPetFormation.GetPetGuid(enPetPos.pet1Main));
-                    if (tempPet != null)
-                        pet.HatePart.AddHate(tempPet, basicCfg.addHateValue);
-                }
-                else if (petGuid == enemyPetFormation.GetPetGuid(enPetPos.pet2Main))
-                {
-                    for (int i = 0; i < enemyArenaPos.Count; ++i)
-                    {
-                        if (enemyArenaPos[i] == 2)
-                        {
-                            switch (i)
-                            {
-                                case 0:
-                                    pet.TranPart.SetPos(new Vector3(basicCfg.itsPos1[0], pet.TranPart.Pos.y, basicCfg.itsPos1[1]));
-                                    break;
-                                case 1:
-                                    pet.TranPart.SetPos(new Vector3(basicCfg.itsPos2[0], pet.TranPart.Pos.y, basicCfg.itsPos2[1]));
-                                    break;
-                                case 2:
-                                    pet.TranPart.SetPos(new Vector3(basicCfg.itsPos3[0], pet.TranPart.Pos.y, basicCfg.itsPos3[1]));
-                                    break;
-                            }
-                        }
-                        //如果对方有对应的神侍就设置仇恨目标
-                        var tempPet = hero.PetsPart.GetPet(myPetFormation.GetPetGuid(enPetPos.pet2Main));
-                        if (tempPet != null)
-                            pet.HatePart.AddHate(tempPet, basicCfg.addHateValue);
-                    }
-                }
-            }
+            hero.BuffPart.AddBuff(basicCfg.heroBuffId);
         }
-            //加上状态
+        if (basicCfg.enemyBuffId != 0)
+        {
+            m_enemyHero.BuffPart.AddBuff(basicCfg.enemyBuffId);
+        }
+        m_uiArenaArea.InitAllRolesGroup();
+        m_uiArenaArea.RefreshUI();            
+        m_uiTime.OnPause(false);
 
-            if (basicCfg.heroBuffId != 0)
-            {
-                hero.BuffPart.AddBuff(basicCfg.heroBuffId);
-                for (int i = 0; i < myPets.Count; ++i)
-                {
-                    myPets[i].BuffPart.AddBuff(basicCfg.heroBuffId);
-                }
-            }
-            if (basicCfg.enemyBuffId != 0)
-            {
-                m_enemyHero.BuffPart.AddBuff(basicCfg.enemyBuffId);
-                for (int i = 0; i < enemyPets.Count; ++i)
-                {
-                    enemyPets[i].BuffPart.AddBuff(basicCfg.enemyBuffId);
-                }
-            }
-            m_uiArenaArea.InitAllRolesGroup();
-            m_uiArenaArea.RefreshUI();            
-            m_uiTime.OnPause(false);
+        TimeMgr.instance.SubPause();
 
-            TimeMgr.instance.SubPause();
-
-            //开启自动战斗
-            if (hero.AIPart != null)
-                hero.AIPart.Play(AIPart.HeroAI);
+        //开启自动战斗
+        if (hero.AIPart != null)
+            hero.AIPart.Play(AIPart.HeroAI);
 
 
         
@@ -483,33 +327,6 @@ public class ArenaScene : LevelBase
         {
             m_curState = ArenaSceneState.theyWin;
             OnCombatEnd(m_curState == ArenaSceneState.weWin, role);
-        }
-        else
-        {            
-            Role hero = RoleMgr.instance.Hero;
-            var petsPart = hero.PetsPart;
-            var petFormation = hero.PetFormationsPart.GetCurPetFormation();
-            Role myPet1 = petsPart.GetPet(petFormation.GetPetGuid(enPetPos.pet1Main));
-            Role myPet2 = petsPart.GetPet(petFormation.GetPetGuid(enPetPos.pet2Main));
-            //主角死了？把摄像机移到宠物那
-            if (role == hero || role == myPet1 || role == myPet2)
-            {
-                if (hero != null && hero.State == Role.enState.alive)
-                {
-                    CameraMgr.instance.SetFollow(hero.transform);
-                }
-                else if (myPet1 != null && myPet1.State == Role.enState.alive)
-                {
-                    CameraMgr.instance.SetFollow(myPet1.transform);
-                }
-                else
-                {                    
-                    if (myPet2 != null && myPet2.State == Role.enState.alive)
-                    {
-                        CameraMgr.instance.SetFollow(myPet2.transform);
-                    }
-                }                
-            }
         }
     }
 

@@ -178,10 +178,6 @@ public class PropPart:RolePart
         foreach (var propId in temp)
         {
             m_parent.Fire(MSG_ROLE.PROP_CHANGE + propId);
-            if (propId == (int)enProp.power && !Parent.IsHero && m_parent.PetsPart.Owner.PetsPart.IsMainPet(GetString(enProp.guid)))
-            {
-                m_parent.PetsPart.Owner.Fire(MSG_ROLE.PROP_CHANGE + propId);
-            }
         }
         //不特定属性的事件
         m_parent.Fire(MSG_ROLE.NET_PROP_SYNC, 0);

@@ -19,8 +19,6 @@ public class EquipHandler
     public void OnPushAddOrUpdateEquip(AddOrUpdateEquipVo info)
     {
         Role role = RoleMgr.instance.Hero;
-        if (role.GetString(enProp.guid) != info.guidOwner)
-            role = role.PetsPart.GetPet(info.guidOwner);
         if (role == null)
             return;
 
@@ -46,8 +44,6 @@ public class EquipHandler
     public void OnRemoveEquip(RemoveEquipVo info)
     {
         Role role = RoleMgr.instance.Hero;
-        if (role.GetString(enProp.guid) != info.guidOwner)
-            role = role.PetsPart.GetPet(info.guidOwner);
         if (role == null)
             return;
 
@@ -64,17 +60,6 @@ public class EquipHandler
                 if (UIMgr.instance.Get<UIEquip>() != null)
                 {
                     UIMgr.instance.Get<UIEquip>().Refresh();
-                }
-            }
-            else
-            {
-                if (UIMgr.instance.Get<UIPet>() != null)
-                {
-                    UIMgr.instance.Get<UIPet>().Refresh();
-                }
-                if (UIMgr.instance.Get<UIChoosePet>() != null)
-                {
-                    UIMgr.instance.Fresh<UIChoosePet>();
                 }
             }
         }
@@ -94,8 +79,6 @@ public class EquipHandler
     public void OnUpgrade(GrowEquipResultVo info)
     {
         Role role = RoleMgr.instance.Hero;
-        if (role.GetString(enProp.guid) != info.guidOwner)
-            role = role.PetsPart.GetPet(info.guidOwner);
         if (role == null)
             return;
 
@@ -104,17 +87,6 @@ public class EquipHandler
             if (UIMgr.instance.Get<UIEquip>() != null)
             {
                 UIMgr.instance.Get<UIEquip>().m_pageUpgrade.StartUpgradeFx(Equip.CreateFromVo(info.oldEquip), Equip.CreateFromVo(info.newEquip));
-            }
-        }
-        else
-        {
-            if (UIMgr.instance.Get<UIPet>() != null)
-            {
-                UIMgr.instance.Get<UIPet>().m_pageEquipUpgrade.StartUpgradeFx(Equip.CreateFromVo(info.oldEquip), Equip.CreateFromVo(info.newEquip));
-            }
-            if (UIMgr.instance.Get<UIChoosePet>() != null)
-            {
-                UIMgr.instance.Fresh<UIChoosePet>();
             }
         }
     }
@@ -133,8 +105,6 @@ public class EquipHandler
     public void OnUpgradeOnce(GrowEquipResultVo info)
     {
         Role role = RoleMgr.instance.Hero;
-        if (role.GetString(enProp.guid) != info.guidOwner)
-            role = role.PetsPart.GetPet(info.guidOwner);
         if (role == null)
             return;
 
@@ -147,17 +117,6 @@ public class EquipHandler
                     UIMgr.instance.Get<UIEquip>().m_pageUpgrade.StartUpgradeFx(Equip.CreateFromVo(info.oldEquip), Equip.CreateFromVo(info.newEquip));
                 }
             }
-            else
-            {
-                if (UIMgr.instance.Get<UIPet>() != null)
-                {
-                    UIMgr.instance.Get<UIPet>().m_pageEquipUpgrade.StartUpgradeFx(Equip.CreateFromVo(info.oldEquip), Equip.CreateFromVo(info.newEquip));
-                }
-                if (UIMgr.instance.Get<UIChoosePet>() != null)
-                {
-                    UIMgr.instance.Fresh<UIChoosePet>();
-                }
-            }
         }
         else
         {
@@ -166,17 +125,6 @@ public class EquipHandler
                 if (UIMgr.instance.Get<UIEquip>() != null)
                 {
                     UIMgr.instance.Get<UIEquip>().m_pageUpgrade.StartAdvanceFx(Equip.CreateFromVo(info.oldEquip), Equip.CreateFromVo(info.newEquip));
-                }
-            }
-            else
-            {
-                if (UIMgr.instance.Get<UIPet>() != null)
-                {
-                    UIMgr.instance.Get<UIPet>().m_pageEquipUpgrade.StartAdvanceFx(Equip.CreateFromVo(info.oldEquip), Equip.CreateFromVo(info.newEquip));
-                }
-                if (UIMgr.instance.Get<UIChoosePet>() != null)
-                {
-                    UIMgr.instance.Fresh<UIChoosePet>();
                 }
             }
         }
@@ -195,8 +143,6 @@ public class EquipHandler
     public void OnUpgradeAll(UpgradeAllEquipResultVo info)
     {
         Role role = RoleMgr.instance.Hero;
-        if (role.GetString(enProp.guid) != info.guidOwner)
-            role = role.PetsPart.GetPet(info.guidOwner);
         if (role == null)
             return;
         if (info.equipList.Count==0)
@@ -206,10 +152,6 @@ public class EquipHandler
             {
                 UIMgr.instance.Get<UIEquip>().m_pageUpgrade.ClearLock();
             }
-            if (UIMgr.instance.Get<UIPet>() != null)
-            {
-                UIMgr.instance.Get<UIPet>().m_pageEquipUpgrade.ClearLock();
-            }
             return;
         }
         if (role == RoleMgr.instance.Hero)
@@ -217,17 +159,6 @@ public class EquipHandler
             if (UIMgr.instance.Get<UIEquip>() != null)
             {
                 UIMgr.instance.Get<UIEquip>().Refresh();
-            }
-        }
-        else
-        {
-            if (UIMgr.instance.Get<UIPet>() != null)
-            {
-                UIMgr.instance.Get<UIPet>().Refresh();
-            }
-            if (UIMgr.instance.Get<UIChoosePet>() != null)
-            {
-                UIMgr.instance.Fresh<UIChoosePet>();
             }
         }
         UIMgr.instance.Open<UIEquipUpgradeResult>(info.equipList);
@@ -250,8 +181,6 @@ public class EquipHandler
     {
         //UIFxPanel.ShowFx("fx_ui_jinjiechenggong");
         Role role = RoleMgr.instance.Hero;
-        if (role.GetString(enProp.guid) != info.guidOwner)
-            role = role.PetsPart.GetPet(info.guidOwner);
         if (role == null)
             return;
 
@@ -260,17 +189,6 @@ public class EquipHandler
             if (UIMgr.instance.Get<UIEquip>() != null)
             {
                 UIMgr.instance.Get<UIEquip>().m_pageUpgrade.StartAdvanceFx(Equip.CreateFromVo(info.oldEquip), Equip.CreateFromVo(info.newEquip));
-            }
-        }
-        else
-        {
-            if (UIMgr.instance.Get<UIPet>() != null)
-            {
-                UIMgr.instance.Get<UIPet>().m_pageEquipUpgrade.StartAdvanceFx(Equip.CreateFromVo(info.oldEquip), Equip.CreateFromVo(info.newEquip));
-            }
-            if (UIMgr.instance.Get<UIChoosePet>() != null)
-            {
-                UIMgr.instance.Fresh<UIChoosePet>();
             }
         }
     }
@@ -289,8 +207,6 @@ public class EquipHandler
     public void OnRouse(GrowEquipResultVo info)
     {
         Role role = RoleMgr.instance.Hero;
-        if (role.GetString(enProp.guid) != info.guidOwner)
-            role = role.PetsPart.GetPet(info.guidOwner);
         if (role == null)
             return;
 
@@ -299,17 +215,6 @@ public class EquipHandler
             if (UIMgr.instance.Get<UIEquip>() != null)
             {
                 UIMgr.instance.Get<UIEquip>().m_pageRouse.StartRouseFx(Equip.CreateFromVo(info.oldEquip), Equip.CreateFromVo(info.newEquip));
-            }
-        }
-        else
-        {
-            if (UIMgr.instance.Get<UIPet>() != null)
-            {
-                UIMgr.instance.Get<UIPet>().m_pageEquipRouse.StartRouseFx(Equip.CreateFromVo(info.oldEquip), Equip.CreateFromVo(info.newEquip));
-            }
-            if (UIMgr.instance.Get<UIChoosePet>() != null)
-            {
-                UIMgr.instance.Fresh<UIChoosePet>();
             }
         }
     }

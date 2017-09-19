@@ -357,18 +357,6 @@ public class Buff :IdType
             m_lv = talent.lv;
             return ;
         }
-
-        //如果受到宠物天赋影响
-        TalentsPart talentsPart = r.TalentsPart;
-        if (talentsPart != null)
-        {
-            var talent = talentsPart.GetTalentByBuffId(Cfg.id);
-            if (talent != null)
-            {
-                m_lv = talent.level;
-                return ;
-            }
-        }
     }
     
     public float GetLvValue(LvValue v)

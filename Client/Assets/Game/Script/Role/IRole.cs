@@ -49,9 +49,6 @@ public interface IRole
 
     //5 上层逻辑(装备、时装、技能、背包等等)
     ItemsPart ItemsPart { get; }
-    PetsPart PetsPart { get; }
-    PetSkillsPart PetSkillsPart { get; }
-    TalentsPart TalentsPart { get; }
     EquipsPart EquipsPart { get; } 
     LevelsPart LevelsPart { get; }
     ActivityPart ActivityPart { get; }

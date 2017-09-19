@@ -24,7 +24,7 @@ public class UIArenaItem : MonoBehaviour
     public StateHandle  btnChallenge;
     public StateHandle  btnCombatLog;    
 
-    public void Init(int rankVal, string heroName, int heroId, string heroRoleId, string pet1Guid, string pet1RoleId, string pet2Guid, string pet2RoleId, int score, bool isMyHero)
+    public void Init(int rankVal, string heroName, int heroId, string heroRoleId, int score, bool isMyHero)
     {    
         btnChallenge.AddClick(TryDoChallenge);
         btnCombatLog.AddClick(ReqArenaLog);
@@ -33,8 +33,6 @@ public class UIArenaItem : MonoBehaviour
         btnPet2Head.AddClick(OnHeadClick);
 
         this.heroId = heroId;
-        this.pet1Guid = pet1Guid;
-        this.pet2Guid = pet2Guid;
         
         this.rankVal.gameObject.SetActive(true);
         this.rankVal.m_prefix = rankVal <= 3 ? prefixBigNum : prefixSmallNum;
@@ -52,27 +50,7 @@ public class UIArenaItem : MonoBehaviour
             this.heroHead.gameObject.SetActive(true);
             this.heroHead.Set(RoleCfg.GetHeadIcon(heroRoleId));
         }            
-        if (string.IsNullOrEmpty(pet1RoleId))
-        {
-            this.pet1Head.gameObject.SetActive(false);
-            this.pet1Head.Set(null);
-        }
-        else
-        {
-            this.pet1Head.gameObject.SetActive(true);
-            this.pet1Head.Set(RoleCfg.GetHeadIcon(pet1RoleId));
-        }            
-        if (string.IsNullOrEmpty(pet2RoleId))
-        {
-            this.pet2Head.gameObject.SetActive(false);
-            this.pet2Head.Set(null);
-        }            
-        else
-        {
-            this.pet2Head.gameObject.SetActive(true);
-            this.pet2Head.Set(RoleCfg.GetHeadIcon(pet2RoleId));
-        }            
-
+        
         this.score.text = score.ToString();
 
         this.GetComponent<StateHandle>().SetState(isMyHero ? 0 : 1);

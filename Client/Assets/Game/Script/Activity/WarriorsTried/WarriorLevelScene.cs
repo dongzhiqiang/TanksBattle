@@ -104,12 +104,12 @@ public class WarriorLevelScene: LevelBase
         if (hero != null && hero.State == Role.enState.alive)
         {
             newDict.Add(hero.Id, hero);
-            List<Role> pets = hero.PetsPart.GetMainPets();
-            foreach (Role p in pets)
-            {
-                if (p != null && p.State != Role.enState.alive)
-                    newDict.Add(p.Id, p);
-            }
+            //List<Role> pets = hero.PetsPart.GetMainPets();
+            //foreach (Role p in pets)
+            //{
+            //    if (p != null && p.State != Role.enState.alive)
+            //        newDict.Add(p.Id, p);
+            //}
         }
         mRoleDic.Clear();
         mRoleDic = newDict;
@@ -178,13 +178,6 @@ public class WarriorLevelScene: LevelBase
         Role hero = RoleMgr.instance.Hero;
         if (hero != null)
         {
-            List<Role> pets = hero.PetsPart.GetMainPets();
-            foreach (Role pet in pets)
-            {
-                if (pet != null && pet.State == Role.enState.alive)
-                    pet.RoleModel.Show(false);
-            }
-
             hero.RoleModel.Foot.gameObject.SetActive(false);
         }
 

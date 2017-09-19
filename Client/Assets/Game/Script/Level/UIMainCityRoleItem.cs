@@ -37,14 +37,6 @@ public class UIMainCityRoleItem : MonoBehaviour {
                 grade.gameObject.SetActive(false);
                 starGroup.gameObject.SetActive(true);
                 bg.gameObject.SetActive(false);
-                int advLv = role.GetInt(enProp.advLv);
-
-                PetAdvLvPropRateCfg cfg = PetAdvLvPropRateCfg.m_cfgs[advLv];
-
-               string advName = GetQualityName(cfg.quality, cfg.qualityLevel);               
-
-                name.text = string.Format("Lv.{0} {1}", role.GetInt(enProp.level), advName);
-
                 starGroup.SetCount(role.GetInt(enProp.star));
 
 
@@ -102,8 +94,6 @@ public class UIMainCityRoleItem : MonoBehaviour {
     {
         if (role.GetInt(enProp.heroId)>0)
             UIMgr.instance.Open<UIEquip>();
-        else
-            UIMgr.instance.Open<UIChoosePet>();
     }
 
     string GetQualityName(int quality, int qualityLevel)

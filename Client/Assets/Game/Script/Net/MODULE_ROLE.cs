@@ -23,8 +23,6 @@ public class FullRoleInfoVo
     public List<ItemVo> items;
     public List<EquipVo> equips;
     public LevelInfoVo levelInfo;
-    public List<PetSkillVo> petSkills;
-    public List<TalentVo> talents;
     public Dictionary<string, Property> actProps;
     public WeaponInfoVo weapons;
     public List<Mail> mails;
@@ -39,7 +37,6 @@ public class FullRoleInfoVo
     public List<EliteLevelVo> eliteLevels;
     public WarriorTriedInfo warriorTried;
     public ProphetTowerInfo prophetTower;
-    public List<PetFormationVo> petFormations;
     public TreasureInfoVo treasures;
 }
 

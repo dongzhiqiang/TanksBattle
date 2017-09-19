@@ -140,21 +140,7 @@ public class UILevelEnd2 : UIPanel
         {
             var camNegForward = -CameraMgr.instance.CurCamera.transform.forward;
             hero.TranPart.SetDir(new Vector3(camNegForward.x, 0, camNegForward.y));
-
-            //隐藏宠物
-            PetFormation petFormation = hero.PetFormationsPart.GetCurPetFormation();
-            PetsPart petPart = hero.PetsPart;
-            if (petPart != null)
-            {
-                Role pet1 = petPart.GetPet(petFormation.GetPetGuid(enPetPos.pet1Main));
-                if (pet1 != null)
-                    RoleMgr.instance.DestroyRole(pet1);
-
-                Role pet2 = petPart.GetPet(petFormation.GetPetGuid(enPetPos.pet2Main));
-                if (pet2 != null)
-                    RoleMgr.instance.DestroyRole(pet2);
-            }
-
+            
             m_cameraInfo.horizontalAngle = hero.transform.rotation.eulerAngles.y + 200;
             m_cameraInfo.refPos = hero.transform.position;
             CameraMgr.instance.Add(m_cameraInfo);

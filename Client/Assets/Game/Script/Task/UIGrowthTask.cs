@@ -88,17 +88,7 @@ public class UIGrowthTask : MonoBehaviour {
                 ReFreshGrowthTask(false);
             }
         });
-        PetsPart petsPart = hero.PetsPart;
-        foreach (Role pet in petsPart.Pets.Values)
-        {
-            pet.PetsPart.AddCheckPetTip(() =>
-            {
-                if (UIMgr.instance.Get<UITask>().IsOpen)
-                {
-                    ReFreshGrowthTask(false);
-                }
-            });
-        }
+      
     }
 
     public void Init()

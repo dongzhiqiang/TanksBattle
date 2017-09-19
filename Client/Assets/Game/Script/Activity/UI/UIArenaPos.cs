@@ -136,12 +136,7 @@ public class UIArenaPos : UIPanel
         Role hero = RoleMgr.instance.Hero;     
         string heroArenaPosStr = hero.ActivityPart.GetString(enActProp.arenaPos);  
         List<int> heroArenaPos = heroArenaPosStr == "" ? defaultPos : ArenaBasicCfg.GetArenaPos(heroArenaPosStr);
-        PetFormation myPetFormation = hero.PetFormationsPart.GetCurPetFormation();
-        Role heroPet1 = hero.PetsPart.GetPet(myPetFormation.GetPetGuid(enPetPos.pet1Main));
-        Role heroPet2 = hero.PetsPart.GetPet(myPetFormation.GetPetGuid(enPetPos.pet2Main));
         myRoles[0] = hero;
-        myRoles[1] = heroPet1;
-        myRoles[2] = heroPet2;
         for(int i=0;i<heroArenaPos.Count;++i)
         {
             heroPos[i].Init(myRoles[heroArenaPos[i]], heroArenaPos[i]);
@@ -155,22 +150,7 @@ public class UIArenaPos : UIPanel
         string enemyArenaPosStr = enemy.ActivityPart.GetString(enActProp.arenaPos);       
         List<int> enemyArenaPos = enemyArenaPosStr == "" ? defaultPos : ArenaBasicCfg.GetArenaPos(enemyArenaPosStr);
         enemyPosList = enemyArenaPos;
-        Role enemyPet1 = null;
-        Role enemyPet2 = null;
-        List<Role> enemyPets = enemy.PetsPart.GetMainPets();
-        PetFormation enemyPetFormation = enemy.PetFormationsPart.GetCurPetFormation();
-        for (int i = 0; i < enemyPets.Count; ++i)
-        {
-            if (enemyPets[i].GetString(enProp.guid) == enemyPetFormation.GetPetGuid(enPetPos.pet1Main))
-                enemyPet1 = enemyPets[i];
-            if (enemyPets[i].GetString(enProp.guid) == enemyPetFormation.GetPetGuid(enPetPos.pet2Main))
-                enemyPet2 = enemyPets[i];
-        }
-
         itsRoles[0] = enemy;
-        itsRoles[1] = enemyPet1;
-        itsRoles[2] = enemyPet2;
-
         for (int i = 0; i < enemyArenaPos.Count; ++i)
         {
             enemyPos[i].Init(itsRoles[enemyArenaPos[i]], enemyArenaPos[i]);

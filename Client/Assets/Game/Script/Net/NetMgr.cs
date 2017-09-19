@@ -28,7 +28,6 @@ public class NetMgr : Singleton<NetMgr>
     public ItemHandler ItemHandler;
     public EquipHandler EquipHandler;
     public RoleHandler RoleHandler;
-    public PetHandler PetHandler;
     public LevelHandler LevelHandler;
     public ActivityHandler ActivityHandler;
     public RankHandler RankHandler;
@@ -213,7 +212,6 @@ public class NetMgr : Singleton<NetMgr>
         ItemHandler = new ItemHandler();
         EquipHandler = new EquipHandler();
         RoleHandler = new RoleHandler();
-        PetHandler = new PetHandler();
         LevelHandler = new LevelHandler();
         ActivityHandler = new ActivityHandler();
         RankHandler = new RankHandler();

@@ -8,18 +8,13 @@ public class UILevelAreaArena : UILevelArea
 {
     public ImageEx m_myPartAllHP;
     public TextEx m_myHeroName;
-    //public ImageEx m_myHeroHP;
-    //public ImageEx m_myHeroMP;
 
     public ImageEx m_itsPartAllHP;
     public TextEx m_itsHeroName;
 
     public StateGroup myRolesGroup;
     public StateGroup itsRolesGroup;
-
-    //public UILevelPetHead m_pet1;
-    //public UILevelPetHead m_pet2;
-
+    
     private Role m_myHero = null;
     private Role m_itsHero = null;
     private Role[] myRoles= new Role[3];
@@ -205,17 +200,6 @@ public class UILevelAreaArena : UILevelArea
                 itsRoles[0] = role;
                 m_itsHero = role;
                 m_itsHeroName.text = role.GetString(enProp.name);
-
-                PetFormation enemyPetFormation = role.PetFormationsPart.GetCurPetFormation();
-
-                List<Role> enemyPets = role.PetsPart.GetMainPets();
-                for (int i = 0; i < enemyPets.Count; ++i)
-                {
-                    if (enemyPets[i].GetString(enProp.guid) == enemyPetFormation.GetPetGuid(enPetPos.pet1Main))
-                        itsRoles[1] = enemyPets[i];
-                    if (enemyPets[i].GetString(enProp.guid) == enemyPetFormation.GetPetGuid(enPetPos.pet2Main))
-                        itsRoles[2] = enemyPets[i];
-                }              
             }
             role.Add(MSG_ROLE.DEAD, OnItsRoleDead);
         }

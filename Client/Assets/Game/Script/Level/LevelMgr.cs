@@ -345,7 +345,6 @@ public class LevelMgr : Singleton<LevelMgr>
 
         SetAutoBattle();
 
-        yield return Main.instance.StartCoroutine(CreatePet(hero, hero.GetCamp(), cxtPet1, cxtPet2));
 
         //主角也加入角色列表里
         AddRole(hero);

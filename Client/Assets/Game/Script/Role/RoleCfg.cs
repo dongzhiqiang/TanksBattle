@@ -372,49 +372,49 @@ public class RoleCfg
 
             //战斗力：（角色战斗力初值+角色属性等级系数）*战斗力系数
             target.SetInt(enProp.power, (int)((power + RoleLvPropCfg.Get(lv).rate) * PropBasicCfg.instance.powerRate));
-            #if PROP_DEBUG
+#if PROP_DEBUG
             log += string.Format("战斗力={0}\n", target.GetFloat(enProp.power));
-            #endif
+#endif
         }
-        else//宠物成长属性 =宠物属性初值*(1+宠物进阶属性增量(初值)+宠物升星属性增量(初值)）+属性等级系数（角色）*宠物属性点数*宠物属性分配比例*属性值系数（role）)*(1+宠物进阶属性增量(等级)+宠物升星属性增量(等级)）
-        {
-            PetAdvLvPropRateCfg advCfg = PetAdvLvPropRateCfg.Get(advLv);
-            PetStarPropRateCfg starCfg = PetStarPropRateCfg.Get(star);
+        //else//宠物成长属性 =宠物属性初值*(1+宠物进阶属性增量(初值)+宠物升星属性增量(初值)）+属性等级系数（角色）*宠物属性点数*宠物属性分配比例*属性值系数（role）)*(1+宠物进阶属性增量(等级)+宠物升星属性增量(等级)）
+        //{
+        //    PetAdvLvPropRateCfg advCfg = PetAdvLvPropRateCfg.Get(advLv);
+        //    PetStarPropRateCfg starCfg = PetStarPropRateCfg.Get(star);
 
-            //属性等级系数（角色）*宠物属性点数*(1+宠物进阶属性增量(等级)+宠物升星属性增量(等级)）
-            PropertyTable propsDistribute = string.IsNullOrEmpty(this.propDistribute) ? empty : PropDistributeCfg.Get(this.propDistribute).props;
-            float lvRate = RoleLvPropCfg.Get(lv).rate * PropBasicCfg.instance.petPoint * (1f + advCfg.lvRate + starCfg.lvRate);
-            PropertyTable.Mul(RoleTypePropCfg.roleTypeProp, propsDistribute, target);
-            PropertyTable.Mul(lvRate, target, target);
-            #if PROP_DEBUG
-            log += string.Format("属性等级系数（角色）*宠物属性点数*(1+宠物进阶属性增量(等级)+宠物升星属性增量(等级)）={0}\n", target.GetFloat(enProp.hpMax));
-            #endif
+        //    //属性等级系数（角色）*宠物属性点数*(1+宠物进阶属性增量(等级)+宠物升星属性增量(等级)）
+        //    PropertyTable propsDistribute = string.IsNullOrEmpty(this.propDistribute) ? empty : PropDistributeCfg.Get(this.propDistribute).props;
+        //    float lvRate = RoleLvPropCfg.Get(lv).rate * PropBasicCfg.instance.petPoint * (1f + advCfg.lvRate + starCfg.lvRate);
+        //    PropertyTable.Mul(RoleTypePropCfg.roleTypeProp, propsDistribute, target);
+        //    PropertyTable.Mul(lvRate, target, target);
+        //    #if PROP_DEBUG
+        //    log += string.Format("属性等级系数（角色）*宠物属性点数*(1+宠物进阶属性增量(等级)+宠物升星属性增量(等级)）={0}\n", target.GetFloat(enProp.hpMax));
+        //    #endif
 
-            //加初始值
-            float baseRate = 1f + advCfg.baseRate + starCfg.baseRate;
-            #if PROP_DEBUG
-            log += string.Format("(1+宠物进阶属性增量(等级)+宠物升星属性增量(等级))={0} \n", baseRate);
-            #endif
-            PropertyTable propsValue = string.IsNullOrEmpty(this.propValue) ? empty : PropValueCfg.Get(this.propValue).props;
-            PropertyTable.Mul(baseRate, propsValue, tem);
-            PropertyTable.Add(tem, target, target);
-            #if PROP_DEBUG
-            log += string.Format("+初始值={0} \n", target.GetFloat(enProp.hpMax));
-            #endif
+        //    //加初始值
+        //    float baseRate = 1f + advCfg.baseRate + starCfg.baseRate;
+        //    #if PROP_DEBUG
+        //    log += string.Format("(1+宠物进阶属性增量(等级)+宠物升星属性增量(等级))={0} \n", baseRate);
+        //    #endif
+        //    PropertyTable propsValue = string.IsNullOrEmpty(this.propValue) ? empty : PropValueCfg.Get(this.propValue).props;
+        //    PropertyTable.Mul(baseRate, propsValue, tem);
+        //    PropertyTable.Add(tem, target, target);
+        //    #if PROP_DEBUG
+        //    log += string.Format("+初始值={0} \n", target.GetFloat(enProp.hpMax));
+        //    #endif
 
-            //战斗力：（角色战斗力初值*(1+宠物进阶属性增量（初值）+宠物升星属性增量（初值））+宠物属性点数*角色属性等级系数*（1+宠物进阶属性增量（等级）+宠物升星属性增量（等级）））*战斗力系数
-            float petPower = power * (1f + advCfg.baseRate + starCfg.baseRate);
-            petPower += PropBasicCfg.instance.petPoint*RoleLvPropCfg.Get(lv).rate*(1f + advCfg.lvRate + starCfg.lvRate);
-            petPower *= PropBasicCfg.instance.powerRate;
-            target.SetInt(enProp.power, (int)petPower);
-            #if PROP_DEBUG
-            log += string.Format("战斗力={0}\n", target.GetFloat(enProp.power));
-            #endif
-        }
+        //    //战斗力：（角色战斗力初值*(1+宠物进阶属性增量（初值）+宠物升星属性增量（初值））+宠物属性点数*角色属性等级系数*（1+宠物进阶属性增量（等级）+宠物升星属性增量（等级）））*战斗力系数
+        //    float petPower = power * (1f + advCfg.baseRate + starCfg.baseRate);
+        //    petPower += PropBasicCfg.instance.petPoint*RoleLvPropCfg.Get(lv).rate*(1f + advCfg.lvRate + starCfg.lvRate);
+        //    petPower *= PropBasicCfg.instance.powerRate;
+        //    target.SetInt(enProp.power, (int)petPower);
+        //    #if PROP_DEBUG
+        //    log += string.Format("战斗力={0}\n", target.GetFloat(enProp.power));
+        //    #endif
+        //}
 #if PROP_DEBUG
         Debuger.Log(log);
 #endif
-        
+
     }
 
     

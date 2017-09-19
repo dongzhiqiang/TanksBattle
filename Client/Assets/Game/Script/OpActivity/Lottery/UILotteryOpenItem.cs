@@ -13,7 +13,6 @@ public class UILotteryOpenItem : MonoBehaviour
 
     public StateHandle m_switch;
     public UIItemIcon m_itemIcon;
-    public UIPetIcon m_petIcon;
     public AnimatorHandle m_aniHandle;
     public string[] m_animNames;
     public float[] m_animLens;
@@ -28,7 +27,6 @@ public class UILotteryOpenItem : MonoBehaviour
     public void Init(string roleId, int aniType = ANI_TYPE_STATIC_BACK)
     {
         m_switch.SetState(1);
-        m_petIcon.Init(roleId, false, RoleCfg.Get(roleId).initStar);
         PlayAnim(aniType);
     }
 

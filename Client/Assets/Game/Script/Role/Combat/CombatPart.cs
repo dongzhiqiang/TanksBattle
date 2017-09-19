@@ -534,14 +534,7 @@ public class CombatPart:RolePart
 
     bool IsSkillEnabled(string skillId)
     {
-        if(m_parent.PetSkillsPart == null) //非宠物
-        {
-            return true;
-        }
-        else
-        {
-            return m_parent.PetSkillsPart.IsSkillEnabled(skillId);
-        }
+        return true;
     }
     
     // 前一个神器，这里不能直接返回技能，因为图标要从神器取

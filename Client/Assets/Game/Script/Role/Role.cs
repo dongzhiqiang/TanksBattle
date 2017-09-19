@@ -126,9 +126,6 @@ public sealed class Role : IdType, IRole//注意这个类的设计决定了它�
 
     //5 上层逻辑(装备、时装、技能、背包等等)
     public ItemsPart ItemsPart { get { return GetPart(enPart.items) as ItemsPart; } }
-    public PetsPart PetsPart { get { return GetPart(enPart.pets) as PetsPart; } }
-    public PetSkillsPart PetSkillsPart { get { return GetPart(enPart.petSkills) as PetSkillsPart; } }
-    public TalentsPart TalentsPart { get { return GetPart(enPart.talents) as TalentsPart; } }
     public EquipsPart EquipsPart { get { return GetPart(enPart.equips) as EquipsPart; } }
     public LevelsPart LevelsPart { get { return GetPart(enPart.levels) as LevelsPart; } }
     public ActivityPart ActivityPart { get { return GetPart(enPart.activity) as ActivityPart; } }
@@ -146,7 +143,6 @@ public sealed class Role : IdType, IRole//注意这个类的设计决定了它�
     public TaskPart TaskPart { get { return GetPart(enPart.task) as TaskPart; } }
     public ShopsPart ShopsPart { get { return GetPart(enPart.shop) as ShopsPart; } }
     public EliteLevelsPart EliteLevelsPart { get { return GetPart(enPart.eliteLevels) as EliteLevelsPart; } }
-    public PetFormationsPart PetFormationsPart { get { return GetPart(enPart.petFormations) as PetFormationsPart; } }
     public TreasurePart TreasurePart { get { return GetPart(enPart.treasure) as TreasurePart; } }
 
 

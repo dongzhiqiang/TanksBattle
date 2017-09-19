@@ -25,9 +25,6 @@ public class UILevelAreaHead : UILevelArea
     public ImageEx m_nextWeapon;
     public ImageEx m_nextNextWeapon;
 
-    public UILevelPetHead m_pet1;
-    public UILevelPetHead m_pet2;
-
     int m_observer;
     int m_observer2;
     int m_observer3;
@@ -85,8 +82,6 @@ public class UILevelAreaHead : UILevelArea
         if (m_observer2 != EventMgr.Invalid_Id) { EventMgr.Remove(m_observer2); m_observer2 = EventMgr.Invalid_Id; }
         if (m_observer3 != EventMgr.Invalid_Id) { EventMgr.Remove(m_observer3); m_observer3 = EventMgr.Invalid_Id; }
         if (m_observer4 != EventMgr.Invalid_Id) { EventMgr.Remove(m_observer4); m_observer4 = EventMgr.Invalid_Id; }
-        m_pet1.Close();
-        m_pet2.Close();
     }
 
     protected override void OnRoleBorn()
@@ -117,34 +112,13 @@ public class UILevelAreaHead : UILevelArea
         m_observer3 =Role.AddPropChange(enProp.mp, OnMp);
         m_observer4 =Role.AddPropChange(enProp.mpMax, OnMp);
 
-        //找到主角的上阵宠物，监听出生
-        PetFormation petFormation = Role.PetFormationsPart.GetCurPetFormation();
-
-        m_pet1.gameObject.SetActive(false);
-        m_pet2.gameObject.SetActive(false);
-        RoomCfg cfg = LevelMgr.instance.CurLevel.roomCfg;
-        if (cfg.petNum >= 1)
-        {
-            m_pet1.gameObject.SetActive(true);
-            string guid1 = petFormation.GetPetGuid(enPetPos.pet1Main);
-            Role pet1 = string.IsNullOrEmpty(guid1) ? null : Role.PetsPart.GetPet(guid1);
-            m_pet1.Init(pet1);
-        }
         
-        if (cfg.petNum >= 2)
-        {
-            m_pet2.gameObject.SetActive(true);
-            string guid2 = petFormation.GetPetGuid(enPetPos.pet2Main);
-            Role pet2 = string.IsNullOrEmpty(guid2) ? null : Role.PetsPart.GetPet(guid2);
-            m_pet2.Init(pet2);
-        }
-
         FindMinNeedMP();
     }
 
     public bool IsInMoniter(Role role)
     {
-        return role == Role || m_pet1.Pet == role || m_pet2.Pet == role;
+        return role == Role;
     }
     #endregion
 

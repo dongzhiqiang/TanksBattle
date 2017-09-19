@@ -21,12 +21,6 @@ public class UIArena : UIPanel
     //public StateHandle m_rewardState;
     public StateHandle m_switchDayWeekReward;
     public StateGroup m_rewardGroup;
-    public StateHandle m_pet1Btn;
-    public ImageEx m_pet1None;
-    public ImageEx m_pet1Icon;
-    public StateHandle m_pet2Btn;
-    public ImageEx m_pet2None;
-    public ImageEx m_pet2Icon;
     public StateHandle m_exchangeShop;
     public GameObject fx1;
     public GameObject fx2;
@@ -43,8 +37,6 @@ public class UIArena : UIPanel
     {
         m_rule.AddClick(OnRuleIntro);
         m_leftCntPlus.AddClick(BuyChance);
-        m_pet1Btn.AddClick(() => { UIMgr.instance.Open<UIChoosePet>(); });
-        m_pet2Btn.AddClick(() => { UIMgr.instance.Open<UIChoosePet>(); });
         //m_switchDayWeekReward.AddClick(() => { m_rewardState.SetState((m_rewardState.CurStateIdx + 1) % m_rewardState.m_states.Count); RefreshUI(); });
         m_exchangeShop.AddClick(() => { UIMgr.instance.Open<UIShop>(enShopType.arenaShop); });
         TimeMgr.instance.AddTimer(60, CheckTip, -1, -1);
@@ -203,49 +195,6 @@ public class UIArena : UIPanel
             item.init(itemCfg.iconSmall, items[i].itemNum);
         }
 
-        // }
-
-        string pet1RoleId = null;
-
-        PetFormation myPetFormation = hero.PetFormationsPart.GetCurPetFormation();
-        Role pet1 = hero.PetsPart.GetPet(myPetFormation.GetPetGuid(enPetPos.pet1Main));
-
-
-        if (pet1==null)
-        {
-            m_pet1None.gameObject.SetActive(true);
-            m_pet1Icon.gameObject.SetActive(false);
-            m_pet1Icon.Set(null);
-        }
-        else
-        {
-            m_pet1None.gameObject.SetActive(false);
-            m_pet1Icon.gameObject.SetActive(true);
-            m_pet1Icon.Set(pet1.Cfg.icon);
-            pet1RoleId = pet1.GetString(enProp.roleId);
-        }
-
-        string pet2RoleId = null;
-        Role pet2 = hero.PetsPart.GetPet(myPetFormation.GetPetGuid(enPetPos.pet2Main));
-        if (pet2==null)
-        {
-            m_pet2None.gameObject.SetActive(true);
-            m_pet2Icon.gameObject.SetActive(false);
-            m_pet2Icon.Set(null);
-        }
-        else
-        {
-            m_pet2None.gameObject.SetActive(false);
-            m_pet2Icon.gameObject.SetActive(true);
-            m_pet2Icon.Set(pet2.Cfg.icon);
-            pet2RoleId = pet2.GetString(enProp.roleId);
-        }
-
-        var uiItem = m_grid.Get<UIArenaItem>(m_myselfIndex);
-        if (uiItem != null)
-        {
-            uiItem.UpdatePetIcon(pet1RoleId, pet2RoleId);
-        }
     }
 
 
@@ -300,19 +249,7 @@ public class UIArena : UIPanel
         int myHeroId = myHero.GetInt(enProp.heroId);
         string myHeroName = myHero.GetString(enProp.name);
         string myHeroRoleId = myHero.GetString(enProp.roleId);
-        PetFormation petFormation = myHero.PetFormationsPart.GetPetFormation(enPetFormation.normal); // TODO 当可以配置arena阵型时请用enPetFormation.arena
-        string myPet1Guid = petFormation.GetPetGuid(enPetPos.pet1Main);
-        string myPet2Guid = petFormation.GetPetGuid(enPetPos.pet2Main);
-
-        string myPet1RoleId = "";
-        Role myPet1 = myHero.PetsPart.GetPet(myPet1Guid);
-        if (myPet1 != null)
-            myPet1RoleId = myPet1.GetString(enProp.roleId);
-        string myPet2RoleId = "";
-        Role myPet2 = myHero.PetsPart.GetPet(myPet2Guid);
-        if (myPet2 != null)
-            myPet2RoleId = myPet2.GetString(enProp.roleId);
-
+       
         int myArenaScore = myHero.ActivityPart.GetInt(enActProp.arenaScore);
 
         m_grid.SetCount(vo.challengers.Count + 1);
@@ -328,16 +265,16 @@ public class UIArena : UIPanel
             var uiItem = m_grid.Get<UIArenaItem>(j++);
             if (myRank < rank && m_myselfIndex < 0)
             {
-                uiItem.Init(myRank, myHeroName, myHeroId, myHeroRoleId, myPet1Guid, myPet1RoleId, myPet2Guid, myPet2RoleId, myArenaScore, true);
+                uiItem.Init(myRank, myHeroName, myHeroId, myHeroRoleId, myArenaScore, true);
                 m_myselfIndex = j - 1; //前面自加了，这里减一
                 uiItem = m_grid.Get<UIArenaItem>(j++);
             }
-            uiItem.Init(rank, info.name, info.key, info.roleId, info.pet1Guid, info.pet1RoleId, info.pet2Guid, info.pet2RoleId, info.score, false);
+            uiItem.Init(rank, info.name, info.key, info.roleId, info.score, false);
         }
         if (m_myselfIndex < 0)
         {
             var uiItem = m_grid.Get<UIArenaItem>(m_grid.Count - 1);
-            uiItem.Init(myRank, myHeroName, myHeroId, myHeroRoleId, myPet1Guid, myPet1RoleId, myPet2Guid, myPet2RoleId, myArenaScore, true);
+            uiItem.Init(myRank, myHeroName, myHeroId, myHeroRoleId, myArenaScore, true);
             m_myselfIndex = m_grid.Count - 1;
         }
 

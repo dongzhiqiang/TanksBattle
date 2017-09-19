@@ -138,7 +138,6 @@ public class RoleMgr : SingletonMonoBehaviour<RoleMgr>, IRoleMgr
         if (vo.props.TryGetValue("heroId", out heroIdProp) && heroIdProp.Int != 0)//是玩家
         {
             role.SetPart(new ItemsPart());
-            role.SetPart(new PetsPart());//存着宠物
             role.SetPart(new LevelsPart());
             role.SetPart(new ActivityPart());
             role.SetPart(new WeaponPart());
@@ -151,10 +150,8 @@ public class RoleMgr : SingletonMonoBehaviour<RoleMgr>, IRoleMgr
             role.SetPart(new CorpsPart());
             role.SetPart(new ShopsPart());
             role.SetPart(new EliteLevelsPart());
-            role.SetPart(new PetFormationsPart());
             role.SetPart(new TreasurePart());
             role.ItemsPart.Init(role);
-            role.PetsPart.Init(role);
             role.LevelsPart.Init(role);
             role.ActivityPart.Init(role);
             role.WeaponPart.Init(role);
@@ -169,16 +166,6 @@ public class RoleMgr : SingletonMonoBehaviour<RoleMgr>, IRoleMgr
             role.EliteLevelsPart.Init(role);
             role.PetFormationsPart.Init(role);
             role.TreasurePart.Init(role);
-        }
-        else//是宠物
-        {
-            role.SetPart(new PetsPart());//不存宠物，用做升级升星
-            role.SetPart(new PetSkillsPart());
-            role.SetPart(new TalentsPart());
-
-            role.PetsPart.Init(role);
-            role.PetSkillsPart.Init(role);
-            role.TalentsPart.Init(role);
         }
 
         //设置相关属性

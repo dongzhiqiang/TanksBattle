@@ -249,63 +249,6 @@ public class TaskPart : RolePart
                         }
                         break;
                     }
-                case enTaskType.petsEquipAdvlv:
-                    {
-                        List<int> paramList = growthTaskCfg.GetParamList();
-                        int tarGetLevel = 0;
-                        if (paramList.Count == 2)
-                        {
-                            target = paramList[0];
-                            tarGetLevel = paramList[1];
-                        }
-                        else
-                        {
-                            Debuger.LogError("成长任务配置错误：参数长度错误");
-                        }
-                        PetsPart petsPart = hero.PetsPart;
-                        foreach (Role role in RoleMgr.instance.Hero.PetsPart.Pets.Values)
-                        {
-                            EquipsPart equipsPart = role.EquipsPart;
-                            for (int i = 0; i < (int)enEquipPos.minWeapon - (int)enEquipPos.minNormal + 1; ++i)
-                            {
-                                Equip equip = equipsPart.GetEquip((enEquipPos)i);
-                                if (equip.AdvLv >= tarGetLevel)
-                                {
-                                    current++;
-                                }
-                            }
-                        }
-                        break;
-                    }
-                case enTaskType.petsEquipStar:
-                    {
-                        List<int> paramList = growthTaskCfg.GetParamList();
-                        int tarGetLevel = 0;
-                        if (paramList.Count == 2)
-                        {
-                            target = paramList[0];
-                            tarGetLevel = paramList[1];
-                        }
-                        else
-                        {
-                            Debuger.LogError("成长任务配置错误：参数长度错误");
-                        }
-                        PetsPart petsPart = hero.PetsPart;
-                        foreach (Role role in RoleMgr.instance.Hero.PetsPart.Pets.Values)
-                        {
-                            EquipsPart equipsPart = role.EquipsPart;
-                            for (int i = 0; i < (int)enEquipPos.minWeapon - (int)enEquipPos.minNormal + 1; ++i)
-                            {
-                                Equip equip = equipsPart.GetEquip((enEquipPos)i);
-                                int star = EquipCfg.m_cfgs[equip.EquipId].star;
-                                if (star >= tarGetLevel)
-                                {
-                                    current++;
-                                }
-                            }
-                        }
-                        break;
-                    }
                 case enTaskType.equipAdvLv:
                     {
                         List<int> paramList = growthTaskCfg.GetParamList();
@@ -352,56 +295,6 @@ public class TaskPart : RolePart
                             {
                                 current++;
                             }
-                        }
-                        break;
-                    }
-                case enTaskType.petsNum:
-                    {
-                        PetsPart petsPart = hero.PetsPart;
-                        current = petsPart.Pets.Count;
-                        target = int.Parse(growthTaskCfg.param);
-                        break;
-                    }
-                case enTaskType.petAdvLv:
-                    {
-                        List<int> paramList = growthTaskCfg.GetParamList();
-                        int tarGetLevel = 0;
-                        if (paramList.Count == 2)
-                        {
-                            target = paramList[0];
-                            tarGetLevel = paramList[1];
-                        }
-                        else
-                        {
-                            Debuger.LogError("成长任务配置错误：参数长度错误");
-                        }
-
-                        PetsPart petsPart = hero.PetsPart;
-                        foreach (Role role in RoleMgr.instance.Hero.PetsPart.Pets.Values)
-                        {
-                            if (role.GetInt(enProp.advLv) >= tarGetLevel)
-                                current++;
-                        }
-                        break;
-                    }
-                case enTaskType.petStar:
-                    {
-                        List<int> paramList = growthTaskCfg.GetParamList();
-                        int tarGetLevel = 0;
-                        if (paramList.Count == 2)
-                        {
-                            target = paramList[0];
-                            tarGetLevel = paramList[1];
-                        }
-                        else
-                        {
-                            Debuger.LogError("成长任务配置错误：参数长度错误");
-                        }
-                        PetsPart petsPart = hero.PetsPart;
-                        foreach (Role role in RoleMgr.instance.Hero.PetsPart.Pets.Values)
-                        {
-                            if (role.GetInt(enProp.star) >= tarGetLevel)
-                                current++;
                         }
                         break;
                     }
@@ -469,12 +362,6 @@ public class TaskPart : RolePart
         m_parent.AddPropChange(enProp.upEquipTime, CheckTip);
         m_parent.AddPropChange(enProp.upPetTime, CheckTip);
         m_parent.AddPropChange(enProp.towerEnterTime, CheckTip);
-        Role hero = RoleMgr.instance.Hero;
-        PetsPart petsPart = hero.PetsPart;
-        foreach (Role pet in petsPart.Pets.Values)
-        {
-            pet.PetsPart.AddCheckPetTip(CheckTip);
-        }
 
     }
     public void CheckTip()
