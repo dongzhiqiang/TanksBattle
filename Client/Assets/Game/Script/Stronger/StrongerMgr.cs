@@ -21,15 +21,6 @@ public class StrongerMgr : Singleton<StrongerMgr>
                 return SystemMgr.instance.IsEnabled(enSystem.treasure, out errMsg);
             case enStrongerType.flame:
                 return SystemMgr.instance.IsEnabled(enSystem.flame, out errMsg);
-            case enStrongerType.petEquipAdvLv:
-            case enStrongerType.petEquipStar:            
-            case enStrongerType.petStar:
-            case enStrongerType.petSkill:
-                return SystemMgr.instance.IsEnabled(enSystem.pet, out errMsg);
-            case enStrongerType.petAdvLv:
-                return SystemMgr.instance.IsEnabled(enSystem.petAdvance, out errMsg);
-            case enStrongerType.petTalent:
-                return SystemMgr.instance.IsEnabled(enSystem.petTalent, out errMsg);            
             case enStrongerType.dailyTask:
             case enStrongerType.growthTask:
                 return SystemMgr.instance.IsEnabled(enSystem.dailyTask, out errMsg);
@@ -59,9 +50,7 @@ public class StrongerMgr : Singleton<StrongerMgr>
         Role hero = RoleMgr.instance.Hero;
         int currentLv = hero.GetInt(enProp.level);
         StrongerHeroCfg heroCfg = StrongerHeroCfg.m_cfgs[currentLv];
-        StrongerPetCfg petCfg = StrongerPetCfg.m_cfgs[currentLv];
         StrongerHeroCfg heroCfgBase = StrongerHeroCfg.m_cfgs[1];
-        StrongerPetCfg petCfgBase = StrongerPetCfg.m_cfgs[1];
         switch (type)
         {
             case enStrongerType.equipAdvLv:
@@ -180,116 +169,6 @@ public class StrongerMgr : Singleton<StrongerMgr>
                     }
                     break;
                 }
-            case enStrongerType.petEquipAdvLv:
-                {
-                    List<Role> pets = GetPets();
-                    for (int i = 0; i < petCfg.num; ++i)
-                    {
-                        if (i<= pets.Count-1)
-                        {
-                            EquipsPart equipsPart = pets[i].EquipsPart;
-                            for (int j = 0; j < (int)enEquipPos.minWeapon - (int)enEquipPos.minNormal + 1; ++j)
-                            {
-                                Equip equip = equipsPart.GetEquip((enEquipPos)j);
-                                current += equip.AdvLv;                                
-                            }
-                        }
-                        target += petCfg.equipAdvLv*((int)enEquipPos.minWeapon - (int)enEquipPos.minNormal + 1);                        
-                    }
-                    baseNum = petCfgBase.num*petCfgBase.equipAdvLv * ((int)enEquipPos.minWeapon - (int)enEquipPos.minNormal + 1);
-                    break;
-                }
-            case enStrongerType.petEquipStar:
-                {
-                    List<Role> pets = GetPets();
-                    for (int i = 0; i < petCfg.num; ++i)
-                    {
-                        if (i <= pets.Count - 1)
-                        {
-                            EquipsPart equipsPart = pets[i].EquipsPart;
-                            for (int j = 0; j < (int)enEquipPos.minWeapon - (int)enEquipPos.minNormal + 1; ++j)
-                            {
-                                Equip equip = equipsPart.GetEquip((enEquipPos)j);
-                                int star = EquipCfg.m_cfgs[equip.EquipId].star;
-                                current += star;                                
-                            }
-                        }
-                        target += petCfg.equipStar*((int)enEquipPos.minWeapon - (int)enEquipPos.minNormal + 1);                        
-                    }
-                    baseNum = petCfgBase.num*petCfgBase.equipStar * ((int)enEquipPos.minWeapon - (int)enEquipPos.minNormal + 1);
-                    break;
-                }
-            case enStrongerType.petAdvLv:
-                {
-                    List<Role> pets = GetPets();               
-                    for (int i = 0; i < petCfg.num; ++i)
-                    {
-                        if (i <= pets.Count - 1)
-                        {
-                            current += pets[i].GetInt(enProp.advLv);
-                        }
-                        target += petCfg.petAdvLv;                       
-                    }
-                    baseNum = petCfgBase.num * petCfgBase.petAdvLv;
-                    break;
-                }
-            case enStrongerType.petStar:
-                {
-                    List<Role> pets = GetPets();
-                    for (int i = 0; i < petCfg.num; ++i)
-                    {
-                        if (i <= pets.Count - 1)
-                        {
-                            current += pets[i].GetInt(enProp.star);                            
-                        }
-                        target += petCfg.petStar;                        
-                    }
-                    baseNum = petCfgBase.num*petCfgBase.petStar;
-                    break;
-                }
-            case enStrongerType.petSkill:
-                {
-                    List<Role> pets = GetPets();
-                    List<int> petSkills = petCfg.GetPetSkill();
-                    List<int> petSkillsBase = petCfgBase.GetPetSkill();              
-                    for (int i = 0; i < petCfg.num; ++i)
-                    {
-                        if (i <= pets.Count - 1)
-                        {
-                            PetSkillsPart petSkillsPart = pets[i].PetSkillsPart;
-                            foreach(PetSkill petSkill in petSkillsPart.PetSkills.Values)
-                            {
-                                current += petSkill.level;
-                            }                            
-                        }
-                        target += (petSkills[0] * petSkills[1]);                       
-                    }
-                    baseNum = petCfgBase.num * (petSkillsBase[0] * petSkillsBase[1]);
-                    break;
-                }
-            case enStrongerType.petTalent:
-                {
-                    List<Role> pets = GetPets();
-                    List<int> petTalents = petCfg.GetTalent();
-                    List<int> petTalentsBase = petCfgBase.GetTalent();
-                    for (int i = 0; i < petCfg.num; ++i)
-                    {
-                        if (i <= pets.Count - 1)
-                        {
-                            TalentsPart petTelentsPart= pets[i].TalentsPart;
-                            int advLv = pets[i].GetInt(enProp.advLv);
-                            foreach (Talent talent in petTelentsPart.Talents.Values)
-                            {
-                                TalentPosCfg talentPosCfg = TalentPosCfg.m_cfgs[talent.pos];
-                                if (advLv >= talentPosCfg.needAdvLv)
-                                    current += talent.level;
-                            }
-                        }
-                        target += (petTalents[0] * petTalents[1]);                        
-                    }
-                    baseNum =petCfgBase.num *  (petTalentsBase[0] * petTalentsBase[1]);
-                    break;
-                }          
         }
         progress = target - baseNum == 0 ? 100 : Mathf.RoundToInt((current - baseNum) / (target - baseNum) * 100);
         if (progress > 100)
@@ -319,14 +198,6 @@ public class StrongerMgr : Singleton<StrongerMgr>
             case enStrongerType.flame:
                 UIMgr.instance.Open<UIFlame>();
                 break;
-            case enStrongerType.petEquipAdvLv:
-            case enStrongerType.petEquipStar:
-            case enStrongerType.petAdvLv:
-            case enStrongerType.petStar:
-            case enStrongerType.petSkill:
-            case enStrongerType.petTalent:
-                UIMgr.instance.Open<UIChoosePet>();
-                break;
             case enStrongerType.dailyTask:
                 UIMgr.instance.Open<UITask>();
                 break;
@@ -352,26 +223,7 @@ public class StrongerMgr : Singleton<StrongerMgr>
                 break;
         }
     }
-
-    List<Role> GetPets()
-    {
-        List<Role> pets = RoleMgr.instance.Hero.PetsPart.GetFightPets();
-
-        Role temp = new Role();
-        for (int i = pets.Count; i > 0; i--)
-        {
-            for (int j = 0; j < i - 1; j++)
-            {
-                if (pets[j].GetInt(enProp.power) < pets[j + 1].GetInt(enProp.power))
-                {
-                    temp = pets[j];
-                    pets[j] = pets[j + 1];
-                    pets[j + 1] = temp;
-                }
-            }           
-        }
-        return pets;
-    }
+    
 }
 
 public enum enStrongerType
@@ -382,12 +234,6 @@ public enum enStrongerType
     weaponTtalentLv,//铭文等级
     treasure,//神器个数、等级
     flame,//圣火相关
-    petEquipAdvLv,//神侍装备等阶
-    petEquipStar,//神侍装备觉醒星级
-    petAdvLv,//神侍突破等阶
-    petStar,//神侍星级
-    petSkill,//神侍技能
-    petTalent,//神侍天赋
     dailyTask,//每日任务
     warriorTried,//勇士试炼
     normalLevel,//主线副本

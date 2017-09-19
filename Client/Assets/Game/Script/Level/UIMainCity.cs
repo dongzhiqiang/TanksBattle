@@ -90,10 +90,6 @@ public class UIMainCity : UIPanel
         {
             UIMgr.instance.Open<UIEquip>();
         });
-        AddClick(enSystem.pet, () =>
-        {
-            UIMgr.instance.Open<UIChoosePet>();
-        });
         AddClick(enSystem.mail, () =>
         {
             UIMgr.instance.Open<UIMail>();
@@ -174,7 +170,6 @@ public class UIMainCity : UIPanel
 
 
         m_role.EquipsPart.InitCheckEquipTip();
-        m_role.PetsPart.InitCheckPetTip();
         m_role.ActivityPart.InitCheckActivityTip();
         m_role.OpActivityPart.InitCheckOpActivityTip();
         m_role.TaskPart.InitCheckTaskTip();
@@ -264,9 +259,7 @@ public class UIMainCity : UIPanel
         string errMsg;
         m_toggleTip.SetActive(m_toggle.m_curState == 0 && (
             (SystemMgr.instance.IsTip(enSystem.hero) && SystemMgr.instance.IsEnabled(enSystem.hero, out errMsg))
-            || 
-            (SystemMgr.instance.IsTip(enSystem.pet) && SystemMgr.instance.IsEnabled(enSystem.pet, out errMsg))
-            || 
+            ||
             (SystemMgr.instance.IsTip(enSystem.weapon) && SystemMgr.instance.IsEnabled(enSystem.weapon, out errMsg))
             || 
             (SystemMgr.instance.IsTip(enSystem.flame) && SystemMgr.instance.IsEnabled(enSystem.flame, out errMsg))
@@ -277,7 +270,7 @@ public class UIMainCity : UIPanel
 
     bool HideWhenOpen(enSystem sys)
     {
-        if (sys == enSystem.hero || sys == enSystem.pet || sys == enSystem.activity || sys == enSystem.mail ||
+        if (sys == enSystem.hero || sys == enSystem.activity || sys == enSystem.mail ||
             sys == enSystem.social || sys == enSystem.opActivity || sys == enSystem.dailyTask || sys == enSystem.weapon || sys == enSystem.treasure || sys == enSystem.flame)
         {
             return false;
@@ -303,25 +296,8 @@ public class UIMainCity : UIPanel
     {
         
         Role hero = RoleMgr.instance.Hero;
-        List<Role> myPets = hero.PetsPart.GetMainPets();      
         Role[] roles = new Role[3];
         roles[0] = hero;
-        PetFormation heroPetFormation = hero.PetFormationsPart.GetCurPetFormation();
-        for (int i = 0; i < myPets.Count; ++i)
-        {
-            if (myPets[i].GetString(enProp.guid) == heroPetFormation.GetPetGuid(enPetPos.pet1Main))
-            {
-                roles[1] = myPets[i];
-                continue;
-            }
-            if (myPets[i].GetString(enProp.guid) == heroPetFormation.GetPetGuid(enPetPos.pet2Main))
-            {
-                roles[2] = myPets[i];
-                continue;
-            }
-        }
-        /*roles[1] = hero.PetsPart.GetPet(hero.GetString(enProp.pet1Main));
-        roles[2] = hero.PetsPart.GetPet(hero.GetString(enProp.pet2Main));*/
         roleInfoGroup.SetCount(roleGo.Length);
         for (int i=0;i< roleInfoGroup.Count;++i)
         {

@@ -141,34 +141,6 @@ public class Main : MonoBehaviour
             //var weapons = new WeaponInfoVo();
             //roleVo.weapons = weapons;
 
-            //////创建宠物
-            //FullRoleInfoVo petVo = new FullRoleInfoVo();
-
-            //props = new Dictionary<string, Property>();
-            //props["guid"] = new Property(Util.GenerateGUID());
-            //props["roleId"] = new Property("cw_1");
-            //props["name"] = new Property("单机测试");
-            //props["level"] = new Property(1);
-            //props["advLv"] = new Property(1);
-            //props["star"] = new Property(1);
-            //petVo.props = props;
-
-            //equips = new List<EquipVo>();
-            //equips.Add(new EquipVo(21000, 1, 1));
-            //equips.Add(null);
-            //equips.Add(null);
-            //equips.Add(null);
-            //equips.Add(new EquipVo(22000, 1, 1));
-            //equips.Add(new EquipVo(23000, 1, 1));
-            //equips.Add(new EquipVo(24000, 1, 1));
-            //equips.Add(new EquipVo(25000, 1, 1));
-            //equips.Add(new EquipVo(26000, 1, 1));
-            //equips.Add(new EquipVo(27000, 1, 1));
-            //petVo.equips = equips;
-
-            //var pets = new List<FullRoleInfoVo>(new FullRoleInfoVo[] { petVo });
-            //roleVo.pets = pets;
-
             FullRoleInfoVo roleVo = Util.LoadJsonFile<FullRoleInfoVo>("SinglePlayerInfo");
             //创建英雄
             RoleMgr.instance.CreateHero(roleVo);

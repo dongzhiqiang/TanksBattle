@@ -69,8 +69,6 @@ public class EliteLevelHandler
         LevelEndResVo res = new LevelEndResVo();
         res.isWin = info.isWin;
         res.heroExp = info.heroExp;
-        res.pet1Exp = info.pet1Exp;
-        res.pet2Exp = info.pet2Exp;
         res.roomId = EliteLevelCfg.m_cfgs[info.levelId].roomId;
 
         EliteLevelScene level = LevelMgr.instance.CurLevel as EliteLevelScene;

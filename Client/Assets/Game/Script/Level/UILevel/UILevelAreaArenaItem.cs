@@ -5,7 +5,6 @@ using System.Collections.Generic;
 public class UILevelAreaArenaItem : MonoBehaviour {
 
     public GameObject heroFrame;
-    public GameObject petFrame;
     public GameObject cha;
     public ImageEx icon;
     public ImageEx progress;
@@ -26,12 +25,10 @@ public class UILevelAreaArenaItem : MonoBehaviour {
         if(role.GetInt(enProp.heroId)==0)
         {
             heroFrame.SetActive(false);
-            petFrame.SetActive(true);
         }
         else
         {
             heroFrame.SetActive(true);
-            petFrame.SetActive(false);
         }
         icon.Set(role.Cfg.icon);
         icon.SetGrey(false);

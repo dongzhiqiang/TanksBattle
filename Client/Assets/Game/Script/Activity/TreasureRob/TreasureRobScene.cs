@@ -101,12 +101,7 @@ public class TreasureRobScene : LevelBase
 
         beginParams.rolePowerLeft = hero.GetInt(enProp.powerTotal);
         beginParams.rolePowerRight = roleVo.props.ContainsKey("power") ? roleVo.props["power"].Int : 0;
-
-        beginParams.pet1RoleIdLeft = hero.GetString(enProp.pet1MRId);
-        beginParams.pet1RoleIdRight = roleVo.props.ContainsKey("pet1MRId") ? roleVo.props["pet1MRId"].String : "";
-
-        beginParams.pet2RoleIdLeft = hero.GetString(enProp.pet2MRId);
-        beginParams.pet2RoleIdRight = roleVo.props.ContainsKey("pet2MRId") ? roleVo.props["pet2MRId"].String : "";
+        
         m_uiBegin = UIMgr.instance.Open<UICombatBegin>(beginParams);
 
         Room.instance.StartCoroutine(CoStartScene());

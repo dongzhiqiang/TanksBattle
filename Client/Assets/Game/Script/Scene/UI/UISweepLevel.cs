@@ -136,7 +136,6 @@ public class UISweepLevel : UIPanel, IPointerClickHandler
     {
         var hero = RoleMgr.instance.Hero;
         var itemPart = hero.ItemsPart;
-        var petsPart = hero.PetsPart;
 
         var roomCfg = RoomCfg.GetRoomCfgByID(m_roomId);
         var propRewards = new Dictionary<enProp, int>();
@@ -153,20 +152,11 @@ public class UISweepLevel : UIPanel, IPointerClickHandler
             else
                 itemRewards.Add(itemId, itemNum);
         }
-        
-        var pets = petsPart.GetMainPets();
-        var petExps = new Dictionary<string, int>();
-        foreach (var item in pets)
-        {
-            if (petExps.Count >= roomCfg.petNum)
-                break;
-            petExps.Add(item.GetString(enProp.roleId), roomCfg.petExp);
-        }
-
+   
         m_resultGrp.SetCount(1);
         m_resultScroll.verticalNormalizedPosition = 1.0f;
         var uiItem = m_resultGrp.Get<UISweepLevelRewardItem>(0);
-        uiItem.Init(true, null, propRewards, itemRewards, petExps);
+        uiItem.Init(true, null, propRewards, itemRewards);
     }
 
     private IEnumerator CoShowSweepResult(SweepLevelRes res)
@@ -181,7 +171,6 @@ public class UISweepLevel : UIPanel, IPointerClickHandler
 
         var hero = RoleMgr.instance.Hero;
         var itemPart = hero.ItemsPart;
-        var petsPart = hero.PetsPart;
 
         for (var i = 0; i < res.rewards.Count; ++i)
         {
@@ -205,16 +194,7 @@ public class UISweepLevel : UIPanel, IPointerClickHandler
                     itemRewards.Add(itemId, item.Value);
             }
 
-            foreach (var item in dataItem.petExps)
-            {
-                var pet = petsPart.GetPet(item.Key);
-                if (pet == null)
-                    continue;
-
-                petExps.Add(pet.GetString(enProp.roleId), item.Value);
-            }
-
-            uiItem.Init(false, string.Format("第{0}战", i + 1), propRewards, itemRewards, petExps);
+            uiItem.Init(false, string.Format("第{0}战", i + 1), propRewards, itemRewards);
 
             if (IsOpenEx && m_playingAnim)
             {

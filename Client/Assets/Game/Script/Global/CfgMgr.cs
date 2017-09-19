@@ -98,22 +98,8 @@ public class CfgMgr : Singleton<CfgMgr>
         ops.Add(EquipAdvanceRateCfg.Init);
         ops.Add(EquipRouseRateCfg.Init);
         ops.Add(EquipPosCfg.Init);
-        ops.Add(PetAdvLvPropRateCfg.Init);
-        ops.Add(PetStarPropRateCfg.Init);
-        ops.Add(PetUpgradeCostCfg.Init);
-        ops.Add(PetAdvanceCostCfg.Init);
-        ops.Add(PetUpstarCostCfg.Init);
-        ops.Add(PetBattleAssistRateCfg.Init);
-        ops.Add(PetTalentLvCfg.Init);
-        ops.Add(PetPosCfg.Init);
-        ops.Add(TalentPosCfg.Init);
-        ops.Add(PetBondCfg.Init);
         ops.Add(SystemCfg.Init);
         ops.Add(QualityCfg.Init);
-        ops.Add(TalentCfg.Init);
-        ops.Add(PetTypeCfg.Init);
-        ops.Add(SkillTypeCfg.Init);
-        ops.Add(TalentTypeCfg.Init);
         ops.Add(RewardCfg.Init);
         ops.Add(RoomNodeCfg.Init);
         ops.Add(RoomCfg.Init);
@@ -193,12 +179,10 @@ public class CfgMgr : Singleton<CfgMgr>
         ops.Add(StrongerHeroCfg.Init);
         ops.Add(StrongerProgressCfg.Init);
         ops.Add(TreasureCfg.Init);
-        ops.Add(StrongerPetCfg.Init);
         ops.Add(TreasureLevelCfg.Init);
         ops.Add(RankBasicConfig.Init);
         ops.Add(ProphetTowerCfg.Init);
         ops.Add(ProphetTowerStageCfg.Init);
-        ops.Add(PetAniGroupCfg.Init);
 
         return new AsyncOpInitCfg(ops);
     }

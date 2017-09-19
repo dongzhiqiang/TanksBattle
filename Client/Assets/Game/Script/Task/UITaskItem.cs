@@ -277,17 +277,6 @@ public class UITaskItem : MonoBehaviour {
                     UIMgr.instance.Open<UIVipMain>();
                     break;
                 }
-            case (enTaskProp.upPetGet):
-                {
-                    string errMsg = "";
-                    if (!SystemMgr.instance.IsEnabled(enSystem.pet, out errMsg))
-                    {
-                        UIMessage.Show(errMsg);
-                        return;
-                    }
-                    UIMgr.instance.Open<UIChoosePet>();
-                    break;
-                }
             case (enTaskProp.upEquipGet):
                 {
                     string errMsg = "";

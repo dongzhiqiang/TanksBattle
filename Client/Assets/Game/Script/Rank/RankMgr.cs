@@ -7,13 +7,11 @@ using System.Text;
 public class RankMgr : Singleton<RankMgr>
 {
     public const string RANK_TYPE_GOLD_LEVEL = "goldLevel";
-    public const string RANK_TYPE_ALL_PET_POWER = "allPetPower";
     public const string RANK_TYPE_ARENA = "arena";
     public const string RANK_TYPE_CORPS = "corps";
     public const string RANK_TYPE_FULL_POWER = "fullPower";
     public const string RANK_TYPE_REAL_POWER = "realPower";
     public const string RANK_TYPE_LEVEL_STAR = "levelStar";
-    public const string RANK_TYPE_PET_POWER = "petPower";
     public const string RANK_TYPE_PREDICTOR = "predictor"; 
 
     //List<object>的object其实是RankItemWrapper，为了避免在使用UIScrollWrap时List<RankItemWrapper>转List<object>，就直接用object为元素类型
@@ -137,12 +135,6 @@ public class RankMgr : Singleton<RankMgr>
                     UIMgr.instance.Get<UIGoldLevelRank>().OnUpdateData();
                 }
                 break;
-            case RANK_TYPE_ALL_PET_POWER:
-                {
-                    ProcessRankData<AllPetPowerRankItem>(data);
-                    UIMgr.instance.Get<UIRank>().OnUpdateData(data.type);
-                }
-                break;
             case RANK_TYPE_ARENA:
                 {
                     ProcessRankData<ArenaRankItem>(data);
@@ -170,12 +162,6 @@ public class RankMgr : Singleton<RankMgr>
             case RANK_TYPE_LEVEL_STAR:
                 {
                     ProcessRankData<LevelStarRankItem>(data);
-                    UIMgr.instance.Get<UIRank>().OnUpdateData(data.type);
-                }
-                break;
-            case RANK_TYPE_PET_POWER:
-                {
-                    ProcessRankData<PetPowerRankItem>(data);
                     UIMgr.instance.Get<UIRank>().OnUpdateData(data.type);
                 }
                 break;
@@ -218,16 +204,6 @@ public class RankMgr : Singleton<RankMgr>
                     {
                         var realItem = (RealPowerRankItem)item.data;
                         if (realItem.key == intKey)
-                        {
-                            find = true;
-                            realItem.like = data.like;
-                        }
-                    }
-                    break;
-                case RANK_TYPE_PET_POWER:
-                    {
-                        var realItem = (PetPowerRankItem)item.data;
-                        if (realItem.key == strKey)
                         {
                             find = true;
                             realItem.like = data.like;

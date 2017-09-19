@@ -37,11 +37,7 @@ public class UIHeroInfo2 : UIPanel
     public TextEx m_weaponDmgType;
     public TextEx m_weaponHitType;
     public TextEx m_weaponRouseDesc;
-
-    public RectTransform m_petParent;
-    public TextEx m_petNum;
-    public StateGroup m_pets;
-    public StateHandle m_btnAllPets;
+    
 
     public RectTransform m_treasureParent;
     public TextEx m_treasureNum;
@@ -69,7 +65,6 @@ public class UIHeroInfo2 : UIPanel
     //初始化时调用
     public override void OnInitPanel()
     {
-        m_btnAllPets.AddClick(OnBtnAllPets);
         m_btnAllTreasures.AddClick(OnBtnAllTreasures);
     }
 
@@ -133,7 +128,6 @@ public class UIHeroInfo2 : UIPanel
         RefreshProps1();
         RefreshProps2();
         RefreshProps3();
-        RefreshPets();
         RefreshTreasures();
         RefreshArena();
         RefreshFlame();
@@ -226,46 +220,7 @@ public class UIHeroInfo2 : UIPanel
         m_weaponHitType.text = string.Format("<color=#C7994C>打击属性</color> {0} {1}", hitPropCfg != null ? hitPropCfg.name : "", hitPropCfg != null ? hitPropCfg.desc : "");
         m_weaponRouseDesc.text = string.Format("<color=#C7994C>觉醒效果</color> {0}", equipCfg.rouseDescription);
     }
-
-    void RefreshPets()
-    {
-        var pets = m_targetRole.PetsPart.Pets;
-        var mainPets = m_targetRole.PetsPart.GetMainPets();
-
-        if (pets.Count <= 0)
-        {
-            m_petParent.gameObject.SetActive(false);
-            m_pets.SetCount(0);
-            return;
-        }
-
-        m_petParent.gameObject.SetActive(true);
-        m_petNum.text = "拥有：" + pets.Count;
-        m_pets.SetCount(4);
-        var idx = 0;
-        foreach (var dataItem in pets.OrderByDescending(e => e.Value.GetInt(enProp.power)))
-        {
-            if (idx >= m_pets.Count)
-                return;
-
-            var uiItem = m_pets.Get<UIPetIcon2>(idx++);
-            var role = dataItem.Value;
-            uiItem.Init(role.GetString(enProp.roleId), role.GetInt(enProp.level), role.GetInt(enProp.star), mainPets.IndexOf(role) >= 0 ? 1 : 0, null, true, OnViewPet, role.GetString(enProp.guid));
-        }
-        for (; idx < m_pets.Count; ++idx)
-        {
-            var uiItem = m_pets.Get<UIPetIcon2>(idx);
-            uiItem.Init("", 0, 0, 0);
-        }
-    }
-
-    void OnViewPet(string guid)
-    {
-        var pet = m_targetRole.PetsPart.GetPet(guid);
-        if (pet != null)
-            UIMgr.instance.Open<UIPetInfo>(pet);
-    }
-
+    
     void RefreshTreasures()
     {
         var treasures = m_targetRole.TreasurePart.Treasures;
@@ -309,14 +264,7 @@ public class UIHeroInfo2 : UIPanel
         m_arenaGrade.Set(gradeCfg.nameImg);
         m_arenaRank.text = "排名：" + (myRank < 0 ? "--" : (myRank + 1).ToString());
         m_arenaScore.text = "积分：" + myScore;
-
-        var formPart = m_targetRole.PetFormationsPart;
-        var petForm = formPart.GetPetFormation(enPetFormation.normal);
-        string pet1Guid = petForm.GetPetGuid(enPetPos.pet1Main);
-        string pet2Guid = petForm.GetPetGuid(enPetPos.pet2Main);
-        var pet1 = m_targetRole.PetsPart.GetPet(pet1Guid);
-        var pet2 = m_targetRole.PetsPart.GetPet(pet2Guid);
-
+        
         m_arenaHeads.SetCount(3);
         var arenaPos = actPart.GetString(enActProp.arenaPos);
         arenaPos = string.IsNullOrEmpty(arenaPos) ? "1,0,2" : arenaPos;
@@ -328,12 +276,6 @@ public class UIHeroInfo2 : UIPanel
             {
                 case 0:
                     m_arenaHeads.Get<UIHeroOrPetIcon>(i).Init(m_targetRole);
-                    break;
-                case 1:
-                    m_arenaHeads.Get<UIHeroOrPetIcon>(i).Init(pet1);
-                    break;
-                case 2:
-                    m_arenaHeads.Get<UIHeroOrPetIcon>(i).Init(pet2);
                     break;
             }
         }
@@ -396,11 +338,6 @@ public class UIHeroInfo2 : UIPanel
         }
         if (index != dict.Count)
             m_flameProps.SetCount(index);
-    }
-
-    void OnBtnAllPets()
-    {
-        UIMgr.instance.Open<UIOtherPetList>(m_targetRole);
     }
 
     void OnBtnAllTreasures()

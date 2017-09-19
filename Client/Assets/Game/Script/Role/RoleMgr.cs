@@ -164,7 +164,6 @@ public class RoleMgr : SingletonMonoBehaviour<RoleMgr>, IRoleMgr
             role.CorpsPart.Init(role);
             role.ShopsPart.Init(role);
             role.EliteLevelsPart.Init(role);
-            role.PetFormationsPart.Init(role);
             role.TreasurePart.Init(role);
         }
 
@@ -442,12 +441,6 @@ public class RoleMgr : SingletonMonoBehaviour<RoleMgr>, IRoleMgr
             if (Hero.State == Role.enState.alive)
             {
                 l.Remove(Hero);
-                List<Role> pets = Hero.PetsPart.GetMainPets();
-                foreach (Role p in pets)
-                {
-                    if (p != null && p.State == Role.enState.alive)
-                        l.Remove(p);
-                }
             }
         }
 

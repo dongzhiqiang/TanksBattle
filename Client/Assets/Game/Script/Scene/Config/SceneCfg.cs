@@ -100,16 +100,12 @@ public class SceneCfg
         KILL_MONSTER,   //杀怪个数
         WEAPON_LIMIT,   //限用武器
         SKILL_USE,      //使用技能
-        PET_USE,       //限用宠物
         STATE_TIMES,   //状态次数
         BREAK_ITEM,    //打碎物品
         HURT_NUM,      //被击次数
         CONTINUE_HIT,   //连击次数
         TRAP_NUM,       //陷阱次数
-        PET_ALIVE,      //宠物不死
         KILL_ALL,      //杀死所有怪
-        PET_USE2,       //限用宠物
-
     }
 
     public enum ActionType : int
@@ -270,20 +266,6 @@ public class SceneCfg
         public string mGroundDeadTypeId;
         public HateCfg hate = new HateCfg();
 
-        public Vector3 mPet1Position;
-        public Vector3 mPet1EulerAngles;
-        public string mPet1BornTypeId;
-        public string mPet1DeadTypeId;
-        public string mPet1GroundDeadTypeId;
-        public HateCfg pet1hate = new HateCfg();
-
-        public Vector3 mPet2Position;
-        public Vector3 mPet2EulerAngles;
-        public string mPet2BornTypeId;
-        public string mPet2DeadTypeId;
-        public string mPet2GroundDeadTypeId;
-        public HateCfg pet2hate = new HateCfg();
-
         public BornInfo()
         {
             mPosition = Vector3.zero;
@@ -291,18 +273,6 @@ public class SceneCfg
             mBornTypeId = "";
             mDeadTypeId = "";
             mGroundDeadTypeId = "";
-
-            mPet1Position = Vector3.zero;
-            mPet1EulerAngles = Vector3.one;
-            mPet1BornTypeId = "";
-            mPet1DeadTypeId = "";
-            mPet1GroundDeadTypeId = "";
-
-            mPet2Position = Vector3.zero;
-            mPet2EulerAngles = Vector3.one;
-            mPet2BornTypeId = "";
-            mPet2DeadTypeId = "";
-            mPet2GroundDeadTypeId = "";
         }
     }
     public class CheckSaveCfg

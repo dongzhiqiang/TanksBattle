@@ -58,15 +58,7 @@ public class ArenaScene : LevelBase
         m_enemyHero.RuntimeShieldBuff = cfg.heroShieldBuff; //提前设置气力状态，下面就可以预加载了
         m_enemyHero.PreLoad(); //预加载，宠物也会在这里预加载
         m_enemyHeroId = m_enemyHero.Id;
-        //设置竞技场血条标记
-       /* m_enemyHero.SetFlag(GlobalConst.FLAG_ARENA_BLOOD, 1);
-        List<Role> enemyPets = m_enemyHero.PetsPart.GetMainPets();
-        for(int i=0;i<enemyPets.Count;++i)
-        {
-            enemyPets[i].SetFlag(GlobalConst.FLAG_ARENA_BLOOD, 2);
-        }*/
-
-
+        
         //给自己的主角设置气力状态
         var myHero = RoleMgr.instance.Hero;        
         myHero.RuntimeShieldBuff = cfg.heroShieldBuff;
@@ -104,12 +96,7 @@ public class ArenaScene : LevelBase
 
         beginParams.rolePowerLeft = hero.GetInt(enProp.powerTotal);
         beginParams.rolePowerRight = roleVo.props.ContainsKey("power") ? roleVo.props["power"].Int : 0;
-
-        beginParams.pet1RoleIdLeft = hero.GetString(enProp.pet1MRId);
-        beginParams.pet1RoleIdRight = roleVo.props.ContainsKey("pet1MRId") ? roleVo.props["pet1MRId"].String : "";
-
-        beginParams.pet2RoleIdLeft = hero.GetString(enProp.pet2MRId);
-        beginParams.pet2RoleIdRight = roleVo.props.ContainsKey("pet2MRId") ? roleVo.props["pet2MRId"].String : "";
+        
         m_uiBegin = UIMgr.instance.Open<UICombatBegin>(beginParams);
 
         Room.instance.StartCoroutine(CoStartScene());

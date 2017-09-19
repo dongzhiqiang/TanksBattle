@@ -16,12 +16,6 @@ public class UIEliteLevel : UIPanel
     public StateHandle m_sweep;
     public StateHandle m_enterLevel;
     public StateHandle m_reset;
-    public StateHandle m_pet1State;
-    public StateHandle m_pet1Button;
-    public ImageEx m_pet1Icon;
-    public StateHandle m_pet2State;
-    public StateHandle m_pet2Button;
-    public ImageEx m_pet2Icon;
     public UIEliteLevelDescription m_uiDescription;
     public UIEliteLevelStar m_uiStar;
     public UIEliteLevelFirstReward m_uiFirstReward;
@@ -31,9 +25,7 @@ public class UIEliteLevel : UIPanel
     #endregion
     private int m_levelId;
     private int m_curLevelIdx;
-    private int m_pet1Ob;
-    private int m_pet2Ob;
-
+    
     //初始化时调用
     public override void OnInitPanel()
     {
@@ -42,8 +34,6 @@ public class UIEliteLevel : UIPanel
         m_reset.AddClick(OnReset);
         m_eliteLevels.AddChangeCallback(OnListChange);
         m_eliteLevels.SetBorder(2);
-        m_pet1Button.AddClick(OnPetButton);
-        m_pet2Button.AddClick(OnPetButton);
         m_showStar.AddClick(OnShowStar);
         m_showDescription.AddClick(OnShowDescription);
         m_firstReward.AddClick(OnFirstReward);
@@ -58,10 +48,6 @@ public class UIEliteLevel : UIPanel
         UpdateEliteList();
         m_eliteLevels.SetSelectedIndex(m_curLevelIdx);
         UpdateEliteLevel();
-
-        Role hero = RoleMgr.instance.Hero;
-        m_pet1Ob = hero.Add(MSG_ROLE.PET_FORMATION_CHANGE, OnPet1MainChanged);
-        m_pet2Ob = hero.Add(MSG_ROLE.PET_FORMATION_CHANGE, OnPet2MainChanged);
     }
 
 
@@ -152,10 +138,7 @@ public class UIEliteLevel : UIPanel
         }
         m_count.text = string.Format("{0}/{1}", EliteLevelBasicCfg.Get().dayMaxCnt-count, EliteLevelBasicCfg.Get().dayMaxCnt);
         m_stamina.text = string.Format("{0}/{1}", hero.GetStamina(), EliteLevelBasicCfg.Get().costStamina);
-
-        UpdatePetMain(0, enPetPos.pet1Main, m_pet1State, m_pet1Icon);
-        UpdatePetMain(1, enPetPos.pet2Main, m_pet2State, m_pet2Icon);
-
+        
         if (!EliteLevel.CanOpen(eliteLevelCfg))
         {
             m_enterLevel.gameObject.SetActive(false);
@@ -214,62 +197,6 @@ public class UIEliteLevel : UIPanel
         UpdateEliteLevel();
         m_eliteLevels.Reflesh();
     }
-
-    void UpdatePetMain(int index, enPetPos pos, StateHandle state, ImageEx icon)
-    {
-        EliteLevelCfg eliteLevelCfg = EliteLevelCfg.m_cfgs[m_levelId];
-
-        Role hero = RoleMgr.instance.Hero;
-
-        RoomCfg roomCfg = RoomCfg.GetRoomCfgByID(eliteLevelCfg.roomId);
-
-        if (roomCfg.petNum <= index)
-        {
-            state.SetState(2);
-            return;
-        }
-
-        PetFormation petFormation = hero.PetFormationsPart.GetPetFormation(enPetFormation.eliteLevel);//todo eliteLevel
-
-        string guid = petFormation.GetPetGuid(pos);
-        if (guid == "")
-        {
-            state.SetState(1);
-            return;
-        }
-
-
-
-        Role pet = hero.PetsPart.GetPet(guid);
-        if (pet == null)
-        {
-            state.SetState(1);
-            return;
-        }
-
-        state.SetState(0);
-
-        icon.Set(pet.Cfg.icon);
-
-
-    }
-
-    void OnPetButton()
-    {
-        UIMgr.instance.Open<UIPetFormation>(enPetFormation.eliteLevel);
-    }
-
-    void OnPet1MainChanged()
-    {
-        UpdatePetMain(0, enPetPos.pet1Main, m_pet1State, m_pet1Icon);
-
-    }
-
-    void OnPet2MainChanged()
-    {
-        UpdatePetMain(1, enPetPos.pet2Main, m_pet2State, m_pet2Icon);
-    }
-
     void OnShowStar()
     {
         m_uiStar.Open(m_levelId);
@@ -319,8 +246,5 @@ public class UIEliteLevel : UIPanel
 
     public override void OnClosePanel()
     {
-        if (m_pet1Ob != EventMgr.Invalid_Id) { EventMgr.Remove(m_pet1Ob); m_pet1Ob = EventMgr.Invalid_Id; }
-        if (m_pet2Ob != EventMgr.Invalid_Id) { EventMgr.Remove(m_pet2Ob); m_pet2Ob = EventMgr.Invalid_Id; }
-
     }
 }

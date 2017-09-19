@@ -175,10 +175,7 @@ public class SceneMgr : Singleton<SceneMgr>
 
             //加载下相机的径向模糊特效
             GameObjectPool.GetPool(GameObjectPool.enPool.Fx).PreLoad("fx_camera_blur_internal");
-
-            //因为这时候预加载神侍，在这里切换神侍阵型
-            if (cfg.petFormation != 0) PetFormationsPart.SetCurPetFormationId((enPetFormation)cfg.petFormation);
-            else PetFormationsPart.SetCurPetFormationId(enPetFormation.normal);
+            
             //加载怪物
             LoadRole();
             //加载特效

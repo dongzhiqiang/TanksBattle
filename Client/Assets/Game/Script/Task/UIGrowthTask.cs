@@ -81,14 +81,6 @@ public class UIGrowthTask : MonoBehaviour {
                 ReFreshGrowthTask(false);
             }
         });
-        hero.Add(MSG_ROLE.PET_NUM_CHANGE, () =>
-        {
-            if (UIMgr.instance.Get<UITask>().IsOpen)
-            {
-                ReFreshGrowthTask(false);
-            }
-        });
-      
     }
 
     public void Init()

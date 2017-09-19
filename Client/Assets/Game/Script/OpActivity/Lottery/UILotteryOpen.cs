@@ -256,7 +256,6 @@ public class UILotteryOpen : UIPanel
         UIMessage.Show("您获得" + string.Join("，", strList.ToArray()));
 
         var myHero = RoleMgr.instance.Hero;
-        var petsPart = myHero.PetsPart;
         var randIds = m_result.randIds;
         var pieceRandIds = m_result.pieceRandIds;
 
@@ -283,14 +282,6 @@ public class UILotteryOpen : UIPanel
                     UIMgr.instance.StartCoroutine(CoPlayAnimation3(uiItem, randCfg.turnType));
 
                     yield return new WaitForSeconds(GetAnimationWaitTime(uiItem, randCfg.turnType));
-
-                    if (randCfg.objectType == 2)
-                    {
-                        UIPetRecruitContext cxt = new UIPetRecruitContext(randCfg.objectId, -1, pieceRandIds.Contains(randCfg.randId));
-                        var panel = UIMgr.instance.Open<UIPetRecruit>(cxt);
-                        while (panel.IsOpen)
-                            yield return new WaitForSeconds(0.0f);
-                    }
                 }
             }
         }        

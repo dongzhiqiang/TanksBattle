@@ -8,7 +8,6 @@ public class UISweepLevelRewardItem : MonoBehaviour
     public TextEx m_title;
     public StateGroup m_propRewardGrp;
     public StateGroup m_itemRewardGrp;
-    public StateGroup m_petExpRewardGrp;
     public float m_itemHeightShort;
     public float m_itemHeightTall;
     public float m_animShowItemGap = 0.15f;
@@ -16,10 +15,10 @@ public class UISweepLevelRewardItem : MonoBehaviour
 
     private bool m_isPlayingAnim = false;
 
-    public void Init(bool previewMode, string title, Dictionary<enProp, int> propRewards, Dictionary<int, int> itemRewards, Dictionary<string, int> petExps)
+    public void Init(bool previewMode, string title, Dictionary<enProp, int> propRewards, Dictionary<int, int> itemRewards)
     {
         var curStateHandle = GetComponent<StateHandle>();
-        curStateHandle.SetState(previewMode ? (petExps != null && petExps.Count > 0 ? 0 : 1) : (petExps != null && petExps.Count > 0 ? 2 : 3));
+        curStateHandle.SetState(3);
         var curLayoutElement = GetComponent<LayoutElement>();
         curLayoutElement.minHeight = curStateHandle.CurStateIdx == 1 || curStateHandle.CurStateIdx == 3 ? m_itemHeightShort : m_itemHeightTall;
 
@@ -75,22 +74,6 @@ public class UISweepLevelRewardItem : MonoBehaviour
         {
             m_itemRewardGrp.SetCount(0);
         }
-
-        if (petExps != null && petExps.Count > 0)
-        {
-            m_petExpRewardGrp.SetCount(petExps.Count);
-            var index = 0;
-            foreach (var item in petExps)
-            {
-                var uiItem = m_petExpRewardGrp.Get<UIGetPetExpIcon>(index++);
-                uiItem.gameObject.SetActive(true);
-                uiItem.Init(item.Key, item.Value);
-            }
-        }
-        else
-        {
-            m_petExpRewardGrp.SetCount(0);
-        }
     }
 
     private IEnumerator CoPlayShowAnim()
@@ -111,13 +94,6 @@ public class UISweepLevelRewardItem : MonoBehaviour
             m_itemRewardGrp.Get(i).gameObject.SetActive(true);
         }
 
-        for (var i = 0; i < m_petExpRewardGrp.Count; ++i)
-        {
-            if (m_isPlayingAnim)
-                yield return new WaitForSeconds(m_animShowItemGap);
-            m_petExpRewardGrp.Get(i).gameObject.SetActive(true);
-        }
-
         if (m_isPlayingAnim)
             yield return new WaitForSeconds(m_animEndWaitTime);
 
@@ -130,8 +106,6 @@ public class UISweepLevelRewardItem : MonoBehaviour
             m_propRewardGrp.Get(i).gameObject.SetActive(false);
         for (var i = 0; i < m_itemRewardGrp.Count; ++i)
             m_itemRewardGrp.Get(i).gameObject.SetActive(false);
-        for (var i = 0; i < m_petExpRewardGrp.Count; ++i)
-            m_petExpRewardGrp.Get(i).gameObject.SetActive(false);
     }
 
     public void PlayShowAnim()

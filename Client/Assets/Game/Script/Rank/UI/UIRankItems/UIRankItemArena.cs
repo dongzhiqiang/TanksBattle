@@ -11,10 +11,6 @@ public class UIRankItemArena : UIScrollWrapItem
     public TextEx m_score;
     public RectTransform heroIconRect;
     public ImageEx heroIcon;
-    public RectTransform pet1IconRect;
-    public ImageEx pet1Icon;
-    public RectTransform pet2IconRect;
-    public ImageEx pet2Icon;
     public StateHandle m_bgHandle;
     public ImageEx m_redBg;
 
@@ -40,14 +36,6 @@ public class UIRankItemArena : UIScrollWrapItem
             heroIcon.Set(null);
         else
             heroIcon.Set(RoleCfg.GetHeadIcon(myRankData.roleId));
-        if (string.IsNullOrEmpty(myRankData.pet1RoleId))
-            pet1Icon.Set(null);
-        else
-            pet1Icon.Set(RoleCfg.GetHeadIcon(myRankData.pet1RoleId));
-        if (string.IsNullOrEmpty(myRankData.pet2RoleId))
-            pet2Icon.Set(null);
-        else
-            pet2Icon.Set(RoleCfg.GetHeadIcon(myRankData.pet2RoleId));
         m_heroId = myRankData.key;
         m_heroName = myRankData.name;
 

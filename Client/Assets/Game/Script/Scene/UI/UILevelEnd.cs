@@ -71,31 +71,6 @@ public class UILevelEnd : UIPanel
                 expItem1.Init(hero.Cfg.icon, info.heroExp);
             else
                 expItem1.gameObject.SetActive(false);
-
-            PetFormation petFormation = hero.PetFormationsPart.GetCurPetFormation();
-
-            string guid1 = petFormation.GetPetGuid(enPetPos.pet1Main);
-            string guid2 = petFormation.GetPetGuid(enPetPos.pet2Main);
-
-            Role pet1 = null;
-            UILevelExpItem expItem2 = mExpGroup.Get<UILevelExpItem>(1);
-            if (!string.IsNullOrEmpty(guid1))
-                pet1 = hero.PetsPart.GetPet(guid1);
-
-            if (pet1 != null && info.pet1Exp > 0)
-                expItem2.Init(pet1.Cfg.icon, info.pet1Exp);
-            else
-                expItem2.gameObject.SetActive(false);
-
-            Role pet2 = null;
-            UILevelExpItem expItem3 = mExpGroup.Get<UILevelExpItem>(2);
-            if (!string.IsNullOrEmpty(guid2))
-                pet2 = hero.PetsPart.GetPet(guid2);
-
-            if (pet2 != null && info.pet2Exp > 0)
-                expItem3.Init(pet2.Cfg.icon, info.pet2Exp);
-            else
-                expItem3.gameObject.SetActive(false);
         }
         else
         {

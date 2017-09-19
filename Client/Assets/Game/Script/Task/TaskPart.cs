@@ -349,7 +349,6 @@ public class TaskPart : RolePart
     public void InitCheckTaskTip()
     {      
         CheckTip();
-        m_parent.Add(MSG_ROLE.PET_NUM_CHANGE, CheckTip);
         m_parent.Add(MSG_ROLE.EQUIP_CHANGE, CheckTip);        
         m_parent.Add(MSG_ROLE.NET_ACT_PROP_SYNC, CheckTip);
         m_parent.Add(MSG_ROLE.NET_OPACT_PROP_SYNC, CheckTip);
@@ -360,7 +359,6 @@ public class TaskPart : RolePart
         m_parent.AddPropChange(enProp.powerTotal, CheckTip);
         m_parent.AddPropChange(enProp.vipLv, CheckTip);
         m_parent.AddPropChange(enProp.upEquipTime, CheckTip);
-        m_parent.AddPropChange(enProp.upPetTime, CheckTip);
         m_parent.AddPropChange(enProp.towerEnterTime, CheckTip);
 
     }

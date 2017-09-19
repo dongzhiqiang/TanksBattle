@@ -14,8 +14,6 @@ public class UIRank : UIPanel
     private static string[] m_rankTypes = new string[]
     {
         RankMgr.RANK_TYPE_FULL_POWER,
-        RankMgr.RANK_TYPE_ALL_PET_POWER,
-        RankMgr.RANK_TYPE_PET_POWER,
         RankMgr.RANK_TYPE_CORPS,
         RankMgr.RANK_TYPE_LEVEL_STAR,
         RankMgr.RANK_TYPE_ARENA,
@@ -30,14 +28,7 @@ public class UIRank : UIPanel
     public TextEx m_fullPowerMyRank;
     public TextEx m_fullPowerMyPower;
     public TextEx m_fullPowerMyLeftLike;
-
-    public TextEx m_allPetPowerMyRank;
-    public TextEx m_allPetPowerMyPower;
-
-    public TextEx m_petPowerMyRank;
-    public TextEx m_petPowerMyPower;
-    public TextEx m_petPowerMyLeftLike;
-
+    
     public TextEx m_arenaMyRank;
     public TextEx m_arenaMyGrade;
     public TextEx m_arenaMyScore;
@@ -149,29 +140,10 @@ public class UIRank : UIPanel
                     if (rankLikeLogObj != null && rankLikeLogObj.TryGetValue(RankMgr.RANK_TYPE_FULL_POWER, out rankKeys))
                         lastLikeChance = Math.Max(0, lastLikeChance - rankKeys.Count);
 
-                    var fullPower = hero.GetInt(enProp.power) + hero.GetInt(enProp.powerPets);
+                    var fullPower = hero.GetInt(enProp.power);
                     m_fullPowerMyRank.text = rankStr;
                     m_fullPowerMyPower.text = fullPower.ToString();
                     m_fullPowerMyLeftLike.text = lastLikeChance.ToString();
-                }                
-                break;
-            case RankMgr.RANK_TYPE_ALL_PET_POWER:
-                {
-                    m_allPetPowerMyRank.text = rankStr;
-                    m_allPetPowerMyPower.text = hero.GetInt(enProp.powerPets).ToString();
-                }                
-                break;
-            case RankMgr.RANK_TYPE_PET_POWER:
-                {
-                    var lastLikeChance = basicCfg.likeCntLimit;
-                    var rankKeys = (List<string>)null;
-                    if (rankLikeLogObj != null && rankLikeLogObj.TryGetValue(RankMgr.RANK_TYPE_PET_POWER, out rankKeys))
-                        lastLikeChance = Math.Max(0, lastLikeChance - rankKeys.Count);
-
-                    var maxPowerPet = hero.PetsPart.GetPet(hero.GetString(enProp.maxPowerPet));
-                    m_petPowerMyRank.text = rankStr;
-                    m_petPowerMyPower.text = maxPowerPet == null ? "--" : maxPowerPet.GetInt(enProp.power).ToString();
-                    m_petPowerMyLeftLike.text = lastLikeChance.ToString();
                 }                
                 break;
             case RankMgr.RANK_TYPE_ARENA:

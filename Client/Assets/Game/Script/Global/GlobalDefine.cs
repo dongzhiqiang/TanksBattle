@@ -33,7 +33,6 @@ public enum enSystem
     scene,//副本
     arena,//竞技场
     hero,//英雄
-    pet,//战宠
     weapon,//武器
     opActivity,//运营活动
     flame,//圣火
@@ -53,8 +52,6 @@ public enum enSystem
     weapon2, //武器-3
     weapon3, //武器-4
     lotteryAdv, //高级宝藏的枚举
-    petAdvance, //神侍进阶
-    petTalent, //神侍天赋
     setting,//系统设置
     eliteLevel,//众神传
     treasure,//神器
@@ -101,11 +98,8 @@ public enum enPart
     combat,
     ai,
     items,
-    petFormations, // petformation初始化需要放在pets前面
-    pets,
     equips,
     levels,
-    petSkills,
     talents,
     activity,
     weapon,    
@@ -120,26 +114,6 @@ public enum enPart
     eliteLevels,
     treasure,
     max,
-}
-
-//宠物出战位枚举
-public enum enPetPos
-{
-    pet1Main,
-    pet1Sub1,
-    pet1Sub2,
-    pet2Main,
-    pet2Sub1,
-    pet2Sub2,
-}
-
-//宠物阵型枚举
-public enum enPetFormation
-{
-    normal = 1,
-    arena,
-    eliteLevel,
-    treasureRob,
 }
 
 //角色部件由谁创建

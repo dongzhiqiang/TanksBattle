@@ -304,7 +304,7 @@ public class LevelMgr : Singleton<LevelMgr>
     }
  
     //关卡里面创建主角 会一起创建宠物设置相机
-    public IEnumerator CreateHero(RoleBornCxt cxt, RoleBornCxt cxtPet1 = null, RoleBornCxt cxtPet2 = null, string camera = null)
+    public IEnumerator CreateHero(RoleBornCxt cxt, string camera = null)
     {
         Role hero = RoleMgr.instance.Hero;
         if (hero == null)
@@ -389,28 +389,6 @@ public class LevelMgr : Singleton<LevelMgr>
         hero.RoleModel.Show(true);
         hero.RSM.GotoState(enRoleState.born, new RoleStateBornCxt(cxt.bornAniId,true));
         
-
-        //设置宠物
-        List<Role> pets = hero.PetsPart.GetMainPets();
-        for(int i = 0; i < pets.Count; i++)
-        {
-            Role pet = pets[i];
-            if (pet != null && pet.State == Role.enState.alive)
-            {
-                TranPart transPart = pet.TranPart;
-                if (i == 0)
-                    transPart.SetPos(hero.transform.TransformPoint(new Vector3(2, 0, -2)));
-                else if (i == 1)
-                    transPart.SetPos(hero.transform.TransformPoint(new Vector3(-2, 0, -2)));
-
-                transPart.SetDir(hero.transform.eulerAngles);
-                pet.RoleModel.Show(true);
-                RoleCfg cfg = pet.Cfg;
-                pet.RSM.GotoState(enRoleState.born, new RoleStateBornCxt(cfg.bornType, true));
-            }
-        }
-
-
         //设置相机镜头
         if (string.IsNullOrEmpty(camera))
             CameraMgr.instance.SetFollow(hero.transform, true);//如果没有别的镜头，那么重新设置下跟随就可以了
@@ -430,84 +408,16 @@ public class LevelMgr : Singleton<LevelMgr>
         Room.instance.mAreaGroup.gameObject.SetActive(true);
     }
 
-    public IEnumerator CreateNetRole(FullRoleInfoVo vo, RoleBornCxt cxt, RoleBornCxt cxt1, RoleBornCxt cxt2, bool bCreatePet = false)
+    public IEnumerator CreateNetRole(FullRoleInfoVo vo, RoleBornCxt cxt, RoleBornCxt cxt1, RoleBornCxt cxt2)
     {
         Role role = RoleMgr.instance.CreateNetRole(vo, true, cxt);
         while (role.State != Role.enState.alive)
             yield return 0;
-
-        if (bCreatePet)
-        {
-            yield return Main.instance.StartCoroutine(CreatePet(role, role.GetCamp(), cxt1, cxt2));
-        }
-
+        
         //主角也加入角色列表里
         AddRole(role);
         //广播创建消息
         EventMgr.FireAll(MSG.MSG_SCENE, MSG_SCENE.ROLEENTER, role);
-    }
-
-    public IEnumerator CreatePet(Role hero, enCamp camp, RoleBornCxt petCxt1 = null, RoleBornCxt petCxt2 = null)
-    {
-        if (hero == null)
-            yield return 0;
-
-        //创建宠物
-        List<Role> petList = hero.PetsPart.GetMainPets();
-        
-        for(int i = 0; i < petList.Count; i++)
-        {
-            if (i >= CurLevel.roomCfg.petNum)
-                break;
-
-            Role pet = petList[i];
-            if (pet != null)
-            {                
-                RoleBornCxt petCxt = null;
-                if (i == 0)
-                {
-                    if (petCxt1 == null)
-                    {
-                        petCxt = IdTypePool<RoleBornCxt>.Get(); ;
-                        petCxt.OnClear();
-                    }
-                    else
-                        petCxt = petCxt1;
-                    petCxt.pos = hero.transform.TransformPoint(new Vector3(2, 0, -2));
-                }
-                else if(i == 1)
-                {
-                    if (petCxt2 == null)
-                    {
-                        petCxt = IdTypePool<RoleBornCxt>.Get(); ;
-                        petCxt.OnClear();
-                    }
-                    else
-                        petCxt = petCxt2;
-                    petCxt.pos = hero.transform.TransformPoint(new Vector3(-2, 0, -2));
-                }
-
-                petCxt.euler = hero.transform.eulerAngles;
-                petCxt.camp = camp;
-                RoleCfg cfg = pet.Cfg;
-                //关卡里没有配置出生死亡则取表里默认的配置
-                if (string.IsNullOrEmpty(petCxt.bornAniId))
-                    petCxt.bornAniId = cfg.bornType;
-                if (string.IsNullOrEmpty(petCxt.deadAniId))
-                    petCxt.deadAniId = cfg.deadType;
-                if (string.IsNullOrEmpty(petCxt.groundDeadAniId))
-                    petCxt.groundDeadAniId = cfg.groundDeadType;
-                if (string.IsNullOrEmpty(petCxt.aiBehavior))
-                    petCxt.aiBehavior = cfg.aiType;
-
-                pet.Load(petCxt);
-                while (pet.State != Role.enState.alive)
-                    yield return 0;
-                
-                AddRole(pet);
-                EventMgr.FireAll(MSG.MSG_SCENE, MSG_SCENE.ROLEENTER, pet);
-            }
-        }
     }
 
     public Role CreateRole(RoleBornCxt cxt, string groupFlag = "", string pointFlag = "")

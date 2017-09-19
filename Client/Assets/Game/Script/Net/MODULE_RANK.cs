@@ -64,7 +64,6 @@ public class AllPetPowerRankItem
     public int key;
     public string name;
     public int level;
-    public int petNum;
     public int power;
 }
 
@@ -76,10 +75,6 @@ public class ArenaRankItem
     public int power;
     public int score;
     public string roleId;
-    public string pet1Guid;
-    public string pet1RoleId;
-    public string pet2Guid;
-    public string pet2RoleId;
 }
 
 public class CorpsRankItem
@@ -125,16 +120,6 @@ public class LevelStarRankItem
     public string name;
     public int level;
     public int starNum;
-}
-
-public class PetPowerRankItem
-{
-    public string key;
-    public int heroId;    
-    public string petName;
-    public string heroName;
-    public int power;
-    public int like;
 }
 
 public class RankItemWrapper

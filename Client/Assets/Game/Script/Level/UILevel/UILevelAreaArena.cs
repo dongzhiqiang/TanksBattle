@@ -57,7 +57,6 @@ public class UILevelAreaArena : UILevelArea
 
     public bool IsInMoniter(Role role)
     {
-        // return role == m_myHero || m_pet1.Pet == role || m_pet2.Pet == role;
         return true;
     }
 
@@ -65,14 +64,10 @@ public class UILevelAreaArena : UILevelArea
     {
         m_myPartAllHP.fillAmount = 0;
         m_myHeroName.text = "";
-        //m_myHeroHP.fillAmount = 0;
-        //m_myHeroMP.fillAmount = 0;
-
+        
         m_itsPartAllHP.fillAmount = 0;
         m_itsHeroName.text = "";     
-        //m_pet1.Init(null);
-        //m_pet2.Init(null);
-
+        
         ClearMyPartRoles();
         ClearItsPartRole();
     }
@@ -103,30 +98,7 @@ public class UILevelAreaArena : UILevelArea
                 m_myHero = role;
                 myRoles[0] = m_myHero;
                 m_myHeroName.text = role.GetString(enProp.name);
-
-                /*var ob = role.AddPropChange(enProp.hp, OnMyHeroHP);
-                obs.Add(ob);
-                ob = role.AddPropChange(enProp.hpMax, OnMyHeroHP);
-                obs.Add(ob);
-                ob = role.AddPropChange(enProp.mp, OnMyHeroMP);
-                obs.Add(ob);
-                ob = role.AddPropChange(enProp.mpMax, OnMyHeroMP);
-                obs.Add(ob);*/
-
-                PetFormation myPetFormation = role.PetFormationsPart.GetCurPetFormation();
-
-                string guid1 = myPetFormation.GetPetGuid(enPetPos.pet1Main);
-                myRoles[1] = string.IsNullOrEmpty(guid1) ? null : role.PetsPart.GetPet(guid1);               
-                //m_pet1.Init(pet1);
-
-                string guid2 = myPetFormation.GetPetGuid(enPetPos.pet2Main);
-                myRoles[2] = string.IsNullOrEmpty(guid2) ? null : role.PetsPart.GetPet(guid2);                
-                //m_pet2.Init(pet2);               
-                /*if (refreshUINow)
-                {
-                    OnMyHeroHP();
-                    OnMyHeroMP();
-                }*/
+                
             }          
             role.Add(MSG_ROLE.DEAD, OnMyRoleDead);
         }

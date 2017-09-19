@@ -73,8 +73,6 @@ public class TriggerFactory
                 trigger = new TriggerCondWeaponLimit(); break;
             case SceneCfg.EventType.SKILL_USE:
                 trigger = new TriggerCondSkillUse(); break;
-            case SceneCfg.EventType.PET_USE:
-                trigger = new TriggerCondPetUse(); break;
             case SceneCfg.EventType.STATE_TIMES:
                 trigger = new TriggerCondStateTimes(); break;
             case SceneCfg.EventType.BREAK_ITEM:
@@ -85,12 +83,8 @@ public class TriggerFactory
                 trigger = new TriggerCondContinueHit(); break;
             case SceneCfg.EventType.TRAP_NUM:
                 trigger = new TriggerCondTrap(); break;
-            case SceneCfg.EventType.PET_ALIVE:
-                trigger = new TriggerCondPetAlive(); break;
             case SceneCfg.EventType.KILL_ALL:
                 trigger = new TriggerCondKillAll(); break;
-            case SceneCfg.EventType.PET_USE2:
-                trigger = new TriggerCondPetUse2(); break;
         }
         if (trigger != null)
             trigger.Init(cfg);

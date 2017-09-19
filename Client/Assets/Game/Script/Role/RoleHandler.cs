@@ -10,8 +10,6 @@ public class RoleHandler
     public void RoleSyncPropVo(RoleSyncPropVo info)
     {
         Role role = RoleMgr.instance.Hero;
-        if (role.GetString(enProp.guid) != info.guid)
-            role = role.PetsPart.GetPet(info.guid);
         if (role == null)
             return;
 
@@ -32,18 +30,5 @@ public class RoleHandler
         //UIMgr.instance.Open<UIHeroInfo>(vo);
         UIMgr.instance.Open<UIHeroInfo2>(vo);
     }
-
-    public void RequestPetInfo(int heroId, string petGuid)
-    {
-        var req = new RequestPetInfoVo();
-        req.heroId = heroId;
-        req.guid = petGuid;
-        NetMgr.instance.Send(MODULE.MODULE_ROLE, MODULE_ROLE.CMD_REQ_PET_INFO, req);
-    }
-
-    [NetHandler(MODULE_ROLE.CMD_REQ_PET_INFO)]
-    public void OnRequestPetInfo(FullRoleInfoVo vo)
-    {
-        UIMgr.instance.Open<UIPetInfo>(vo);
-    }
+    
 }

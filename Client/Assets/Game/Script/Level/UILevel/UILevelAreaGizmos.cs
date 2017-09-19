@@ -154,31 +154,6 @@ public class UILevelAreaGizmos : UILevelArea
             if (role.GetCamp() == hero.GetCamp())     //友军不显示
                 return;
 
-            PetFormation petFormation = hero.PetFormationsPart.GetCurPetFormation();
-
-            //如果是侍宠 不显示
-            string guid1 = petFormation.GetPetGuid(enPetPos.pet1Main);
-            if (!string.IsNullOrEmpty(guid1))
-            {
-                Role pet = hero.PetsPart.GetPet(guid1);
-                if (pet != null)
-                {
-                    if (pet == role)
-                        return;
-                }
-            }
-
-            string guid2 = petFormation.GetPetGuid(enPetPos.pet2Main);
-            if (!string.IsNullOrEmpty(guid2))
-            {
-                Role pet = hero.PetsPart.GetPet(guid2);
-                if (pet != null)
-                {
-                    if (pet == role)
-                        return;
-                }
-            }
-
             //宝箱和陷阱类型不显示
             if (role.Cfg.roleType == enRoleType.box || role.Cfg.roleType == enRoleType.trap)
                 return;

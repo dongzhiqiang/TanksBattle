@@ -16,9 +16,6 @@ public class ActionKillAllMonster : SceneAction
     {
         List<Role> pets = new List<Role>();
         Role hero = RoleMgr.instance.Hero;
-        if (hero != null && hero.State == Role.enState.alive)
-            pets = hero.PetsPart.GetMainPets();
-
         List<Role> rs = new List<Role>(RoleMgr.instance.Roles);
         foreach (Role r in rs)
         {
@@ -27,8 +24,7 @@ public class ActionKillAllMonster : SceneAction
 
             if (r != hero && r.State == Role.enState.alive )
             {
-                if (!pets.Contains(r))
-                    r.DeadPart.Handle(false);
+                r.DeadPart.Handle(false);
             }
 
         }

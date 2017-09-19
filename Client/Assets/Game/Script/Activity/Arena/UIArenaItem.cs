@@ -7,19 +7,13 @@ using UnityEngine;
 public class UIArenaItem : MonoBehaviour
 {
     private int         heroId;
-    private string      pet1Guid;
-    private string      pet2Guid;
-
+    
     public string       prefixBigNum;
     public string       prefixSmallNum;
     public UIArtFont    rankVal;
     public TextEx       heroName;
     public ImageEx      heroHead;
-    public ImageEx      pet1Head;
-    public ImageEx      pet2Head;
     public StateHandle  btnHeroHead;
-    public StateHandle  btnPet1Head;
-    public StateHandle  btnPet2Head;
     public TextEx       score;
     public StateHandle  btnChallenge;
     public StateHandle  btnCombatLog;    
@@ -29,9 +23,7 @@ public class UIArenaItem : MonoBehaviour
         btnChallenge.AddClick(TryDoChallenge);
         btnCombatLog.AddClick(ReqArenaLog);
         btnHeroHead.AddClick(OnHeadClick);
-        btnPet1Head.AddClick(OnHeadClick);
-        btnPet2Head.AddClick(OnHeadClick);
-
+        
         this.heroId = heroId;
         
         this.rankVal.gameObject.SetActive(true);
@@ -77,28 +69,5 @@ public class UIArenaItem : MonoBehaviour
     {
         return heroId;
     }
-
-    public void UpdatePetIcon(string pet1RoleId, string pet2RoleId)
-    {
-        if (string.IsNullOrEmpty(pet1RoleId))
-        {
-            this.pet1Head.gameObject.SetActive(false);
-            this.pet1Head.Set(null);
-        }
-        else
-        {
-            this.pet1Head.gameObject.SetActive(true);
-            this.pet1Head.Set(RoleCfg.GetHeadIcon(pet1RoleId));
-        }
-        if (string.IsNullOrEmpty(pet2RoleId))
-        {
-            this.pet2Head.gameObject.SetActive(false);
-            this.pet2Head.Set(null);
-        }
-        else
-        {
-            this.pet2Head.gameObject.SetActive(true);
-            this.pet2Head.Set(RoleCfg.GetHeadIcon(pet2RoleId));
-        }
-    }
+    
 }

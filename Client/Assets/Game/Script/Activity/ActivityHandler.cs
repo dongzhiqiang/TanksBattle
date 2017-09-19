@@ -311,12 +311,6 @@ public class ActivityHandler
         param.roleIdLeft = hero.GetString(enProp.roleId);
         param.roleIdRight = roleVo.props.ContainsKey("roleId") ? roleVo.props["roleId"].String : "";
 
-        param.pet1RoleIdLeft = hero.GetString(enProp.pet1MRId);
-        param.pet1RoleIdRight = roleVo.props.ContainsKey("pet1MRId") ? roleVo.props["pet1MRId"].String : "";
-
-        param.pet2RoleIdLeft = hero.GetString(enProp.pet2MRId);
-        param.pet2RoleIdRight = roleVo.props.ContainsKey("pet2MRId") ? roleVo.props["pet2MRId"].String : "";
-
         param.leftDmgParams = arenaScene.m_leftDmgParams;
         param.rightDmgParams = arenaScene.m_rightDmgParams;
 

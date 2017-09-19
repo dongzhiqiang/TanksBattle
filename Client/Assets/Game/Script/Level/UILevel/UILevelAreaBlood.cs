@@ -24,7 +24,6 @@ public class UILevelAreaBlood : UILevelArea
         enemy3,//敌军、建筑怪血条
         npc,//npc血条
         arenaEnemyHero,//竞技场敌方主角血条
-        arenaEnemyPet, //竞技场地方神侍血条
         max,
     }
     

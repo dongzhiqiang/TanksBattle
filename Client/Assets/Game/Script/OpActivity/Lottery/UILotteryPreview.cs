@@ -10,9 +10,7 @@ public class UILotteryPreview : UIPanel
 
     #region Fields
     public StateGroup m_topTabs;
-    public RectTransform m_petsNode;
     public RectTransform m_itemsNode;
-    public StateGroup m_petsGrid;
     public StateGroup m_itemsGrid;
 
     private int[] m_pools = null;
@@ -45,7 +43,6 @@ public class UILotteryPreview : UIPanel
     //关闭，保证在初始化之后
     public override void OnClosePanel()
     {
-        m_petsGrid.SetCount(0);
         m_itemsGrid.SetCount(0);
     }
 
@@ -60,7 +57,6 @@ public class UILotteryPreview : UIPanel
     private void OnSelTopTab(StateHandle state, int idx)
     {
         m_itemsNode.gameObject.SetActive(false);
-        m_petsNode.gameObject.SetActive(false);        
 
         var poolId = m_pools[idx];
         var list = LotteryPreview.GetByPoolId(poolId);
@@ -87,25 +83,6 @@ public class UILotteryPreview : UIPanel
                         var uiItem = m_itemsGrid.Get<UIItemIcon>(i);
                         var itemId = StringUtil.ToInt(dataItem.objectId);
                         uiItem.Init(itemId, dataItem.objectCnt, false);
-                    }
-                }
-                break;
-            case 2:
-                {
-                    m_petsNode.gameObject.SetActive(true);
-                    m_petsGrid.SetCount(list.Count);
-                    for (var i = 0; i < list.Count; ++i)
-                    {
-                        var dataItem = list[i];
-                        if (dataItem.objectType != type)
-                        {
-                            Debuger.LogError("宝藏预览库，同一个库里的项的对象类型不一致，项ID：" + dataItem.showId);
-                            continue;
-                        }
-
-                        var uiItem = m_petsGrid.Get<UIPetIcon>(i);
-                        var roleCfg = RoleCfg.Get(dataItem.objectId);
-                        uiItem.Init(roleCfg.id, false, roleCfg.initStar);
                     }
                 }
                 break;

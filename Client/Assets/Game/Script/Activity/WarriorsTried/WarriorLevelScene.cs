@@ -104,12 +104,6 @@ public class WarriorLevelScene: LevelBase
         if (hero != null && hero.State == Role.enState.alive)
         {
             newDict.Add(hero.Id, hero);
-            //List<Role> pets = hero.PetsPart.GetMainPets();
-            //foreach (Role p in pets)
-            //{
-            //    if (p != null && p.State != Role.enState.alive)
-            //        newDict.Add(p.Id, p);
-            //}
         }
         mRoleDic.Clear();
         mRoleDic = newDict;

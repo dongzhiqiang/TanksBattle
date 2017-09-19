@@ -151,22 +151,6 @@ public class UIGrowthTaskItem : MonoBehaviour
                     UIMgr.instance.Open<UIFriend>();
                     break;
                 }
-            case enTaskType.petsNum:
-            case enTaskType.petAdvLv:
-            case enTaskType.petStar:
-            case enTaskType.petsEquipAdvlv:
-            case enTaskType.petsEquipStar:
-                {
-                    string errMsg = "";
-                    if (!SystemMgr.instance.IsEnabled(enSystem.pet, out errMsg))
-                    {
-                        UIMessage.Show(errMsg);
-                        return;
-                    }
-                    UIMgr.instance.Open<UIChoosePet>();
-                    break;
-                }
-          
             case enTaskType.weaponSkill:
                 {
                     string errMsg = "";
@@ -178,10 +162,6 @@ public class UIGrowthTaskItem : MonoBehaviour
                     UIMgr.instance.Open<UIWeapon>();
                     break;
                 }
-
-
-
-
         }
    
     }

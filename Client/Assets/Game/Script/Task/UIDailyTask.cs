@@ -71,13 +71,6 @@ public class UIDailyTask : MonoBehaviour {
                 LoadTask();
             }
         });
-        hero.AddPropChange(enProp.upPetTime, () =>
-        {
-            if (UIMgr.instance.Get<UITask>().IsOpen)
-            {
-                LoadTask();
-            }
-        });
         hero.AddPropChange(enProp.towerEnterTime, () =>
         {
             if (UIMgr.instance.Get<UITask>().IsOpen)

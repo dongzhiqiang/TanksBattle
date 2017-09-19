@@ -145,7 +145,6 @@ public enum enTaskProp
     vip20Get = 138,
     treasureRobGet = 139,
     upEquipGet = 140,
-    upPetGet = 141,
     eliteLvGet = 142,
     warriorTriedGet = 143,
     buyGoldGet = 144,
@@ -167,14 +166,9 @@ public enum enTaskType
     weaponSkill = 6, //*个武器技能升到*级任务
     equipAdvLv = 7, //*个装备进阶*任务
     equipStar = 8, //*个装备觉醒*星任务
-    petsNum = 9,  //神侍数量任务
-    petAdvLv = 10,  //*个神侍进阶*任务
-    petStar = 11,  //*个神侍升*星任务
     daily = 12, //每日任务完成总次数任务
     friend = 13, //添加*个好友任务
     corps = 14, //公会任务
-    petsEquipAdvlv = 15, //神侍装备进阶任务
-    petsEquipStar = 16 ,   //神侍装备升星任务
     lottery = 17, //开启宝箱任务
     cost = 18 ,//消费任务
     vip = 19, //vip任务

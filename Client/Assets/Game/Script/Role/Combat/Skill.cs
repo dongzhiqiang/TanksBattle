@@ -533,18 +533,6 @@ public sealed class Skill: IdType//注意这个类的设计决定了它不适合
             }
         }
 
-        //宠物
-        PetSkillsPart petSkillPart = Parent.PetSkillsPart;
-        if (petSkillPart != null)
-        {
-            PetSkill petSkill = petSkillPart.GetPetSkill(SystemSkillCfg.parentSkillId);
-            if (petSkill != null)
-            {
-                m_lv = petSkill.level;
-                return;
-            }
-
-        }
         //神器
         var treasurePart = Parent.TreasurePart;
         if(treasurePart!= null)

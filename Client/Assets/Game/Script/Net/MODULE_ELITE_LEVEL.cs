@@ -60,8 +60,6 @@ public class EndEliteLevelResultVo
     public int levelId;
     public bool isWin;
     public int heroExp;
-    public int pet1Exp;
-    public int pet2Exp;
 }
 
 public class SweepEliteLevelRequestVo

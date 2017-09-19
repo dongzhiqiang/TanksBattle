@@ -110,10 +110,6 @@ public class ArenaChallengerVo
     public int power;
     public int score;
     public string roleId;
-    public string pet1Guid;
-    public string pet1RoleId;
-    public string pet2Guid;
-    public string pet2RoleId;
 }
 
 public class ArenaChallengerWithRankVo
@@ -344,10 +340,6 @@ public class TreasureChallengerVo
     public int power;
     public int score;
     public string roleId;
-    public string pet1Guid;
-    public string pet1RoleId;
-    public string pet2Guid;
-    public string pet2RoleId;
 }
 
 public class TreasureRobChallengerVo

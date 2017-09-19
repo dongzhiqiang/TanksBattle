@@ -71,8 +71,6 @@ public class LevelEndResVo
     public string roomId;
     public bool isWin;
     public int heroExp;
-    public int pet1Exp;
-    public int pet2Exp;
     //奖励
     public LevelUpdateResVo updateInfo;
 }
@@ -101,7 +99,6 @@ public class SweepLevelReq
 public class SweepLevelRewardInfo
 {
     public int heroExp;
-    public Dictionary<string, int> petExps; //神侍GUID和给的经验的映射
     public Dictionary<string, int> items;   //物品ID和给的数量的映射
 }
 

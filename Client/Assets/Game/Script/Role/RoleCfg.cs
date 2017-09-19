@@ -26,14 +26,12 @@ public enum enRolePropType
 {
     role,
     monster,
-    pet,
 }
 
 public enum enRoleType
 {
     min,
     hero,
-    pet,
     monster,
     boss,
     special,
@@ -95,7 +93,6 @@ public class RoleCfg
     public string icon; // 头像图标
     public float uiModScale; // UI模型缩放
     public List<string> talents = new List<string>(); // 天赋
-    public List<int> petBonds = new List<int>(); //羁绊
     public int initStar; //宠物初始星级
     public int pieceItemId; //宠物碎片id
     public int pieceNum; //宠物碎片数量

@@ -42,10 +42,7 @@ public class MSG_ROLE
 
     //死亡效果播完
     public const int DEAD_END = 10;
-
-    //宠物数量变化
-    public const int PET_NUM_CHANGE = 11;
-
+    
     //网络属性同步
     public const int NET_PROP_SYNC = 12;
 
@@ -144,9 +141,6 @@ public class MSG_ROLE
 
     //神器属性变化
     public const int TREASURE_CHANGE = 44;
-
-    //宠物阵型变化
-    public const int PET_FORMATION_CHANGE = 45;    
 
     //属性变化，当要监听某个属性改变的时候应该监听Prop_CHANGE+该属性的索引
     public const int PROP_CHANGE = 1000;
