@@ -118,7 +118,7 @@ public class UIMgr : MonoBehaviour {
             Debuger.LogError("重复加载了界面:{0}", prefab.name);
             return null;
         }
-        //Debug.Log("prefab "+prefab.name);
+        Debug.Log("prefab " + prefab.name);
         GameObject go = Object.Instantiate(prefab) as GameObject;
         panel = go.GetComponent<UIPanel>();
         go.name = prefab.name;

@@ -72,6 +72,11 @@ namespace NetCore
             return this._value == ((SBool)obj)._value;
         }
 
+        public override int GetHashCode()
+        {
+            return base.GetHashCode();
+        }
+
         public override string ToString()
         {
             return this._value.ToString();

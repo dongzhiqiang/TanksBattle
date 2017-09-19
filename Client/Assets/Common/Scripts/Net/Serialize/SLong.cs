@@ -57,6 +57,28 @@ namespace NetCore
         //    return s;
         //}
 
+
+        public bool Equals(SLong obj)
+        {
+            return this._value == ((SLong)obj)._value;
+        }
+
+
+        public override bool Equals(object obj)
+        {
+            if (obj is long)
+                return this._value == (long)obj;
+            else if (obj is SLong)
+                return this._value == ((SLong)obj)._value;
+            else
+                return false;
+        }
+
+        public override int GetHashCode()
+        {
+            return base.GetHashCode();
+        }
+
         public static bool operator ==(SLong a, SLong b) { return a._value == b._value; }
         public static bool operator !=(SLong a, SLong b) { return !(a == b); }
         public static bool operator ==(long a, SLong b) { return a == b._value; }

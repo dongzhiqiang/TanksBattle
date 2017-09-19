@@ -57,6 +57,27 @@ namespace NetCore
         //    return s;
         //}
 
+        public bool Equals(SFloat obj)
+        {
+            return this._value == ((SFloat)obj)._value;
+        }
+
+
+        public override bool Equals(object obj)
+        {
+            if (obj is float)
+                return this._value == (float)obj;
+            else if (obj is SFloat)
+                return this._value == ((SFloat)obj)._value;
+            else
+                return false;
+        }
+
+        public override int GetHashCode()
+        {
+            return base.GetHashCode();
+        }
+
         public static bool operator ==(SFloat a, SFloat b) { return a._value == b._value; }
         public static bool operator !=(SFloat a, SFloat b) { return !(a == b); }
         public static bool operator ==(float a, SFloat b) { return a == b._value; }

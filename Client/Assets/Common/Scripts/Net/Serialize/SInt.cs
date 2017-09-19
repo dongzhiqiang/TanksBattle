@@ -58,6 +58,26 @@ namespace NetCore
         //    return s;
         //}
 
+        public bool Equals(SInt obj)
+        {
+            return this._value == ((SInt)obj)._value;
+        }
+
+
+        public override bool Equals(object obj)
+        {
+            if (obj is int)
+                return this._value == (int)obj;
+            else if (obj is SInt)
+                return this._value == ((SInt)obj)._value;
+            else
+                return false;
+        }
+
+        public override int GetHashCode()
+        {
+            return base.GetHashCode();
+        }
         public static bool operator ==(SInt a, SInt b) { return a._value == b._value; }
         public static bool operator !=(SInt a, SInt b) { return !(a == b); }
         public static bool operator ==(int a, SInt b) { return a == b._value; }

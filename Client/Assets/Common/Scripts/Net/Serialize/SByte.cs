@@ -67,6 +67,11 @@ namespace NetCore
                 return false;
         }
 
+        public override int GetHashCode()
+        {
+            return base.GetHashCode();
+        }
+
         public bool Equals(SByte obj)
         {
             return this._value == ((SByte)obj)._value;

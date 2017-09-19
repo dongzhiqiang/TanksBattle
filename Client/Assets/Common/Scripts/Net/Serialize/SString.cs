@@ -57,6 +57,27 @@ namespace NetCore
         //    return s;
         //}
 
+        public bool Equals(SString obj)
+        {
+            return this._value == ((SString)obj)._value;
+        }
+
+
+        public override bool Equals(object obj)
+        {
+            if (obj is string)
+                return this._value == (string)obj;
+            else if (obj is SString)
+                return this._value == ((SString)obj)._value;
+            else
+                return false;
+        }
+
+        public override int GetHashCode()
+        {
+            return base.GetHashCode();
+        }
+
         public static bool operator ==(SString a, SString b){return a._value == b._value;}
         public static bool operator !=(SString a, SString b){return !(a == b);}
         public static bool operator ==(string a, SString b) { return a == b._value; }

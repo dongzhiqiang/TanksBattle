@@ -34,7 +34,7 @@ public abstract class Pos : IdType
         max
     }
 
-    public abstract enType GetType();
+    public new abstract enType GetType();
 
     //是不是有效，有时候是无效的，比如敌人被杀死
     public abstract bool IsValid();
