@@ -106,7 +106,6 @@ function onDrawLottery(session, role, msgObj, reqObj) {
     var basicCfg = lotteryConfig.getLotteryBasicCfg(reqObj.type);
     var itemPart = role.getItemsPart();
     var opActPart = role.getOpActivityPart();
-    var petPart = role.getPetsPart();
     var curTime = dateUtil.getTimestamp();
 
     //要扣的物品和数据
@@ -313,7 +312,6 @@ function onDrawLottery(session, role, msgObj, reqObj) {
     //统计道具和宠物ID
     var pieceRandIds = [];
     var giftItems = {};
-    var giftPets = [];
     var poolIdList = []; //找出哪些Pool被抽中了附加权重>0的项
     for (let i = 0; i < randIds.length; ++i)
     {
@@ -328,18 +326,10 @@ function onDrawLottery(session, role, msgObj, reqObj) {
         }
         else if (randCfg.objectType === 2)
         {
-            //已有神侍？这包括抽中了两次的神侍和确实已有的
-            if (giftPets.existsValue(randCfg.objectId) || petPart.getPetByRoleId(randCfg.objectId))
-            {
-                pieceRandIds.pushIfNotExist(randCfg.randId);
-                let roleCfg = roleConfig.getRoleConfig(randCfg.objectId);
-                giftItems[roleCfg.pieceItemId] = (giftItems[roleCfg.pieceItemId] || 0) + roleCfg.pieceNumReturn;
-            }
-            else
-            {
-                //神侍肯定是一个项一个
-                giftPets.pushIfNotExist(randCfg.objectId);
-            }
+
+            pieceRandIds.pushIfNotExist(randCfg.randId);
+            let roleCfg = roleConfig.getRoleConfig(randCfg.objectId);
+            giftItems[roleCfg.pieceItemId] = (giftItems[roleCfg.pieceItemId] || 0) + roleCfg.pieceNumReturn;
         }
     }
 
@@ -358,10 +348,6 @@ function onDrawLottery(session, role, msgObj, reqObj) {
 
     //给与道具和宠物
     itemPart.addItems(giftItems);
-    for (let i = 0; i < giftPets.length; ++i)
-    {
-        petPart.addPet(giftPets[i]);
-    }
 
     /**
      * @type {DrawLotteryRes}

@@ -11,22 +11,6 @@ var enItemType = {
     PET_EXP_ITEM: 15,     // 神侍经验丹
 };
 
-var enPetPos = {
-    pet1Main: 0,
-    pet1Sub1: 1,
-    pet1Sub2: 2,
-    pet2Main: 3,
-    pet2Sub1: 4,
-    pet2Sub2: 5,
-};
-
-var enPetFormation = {
-    normal: 1,
-    arena: 2,
-    eliteLevel: 3,
-    treasureRob: 4,
-};
-
 var enItemId = {
     GOLD: 30000,       //金币
     EXP: 30001,        //经验值
@@ -39,5 +23,3 @@ var enItemId = {
 exports.globalDefine = globalDefine;
 exports.enItemType = enItemType;
 exports.enItemId = enItemId;
-exports.enPetPos = enPetPos;
-exports.enPetFormation = enPetFormation;

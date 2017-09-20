@@ -25,18 +25,10 @@ var enProp = {
     star            : 55,   //整数，星级
     camp            : 56,   //整数，阵营
     gold            : 57,   //整数，金币
-    pet1Main        : 58,  //字符串, 出战宠物1主战
-    pet1Sub1        : 59,  //字符串, 出战宠物1输出助战
-    pet1Sub2        : 60,  //字符串，出战宠物1生存助战
-    pet2Main        : 61,  //字符串, 出战宠物2主战
-    pet2Sub1        : 62,  //字符串, 出战宠物2输出助战
-    pet2Sub2        : 63,  //字符串，出战宠物2生存助战
     staminaTime     : 64,   //整数，给体力的时间
     power           : 65,   //整数，战斗力
     corpsId         : 66,   //整数，军团ID
     arenaCoin       : 67,   //整数，竞技场兑换币
-    pet1MRId        : 68,   //字符串，主战宠物1的角色类型ID
-    pet2MRId        : 69,   //字符串，主战宠物2的角色类型ID
     diamond         : 70,   //整数，钻石
     robotId         : 71,   //整数，如果是机器人有机器人配置ID
     offline         : 72,   //整数，主角才有，如果是真的离线角色（就是不是掉线的），这个值是正整数，如果是掉线的角色，这个值是负整数
@@ -95,18 +87,10 @@ propFlags[enProp.advLv]     = PF_PROTECT|PF_SAVEDB;
 propFlags[enProp.star]      = PF_PROTECT|PF_SAVEDB;
 propFlags[enProp.camp]      = PF_PROTECT|PF_SAVEDB;
 propFlags[enProp.gold]      = PF_SAVEDB;
-propFlags[enProp.pet1Main]  = PF_PROTECT|PF_SAVEDB;
-propFlags[enProp.pet1Sub1]  = PF_PROTECT|PF_SAVEDB;
-propFlags[enProp.pet1Sub2]  = PF_PROTECT|PF_SAVEDB;
-propFlags[enProp.pet2Main]  = PF_PROTECT|PF_SAVEDB;
-propFlags[enProp.pet2Sub1]  = PF_PROTECT|PF_SAVEDB;
-propFlags[enProp.pet2Sub2]  = PF_PROTECT|PF_SAVEDB;
 propFlags[enProp.staminaTime]   = PF_SAVEDB;
 propFlags[enProp.power]         = PF_PROTECT|PF_SAVEDB;
 propFlags[enProp.corpsId]       = PF_PROTECT|PF_SAVEDB;
 propFlags[enProp.arenaCoin]     = PF_SAVEDB;
-propFlags[enProp.pet1MRId]      = PF_PROTECT|PF_SAVEDB;
-propFlags[enProp.pet2MRId]      = PF_PROTECT|PF_SAVEDB;
 propFlags[enProp.diamond]       = PF_SAVEDB;
 propFlags[enProp.robotId]       = PF_SAVEDB;
 propFlags[enProp.offline]       = PF_PROTECT;

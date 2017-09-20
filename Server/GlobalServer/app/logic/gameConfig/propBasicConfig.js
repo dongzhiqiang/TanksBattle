@@ -12,7 +12,6 @@ class PropBasicConfig
         this.defRateC = 0;
         this.defRateB = 0;
         this.defRateA = 0;
-        this.petPoint = 0;
         this.equipPoint = 0;
         this.powerRate = 0;
     }
@@ -26,7 +25,6 @@ class PropBasicConfig
             defRateC: {type: Number},
             defRateB: {type: Number},
             defRateA: {type: Number},
-            petPoint: {type: Number},
             equipPoint: {type: Number},
             powerRate: {type: Number},
         };

@@ -18,7 +18,6 @@ var doInitCoroutine = Promise.coroutine(function * () {
     var roleHandler = require("../logic/role/roleHandler");
     var equipHandler = require("../logic/equip/equipHandler");
     var gmHandler = require("../logic/gm/gmHandler");
-    var petHandler = require("../logic/pet/petHandler");
     var levelHandler = require("../logic/level/levelHandler");
     var activityHandler = require("../logic/activity/activityHandler");
     var rankHandler = require("../logic/rank/rankHandler");

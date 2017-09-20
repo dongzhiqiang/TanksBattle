@@ -25,18 +25,10 @@ var enProp = {
     star            : 55,   //整数，星级
     camp            : 56,   //整数，阵营
     gold            : 57,   //整数，金币
-    pet1Main        : 58,  //字符串, 出战宠物1主战
-    pet1Sub1        : 59,  //字符串, 出战宠物1输出助战
-    pet1Sub2        : 60,  //字符串，出战宠物1生存助战
-    pet2Main        : 61,  //字符串, 出战宠物2主战
-    pet2Sub1        : 62,  //字符串, 出战宠物2输出助战
-    pet2Sub2        : 63,  //字符串，出战宠物2生存助战
     staminaTime     : 64,   //整数，给体力的时间
     power           : 65,   //整数，战斗力
     corpsId         : 66,   //整数，军团ID
     arenaCoin       : 67,   //整数，竞技场兑换币
-    pet1MRId        : 68,   //字符串，主战宠物1的角色类型ID
-    pet2MRId        : 69,   //字符串，主战宠物2的角色类型ID
     diamond         : 70,   //整数，钻石
     robotId         : 71,   //整数，如果是机器人有机器人配置ID
     offline         : 72,   //整数，主角才有，如果是真的离线角色（就是不是掉线的），这个值是正整数，如果是掉线的角色，这个值是负整数
@@ -47,8 +39,6 @@ var enProp = {
     hornNum         : 77,   //整数，世界频道聊天的喇叭数
     powerTotal      : 78,   //整数，总战力(包括出战宠物)
     corpsName       : 79,   //字符串，公会名字
-    powerPets       : 80,   //整数，所有宠物的战斗力，不包括主角
-    maxPowerPet     : 81,   //字符串，战斗力最强的神侍的GUID
     lastRankLike    : 82,   //整数，排行榜上次点赞时间
     rankLikeLog     : 83,   //字符串，排行榜点赞记录，是json数据，格式：{排行类型1:[点赞对象ID1,点赞对象ID2]}
     towerLevel      : 84,   //整数，预言者之塔挑战层
@@ -58,8 +48,6 @@ var enProp = {
     towerEnterTime  : 88,   //整数，预言者之塔挑最后一次进入时间
     upEquipTime     : 89,   //整数，上次升级装备时间
     upEquipNum      : 90,   //整数，每日升级装备次数
-    upPetTime       : 91,   //整数，上次升级神侍时间
-    upPetNum        : 92,   //整数，每日升级神侍次数
 };
 
 var enPropFight = {
@@ -109,18 +97,10 @@ propFlags[enProp.advLv]     = PF_PROTECT|PF_SAVEDB;
 propFlags[enProp.star]      = PF_PROTECT|PF_SAVEDB;
 propFlags[enProp.camp]      = PF_PROTECT|PF_SAVEDB;
 propFlags[enProp.gold]      = PF_SAVEDB;
-propFlags[enProp.pet1Main]  = PF_PROTECT|PF_SAVEDB;
-propFlags[enProp.pet1Sub1]  = PF_PROTECT|PF_SAVEDB;
-propFlags[enProp.pet1Sub2]  = PF_PROTECT|PF_SAVEDB;
-propFlags[enProp.pet2Main]  = PF_PROTECT|PF_SAVEDB;
-propFlags[enProp.pet2Sub1]  = PF_PROTECT|PF_SAVEDB;
-propFlags[enProp.pet2Sub2]  = PF_PROTECT|PF_SAVEDB;
 propFlags[enProp.staminaTime]   = PF_SAVEDB;
 propFlags[enProp.power]         = PF_PROTECT|PF_SAVEDB;
 propFlags[enProp.corpsId]       = PF_PROTECT|PF_SAVEDB;
 propFlags[enProp.arenaCoin]     = PF_SAVEDB;
-propFlags[enProp.pet1MRId]      = PF_PROTECT|PF_SAVEDB;
-propFlags[enProp.pet2MRId]      = PF_PROTECT|PF_SAVEDB;
 propFlags[enProp.diamond]       = PF_SAVEDB;
 propFlags[enProp.robotId]       = PF_SAVEDB;
 propFlags[enProp.offline]       = PF_PROTECT;
@@ -130,8 +110,6 @@ propFlags[enProp.staminaBuyTime]= PF_SAVEDB;
 propFlags[enProp.vipLv]         = PF_PROTECT|PF_SAVEDB;
 propFlags[enProp.hornNum]       = PF_SAVEDB;
 propFlags[enProp.powerTotal]    = PF_PROTECT|PF_SAVEDB;
-propFlags[enProp.powerPets]     = PF_SAVEDB;
-propFlags[enProp.maxPowerPet]   = PF_SAVEDB;
 propFlags[enProp.lastRankLike]  = PF_SAVEDB;
 propFlags[enProp.rankLikeLog]   = PF_SAVEDB;
 propFlags[enProp.towerLevel]    = PF_SAVEDB;
@@ -141,8 +119,6 @@ propFlags[enProp.towerEnterNums]= PF_SAVEDB;
 propFlags[enProp.towerEnterTime]= PF_SAVEDB;
 propFlags[enProp.upEquipTime]   = PF_SAVEDB;
 propFlags[enProp.upEquipNum]    = PF_SAVEDB;
-propFlags[enProp.upPetTime]     = PF_SAVEDB;
-propFlags[enProp.upPetNum]      = PF_SAVEDB;
 
 /**
  * 带protect标记的属性（其实包括公有）

@@ -8,7 +8,6 @@ var globalDefine = {
 
 var enItemType = {
     ABSTRACT_ITEM: 9,    // 抽象物品
-    PET_EXP_ITEM: 15,     // 神侍经验丹
 };
 
 var enItemId = {

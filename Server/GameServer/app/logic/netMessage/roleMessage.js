@@ -62,25 +62,9 @@ class RequestHeroInfoVo
     }
 }
 
-class RequestPetInfoVo
-{
-    constructor() {
-        this.heroId = 0;    //主人的ID
-        this.guid = "";     //神侍的唯一ID
-    }
-
-    static fieldsDesc() {
-        return {
-            heroId: {type: Number, notNull:true},
-            guid: {type: String, notNull:true},
-        };
-    }
-}
-
 exports.CmdIdsRole = CmdIdsRole;
 exports.ResultCodeRole = ResultCodeRole;
 
 exports.RoleSyncPropVo = RoleSyncPropVo;
 exports.FullRoleInfoVo = FullRoleInfoVo;
 exports.RequestHeroInfoVo = RequestHeroInfoVo;
-exports.RequestPetInfoVo = RequestPetInfoVo;

@@ -8,7 +8,6 @@ var CmdIdsRole = require("../netMessage/roleMessage").CmdIdsRole;
 var roleConfig = require("../gameConfig/roleConfig");
 var globalDefine = require("../enumType/globalDefine").globalDefine;
 var lvExpConfig = require("../gameConfig/lvExpConfig");
-var petUpgradeCostConfig = require("../gameConfig/petUpgradeCostConfig");
 var propDefine = require("../enumType/propDefine");
 var dateUtil = require("../../libs/dateUtil");
 var valueConfig = require("../gameConfig/valueConfig");
@@ -325,23 +324,10 @@ class PropPart
         var roleCfg = roleConfig.getRoleConfig(this.getString(enProp.roleId));
         exp = exp + expAdded;
         var maxLevel = globalDefine.MAX_ROLE_LEVEL;
-        if(this._role.isPet())
-        {
-            maxLevel = this._role.getOwner().getNumber(enProp.level);
-        }
 
         while(level < maxLevel)
         {
-            var needExp = 0;
-            //宠物和主角使用不同的经验表
-            if(this._role.isPet())
-            {
-                needExp = petUpgradeCostConfig.getPetUpgradeCostConfig(roleCfg.upgradeCostId+"_"+level).exp;
-            }
-            else
-            {
-                needExp = lvExpConfig.getLvExpConfig(level).needExp;
-            }
+            var needExp = lvExpConfig.getLvExpConfig(level).needExp;
             if(exp<needExp)
             {
                 break;
@@ -364,16 +350,13 @@ class PropPart
         {
             this.setNumber(enProp.level, level);
 
-            if(!this._role.isPet())
+            //升级增加体力
+            var staminaAdded = 0;
+            for(var i=oldLevel; i<level; i++)
             {
-                //升级增加体力
-                var staminaAdded = 0;
-                for(var i=oldLevel; i<level; i++)
-                {
-                    staminaAdded += lvExpConfig.getLvExpConfig(i).upgradeStamina;
-                }
-                this.addStamina(staminaAdded);
+                staminaAdded += lvExpConfig.getLvExpConfig(i).upgradeStamina;
             }
+            this.addStamina(staminaAdded);
 
             //通知全局服更新登录时间
             this._role.updateGlobalServerInfo();
@@ -425,8 +408,8 @@ class PropPart
         {
             var userId = roleTop.getString(enProp.userId);
             var heroId = roleTop.getNumber(enProp.heroId);
-            var queryObj = isCurHero ? {"props.heroId":heroId} : {"props.heroId":heroId, "pets.props.guid":guidCur};
-            var updatePrefx = isCurHero ? "props." : "pets.$.props.";
+            var queryObj = {"props.heroId":heroId};
+            var updatePrefx = "props.";
             var updateObj = {};
 
             for (let i = 0; i < saveLen; ++i)
@@ -472,8 +455,8 @@ class PropPart
         {
             var userId = roleTop.getString(enProp.userId);
             var heroId = roleTop.getNumber(enProp.heroId);
-            var queryObj = isCurHero ? {"props.heroId":heroId} : {"props.heroId":heroId, "pets.props.guid":guidCur};
-            var updateKey = isCurHero ? "props." + propName : "pets.$.props." + propName;
+            var queryObj = {"props.heroId":heroId};
+            var updateKey = "props." + propName;
             var db = dbUtil.getDB(userId);
             var col = heroId < 0 ? db.collection("robot") : db.collection("role");
             col.updateOneNoThrow(queryObj, {"$set":{[updateKey] : propVal}});
@@ -615,49 +598,12 @@ class PropPart
         //要先更新自己的，不然如果自己的宠物，下面的更新主人的总战斗力就不准了
         this.updateFullPower();
 
-        if( this._role.isPet() )
-            this._role.getOwner().getPropsPart().updateFullPower();
-
         //logUtil.info("power:"+this._fightProps[enProp.power]);
     }
 
     updateFullPower()
     {
-        if( this._role.isPet() )
-        {
-            this.setNumber(enProp.powerTotal, this.getNumber(enProp.power));
-        }
-        else
-        {
-            var allPetPower = 0;
-            var mainPetPower = 0;
-            var maxPower = Number.MIN_VALUE;
-            var maxPowerPet = null;
-            var petsPart = this._role.getPetsPart();
-            for (var i = 0, len = petsPart.getPetCount(); i < len; ++i)
-            {
-                var rolePet = petsPart.getPetByIndex(i);
-                var power = rolePet.getNumber(enProp.power);
-
-                allPetPower += power;
-
-                if (petsPart.isMainPet(rolePet.getGUID()))
-                    mainPetPower += power;
-
-                if (power > maxPower)
-                {
-                    maxPower = power;
-                    maxPowerPet = rolePet;
-                }
-            }
-
-            this.startBatch();
-            this.setString(enProp.maxPowerPet, maxPowerPet ? maxPowerPet.getGUID() : "");
-            this.setNumber(enProp.powerPets, allPetPower);
-            this.setNumber(enProp.powerTotal, this.getNumber(enProp.power) + mainPetPower);
-            this.endBatch();
-        }
-
+        this.setNumber(enProp.powerTotal, this.getNumber(enProp.power));
         this._role.fireEvent(eventNames.POWER_CHANGE);
     }
 

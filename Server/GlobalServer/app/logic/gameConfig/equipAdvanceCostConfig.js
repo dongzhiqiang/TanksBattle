@@ -10,26 +10,17 @@ class EquipAdvanceCostConfig
 
     /**
      *
-     * @param {boolean} isPet
      * @returns {object}
      */
-    getCost(isPet)
+    getCost()
     {
-        if(isPet)
-        {
-            return this.costPet;
-        }
-        else
-        {
-            return this.cost;
-        }
+        return this.cost;
     }
 
     static fieldsDesc() {
         return {
             id: {type: String},
             cost: {type: String},
-            costPet: {type: String},
         };
     }
 
@@ -53,19 +44,6 @@ class EquipAdvanceCostConfig
             }
         }
         row.cost = result;
-
-        result = {};
-        itemStrs = row.costPet.split(",");
-        for(var k=0;k<itemStrs.length;k++)
-        {
-            if(itemStrs[k]!="")
-            {
-                var itemOneStr = itemStrs[k].split("|");
-                var itemId = parseInt(itemOneStr[0]);
-                result[itemId] = parseInt(itemOneStr[1]);
-            }
-        }
-        row.costPet = result;
     }
 }
 

@@ -30,15 +30,7 @@ function upgrade(session, role, msgObj, upgradeReq) {
 
         var ownerGUID = upgradeReq.ownerGUID;
         var equipPosIndex = upgradeReq.equipPosIndex;
-        var owner;
-        if(role.getGUID() == ownerGUID)
-        {
-            owner = role;
-        }
-        else
-        {
-            owner = role.getPetsPart().getPetByGUID(ownerGUID);
-        }
+        var owner = role;
         var equip = owner.getEquipsPart().getEquipByIndex(equipPosIndex);
         if(equip.level >= owner.getPropsPart().getNumber(enProp.level))
         {
@@ -104,16 +96,7 @@ function advance(session, role, msgObj, advanceReq) {
 
         var ownerGUID = advanceReq.ownerGUID;
         var equipPosIndex = advanceReq.equipPosIndex;
-        var owner;
-        var isPet = (role.getGUID() != ownerGUID);
-        if(!isPet)
-        {
-            owner = role;
-        }
-        else
-        {
-            owner = role.getPetsPart().getPetByGUID(ownerGUID);
-        }
+        var owner = role;
         var equip = owner.getEquipsPart().getEquipByIndex(equipPosIndex);
         var equipCfg = equipConfig.getEquipConfig(equip.equipId);
         var equipAdvCfg = equipAdvanceRateConfig.getEquipAdvanceRateConfig(equip.advLv);
@@ -130,7 +113,7 @@ function advance(session, role, msgObj, advanceReq) {
             role.send(msgObj);
             return;
         }
-        var costItems = costCfg.getCost(isPet);
+        var costItems = costCfg.getCost();
         if(!role.getItemsPart().canCostItems(costItems))
         {
             msgObj.setResponseData(ResultCodeEquip.EQUIP_NO_ENOUGE_ITEM);
@@ -176,15 +159,7 @@ function rouse(session, role, msgObj, rouseReq) {
 
         var ownerGUID = rouseReq.ownerGUID;
         var equipPosIndex = rouseReq.equipPosIndex;
-        var owner;
-        if(role.getGUID() == ownerGUID)
-        {
-            owner = role;
-        }
-        else
-        {
-            owner = role.getPetsPart().getPetByGUID(ownerGUID);
-        }
+        var owner = role;
         var equip = owner.getEquipsPart().getEquipByIndex(equipPosIndex);
         var equipCfg = equipConfig.getEquipConfig(equip.equipId);
         var costCfg = equipRouseCostConfig.getEquipRouseCostConfig(equipCfg.rouseCostId);
@@ -234,17 +209,16 @@ handlerMgr.registerHandler(ModuleIds.MODULE_EQUIP, CmdIdsEquip.CMD_ROUSE, rouse,
  * @param {Equip} equip
  * @param {object} removeItemIdMap
  * @param {object} updateItemIdMap
- * @param {boolean} isPet
  * @returns {boolean}
  */
-function tryAdvanceOneEquip(role, equip, removeItemIdMap, updateItemIdMap, isPet)
+function tryAdvanceOneEquip(role, equip, removeItemIdMap, updateItemIdMap)
 {
     var costCfg = equipAdvanceCostConfig.getEquipAdvanceCostConfig(equip.getPosIndex() + "_" + equip.advLv);
     if(!costCfg)
     {
         return false;
     }
-    var costItems = costCfg.getCost(isPet);
+    var costItems = costCfg.getCost();
     if(!role.getItemsPart().canCostItems(costItems))
     {
         return false;
@@ -289,7 +263,6 @@ function tryUpgradeOneEquip(role, equip, removeItemIdMap, updateItemIdMap)
  */
 function upgradeOnceOneEquip(role, owner, equip, resultObj, removeItemIdMap, updateItemIdMap)
 {
-    var isPet = owner.isPet();
     resultObj.oldEquip = equip.getCopyedData();
 
     var changed = false;
@@ -298,7 +271,7 @@ function upgradeOnceOneEquip(role, owner, equip, resultObj, removeItemIdMap, upd
 
         var equipAdvCfg = equipAdvanceRateConfig.getEquipAdvanceRateConfig(equip.advLv);
         if(equip.level >= equipAdvCfg.maxLv){
-            if(tryAdvanceOneEquip(role, equip, removeItemIdMap, updateItemIdMap, isPet))
+            if(tryAdvanceOneEquip(role, equip, removeItemIdMap, updateItemIdMap))
             {
                 changed = true;
             }
@@ -345,15 +318,7 @@ function upgradeOnce(session, role, msgObj, upgradeOnceReq) {
 
         var ownerGUID = upgradeOnceReq.ownerGUID;
         var equipPosIndex = upgradeOnceReq.equipPosIndex;
-        var owner;
-        if(role.getGUID() == ownerGUID)
-        {
-            owner = role;
-        }
-        else
-        {
-            owner = role.getPetsPart().getPetByGUID(ownerGUID);
-        }
+        var owner = role;
         var equip = owner.getEquipsPart().getEquipByIndex(equipPosIndex);
         var equipCfg = equipConfig.getEquipConfig(equip.equipId);
         var equipAdvCfg = equipAdvanceRateConfig.getEquipAdvanceRateConfig(equip.advLv);
@@ -409,15 +374,7 @@ function upgradeAll(session, role, msgObj, upgradeAllReq) {
     try {
 
         var ownerGUID = upgradeAllReq.ownerGUID;
-        var owner;
-        if(role.getGUID() == ownerGUID)
-        {
-            owner = role;
-        }
-        else
-        {
-            owner = role.getPetsPart().getPetByGUID(ownerGUID);
-        }
+        var owner = role;
 
         var result = new equipMessage.UpgradeAllEquipResultVo(ownerGUID, []);
 

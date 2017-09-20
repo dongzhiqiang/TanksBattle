@@ -10,19 +10,11 @@ class EquipAdvanceCostConfig
 
     /**
      *
-     * @param {boolean} isPet
      * @returns {object}
      */
-    getCost(isPet)
+    getCost()
     {
-        if(isPet)
-        {
-            return this.costPet;
-        }
-        else
-        {
-            return this.cost;
-        }
+        return this.cost;
     }
 
     static fieldsDesc() {

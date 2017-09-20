@@ -749,7 +749,7 @@ function addToRankByRole(type, role)
  */
 function addToAllRankByRole(role)
 {
-    var usedRankTypes = role.isPet() ? (role.isRobot() ? robotPetRankTypes : petRankTypes) : (role.isRobot() ? robotHeroRankTypes : heroRankTypes);
+    var usedRankTypes =  (role.isRobot() ? robotHeroRankTypes : heroRankTypes);
     for (var i = 0; i < usedRankTypes.length; ++i)
     {
         var rankType = usedRankTypes[i];

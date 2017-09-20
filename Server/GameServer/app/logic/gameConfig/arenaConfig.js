@@ -14,16 +14,10 @@ class ArenaBasicCfg
         this.roomId	= "";
         this.movieName = "";
         this.itsHeroPos = [];
-        this.itsPet1Pos = [];
-        this.itsPet2Pos = [];
-        this.myPet1Pos = [];
-        this.myPet2Pos = [];
         this.addHateValue = 0;
         this.itsHeroBornType = "";
         this.itsHeroDeadType = "";
-        this.itsPetDeadType = "";
         this.myHeroDeadType = "";
-        this.myPetDeadType = "";
         this.spartaPropRateId = "";
         this.heroShieldBuff = 0;
         this.maxRankNum	= 0;
@@ -52,16 +46,10 @@ class ArenaBasicCfg
             roomId: {type: String},
             movieName: {type: String},
             itsHeroPos: {type: Array, elemType: Number},
-            itsPet1Pos: {type: Array, elemType: Number},
-            itsPet2Pos: {type: Array, elemType: Number},
-            myPet1Pos: {type: Array, elemType: Number},
-            myPet2Pos: {type: Array, elemType: Number},
             addHateValue: {type: Number},
             itsHeroBornType: {type: String},
             itsHeroDeadType: {type: String},
-            itsPetDeadType: {type: String},
             myHeroDeadType: {type: String},
-            myPetDeadType: {type: String},
             spartaPropRateId: {type: String},
             heroShieldBuff: {type: Number},
             maxRankNum: {type: Number},

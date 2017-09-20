@@ -160,43 +160,6 @@ class TaskPart {
                     }
                     break;
                 }
-                case enTaskType.petsEquipAdvlv:
-                {
-                    let petsPart = this._role.getPetsPart();
-                    let pets = petsPart._pets;
-                    for (let i = 0; i < pets.length; ++i)
-                    {
-                        let equipsPart = pets[i].getEquipsPart();
-                        for (let j = 0; j < enEquipPos.minWeapon - enEquipPos.minNormal + 1; ++j)
-                        {
-                            if (equipsPart.getEquipByIndex(j).advLv >= targetLevel)
-                            {
-                                current++;
-                            }
-                        }
-                    }
-                    break;
-                }
-                case enTaskType.petsEquipStar:
-                {
-                    let petsPart = this._role.getPetsPart();
-                    let pets = petsPart._pets;
-                    for (let i = 0; i < pets.length; ++i)
-                    {
-                        let equipsPart = pets[i].getEquipsPart();
-                        for (let j = 0; j < enEquipPos.minWeapon - enEquipPos.minNormal + 1; ++j)
-                        {
-                            let equip = equipsPart.getEquipByIndex(i);
-                            let star = equipConfig.getEquipConfig(equip.equipId).star;
-                            if (star >= targetLevel)
-                            {
-                                current++;
-                            }
-                        }
-                    }
-
-                    break;
-                }
                 case enTaskType.equipAdvLv:
                 {
                     let equipsPart = this._role.getEquipsPart();
@@ -214,34 +177,6 @@ class TaskPart {
                         let equip = equipsPart.getEquipByIndex(i);
                         let star = equipConfig.getEquipConfig(equip.equipId).star;
                         if (star >= targetLevel) {
-                            current++;
-                        }
-                    }
-                    break;
-                }
-                case enTaskType.petsNum:
-                {
-                    let petsPart = this._role.getPetsPart();
-                    current = petsPart.getPetCount();
-                    break;
-                }
-                case enTaskType.petAdvLv:
-                {
-                    let petsPart = this._role.getPetsPart();
-                    let pets = petsPart._pets;
-                    for (let i = 0; i < pets.length; ++i) {
-                        if (pets[i].getNumber(enProp.advLv) >= targetLevel) {
-                            current++;
-                        }
-                    }
-                    break;
-                }
-                case enTaskType.petStar:
-                {
-                    let petsPart = this._role.getPetsPart();
-                    let pets = petsPart._pets;
-                    for (let i = 0; i < pets.length; ++i) {
-                        if (pets[i].getNumber(enProp.star) >= targetLevel) {
                             current++;
                         }
                     }
@@ -526,27 +461,6 @@ class TaskPart {
         {
             return false;
         }
-    }
-
-
-    /**
-     * 更新每日升级神侍次数
-     * @param {number}num
-     */
-    addPetUpgradeNum(num)
-    {
-        let lastTime = this._role.getNumber(enProp.upPetTime);
-        this._role.startBatch();
-        if(dateUtil.isToday(lastTime))
-        {
-            this._role.addNumber(enProp.upPetNum,num);
-        }
-        else
-        {
-            this._role.setNumber(enProp.upPetNum,num);
-        }
-        this._role.setNumber(enProp.upPetTime,dateUtil.getTimestamp());
-        this._role.endBatch();
     }
 
     /**

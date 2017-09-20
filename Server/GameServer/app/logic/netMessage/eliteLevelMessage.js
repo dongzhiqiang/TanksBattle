@@ -122,8 +122,6 @@ class EndEliteLevelResultVo {
         this.levelId = 0;
         this.isWin = false;
         this.heroExp = 0;
-        this.pet1Exp = 0;
-        this.pet2Exp = 0;
     }
 
     static fieldsDesc() {
@@ -131,8 +129,6 @@ class EndEliteLevelResultVo {
             levelId: {type: Number},
             isWin: {type: Boolean},
             heroExp: {type: Number},
-            pet1Exp: {type: Number},
-            pet2Exp: {type: Number},
         };
     }
 }

@@ -8,7 +8,6 @@ class RoleLvPropConfig
         this.lv = 0;
         this.rate = 0;
         this.defRateRole = 0;
-        this.defRatePet = 0;
         this.defRateMonster = 0;
     }
 
@@ -17,7 +16,6 @@ class RoleLvPropConfig
             lv: {type: Number},
             rate: {type: Number},
             defRateRole: {type: Number},
-            defRatePet: {type: Number},
             defRateMonster: {type: Number}
         };
     }

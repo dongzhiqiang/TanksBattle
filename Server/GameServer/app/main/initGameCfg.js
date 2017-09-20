@@ -20,18 +20,6 @@ var RoleConfig = require("../logic/gameConfig/roleConfig").RoleConfig;
 var EquipInitListConfig = require("../logic/gameConfig/equipInitListConfig").EquipInitListConfig;
 var RewardConfig = require("../logic/gameConfig/rewardConfig").RewardConfig;
 var LvExpConfig = require("../logic/gameConfig/lvExpConfig").LvExpConfig;
-var PetUpgradeCostConfig = require("../logic/gameConfig/petUpgradeCostConfig").PetUpgradeCostConfig;
-var PetAdvanceCostConfig = require("../logic/gameConfig/petAdvanceCostConfig").PetAdvanceCostConfig;
-var PetUpstarCostConfig = require("../logic/gameConfig/petUpstarCostConfig").PetUpstarCostConfig;
-var PetAdvLvPropRateConfig = require("../logic/gameConfig/petAdvLvPropRateConfig").PetAdvLvPropRateConfig;
-var PetStarPropRateConfig = require("../logic/gameConfig/petStarPropRateConfig").PetStarPropRateConfig;
-var PetTalentLvConfig = require("../logic/gameConfig/petTalentLvConfig").PetTalentLvConfig;
-var PetBondConfig = require("../logic/gameConfig/petBondConfig").PetBondConfig;
-var PetBattleAssistRateConfig = require("../logic/gameConfig/petBattleAssistRateConfig").PetBattleAssistRateConfig;
-var PetPosConfig = require("../logic/gameConfig/petPosConfig").PetPosConfig;
-var PetFormationConfig = require("../logic/gameConfig/petFormationConfig").PetFormationConfig;
-var TalentConfig = require("../logic/gameConfig/talentConfig").TalentConfig;
-var TalentPosConfig = require("../logic/gameConfig/talentPosConfig").TalentPosConfig;
 var LevelConfig = require("../logic/gameConfig/levelConfig").LevelConfig;
 var ValueConfig = require("../logic/gameConfig/valueConfig").ConfigValueConfig;
 var LanguageConfig = require("../logic/gameConfig/languageConfig").LanguageConfig;
@@ -132,18 +120,6 @@ var cfgObjs1 = {
     "equipInitList" : {file:"equip/equipInitList.csv", rowType:EquipInitListConfig, rowKey:"id"},
     "item" : {file:"item/item.csv", rowType:ItemConfig, rowKey:"id"},
     "reward" : {file:"reward/reward.csv", rowType:RewardConfig, rowKey:"id"},
-    "petUpgradeCost" : {file:"pet/petUpgradeCost.csv", rowType:PetUpgradeCostConfig, rowKey:"id"},
-    "petAdvanceCost" : {file:"pet/petAdvanceCost.csv", rowType:PetAdvanceCostConfig, rowKey:"id"},
-    "petUpstarCost" : {file:"pet/petUpstarCost.csv", rowType:PetUpstarCostConfig, rowKey:"id"},
-    "petAdvLvPropRate" : {file:"pet/petAdvLvPropRate.csv", rowType:PetAdvLvPropRateConfig, rowKey:"advLv"},
-    "petStarPropRate" : {file:"pet/petStarPropRate.csv", rowType:PetStarPropRateConfig, rowKey:"star"},
-    "petTalentLv" : {file:"pet/petTalentLv.csv", rowType:PetTalentLvConfig, rowKey:"id"},
-    "petBond" : {file:"pet/petBond.csv", rowType:PetBondConfig, rowKey:"id"},
-    "petBattleAssistRate" : {file:"pet/petBattleAssistRate.csv", rowType:PetBattleAssistRateConfig, rowKey:"id"},
-    "petPos" : {file:"pet/petPos.csv", rowType:PetPosConfig, rowKey:"id"},
-    "petFormation" : {file:"pet/petFormation.csv", rowType:PetFormationConfig, rowKey:"id"},
-    "talent" : {file:"pet/talent.csv", rowType:TalentConfig, rowKey:"id"},
-    "talentPos" : {file:"pet/talentPos.csv", rowType:TalentPosConfig, rowKey:"id"},
     "lvExp" : {file:"role/lvExp.csv", rowType:LvExpConfig, rowKey:"level"},
     "role" : {file:"role/role.csv", rowType:RoleConfig, rowKey:"id"},
     "room" : {file:"room/room.csv", rowType:LevelConfig, rowKey:"id"},

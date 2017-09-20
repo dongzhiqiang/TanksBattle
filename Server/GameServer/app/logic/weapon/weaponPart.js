@@ -164,11 +164,6 @@ class WeaponPart {
             queryObj = {"props.heroId":heroId};
             updateObj = {$set:{[key] :value}};
         }
-        else {
-            //如果是宠物的装备
-            queryObj = {"props.heroId":heroId, "pets.props.guid":guidCur};
-            updateObj = {$set:{["pets.$."+key]:value}};
-        }
         col.updateOneNoThrow(queryObj, updateObj);
     }
 

@@ -10,11 +10,6 @@ var roleMgr = require("./roleMgr");
 var enProp = require("../enumType/propDefine").enProp;
 var PropPart = require("./propPart").PropPart;
 var ItemsPart = require("../item/itemsPart").ItemsPart;
-var PetsPart = require("../pet/petsPart").PetsPart;
-var PetSkillsPart = require("../pet/petSkillsPart").PetSkillsPart;
-var TalentsPart = require("../pet/talentsPart").TalentsPart;
-var PetBondPart = require("../pet/petBondPart").PetBondPart;
-var PetPosPart = require("../pet/petPosPart").PetPosPart;
 var LevelsPart = require("../level/levelsPart").LevelsPart;
 var EquipsPart = require("../equip/equipsPart").EquipsPart;
 var ActivityPart = require("../activity/activityPart").ActivityPart;
@@ -28,7 +23,6 @@ var SocialPart = require("../social/socialPart").SocialPart;
 var CorpsPart = require("../corps/corpsPart").CorpsPart;
 var ShopsPart = require("../exchangeShop/shopsPart").ShopsPart;
 var EliteLevelsPart = require("../eliteLevel/eliteLevelsPart").EliteLevelsPart;
-var PetFormationsPart = require("../pet/petFormationsPart").PetFormationsPart;
 var TreasurePart = require("../treasure/treasurePart").TreasurePart;
 var isServerNoResend = require("../netMessage/netMsgConst").isServerNoResend;
 var globalServerAgent = require("../http/globalServerAgent");
@@ -43,10 +37,9 @@ const TIMER_INV_OFFLINE_DESTROY = 1000 * 60 * 30; //30分钟后如果用户没�
 
 const ROLE_FLAG_UNKNOWN     = 0x0;                      //未知
 const ROLE_FLAG_HERO        = 0x1;                      //是主角
-const ROLE_FLAG_PET         = 0x2;                      //是宠物
 
 /**
- * 注意Role（角色）可以是主角（Hero，可自动存盘有宠物）、宠物（Pet，如果主人是主角，可自动存盘，不能有宠物）、未知（Unknown）
+ * 注意Role（角色）可以是主角（Hero，可自动存盘有宠物）、宠物（Pet ，如果主人是主角，可自动存盘，不能有宠物）、未知（Unknown）
  */
 class Role
 {
@@ -89,7 +82,6 @@ class Role
             if (this.isHero()) {
                 this._items = new ItemsPart(this, data); this._parts.push(this._items);
                 this._systems = new SystemsPart(this,data); this._parts.push(this._systems);   //系统开启模块放在前面，有些系统需要检测是否已开启
-                this._pets = new PetsPart(this, data); this._parts.push(this._pets);
                 this._levelInfo = new LevelsPart(this, data); this._parts.push(this._levelInfo);
                 this._mails = new MailPart(this, data); this._parts.push(this._mails);          //在活动部件前初始化 活动部件会有隔天补奖励需求
                 this._actProps = new ActivityPart(this, data); this._parts.push(this._actProps);
@@ -101,7 +93,6 @@ class Role
                 this._corps = new CorpsPart(this, data); this._parts.push(this._corps);
                 this._shop = new ShopsPart(this, data); this._parts.push(this._shop);
                 this._eliteLevels = new EliteLevelsPart(this, data); this._parts.push(this._eliteLevels);
-                this._petFormations = new PetFormationsPart(this, data); this._parts.push(this._petFormations);
                 this._treasure = new TreasurePart(this, data); this._parts.push(this._treasure);
 				
                 /**
@@ -113,15 +104,8 @@ class Role
                  */
                 Object.defineProperty(this, "_pendingMsgList", {enumerable: false, writable: true, value: []});
             }
-            else
-            {
-                this._petSkills = new PetSkillsPart(this, data); this._parts.push(this._petSkills);
-                this._talents = new TalentsPart(this, data); this._parts.push(this._talents);
-                this._petBond = new PetBondPart(this, data); this._parts.push(this._petBond); //只计算，无数据
-                this._petPos = new PetPosPart(this, data); this._parts.push(this._petPos); //只计算，无数据
-            }
+
             if (this.isHero()) { //宠物等主人的所有宠物都载入完毕后再计算基础属性(因为涉及到羁绊，出战)
-                this._pets.freshPetProp();
                 this._props.freshBaseProp();
             }
         }
@@ -145,24 +129,6 @@ class Role
                 }
                 this._equips = null;
             }
-            if (this._pets)
-            {
-                try {
-                    this._pets.release();
-                }
-                catch (err) {
-                }
-                this._pets = null;
-            }
-            if (this._petSkills)
-            {
-                try {
-                    this._petSkills.release();
-                }
-                catch (err) {
-                }
-                this._petSkills = null;
-            }
             if (this._talents)
             {
                 try {
@@ -171,24 +137,6 @@ class Role
                 catch (err) {
                 }
                 this._talents = null;
-            }
-            if (this._petBond)
-            {
-                try {
-                    this._petBond.release();
-                }
-                catch (err) {
-                }
-                this._petBond = null;
-            }
-            if (this._petPos)
-            {
-                try {
-                    this._petPos.release();
-                }
-                catch (err) {
-                }
-                this._petPos = null;
             }
             if (this._items)
             {
@@ -295,14 +243,6 @@ class Role
                 }
                 this._eliteLevels = null;
             }
-            if(this._petFormations){
-                try {
-                    this._petFormations.release();
-                }
-                catch (err) {
-                }
-                this._petFormations = null;
-            }
             if(this._treasure){
                 try {
                     this._treasure.release();
@@ -336,7 +276,7 @@ class Role
      */
     isRobot()
     {
-        return this._heroId < 0 || (this.isPet() && this.getOwner().isRobot());
+        return this._heroId < 0 || this.getOwner().isRobot();
     }
 
     isBuildOK()
@@ -405,11 +345,6 @@ class Role
         return this.isTrueHeroAndOnline();
     }
 
-    isPet()
-    {
-        return (this._roleFlag & ROLE_FLAG_PET) === ROLE_FLAG_PET;
-    }
-
     getGUID()
     {
         return this._props.getString(enProp.guid);
@@ -439,17 +374,6 @@ class Role
      */
     getRoleCfg(){
         return roleConfig.getRoleConfig(this._props.getString(enProp.roleId));
-    }
-    /**
-     * 标记为宠物
-     */
-    markAsPetType()
-    {
-        if ((this._roleFlag & ROLE_FLAG_HERO) === 0)
-            this._roleFlag = ROLE_FLAG_PET;
-        //主角不能变成宠物
-        else
-            logUtil.warn("当前Role类型不能切换为别的类型：" + this._roleFlag);
     }
 
     /**
@@ -681,47 +605,11 @@ class Role
 
     /**
      *
-     * @returns {PetsPart}
-     */
-    getPetsPart()
-    {
-        return this._pets;
-    }
-
-    /**
-     *
-     * @returns {PetSkillsPart}
-     */
-    getPetSkillsPart()
-    {
-        return this._petSkills;
-    }
-
-    /**
-     *
      * @returns {TalentsPart}
      */
     getTalentsPart()
     {
         return this._talents;
-    }
-
-    /**
-     *
-     * @returns {PetBondPart}
-     */
-    getPetBondPart()
-    {
-        return this._petBond;
-    }
-
-    /**
-     *
-     * @returns {PetPosPart}
-     */
-    getPetPosPart()
-    {
-        return this._petPos;
     }
 
     /**
@@ -840,15 +728,6 @@ class Role
 
     /**
      *
-     * @returns {PetFormationsPart}
-     */
-    getPetFormationsPart()
-    {
-        return this._petFormations;
-    }
-
-    /**
-     *
      * @returns {TreasurePart}
      */
     getTreasurePart()
@@ -874,14 +753,10 @@ class Role
         var retObj = {};
         this._props.getDBData(retObj);
         this._equips.getDBData(retObj);
-        if (this._pets)
-            this._pets.getDBData(retObj);
         if (this._items)
             this._items.getDBData(retObj);
         if (this._levelInfo)
             this._levelInfo.getDBData(retObj);
-        if (this._petSkills)
-            this._petSkills.getDBData(retObj);
         if (this._talents)
             this._talents.getDBData(retObj);
         if (this._actProps)
@@ -906,8 +781,6 @@ class Role
             this._shop.getDBData(retObj);
         if (this._eliteLevels)
             this._eliteLevels.getDBData(retObj);
-        if (this._petFormations)
-            this._petFormations.getDBData(retObj);
         if (this._treasure)
             this._treasure.getDBData(retObj);
         return retObj;
@@ -926,14 +799,10 @@ class Role
         var retObj = {};
         this._props.getPrivateNetData(retObj);
         this._equips.getPrivateNetData(retObj);
-        if (this._pets)
-            this._pets.getPrivateNetData(retObj);
         if (this._items)
             this._items.getPrivateNetData(retObj);
         if (this._levelInfo)
             this._levelInfo.getPrivateNetData(retObj);
-        if (this._petSkills)
-            this._petSkills.getPrivateNetData(retObj);
         if (this._talents)
             this._talents.getPrivateNetData(retObj);
 	    if (this._actProps)
@@ -958,8 +827,6 @@ class Role
             this._shop.getPrivateNetData(retObj);
         if (this._eliteLevels)
             this._eliteLevels.getPrivateNetData(retObj);
-        if (this._petFormations)
-            this._petFormations.getPrivateNetData(retObj);
         if (this._treasure)
             this._treasure.getPrivateNetData(retObj);
         return retObj;
@@ -986,16 +853,10 @@ class Role
         var retObj = {};
         this._props.getProtectNetData(retObj);
         this._equips.getProtectNetData(retObj);
-        if (this._pets)
-            this._pets.getProtectNetData(retObj);
-        if (this._petSkills)
-            this._petSkills.getProtectNetData(retObj);
         if (this._talents)
             this._talents.getProtectNetData(retObj);
         if (this._weapons)
             this._weapons.getProtectNetData(retObj);
-        if (this._petFormations)
-            this._petFormations.getProtectNetData(retObj);
         if (this._flames)
             this._flames.getProtectNetData(retObj);
         if (this._treasure)
@@ -1063,7 +924,7 @@ class Role
     canSyncAndSave()
     {
         var owner = this.getOwner();
-        return owner && owner.isHero() && (this === owner || this.isPet());
+        return owner && owner.isHero() && (this === owner );
     }
 
     startBatch()
@@ -1155,16 +1016,8 @@ class Role
             this._equips.release();
         if (this._items)
             this._items.release();
-        if (this._pets)
-            this._pets.release();
-        if (this._petSkills)
-            this._petSkills.release();
         if (this._talents)
             this._talents.release();
-        if (this._petBond)
-            this._petBond.release();
-        if (this._petPos)
-            this._petPos.release();
         if (this._actProps)
             this._actProps.release();
         if (this._levelInfo)
@@ -1189,8 +1042,6 @@ class Role
             this._shop.release();
         if (this._eliteLevels)
             this._eliteLevels.release();
-        if (this._petFormations)
-            this._petFormations.release();
         if (this._treasure)
             this._treasure.release();
         this._parts = [];

@@ -11,7 +11,6 @@ class RoleSkillConfig
         this.id = "";
         this.name = "";
         this.levelCostId = 0;
-        this.needPetStar = 1;
         this.talent = null;
         this.powerRate = "";
     }
@@ -22,7 +21,6 @@ class RoleSkillConfig
             id: {type: String},
             name: {type: String},
             levelCostId: {type: Number},
-            needPetStar: {type: Number},
             talent: {type: Array, elemType:Number},
             powerRate: {type: String},
         };

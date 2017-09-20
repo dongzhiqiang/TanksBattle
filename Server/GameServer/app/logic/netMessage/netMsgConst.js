@@ -12,7 +12,6 @@ const ModuleIds = {
     MODULE_ITEM: 3,
     MODULE_EQUIP: 4,
     MODULE_GM: 5,
-    MODULE_PET: 6,
     MODULE_LEVEL: 7,
     MODULE_ACTIVITY: 8,
     MODULE_RANK:9,

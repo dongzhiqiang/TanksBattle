@@ -11,53 +11,6 @@ var initGameCfg = require("../main/initGameCfg");
 
 var roleData = {
     props: {heroId:1,guid:guidGenerator.generateGUID(),createTime:dateUtil.getTimestamp(),roleId:"kratos",name:"test1",level:1,exp:0,curWeapon:0,stamina:100,advLv:1,star:1,camp:0},
-    pets: [
-        {
-            props: {guid:guidGenerator.generateGUID(),createTime:dateUtil.getTimestamp(),roleId:"kratos",name:"test1",level:1,exp:0,curWeapon:0,stamina:100,advLv:1,star:1,camp:0},
-            equips: [
-                {equipId:10000, level:1},
-                {equipId:10100, level:1},
-                {equipId:10200, level:1},
-                {equipId:10300, level:1},
-                {equipId:10400, level:1},
-                {equipId:10500, level:1},
-                {equipId:10600, level:1},
-                {equipId:10700, level:1},
-                {equipId:10800, level:1},
-                {equipId:10900, level:1}
-            ]
-        },
-        {
-            props: {guid:guidGenerator.generateGUID(),createTime:dateUtil.getTimestamp(),roleId:"kratos",name:"test2",level:1,exp:0,curWeapon:0,stamina:100,advLv:1,star:1,camp:0},
-            equips: [
-                {equipId:10000, level:1},
-                {equipId:10100, level:1},
-                {equipId:10200, level:1},
-                {equipId:10300, level:1},
-                {equipId:10400, level:1},
-                {equipId:10500, level:1},
-                {equipId:10600, level:1},
-                {equipId:10700, level:1},
-                {equipId:10800, level:1},
-                {equipId:10900, level:1}
-            ]
-        },
-        {
-            props: {guid:guidGenerator.generateGUID(),createTime:dateUtil.getTimestamp(),roleId:"kratos",name:"test3",level:1,exp:0,curWeapon:0,stamina:100,advLv:1,star:1,camp:0},
-            equips: [
-                {equipId:10000, level:1},
-                {equipId:10100, level:1},
-                {equipId:10200, level:1},
-                {equipId:10300, level:1},
-                {equipId:10400, level:1},
-                {equipId:10500, level:1},
-                {equipId:10600, level:1},
-                {equipId:10700, level:1},
-                {equipId:10800, level:1},
-                {equipId:10900, level:1}
-            ]
-        }
-    ],
     equips: [
         {equipId:10000, level:1, advLv:1},
         {equipId:10100, level:1, advLv:1},
@@ -138,32 +91,6 @@ module.exports = {
         role.setString(enProp.name, "test11");
         test.equal(role.getString(enProp.name), "test11");
         role.endBatch();
-
-        var petData = {
-            props: {guid:guidGenerator.generateGUID(),createTime:dateUtil.getTimestamp(),roleId:"kratos",name:"testNew",level:1,exp:0,curWeapon:0,stamina:100,advLv:1,star:1,camp:0},
-            equips: [
-                {equipId:10000, level:1, advLv:1},
-                {equipId:10100, level:1, advLv:1},
-                {equipId:10200, level:1, advLv:1},
-                {equipId:10300, level:1, advLv:1},
-                {equipId:10400, level:1, advLv:1},
-                {equipId:10500, level:1, advLv:1},
-                {equipId:10600, level:1, advLv:1},
-                {equipId:10700, level:1, advLv:1},
-                {equipId:10800, level:1, advLv:1},
-                {equipId:10900, level:1, advLv:1}
-            ]
-        };
-        var petsPart = role.getPetsPart();
-        petsPart.addPetWithData(petData);
-        var petNew = petsPart.getPetByGUID(petData.props.guid);
-        test.notEqual(petNew, null);
-        var petOne = petsPart.getPetByIndex(0);
-        var petOne2 = petsPart.getPetByGUID(petOne.getGUID());
-        test.equal(petOne, petOne2);
-        petsPart.removePetByGUID(petOne.getGUID(), true);
-        petOne.setString(enProp.name, petOne.getString(enProp.name) + "_New");
-        petsPart.addPetWithRole(petOne);
 
         var itemsPart = role.getItemsPart();
         var result = itemsPart.getItemNum(20000);
@@ -277,29 +204,6 @@ module.exports = {
         equipOne.level += 100;
         equipOne.syncAndSave();
         equipsPart.removeEquipByEquipId(10600);
-
-        petOne.startBatch();
-        petOne.setNumber(enProp.exp, 999);
-        petOne.setNumber(enProp.level, 100);
-        petOne.addNumber(enProp.level, 11);
-        petOne.endBatch();
-        test.equal(petOne.getNumber(enProp.exp), 999);
-        test.equal(petOne.getNumber(enProp.level), 111);
-
-        var petEquipData = {equipId:10003, level:22, advLv:1};
-        var petEquipsPart = petOne.getEquipsPart();
-        petEquipsPart.addEquipWithData(petEquipData);
-        var petEquipNew = petEquipsPart.getEquipByEquipId(petEquipData.equipId);
-        test.notEqual(petEquipNew, null);
-        var petEquipOne = petEquipsPart.getEquipByIndex(0);
-        var petEquipOne2 = petEquipsPart.getEquipByEquipId(petEquipOne.equipId);
-        test.equal(petEquipOne, petEquipOne2);
-        petEquipsPart.removeEquipByEquipId(petEquipOne.equipId, true);
-        petEquipOne.level += 100;
-        petEquipsPart.addEquipWithEquip(petEquipOne);
-        petEquipOne.level += 100;
-        petEquipOne.syncAndSave();
-        petEquipsPart.removeEquipByEquipId(10600);
 
         console.log(role);
         console.log("======direct=====\r\n");

@@ -15,8 +15,6 @@ var enActProp = require("../enumType/activityPropDefine").enActProp;
 var eventNames = require("../enumType/eventDefine").eventNames;
 var starRewardCfg = require("../gameConfig/starRewardConfig");
 var rewardCfg = require("../gameConfig/rewardConfig");
-var enPetFormation = require("../enumType/globalDefine").enPetFormation;
-var enPetPos = require("../enumType/globalDefine").enPetPos;
 
 //进入关卡消息
 function enterLevel(session, role, msgObj, enterReq)
@@ -72,7 +70,6 @@ function endLevel(session, role, msgObj, endReq) {
     var levelPart = role.getLevelsPart();
     var itemsPart = role.getItemsPart();
     var actPart = role.getActivityPart();
-    var petsPart = role.getPetsPart();
     var curTime = dateUtil.getTimestamp();
 
     //获取并判断关卡配置
@@ -185,20 +182,6 @@ function endLevel(session, role, msgObj, endReq) {
 
     itemsPart.addItems(rewardItems);
 
-    var petFormation = role.getPetFormationsPart().getPetFormation(enPetFormation.normal);
-    //给宠物经验
-    var myPets = petsPart.getMainPets();
-    for (let i = 0, len = Math.min(roomCfg.petNum, myPets.length); i < len; ++i)
-    {
-        let pet = myPets[i];
-        pet.addExp(roomCfg.petExp);
-
-        if (pet.getGUID() == petFormation.formation[enPetPos.pet1Main])
-            reward.pet1Exp = roomCfg.petExp;
-        else if (pet.getGUID() == petFormation.formation[enPetPos.pet2Main])
-            reward.pet2Exp = roomCfg.petExp;
-    }
-
     //活动属性
     var mainLvlTime = actPart.getNumber(enActProp.mainLvlTime);
     var mainNormalLvlCnt = actPart.getNumber(enActProp.mainNormalLvlCnt);
@@ -231,7 +214,6 @@ function sweepLevel(session, role, msgObj, reqObj)
 {
     var levelPart = role.getLevelsPart();
     var itemsPart = role.getItemsPart();
-    var petsPart = role.getPetsPart();
     var actPart = role.getActivityPart();
     var curTime = dateUtil.getTimestamp();
 
@@ -280,17 +262,8 @@ function sweepLevel(session, role, msgObj, reqObj)
 
     var retBody = new levelMsg.SweepLevelRes();
     var expReward = 0;
-    var petExpReward = 0;
-    var petGuids = [];
     var itemRewards = {};
     var realSweepCnt = 0;
-
-    var myPets = petsPart.getMainPets();
-    for (let i = 0, len = Math.min(roomCfg.petNum, myPets.length); i < len; ++i)
-    {
-        let pet = myPets[i];
-        petGuids.push(pet.getGUID());
-    }
 
     for (let i = 0; i < sweepTimes; ++i)
     {
@@ -311,7 +284,6 @@ function sweepLevel(session, role, msgObj, reqObj)
 
         //数值类奖励
         expReward += roomCfg.expReward;
-        petExpReward += roomCfg.petExp;
 
         //生成物品奖励
         levelPart.onEnterLevel(levelInfo.roomId);
@@ -319,8 +291,6 @@ function sweepLevel(session, role, msgObj, reqObj)
 
         var rewardInfo = new levelMsg.SweepLevelRewardInfo();
         rewardInfo.heroExp = roomCfg.expReward;
-        for (let j = 0; j < petGuids.length; ++j)
-            rewardInfo.petExps[petGuids[j]] = roomCfg.petExp;
         for (var k in dropRewards)
         {
             var list = dropRewards[k];
@@ -339,12 +309,7 @@ function sweepLevel(session, role, msgObj, reqObj)
     role.addExp(expReward);
     //给物品
     itemsPart.addItems(itemRewards);
-    //给宠物经验
-    for (let i = 0; i < petGuids.length; ++i)
-    {
-        let pet = petsPart.getPetByGUID(petGuids[i]);
-        pet.addExp(petExpReward);
-    }
+
     //更新用户属性
     role.startBatch();
     role.setNumber(enProp.stamina, curStamina);

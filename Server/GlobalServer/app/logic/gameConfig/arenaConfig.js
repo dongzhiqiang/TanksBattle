@@ -14,10 +14,6 @@ class ArenaBasicCfg
         this.roomId	= "";
         this.movieName = "";
         this.opponentPos = [];
-        this.opponentPet1Pos = [];
-        this.opponentPet2Pos = [];
-        this.myPet1Pos = [];
-        this.myPet2Pos = [];
         this.addHateValue = 0;
         this.opponentBornType = 0;
         this.opponentDeadType = 0;
@@ -47,10 +43,6 @@ class ArenaBasicCfg
             roomId: {type: String},
             movieName: {type: String},
             opponentPos: {type: Array, elemType: Number},
-            opponentPet1Pos: {type: Array, elemType: Number},
-            opponentPet2Pos: {type: Array, elemType: Number},
-            myPet1Pos: {type: Array, elemType: Number},
-            myPet2Pos: {type: Array, elemType: Number},
             addHateValue: {type: Number},
             opponentBornType: {type: String},
             opponentDeadType: {type: String},

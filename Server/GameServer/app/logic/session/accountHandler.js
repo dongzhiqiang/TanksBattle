@@ -25,8 +25,6 @@ var guidGenerator = require("../../libs/guidGenerator");
 var equipUtil = require("../equip/equipUtil");
 var roleConfig = require("../gameConfig/roleConfig");
 var valueConfig = require("../gameConfig/valueConfig");
-var petSkillModule = require("../pet/petSkill");
-var talentModule = require("../pet/talent");
 var itemUtil = require("../item/itemUtil");
 
 const HERO_NAME_MAX_LEN = 20;   //主角名限制长度，单位：字符
@@ -271,37 +269,6 @@ var createRoleCoroutine = Promise.coroutine(
                 staminaTime: dateUtil.getTimestamp(),
                 gold:0
             },
-            pets: [/*{
-                    props: {
-                        guid:guidGenerator.generateGUID(),
-                        createTime:curTime,
-                        roleId:"cw_6",
-                        name:roleConfig.getRoleConfig("cw_6").name,
-                        level:level,
-                        exp:0,
-                        star:1,
-                        advLv:1
-                    },
-                    equips: equipUtil.getInitEquips("cw_6"),
-                    petSkills: petSkillModule.getInitPetSkills("cw_6"),
-                    talents: talentModule.getInitTalents("cw_6")
-                },
-                {
-                    props: {
-                        guid:guidGenerator.generateGUID(),
-                        createTime:curTime,
-                        roleId:"cw_8",
-                        name:roleConfig.getRoleConfig("cw_8").name,
-                        level:level,
-                        exp:0,
-                        star:1,
-                        advLv:1
-                    },
-                    equips: equipUtil.getInitEquips("cw_8"),
-                    petSkills: petSkillModule.getInitPetSkills("cw_8"),
-                    talents: talentModule.getInitTalents("cw_8")
-                }*/
-            ],
             equips: equipUtil.getInitEquips(roleId),
             items: initItems,
             levelInfo: {

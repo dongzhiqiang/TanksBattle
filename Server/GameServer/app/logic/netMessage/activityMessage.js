@@ -406,10 +406,6 @@ class ArenaChallengerVo
         this.score = 0;
         this.corpsId = 0;
         this.roleId = "";
-        this.pet1Guid = "";
-        this.pet1RoleId = "";
-        this.pet2Guid = "";
-        this.pet2RoleId = "";
     }
 }
 
@@ -567,10 +563,6 @@ class TreasureChallengerVo
         this.score = 0;
         this.corpsId = 0;
         this.roleId = "";
-        this.pet1Guid = "";
-        this.pet1RoleId = "";
-        this.pet2Guid = "";
-        this.pet2RoleId = "";
     }
 }
 

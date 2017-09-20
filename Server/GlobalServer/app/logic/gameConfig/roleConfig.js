@@ -10,8 +10,6 @@ var enPropFight = require("../enumType/propDefine").enPropFight;
 var roleLvPropConfig = require("./roleLvPropConfig");
 var propValueConfig = require("./propValueConfig");
 var propBasicConfig = require("./propBasicConfig");
-var petAdvLvPropRateConfig = require("./petAdvLvPropRateConfig");
-var petStarPropRateConfig = require("./petStarPropRateConfig");
 
 class RoleConfig
 {
@@ -41,7 +39,6 @@ class RoleConfig
         this.icon = "";
         this.uiModScale = 0;
         this.talents = [];
-        this.petType = "";
         this.bornBuffs = "";
         this.roleType = 0;
         this.initStar = 0;
@@ -49,7 +46,6 @@ class RoleConfig
         this.pieceNum = 0;
         this.pieceNumReturn = 0;
         this.power = 0;
-        this.petBonds = [];
     }
 
     static fieldsDesc() {
@@ -79,7 +75,6 @@ class RoleConfig
             icon: {type: String},
             uiModScale: {type: Number},
             talents: {type: Array, elemType: String},
-            petType: {type: String},
             bornBuffs: {type: String},
             roleType: {type: Number},
             initStar: {type: Number},
@@ -87,7 +82,6 @@ class RoleConfig
             pieceNum: {type: Number},
             pieceNumReturn: {type: Number},
             power: {type: Number},
-            petBonds: {type: Array, elemType: String},
         };
     }
 
@@ -117,34 +111,6 @@ class RoleConfig
             //战斗力：（角色战斗力初值+角色属性等级系数）*战斗力系数
             target[enProp.power] = (this.power + roleLvPropConfig.getRoleLvPropConfig(lv).rate) * propBasicConfig.getPropBasicConfig().powerRate;
             //logUtil.info("战斗力="+target[enProp.power]);
-        }
-        else if(this.propType=="宠物属性")
-        {
-            var advCfg = petAdvLvPropRateConfig.getPetAdvLvPropRateConfig(advLv);
-            var starCfg = petStarPropRateConfig.getPetStarPropRateConfig(star);
-
-            //属性等级系数（角色）*宠物属性点数*(1+宠物进阶属性增量(等级)+宠物升星属性增量(等级)）
-            var propsDistribute = this.propDistribute ? propDistributeConfig.getPropDistributeConfig(this.propDistribute).props : {};
-            var lvRate = roleLvPropConfig.getRoleLvPropConfig(lv).rate * propBasicConfig.getPropBasicConfig().petPoint * (1 + advCfg.lvRate + starCfg.lvRate);
-            propertyTable.mul(roleTypePropConfig.getRoleTypeProp(), propsDistribute, target);
-            propertyTable.mulValue(lvRate, target, target);
-            //logUtil.info("属性等级系数（角色）*宠物属性点数*(1+宠物进阶属性增量(等级)+宠物升星属性增量(等级)）=" + target[enPropFight.hpMax]);
-
-            //加初始值
-            var tem ={};
-            var baseRate = 1 + advCfg.baseRate + starCfg.baseRate;
-            //logUtil.info("(1+宠物进阶属性增量(等级)+宠物升星属性增量(等级))=" + baseRate);
-            var propsValue = this.propValue ? propValueConfig.getPropValueConfig(this.propValue).props : {};
-            propertyTable.mulValue(baseRate, propsValue, tem);
-            propertyTable.add(tem, target, target);
-            //logUtil.info("+初始值=" + target[enPropFight.hpMax]);
-
-            //战斗力：（角色战斗力初值*(1+宠物进阶属性增量（初值）+宠物升星属性增量（初值））+宠物属性点数*角色属性等级系数*（1+宠物进阶属性增量（等级）+宠物升星属性增量（等级）））*战斗力系数
-            var petPower = this.power * (1 + advCfg.baseRate + starCfg.baseRate);
-            petPower += propBasicConfig.getPropBasicConfig().petPoint*roleLvPropConfig.getRoleLvPropConfig(lv).rate*(1 + advCfg.lvRate + starCfg.lvRate);
-            petPower *= propBasicConfig.getPropBasicConfig().powerRate;
-            target[enProp.power] = petPower;
-            //logUtil.info("战斗力=" + target[enProp.power]);
         }
         else
         {

@@ -223,11 +223,6 @@ class EquipsPart
             queryObj = {"props.heroId":heroId};
             updateObj = {$set:{["equips." + index]:null}};
         }
-        else {
-            //如果是宠物的装备
-            queryObj = {"props.heroId":heroId, "pets.props.guid":guidCur};
-            updateObj = {$set:{["pets.$.equips." + index]:null}};
-        }
         col.updateOneNoThrow(queryObj, updateObj);
 
         //通知客户端
@@ -300,11 +295,6 @@ class EquipsPart
             queryObj = {"props.heroId":heroId};
             updateObj = {$set:{["equips." + index]:equip}};
         }
-        else {
-            //如果是宠物的装备
-            queryObj = {"props.heroId":heroId, "pets.props.guid":guidCur};
-            updateObj = {$set:{["pets.$.equips." + index]:equip}};
-        }
         col.updateOneNoThrow(queryObj, updateObj);
 
         //通知客户端
@@ -359,11 +349,6 @@ class EquipsPart
             queryObj = {"props.heroId":heroId};
             updateObj = {$set:{["equips." + index]:equip}};
         }
-        else {
-            //如果是宠物的装备
-            queryObj = {"props.heroId":heroId, "pets.props.guid":guidCur};
-            updateObj = {$set:{["pets.$.equips." + index]:equip}};
-        }
         col.updateOneNoThrow(queryObj, updateObj);
 
         //通知客户端
@@ -400,11 +385,6 @@ class EquipsPart
             //如果是主角自己的装备
             queryObj = {"props.heroId":heroId};
             updateObj = {$set:{["equips." + index]:equip}};
-        }
-        else {
-            //如果是宠物的装备
-            queryObj = {"props.heroId":heroId, "pets.props.guid":guidCur};
-            updateObj = {$set:{["pets.$.equips." + index]:equip}};
         }
         col.updateOneNoThrow(queryObj, updateObj);
 
