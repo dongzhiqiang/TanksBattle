@@ -1,4 +1,0 @@
-ID,初始动作,默认动作,"特殊动作  动作名1|播放概率1(100%是10000)|冷却时间1,动作名2|播放概率2|冷却时间2"
-id,startAni,defaultAni,specialAni
-1,-1,zhandoudaiji
-2,chuchang,zhandoudaiji,jineng_siwangchanrao|1000|10

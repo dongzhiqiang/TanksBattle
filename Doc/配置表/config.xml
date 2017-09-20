@@ -25,7 +25,6 @@
 		<Table name="武器表" client="role/weapon.csv" server = "role/weapon.csv"/> 
 		<Table name="元素属性表" client="role/element.csv" server = "role/element.csv"/> 
 		<Table name="打击属性表" client="role/hitProp.csv" /> 
-                <Table name="神侍组合动作" client="role/petAniGroup.csv" /> 
 	</XlsFile>
 
     <XlsFile file="item.xlsx">
@@ -46,23 +45,6 @@
 		<Table name="装备进阶系数表"     client="equip/equipAdvanceRate.csv" server="equip/equipAdvanceRate.csv"/>
 		<Table name="装备觉醒系数表"     client="equip/equipRouseRate.csv" server="equip/equipRouseRate.csv"/>
 		<Table name="装备位表" client="equip/equipPos.csv" />
-	</XlsFile>
-
-    <XlsFile file="pet.xlsx">
-		<Table name="宠物等阶系数" client="pet/petAdvLvPropRate.csv" server="pet/petAdvLvPropRate.csv"/>
-		<Table name="宠物星级系数" client="pet/petStarPropRate.csv" server="pet/petStarPropRate.csv"/>
-		<Table name="宠物升级消耗" client="pet/petUpgradeCost.csv" server = "pet/petUpgradeCost.csv"/> 
-		<Table name="宠物进阶消耗" client="pet/petAdvanceCost.csv" server = "pet/petAdvanceCost.csv"/> 
-		<Table name="宠物升星消耗" client="pet/petUpstarCost.csv" server = "pet/petUpstarCost.csv"/> 
-		<Table name="宠物类型表" client="pet/petType.csv" />
-		<Table name="出战宠物转化比例表" client="pet/petBattleAssistRate.csv" server="pet/petBattleAssistRate.csv"/>
-		<Table name="宠物天赋表" client="pet/talent.csv" server="pet/talent.csv"/> 
-		<Table name="宠物天赋等级表" client="pet/petTalentLv.csv" server="pet/petTalentLv.csv"/> 
-		<Table name="天赋位置表" client="pet/talentPos.csv" server="pet/talentPos.csv"/> 
-		<Table name="天赋类型表" client="pet/talentType.csv"/> 
-		<Table name="宠物羁绊表" client="pet/petBond.csv" server="pet/petBond.csv"/> 
-		<Table name="宠物出战位表" client="pet/petPos.csv" server="pet/petPos.csv"/> 
-		<Table name="宠物出战阵型表" client="pet/petFormation.csv" server="pet/petFormation.csv"/> 
 	</XlsFile>
 
 	<XlsFile file="room.xlsx">
@@ -224,7 +206,6 @@
 	    <Table name="具体配置表" client="stronger/strongerDetail.csv"/>
             <Table name="进度文本" client="stronger/strongerProgress.csv"/>
  	    <Table name="英雄提升" client="stronger/strongerHero.csv"/>
-	    <Table name="神侍提升" client="stronger/strongerPet.csv"/>
     </XlsFile>
 
     <XlsFile file="treasure.xlsx">

@@ -93,21 +93,14 @@ public class RoleCfg
     public string icon; // 头像图标
     public float uiModScale; // UI模型缩放
     public List<string> talents = new List<string>(); // 天赋
-    public int initStar; //宠物初始星级
-    public int pieceItemId; //宠物碎片id
-    public int pieceNum; //宠物碎片数量
-    public int pieceNumReturn; //宠物碎片数量返回
-
+    
     public float power; //战斗力初值
 
     public int behateIfBegin = 0;//创建的时候所有敌人对自己的仇恨
     public int hateIfHit = 0;//攻击别人增加自己对此人的仇恨
     public int hateIfBeHit = 0;//被别人攻击增加自己对此人的仇恨
     public int hateIfChange = 0;//仇恨切换时再多增加自己对此人的仇恨
-
-    public int petAniGroupId  = 0; //宠物组合动作id
-
-
+    
     enBloodType _titleBloodType;
     enRolePropType _rolePropType;
     string _hitDefBloodIcon;
