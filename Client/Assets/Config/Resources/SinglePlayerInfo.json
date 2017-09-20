@@ -15,8 +15,6 @@
         "gold"        : 48957,
         "towerWinTime" : 1505527704,
         "power"        : 846,
-        "maxPowerPet"  : "",
-        "powerPets"    : 0,
         "powerTotal"   : 846,
         "lastLogin"    : 1505549784,
         "loginCount"   : 27,
@@ -28,8 +26,6 @@
         "star"         : 0,
         "offline"      : 0
     },
-    "pets"  : [
-    ],
     "items" : [
         {
             "itemId" : 40301,
@@ -148,7 +144,6 @@
             }
         }
     },
-    "petSkills" : null,
     "talents"   : null,
     "actProps"  : {
         "treasureRobedTime" : 1505527704,
@@ -503,7 +498,6 @@
         "upgradeequip" : 1,
         "skill_op"     : 1,
         "openhero"     : 1,
-        "openpet"      : -1,
         "qte_op"       : 1,
         "bati_tip"     : 1,
         "opencheckin"  : 1
@@ -776,19 +770,6 @@
         "randomId"       : [
         ]
     },
-    "petFormations" : [
-        {
-            "formationId" : 1,
-            "formation"   : [
-                "",
-                "",
-                "",
-                "",
-                "",
-                ""
-            ]
-        }
-    ],
     "treasures"     : {
         "battleTreasure" : [
         ],
