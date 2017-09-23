@@ -63,15 +63,15 @@ public class XffectPatch300 : Editor
 			//if (currPrefabCount % 100 == 0)
 			{
                 iterGo = null;
-                EditorUtility.UnloadUnusedAssets();
-				System.GC.Collect();
+                EditorUtility.UnloadUnusedAssetsImmediate();
+                System.GC.Collect();
 			}
 		}
 		
 		
 		// unload all unused assets
-        EditorUtility.UnloadUnusedAssets();
-		System.GC.Collect();
+        EditorUtility.UnloadUnusedAssetsImmediate();
+        System.GC.Collect();
 		
 		EditorUtility.DisplayProgressBar("Xffect Patch", "Saving...", 1f);
 		AssetDatabase.Refresh();

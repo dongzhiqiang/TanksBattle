@@ -331,14 +331,14 @@ public class XffectBrowser : EditorWindow
             {
                 iterGo = null;
                 xft = null;
-                EditorUtility.UnloadUnusedAssets();
+                EditorUtility.UnloadUnusedAssetsImmediate();
                 System.GC.Collect();
             }
         }
 
 
         // unload all unused assets
-        EditorUtility.UnloadUnusedAssets();
+        EditorUtility.UnloadUnusedAssetsImmediate();
         System.GC.Collect();
 
 
@@ -461,8 +461,8 @@ public class XffectBrowser : EditorWindow
                                 cxobj.EnableEditView();
                             }
                         }
-
-                        EditorUtility.UnloadUnusedAssets();
+                        
+                        EditorUtility.UnloadUnusedAssetsImmediate();
                         System.GC.Collect();
                     }
                 }

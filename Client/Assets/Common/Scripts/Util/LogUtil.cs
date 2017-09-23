@@ -138,7 +138,7 @@ public class LogUtil{
             m_isNeedClose = true;
             LogEvent.Set();//让休眠的日志线程判断是不是要退出
             LogTask.Join();
-            Debuger.Log("线程是否alive" + LogTask.IsAlive);
+            //Debuger.Log("线程是否alive" + LogTask.IsAlive);
             LogTask = null;
         }
     }
