@@ -1,7 +1,6 @@
 ﻿#region Header
 /**
  * 名称：主逻辑
- 
  * 日期：2015.9.16
  * 描述：主要负责进入游戏时各个系统初始化，以及跳转到登录态
  **/
@@ -26,10 +25,7 @@ public class Main : MonoBehaviour
 
         //阻止手机进入休眠
         Screen.sleepTimeout = SleepTimeout.NeverSleep;
-
-
-
-
+        
         //可能品质设置有问题，简单检查下
         if (QualitySettings.antiAliasing != 0)
         {
@@ -76,23 +72,30 @@ public class Main : MonoBehaviour
         LogUtil.Init();
         QualityMgr.instance.Init();
         var asyncOpUI = UIMgr.instance.Init();
-        var asyncOpCfg = CfgMgr.instance.Init();
         UILoading uiLoding = UIMgr.instance.Open<UILoading>();
         const int uiTotalProgress = 80;
         uiLoding.SetProgress(0, uiTotalProgress);
-        while (!asyncOpUI.isDone || !asyncOpCfg.isDone)
+        while (!asyncOpUI.isDone)
         {
-            uiLoding.SetProgress((asyncOpUI.progress + asyncOpCfg.progress) * 0.5f * uiTotalProgress, uiTotalProgress);
-            yield return 0;
+            uiLoding.SetProgress(asyncOpUI.progress* 0.5f * uiTotalProgress, 40);
+            yield return 1;
         }
+
+        var asyncOpCfg = CfgMgr.instance.Init();
+        while (!asyncOpCfg.isDone)
+        {
+            uiLoding.SetProgress(asyncOpCfg.progress * 0.5f * uiTotalProgress, uiTotalProgress);
+            yield return 1;
+        }
+
         uiLoding.SetProgress(uiTotalProgress);
-        yield return 0;
+        yield return 1;
 
         //管理器初始化
         DebugUI.instance.Init();
         uiLoding.ChangeTips();
         uiLoding.SetProgress(85);
-        yield return 0;
+        yield return 1;
         LevelMgr.instance.Init();
         ActivityMgr.instance.Init();
         RankMgr.instance.Init();
@@ -102,7 +105,7 @@ public class Main : MonoBehaviour
 
         uiLoding.SetProgress(100);
         while (uiLoding.CurProgress < 100)
-            yield return 0;
+            yield return 1;
 
         Debuger.Log(string.Format("初始化耗时{0:F2}秒", Time.realtimeSinceStartup - beginTime));
 

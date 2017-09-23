@@ -119,7 +119,7 @@ public class LogUtil{
         Application.logMessageReceivedThreaded += LogCallback;
 
         //启动线程
-        LogTask =Util.SafeCreateThread(ThreadFun);
+        LogTask = Util.SafeCreateThread(ThreadFun);
         LogTask.Start();
 
         Log("日志系统启动");
@@ -138,6 +138,7 @@ public class LogUtil{
             m_isNeedClose = true;
             LogEvent.Set();//让休眠的日志线程判断是不是要退出
             LogTask.Join();
+            Debuger.Log("线程是否alive" + LogTask.IsAlive);
             LogTask = null;
         }
     }
