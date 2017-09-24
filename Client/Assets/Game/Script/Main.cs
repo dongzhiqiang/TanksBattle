@@ -97,11 +97,11 @@ public class Main : MonoBehaviour
         uiLoding.SetProgress(85);
         yield return 1;
         LevelMgr.instance.Init();
-        ActivityMgr.instance.Init();
-        RankMgr.instance.Init();
+        //ActivityMgr.instance.Init();
+        //RankMgr.instance.Init();
         NetMgr.instance.Init();
         SoundMgr.instance.Init();
-        TeachMgr.instance.Init();
+        //TeachMgr.instance.Init();
 
         uiLoding.SetProgress(100);
         while (uiLoding.CurProgress < 100)
